@@ -1772,20 +1772,8 @@ function renderDimensions() {
 renderDimensions();
 
 // ===== SOCIAL FEED =====
-const feedData = [
-  { platform:'ig', author:'@giaborollozafferano', time:'2 min fa', text:'La nostra ricetta della settimana con <span class="hl">Barilla Al Bronzo</span> Penne Rigate... un piatto che conquista al primo assaggio! 🍝', likes:'24.5K', comments:'1.2K', shares:'890', sentiment:'pos' },
-  { platform:'tt', author:'@nonnaitalia', time:'8 min fa', text:'POV: quando la nonna scopre che usi la pasta <span class="hl">Barilla</span> per la carbonara... approvata! ✅', likes:'45.2K', comments:'3.4K', shares:'12.1K', sentiment:'pos' },
-  { platform:'tw', author:'@foodcritic_it', time:'12 min fa', text:'I prezzi della pasta <span class="hl">Barilla</span> sono aumentati del 15% in un anno. &Egrave; ancora il best value? Thread 🧵', likes:'890', comments:'234', shares:'156', sentiment:'neg' },
-  { platform:'news', author:'Corriere della Sera', time:'15 min fa', text:'<span class="hl">Barilla</span> annuncia investimento da 200M in innovazione sostenibile per il triennio 2026-2028', likes:'--', comments:'45', shares:'89', sentiment:'pos' },
-  { platform:'ig', author:'@fattoincasadabenedetta', time:'22 min fa', text:'Pasta e fagioli con <span class="hl">Barilla</span> Ditalini... comfort food perfetto per queste sere di marzo! ❤️', likes:'18.7K', comments:'980', shares:'540', sentiment:'pos' },
-  { platform:'yt', author:'Chef Club Italia', time:'35 min fa', text:'PASTA HACK: 5 modi creativi per usare gli spaghetti <span class="hl">Barilla</span> che non avete mai provato!', likes:'12.3K', comments:'567', shares:'2.1K', sentiment:'pos' },
-  { platform:'tt', author:'@pastaboy_ita', time:'41 min fa', text:'Test cieco pasta: <span class="hl">Barilla</span> vs marca discount... il risultato vi sorprender&agrave; 😱', likes:'89.4K', comments:'5.6K', shares:'21.3K', sentiment:'pos' },
-  { platform:'tw', author:'@consumatori_ita', time:'48 min fa', text:'Indagine prezzi GDO: la pasta <span class="hl">Barilla</span> resta nella fascia media. Confronto con competitor nel grafico ⬇️', likes:'234', comments:'67', shares:'45', sentiment:'neu' },
-  { platform:'fb', author:'Barilla Official', time:'1 ora fa', text:'Da oltre 140 anni, portiamo la qualit&agrave; italiana sulle tavole del mondo. Scopri la nostra nuova linea <span class="hl">Al Bronzo</span> 🇮🇹', likes:'5.6K', comments:'234', shares:'890', sentiment:'pos' },
-  { platform:'ig', author:'@italianfoodporn', time:'1 ora fa', text:'Questa cacio e pepe con <span class="hl">Barilla</span> Spaghettoni &egrave; un&rsquo;opera d&rsquo;arte 🎨', likes:'32.1K', comments:'1.8K', shares:'4.5K', sentiment:'pos' },
-  { platform:'news', author:'Il Sole 24 Ore', time:'2 ore fa', text:'Il mercato della pasta premium cresce del 12%: <span class="hl">Barilla</span> guida la transizione con la linea Al Bronzo', likes:'--', comments:'12', shares:'34', sentiment:'pos' },
-  { platform:'tt', author:'@chef_marco_tt', time:'2 ore fa', text:'One pot pasta alla vodka con <span class="hl">Barilla</span> Penne... il trend americano versione italiana! 🔥', likes:'56.7K', comments:'2.3K', shares:'8.9K', sentiment:'pos' },
-];
+// Feed populated from pipeline data.json — no static placeholder data
+const feedData = [];
 
 function renderFeed(filter) {
   const el = document.getElementById('socialFeed');
@@ -1836,29 +1824,16 @@ renderSparkline('sparkGarofalo', [12,13,11,10,11,10,11], 'var(--text3)');
 renderSparkline('sparkVoiello', [8,7,8,9,8,8,8], 'var(--text3)');
 
 // ===== LIVE SIMULATION =====
+// Only run cosmetic counter updates; never inject fake feed items
 function simulateLiveUpdates() {
-  // Randomly update mention count
+  // Skip all simulation when pipeline data is loaded
+  if (window._pipelineActive) return;
+
+  // Randomly update mention count (cosmetic only)
   const m24h = document.getElementById('mentions24h');
   const current = parseInt(m24h.textContent.replace(/,/g, ''));
   const delta = Math.floor(Math.random() * 5) + 1;
   m24h.textContent = (current + delta).toLocaleString();
-
-  // Occasionally add a new feed item
-  if (Math.random() > 0.7) {
-    const newItems = [
-      { platform:'ig', author:'@pasta_queen', time:'ora', text:'Sunday pasta perfetta con <span class="hl">Barilla</span>! La famiglia approva 💯', likes: Math.floor(Math.random()*10000).toLocaleString(), comments: Math.floor(Math.random()*500).toString(), shares: Math.floor(Math.random()*200).toString(), sentiment:'pos' },
-      { platform:'tt', author:'@cookingwithema', time:'ora', text:'Replying to @user il segreto &egrave; la cottura al dente... <span class="hl">Barilla</span> tiene bene! 🍝', likes: Math.floor(Math.random()*50000).toLocaleString(), comments: Math.floor(Math.random()*2000).toString(), shares: Math.floor(Math.random()*5000).toString(), sentiment:'pos' },
-      { platform:'tw', author:'@marketwatch_it', time:'ora', text:'Aggiornamento mercato: <span class="hl">Barilla</span> mantiene leadership nel segmento pasta premium', likes: Math.floor(Math.random()*500).toString(), comments: Math.floor(Math.random()*50).toString(), shares: Math.floor(Math.random()*100).toString(), sentiment:'neu' },
-    ];
-    const item = newItems[Math.floor(Math.random() * newItems.length)];
-    feedData.unshift(item);
-    if (feedData.length > 20) feedData.pop();
-    renderFeed('all');
-
-    // Flash the feed count
-    const fc = document.getElementById('feedCount');
-    fc.textContent = parseInt(fc.textContent) + 1;
-  }
 }
 setInterval(simulateLiveUpdates, 5000);
 

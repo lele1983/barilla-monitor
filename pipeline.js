@@ -122,11 +122,27 @@ async function fetchOpenSearchData(days = 7) {
     }
   });
 
-  // Latest posts
+  // Latest posts — filter for Barilla-related content only
   const latest = await query({
     size: 50,
     sort: [{ published_at: 'desc' }],
-    query: { range: { published_at: { gte: from } } },
+    query: {
+      bool: {
+        must: [
+          { range: { published_at: { gte: from } } },
+          { bool: {
+            should: [
+              { match_phrase: { caption: 'barilla' } },
+              { match_phrase: { caption: 'al bronzo' } },
+              { match_phrase: { caption: 'pesto barilla' } },
+              { match_phrase: { title: 'barilla' } },
+              { terms: { hashtags: ['barilla', 'pastabarilla', 'barillaitalia', 'albronzo'] } }
+            ],
+            minimum_should_match: 1
+          }}
+        ]
+      }
+    },
     _source: ['caption', 'channel.name', 'channel.type', 'channel.id', 'engagement', 'engagement_rate', 'published_at', 'hashtags', 'post_type', 'post_id', 'is_sponsored', 'followers', 'image_url']
   });
 
@@ -171,7 +187,11 @@ async function fetchOpenSearchData(days = 7) {
   const neutralPct = 100 - positivePct - negativePct;
 
   // Format posts for feed
-  const platTypeMap = { instagram: 'ig', tiktok: 'tt', youtube: 'yt', twitter: 'tw', facebook: 'fb' };
+  // OpenSearch returns short codes (ig, tt, yt) — map both formats
+  const platTypeMap = {
+    instagram: 'ig', tiktok: 'tt', youtube: 'yt', twitter: 'tw', facebook: 'fb',
+    ig: 'ig', tt: 'tt', yt: 'yt', tw: 'tw', fb: 'fb'
+  };
 
   function buildPostUrl(channelType, channelName, channelId, postId, postType) {
     if (!postId) return null;
