@@ -573,68 +573,118 @@ async function fetchCompetitorData(days = 7) {
     { name: 'La Molisana', query: 'La+Molisana' },
   ];
 
-  // Count news articles per brand in the last N days via Google News RSS
-  async function countNewsArticles(searchQuery) {
-    try {
-      const url = `https://news.google.com/rss/search?q=${searchQuery}+pasta+when:${days}d&hl=it&gl=IT&ceid=IT:it`;
-      const res = await fetch(url);
-      if (!res.ok) return 0;
-      const xml = await res.text();
-      return (xml.match(/<item>/g) || []).length;
-    } catch (e) { return 0; }
+  const platTypeMap = {
+    instagram: 'ig', tiktok: 'tt', youtube: 'yt', twitter: 'tw', facebook: 'fb',
+    ig: 'ig', tt: 'tt', yt: 'yt', tw: 'tw', fb: 'fb'
+  };
+
+  function buildPostUrl(channelType, channelName, channelId, postId, postType) {
+    if (!postId) return null;
+    switch (channelType) {
+      case 'yt': return `https://www.youtube.com/watch?v=${postId}`;
+      case 'tt': return `https://www.tiktok.com/@${channelName}/video/${postId}`;
+      case 'ig': return postType === 'reel' ? `https://www.instagram.com/reel/${postId}/` : `https://www.instagram.com/p/${postId}/`;
+      case 'tw': return `https://x.com/${channelName}/status/${postId}`;
+      case 'fb': return channelId ? `https://www.facebook.com/${channelId}/posts/${postId}` : `https://www.facebook.com/posts/${postId}`;
+      default: return null;
+    }
   }
 
-  // Also count mentions in OpenSearch social data (as secondary signal)
+  // Fetch news articles per brand (with full article data, not just count)
+  async function fetchBrandNews(searchQuery) {
+    try {
+      const rssUrl = `https://news.google.com/rss/search?q=${searchQuery}+pasta+when:${days}d&hl=it&gl=IT&ceid=IT:it`;
+      const res = await fetch(rssUrl);
+      if (!res.ok) return [];
+      const xml = await res.text();
+      const items = xml.match(/<item>[\s\S]*?<\/item>/g) || [];
+      return items.slice(0, 20).map(item => {
+        const title = (item.match(/<title>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/title>/) || [])[1] || '';
+        const link = (item.match(/<link>([\s\S]*?)<\/link>/) || [])[1] || '';
+        const pubDate = (item.match(/<pubDate>([\s\S]*?)<\/pubDate>/) || [])[1] || '';
+        const source = (item.match(/<source[^>]*>([\s\S]*?)<\/source>/) || [])[1] || '';
+        const cleanTitle = title.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#39;/g, "'").replace(/&quot;/g, '"').trim();
+        return {
+          type: 'news',
+          title: cleanTitle,
+          source: (source.trim() || 'Google News').toUpperCase(),
+          url: link.trim(),
+          date: pubDate ? new Date(pubDate.trim()).toISOString() : new Date().toISOString(),
+        };
+      }).filter(a => a.title);
+    } catch (e) { return []; }
+  }
+
+  // Fetch social posts mentioning brand from OpenSearch
   const { url, index, user, pass } = CONFIG.opensearch;
   const auth = user && pass ? Buffer.from(`${user}:${pass}`).toString('base64') : null;
   const from = new Date(Date.now() - days * 86400000).toISOString();
+  const srcFields = ['caption', 'channel.name', 'channel.type', 'channel.id', 'engagement', 'published_at', 'post_type', 'post_id', 'title'];
 
-  async function countSocialMentions(brandName) {
-    if (!auth) return 0;
+  async function fetchBrandSocialPosts(brandName) {
+    if (!auth) return [];
     try {
-      const res = await fetch(`${url}/${index}/_count`, {
+      const res = await fetch(`${url}/${index}/_search`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'Authorization': `Basic ${auth}` },
         body: JSON.stringify({
+          size: 15,
+          sort: [{ engagement: 'desc' }],
           query: { bool: { must: [
             { range: { published_at: { gte: from } } },
-            { bool: { should: [
-              { multi_match: { query: brandName.toLowerCase(), fields: ['caption', 'title'], type: 'phrase' } },
-            ], minimum_should_match: 1 } }
-          ] } }
+            { multi_match: { query: brandName.toLowerCase(), fields: ['caption', 'title'], type: 'phrase' } },
+          ] } },
+          _source: srcFields,
         }),
       });
-      if (!res.ok) return 0;
+      if (!res.ok) return [];
       const data = await res.json();
-      return data.count || 0;
-    } catch (e) { return 0; }
+      return (data.hits?.hits || []).map(hit => {
+        const s = hit._source;
+        const cType = platTypeMap[s.channel?.type] || s.channel?.type || '';
+        return {
+          type: 'social',
+          platform: cType,
+          author: s.channel?.name || 'Unknown',
+          text: (s.caption || s.title || '').slice(0, 250),
+          engagement: s.engagement || 0,
+          date: s.published_at || '',
+          url: buildPostUrl(cType, s.channel?.name, s.channel?.id, s.post_id, s.post_type),
+        };
+      });
+    } catch (e) { return []; }
   }
 
-  // Fetch all counts in parallel
+  // Fetch all data in parallel
   const results = await Promise.all(brands.map(async (brand) => {
-    const [newsCount, socialCount] = await Promise.all([
-      countNewsArticles(brand.query),
-      countSocialMentions(brand.name),
+    const [newsArticles, socialPosts] = await Promise.all([
+      fetchBrandNews(brand.query),
+      fetchBrandSocialPosts(brand.name),
     ]);
-    return { name: brand.name, newsCount, socialCount };
+    return { name: brand.name, newsArticles, socialPosts };
   }));
 
-  // Calculate Share of Voice based on news (primary metric)
-  const totalNews = results.reduce((s, r) => s + r.newsCount, 0) || 1;
-  const totalSocial = results.reduce((s, r) => s + r.socialCount, 0) || 1;
+  // Calculate Share of Voice based on news count (primary metric)
+  const totalNews = results.reduce((s, r) => s + r.newsArticles.length, 0) || 1;
+  const totalSocial = results.reduce((s, r) => s + r.socialPosts.length, 0) || 1;
 
   const competitors = results.map(r => ({
     name: r.name,
-    mentions: r.newsCount,
-    socialMentions: r.socialCount,
-    shareOfVoice: +((r.newsCount / totalNews) * 100).toFixed(1),
-    socialSoV: +((r.socialCount / totalSocial) * 100).toFixed(1),
+    mentions: r.newsArticles.length,
+    socialMentions: r.socialPosts.length,
+    shareOfVoice: +((r.newsArticles.length / totalNews) * 100).toFixed(1),
+    socialSoV: +((r.socialPosts.length / totalSocial) * 100).toFixed(1),
+    posts: [
+      ...r.newsArticles.map(a => ({ ...a, brand: r.name })),
+      ...r.socialPosts.map(p => ({ ...p, brand: r.name })),
+    ],
   }));
 
   // Sort by news SoV descending
   competitors.sort((a, b) => b.shareOfVoice - a.shareOfVoice);
 
   log('COMPETITORS', `Done: ${competitors.length} brands — News SoV: ${competitors.map(c => `${c.name} ${c.shareOfVoice}%`).join(', ')}`);
+  log('COMPETITORS', `Posts per brand: ${competitors.map(c => `${c.name} ${c.posts.length}`).join(', ')}`);
   return competitors;
 }
 

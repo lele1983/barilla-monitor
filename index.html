@@ -490,6 +490,80 @@ body { font-family: var(--sans); background: var(--bg); color: var(--text); over
 .comp-right { display: flex; align-items: center; gap: 12px; }
 .comp-score { font-family: var(--mono); font-size: 14px; font-weight: 700; }
 .comp-signals { font-family: var(--mono); font-size: 10px; color: var(--text3); }
+.comp-item { cursor: pointer; transition: background .2s; border-radius: 4px; padding: 8px 6px; margin: 0 -6px; }
+.comp-item:hover { background: rgba(30,144,255,.07); }
+
+/* ===== BRAND DETAIL MODAL ===== */
+.brand-modal-overlay {
+  display: none; position: fixed; inset: 0; z-index: 999;
+  background: rgba(0,0,0,.7); backdrop-filter: blur(4px);
+  align-items: center; justify-content: center;
+}
+.brand-modal-overlay.active { display: flex; }
+.brand-modal {
+  background: var(--card); border: 1px solid var(--card-border);
+  border-radius: 12px; width: 680px; max-width: 92vw; max-height: 82vh;
+  display: flex; flex-direction: column; box-shadow: 0 24px 64px rgba(0,0,0,.5);
+}
+.brand-modal-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 16px 20px; border-bottom: 1px solid var(--card-border);
+}
+.brand-modal-title { font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 10px; }
+.brand-modal-badge {
+  font-family: var(--mono); font-size: 11px; font-weight: 600;
+  padding: 3px 10px; border-radius: 4px;
+  background: rgba(30,144,255,.15); color: var(--accent2);
+}
+.brand-modal-close {
+  width: 30px; height: 30px; border: none; background: rgba(255,255,255,.06);
+  border-radius: 6px; color: var(--text2); font-size: 18px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center; transition: background .2s;
+}
+.brand-modal-close:hover { background: rgba(255,61,87,.2); color: var(--red); }
+.brand-modal-tabs {
+  display: flex; gap: 0; padding: 0 20px; border-bottom: 1px solid var(--card-border);
+}
+.brand-modal-tab {
+  padding: 10px 16px; font-size: 11px; font-weight: 600; text-transform: uppercase;
+  letter-spacing: .8px; color: var(--text3); cursor: pointer; border-bottom: 2px solid transparent;
+  transition: color .2s, border-color .2s;
+}
+.brand-modal-tab:hover { color: var(--text2); }
+.brand-modal-tab.active { color: var(--accent2); border-bottom-color: var(--accent2); }
+.brand-modal-body { padding: 16px 20px; overflow-y: auto; flex: 1; }
+.brand-post {
+  display: flex; gap: 12px; padding: 10px 0;
+  border-bottom: 1px solid rgba(26,37,53,.4);
+}
+.brand-post:last-child { border-bottom: none; }
+.brand-post-icon {
+  width: 32px; height: 32px; border-radius: 6px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 12px; font-weight: 700; color: #fff;
+}
+.brand-post-icon.ig { background: linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888); }
+.brand-post-icon.tt { background: #010101; border: 1px solid #333; }
+.brand-post-icon.yt { background: #ff0000; }
+.brand-post-icon.tw { background: #000; border: 1px solid #333; }
+.brand-post-icon.fb { background: #1877f2; }
+.brand-post-icon.news { background: var(--purple); }
+.brand-post-body { flex: 1; min-width: 0; }
+.brand-post-meta {
+  display: flex; align-items: center; gap: 8px; margin-bottom: 4px;
+  font-size: 10px; color: var(--text3); font-family: var(--mono);
+}
+.brand-post-author { font-weight: 600; color: var(--text2); }
+.brand-post-text { font-size: 12px; color: var(--text); line-height: 1.5; }
+.brand-post-text a { color: var(--accent2); text-decoration: none; }
+.brand-post-text a:hover { text-decoration: underline; }
+.brand-post-eng {
+  margin-top: 4px; font-family: var(--mono); font-size: 10px; color: var(--green);
+}
+.brand-modal-empty {
+  text-align: center; padding: 32px; color: var(--text3);
+  font-size: 12px; font-style: italic;
+}
 
 /* ===== MINI SPARKLINE ===== */
 .spark { display: flex; align-items: flex-end; gap: 1px; height: 24px; }
@@ -1652,24 +1726,27 @@ async function loadFromPipeline() {
 
     // Competitors
     if (comp && comp.length) {
+      _competitorData = comp;
       var compPanel = null;
       document.querySelectorAll('.panel').forEach(function(p) { if (p.querySelector('.panel-title') && p.querySelector('.panel-title').textContent.indexOf('COMPETITOR') >= 0) compPanel = p; });
       if (compPanel) {
+        var postCount = function(c) { return (c.posts && c.posts.length) ? ' &middot; ' + c.posts.length + ' post' : ''; };
         compPanel.querySelector('.panel-body').innerHTML = comp.map(function(c) {
           var isB = c.name.toLowerCase() === 'barilla';
           var barW = Math.max(4, c.shareOfVoice);
           var nameColor = isB ? ' style="color:var(--green);"' : '';
           var scoreColor = isB ? ' style="color:var(--green)"' : '';
           var socialLabel = (c.socialMentions != null) ? ' &bull; ' + (c.socialMentions || 0) + ' social' : '';
-          return '<div class="comp-item">' +
+          var hasPosts = c.posts && c.posts.length > 0;
+          return '<div class="comp-item" onclick="openBrandModal(\'' + c.name.replace(/'/g, "\\'") + '\')" title="Clicca per vedere i post">' +
             '<div style="flex:1;min-width:0">' +
               '<div class="comp-name"' + nameColor + '>&#9679; ' + c.name + '</div>' +
-              '<div class="comp-signals">' + (c.mentions || 0) + ' news' + socialLabel + '</div>' +
+              '<div class="comp-signals">' + (c.mentions || 0) + ' news' + socialLabel + postCount(c) + '</div>' +
               '<div style="margin-top:3px;height:4px;background:rgba(255,255,255,.06);border-radius:2px;overflow:hidden">' +
                 '<div style="width:' + barW + '%;height:100%;background:' + (isB ? 'var(--green)' : 'var(--accent)') + ';border-radius:2px;transition:width .6s"></div>' +
               '</div>' +
             '</div>' +
-            '<div class="comp-right"><div class="comp-score"' + scoreColor + '>' + c.shareOfVoice + '%</div><div style="font-size:9px;color:var(--text-dim);text-align:right">News SoV</div></div>' +
+            '<div class="comp-right"><div class="comp-score"' + scoreColor + '>' + c.shareOfVoice + '%</div><div style="font-size:9px;color:var(--text3);text-align:right">News SoV</div></div>' +
           '</div>';
         }).join('');
       }
@@ -1870,6 +1947,104 @@ setInterval(simulateLiveUpdates, 5000);
 setInterval(() => {
   renderSentimentTimeline();
 }, 15000);
+// ===== BRAND DETAIL MODAL =====
+var _competitorData = [];
+
+function openBrandModal(brandName) {
+  var brand = _competitorData.find(function(c) { return c.name === brandName; });
+  if (!brand || !brand.posts || !brand.posts.length) return;
+
+  var overlay = document.getElementById('brandModalOverlay');
+  document.getElementById('brandModalTitle').textContent = brand.name;
+  document.getElementById('brandModalBadge').textContent = brand.shareOfVoice + '% News SoV';
+
+  // Set tabs
+  var socialCount = brand.posts.filter(function(p) { return p.type === 'social'; }).length;
+  var newsCount = brand.posts.filter(function(p) { return p.type === 'news'; }).length;
+  document.getElementById('bmTabAll').textContent = 'Tutti (' + brand.posts.length + ')';
+  document.getElementById('bmTabSocial').textContent = 'Social (' + socialCount + ')';
+  document.getElementById('bmTabNews').textContent = 'News (' + newsCount + ')';
+
+  renderBrandPosts(brand.posts, 'all');
+  overlay.classList.add('active');
+
+  // Tab click handlers
+  document.querySelectorAll('.brand-modal-tab').forEach(function(tab) {
+    tab.onclick = function() {
+      document.querySelectorAll('.brand-modal-tab').forEach(function(t) { t.classList.remove('active'); });
+      tab.classList.add('active');
+      var filter = tab.getAttribute('data-filter');
+      var filtered = filter === 'all' ? brand.posts : brand.posts.filter(function(p) { return p.type === filter; });
+      renderBrandPosts(filtered, filter);
+    };
+  });
+  // Reset to "all" tab
+  document.querySelectorAll('.brand-modal-tab').forEach(function(t) { t.classList.remove('active'); });
+  document.getElementById('bmTabAll').classList.add('active');
+}
+
+function renderBrandPosts(posts, filter) {
+  var body = document.getElementById('brandModalBody');
+  if (!posts.length) {
+    body.innerHTML = '<div class="brand-modal-empty">Nessun post trovato</div>';
+    return;
+  }
+
+  // Sort: most recent first
+  posts.sort(function(a, b) { return new Date(b.date || 0) - new Date(a.date || 0); });
+
+  body.innerHTML = posts.map(function(p) {
+    var iconClass = p.type === 'news' ? 'news' : (p.platform || 'news');
+    var iconLabel = p.type === 'news' ? '📰' : { ig: 'IG', tt: 'TT', yt: 'YT', tw: 'X', fb: 'FB' }[p.platform] || '?';
+
+    if (p.type === 'news') {
+      var linkOpen = p.url ? '<a href="' + p.url + '" target="_blank" rel="noopener noreferrer">' : '';
+      var linkClose = p.url ? '</a>' : '';
+      return '<div class="brand-post">' +
+        '<div class="brand-post-icon ' + iconClass + '">' + iconLabel + '</div>' +
+        '<div class="brand-post-body">' +
+          '<div class="brand-post-meta"><span class="brand-post-author">' + (p.source || 'NEWS') + '</span><span>' + timeAgo(p.date) + '</span></div>' +
+          '<div class="brand-post-text">' + linkOpen + (p.title || '') + (p.url ? ' ↗' : '') + linkClose + '</div>' +
+        '</div></div>';
+    } else {
+      var platLabel = { ig: 'Instagram', tt: 'TikTok', yt: 'YouTube', tw: 'X', fb: 'Facebook' }[p.platform] || p.platform;
+      var linkO = p.url ? '<a href="' + p.url + '" target="_blank" rel="noopener noreferrer">' : '';
+      var linkC = p.url ? '</a>' : '';
+      var engStr = p.engagement ? '<div class="brand-post-eng">♥ ' + Number(p.engagement).toLocaleString() + ' engagement</div>' : '';
+      return '<div class="brand-post">' +
+        '<div class="brand-post-icon ' + iconClass + '">' + iconLabel + '</div>' +
+        '<div class="brand-post-body">' +
+          '<div class="brand-post-meta"><span class="brand-post-author">' + linkO + '@' + (p.author || '?') + linkC + '</span><span>' + platLabel + '</span><span>' + timeAgo(p.date) + '</span></div>' +
+          '<div class="brand-post-text">' + (p.text || '').slice(0, 200) + '</div>' +
+          engStr +
+        '</div></div>';
+    }
+  }).join('');
+}
+
+function closeBrandModal() {
+  document.getElementById('brandModalOverlay').classList.remove('active');
+}
 </script>
+
+<!-- Brand Detail Modal -->
+<div class="brand-modal-overlay" id="brandModalOverlay" onclick="if(event.target===this)closeBrandModal()">
+  <div class="brand-modal">
+    <div class="brand-modal-header">
+      <div class="brand-modal-title">
+        <span id="brandModalTitle"></span>
+        <span class="brand-modal-badge" id="brandModalBadge"></span>
+      </div>
+      <button class="brand-modal-close" onclick="closeBrandModal()">&times;</button>
+    </div>
+    <div class="brand-modal-tabs">
+      <div class="brand-modal-tab active" id="bmTabAll" data-filter="all">Tutti</div>
+      <div class="brand-modal-tab" id="bmTabSocial" data-filter="social">Social</div>
+      <div class="brand-modal-tab" id="bmTabNews" data-filter="news">News</div>
+    </div>
+    <div class="brand-modal-body" id="brandModalBody"></div>
+  </div>
+</div>
+
 </body>
 </html>
