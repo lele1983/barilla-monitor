@@ -349,21 +349,25 @@ async function fetchGoogleNews() {
       const items = xml.match(/<item>[\s\S]*?<\/item>/g) || [];
 
       for (const item of items.slice(0, 20)) {
-        const title = (item.match(/<title>([^<]*)<\/title>/) || [])[1] || '';
-        const link = (item.match(/<link>([^<]*)<\/link>/) || [])[1] || '';
-        const pubDate = (item.match(/<pubDate>([^<]*)<\/pubDate>/) || [])[1] || '';
-        const source = (item.match(/<source[^>]*>([^<]*)<\/source>/) || [])[1] || '';
-        const description = (item.match(/<description>([^<]*)<\/description>/) || [])[1] || '';
+        const title = (item.match(/<title>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/title>/) || [])[1] || '';
+        const link = (item.match(/<link>([\s\S]*?)<\/link>/) || [])[1] || '';
+        const pubDate = (item.match(/<pubDate>([\s\S]*?)<\/pubDate>/) || [])[1] || '';
+        const source = (item.match(/<source[^>]*>([\s\S]*?)<\/source>/) || [])[1] || '';
+        const descRaw = (item.match(/<description>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/description>/) || [])[1] || '';
 
-        if (!title || seenTitles.has(title)) continue;
-        seenTitles.add(title);
+        const cleanTitle = title.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#39;/g, "'").replace(/&quot;/g, '"').trim();
+        if (!cleanTitle || seenTitles.has(cleanTitle)) continue;
+        seenTitles.add(cleanTitle);
+
+        // Strip all HTML tags and decode entities from description
+        const snippet = descRaw.replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/\s+/g, ' ').trim().slice(0, 200);
 
         allArticles.push({
-          title: title.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#39;/g, "'").replace(/&quot;/g, '"'),
-          source: source || 'Google News',
-          url: link,
-          date: pubDate ? new Date(pubDate).toISOString() : new Date().toISOString(),
-          snippet: description.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').slice(0, 200),
+          title: cleanTitle,
+          source: source.trim() || 'Google News',
+          url: link.trim(),
+          date: pubDate ? new Date(pubDate.trim()).toISOString() : new Date().toISOString(),
+          snippet,
         });
       }
     } catch (e) {

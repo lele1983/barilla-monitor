@@ -1624,11 +1624,14 @@ async function loadFromPipeline() {
           url: p.url || null });
       });
     }
-    // Add news articles from Apify as "news" platform items
+    // Add news articles from Google News RSS as "news" platform items
     if (news && news.length) {
       news.forEach(function(n) {
+        // Clean snippet: strip HTML tags, decode entities
+        var cleanSnippet = (n.snippet || '').replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#39;/g, "'").replace(/&quot;/g, '"').slice(0, 150);
+        var cleanTitle = (n.title || '').replace(/<[^>]+>/g, '').replace(/&amp;/g, '&');
         feedData.push({ platform: 'news', author: (n.source || 'News').toUpperCase(), time: timeAgo(n.date),
-          text: ('<b>' + (n.title || '') + '</b>' + (n.snippet ? ' — ' + n.snippet.slice(0, 150) : '')).replace(/(barilla|pesto|pasta|al bronzo)/gi, '<span class="hl">$1</span>'),
+          text: ('<b>' + cleanTitle + '</b>' + (cleanSnippet ? ' — ' + cleanSnippet : '')).replace(/(barilla|pesto|pasta|al bronzo)/gi, '<span class="hl">$1</span>'),
           likes: '--', comments: '--', shares: '--', sentiment: 'neu',
           url: n.url || null });
       });
