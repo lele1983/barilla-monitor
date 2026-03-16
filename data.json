@@ -1,0 +1,1564 @@
+{
+  "meta": {
+    "generatedAt": "2026-03-16T15:48:00.639Z",
+    "pipelineVersion": "1.0.0",
+    "sources": {
+      "opensearch": true,
+      "apify": false,
+      "eumetra": true,
+      "claude": false,
+      "competitors": true
+    },
+    "processingTimeMs": 10914
+  },
+  "social": {
+    "overview": {
+      "totalPosts": 264454,
+      "prevTotalPosts": 300063,
+      "volumeChange": -11.9,
+      "mentions24h": 11231,
+      "totalEngagement": 653892944,
+      "avgEngagementRate": 0.00942222571594272,
+      "erChange": -26.6,
+      "organicPct": 98,
+      "sponsoredCount": 5023
+    },
+    "brandHealth": {
+      "score": 79,
+      "status": "stabile",
+      "dimensions": [
+        {
+          "name": "Sentiment",
+          "score": 69,
+          "color": "#00e676"
+        },
+        {
+          "name": "Engagement",
+          "score": 47,
+          "color": "#3ba4ff"
+        },
+        {
+          "name": "Volume",
+          "score": 100,
+          "color": "#1e90ff"
+        },
+        {
+          "name": "Heritage",
+          "score": 88,
+          "color": "#00e676"
+        },
+        {
+          "name": "Consumer Fit",
+          "score": 75,
+          "color": "#00e5ff"
+        },
+        {
+          "name": "Platform Mix",
+          "score": 76,
+          "color": "#00e676"
+        },
+        {
+          "name": "Earned vs Paid",
+          "score": 98,
+          "color": "#00e676"
+        },
+        {
+          "name": "Risk Shield",
+          "score": 82,
+          "color": "#00e676"
+        }
+      ]
+    },
+    "sentiment": {
+      "netScore": 50,
+      "positive": 59,
+      "neutral": 32,
+      "negative": 9
+    },
+    "platforms": [
+      {
+        "name": "tt",
+        "count": 130103,
+        "pctOfTotal": 49.2
+      },
+      {
+        "name": "ig",
+        "count": 123900,
+        "pctOfTotal": 46.9
+      },
+      {
+        "name": "yt",
+        "count": 10451,
+        "pctOfTotal": 4
+      }
+    ],
+    "dailyVolume": [
+      {
+        "date": "2026-03-09T00:00:00.000Z",
+        "count": 19812,
+        "engagement": 78112077,
+        "avgEr": 0.012176303549322996
+      },
+      {
+        "date": "2026-03-10T00:00:00.000Z",
+        "count": 44129,
+        "engagement": 152911316,
+        "avgEr": 0.010971745314966303
+      },
+      {
+        "date": "2026-03-11T00:00:00.000Z",
+        "count": 44187,
+        "engagement": 120261423,
+        "avgEr": 0.01122489916060442
+      },
+      {
+        "date": "2026-03-12T00:00:00.000Z",
+        "count": 44166,
+        "engagement": 102295772,
+        "avgEr": 0.010161587235868014
+      },
+      {
+        "date": "2026-03-13T00:00:00.000Z",
+        "count": 44642,
+        "engagement": 88659346,
+        "avgEr": 0.008762118070239813
+      },
+      {
+        "date": "2026-03-14T00:00:00.000Z",
+        "count": 38739,
+        "engagement": 70730212,
+        "avgEr": 0.007523848121423277
+      },
+      {
+        "date": "2026-03-15T00:00:00.000Z",
+        "count": 28458,
+        "engagement": 40716667,
+        "avgEr": 0.004879196308343021
+      },
+      {
+        "date": "2026-03-16T00:00:00.000Z",
+        "count": 321,
+        "engagement": 206131,
+        "avgEr": 0.0006911329286997774
+      }
+    ],
+    "hourlyVolume": [
+      {
+        "hour": "2026-03-15T15:00:00.000Z",
+        "count": 337,
+        "engagement": 338278
+      },
+      {
+        "hour": "2026-03-15T16:00:00.000Z",
+        "count": 1982,
+        "engagement": 2147347
+      },
+      {
+        "hour": "2026-03-15T17:00:00.000Z",
+        "count": 2269,
+        "engagement": 3301032
+      },
+      {
+        "hour": "2026-03-15T18:00:00.000Z",
+        "count": 1888,
+        "engagement": 2194627
+      },
+      {
+        "hour": "2026-03-15T19:00:00.000Z",
+        "count": 1557,
+        "engagement": 1741363
+      },
+      {
+        "hour": "2026-03-15T20:00:00.000Z",
+        "count": 1206,
+        "engagement": 906496
+      },
+      {
+        "hour": "2026-03-15T21:00:00.000Z",
+        "count": 804,
+        "engagement": 434394
+      },
+      {
+        "hour": "2026-03-15T22:00:00.000Z",
+        "count": 528,
+        "engagement": 918174
+      },
+      {
+        "hour": "2026-03-15T23:00:00.000Z",
+        "count": 339,
+        "engagement": 100026
+      },
+      {
+        "hour": "2026-03-16T00:00:00.000Z",
+        "count": 148,
+        "engagement": 149007
+      },
+      {
+        "hour": "2026-03-16T01:00:00.000Z",
+        "count": 92,
+        "engagement": 46507
+      },
+      {
+        "hour": "2026-03-16T02:00:00.000Z",
+        "count": 52,
+        "engagement": 9699
+      },
+      {
+        "hour": "2026-03-16T03:00:00.000Z",
+        "count": 21,
+        "engagement": 831
+      },
+      {
+        "hour": "2026-03-16T04:00:00.000Z",
+        "count": 8,
+        "engagement": 87
+      }
+    ],
+    "hashtags": [
+      {
+        "tag": "perte",
+        "count": 6138
+      },
+      {
+        "tag": "fyp",
+        "count": 6061
+      },
+      {
+        "tag": "accadeoggi",
+        "count": 5147
+      },
+      {
+        "tag": "viral",
+        "count": 4207
+      },
+      {
+        "tag": "neiperte",
+        "count": 2496
+      },
+      {
+        "tag": "adv",
+        "count": 2283
+      },
+      {
+        "tag": "foryou",
+        "count": 2272
+      },
+      {
+        "tag": "tiktokshop",
+        "count": 2076
+      },
+      {
+        "tag": "napoli",
+        "count": 1768
+      },
+      {
+        "tag": "capcut",
+        "count": 1471
+      },
+      {
+        "tag": "italy",
+        "count": 1435
+      },
+      {
+        "tag": "italia",
+        "count": 1124
+      },
+      {
+        "tag": "calcio",
+        "count": 1115
+      },
+      {
+        "tag": "seriea",
+        "count": 1039
+      },
+      {
+        "tag": "amore",
+        "count": 1008
+      },
+      {
+        "tag": "milano",
+        "count": 942
+      },
+      {
+        "tag": "davedere",
+        "count": 922
+      },
+      {
+        "tag": "love",
+        "count": 910
+      },
+      {
+        "tag": "virale",
+        "count": 907
+      },
+      {
+        "tag": "roma",
+        "count": 897
+      },
+      {
+        "tag": "madeinitaly",
+        "count": 838
+      },
+      {
+        "tag": "fashion",
+        "count": 832
+      },
+      {
+        "tag": "trend",
+        "count": 807
+      },
+      {
+        "tag": "tiktok",
+        "count": 796
+      },
+      {
+        "tag": "outfit",
+        "count": 794
+      }
+    ],
+    "creators": [
+      {
+        "name": "fabriziorom",
+        "posts": 51,
+        "engagement": 17895181,
+        "platform": "ig",
+        "followers": 42566101,
+        "avgEr": 0.00824331789187796
+      },
+      {
+        "name": "charlidamelio",
+        "posts": 39,
+        "engagement": 11691479,
+        "platform": "tt",
+        "followers": 156300000,
+        "avgEr": 0.001954315806318354
+      },
+      {
+        "name": "fcbarcelona",
+        "posts": 19,
+        "engagement": 11013042,
+        "platform": "ig",
+        "followers": 147008874,
+        "avgEr": 0.003942848983889804
+      },
+      {
+        "name": "scuderiaferrari",
+        "posts": 73,
+        "engagement": 10313625,
+        "platform": "ig",
+        "followers": 32432668,
+        "avgEr": 0.014431299243059791
+      },
+      {
+        "name": "championsleague",
+        "posts": 50,
+        "engagement": 9216450,
+        "platform": "ig",
+        "followers": 121240465,
+        "avgEr": 0.0027623125907121687
+      },
+      {
+        "name": "f1",
+        "posts": 21,
+        "engagement": 7326964,
+        "platform": "ig",
+        "followers": 41576334,
+        "avgEr": 0.021786526770354166
+      },
+      {
+        "name": "433",
+        "posts": 19,
+        "engagement": 7259797,
+        "platform": "ig",
+        "followers": 77533430,
+        "avgEr": 0.005145825503026148
+      },
+      {
+        "name": "disneyplus",
+        "posts": 2,
+        "engagement": 6259511,
+        "platform": "ig",
+        "followers": 210860177,
+        "avgEr": 0.014842800307428367
+      },
+      {
+        "name": "khaby00",
+        "posts": 1,
+        "engagement": 6074681,
+        "platform": "ig",
+        "followers": 77543650,
+        "avgEr": 0.07833885817858716
+      },
+      {
+        "name": "juventus",
+        "posts": 71,
+        "engagement": 4873917,
+        "platform": "ig",
+        "followers": 60070426,
+        "avgEr": 0.001643723634715193
+      },
+      {
+        "name": "meganfox",
+        "posts": 1,
+        "engagement": 3644390,
+        "platform": "ig",
+        "followers": 22497272,
+        "avgEr": 0.16199252958314234
+      },
+      {
+        "name": "herewegocorner",
+        "posts": 6,
+        "engagement": 3639696,
+        "platform": "ig",
+        "followers": 42566101,
+        "avgEr": 0.014251152577963389
+      },
+      {
+        "name": "lalalalisa_m",
+        "posts": 2,
+        "engagement": 3611124,
+        "platform": "ig",
+        "followers": 107120343,
+        "avgEr": 0.01685545387023266
+      },
+      {
+        "name": "kyliejenner",
+        "posts": 4,
+        "engagement": 3391936,
+        "platform": "ig",
+        "followers": 391013155,
+        "avgEr": 0.0021686840689541507
+      },
+      {
+        "name": "victorosimhen9",
+        "posts": 2,
+        "engagement": 3282108,
+        "platform": "ig",
+        "followers": 7232804,
+        "avgEr": 0.22689042866362755
+      }
+    ],
+    "posts": [
+      {
+        "platform": "news",
+        "author": "lifegate",
+        "time": "2026-03-16T04:17:40Z",
+        "text": "Ieri si sono tenute le elezioni a Parigi e in altri quasi 35mila comuni francesi: saranno le ultime grandi elezioni prima delle presidenziali 2027. In particolare, Parigi è osservata speciale per via dei grandissimi cambiamenti tra mobilità, verde e ",
+        "engagement": 0,
+        "engagementRate": 0,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://i.ytimg.com/vi/wMx5GG-0k9s/hqdefault.jpg"
+      },
+      {
+        "platform": "news",
+        "author": "sandokan2806",
+        "time": "2026-03-16T04:06:18Z",
+        "text": "home fitness per panzoni",
+        "engagement": 14,
+        "engagementRate": 0.00018469656992084433,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://i.ytimg.com/vi/Uebr5D7i9do/hqdefault.jpg"
+      },
+      {
+        "platform": "news",
+        "author": "chicokabombom123",
+        "time": "2026-03-16T04:05:18Z",
+        "text": "#cejour-là ",
+        "engagement": 0,
+        "engagementRate": 0,
+        "sentiment": "neg",
+        "hashtags": [
+          "cejour-là"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oEfpQeRSEUDtJ3HE0gFF0EKXFAQLIgBp4kBk3A~tplv-tiktokx-origin.image?dr=10395&x-expires=1773806400&x-signature=X4iyPEVBzSUDLMS4dNzfSTPFUKk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      {
+        "platform": "news",
+        "author": "bygiangipre",
+        "time": "2026-03-16T04:03:33Z",
+        "text": "",
+        "engagement": 2,
+        "engagementRate": 0.00003081664098613251,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oIpBkR3MDBfI4AFRrFyI6RdCEtEdggf6xEgDE3~tplv-tiktokx-origin.image?dr=10395&x-expires=1773806400&x-signature=dUlqYft1ZqzEENFILB6h6I4r5nE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      {
+        "platform": "news",
+        "author": "SuperLiliana1964",
+        "time": "2026-03-16T04:00:58Z",
+        "text": "",
+        "engagement": 28,
+        "engagementRate": 0.0010071942446043165,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://i.ytimg.com/vi/yl32e30w5ow/hqdefault.jpg"
+      },
+      {
+        "platform": "news",
+        "author": "JoyceMeyerMinistriesItaliano",
+        "time": "2026-03-16T04:00:56Z",
+        "text": "Ti sei irritato ultimamente? Ascolta alcuni aneddoti pratici e saggi consigli tratti dalla Parola di Dio che ti aiuteranno a superare la delusione.\n\nTroverete altre predicazioni come questa, libri digitali da scaricare gratuitamente e altro ancora su",
+        "engagement": 2,
+        "engagementRate": 0.00004830917874396135,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://i.ytimg.com/vi/sk6SZGib2Sw/hqdefault.jpg"
+      },
+      {
+        "platform": "news",
+        "author": "koinoniabiella",
+        "time": "2026-03-16T04:00:48Z",
+        "text": "Il Vangelo di oggi, lunedì 16 marzo 2026, racconta quando un funzionario del re chiede a Gesù di guarire suo figlio malato e Gesù gli dice di tornare a casa perché il figlio vive. Lo slogan di oggi CREDI IN GESÙ E VEDRAI MIRACOLI nasce da questa Paro",
+        "engagement": 27,
+        "engagementRate": 0.0006766917293233082,
+        "sentiment": "neg",
+        "hashtags": [
+          "vangelodelgiorno",
+          "paroladidio",
+          "nuovaevangelizzazione",
+          "koinoniabiella",
+          "quaresima"
+        ],
+        "imageUrl": "https://i.ytimg.com/vi/pp_09mHuPvY/hqdefault.jpg"
+      },
+      {
+        "platform": "news",
+        "author": "PreghiamoInsieme",
+        "time": "2026-03-16T04:00:06Z",
+        "text": "Donazioni all'Opera Fra Giovanni:\n\nConto Intestato a: Fraternità di San Francesco\nIBAN: IE39SUMU99036511755063\nBIC/SWIFT: SUMUIE22XXX\n\nFai una donazione per la nostra opera di preghiera:\nhttps://www.paypal.com/paypalme/congregazioneofme\n\nOPPURE DONA ",
+        "engagement": 14,
+        "engagementRate": 0.00008045977011494253,
+        "sentiment": "neg",
+        "hashtags": [
+          "ges",
+          "preghiere",
+          "verginemaria"
+        ],
+        "imageUrl": "https://i.ytimg.com/vi/URCBSTCYZks/hqdefault.jpg"
+      },
+      {
+        "platform": "news",
+        "author": "bdul0088",
+        "time": "2026-03-16T03:58:36Z",
+        "text": "ঈদের আনন্দ সকল পরিবারের জন্য #eid #bangladesh🇧🇩 #foryoupage #probashi #banglanatok @AL IMRAN ",
+        "engagement": 2,
+        "engagementRate": 8e-7,
+        "sentiment": "neg",
+        "hashtags": [
+          "eid",
+          "bangladesh🇧🇩",
+          "foryoupage",
+          "probashi",
+          "banglanatok"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oQabBewkGs7NLxxiPdIffMQeuMggX8qAFuNCfA~tplv-tiktokx-origin.image?dr=10395&x-expires=1773806400&x-signature=YwxSQkfStM4S%2Fu%2BTFbefpgBRno8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      {
+        "platform": "news",
+        "author": "bdul0088",
+        "time": "2026-03-16T03:52:03Z",
+        "text": "কান ছিঁড়ে কানের দুল ছিনতাই #trending #probashi #foryoupage #bangladesh🇧🇩 #tiktokfamily @AL IMRAN ",
+        "engagement": 15,
+        "engagementRate": 0.000006,
+        "sentiment": "neg",
+        "hashtags": [
+          "trending",
+          "probashi",
+          "foryoupage",
+          "bangladesh🇧🇩",
+          "tiktokfamily"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oUMIwevdsAcjGrjgDVNIAlDIfLbLQyfCTAxIt7~tplv-tiktokx-origin.image?dr=10395&x-expires=1773806400&x-signature=mVSkS9bQJBSaCq6hYe9gKzT%2FOeA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      {
+        "platform": "news",
+        "author": "ileniacammilleri",
+        "time": "2026-03-16T03:47:42Z",
+        "text": "Buongiorno 😅",
+        "engagement": 85,
+        "engagementRate": 0.00045068928950159066,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oMW1QIFA0vk7KqxuFGDAQ0txRLpgfBVEa3EhfF~tplv-tiktokx-origin.image?dr=10395&x-expires=1773806400&x-signature=1qLIze%2FE2iJxxg%2BfuTQfeiqDXrE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      {
+        "platform": "news",
+        "author": "diegocammarata",
+        "time": "2026-03-16T03:38:58Z",
+        "text": "ORE 4:30 in clinica ..DEVO DIRE CHE QUEST’ANNO LA SFIGA CI HA DAVVERO PERSEGUITATI.. MA TU SEI FORTE, COME SEMPRE.💪🏻❤️",
+        "engagement": 58,
+        "engagementRate": 0.00011630238620413074,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/ogFs1Z9ptADIFl0FEwr3tReBkQufQUpuExkgQD~tplv-tiktokx-origin.image?dr=10395&x-expires=1773806400&x-signature=MAzqYsnoGdwsIsxjs1Ae87AlMeQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      {
+        "platform": "news",
+        "author": "screenweek",
+        "time": "2026-03-16T03:38:26Z",
+        "text": "Una battaglia dopo l’altra è il grande vincitore della 98ª edizione degli Oscar: si è portato a casa sei dei tredici premi per cui era candidato, tra cui quello per il miglior film.\n\nNei mesi scorsi il film di Paul Thomas Anderson era stato premiato ",
+        "engagement": 69,
+        "engagementRate": 0.00031740628464443595,
+        "sentiment": "neg",
+        "hashtags": [
+          "oscar",
+          "oscars2026",
+          "oscars",
+          "unabattagliadopolaltra",
+          "sinners"
+        ],
+        "imageUrl": "https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/651878411_18566556175021534_3965221004003770874_n.heic?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=103&ig_cache_key=Mzg1MzgyODYzMTY3MTg3MDgyMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=5ozWdeBMA4YQ7kNvwG4gMw3&_nc_oc=Adn-ebHbMSpoicpwDEE_KMHnl5TNJ53M2qJ6_Wo0pOJF-wemSOUjIS9eVrmLl1QvJ9k&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_gid=Iyk0JyhV3iAO7F7QWxznBg&_nc_ss=1a&oh=00_AfzQ4eHAHH0H5NVBNeamgS4367_GOghVqBGqE4ig7oomFw&oe=69BD57D2"
+      },
+      {
+        "platform": "news",
+        "author": "guerratrasporti",
+        "time": "2026-03-16T03:31:42Z",
+        "text": "#accadeoggi ",
+        "engagement": 17,
+        "engagementRate": 0.00004567436861902203,
+        "sentiment": "neg",
+        "hashtags": [
+          "accadeoggi"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/okTb9eVeQTvIDOlIIvCuuLAJCjXZ5I8fUAsMMQ~tplv-tiktokx-origin.image?dr=10395&x-expires=1773806400&x-signature=09tAoFEXVUBPwxp0tLpCNJKh9as%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      {
+        "platform": "news",
+        "author": "filmonfilm.it",
+        "time": "2026-03-16T03:28:07Z",
+        "text": "“One Battle After Another” wins Best Picture at the #Oscars \n\n#PTA #OneBattleAfterAnother #AcademyAwards",
+        "engagement": 3,
+        "engagementRate": 0.00009832841691248771,
+        "sentiment": "neg",
+        "hashtags": [
+          "oscars",
+          "pta",
+          "onebattleafteranother",
+          "academyawards"
+        ],
+        "imageUrl": "https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/651803259_18572862109018906_7528051265744522781_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=107&ig_cache_key=Mzg1MzgyNDA1NDAwMDEwNDAxNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5zZHIuQzMifQ%3D%3D&_nc_ohc=uGzJYAqHPIQQ7kNvwFMUjuK&_nc_oc=AdnOLhZme7ahoz3_cTzNABQJwUH2Zr0Rl1fae0gV2vJzj7mWgH7-A1LDV6Det-DX_po&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_gid=CyABR-y57IsjKluN7nTAgg&_nc_ss=1a&oh=00_Afx2s1raPkEBlF0IW0pTooM8JdNNMohDIfdp-4Ngq5Er3A&oe=69BD75CB"
+      },
+      {
+        "platform": "news",
+        "author": "ricordipersempre",
+        "time": "2026-03-16T03:24:04Z",
+        "text": "#accadeoggi",
+        "engagement": 0,
+        "engagementRate": 0,
+        "sentiment": "neg",
+        "hashtags": [
+          "accadeoggi"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/okIBB1TP3AAi03IEavdYbBV3dZiEJ95Y4uyK3~tplv-tiktokx-origin.image?dr=10395&x-expires=1773802800&x-signature=1bPRq2cW7jGIUGkPoDmtiOL2np4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b"
+      },
+      {
+        "platform": "news",
+        "author": "ilmattino.it",
+        "time": "2026-03-16T03:17:35Z",
+        "text": "Si è appena conclusa la notte degli #Oscar2026 che ha visto il trionfo di “Una battaglia dopo l’altra” di Paul Thomas Anderson.\n\nUna cerimonia all’insegna della sobrietà dato il clima di guerra in corso ma che non si è risparmiata di momenti emoziona",
+        "engagement": 34,
+        "engagementRate": 0.00011849869128651241,
+        "sentiment": "neg",
+        "hashtags": [
+          "oscar2026",
+          "ilmattino",
+          "premioscar",
+          "academyawards"
+        ],
+        "imageUrl": "https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/652570644_18426042325137296_8520641440002286818_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=Mzg1MzgxODEzMzc0ODQyOTM5NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTM1MC5zZHIuQzMifQ%3D%3D&_nc_ohc=rI0tXZHLdS8Q7kNvwGecRaz&_nc_oc=Adls83IsW-Ijj8Ccg9hoVlYvLqfEYU1nBEWsFoYLdFBoqXnv5sTyqOOtwbP-AIUdokM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_gid=5C0QXkM7LMyKb01tvy0PCw&_nc_ss=1a&oh=00_AfwwfgFPG6NdiABx2GBo36cxg74avs5kNypvv-e2-djRmA&oe=69BD4020"
+      },
+      {
+        "platform": "news",
+        "author": "antonella_lasirenetta_official",
+        "time": "2026-03-16T03:14:48Z",
+        "text": "tantissimi auguri Antonella…. Buon compleanno 🧜‍♀️🧜‍♀️🧜‍♀️..",
+        "engagement": 64,
+        "engagementRate": 0.0022034773627130316,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://scontent-lax3-2.cdninstagram.com/v/t39.30808-6/652680256_1437038201198267_7136931079853511817_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=Mzg1MzgxNzY2NDMzMDQzMDIyMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjcyMHg5MDAuc2RyLkMzIn0%3D&_nc_ohc=rxILyjtt6AcQ7kNvwFnJSMs&_nc_oc=AdndPfPKMK508OAE8T8oe8sYaQZuIGv4VF0Zog3zso5w3Z769iOyEGTOeP_BOfWOwGA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_gid=der11RaRg8oO81JR1XB7AA&_nc_ss=1a&oh=00_Afxhr-ebTa81XckT5bw0Ea0wwC35_gxUmmpL3zH-LPOxag&oe=69BD4AD1"
+      },
+      {
+        "platform": "news",
+        "author": "cinema.a.parte",
+        "time": "2026-03-16T03:13:49Z",
+        "text": "Arriva uno dei premi più attesi della serata. L’Oscar per il miglior attore protagonista va a Michael B. Jordan per Sinners (Ryan Coogler), uno dei favoriti, se non il favorito, della serata. L’attore conquista la statuetta per la sua doppia interpre",
+        "engagement": 88,
+        "engagementRate": 0.00040730746622356554,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://scontent-lax3-1.cdninstagram.com/v/t51.82787-15/653648398_18447556828108889_4412416812931027100_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=102&ig_cache_key=Mzg1MzgxNjg4MTQyMTUxMzA3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5zZHIuQzMifQ%3D%3D&_nc_ohc=lzTSeDj6HxoQ7kNvwHfd4gS&_nc_oc=AdlZ6di0GU4Pj5hnuChgWun4SCfWd96Nvr0dYyT2-9P6q-7kLPPEqxPb9x_8vEQ_Fys&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_gid=juFPcn7UgyUyXg1TnMEw_Q&_nc_ss=1a&oh=00_AfyscaY72QZzfCpAHo-6MoCpjdcaiWWvqefxEXqV_ZAhuA&oe=69BD6A60"
+      },
+      {
+        "platform": "news",
+        "author": "iumorgeanina12",
+        "time": "2026-03-16T03:08:27Z",
+        "text": "#amintire",
+        "engagement": 6,
+        "engagementRate": 0.00016853932584269662,
+        "sentiment": "neg",
+        "hashtags": [
+          "amintire"
+        ],
+        "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oAxdCAbg0CCp3Eb3A0iiwoBSC2AIpvuIEPfEy7~tplv-tiktokx-origin.image?dr=10395&x-expires=1773806400&x-signature=2LHx%2Bp5qhFW9wxljUnCb1O1iEqg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      {
+        "platform": "news",
+        "author": "annashvechkovskay",
+        "time": "2026-03-16T03:07:50Z",
+        "text": "#глобальныерекомендации #😁😁😁 #близнецы♊️ ",
+        "engagement": 31,
+        "engagementRate": 0.0004761904761904762,
+        "sentiment": "neg",
+        "hashtags": [
+          "глобальныерекомендации",
+          "😁😁😁",
+          "близнецы♊️"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/o0id6yOi5AbQzwaBIXQYlwP19SIBAdA3TOETA~tplv-tiktokx-origin.image?dr=10395&x-expires=1773806400&x-signature=rwOFvMAASpOcNUrv9q3y%2FWaK2bo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      {
+        "platform": "news",
+        "author": "cinema.a.parte",
+        "time": "2026-03-16T03:06:39Z",
+        "text": "Sul Dolby Theatre di Hollywood è il momento degli Oscar per i migliori attori non protagonisti. La prima a salire sul palco è Amy Madigan, premiata per l’horror Weapons (Zach Cregger), alla sua prima vittoria agli Academy Awards. Sul palco appare vis",
+        "engagement": 71,
+        "engagementRate": 0.00032862306933946765,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/651545810_18447556069108889_3433582077605175827_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=100&ig_cache_key=Mzg1MzgxMzQwMzc1NjI5Nzg1MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5zZHIuQzMifQ%3D%3D&_nc_ohc=Rvvd4nmgpWwQ7kNvwEtYTGk&_nc_oc=AdlGrNOky0khgHvKw-CqamK7UEPRbyAx-ylvQK015GlG1Ez-FG3Jtdd91HlK-_xTHzQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_gid=juFPcn7UgyUyXg1TnMEw_Q&_nc_ss=1a&oh=00_AfzMIvUTV0bzNd6SzxJyNXa5brPcORo5NOH-bKf5CnrCJQ&oe=69BD54C3"
+      },
+      {
+        "platform": "news",
+        "author": "ilmattino.it",
+        "time": "2026-03-16T03:05:45Z",
+        "text": "Un trionfo per Una battaglia dopo l'altra di Paul Thomas Anderson che vince come miglior film agli #Oscar2026. Ne esce da vincitore anche #IPeccatori di Ryan Coogler che, oltre a diversi premi tecnici, conquista il miglior attore protagonista con #Mi",
+        "engagement": 44,
+        "engagementRate": 0.00015335124754725136,
+        "sentiment": "neg",
+        "hashtags": [
+          "oscar2026",
+          "ipeccatori",
+          "michaelbjordan",
+          "academyawards",
+          "unabattagliadopolaltra"
+        ],
+        "imageUrl": "https://scontent-lax3-2.cdninstagram.com/v/t39.30808-6/653700600_1417747320396059_8226181950081367213_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=Mzg1MzgxMzA5NDU0NDYyMTcyNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTM1MC5zZHIuQzMifQ%3D%3D&_nc_ohc=gB2ceFGku6YQ7kNvwFqwYIJ&_nc_oc=AdlNI-lcBTxGjVzsnBe2L6S0pz9o5mqhwM9fx30uVEK9jNTVYjhGycMTPo-16Zx10H0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_gid=5C0QXkM7LMyKb01tvy0PCw&_nc_ss=1a&oh=00_AfwH4UdhSibxG1QkjdygoBJu_xIBMjdSX9YOzmLlnOvUPQ&oe=69BD3D21"
+      },
+      {
+        "platform": "news",
+        "author": "whoopsee.it",
+        "time": "2026-03-16T03:05:13Z",
+        "text": "Una lunga notte, quella della 98ª cerimonia degli Oscar, dedicata al cinema dell’ultimo anno, in cui protagonisti, registi e addetti ai lavori si sono riuniti per l’assegnazione dei premi più prestigiosi del settore. A dominare la serata, One Battle ",
+        "engagement": 139,
+        "engagementRate": 0.00012636363636363637,
+        "sentiment": "neg",
+        "hashtags": [
+          "whoopsee",
+          "oscars"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/7384324383b543a5a9146079c0fa5ec0~tplv-photomode-image.jpeg?dr=10375&x-expires=1773806400&x-signature=JCwl2QmL%2Fm7iGZET26GO0biOVEE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=no1a&ftpl=1"
+      },
+      {
+        "platform": "news",
+        "author": "sickboy870818",
+        "time": "2026-03-16T03:03:49Z",
+        "text": "🖤🖤🖤 #imaginedragons #badliar #fyp #viraltiktok #neiperte ",
+        "engagement": 24,
+        "engagementRate": 0.000384,
+        "sentiment": "neg",
+        "hashtags": [
+          "imaginedragons",
+          "badliar",
+          "fyp",
+          "viraltiktok",
+          "neiperte"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oQGtDfhOEEkkQxctvApgFBo3I4R3AmCW6FVfuI~tplv-tiktokx-origin.image?dr=10395&x-expires=1773802800&x-signature=ewr5aJLt6RU46s8V9FWoicY9XX4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      {
+        "platform": "news",
+        "author": "pietro61official",
+        "time": "2026-03-16T03:01:30Z",
+        "text": "",
+        "engagement": 22,
+        "engagementRate": 0.0002898550724637681,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/e31bcecabb4d405ea190568b92fd411e~tplv-photomode-image.jpeg?dr=10375&x-expires=1773806400&x-signature=xL0D91IntFd3Pjo6QzUAayNDKd8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast2b&ftpl=1"
+      },
+      {
+        "platform": "news",
+        "author": "lasandritaff",
+        "time": "2026-03-16T03:00:44Z",
+        "text": "#freefire #parati ",
+        "engagement": 32,
+        "engagementRate": 0.00047197640117994103,
+        "sentiment": "neg",
+        "hashtags": [
+          "freefire",
+          "parati"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-i-photomode-sg/151f5b8b6d1c4122a969c0d7c1f55d79~tplv-photomode-image.jpeg?dr=10375&x-expires=1773806400&x-signature=FkDw2IHg1w%2Fi9hbr1DBHiNhDbME%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=no1a&ftpl=1"
+      },
+      {
+        "platform": "news",
+        "author": "FashionChannel",
+        "time": "2026-03-16T03:00:28Z",
+        "text": "Vintage in Pills ELIE SAAB Spring 2007 Paris - Fashion Channel\n\nElie Saab’s Fall/Winter collection centered on gold-hued dresses, ranging from micro minis to floor-length gowns. Silhouettes featured batwing and butterfly sleeves, asymmetric one-shoul",
+        "engagement": 24,
+        "engagementRate": 0.000007038123167155425,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://i.ytimg.com/vi/WH4F3odU6YU/hqdefault_custom_3.jpg"
+      },
+      {
+        "platform": "news",
+        "author": "vale.ceschi.official",
+        "time": "2026-03-16T03:00:00Z",
+        "text": "Buongiorno anime ✨\nScegli la carta che ti chiama di più e scrivilo nei commenti: potresti ricevere una risposta gratuita alla tua domanda 💌\n\nPer una lettura privata, scrivimi su WhatsApp 👉 3515118700\nChe oggi porti segni e chiarezza 🍀\n\n#tarocchi #",
+        "engagement": 3,
+        "engagementRate": 0.00005106643743510307,
+        "sentiment": "neg",
+        "hashtags": [
+          "tarocchi",
+          "cartomanzia",
+          "intuizione",
+          "oracolo",
+          "vale"
+        ],
+        "imageUrl": "https://instagram.fcps2-1.fna.fbcdn.net/v/t51.82787-15/654019175_18567399550006666_8704806227145080203_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=102&ig_cache_key=Mzg1MzgxMDM0OTMxNTQ0MzcxMTE4NTY3Mzk5NTQ3MDA2NjY2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEyMDZ4MjE0NC5zZHIuQzMifQ%3D%3D&_nc_ohc=6o8ws-EgQhcQ7kNvwFzZ6yP&_nc_oc=AdnRYmbQ76Lu8mCSZR-CigTZBgsIp10xoSFNgW254KAdjopuReZ2GFRWMnB5odTYkqs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fcps2-1.fna&_nc_gid=0s7CZy0l_0BRM5PD_RjU1A&_nc_ss=1a&oh=00_AfwyplJxk6YzkMPSadln1v1HRo4qmRjVmquX90Q4I9qfIA&oe=69BD31A9"
+      },
+      {
+        "platform": "news",
+        "author": "NONSOLOCULT",
+        "time": "2026-03-16T02:59:39Z",
+        "text": "#paulthomasanderson #oscars #oscar #oscar2026\n#actor #actors #actress #seanpenn\n\nOscars 2026: Winners list in full\nOscars 2026 live updates: See all the winners and best moments\n\n\n\nL'Oscar per il miglior film va a “Una battaglia dopo l'altra”\nL'Oscar",
+        "engagement": 4,
+        "engagementRate": 0.00003571428571428572,
+        "sentiment": "neg",
+        "hashtags": [
+          "paulthomasanderson",
+          "oscars",
+          "oscar",
+          "oscar2026",
+          "actor",
+          "actors",
+          "actress",
+          "seanpenn"
+        ],
+        "imageUrl": "https://i.ytimg.com/vi/IjyhKcz70SE/hqdefault.jpg"
+      },
+      {
+        "platform": "news",
+        "author": "filmonfilm.it",
+        "time": "2026-03-16T02:59:21Z",
+        "text": "#JessieBuckley is the first Irish woman to win Best Actress at the #Oscars #Hamnet",
+        "engagement": 3,
+        "engagementRate": 0.00009832841691248771,
+        "sentiment": "neg",
+        "hashtags": [
+          "jessiebuckley",
+          "oscars",
+          "hamnet"
+        ],
+        "imageUrl": "https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/651178567_18572858026018906_9154370095260875416_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=107&ig_cache_key=Mzg1MzgwODYxMTU0NTg3MTI4Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5zZHIuQzMifQ%3D%3D&_nc_ohc=p-CLFG7zJjoQ7kNvwHXzpkz&_nc_oc=Adka2ksJ9v1wiM4IfnJ-gk6MRfEl0TufiVewX5erdO0EnCLS0R7p4fpPr8dk8VIgKFY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_gid=CyABR-y57IsjKluN7nTAgg&_nc_ss=1a&oh=00_Afxm20nwSx8Op39EnqE2Sd_PSMhucDocFHxK9HIHAy7W7g&oe=69BD508D"
+      },
+      {
+        "platform": "news",
+        "author": "prince_ka_fiston_dav_dj1",
+        "time": "2026-03-16T02:58:24Z",
+        "text": "@Kadi❤️❤️ 💋23 @kadi ❤️❤️23 ka lagare 🇲🇱 @🫦 La reine 👸 Salima 🫶🌸 @B.M.S. michou bb🦋🥰 ",
+        "engagement": 46,
+        "engagementRate": 0.00047422680412371137,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oEy1di8YndBIBi2xNbGUE0PiZcUqBVaCw3UIA~tplv-tiktokx-origin.image?dr=10395&x-expires=1773806400&x-signature=2U7b%2FiWSN5sF6pHYBI1qTY6E6rU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      {
+        "platform": "news",
+        "author": "andreyrublev",
+        "time": "2026-03-16T02:57:48Z",
+        "text": "🌴🌵☀️",
+        "engagement": 2874,
+        "engagementRate": 0.004642050125742381,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://scontent-lax3-1.cdninstagram.com/v/t51.82787-15/651997356_18567775003036788_3453755923402196695_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=102&ig_cache_key=Mzg1MzgwODUyMTYyMDIyNjQwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTc5OS5zZHIuQzMifQ%3D%3D&_nc_ohc=zgEfiMUHUwEQ7kNvwHtBG9N&_nc_oc=Admg5Ej3p4qEcbw3FcPUMbR-4V0Rei1OobyCJ3xBvmaRBn8zF00Fgn8JG0rzVsiC4YA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_gid=ou3_YTL467VgimvAU4t6Xg&_nc_ss=1a&oh=00_Afw8GUqAe4nLCVkDD4XCcgKqlh_btCTC1SrIZm3QwpY4gg&oe=69BD6DA3"
+      },
+      {
+        "platform": "news",
+        "author": "ciakclub",
+        "time": "2026-03-16T02:56:34Z",
+        "text": "Una battaglia dopo l’altra ha vinto l’Oscar come Miglior Film alla 98ª edizione degli Academy Awards. Con questa vittoria, il film con Leonardo DiCaprio si è portato a casa ben sei statuette tra cui il nuovo premio per il Miglior Casting, Miglior Reg",
+        "engagement": 1073,
+        "engagementRate": 0.0006137864560839508,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/651574852_18329271349223365_248120623596263258_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=103&ig_cache_key=Mzg1MzgwODIxMzY2NjAzODExNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5zZHIuQzMifQ%3D%3D&_nc_ohc=aSxBdsyr0gcQ7kNvwEFzAqB&_nc_oc=Admp71AHY-I4HDWgiFRv8KAQYlHWCg5DvM2oPxzhKYxPx0KQ4GlTaHwrNFHw82FC0KM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_gid=_U1M3ILk4S7OD3refRmwhQ&_nc_ss=1a&oh=00_AfwXTvpTl-OmKyx5Y1DcRcpwZf6QGRBUIAXGOAC9C_Y2Hg&oe=69BD5E3C"
+      },
+      {
+        "platform": "news",
+        "author": "boomfiction",
+        "time": "2026-03-16T02:46:31Z",
+        "text": "Oscar 2026 tutti i vincitori #oscar2026 #oscars206 #kpopdemonshunters #oscars ",
+        "engagement": 40,
+        "engagementRate": 0.00022522522522522523,
+        "sentiment": "neg",
+        "hashtags": [
+          "oscar2026",
+          "oscars206",
+          "kpopdemonshunters",
+          "oscars"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/7d74454b8d7849baa8a72a1097846726~tplv-photomode-image.jpeg?dr=10375&x-expires=1773806400&x-signature=0txtUJ8fflmVHTuYYBTfzw9hbqI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=no1a&ftpl=1"
+      },
+      {
+        "platform": "news",
+        "author": "raiplayfilmeserie",
+        "time": "2026-03-16T02:43:51Z",
+        "text": "And the Oscar goes to… Michael B. Jordan ✨ Miglior attore protagonista 🏆 #Oscars #AcademyAwards #Sinners #MichaelBJordan ",
+        "engagement": 33,
+        "engagementRate": 0.00034375,
+        "sentiment": "neg",
+        "hashtags": [
+          "oscars",
+          "academyawards",
+          "sinners",
+          "michaelbjordan"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oc7m3AWa7SAWRiI0C2ifCBw1Jb4Ac5EiIAB7Cy~tplv-tiktokx-origin.image?dr=10395&x-expires=1773799200&x-signature=1Me2TOH4tWCsFFS80C7ru1l6eGQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      {
+        "platform": "news",
+        "author": "tajirastella",
+        "time": "2026-03-16T02:42:33Z",
+        "text": "#في هذا اليوم",
+        "engagement": 1,
+        "engagementRate": 0.000022222222222222223,
+        "sentiment": "neg",
+        "hashtags": [
+          "في هذا اليوم"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oAEYjIA0y23bcimo732BhwACy9CfAIQG9IXJi7~tplv-tiktokx-origin.image?dr=10395&x-expires=1773806400&x-signature=4DRmeswZH0ROxUWzckjEy5aGItQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      {
+        "platform": "news",
+        "author": "ypsiofficial",
+        "time": "2026-03-16T02:41:23Z",
+        "text": "",
+        "engagement": 13,
+        "engagementRate": 0.0003132530120481928,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://i.ytimg.com/vi/kEPWAboq23Y/hqdefault.jpg"
+      },
+      {
+        "platform": "news",
+        "author": "brunomontella350",
+        "time": "2026-03-16T02:41:18Z",
+        "text": "",
+        "engagement": 2,
+        "engagementRate": 0.00005208333333333334,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o4PrEk5MYDAcbf0wT2FuFRpAyEWguButIdfY3E~tplv-tiktokx-origin.image?dr=10395&x-expires=1773802800&x-signature=FNfEMyAHI%2BZwaK80MipoKIMVC0c%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b"
+      },
+      {
+        "platform": "news",
+        "author": "lellamontagna",
+        "time": "2026-03-16T02:40:53Z",
+        "text": "",
+        "engagement": 1,
+        "engagementRate": 0.000010718113612004287,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o0O32pxGEWk2AF3CWBkEmgFbPSctBVDeEIbfR8~tplv-tiktokx-origin.image?dr=10395&x-expires=1773799200&x-signature=4toqonFaj3FMUDYkurADg0lV7nQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      {
+        "platform": "news",
+        "author": "filmonfilm.it",
+        "time": "2026-03-16T02:40:39Z",
+        "text": "Michael B. Jordan accepts the #Oscar for Best Actor:\n\n“I stand here because of the people that came before me, Sidney Poitier, Denzel Washington, Halle Berry, Jamie Foxx, Will Smith, and to be amongst those giants, those greats…”",
+        "engagement": 3,
+        "engagementRate": 0.00009832841691248771,
+        "sentiment": "neg",
+        "hashtags": [
+          "oscar"
+        ],
+        "imageUrl": "https://scontent-lax7-1.cdninstagram.com/v/t51.82787-15/652673624_18572855692018906_9126583246819787228_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=105&ig_cache_key=Mzg1MzgwMDI5NTQxNTQ1NjMxNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5zZHIuQzMifQ%3D%3D&_nc_ohc=wKozCfwAMdoQ7kNvwGgSFZk&_nc_oc=Adl8RqMyUL5UjnhlMKZMSf3RQIClRXfVpjnP2Q2w8S67zK_DNaxIXH-dm1L03CzQcAk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-lax7-1.cdninstagram.com&_nc_gid=CyABR-y57IsjKluN7nTAgg&_nc_ss=1a&oh=00_Afxh4tUIi18wE7CHYmpdKlaRcTYP7AHLKdTu6vQuiIRU5Q&oe=69BD5F25"
+      },
+      {
+        "platform": "news",
+        "author": "comingsoon.it",
+        "time": "2026-03-16T02:40:06Z",
+        "text": "Quando la realtà, supera la finzione! 🤣🏆💕#AnnaWintour che chiama #AnneHathaway \"Emily\" mentre presenta il miglior trucco e acconciatura (in pieno stile #IlDiavoloVestePrada), è tra i momenti più belli di questi #Oscar2026! ",
+        "engagement": 207,
+        "engagementRate": 0.0003993825969515724,
+        "sentiment": "neg",
+        "hashtags": [
+          "annawintour",
+          "annehathaway",
+          "ildiavolovesteprada",
+          "oscar2026"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oYSB26EAC7GB2LyzAAAIYCfbCOCi3bi0wEGI8X~tplv-tiktokx-dmt-logom:tos-no1a-i-0068-no/owFiVCB5EAISCbAB2fxq3I720YAbcBM82AiwAC.image?dr=10393&x-expires=1773806400&x-signature=lOJ3XuSxY7rlig8UEZ%2F6G9%2B77aI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      {
+        "platform": "news",
+        "author": "lellamontagna",
+        "time": "2026-03-16T02:39:14Z",
+        "text": "",
+        "engagement": 7,
+        "engagementRate": 0.00007502679528403,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oYCV4LEwyGAiri7buKIsy2fdkaBiCAVIOBV0w3~tplv-tiktokx-origin.image?dr=10395&x-expires=1773799200&x-signature=e0gkfXJMoGySeZbIH%2BlVnJEy4lo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      {
+        "platform": "news",
+        "author": "santodimaso",
+        "time": "2026-03-16T02:38:23Z",
+        "text": "👤",
+        "engagement": 3,
+        "engagementRate": 0.000059405940594059404,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/f31b60e5243d4d4696c079351685ea15~tplv-photomode-image.jpeg?dr=10375&x-expires=1773802800&x-signature=pL4j%2FtQjtULjd%2FZ6J%2BWQ4pC1bSA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast2b&ftpl=1"
+      },
+      {
+        "platform": "news",
+        "author": "screenweek",
+        "time": "2026-03-16T02:37:24Z",
+        "text": "Miglior film\n\nUna battaglia dopo l'altra (One Battle After Another), prodotto da Paul Thomas Anderson, Sara Murphy e Adam Somner\n\n#Oscar #Oscars2026 #Oscars #Unabattagliadopolaltra #onebattleafteranother",
+        "engagement": 69,
+        "engagementRate": 0.00031740628464443595,
+        "sentiment": "neg",
+        "hashtags": [
+          "oscar",
+          "oscars2026",
+          "oscars",
+          "unabattagliadopolaltra",
+          "onebattleafteranother"
+        ],
+        "imageUrl": "https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/653401227_18566547991021534_3522790782321753762_n.heic?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=107&ig_cache_key=Mzg1Mzc5ODc4OTUzNDUwODU2OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=omtYrznzAiwQ7kNvwG_hqBU&_nc_oc=AdmqSjK7KOqXp4wXYtbk2T17KgoJZWz-PbMLecB3JBHp-yeZIDTl2JX58zbUIDXGUeQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_gid=Iyk0JyhV3iAO7F7QWxznBg&_nc_ss=1a&oh=00_Afxr5n2Se_0sgWYrVK_IwjuB926C1MefX14sSce7eA6l5A&oe=69BD648A"
+      },
+      {
+        "platform": "news",
+        "author": "salimamellaliya",
+        "time": "2026-03-16T02:35:57Z",
+        "text": "#ملالية_وافتخر👑👑د #ملالية_وافتخر👑👑 #لالاك_أنا👑 #maroccoo🇲🇦🇲🇦🇮🇹 #mellalia🇲🇦💍 @Nadia nana ",
+        "engagement": 8,
+        "engagementRate": 0.00014209591474245115,
+        "sentiment": "neg",
+        "hashtags": [
+          "ملالية_وافتخر👑👑د",
+          "ملالية_وافتخر👑👑",
+          "لالاك_أنا👑",
+          "maroccoo🇲🇦🇲🇦🇮🇹",
+          "mellalia🇲🇦💍"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/ocAA3LrFkbfIGbTUjeADt0IxAIIbLukIfT1UE0~tplv-tiktokx-origin.image?dr=10395&x-expires=1773802800&x-signature=FPqNm0qdkA%2FPIJJ%2FtVLO82lka9A%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      {
+        "platform": "news",
+        "author": "ciakclub",
+        "time": "2026-03-16T02:35:11Z",
+        "text": "Jessie Buckley vince l’Oscar come Miglior Attrice Protagonista per la sua interpretazione in Hamnet – Nel nome del figlio.\n\nIl film diretto da Chloé Zhao e interpretato anche da Paul Mescal conquista così una delle categorie più importanti della sera",
+        "engagement": 1333,
+        "engagementRate": 0.0007625138359365392,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://scontent-lax7-1.cdninstagram.com/v/t51.82787-15/654135617_18329269975223365_4428178230378548036_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=101&ig_cache_key=Mzg1Mzc5NzMzNzQyNDc1NTM0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5zZHIuQzMifQ%3D%3D&_nc_ohc=BrWm_h1KSq8Q7kNvwHJ1XJY&_nc_oc=Adlg8Llnul97_OIfWzlDA57B7Ek-1cO4o2dfUCbFuBxR7kYz0Psjtrv8Cb58lHYq630&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-lax7-1.cdninstagram.com&_nc_gid=_U1M3ILk4S7OD3refRmwhQ&_nc_ss=1a&oh=00_AfxbSeVoxQfMjiebsEfEZXk_O3BABvYmWVwaEilri4fd9Q&oe=69BD3D5D"
+      },
+      {
+        "platform": "news",
+        "author": "ermesgasparini3239",
+        "time": "2026-03-16T02:34:39Z",
+        "text": "",
+        "engagement": 0,
+        "engagementRate": 0,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://i.ytimg.com/vi/kftxzBiZdXg/hqdefault.jpg"
+      },
+      {
+        "platform": "news",
+        "author": "filmonfilm.it",
+        "time": "2026-03-16T02:32:41Z",
+        "text": "Jessie Buckley Oscar winner!\n\n#Hamnet #AcademyAwards #Oscars #JessieBuckley",
+        "engagement": 3,
+        "engagementRate": 0.00009832841691248771,
+        "sentiment": "neg",
+        "hashtags": [
+          "hamnet",
+          "academyawards",
+          "oscars",
+          "jessiebuckley"
+        ],
+        "imageUrl": "https://instagram.fcps2-1.fna.fbcdn.net/v/t51.71878-15/652775596_4101580616725888_9022131377568707685_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=110&ig_cache_key=Mzg1Mzc5NjAzODA3MTA0NTg5NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&_nc_ohc=mdM-HvoA688Q7kNvwGPVNoR&_nc_oc=AdkdRPNC1litMKekdnK9iSZk6jqjVbE8GJQynxv2SIqVRqYojbtbPS9Ltascaf6EY1Q&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fcps2-1.fna&_nc_gid=0ApUJ9RO8PVqPhvue-qpOQ&_nc_ss=1a&oh=00_Afxt1VpK1NVVtrVeWn3yYeAUscFKIvrV9T3LAOJNNU5KXw&oe=69BD57E2"
+      },
+      {
+        "platform": "news",
+        "author": "flokoxclips",
+        "time": "2026-03-16T02:31:22Z",
+        "text": "PICK 90+ INFARTO! 🤯 #fyp #Eafc26 #foryou #viral",
+        "engagement": 128,
+        "engagementRate": 0.002009419152276295,
+        "sentiment": "neg",
+        "hashtags": [
+          "fyp",
+          "eafc26",
+          "foryou",
+          "viral"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-4864-no/ooY3CQerQGf35Igu44GaA9DWz3z8aAfiBeThvm~tplv-tiktokx-origin.image?dr=10395&x-expires=1773802800&x-signature=TW3l03K7Y4jIcMK18P9rfO3xIMs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      }
+    ]
+  },
+  "news": null,
+  "consumer": {
+    "surveyName": "Eumetra Benessere 25/26",
+    "sampleSize": 29441,
+    "food": [
+      {
+        "question": "O21f.  PROPENSIONE UTILIZZO AI PER: Offrire un nuovo prodotto alimentare",
+        "answer": "TOTALE",
+        "percentage": 100.00000000000001
+      },
+      {
+        "question": "O21f.  PROPENSIONE UTILIZZO AI PER: Offrire un nuovo prodotto alimentare",
+        "answer": "TOTALE",
+        "percentage": 100.00000000000001
+      },
+      {
+        "question": "O21f.  PROPENSIONE UTILIZZO AI PER: Offrire un nuovo prodotto alimentare",
+        "answer": "TOTALE",
+        "percentage": 100.00000000000001
+      },
+      {
+        "question": "O21h.  VORREBBE CHE L'AI SI DIFFONDESSE DI PIU' NEL SETTORE... ? - Alimentari: cibi e bevande",
+        "answer": "TOTALE",
+        "percentage": 100.00000000000001
+      },
+      {
+        "question": "O21h.  VORREBBE CHE L'AI SI DIFFONDESSE DI PIU' NEL SETTORE... ? - Alimentari: cibi e bevande",
+        "answer": "TOTALE",
+        "percentage": 100.00000000000001
+      },
+      {
+        "question": "O21h.  VORREBBE CHE L'AI SI DIFFONDESSE DI PIU' NEL SETTORE... ? - Alimentari: cibi e bevande",
+        "answer": "TOTALE",
+        "percentage": 100.00000000000001
+      },
+      {
+        "question": "Stili Alimentari",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "Stili Alimentari",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "Stili Alimentari",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "C13.  CIBO PER IL Cane",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "C13.  CIBO PER IL Cane",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "C13.  CIBO PER IL Cane",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "C13.  CIBO PER IL Gatto",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "C13.  CIBO PER IL Gatto",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "C13.  CIBO PER IL Gatto",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "D2.  Marca",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "D2.  Marca",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "D2.  Marca",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "G13.  Fa attenzione all’alimentazione? - Base originale",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "G13.  Fa attenzione all’alimentazione? - Base originale",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "G13.  Fa attenzione all’alimentazione? - Base originale",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "G13.  Fa attenzione all’alimentazione? - Base filtrata",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "G13.  Fa attenzione all’alimentazione? - Base filtrata",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "G13.  Fa attenzione all’alimentazione? - Base filtrata",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "G13.  Fa attenzione all’alimentazione? - Base filtrata",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H1.  Lei è soddisfatto della sua alimentazione? Nel rispondere consideri tutto: i tipi di alimenti che di solito consuma e la quantità.",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H1.  Lei è soddisfatto della sua alimentazione? Nel rispondere consideri tutto: i tipi di alimenti che di solito consuma e la quantità.",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H1.  Lei è soddisfatto della sua alimentazione? Nel rispondere consideri tutto: i tipi di alimenti che di solito consuma e la quantità.",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H2.  COME DESCRIVEREBBE IL SUO MODO DI MANGIARE, LA SUA ALIMENTAZIONE?",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H2.  COME DESCRIVEREBBE IL SUO MODO DI MANGIARE, LA SUA ALIMENTAZIONE?",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H2.  COME DESCRIVEREBBE IL SUO MODO DI MANGIARE, LA SUA ALIMENTAZIONE?",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H3.  Considerando la quantità di cibo che lei mangia, lei ritiene di mangiare troppo, di mangiare in modo equilibrato o di mangiare poco?",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H3.  Considerando la quantità di cibo che lei mangia, lei ritiene di mangiare troppo, di mangiare in modo equilibrato o di mangiare poco?",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H3.  Considerando la quantità di cibo che lei mangia, lei ritiene di mangiare troppo, di mangiare in modo equilibrato o di mangiare poco?",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H4.  Considerando i tipi di alimenti che lei consuma, lei direbbe che ha una alimentazione attenta per la sua salute oppure no?",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H4.  Considerando i tipi di alimenti che lei consuma, lei direbbe che ha una alimentazione attenta per la sua salute oppure no?",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H4.  Considerando i tipi di alimenti che lei consuma, lei direbbe che ha una alimentazione attenta per la sua salute oppure no?",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H5.  Ha allergie o intolleranze alimentari?",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H5.  Ha allergie o intolleranze alimentari?",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H5.  Ha allergie o intolleranze alimentari?",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H5.  LEI HA ALLERGIE O INTOLLERANZE ALIMENTARI?",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H5.  LEI HA ALLERGIE O INTOLLERANZE ALIMENTARI?",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H5.  LEI HA ALLERGIE O INTOLLERANZE ALIMENTARI?",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H6.  Negli ultimi anni il suo stile alimentare è cambiato, in termini di scelte di prodotti, occasioni di consumo, modalità di preparazione? Se sì, in",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H6.  Negli ultimi anni il suo stile alimentare è cambiato, in termini di scelte di prodotti, occasioni di consumo, modalità di preparazione? Se sì, in",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H6.  Negli ultimi anni il suo stile alimentare è cambiato, in termini di scelte di prodotti, occasioni di consumo, modalità di preparazione? Se sì, in",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H8.  Parliamo ora dei prodotti alimentari per la sua famiglia. In casa sua, è lei la persona che prepara i pasti?",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H8.  Parliamo ora dei prodotti alimentari per la sua famiglia. In casa sua, è lei la persona che prepara i pasti?",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H8.  Parliamo ora dei prodotti alimentari per la sua famiglia. In casa sua, è lei la persona che prepara i pasti?",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "H9+9b.  LEI CONSUMA... ? <Pasta normale>",
+        "answer": "TOTALE",
+        "percentage": 100
+      }
+    ],
+    "lifestyle": [
+      {
+        "question": "E16.  VALUTAZIONE DELLA DECISIONE DI ITA A. DI... incrementare costantemente l’utilizzo di materiali e ingredienti sostenibili nel servizio di bordo",
+        "answer": "TOTALE",
+        "percentage": 100.00000000000001
+      },
+      {
+        "question": "E16.  VALUTAZIONE DELLA DECISIONE DI ITA A. DI... incrementare costantemente l’utilizzo di materiali e ingredienti sostenibili nel servizio di bordo",
+        "answer": "TOTALE",
+        "percentage": 100.00000000000001
+      },
+      {
+        "question": "E16.  VALUTAZIONE DELLA DECISIONE DI ITA A. DI... incrementare costantemente l’utilizzo di materiali e ingredienti sostenibili nel servizio di bordo",
+        "answer": "TOTALE",
+        "percentage": 100.00000000000001
+      },
+      {
+        "question": "E16.  VALUTAZIONE DELLA DECISIONE DI ITA A. DI... incrementare costantemente l’utilizzo di materiali e ingredienti sostenibili nel servizio di bordo",
+        "answer": "TOTALE",
+        "percentage": 100.00000000000001
+      },
+      {
+        "question": "O21f.  PROPENSIONE UTILIZZO AI PER: Farti suggerire shampo/rossetto/crema/dentifricio/saponetta/... a partire dai tuoi gusti o dalla tua condizione di",
+        "answer": "TOTALE",
+        "percentage": 100.00000000000001
+      },
+      {
+        "question": "O21f.  PROPENSIONE UTILIZZO AI PER: Farti suggerire shampo/rossetto/crema/dentifricio/saponetta/... a partire dai tuoi gusti o dalla tua condizione di",
+        "answer": "TOTALE",
+        "percentage": 100.00000000000001
+      },
+      {
+        "question": "O21f.  PROPENSIONE UTILIZZO AI PER: Farti suggerire shampo/rossetto/crema/dentifricio/saponetta/... a partire dai tuoi gusti o dalla tua condizione di",
+        "answer": "TOTALE",
+        "percentage": 100.00000000000001
+      },
+      {
+        "question": "Stili di Benessere",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "Stili di Benessere",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "Stili di Benessere",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "Stili di Salute",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "Stili di Salute",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "Stili di Salute",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "E15.  CONOSCENZA: ITA A. HA ADOTTATO LA SOLUZIONE DI... proporre un contributo volontario per carburante sostenibile e/o progetti di compensazione del",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "E15.  CONOSCENZA: ITA A. HA ADOTTATO LA SOLUZIONE DI... proporre un contributo volontario per carburante sostenibile e/o progetti di compensazione del",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "E15.  CONOSCENZA: ITA A. HA ADOTTATO LA SOLUZIONE DI... proporre un contributo volontario per carburante sostenibile e/o progetti di compensazione del",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "E15.  CONOSCENZA: ITA A. HA ADOTTATO LA SOLUZIONE DI... proporre un contributo volontario per carburante sostenibile e/o progetti di compensazione del",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "E16.  VALUTAZIONE DELLA DECISIONE DI ITA A. DI... proporre un contributo volontario per carburante sostenibile e/o progetti di compensazione delle emi",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "E16.  VALUTAZIONE DELLA DECISIONE DI ITA A. DI... proporre un contributo volontario per carburante sostenibile e/o progetti di compensazione delle emi",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "E16.  VALUTAZIONE DELLA DECISIONE DI ITA A. DI... proporre un contributo volontario per carburante sostenibile e/o progetti di compensazione delle emi",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "E16.  VALUTAZIONE DELLA DECISIONE DI ITA A. DI... proporre un contributo volontario per carburante sostenibile e/o progetti di compensazione delle emi",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "E17.  ACCOGLIENZA SE ITA A. ADOTTASSE LA SOLUZIONE DI... proporre un contributo volontario per carburante sostenibile e/o progetti di compensazione de",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "E17.  ACCOGLIENZA SE ITA A. ADOTTASSE LA SOLUZIONE DI... proporre un contributo volontario per carburante sostenibile e/o progetti di compensazione de",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "E17.  ACCOGLIENZA SE ITA A. ADOTTASSE LA SOLUZIONE DI... proporre un contributo volontario per carburante sostenibile e/o progetti di compensazione de",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "E17.  ACCOGLIENZA SE ITA A. ADOTTASSE LA SOLUZIONE DI... proporre un contributo volontario per carburante sostenibile e/o progetti di compensazione de",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "E15.  CONOSCENZA: ITA A. HA ADOTTATO LA SOLUZIONE DI... incrementare costantemente l’utilizzo di materiali e ingredienti sostenibili nel servizio di b",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "E15.  CONOSCENZA: ITA A. HA ADOTTATO LA SOLUZIONE DI... incrementare costantemente l’utilizzo di materiali e ingredienti sostenibili nel servizio di b",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "E15.  CONOSCENZA: ITA A. HA ADOTTATO LA SOLUZIONE DI... incrementare costantemente l’utilizzo di materiali e ingredienti sostenibili nel servizio di b",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "E15.  CONOSCENZA: ITA A. HA ADOTTATO LA SOLUZIONE DI... incrementare costantemente l’utilizzo di materiali e ingredienti sostenibili nel servizio di b",
+        "answer": "TOTALE",
+        "percentage": 100
+      },
+      {
+        "question": "E17.  ACCOGLIENZA SE ITA A. ADOTTASSE LA SOLUZIONE DI... incrementare costantemente l’utilizzo di materiali e ingredienti sostenibili nel servizio di ",
+        "answer": "TOTALE",
+        "percentage": 100
+      }
+    ]
+  },
+  "ai": null,
+  "competitors": [
+    {
+      "name": "Barilla",
+      "mentions": 264454,
+      "shareOfVoice": 100
+    },
+    {
+      "name": "De cecco",
+      "mentions": 3,
+      "shareOfVoice": 0
+    },
+    {
+      "name": "Rummo",
+      "mentions": 1,
+      "shareOfVoice": 0
+    },
+    {
+      "name": "Garofalo",
+      "mentions": 4,
+      "shareOfVoice": 0
+    },
+    {
+      "name": "Voiello",
+      "mentions": 0,
+      "shareOfVoice": 0
+    },
+    {
+      "name": "Divella",
+      "mentions": 2,
+      "shareOfVoice": 0
+    }
+  ]
+}

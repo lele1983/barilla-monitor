@@ -1528,9 +1528,136 @@ function formatNum(n) {
   return n.toString();
 }
 
-// Load data on startup and every 60 seconds
-loadLiveData();
-setInterval(loadLiveData, 60000);
+// ===== LOAD FROM data.json (pipeline-generated) =====
+async function loadFromPipeline() {
+  try {
+    const res = await fetch('data.json?t=' + Date.now());
+    if (!res.ok) return false;
+    const data = await res.json();
+    if (!data.social) return false;
+    const s = data.social;
+    const ai = data.ai;
+    const news = data.news;
+    const comp = data.competitors;
+
+    // Brand Health
+    const score = s.brandHealth.score;
+    const gv = document.getElementById('gaugeVal');
+    gv.textContent = score;
+    const gc = score >= 75 ? 'var(--green)' : score >= 55 ? 'var(--amber)' : 'var(--red)';
+    gv.style.color = gc;
+    gv.nextElementSibling.textContent = s.brandHealth.status.charAt(0).toUpperCase() + s.brandHealth.status.slice(1);
+    gv.nextElementSibling.style.color = gc;
+    document.getElementById('gaugeArc').setAttribute('stroke-dashoffset', 204 - (score / 100 * 204));
+    const hb = document.getElementById('healthBadge');
+    hb.textContent = 'SCORE ' + score + ' \u2014 ' + s.brandHealth.status.toUpperCase();
+    hb.className = 'health-badge ' + (score >= 75 ? 'good' : score >= 55 ? 'warn' : 'crit');
+
+    // Subbar
+    document.getElementById('mentions24h').textContent = (s.overview.mentions24h || s.overview.totalPosts).toLocaleString();
+
+    // Dimensions
+    document.getElementById('dimensionScores').innerHTML = s.brandHealth.dimensions.map(function(d) {
+      return '<div class="dim-item"><div class="dim-name">' + d.name + '</div><div class="dim-bar-bg"><div class="dim-bar-fill" style="width:' + d.score + '%;background:' + d.color + ';"></div></div><div class="dim-score" style="color:' + d.color + '">' + d.score + '</div></div>';
+    }).join('');
+
+    // Volume chart
+    if (s.dailyVolume && s.dailyVolume.length) {
+      var volEl = document.getElementById('volumeChart');
+      var maxV = Math.max.apply(null, s.dailyVolume.map(function(d){return d.count;})) * 1.1;
+      volEl.innerHTML = s.dailyVolume.map(function(d) {
+        return '<div class="chart-bar" style="height:' + (d.count/maxV*100) + '%;background:var(--accent2);" title="' + d.count + ' post"></div>';
+      }).join('');
+      document.getElementById('totalMentions').textContent = formatNum(s.overview.totalPosts) + ' 7d';
+    }
+
+    // Sentiment
+    var sentEl = document.querySelector('.panel-body [style*="font-size:36px"]');
+    if (sentEl) sentEl.textContent = '+' + s.sentiment.netScore;
+    var sentBars = document.querySelectorAll('.sent-bar-fill');
+    var sentPcts = document.querySelectorAll('.sent-pct');
+    if (sentBars[0]) { sentBars[0].style.width = s.sentiment.positive+'%'; sentPcts[0].textContent = s.sentiment.positive+'%'; }
+    if (sentBars[1]) { sentBars[1].style.width = s.sentiment.neutral+'%'; sentPcts[1].textContent = s.sentiment.neutral+'%'; }
+    if (sentBars[2]) { sentBars[2].style.width = s.sentiment.negative+'%'; sentPcts[2].textContent = s.sentiment.negative+'%'; }
+
+    // Hashtags
+    if (s.hashtags && s.hashtags.length) {
+      document.getElementById('topicCloud').innerHTML = s.hashtags.map(function(h,i) {
+        var col = i < 2 ? (i === 0 ? 'var(--green)' : 'var(--cyan)') : '';
+        return '<div class="topic-tag"' + (col ? ' style="border-color:'+col+';color:'+col+'"' : '') + '>#' + h.tag + ' <span class="topic-count">' + formatNum(h.count) + '</span></div>';
+      }).join('');
+    }
+
+    // Creators
+    if (s.creators && s.creators.length) {
+      var cColors = ['rgba(193,24,91,.2)','rgba(0,229,255,.15)','rgba(30,144,255,.15)','rgba(179,136,255,.15)','rgba(255,171,0,.15)'];
+      var tColors = ['#f06292','var(--cyan)','var(--accent2)','var(--purple)','var(--amber)'];
+      var allPanels = document.querySelectorAll('.panel');
+      var creatorPanel = null;
+      allPanels.forEach(function(p) { if (p.querySelector('.panel-title') && p.querySelector('.panel-title').textContent.indexOf('TOP CREATORS') >= 0) creatorPanel = p; });
+      if (creatorPanel) {
+        creatorPanel.querySelector('.panel-body').innerHTML = s.creators.slice(0,5).map(function(c,i) {
+          var init = c.name.split(/\s/).map(function(w){return (w[0]||'').toUpperCase();}).join('').slice(0,2);
+          var plat = c.platform === 'instagram' ? 'IG' : c.platform === 'tiktok' ? 'TT' : c.platform === 'youtube' ? 'YT' : (c.platform||'').toUpperCase().slice(0,2);
+          return '<div class="creator-item"><div class="creator-avatar" style="background:'+cColors[i%5]+';color:'+tColors[i%5]+';">'+init+'</div><div class="creator-info"><div class="creator-name">'+c.name+'</div><div class="creator-handle">'+plat+' &bull; '+formatNum(c.followers)+' followers</div></div><div class="creator-stats"><div class="creator-eng">'+formatNum(c.engagement)+' eng</div><div>'+c.posts+' post</div></div></div>';
+        }).join('');
+      }
+    }
+
+    // Feed
+    if (s.posts && s.posts.length) {
+      feedData.length = 0;
+      s.posts.forEach(function(p) {
+        feedData.push({ platform: p.platform, author: p.author, time: timeAgo(p.time),
+          text: p.text.replace(/(barilla|pesto|pasta|al bronzo)/gi, '<span class="hl">$1</span>'),
+          likes: formatNum(p.engagement), comments: '--', shares: '--', sentiment: p.sentiment });
+      });
+      renderFeed('all');
+    }
+
+    // AI Insights
+    if (ai && ai.insights && ai.insights.length) {
+      var colorMap = { green: 'var(--green)', amber: 'var(--amber)', blue: 'var(--accent)', purple: 'var(--purple)', red: 'var(--red)' };
+      document.getElementById('aiInsights').innerHTML = ai.insights.map(function(ins) {
+        return '<div class="insight-block" style="border-left-color:'+(colorMap[ins.severity]||'var(--accent)')+'"><div class="insight-type"><div class="dot" style="background:'+(colorMap[ins.severity]||'var(--green)')+'"></div> '+ins.title+'</div><div class="insight-text">'+ins.text+'</div></div>';
+      }).join('');
+    }
+
+    // Competitors
+    if (comp && comp.length) {
+      var compPanel = null;
+      document.querySelectorAll('.panel').forEach(function(p) { if (p.querySelector('.panel-title') && p.querySelector('.panel-title').textContent.indexOf('COMPETITOR') >= 0) compPanel = p; });
+      if (compPanel) {
+        compPanel.querySelector('.panel-body').innerHTML = comp.map(function(c) {
+          var isB = c.name.toLowerCase() === 'barilla';
+          return '<div class="comp-item"><div><div class="comp-name"'+(isB?' style="color:var(--green);"':'')+'>&#9679; '+c.name+'</div><div class="comp-signals">'+c.mentions.toLocaleString()+' menzioni</div></div><div class="comp-right"><div class="comp-score"'+(isB?' style="color:var(--green)"':'')+'>'+c.shareOfVoice+'%</div></div></div>';
+        }).join('');
+      }
+    }
+
+    if (data.meta && data.meta.generatedAt) {
+      document.getElementById('lastUpdate').textContent = new Date(data.meta.generatedAt).toLocaleTimeString('it-IT');
+    }
+    window._pipelineActive = true;
+    console.log('[BARILLA MONITOR] Pipeline data loaded (' + (data.meta && data.meta.generatedAt) + ')');
+    return true;
+  } catch (e) {
+    console.warn('data.json not available, using live queries:', e.message);
+    return false;
+  }
+}
+
+// Try pipeline data first, then fallback to live OpenSearch
+async function initDashboard() {
+  var ok = await loadFromPipeline();
+  if (!ok) await loadLiveData();
+}
+initDashboard();
+setInterval(async function() {
+  var ok = await loadFromPipeline();
+  if (!ok) await loadLiveData();
+}, 300000);
+setInterval(function() { if (!window._pipelineActive) loadLiveData(); }, 60000);
 
 // ===== CLOCK =====
 function updateClock() {
