@@ -3,793 +3,1705 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Barilla — Radar Reputazionale</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<title>Barilla Monitor — Real-Time Reputation Intelligence</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
 <style>
-:root{--blue:#1428A0;--blue-l:#1E3FAF;--red:#E31937;--bg:#FAFAF8;--card:#FFFFFF;--t1:#1A1A2E;--t2:#4A5568;--tm:#8896AB;--bd:#E8ECF1;--bl:#F0F3F7;--grn:#16A34A;--grn-bg:#F0FFF4;--amb:#D97706;--amb-bg:#FFFBEB;--red-bg:#FFF5F5;--blu-bg:#EBF4FF;--r:14px}
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--t1);line-height:1.6;-webkit-font-smoothing:antialiased}
-.w{max-width:1260px;margin:0 auto;padding:0 24px}
+:root {
+  --bg: #080c14;
+  --bg2: #0d1219;
+  --card: #111923;
+  --card-border: #1a2535;
+  --card-hover: #151f2c;
+  --text: #e2e8f0;
+  --text2: #8899aa;
+  --text3: #556677;
+  --accent: #1e90ff;
+  --accent2: #3ba4ff;
+  --green: #00e676;
+  --green-dim: #00c853;
+  --red: #ff3d57;
+  --red-dim: #e6354e;
+  --amber: #ffab00;
+  --amber-dim: #e69b00;
+  --purple: #b388ff;
+  --cyan: #00e5ff;
+  --barilla-blue: #1428a0;
+  --barilla-red: #e31937;
+  --mono: 'JetBrains Mono', 'Consolas', monospace;
+  --sans: 'Inter', system-ui, sans-serif;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+html { font-size: 13px; }
+body { font-family: var(--sans); background: var(--bg); color: var(--text); overflow-x: hidden; }
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--bg2); }
+::-webkit-scrollbar-thumb { background: var(--card-border); border-radius: 3px; }
 
-/* HEADER */
-.hd{background:#fff;border-bottom:1px solid var(--bd);padding:20px 0}
-.hd-in{display:flex;justify-content:space-between;align-items:center}
-.br{display:flex;align-items:center;gap:14px}
-.br-m{width:42px;height:42px;border-radius:10px;background:var(--blue);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:900;font-size:18px}
-.br-t h1{font-size:19px;font-weight:800;color:var(--blue);letter-spacing:-.3px}
-.br-t p{font-size:10px;color:var(--tm);text-transform:uppercase;letter-spacing:1.5px;font-weight:600}
-.hm{text-align:right}
-.ld{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--grn);margin-right:5px;animation:bk 2s infinite}
-@keyframes bk{0%,100%{opacity:1}50%{opacity:.3}}
-.hm .d{font-size:13px;font-weight:600;color:var(--t1)}
-.hm .s{font-size:11px;color:var(--tm)}
+/* ===== TOP BAR ===== */
+.topbar {
+  background: linear-gradient(180deg, #0f1520 0%, #0c1018 100%);
+  border-bottom: 1px solid var(--card-border);
+  padding: 0 16px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.topbar-left { display: flex; align-items: center; gap: 16px; }
+.logo { display: flex; align-items: center; gap: 10px; }
+.logo-icon {
+  width: 32px; height: 32px;
+  background: var(--barilla-red);
+  border-radius: 6px;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 800; font-size: 14px; color: #fff;
+  letter-spacing: -0.5px;
+}
+.logo-text { font-size: 16px; font-weight: 800; color: #fff; letter-spacing: 2px; text-transform: uppercase; }
+.logo-ver { font-family: var(--mono); font-size: 10px; color: var(--text3); margin-left: 4px; }
+.live-badge {
+  display: flex; align-items: center; gap: 6px;
+  background: rgba(0,230,118,.1);
+  border: 1px solid rgba(0,230,118,.25);
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--green);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.live-dot {
+  width: 7px; height: 7px;
+  background: var(--green);
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+@keyframes pulse { 0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(0,230,118,.4)} 50%{opacity:.6;box-shadow:0 0 0 4px rgba(0,230,118,0)} }
 
-/* NAV */
-.nv{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--bd);padding:10px 0}
-.nr{display:flex;gap:4px;overflow-x:auto}
-.nb{padding:8px 18px;border-radius:20px;border:1px solid transparent;background:0;color:var(--t2);font-size:13px;font-weight:500;cursor:pointer;white-space:nowrap;font-family:inherit;transition:all .2s}
-.nb:hover{background:#F0F3F7;color:var(--t1)}
-.nb.a{background:var(--blue);color:#fff;border-color:var(--blue)}
+.topbar-center { display: flex; align-items: center; gap: 8px; }
+.health-badge {
+  display: flex; align-items: center; gap: 8px;
+  padding: 4px 14px;
+  border-radius: 4px;
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.health-badge.good { background: rgba(0,230,118,.12); border: 1px solid rgba(0,230,118,.3); color: var(--green); }
+.health-badge.warn { background: rgba(255,171,0,.12); border: 1px solid rgba(255,171,0,.3); color: var(--amber); }
+.health-badge.crit { background: rgba(255,61,87,.12); border: 1px solid rgba(255,61,87,.3); color: var(--red); }
+.health-label { font-size: 9px; color: var(--text3); text-transform: uppercase; letter-spacing: 1px; }
 
-/* SECTIONS */
-.sc{display:none;padding:32px 0 48px}
-.sc.a{display:block}
-.sh{margin-bottom:28px}
-.sh h2{font-size:26px;font-weight:800;color:var(--blue);letter-spacing:-.5px}
-.sh p{font-size:14px;color:var(--t2);margin-top:4px;max-width:680px}
+.topbar-right { display: flex; align-items: center; gap: 12px; }
+.time-filters { display: flex; gap: 2px; }
+.tf-btn {
+  font-family: var(--mono); font-size: 11px; font-weight: 500;
+  padding: 4px 10px; border-radius: 3px;
+  border: 1px solid transparent; background: none;
+  color: var(--text3); cursor: pointer; transition: all .15s;
+}
+.tf-btn:hover { color: var(--text2); background: rgba(255,255,255,.03); }
+.tf-btn.active { background: rgba(30,144,255,.15); border-color: rgba(30,144,255,.3); color: var(--accent2); }
+.clock { font-family: var(--mono); font-size: 11px; color: var(--text2); }
 
-/* CARDS */
-.cd{background:var(--card);border:1px solid var(--bd);border-radius:var(--r);padding:24px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
-.ct{font-size:11px;text-transform:uppercase;letter-spacing:1.2px;font-weight:700;color:var(--tm);margin-bottom:14px}
+/* ===== SUBBAR ===== */
+.subbar {
+  background: var(--bg2);
+  border-bottom: 1px solid var(--card-border);
+  padding: 0 16px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--mono);
+  font-size: 10px;
+}
+.subbar-left { display: flex; gap: 20px; color: var(--text3); }
+.subbar-stat { display: flex; align-items: center; gap: 5px; }
+.subbar-stat .val { color: var(--text); font-weight: 600; }
+.subbar-stat .up { color: var(--green); }
+.subbar-stat .down { color: var(--red); }
+.subbar-right { display: flex; gap: 12px; color: var(--text3); text-transform: uppercase; letter-spacing: 1px; }
 
-/* ALERT */
-.al{border-radius:var(--r);padding:22px 24px;margin-bottom:16px;border-left:4px solid}
-.al.op{background:var(--grn-bg);border-color:var(--grn)}
-.al.ri{background:var(--red-bg);border-color:var(--red)}
-.al.wa{background:var(--amb-bg);border-color:var(--amb)}
-.al.in{background:var(--blu-bg);border-color:var(--blue)}
-.ab{display:inline-block;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:3px 10px;border-radius:6px;margin-bottom:10px}
-.al.op .ab{background:#D1FAE5;color:#065F46}
-.al.ri .ab{background:#FEE2E2;color:#991B1B}
-.al.wa .ab{background:#FEF3C7;color:#92400E}
-.al.in .ab{background:#DBEAFE;color:#1E40AF}
-.al h4{font-size:16px;font-weight:700;margin-bottom:6px}
-.al p{font-size:13.5px;color:var(--t2);line-height:1.65}
-.ac{display:inline-block;margin-top:10px;font-size:12px;font-weight:700;padding:6px 14px;border-radius:8px;color:#fff}
-.op .ac{background:var(--grn)}
-.ri .ac{background:var(--red)}
-.wa .ac{background:var(--amb)}
-.in .ac{background:var(--blue)}
+/* ===== LEGEND BAR ===== */
+.legendbar {
+  background: rgba(13,18,25,.8);
+  border-bottom: 1px solid var(--card-border);
+  padding: 6px 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 10px;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  overflow-x: auto;
+}
+.legend-item { display: flex; align-items: center; gap: 5px; white-space: nowrap; }
+.legend-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
 
-/* GRIDS */
-.g2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-.g3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px}
-.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
-@media(max-width:900px){.g2,.g3,.g4{grid-template-columns:1fr}}
+/* ===== MAIN GRID ===== */
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 1px;
+  background: #0a0f17;
+  min-height: calc(100vh - 120px);
+}
 
-/* KPI */
-.kp{background:var(--card);border:1px solid var(--bd);border-radius:var(--r);padding:20px;text-align:center}
-.kp .v{font-size:32px;font-weight:800;color:var(--blue);letter-spacing:-1px}
-.kp .l{font-size:11px;color:var(--tm);text-transform:uppercase;letter-spacing:1px;font-weight:600;margin-top:4px}
-.kp .c{font-size:12px;margin-top:6px;font-weight:600}
-.kp .c.u{color:var(--grn)}
-.kp .c.d{color:var(--red)}
+/* ===== PANELS ===== */
+.panel {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--card-border);
+  background: rgba(0,0,0,.15);
+  min-height: 38px;
+}
+.panel-title {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--text2);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.panel-title .icon { font-size: 13px; }
+.panel-badge {
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 3px;
+  letter-spacing: .5px;
+}
+.badge-live { background: rgba(0,230,118,.12); color: var(--green); border: 1px solid rgba(0,230,118,.2); }
+.badge-count { background: rgba(30,144,255,.12); color: var(--accent2); border: 1px solid rgba(30,144,255,.2); }
+.badge-alert { background: rgba(255,61,87,.12); color: var(--red); border: 1px solid rgba(255,61,87,.2); }
+.badge-new { background: rgba(255,171,0,.12); color: var(--amber); border: 1px solid rgba(255,171,0,.2); }
+.panel-body { padding: 12px 14px; flex: 1; overflow-y: auto; }
+.panel-tabs {
+  display: flex; gap: 2px;
+  padding: 8px 14px 0;
+  border-bottom: 1px solid var(--card-border);
+}
+.ptab {
+  font-family: var(--mono); font-size: 10px; font-weight: 600;
+  padding: 6px 12px; border-radius: 3px 3px 0 0;
+  border: none; background: none;
+  color: var(--text3); cursor: pointer; transition: all .15s;
+  text-transform: uppercase; letter-spacing: .5px;
+}
+.ptab:hover { color: var(--text2); }
+.ptab.active { background: rgba(30,144,255,.1); color: var(--accent2); border-bottom: 2px solid var(--accent); }
 
-/* RECO */
-.rb{background:linear-gradient(135deg,#F8F9FF,#F0F3FF);border:1px solid #D6DFFF;border-radius:var(--r);padding:24px;margin-top:20px}
-.rb h4{font-size:14px;font-weight:700;color:var(--blue);margin-bottom:10px}
-.rb ul{list-style:none}
-.rb li{padding:6px 0;font-size:13.5px;color:var(--t2);position:relative;padding-left:20px}
-.rb li::before{content:'→';position:absolute;left:0;color:var(--blue);font-weight:700}
+/* ===== SPAN CLASSES ===== */
+.span-2 { grid-column: span 2; }
+.span-3 { grid-column: span 3; }
+.span-4 { grid-column: span 4; }
+.row-2 { grid-row: span 2; }
 
-/* TABLE */
-.dt{width:100%;border-collapse:collapse;font-size:13px}
-.dt th{text-align:left;padding:10px 12px;background:#F7F9FB;color:var(--tm);font-size:10px;text-transform:uppercase;letter-spacing:1px;font-weight:700;border-bottom:1px solid var(--bd)}
-.dt td{padding:12px;border-bottom:1px solid var(--bl);color:var(--t2)}
-.dt tr:last-child td{border-bottom:0}
-.pt{display:inline-block;font-size:10px;font-weight:700;padding:2px 8px;border-radius:4px;text-transform:uppercase}
-.pt.ig{background:#FCEEF1;color:#C1185B}
-.pt.tt{background:#EEF1FD;color:#3B53C4}
-.pt.yt{background:#FFF0F0;color:#C00}
+/* ===== BRAND HEALTH GAUGE ===== */
+.gauge-wrap { display: flex; flex-direction: column; align-items: center; padding: 16px 0 8px; }
+.gauge-svg { width: 160px; height: 100px; }
+.gauge-value { font-family: var(--mono); font-size: 42px; font-weight: 800; margin-top: -8px; }
+.gauge-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; margin-top: 2px; }
+.gauge-trend { font-family: var(--mono); font-size: 11px; margin-top: 6px; display: flex; align-items: center; gap: 4px; }
+.gauge-sub { display: flex; gap: 16px; margin-top: 12px; font-family: var(--mono); font-size: 10px; color: var(--text3); }
+.gauge-sub span { display: flex; align-items: center; gap: 4px; }
 
-/* BAR CHART CSS-ONLY */
-.bars{display:flex;align-items:flex-end;gap:6px;height:180px;padding:10px 0}
-.bar-group{flex:1;display:flex;flex-direction:column;align-items:center;gap:4px}
-.bar-stack{display:flex;flex-direction:column-reverse;width:100%;gap:1px}
-.bar-seg{border-radius:3px 3px 0 0;min-height:2px;transition:height .5s}
-.bar-label{font-size:10px;color:var(--tm);margin-top:4px}
-.bar-legend{display:flex;gap:16px;justify-content:center;margin-top:12px}
-.bar-legend span{font-size:11px;color:var(--t2);display:flex;align-items:center;gap:5px}
-.bar-legend i{display:inline-block;width:10px;height:10px;border-radius:2px}
+/* ===== KPI ROW ===== */
+.kpi-row { display: flex; gap: 1px; }
+.kpi {
+  flex: 1;
+  padding: 12px;
+  text-align: center;
+  background: rgba(0,0,0,.1);
+  border-right: 1px solid var(--card-border);
+}
+.kpi:last-child { border-right: none; }
+.kpi-val { font-family: var(--mono); font-size: 22px; font-weight: 700; color: #fff; }
+.kpi-label { font-size: 9px; color: var(--text3); text-transform: uppercase; letter-spacing: 1px; margin-top: 2px; }
+.kpi-change { font-family: var(--mono); font-size: 10px; margin-top: 3px; font-weight: 600; }
+.kpi-change.up { color: var(--green); }
+.kpi-change.down { color: var(--red); }
 
-/* TOPIC */
-.tr{display:flex;align-items:center;gap:12px;padding:14px 0;border-bottom:1px solid var(--bl)}
-.tr:last-child{border-bottom:0}
-.tk{width:28px;height:28px;border-radius:50%;background:var(--blue);color:#fff;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0}
-.ti{flex:1}
-.ti .n{font-size:14px;font-weight:600}
-.ti .m{font-size:12px;color:var(--tm);margin-top:2px}
-.tv{text-align:right}
-.tv .n{font-size:16px;font-weight:700}
-.tv .s{font-size:10px;color:var(--tm);text-transform:uppercase}
+/* ===== VOLUME CHART ===== */
+.chart-area { display: flex; align-items: flex-end; gap: 2px; height: 80px; padding: 0 2px; }
+.chart-bar {
+  flex: 1;
+  border-radius: 2px 2px 0 0;
+  transition: height .3s;
+  min-width: 3px;
+  position: relative;
+  cursor: crosshair;
+}
+.chart-bar:hover { filter: brightness(1.3); }
+.chart-labels { display: flex; justify-content: space-between; padding: 4px 2px 0; font-family: var(--mono); font-size: 8px; color: var(--text3); }
 
-/* DONUT CSS */
-.donut-wrap{display:flex;justify-content:center;align-items:center;padding:20px 0}
-.donut{width:160px;height:160px;border-radius:50%;position:relative}
-.donut-center{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center}
-.donut-center .v{font-size:28px;font-weight:800;color:var(--blue)}
-.donut-center .l{font-size:10px;color:var(--tm)}
-.donut-legend{margin-top:12px}
-.donut-legend div{display:flex;align-items:center;gap:8px;padding:4px 0;font-size:12px;color:var(--t2)}
-.donut-legend i{display:inline-block;width:10px;height:10px;border-radius:2px}
+/* ===== MENTION FEED ===== */
+.feed-item {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(26,37,53,.5);
+  animation: fadeIn .3s;
+}
+.feed-item:last-child { border-bottom: none; }
+@keyframes fadeIn { from{opacity:0;transform:translateY(-4px)} to{opacity:1;transform:translateY(0)} }
+.feed-meta {
+  display: flex; align-items: center; gap: 8px;
+  margin-bottom: 5px;
+  font-family: var(--mono); font-size: 10px;
+}
+.feed-platform {
+  font-size: 9px; font-weight: 700;
+  padding: 1px 6px; border-radius: 3px;
+  text-transform: uppercase; letter-spacing: .5px;
+}
+.feed-platform.ig { background: rgba(193,24,91,.2); color: #f06292; }
+.feed-platform.tt { background: rgba(0,229,255,.15); color: var(--cyan); }
+.feed-platform.yt { background: rgba(255,0,0,.15); color: #ff5252; }
+.feed-platform.tw { background: rgba(29,161,242,.15); color: #4fc3f7; }
+.feed-platform.news { background: rgba(255,171,0,.15); color: var(--amber); }
+.feed-platform.fb { background: rgba(59,89,152,.2); color: #7986cb; }
+.feed-author { color: var(--text2); font-weight: 500; }
+.feed-time { color: var(--text3); margin-left: auto; }
+.feed-text { font-size: 12px; color: var(--text); line-height: 1.5; margin-bottom: 4px; }
+.feed-text .hl { color: var(--accent2); font-weight: 600; }
+.feed-stats { display: flex; gap: 12px; font-family: var(--mono); font-size: 10px; color: var(--text3); }
+.feed-stats span { display: flex; align-items: center; gap: 3px; }
+.feed-sentiment {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 3px;
+  letter-spacing: .5px;
+}
+.sent-pos { background: rgba(0,230,118,.12); color: var(--green); }
+.sent-neg { background: rgba(255,61,87,.12); color: var(--red); }
+.sent-neu { background: rgba(136,153,170,.12); color: var(--text2); }
 
-/* FOOTER */
-.ft{padding:32px 0;border-top:1px solid var(--bd);margin-top:20px;text-align:center}
-.ft p{font-size:11px;color:var(--tm)}
-.ft .pw{font-size:10px;text-transform:uppercase;letter-spacing:1.5px;margin-top:6px}
+/* ===== PLATFORM CARDS ===== */
+.platform-card {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--card-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.platform-card:last-child { border-bottom: none; }
+.plat-left { display: flex; align-items: center; gap: 10px; }
+.plat-icon { font-size: 18px; }
+.plat-name { font-size: 12px; font-weight: 600; }
+.plat-score { font-family: var(--mono); font-size: 18px; font-weight: 700; }
+.plat-detail { font-family: var(--mono); font-size: 9px; color: var(--text3); margin-top: 2px; }
+.plat-right { text-align: right; }
+.plat-status {
+  font-family: var(--mono); font-size: 9px; font-weight: 700;
+  padding: 2px 8px; border-radius: 3px;
+  text-transform: uppercase; letter-spacing: .5px;
+}
+.plat-status.elev { background: rgba(255,171,0,.12); color: var(--amber); }
+.plat-status.norm { background: rgba(0,230,118,.12); color: var(--green); }
+.plat-status.crit { background: rgba(255,61,87,.12); color: var(--red); }
+.plat-metrics { display: flex; gap: 8px; margin-top: 4px; font-family: var(--mono); font-size: 9px; color: var(--text3); }
+.plat-metrics .up { color: var(--green); }
+.plat-metrics .down { color: var(--red); }
 
-/* MATRIX */
-.mx{position:relative;height:340px;border:1px solid var(--bd);border-radius:10px;background:#FAFCFF;overflow:hidden}
-.mx-dot{position:absolute;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:#fff;cursor:default;transition:transform .2s}
-.mx-dot:hover{transform:scale(1.15)}
-.mx-ax{position:absolute;font-size:10px;font-weight:700;color:var(--tm);text-transform:uppercase;letter-spacing:1px}
-.mx-label{position:absolute;font-size:10px;color:var(--t2);white-space:nowrap;font-weight:500}
+/* ===== AI INSIGHTS ===== */
+.insight-block {
+  background: rgba(0,0,0,.2);
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-left: 3px solid var(--accent);
+}
+.insight-type {
+  font-family: var(--mono); font-size: 9px; font-weight: 700;
+  color: var(--accent2); text-transform: uppercase; letter-spacing: 1px;
+  margin-bottom: 6px;
+  display: flex; align-items: center; gap: 6px;
+}
+.insight-type .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green); }
+.insight-text { font-size: 12px; line-height: 1.6; color: var(--text); }
 
-/* PRIORITY CARD */
-.pr{margin-bottom:20px;border-left:4px solid}
-.pr-badge{display:inline-block;font-size:11px;font-weight:700;padding:4px 12px;border-radius:6px;color:#fff}
-.pr-time{font-size:12px;color:var(--tm);margin-left:10px}
-.pr h3{font-size:17px;font-weight:700;margin-top:12px}
-.pr p{font-size:13.5px;color:var(--t2);line-height:1.7;margin-top:8px}
-.pr-kpi{margin-top:12px;padding:12px;background:#F7F9FB;border-radius:8px}
-.pr-kpi .l{font-size:12px;color:var(--tm);font-weight:600}
-.pr-kpi p{font-size:13px;color:var(--t2);margin-top:4px}
+/* ===== FORECAST ITEMS ===== */
+.forecast-item {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(26,37,53,.5);
+}
+.forecast-item:last-child { border-bottom: none; }
+.forecast-title { font-size: 12px; font-weight: 600; margin-bottom: 6px; color: var(--text); }
+.forecast-bar-wrap { display: flex; align-items: center; gap: 8px; }
+.forecast-bar { flex: 1; height: 6px; background: rgba(255,255,255,.05); border-radius: 3px; overflow: hidden; }
+.forecast-fill { height: 100%; border-radius: 3px; transition: width .5s; }
+.forecast-pct { font-family: var(--mono); font-size: 13px; font-weight: 700; min-width: 40px; text-align: right; }
+.forecast-meta { font-family: var(--mono); font-size: 9px; color: var(--text3); margin-top: 4px; }
+.forecast-tags { display: flex; gap: 4px; margin-top: 6px; }
+.ftag {
+  font-family: var(--mono); font-size: 8px; font-weight: 700;
+  padding: 2px 6px; border-radius: 2px;
+  text-transform: uppercase; letter-spacing: .5px;
+}
 
-/* SYNTH BOX */
-.syn{margin-top:32px;padding:24px;background:linear-gradient(135deg,var(--blue),var(--blue-l));border-radius:var(--r);color:#fff}
-.syn h4{font-size:15px;font-weight:700;margin-bottom:8px}
-.syn p{font-size:14px;line-height:1.7;opacity:.92}
+/* ===== ESCALATION LIST ===== */
+.esc-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(26,37,53,.5);
+}
+.esc-item:last-child { border-bottom: none; }
+.esc-level {
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--mono); font-size: 11px; font-weight: 700;
+}
+.esc-level.high { background: rgba(255,61,87,.15); color: var(--red); }
+.esc-level.med { background: rgba(255,171,0,.15); color: var(--amber); }
+.esc-level.low { background: rgba(0,230,118,.15); color: var(--green); }
+.esc-info { flex: 1; }
+.esc-name { font-size: 11px; font-weight: 600; }
+.esc-detail { font-family: var(--mono); font-size: 9px; color: var(--text3); margin-top: 2px; }
+.esc-signals { font-family: var(--mono); font-size: 11px; color: var(--text2); display: flex; align-items: center; gap: 4px; }
+
+/* ===== TOPIC TAGS ===== */
+.topic-cloud { display: flex; flex-wrap: wrap; gap: 6px; }
+.topic-tag {
+  font-family: var(--mono); font-size: 10px; font-weight: 600;
+  padding: 5px 10px; border-radius: 4px;
+  border: 1px solid var(--card-border);
+  background: rgba(0,0,0,.2);
+  color: var(--text2);
+  display: flex; align-items: center; gap: 5px;
+  transition: all .15s;
+  cursor: default;
+}
+.topic-tag:hover { border-color: var(--accent); color: var(--accent2); }
+.topic-count { color: var(--text3); }
+
+/* ===== NEWS FEED ===== */
+.news-item {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(26,37,53,.5);
+}
+.news-item:last-child { border-bottom: none; }
+.news-source {
+  font-family: var(--mono); font-size: 9px; font-weight: 700;
+  color: var(--text3); text-transform: uppercase; letter-spacing: 1px;
+  margin-bottom: 4px;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.news-title { font-size: 12px; font-weight: 600; line-height: 1.4; margin-bottom: 3px; }
+.news-time { font-family: var(--mono); font-size: 9px; color: var(--text3); }
+
+/* ===== TICKER BAR ===== */
+.ticker-bar {
+  background: var(--bg2);
+  border-top: 1px solid var(--card-border);
+  padding: 6px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+.ticker-content {
+  display: inline-block;
+  animation: ticker 60s linear infinite;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text2);
+}
+.ticker-content .sep { color: var(--text3); margin: 0 16px; }
+.ticker-content .tval { font-weight: 600; }
+.ticker-content .tup { color: var(--green); }
+.ticker-content .tdown { color: var(--red); }
+@keyframes ticker { 0%{transform:translateX(0)} 100%{transform:translateX(-50%)} }
+
+/* ===== SENTIMENT BREAKDOWN ===== */
+.sent-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.sent-label { font-family: var(--mono); font-size: 10px; width: 60px; color: var(--text3); text-transform: uppercase; }
+.sent-bar-bg { flex: 1; height: 8px; background: rgba(255,255,255,.04); border-radius: 4px; overflow: hidden; }
+.sent-bar-fill { height: 100%; border-radius: 4px; transition: width .5s; }
+.sent-pct { font-family: var(--mono); font-size: 11px; font-weight: 600; width: 40px; text-align: right; }
+
+/* ===== DIMENSION SCORES ===== */
+.dim-item { display: flex; align-items: center; gap: 10px; padding: 6px 0; }
+.dim-name { font-size: 11px; width: 110px; color: var(--text2); }
+.dim-bar-bg { flex: 1; height: 6px; background: rgba(255,255,255,.04); border-radius: 3px; overflow: hidden; }
+.dim-bar-fill { height: 100%; border-radius: 3px; }
+.dim-score { font-family: var(--mono); font-size: 12px; font-weight: 700; width: 32px; text-align: right; }
+
+/* ===== CREATOR ROW ===== */
+.creator-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(26,37,53,.5);
+}
+.creator-item:last-child { border-bottom: none; }
+.creator-avatar {
+  width: 30px; height: 30px;
+  border-radius: 50%;
+  background: var(--card-border);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 12px; font-weight: 700; color: var(--text2);
+}
+.creator-info { flex: 1; }
+.creator-name { font-size: 11px; font-weight: 600; }
+.creator-handle { font-family: var(--mono); font-size: 9px; color: var(--text3); }
+.creator-stats { text-align: right; font-family: var(--mono); font-size: 10px; color: var(--text2); }
+.creator-eng { font-weight: 600; color: var(--accent2); }
+
+/* ===== COMPETITOR ROW ===== */
+.comp-item {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(26,37,53,.5);
+}
+.comp-item:last-child { border-bottom: none; }
+.comp-name { font-size: 12px; font-weight: 600; }
+.comp-right { display: flex; align-items: center; gap: 12px; }
+.comp-score { font-family: var(--mono); font-size: 14px; font-weight: 700; }
+.comp-signals { font-family: var(--mono); font-size: 10px; color: var(--text3); }
+
+/* ===== MINI SPARKLINE ===== */
+.spark { display: flex; align-items: flex-end; gap: 1px; height: 24px; }
+.spark-bar { width: 3px; border-radius: 1px; transition: height .3s; }
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:1200px) {
+  .main { grid-template-columns: 1fr 1fr; }
+  .span-3, .span-4 { grid-column: span 2; }
+}
+@media(max-width:768px) {
+  .main { grid-template-columns: 1fr; }
+  .span-2, .span-3, .span-4 { grid-column: span 1; }
+  .topbar { flex-wrap: wrap; height: auto; padding: 8px 12px; gap: 8px; }
+  .topbar-center, .topbar-right { flex-wrap: wrap; }
+}
 </style>
 </head>
 <body>
 
-<!-- HEADER -->
-<header class="hd"><div class="w"><div class="hd-in">
-<div class="br"><div class="br-m">B</div><div class="br-t"><h1>Radar Reputazionale</h1><p>Barilla Group &middot; Corporate Communication Intelligence</p></div></div>
-<div class="hm"><div class="d"><span class="ld"></span>Live — 12 Marzo 2026</div><div class="s">Aggiornamento: ultime 24h</div></div>
-</div></div></header>
-
-<!-- NAV -->
-<nav class="nv"><div class="w"><div class="nr">
-<button class="nb a" onclick="go(0)">Il Radar</button>
-<button class="nb" onclick="go(1)">Radar & Alert</button>
-<button class="nb" onclick="go(2)">Agenda Pubblica</button>
-<button class="nb" onclick="go(3)">Barilla nel Conversation</button>
-<button class="nb" onclick="go(4)">Opportunità & Rischi</button>
-<button class="nb" onclick="go(5)">Voce del Consumatore</button>
-<button class="nb" onclick="go(6)">Raccomandazioni</button>
-<button class="nb" onclick="go(7)">Rassegna Stampa</button>
-<button class="nb" onclick="go(8)">Sintesi Radar</button>
-</div></div></nav>
-
-<!-- ══════ S0: IL RADAR ══════ -->
-<div class="sc a" id="s0"><div class="w">
-<div class="sh"><h2>Il Radar Reputazionale</h2><p>Cos'è questo strumento, come funziona, quali fonti alimentano le analisi e perché è un asset strategico per la comunicazione corporate di Barilla.</p></div>
-
-<div class="g2">
-<div class="cd">
-<div class="ct">Cos'è il Radar Reputazionale</div>
-<p style="font-size:14px;color:var(--t2);line-height:1.8;margin-bottom:16px">Il Radar Reputazionale è uno <strong>strumento di intelligence</strong> che monitora in tempo reale la reputazione di Barilla nello spazio digitale e la incrocia con le attitudini del consumatore italiano.</p>
-<p style="font-size:14px;color:var(--t2);line-height:1.8;margin-bottom:16px">Non è un report di social listening tradizionale. È un <strong>sistema decisionale</strong>: ogni dato viene tradotto in raccomandazioni operative per il team di comunicazione corporate.</p>
-<p style="font-size:14px;color:var(--t2);line-height:1.8"><strong>Obiettivo:</strong> fornire al team comunicazione di Barilla le informazioni necessarie per agire con tempismo, rilevanza e consapevolezza del contesto.</p>
+<!-- ===== TOP BAR ===== -->
+<div class="topbar">
+  <div class="topbar-left">
+    <div class="logo">
+      <div class="logo-icon">B</div>
+      <span class="logo-text">BARILLA</span>
+      <span class="logo-ver">MONITOR</span>
+      <span class="logo-ver" style="color:var(--text3)">v1.0</span>
+    </div>
+    <div class="live-badge">
+      <div class="live-dot"></div>
+      IN DIRETTA
+    </div>
+  </div>
+  <div class="topbar-center">
+    <span class="health-label">BRAND HEALTH</span>
+    <div class="health-badge good" id="healthBadge">
+      SCORE 78 &mdash; STABILE
+    </div>
+  </div>
+  <div class="topbar-right">
+    <div class="time-filters">
+      <button class="tf-btn" data-range="1h">1h</button>
+      <button class="tf-btn" data-range="6h">6h</button>
+      <button class="tf-btn" data-range="24h">24h</button>
+      <button class="tf-btn active" data-range="7d">7d</button>
+      <button class="tf-btn" data-range="30d">30d</button>
+    </div>
+    <div class="clock" id="clock"></div>
+  </div>
 </div>
 
-<div class="cd">
-<div class="ct">Il potenziale strategico</div>
-<div style="margin-bottom:14px"><h3 style="font-size:14px;font-weight:700;color:var(--blue);margin-bottom:6px">⚡ Early Warning System</h3><p style="font-size:13px;color:var(--t2);line-height:1.7">Identificazione precoce di rischi reputazionali e crisi emergenti prima che diventino mainstream. Monitoraggio 24/7 su social e tutte le fonti di informazione rilevanti.</p></div>
-<div style="margin-bottom:14px"><h3 style="font-size:14px;font-weight:700;color:var(--grn);margin-bottom:6px">🎯 Opportunità in tempo reale</h3><p style="font-size:13px;color:var(--t2);line-height:1.7">Finestre comunicative mappate con urgenza e impatto. Ogni tendenza dell'agenda pubblica viene valutata per connessione ai pillar Barilla.</p></div>
-<div style="margin-bottom:14px"><h3 style="font-size:14px;font-weight:700;color:var(--amb);margin-bottom:6px">📊 Consumer Intelligence integrata</h3><p style="font-size:13px;color:var(--t2);line-height:1.7">I dati social vengono incrociati con survey nazionali e ricerche globali per capire non solo "cosa si dice" ma "cosa pensa il consumatore".</p></div>
-<div><h3 style="font-size:14px;font-weight:700;color:var(--red);margin-bottom:6px">🔄 Cadenza configurabile</h3><p style="font-size:13px;color:var(--t2);line-height:1.7">Il Radar può essere prodotto con cadenza settimanale, bisettimanale o ad hoc in caso di eventi critici. Ogni edizione è personalizzata sulle priorità correnti.</p></div>
-</div>
-</div>
-
-<!-- FONTI -->
-<div class="cd" style="margin-top:20px">
-<div class="ct">Le fonti del Radar</div>
-<div class="g4" style="margin-top:12px">
-<div style="padding:20px;background:#EBF4FF;border-radius:12px;text-align:center"><div style="font-size:32px;margin-bottom:8px">🔍</div><div style="font-size:14px;font-weight:700;color:var(--blue)">AIQ</div><div style="font-size:11px;color:var(--tm);margin-top:4px;text-transform:uppercase;font-weight:600">Social Intelligence</div><div style="font-size:12px;color:var(--t2);margin-top:8px;line-height:1.6">265K+ post monitorati su Instagram, TikTok e YouTube + fonti news e media. Engagement, menzioni, hashtag, sentiment, creator analysis, copertura stampa.</div></div>
-<div style="padding:20px;background:#F0FFF4;border-radius:12px;text-align:center"><div style="font-size:32px;margin-bottom:8px">🌍</div><div style="font-size:14px;font-weight:700;color:var(--grn)">GWI</div><div style="font-size:11px;color:var(--tm);margin-top:4px;text-transform:uppercase;font-weight:600">Consumer Intelligence</div><div style="font-size:12px;color:var(--t2);margin-top:8px;line-height:1.6">Survey globale su comportamenti, attitudini e preferenze dei consumatori. Segmentazione per età, interessi, mercato.</div></div>
-<div style="padding:20px;background:#FFFBEB;border-radius:12px;text-align:center"><div style="font-size:32px;margin-bottom:8px">📋</div><div style="font-size:14px;font-weight:700;color:var(--amb)">Eumetra</div><div style="font-size:11px;color:var(--tm);margin-top:4px;text-transform:uppercase;font-weight:600">Survey Italia</div><div style="font-size:12px;color:var(--t2);margin-top:8px;line-height:1.6">Ricerca proprietaria sul consumatore italiano: opinioni, stili di vita, alimentazione, sostenibilità. Dati esclusivi e segmentati.</div></div>
-<div style="padding:20px;background:#FFF5F5;border-radius:12px;text-align:center"><div style="font-size:32px;margin-bottom:8px">🌐</div><div style="font-size:14px;font-weight:700;color:var(--red)">Web & News</div><div style="font-size:11px;color:var(--tm);margin-top:4px;text-transform:uppercase;font-weight:600">Agenda Monitoring</div><div style="font-size:12px;color:var(--t2);margin-top:8px;line-height:1.6">Monitoraggio di testate, agenzie stampa e news online per intercettare temi di attualità rilevanti per il brand.</div></div>
-</div>
+<!-- ===== SUB BAR ===== -->
+<div class="subbar">
+  <div class="subbar-left">
+    <div class="subbar-stat">Menzioni 24h: <span class="val" id="mentions24h">2,847</span> <span class="up">+12%</span></div>
+    <div class="subbar-stat">Engagement Rate: <span class="val">3.2%</span> <span class="up">+0.4pp</span></div>
+    <div class="subbar-stat">Sentiment Netto: <span class="val" style="color:var(--green)">+62</span></div>
+    <div class="subbar-stat">Share of Voice: <span class="val">34.7%</span> <span class="up">+2.1pp</span></div>
+    <div class="subbar-stat">Post Virali: <span class="val" style="color:var(--amber)">3</span></div>
+    <div class="subbar-stat">Alert Attivi: <span class="val" style="color:var(--red)" id="activeAlerts">1</span></div>
+  </div>
+  <div class="subbar-right">
+    <span>Fonti: 6 piattaforme</span>
+    <span>Aggiornamento: <span id="lastUpdate">--</span></span>
+  </div>
 </div>
 
-<!-- COPERTURA -->
-<div class="g3" style="margin-top:20px">
-<div class="kp"><div class="v">3+</div><div class="l">Piattaforme e fonti</div><div class="c" style="color:var(--t2)">Instagram · TikTok · YouTube + News & Media</div></div>
-<div class="kp"><div class="v">265K+</div><div class="l">Post analizzati / settimana</div><div class="c" style="color:var(--t2)">Italia, food & lifestyle</div></div>
-<div class="kp"><div class="v">4</div><div class="l">Fonti dati integrate</div><div class="c" style="color:var(--t2)">Social + Survey + News + Consumer</div></div>
+<!-- ===== LEGEND ===== -->
+<div class="legendbar">
+  <span style="color:var(--text2);font-weight:600;">LEGENDA</span>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--green)"></div> Positivo</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--amber)"></div> Attenzione</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--red)"></div> Critico</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--accent)"></div> Neutro</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#f06292"></div> Instagram</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--cyan)"></div> TikTok</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#ff5252"></div> YouTube</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#4fc3f7"></div> X/Twitter</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--amber)"></div> News/Press</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#7986cb"></div> Facebook</div>
 </div>
 
-<div class="syn" style="margin-top:24px"><h4>Come leggere il Radar</h4><p>Ogni sezione traduce i dati in <strong>azioni concrete</strong>. "Radar & Alert" mostra cosa richiede attenzione immediata. "Agenda Pubblica" mappa le conversazioni dove Barilla può inserirsi. "Barilla nel Conversation" analizza in dettaglio ogni menzione social. "Rassegna Stampa" monitora la copertura sui media tradizionali e trade. "Opportunità & Rischi" fornisce una matrice decisionale. "Voce del Consumatore" incrocia i dati con le attitudini reali. "Raccomandazioni" chiude con un piano operativo settimanale.</p></div>
+<!-- ===== MAIN GRID ===== -->
+<div class="main">
 
-</div></div>
+  <!-- ROW 1: Brand Health + Volume + Sentiment + Dimensions -->
+  <div class="panel">
+    <div class="panel-header">
+      <div class="panel-title"><span class="icon">&#9678;</span> BRAND HEALTH SCORE</div>
+      <span class="panel-badge badge-live">IN DIRETTA</span>
+    </div>
+    <div class="panel-body" style="display:flex;flex-direction:column;align-items:center;">
+      <div class="gauge-wrap">
+        <svg class="gauge-svg" viewBox="0 0 160 90">
+          <defs>
+            <linearGradient id="gaugeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="var(--red)"/>
+              <stop offset="40%" stop-color="var(--amber)"/>
+              <stop offset="70%" stop-color="var(--green)"/>
+              <stop offset="100%" stop-color="var(--cyan)"/>
+            </linearGradient>
+          </defs>
+          <path d="M 15 80 A 65 65 0 0 1 145 80" fill="none" stroke="rgba(255,255,255,.06)" stroke-width="12" stroke-linecap="round"/>
+          <path id="gaugeArc" d="M 15 80 A 65 65 0 0 1 145 80" fill="none" stroke="url(#gaugeGrad)" stroke-width="12" stroke-linecap="round" stroke-dasharray="204" stroke-dashoffset="45"/>
+          <circle id="gaugeNeedle" cx="120" cy="40" r="5" fill="#fff"/>
+        </svg>
+        <div class="gauge-value" style="color:var(--green);" id="gaugeVal">78</div>
+        <div class="gauge-label" style="color:var(--green);">Stabile</div>
+        <div class="gauge-trend" style="color:var(--green);">&#9650; +3 vs settimana scorsa</div>
+      </div>
+      <div class="gauge-sub">
+        <span>Min 7d: <b style="color:var(--amber)">72</b></span>
+        <span>Max 7d: <b style="color:var(--green)">81</b></span>
+        <span>Media: <b style="color:var(--text)">76</b></span>
+      </div>
+    </div>
+  </div>
 
-<!-- ══════ S1: RADAR & ALERT ══════ -->
-<div class="sc" id="s1"><div class="w">
-<div class="sh"><h2>Quadro della Situazione</h2><p>Segnali chiave per la comunicazione corporate Barilla oggi. Cosa richiede attenzione immediata e dove si aprono finestre di opportunità.</p></div>
+  <div class="panel">
+    <div class="panel-header">
+      <div class="panel-title"><span class="icon">&#9632;</span> VOLUME MENZIONI</div>
+      <span class="panel-badge badge-count" id="totalMentions">19.8K 7d</span>
+    </div>
+    <div class="panel-body">
+      <div class="chart-area" id="volumeChart"></div>
+      <div class="chart-labels"><span>Lun</span><span>Mar</span><span>Mer</span><span>Gio</span><span>Ven</span><span>Sab</span><span>Dom</span></div>
+      <div style="margin-top:12px;">
+        <div class="kpi-row">
+          <div class="kpi">
+            <div class="kpi-val">2.8K</div>
+            <div class="kpi-label">Oggi</div>
+            <div class="kpi-change up">+12%</div>
+          </div>
+          <div class="kpi">
+            <div class="kpi-val">412</div>
+            <div class="kpi-label">Picco/ora</div>
+            <div class="kpi-change up">14:00</div>
+          </div>
+          <div class="kpi">
+            <div class="kpi-val">1.9K</div>
+            <div class="kpi-label">Organiche</div>
+            <div class="kpi-change" style="color:var(--accent2)">68%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<div class="g4" style="margin-bottom:28px">
-<div class="kp"><div class="v">265K</div><div class="l">Post monitorati (7gg)</div><div class="c u">+8% vs sett. prec.</div></div>
-<div class="kp"><div class="v">33</div><div class="l">Menzioni Barilla (30gg)</div><div class="c d">-15% vs periodo prec.</div></div>
-<div class="kp"><div class="v">1.87%</div><div class="l">Eng. Rate Barilla</div><div class="c u">Sopra media (1.2%)</div></div>
-<div class="kp"><div class="v">37.5K</div><div class="l">Conversazioni 8 Marzo</div><div class="c u">Picco in corso</div></div>
+  <div class="panel">
+    <div class="panel-header">
+      <div class="panel-title"><span class="icon">&#9673;</span> ANALISI SENTIMENT</div>
+      <span class="panel-badge badge-live">IN DIRETTA</span>
+    </div>
+    <div class="panel-body">
+      <div style="text-align:center;margin-bottom:16px;">
+        <div style="font-family:var(--mono);font-size:36px;font-weight:800;color:var(--green);">+62</div>
+        <div style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:1px;">Net Sentiment Score</div>
+      </div>
+      <div class="sent-row">
+        <div class="sent-label" style="color:var(--green)">Positivo</div>
+        <div class="sent-bar-bg"><div class="sent-bar-fill" style="width:68%;background:var(--green);"></div></div>
+        <div class="sent-pct" style="color:var(--green)">68%</div>
+      </div>
+      <div class="sent-row">
+        <div class="sent-label" style="color:var(--text3)">Neutro</div>
+        <div class="sent-bar-bg"><div class="sent-bar-fill" style="width:26%;background:var(--text3);"></div></div>
+        <div class="sent-pct" style="color:var(--text3)">26%</div>
+      </div>
+      <div class="sent-row">
+        <div class="sent-label" style="color:var(--red)">Negativo</div>
+        <div class="sent-bar-bg"><div class="sent-bar-fill" style="width:6%;background:var(--red);"></div></div>
+        <div class="sent-pct" style="color:var(--red)">6%</div>
+      </div>
+      <div style="margin-top:16px;">
+        <div class="chart-area" id="sentimentTimeline" style="height:50px;"></div>
+        <div class="chart-labels"><span>6h fa</span><span>5h</span><span>4h</span><span>3h</span><span>2h</span><span>1h</span><span>Ora</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-header">
+      <div class="panel-title"><span class="icon">&#9670;</span> DIMENSIONI RADAR</div>
+      <span class="panel-badge badge-count">8 assi</span>
+    </div>
+    <div class="panel-body">
+      <div id="dimensionScores">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ROW 2: Social Feed (2 col) + AI Insights + Forecasts -->
+  <div class="panel span-2 row-2">
+    <div class="panel-header">
+      <div class="panel-title"><span class="icon">&#9733;</span> FEED SOCIAL</div>
+      <div style="display:flex;gap:4px;">
+        <span class="panel-badge badge-live">IN DIRETTA</span>
+        <span class="panel-badge badge-count" id="feedCount">93</span>
+      </div>
+    </div>
+    <div class="panel-tabs">
+      <button class="ptab active" onclick="filterFeed('all')">Tutti</button>
+      <button class="ptab" onclick="filterFeed('ig')">Instagram</button>
+      <button class="ptab" onclick="filterFeed('tt')">TikTok</button>
+      <button class="ptab" onclick="filterFeed('yt')">YouTube</button>
+      <button class="ptab" onclick="filterFeed('tw')">X</button>
+      <button class="ptab" onclick="filterFeed('news')">News</button>
+    </div>
+    <div class="panel-body" id="socialFeed" style="max-height:500px;overflow-y:auto;">
+      <!-- Filled by JS -->
+    </div>
+  </div>
+
+  <div class="panel row-2">
+    <div class="panel-header">
+      <div class="panel-title"><span class="icon">&#9679;</span> APPROFONDIMENTI IA</div>
+      <span class="panel-badge badge-live">IN DIRETTA</span>
+    </div>
+    <div class="panel-body" id="aiInsights">
+      <div class="insight-block" style="border-left-color:var(--green);">
+        <div class="insight-type"><div class="dot"></div> BRAND BRIEF</div>
+        <div class="insight-text">La reputazione online di Barilla rimane solida con sentiment prevalentemente positivo. La campagna "Al Bronzo" continua a generare engagement organico significativo su Instagram e TikTok, con un aumento del 23% delle menzioni rispetto alla settimana precedente.</div>
+      </div>
+      <div class="insight-block" style="border-left-color:var(--amber);">
+        <div class="insight-type"><div class="dot" style="background:var(--amber)"></div> SEGNALE DI ATTENZIONE</div>
+        <div class="insight-text">Rilevato un aumento (+45%) delle conversazioni sui prezzi della pasta nei mercati europei. Il tema potrebbe evolvere in narrativa critica se non gestito con comunicazione proattiva.</div>
+      </div>
+      <div class="insight-block" style="border-left-color:var(--accent);">
+        <div class="insight-type"><div class="dot" style="background:var(--accent)"></div> OPPORTUNIT&Agrave;</div>
+        <div class="insight-text">Trend emergente: creator food su TikTok stanno promuovendo ricette "one-pot pasta" con forte associazione al brand. Potenziale per partnership organiche con 3 creator ad alto engagement (>500K followers).</div>
+      </div>
+      <div class="insight-block" style="border-left-color:var(--purple);">
+        <div class="insight-type"><div class="dot" style="background:var(--purple)"></div> COMPETITOR WATCH</div>
+        <div class="insight-text">De Cecco ha lanciato una nuova campagna digitale con focus su qualit&agrave; artigianale. Volume menzioni +18% nelle ultime 48h. Monitorare impatto su share of voice.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel row-2">
+    <div class="panel-header">
+      <div class="panel-title"><span class="icon">&#9672;</span> AI FORECASTS</div>
+      <div style="display:flex;gap:4px;">
+        <span class="panel-badge badge-live">IN DIRETTA</span>
+        <span class="panel-badge badge-count">8</span>
+      </div>
+    </div>
+    <div class="panel-tabs">
+      <button class="ptab active">Tutti</button>
+      <button class="ptab">Brand</button>
+      <button class="ptab">Social</button>
+      <button class="ptab">Rischio</button>
+    </div>
+    <div class="panel-body">
+      <div class="forecast-item">
+        <div class="forecast-title">&#8212; Crescita engagement Instagram +15% entro 30d</div>
+        <div class="forecast-bar-wrap">
+          <div class="forecast-bar"><div class="forecast-fill" style="width:82%;background:var(--green);"></div></div>
+          <div class="forecast-pct" style="color:var(--green)">82%</div>
+        </div>
+        <div class="forecast-meta">24h: 85% | 7d: 82% | 30d: 78%</div>
+        <div class="forecast-tags">
+          <span class="ftag" style="background:rgba(0,230,118,.12);color:var(--green);">BRAND</span>
+          <span class="ftag" style="background:rgba(30,144,255,.12);color:var(--accent2);">SOCIAL</span>
+        </div>
+      </div>
+      <div class="forecast-item">
+        <div class="forecast-title">&#8212; Impatto negativo dibattito prezzi sulla percezione</div>
+        <div class="forecast-bar-wrap">
+          <div class="forecast-bar"><div class="forecast-fill" style="width:41%;background:var(--amber);"></div></div>
+          <div class="forecast-pct" style="color:var(--amber)">41%</div>
+        </div>
+        <div class="forecast-meta">24h: 38% | 7d: 41% | 30d: 35% | stabile</div>
+        <div class="forecast-tags">
+          <span class="ftag" style="background:rgba(255,171,0,.12);color:var(--amber);">RISCHIO</span>
+          <span class="ftag" style="background:rgba(255,61,87,.12);color:var(--red);">PREZZO</span>
+        </div>
+      </div>
+      <div class="forecast-item">
+        <div class="forecast-title">&#8212; Viralizzazione trend "one-pot pasta" su TikTok</div>
+        <div class="forecast-bar-wrap">
+          <div class="forecast-bar"><div class="forecast-fill" style="width:67%;background:var(--cyan);"></div></div>
+          <div class="forecast-pct" style="color:var(--cyan)">67%</div>
+        </div>
+        <div class="forecast-meta">24h: 72% | 7d: 67% | 30d: stabile</div>
+        <div class="forecast-tags">
+          <span class="ftag" style="background:rgba(0,229,255,.12);color:var(--cyan);">TIKTOK</span>
+          <span class="ftag" style="background:rgba(0,230,118,.12);color:var(--green);">OPPORTUNIT&Agrave;</span>
+        </div>
+      </div>
+      <div class="forecast-item">
+        <div class="forecast-title">&#8212; Campagna De Cecco erode share of voice &gt;3pp</div>
+        <div class="forecast-bar-wrap">
+          <div class="forecast-bar"><div class="forecast-fill" style="width:29%;background:var(--red);"></div></div>
+          <div class="forecast-pct" style="color:var(--red)">29%</div>
+        </div>
+        <div class="forecast-meta">24h: 25% | 7d: 29% | 30d: in crescita</div>
+        <div class="forecast-tags">
+          <span class="ftag" style="background:rgba(255,61,87,.12);color:var(--red);">COMPETITOR</span>
+        </div>
+      </div>
+      <div class="forecast-item">
+        <div class="forecast-title">&#8212; Picco menzioni per Carbonara Day (Aprile)</div>
+        <div class="forecast-bar-wrap">
+          <div class="forecast-bar"><div class="forecast-fill" style="width:94%;background:var(--green);"></div></div>
+          <div class="forecast-pct" style="color:var(--green)">94%</div>
+        </div>
+        <div class="forecast-meta">Evento annuale | Storico: +340% menzioni</div>
+        <div class="forecast-tags">
+          <span class="ftag" style="background:rgba(179,136,255,.12);color:var(--purple);">EVENTO</span>
+          <span class="ftag" style="background:rgba(0,230,118,.12);color:var(--green);">POSITIVO</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROW 3: Platform Monitor + Escalation + Top Creators + Topics -->
+  <div class="panel">
+    <div class="panel-header">
+      <div class="panel-title"><span class="icon">&#9673;</span> MONITOR PIATTAFORME</div>
+    </div>
+    <div class="panel-body" style="padding:0;">
+      <div class="platform-card">
+        <div class="plat-left">
+          <span class="plat-icon">&#128247;</span>
+          <div>
+            <div class="plat-name">Instagram</div>
+            <div class="plat-detail">@baraborilla | 4.2M followers</div>
+          </div>
+        </div>
+        <div class="plat-right">
+          <div class="plat-score" style="color:var(--green)">85</div>
+          <div class="plat-status norm">STABILE</div>
+          <div class="plat-metrics"><span class="up">&#9650; 3.8% ER</span> <span>1.2K post</span></div>
+        </div>
+      </div>
+      <div class="platform-card">
+        <div class="plat-left">
+          <span class="plat-icon">&#127926;</span>
+          <div>
+            <div class="plat-name">TikTok</div>
+            <div class="plat-detail">@barilla | 890K followers</div>
+          </div>
+        </div>
+        <div class="plat-right">
+          <div class="plat-score" style="color:var(--amber)">72</div>
+          <div class="plat-status elev">ELEVATO</div>
+          <div class="plat-metrics"><span class="up">&#9650; 5.2% ER</span> <span>340 video</span></div>
+        </div>
+      </div>
+      <div class="platform-card">
+        <div class="plat-left">
+          <span class="plat-icon">&#9654;</span>
+          <div>
+            <div class="plat-name">YouTube</div>
+            <div class="plat-detail">Barilla | 210K iscritti</div>
+          </div>
+        </div>
+        <div class="plat-right">
+          <div class="plat-score" style="color:var(--green)">79</div>
+          <div class="plat-status norm">STABILE</div>
+          <div class="plat-metrics"><span class="up">&#9650; 2.1% ER</span> <span>45 video</span></div>
+        </div>
+      </div>
+      <div class="platform-card">
+        <div class="plat-left">
+          <span class="plat-icon">&#120143;</span>
+          <div>
+            <div class="plat-name">X / Twitter</div>
+            <div class="plat-detail">@Baraborilla | 1.1M followers</div>
+          </div>
+        </div>
+        <div class="plat-right">
+          <div class="plat-score" style="color:var(--green)">74</div>
+          <div class="plat-status norm">STABILE</div>
+          <div class="plat-metrics"><span>&#9650; 1.4% ER</span> <span>890 post</span></div>
+        </div>
+      </div>
+      <div class="platform-card">
+        <div class="plat-left">
+          <span class="plat-icon">&#128240;</span>
+          <div>
+            <div class="plat-name">News / Press</div>
+            <div class="plat-detail">42 testate monitorate</div>
+          </div>
+        </div>
+        <div class="plat-right">
+          <div class="plat-score" style="color:var(--green)">81</div>
+          <div class="plat-status norm">STABILE</div>
+          <div class="plat-metrics"><span class="up">&#9650; 87% positivi</span> <span>28 articoli</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-header">
+      <div class="panel-title"><span class="icon">&#9888;</span> ESCALATION MONITOR</div>
+      <span class="panel-badge badge-alert" id="escCount">3</span>
+    </div>
+    <div class="panel-body">
+      <div class="esc-item">
+        <div class="esc-level med">!</div>
+        <div class="esc-info">
+          <div class="esc-name">Dibattito prezzi pasta</div>
+          <div class="esc-detail">sentiment negativo + volume crescente &bull; Twitter + News</div>
+        </div>
+        <div class="esc-signals"><span style="color:var(--amber)">&#9650;</span> 47 segnali</div>
+      </div>
+      <div class="esc-item">
+        <div class="esc-level low">&#10003;</div>
+        <div class="esc-info">
+          <div class="esc-name">Competitor campagna De Cecco</div>
+          <div class="esc-detail">aumento menzioni competitor &bull; Instagram + YouTube</div>
+        </div>
+        <div class="esc-signals">12 segnali</div>
+      </div>
+      <div class="esc-item">
+        <div class="esc-level low">&#10003;</div>
+        <div class="esc-info">
+          <div class="esc-name">Commenti packaging sostenibilit&agrave;</div>
+          <div class="esc-detail">richieste packaging eco &bull; TikTok comments</div>
+        </div>
+        <div class="esc-signals">8 segnali</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-header">
+      <div class="panel-title"><span class="icon">&#9734;</span> TOP CREATORS</div>
+      <span class="panel-badge badge-count">7d</span>
+    </div>
+    <div class="panel-body">
+      <div class="creator-item">
+        <div class="creator-avatar" style="background:rgba(193,24,91,.2);color:#f06292;">GC</div>
+        <div class="creator-info">
+          <div class="creator-name">Giallo Zafferano</div>
+          <div class="creator-handle">@giaborollozafferano &bull; IG &bull; 12.4M</div>
+        </div>
+        <div class="creator-stats">
+          <div class="creator-eng">245K eng</div>
+          <div>3 post</div>
+        </div>
+      </div>
+      <div class="creator-item">
+        <div class="creator-avatar" style="background:rgba(0,229,255,.15);color:var(--cyan);">BK</div>
+        <div class="creator-info">
+          <div class="creator-name">Benedetta Rossi</div>
+          <div class="creator-handle">@fattoincasadabenedetta &bull; IG &bull; 7.8M</div>
+        </div>
+        <div class="creator-stats">
+          <div class="creator-eng">189K eng</div>
+          <div>2 post</div>
+        </div>
+      </div>
+      <div class="creator-item">
+        <div class="creator-avatar" style="background:rgba(30,144,255,.15);color:var(--accent2);">CF</div>
+        <div class="creator-info">
+          <div class="creator-name">Chef Club Italia</div>
+          <div class="creator-handle">@chefclubitalia &bull; TT &bull; 2.1M</div>
+        </div>
+        <div class="creator-stats">
+          <div class="creator-eng">92K eng</div>
+          <div>5 video</div>
+        </div>
+      </div>
+      <div class="creator-item">
+        <div class="creator-avatar" style="background:rgba(179,136,255,.15);color:var(--purple);">NI</div>
+        <div class="creator-info">
+          <div class="creator-name">Nonna Italia</div>
+          <div class="creator-handle">@nonnaitalia &bull; TT &bull; 1.5M</div>
+        </div>
+        <div class="creator-stats">
+          <div class="creator-eng">78K eng</div>
+          <div>4 video</div>
+        </div>
+      </div>
+      <div class="creator-item">
+        <div class="creator-avatar" style="background:rgba(255,171,0,.15);color:var(--amber);">FM</div>
+        <div class="creator-info">
+          <div class="creator-name">Food Blogger Marco</div>
+          <div class="creator-handle">@foodmarco_ita &bull; YT &bull; 680K</div>
+        </div>
+        <div class="creator-stats">
+          <div class="creator-eng">34K eng</div>
+          <div>1 video</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-header">
+      <div class="panel-title"><span class="icon">#</span> TOPIC TREND</div>
+      <span class="panel-badge badge-live">IN DIRETTA</span>
+    </div>
+    <div class="panel-body">
+      <div class="topic-cloud" id="topicCloud">
+        <div class="topic-tag" style="border-color:var(--green);color:var(--green);">#Barilla <span class="topic-count">4.2K</span></div>
+        <div class="topic-tag" style="border-color:var(--cyan);color:var(--cyan);">#AlBronzo <span class="topic-count">1.8K</span></div>
+        <div class="topic-tag">#PastaLovers <span class="topic-count">1.2K</span></div>
+        <div class="topic-tag">#Carbonara <span class="topic-count">890</span></div>
+        <div class="topic-tag" style="border-color:var(--amber);color:var(--amber);">#PrezziPasta <span class="topic-count">670</span></div>
+        <div class="topic-tag">#RicetteFacili <span class="topic-count">540</span></div>
+        <div class="topic-tag">#MadeinItaly <span class="topic-count">480</span></div>
+        <div class="topic-tag">#OnePotPasta <span class="topic-count">420</span></div>
+        <div class="topic-tag">#Spaghetti <span class="topic-count">380</span></div>
+        <div class="topic-tag">#PastaBarilla <span class="topic-count">340</span></div>
+        <div class="topic-tag">#ItalianFood <span class="topic-count">310</span></div>
+        <div class="topic-tag">#Sostenibilita <span class="topic-count">290</span></div>
+        <div class="topic-tag">#PastaDay <span class="topic-count">250</span></div>
+        <div class="topic-tag">#Penne <span class="topic-count">220</span></div>
+        <div class="topic-tag">#PestoBarilla <span class="topic-count">180</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROW 4: Press + Competitors + Regional -->
+  <div class="panel span-2">
+    <div class="panel-header">
+      <div class="panel-title"><span class="icon">&#128240;</span> RASSEGNA STAMPA</div>
+      <div style="display:flex;gap:4px;">
+        <span class="panel-badge badge-live">IN DIRETTA</span>
+        <span class="panel-badge badge-count">28</span>
+      </div>
+    </div>
+    <div class="panel-tabs">
+      <button class="ptab active">Tutte</button>
+      <button class="ptab">Italia</button>
+      <button class="ptab">Europa</button>
+      <button class="ptab">USA</button>
+      <button class="ptab">Trade</button>
+    </div>
+    <div class="panel-body" style="display:grid;grid-template-columns:1fr 1fr;gap:0 20px;">
+      <div>
+        <div class="news-item">
+          <div class="news-source">CORRIERE DELLA SERA <span class="news-time">2 ore fa</span></div>
+          <div class="news-title">Barilla investe 200M in innovazione sostenibile per il triennio 2026-2028</div>
+        </div>
+        <div class="news-item">
+          <div class="news-source">IL SOLE 24 ORE <span class="news-time">4 ore fa</span></div>
+          <div class="news-title">Il mercato della pasta premium cresce del 12%: Barilla guida la transizione</div>
+        </div>
+        <div class="news-item">
+          <div class="news-source">REPUBBLICA <span class="news-time">6 ore fa</span></div>
+          <div class="news-title">Alimentare, export record per Barilla: +8% nei mercati europei</div>
+        </div>
+        <div class="news-item">
+          <div class="news-source">FOOD BUSINESS NEWS <span class="news-time">8 ore fa</span></div>
+          <div class="news-title">Barilla expands plant-based range with new legume pasta line</div>
+        </div>
+      </div>
+      <div>
+        <div class="news-item">
+          <div class="news-source"><span style="color:var(--red)">MARK UP</span> <span class="news-time">3 ore fa</span></div>
+          <div class="news-title">GDO: pressione sui prezzi pasta, consumatori pi&ugrave; attenti al prezzo</div>
+        </div>
+        <div class="news-item">
+          <div class="news-source">ANSA <span class="news-time">5 ore fa</span></div>
+          <div class="news-title">Barilla tra i top employer 2026: riconoscimento per welfare aziendale</div>
+        </div>
+        <div class="news-item">
+          <div class="news-source">FINANCIAL TIMES <span class="news-time">7 ore fa</span></div>
+          <div class="news-title">Italian food groups bet on premium positioning amid cost pressures</div>
+        </div>
+        <div class="news-item">
+          <div class="news-source">GAMBERO ROSSO <span class="news-time">12 ore fa</span></div>
+          <div class="news-title">Pasta Al Bronzo Barilla vince il blind test tra le paste industriali premium</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-header">
+      <div class="panel-title"><span class="icon">&#9878;</span> COMPETITOR RADAR</div>
+    </div>
+    <div class="panel-body">
+      <div class="comp-item">
+        <div>
+          <div class="comp-name" style="color:var(--green);">&#9679; Barilla</div>
+          <div class="comp-signals">Share of Voice leader</div>
+        </div>
+        <div class="comp-right">
+          <div class="spark" id="sparkBarilla"></div>
+          <div class="comp-score" style="color:var(--green)">34.7%</div>
+        </div>
+      </div>
+      <div class="comp-item">
+        <div>
+          <div class="comp-name">&#9679; De Cecco</div>
+          <div class="comp-signals">Campagna attiva &bull; +18%</div>
+        </div>
+        <div class="comp-right">
+          <div class="spark" id="sparkDececco"></div>
+          <div class="comp-score">22.1%</div>
+        </div>
+      </div>
+      <div class="comp-item">
+        <div>
+          <div class="comp-name">&#9679; Rummo</div>
+          <div class="comp-signals">Stabile</div>
+        </div>
+        <div class="comp-right">
+          <div class="spark" id="sparkRummo"></div>
+          <div class="comp-score">14.3%</div>
+        </div>
+      </div>
+      <div class="comp-item">
+        <div>
+          <div class="comp-name">&#9679; Garofalo</div>
+          <div class="comp-signals">In calo &bull; -5%</div>
+        </div>
+        <div class="comp-right">
+          <div class="spark" id="sparkGarofalo"></div>
+          <div class="comp-score">10.8%</div>
+        </div>
+      </div>
+      <div class="comp-item">
+        <div>
+          <div class="comp-name">&#9679; Voiello</div>
+          <div class="comp-signals">Stabile</div>
+        </div>
+        <div class="comp-right">
+          <div class="spark" id="sparkVoiello"></div>
+          <div class="comp-score">8.2%</div>
+        </div>
+      </div>
+      <div class="comp-item">
+        <div>
+          <div class="comp-name" style="color:var(--text3)">&#9679; Altri</div>
+          <div class="comp-signals">&nbsp;</div>
+        </div>
+        <div class="comp-right">
+          <div class="comp-score" style="color:var(--text3)">9.9%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-header">
+      <div class="panel-title"><span class="icon">&#127758;</span> COPERTURA GEOGRAFICA</div>
+    </div>
+    <div class="panel-body">
+      <div class="platform-card" style="border-bottom:1px solid var(--card-border);">
+        <div class="plat-left">
+          <span class="plat-icon">&#127470;&#127481;</span>
+          <div>
+            <div class="plat-name">Italia</div>
+            <div class="plat-detail">12.4K menzioni &bull; 68% del totale</div>
+          </div>
+        </div>
+        <div class="plat-right">
+          <div class="plat-status norm">STABILE</div>
+          <div class="plat-metrics"><span class="up">&#9650; +8%</span></div>
+        </div>
+      </div>
+      <div class="platform-card" style="border-bottom:1px solid var(--card-border);">
+        <div class="plat-left">
+          <span class="plat-icon">&#127466;&#127482;</span>
+          <div>
+            <div class="plat-name">Europa</div>
+            <div class="plat-detail">4.2K menzioni &bull; 21% del totale</div>
+          </div>
+        </div>
+        <div class="plat-right">
+          <div class="plat-status norm">STABILE</div>
+          <div class="plat-metrics"><span class="up">&#9650; +12%</span></div>
+        </div>
+      </div>
+      <div class="platform-card" style="border-bottom:1px solid var(--card-border);">
+        <div class="plat-left">
+          <span class="plat-icon">&#127482;&#127480;</span>
+          <div>
+            <div class="plat-name">Nord America</div>
+            <div class="plat-detail">1.8K menzioni &bull; 9% del totale</div>
+          </div>
+        </div>
+        <div class="plat-right">
+          <div class="plat-status elev">CRESCITA</div>
+          <div class="plat-metrics"><span class="up">&#9650; +23%</span></div>
+        </div>
+      </div>
+      <div class="platform-card">
+        <div class="plat-left">
+          <span class="plat-icon">&#127758;</span>
+          <div>
+            <div class="plat-name">Resto del Mondo</div>
+            <div class="plat-detail">0.4K menzioni &bull; 2% del totale</div>
+          </div>
+        </div>
+        <div class="plat-right">
+          <div class="plat-status norm">STABILE</div>
+          <div class="plat-metrics"><span>&#9650; +3%</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
-<div class="al op"><div class="ab">Opportunità — Agire ora</div><h4>8 Marzo: Barilla già in posizione, amplificare</h4><p>Barilla ha comunicato le 3 storie di leadership femminile (copertura ANSA, Food Affairs, ParmaToday). Il tema #festadelladonna + #8marzo genera 37.5K conversazioni questa settimana. <strong>Barilla ha il contenuto giusto al momento giusto.</strong> Le 3 direttrici di stabilimento (Castiglione, Novara, Melfi) sono un asset narrativo potente: concretezza, non retorica.</p><span class="ac">↗ Amplifica con video-pillole delle direttrici</span></div>
-
-<div class="al op"><div class="ab">Opportunità — Finestra 48h</div><h4>Anti-Spreco: Fondazione Barilla con spot "Chi non spreca, ci guadagna"</h4><p>Lo spot è on air dal 9 marzo. L'approccio economico ("ci guadagna") è pragmatico. L'Eumetra indica che il 17% degli italiani chiede di più alle aziende sulla sostenibilità. Framing positivo, non colpevolizzante. Il tema sostenibilità raccoglie 621 post questa settimana.</p><span class="ac">↗ Rilancia con dati concreti sul risparmio familiare</span></div>
-
-<div class="al wa"><div class="ab">Monitorare</div><h4>Geopolitica: missile su base italiana a Erbil</h4><p>La notizia polarizza il dibattito. Non c'è legame con Barilla, ma il clima riduce attenzione su temi lifestyle/food. Evitare toni celebrativi nelle prossime 48h sui canali istituzionali.</p><span class="ac">⏸ Tono istituzionale, nessuna comunicazione a caldo</span></div>
-
-<div class="al in"><div class="ab">Contesto</div><h4>Referendum Giustizia 22-23 Marzo: attenzione in spostamento</h4><p>Tra 10 giorni l'agenda sarà dominata dal referendum. La finestra comunicativa è ADESSO (12-20 marzo). Dopo il 23 la conversazione tornerà disponibile.</p><span class="ac">ℹ Concentrare azioni entro il 20 marzo</span></div>
-
-<!-- BAR CHART: Volume 7gg -->
-<div class="cd" style="margin-top:20px">
-<div class="ct">Volume conversazioni monitorate — ultimi 7 giorni</div>
-<div class="bars" id="volChart"></div>
-<div class="bar-legend"><span><i style="background:rgba(193,24,91,.7)"></i> Instagram</span><span><i style="background:rgba(59,83,196,.7)"></i> TikTok</span><span><i style="background:rgba(204,0,0,.5)"></i> YouTube</span></div>
+<!-- ===== TICKER BAR ===== -->
+<div class="ticker-bar">
+  <div class="ticker-content" id="ticker">
+    <span>&#9679; BARILLA</span> <span class="tval">Brand Health 78</span> <span class="tup">&#9650;+3</span>
+    <span class="sep">|</span>
+    <span>&#9679; SENTIMENT</span> <span class="tval">+62 Net Score</span> <span class="tup">&#9650;+5</span>
+    <span class="sep">|</span>
+    <span>&#9679; INSTAGRAM</span> <span class="tval">3.8% ER</span> <span class="tup">&#9650;+0.3pp</span>
+    <span class="sep">|</span>
+    <span>&#9679; TIKTOK</span> <span class="tval">5.2% ER</span> <span class="tup">&#9650;+1.1pp</span>
+    <span class="sep">|</span>
+    <span>&#9679; SHARE OF VOICE</span> <span class="tval">34.7%</span> <span class="tup">&#9650;+2.1pp</span>
+    <span class="sep">|</span>
+    <span>&#9679; VOLUME 24H</span> <span class="tval">2,847 menzioni</span> <span class="tup">&#9650;+12%</span>
+    <span class="sep">|</span>
+    <span>&#9679; DE CECCO</span> <span class="tval">SoV 22.1%</span> <span class="tdown">&#9650;+18%</span>
+    <span class="sep">|</span>
+    <span>&#9679; PRESS</span> <span class="tval">87% positive</span> <span class="tup">stabile</span>
+    <span class="sep">|</span>
+    <span>&#9679; ALERT</span> <span class="tval tdown">Dibattito prezzi pasta</span> <span>47 segnali</span>
+    <span class="sep">|</span>
+    <!-- duplicate for seamless scroll -->
+    <span>&#9679; BARILLA</span> <span class="tval">Brand Health 78</span> <span class="tup">&#9650;+3</span>
+    <span class="sep">|</span>
+    <span>&#9679; SENTIMENT</span> <span class="tval">+62 Net Score</span> <span class="tup">&#9650;+5</span>
+    <span class="sep">|</span>
+    <span>&#9679; INSTAGRAM</span> <span class="tval">3.8% ER</span> <span class="tup">&#9650;+0.3pp</span>
+    <span class="sep">|</span>
+    <span>&#9679; TIKTOK</span> <span class="tval">5.2% ER</span> <span class="tup">&#9650;+1.1pp</span>
+    <span class="sep">|</span>
+    <span>&#9679; SHARE OF VOICE</span> <span class="tval">34.7%</span> <span class="tup">&#9650;+2.1pp</span>
+    <span class="sep">|</span>
+    <span>&#9679; VOLUME 24H</span> <span class="tval">2,847 menzioni</span> <span class="tup">&#9650;+12%</span>
+    <span class="sep">|</span>
+    <span>&#9679; DE CECCO</span> <span class="tval">SoV 22.1%</span> <span class="tdown">&#9650;+18%</span>
+    <span class="sep">|</span>
+    <span>&#9679; PRESS</span> <span class="tval">87% positive</span> <span class="tup">stabile</span>
+    <span class="sep">|</span>
+    <span>&#9679; ALERT</span> <span class="tval tdown">Dibattito prezzi pasta</span> <span>47 segnali</span>
+  </div>
 </div>
-
-</div></div>
-
-<!-- ══════ S2: AGENDA PUBBLICA ══════ -->
-<div class="sc" id="s2"><div class="w">
-<div class="sh"><h2>Agenda Pubblica</h2><p>Di cosa si parla in Italia sui social in questo momento. Quali temi dominano e dove Barilla può inserirsi con rilevanza.</p></div>
-
-<div class="g2">
-<div class="cd">
-<div class="ct">Temi dominanti questa settimana</div>
-<div class="tr"><div class="tk">1</div><div class="ti"><div class="n">#accadeoggi</div><div class="m">Attualità e news quotidiane</div></div><div class="tv"><div class="n">5.3K</div><div class="s">post/7gg</div></div></div>
-<div class="tr"><div class="tk">2</div><div class="ti"><div class="n">#festadelladonna / #8marzo</div><div class="m">Empowerment femminile, parità</div></div><div class="tv"><div class="n">3.2K</div><div class="s">post/7gg</div></div></div>
-<div class="tr"><div class="tk">3</div><div class="ti"><div class="n">#napoli / #seriea</div><div class="m">Sport, calcio italiano</div></div><div class="tv"><div class="n">2.8K</div><div class="s">post/7gg</div></div></div>
-<div class="tr"><div class="tk">4</div><div class="ti"><div class="n">#tiktokshop / #adv</div><div class="m">Creator economy, sponsored</div></div><div class="tv"><div class="n">4.1K</div><div class="s">post/7gg</div></div></div>
-<div class="tr"><div class="tk">5</div><div class="ti"><div class="n">#madeinitaly / #italy</div><div class="m">Orgoglio italiano, export</div></div><div class="tv"><div class="n">2.4K</div><div class="s">post/7gg</div></div></div>
-</div>
-
-<div class="cd">
-<div class="ct">Connessioni con i pillar Barilla</div>
-<div style="margin-bottom:18px"><h3 style="font-size:14px;font-weight:700;color:var(--grn);margin-bottom:6px">✦ Alta connessione</h3><p style="font-size:13px;color:var(--t2);line-height:1.7"><strong>#festadelladonna</strong> → Pillar PEOPLE & ESG. Barilla ha già comunicato. Le 3000 donne Barilla e le direttrici di stabilimento sono proof point concreti.<br><strong>#madeinitaly</strong> → Pillar HERITAGE. Barilla è archetipo del Made in Italy alimentare. In vista del 150° (2027), il legame è naturale.</p></div>
-<div style="margin-bottom:18px"><h3 style="font-size:14px;font-weight:700;color:var(--amb);margin-bottom:6px">◈ Connessione moderata</h3><p style="font-size:13px;color:var(--t2);line-height:1.7"><strong>#tiktokshop / #adv</strong> → L'economia dei creator è rilevante per la strategia ProteinPlus (già presente con ADV su IG). Monitorare la frequenza dei contenuti sponsorizzati.</p></div>
-<div><h3 style="font-size:14px;font-weight:700;color:var(--tm);margin-bottom:6px">○ Bassa connessione</h3><p style="font-size:13px;color:var(--t2);line-height:1.7"><strong>#napoli / #seriea</strong> → No legame diretto. Eventuale attivazione tattica solo per eventi straordinari (convivialità, snack).</p></div>
-</div>
-</div>
-
-<!-- Platform cards -->
-<div class="g3" style="margin-top:20px">
-<div style="text-align:center;padding:24px;background:#FCEEF1;border-radius:12px"><div style="font-size:28px;font-weight:800;color:#C1185B">124.8K</div><div style="font-size:12px;color:var(--tm);font-weight:600;margin-top:4px">INSTAGRAM</div><div style="font-size:13px;color:var(--t2);margin-top:6px">Eng. medio: 2.7K/post</div></div>
-<div style="text-align:center;padding:24px;background:#EEF1FD;border-radius:12px"><div style="font-size:28px;font-weight:800;color:#3B53C4">130.9K</div><div style="font-size:12px;color:var(--tm);font-weight:600;margin-top:4px">TIKTOK</div><div style="font-size:13px;color:var(--t2);margin-top:6px">Eng. medio: 2.1K/post</div></div>
-<div style="text-align:center;padding:24px;background:#FFF0F0;border-radius:12px"><div style="font-size:28px;font-weight:800;color:#CC0000">10.3K</div><div style="font-size:12px;color:var(--tm);font-weight:600;margin-top:4px">YOUTUBE</div><div style="font-size:13px;color:var(--t2);margin-top:6px">Eng. medio: 558/post</div></div>
-</div>
-
-<div class="rb"><h4>Implicazione strategica</h4><ul>
-<li>TikTok supera IG per volume ma IG domina per engagement/post — confermare IG come canale primario per comunicazione corporate</li>
-<li>La settimana dell'8 Marzo è una finestra d'oro: cavalcare con contenuti autentici (non stock, non retorici)</li>
-<li>Il tema #madeinitaly è terreno "owned" per Barilla: preparare contenuti heritage per pre-lancio 150°</li>
-</ul></div>
-</div></div>
-
-<!-- ══════ S3: BARILLA NEL CONVERSATION ══════ -->
-<div class="sc" id="s3"><div class="w">
-<div class="sh"><h2>Barilla nella Conversazione</h2><p>Analisi completa di tutte le menzioni Barilla negli ultimi 30 giorni. Chi ne parla, in quale contesto, con quale formato e quale sentiment.</p></div>
-
-<div class="g4" style="margin-bottom:24px">
-<div class="kp"><div class="v">37</div><div class="l">Menzioni totali (30gg)</div><div class="c" style="color:var(--t2)">11 Feb — 13 Mar 2026</div></div>
-<div class="kp"><div class="v">76%</div><div class="l">Da Instagram (28)</div><div class="c" style="color:var(--t2)">9 da TikTok</div></div>
-<div class="kp"><div class="v">2.7K</div><div class="l">Eng. medio/menzione</div><div class="c u">IG: 2.5K · TT: 3.4K</div></div>
-<div class="kp"><div class="v" style="color:var(--grn)">Positivo</div><div class="l">Sentimento prevalente</div><div class="c" style="color:var(--t2)">0 menzioni negative</div></div>
-</div>
-
-<!-- DETAILED MENTIONS TABLE -->
-<div class="cd" style="margin-bottom:20px">
-<div class="ct">Tutte le menzioni Barilla — Top 15 per engagement</div>
-<div style="overflow-x:auto">
-<table class="dt"><thead><tr><th>Creator</th><th></th><th>Tipo</th><th>Eng.</th><th>Views</th><th>ADV</th><th>Contesto</th><th>Data</th></tr></thead><tbody>
-<tr style="background:#F7FFF7"><td><strong>@vanessacasumusic</strong></td><td><span class="pt ig">IG</span></td><td>Reel</td><td><strong>11.2K</strong></td><td>362K</td><td>No</td><td>Cacio e pepe da non vedente — storytelling inclusivo</td><td>18 Feb</td></tr>
-<tr style="background:#FFF7F7"><td><strong>@emilypallini</strong></td><td><span class="pt tt">TT</span></td><td>Video</td><td><strong>11.0K</strong></td><td>189K</td><td style="color:var(--red);font-weight:600">Sì</td><td>Pranzo con Pasta Barilla Protein+ — ricetta veloce</td><td>16 Feb</td></tr>
-<tr style="background:#F7FFF7"><td><strong>@ciboserio</strong></td><td><span class="pt ig">IG</span></td><td>Reel</td><td><strong>9.9K</strong></td><td>299K</td><td>No</td><td>Confronto pasta Barilla vs Lidl — grano italiano</td><td>18 Feb</td></tr>
-<tr style="background:#F7FFF7"><td><strong>@marikarios</strong></td><td><span class="pt tt">TT</span></td><td>Video</td><td><strong>9.9K</strong></td><td>156K</td><td>No</td><td>Pasta a cuore Barilla per San Valentino — ASMR</td><td>15 Feb</td></tr>
-<tr style="background:#F7FFF7"><td><strong>@pizzaut_official</strong></td><td><span class="pt ig">IG</span></td><td>Carousel</td><td><strong>9.4K</strong></td><td>—</td><td>No</td><td>PASTAUT: ragazzi autistici con chef Barilla — inclusione</td><td>7 Mar</td></tr>
-<tr style="background:#F7FFF7"><td><strong>@markvonrama</strong></td><td><span class="pt ig">IG</span></td><td>Carousel</td><td><strong>8.3K</strong></td><td>—</td><td>No</td><td>FASHIONOTTI: biscotti Mulino Bianco + moda + AI</td><td>27 Feb</td></tr>
-<tr style="background:#FFF7F7"><td><strong>@emilypallini</strong></td><td><span class="pt ig">IG</span></td><td>Reel</td><td><strong>7.7K</strong></td><td>362K</td><td style="color:var(--red);font-weight:600">Sì</td><td>Pasta Barilla Protein+ — cross-post TT</td><td>16 Feb</td></tr>
-<tr style="background:#F7FFF7"><td><strong>@vanessacasumusic</strong></td><td><span class="pt ig">IG</span></td><td>Reel</td><td><strong>6.0K</strong></td><td>198K</td><td>No</td><td>Cacio e pepe parte finale — serie contenuti</td><td>21 Feb</td></tr>
-<tr style="background:#F7FFF7"><td><strong>@73mimmoperrone</strong></td><td><span class="pt tt">TT</span></td><td>Video</td><td><strong>5.6K</strong></td><td>120K</td><td>No</td><td>"Scarica Barilla" — meme virale, umorismo</td><td>16 Feb</td></tr>
-<tr style="background:#FFF7F7"><td><strong>@virginia.gambardella</strong></td><td><span class="pt ig">IG</span></td><td>Reel</td><td><strong>3.8K</strong></td><td>353K</td><td style="color:var(--red);font-weight:600">Sì</td><td>Meal prep domenicale con Protein+ — wellness</td><td>14 Feb</td></tr>
-<tr style="background:#FFF7F7"><td><strong>@myptrainer</strong></td><td><span class="pt tt">TT</span></td><td>Video</td><td><strong>2.4K</strong></td><td>2.5M</td><td style="color:var(--red);font-weight:600">Sì</td><td>Nutrizionista spiega pasta proteica — educational</td><td>13 Feb</td></tr>
-<tr style="background:#F7FFF7"><td><strong>@romanzo_calcistico</strong></td><td><span class="pt ig">IG</span></td><td>Carousel</td><td><strong>2.0K</strong></td><td>—</td><td>No</td><td>Maglie NR Roma con sponsor Barilla — nostalgia</td><td>28 Feb</td></tr>
-<tr style="background:#FFF7F7"><td><strong>@samuele_virzi</strong></td><td><span class="pt ig">IG</span></td><td>Reel</td><td><strong>1.9K</strong></td><td>108K</td><td style="color:var(--red);font-weight:600">Sì</td><td>3 pranzi in ufficio con mamma — Protein+</td><td>13 Feb</td></tr>
-<tr style="background:#FFF7F7"><td><strong>@samuele_virzi</strong></td><td><span class="pt ig">IG</span></td><td>Reel</td><td><strong>1.8K</strong></td><td>86K</td><td style="color:var(--red);font-weight:600">Sì</td><td>Adulting e pasta bilanciata — Protein+</td><td>12 Mar</td></tr>
-<tr style="background:#F7FFF7"><td><strong>@terryaurilio</strong></td><td><span class="pt ig">IG</span></td><td>Carousel</td><td><strong>1.6K</strong></td><td>—</td><td>No</td><td>Bimba 9 mesi mani in pasta — family content</td><td>28 Feb</td></tr>
-</tbody></table>
-</div>
-</div>
-
-<div class="g2">
-<div class="cd">
-<div class="ct">Breakdown: organico vs sponsorizzato</div>
-<div style="display:flex;gap:20px;align-items:center;margin-bottom:20px">
-<div style="flex:1">
-<div style="display:inline-block;width:100%;height:24px;border-radius:6px;overflow:hidden;background:#E2E8F0">
-<div style="width:70%;height:100%;background:var(--blue);display:inline-block"></div><div style="width:30%;height:100%;background:var(--red);display:inline-block"></div>
-</div>
-<div style="display:flex;justify-content:space-between;margin-top:6px">
-<span style="font-size:12px;color:var(--blue);font-weight:600">Organico 70% (26)</span>
-<span style="font-size:12px;color:var(--red);font-weight:600">ADV 30% (11)</span>
-</div>
-</div>
-</div>
-<div style="margin-bottom:16px"><h3 style="font-size:14px;font-weight:700;color:var(--blue);margin-bottom:6px">Organico: forte e diversificato</h3><p style="font-size:13px;color:var(--t2);line-height:1.7">Le menzioni organiche sono le più performanti. I 3 post con più engagement sono tutti organici: @vanessacasumusic (11.2K), @ciboserio (9.9K), @marikarios (9.9K). I temi: inclusione, confronto qualità, Valentine's.</p></div>
-<div><h3 style="font-size:14px;font-weight:700;color:var(--red);margin-bottom:6px">ADV: concentrato su ProteinPlus</h3><p style="font-size:13px;color:var(--t2);line-height:1.7">11 menzioni ADV, tutte per Pasta Barilla Protein+. Creator coinvolti: @emilypallini, @virginia.gambardella, @myptrainer, @samuele_virzi. Performance buone ma eng. rate inferiore all'organico. @myptrainer ha ottenuto 2.5M views con contenuto educational.</p></div>
-</div>
-
-<div class="cd">
-<div class="ct">Classificazione per narrativa</div>
-<div class="tr"><div class="tk" style="background:var(--blue)">1</div><div class="ti"><div class="n">Ricetta & Lifestyle</div><div class="m">Meal prep, pranzo veloce, cucina quotidiana</div></div><div class="tv"><div class="n">14</div><div class="s">menzioni</div></div></div>
-<div class="tr"><div class="tk" style="background:var(--grn)">2</div><div class="ti"><div class="n">Inclusione & Sociale</div><div class="m">PASTAUT autismo, disabilità visiva, family</div></div><div class="tv"><div class="n">5</div><div class="s">menzioni</div></div></div>
-<div class="tr"><div class="tk" style="background:var(--amb)">3</div><div class="ti"><div class="n">Prodotto & Qualità</div><div class="m">Confronto grano, pesto, Al Bronzo</div></div><div class="tv"><div class="n">4</div><div class="s">menzioni</div></div></div>
-<div class="tr"><div class="tk" style="background:#8B5CF6">4</div><div class="ti"><div class="n">Cultura & Heritage</div><div class="m">Meme, maglie storiche, Alixir case study</div></div><div class="tv"><div class="n">4</div><div class="s">menzioni</div></div></div>
-<div class="tr"><div class="tk" style="background:var(--red)">5</div><div class="ti"><div class="n">Corporate & Istituzionale</div><div class="m">Paolo Barilla a UNISG, propri canali</div></div><div class="tv"><div class="n">3</div><div class="s">menzioni</div></div></div>
-
-<div style="margin-top:18px;padding-top:14px;border-top:1px solid var(--bl)">
-<div class="ct">Hashtag più associati a Barilla</div>
-<div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:8px">
-<span style="background:#FEE2E2;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;color:#991B1B">#adv (8)</span>
-<span style="background:#F0F3F7;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:500">#pasta (6)</span>
-<span style="background:#FEE2E2;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:500;color:#991B1B">#pastabarillaproteinplus (4)</span>
-<span style="background:#F0F3F7;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:500">#cacioepepe (2)</span>
-<span style="background:#F0F3F7;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:500">#mulinobianco (2)</span>
-<span style="background:#F0F3F7;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:500">#mealprep (2)</span>
-<span style="background:#F0F3F7;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:500">#ai (2)</span>
-<span style="background:#F0F3F7;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:500">#ricettefacili (2)</span>
-</div>
-</div>
-</div>
-</div>
-
-<!-- SEGNALAZIONI -->
-<div class="g2" style="margin-top:20px">
-<div class="al op"><div class="ab">Segnale positivo</div><h4>PASTAUT: il contenuto con il maggior potenziale</h4><p>Il progetto PizzAut + Barilla (chef Zaccaria insegna pasta a ragazzi autistici) ha generato 10.8K engagement totale con 2 post di @pizzaut_official. È storytelling puro: inclusione reale, non dichiarativa. <strong>È il tipo di contenuto che i media riprendono.</strong></p></div>
-
-<div class="al wa"><div class="ab">Attenzione</div><h4>@ciboserio: confronto Barilla vs concorrente</h4><p>Il video confronta Barilla con una pasta Lidl sull'origine del grano (italiano vs non dichiarato). Non è negativo ma pone Barilla in posizione di "brand che non dichiara". 9.9K engagement, 2.6K share. Monitorare l'evoluzione del thread e commenti.</p></div>
-</div>
-
-<!-- TREND + FORMATI -->
-<div class="g2" style="margin-top:20px">
-<div class="cd">
-<div class="ct">Trend menzioni settimanali</div>
-<div style="display:flex;align-items:flex-end;gap:12px;height:120px;padding:12px 0">
-<div style="flex:1;text-align:center"><div style="background:var(--blue);border-radius:4px 4px 0 0;height:62px;margin:0 auto;width:40px"></div><div style="font-size:10px;color:var(--tm);margin-top:4px">9-15 Feb</div><div style="font-size:13px;font-weight:700">8</div></div>
-<div style="flex:1;text-align:center"><div style="background:var(--blue);border-radius:4px 4px 0 0;height:100px;margin:0 auto;width:40px"></div><div style="font-size:10px;color:var(--tm);margin-top:4px">16-22 Feb</div><div style="font-size:13px;font-weight:700;color:var(--blue)">13</div></div>
-<div style="flex:1;text-align:center"><div style="background:var(--blue);border-radius:4px 4px 0 0;height:46px;margin:0 auto;width:40px"></div><div style="font-size:10px;color:var(--tm);margin-top:4px">23 Feb-1 Mar</div><div style="font-size:13px;font-weight:700">6</div></div>
-<div style="flex:1;text-align:center"><div style="background:var(--blue);border-radius:4px 4px 0 0;height:54px;margin:0 auto;width:40px"></div><div style="font-size:10px;color:var(--tm);margin-top:4px">2-8 Mar</div><div style="font-size:13px;font-weight:700">7</div></div>
-<div style="flex:1;text-align:center"><div style="background:var(--red);border-radius:4px 4px 0 0;height:23px;margin:0 auto;width:40px"></div><div style="font-size:10px;color:var(--tm);margin-top:4px">9-13 Mar</div><div style="font-size:13px;font-weight:700">3</div></div>
-</div>
-<p style="font-size:12px;color:var(--tm);margin-top:8px">Picco nella settimana di San Valentino (16-22 Feb) per contenuti food + occasione. Settimana corrente in calo — dati parziali.</p>
-</div>
-
-<div class="cd">
-<div class="ct">Distribuzione per formato</div>
-<div style="margin-top:12px">
-<div style="display:flex;align-items:center;gap:12px;margin-bottom:12px"><div style="width:48%;height:22px;background:rgba(193,24,91,.7);border-radius:4px"></div><span style="font-size:13px;font-weight:600">Reel (18) — 49%</span></div>
-<div style="display:flex;align-items:center;gap:12px;margin-bottom:12px"><div style="width:24%;height:22px;background:rgba(59,83,196,.7);border-radius:4px"></div><span style="font-size:13px;font-weight:600">Video TT (9) — 24%</span></div>
-<div style="display:flex;align-items:center;gap:12px;margin-bottom:12px"><div style="width:19%;height:22px;background:var(--amb);border-radius:4px"></div><span style="font-size:13px;font-weight:600">Carousel (7) — 19%</span></div>
-<div style="display:flex;align-items:center;gap:12px"><div style="width:8%;height:22px;background:#CBD5E0;border-radius:4px"></div><span style="font-size:13px;font-weight:600">Post (3) — 8%</span></div>
-</div>
-<p style="font-size:12px;color:var(--tm);margin-top:16px">Il formato video breve (Reel + Video TT) domina il 73% delle menzioni. I carousel performano bene per contenuti narrativi (PASTAUT, Alixir story).</p>
-</div>
-</div>
-
-<div class="rb"><h4>Cosa significa per la comunicazione</h4><ul>
-<li><strong>Percezione sana, zero crisi:</strong> nessuna menzione negativa nei 30 giorni. Sentiment complessivo positivo. Terreno ideale per iniziative proattive.</li>
-<li><strong>L'organico performa meglio dell'ADV:</strong> i top 3 post sono tutti organici (inclusione, food heritage, Valentine's). Il brand funziona quando è autentico.</li>
-<li><strong>PASTAUT è l'asset nascosto:</strong> il progetto con PizzAut ha enorme potenziale PR. Barilla non lo sta amplificando abbastanza sui propri canali.</li>
-<li><strong>ProteinPlus domina il paid, ma manca il prodotto core:</strong> 11 post ADV tutti su Protein+. Zero ADV su pasta classica, sughi, Al Bronzo. Opportunità di diversificazione.</li>
-<li><strong>Volume di earned media basso:</strong> 26 menzioni organiche in 30gg. Serve una strategia per generare conversazione spontanea — UGC, challenge, PR push.</li>
-</ul></div>
-</div></div>
-
-<!-- ══════ S4: OPPORTUNITÀ & RISCHI ══════ -->
-<div class="sc" id="s4"><div class="w">
-<div class="sh"><h2>Opportunità & Rischi</h2><p>Mappatura strategica delle finestre comunicative, con valutazione dell'impatto reputazionale e raccomandazione operativa.</p></div>
-
-<h3 style="font-size:18px;font-weight:700;color:var(--grn);margin-bottom:16px">Opportunità attive</h3>
-
-<div class="al op"><div class="ab">Priorità alta — Timing perfetto</div><h4>Leadership femminile: dal comunicato alla conversazione</h4><p>La copertura stampa c'è (ANSA, Food Affairs, ParmaToday). Il passo successivo è <strong>conversazione social</strong>: video-pillole (30-60s) delle 3 direttrici — formato behind-the-scenes, non istituzionale. Su IG Reels e LinkedIn. Copy: zero retorica, solo fatti e voci reali.</p><p style="margin-top:8px;font-size:12px;font-weight:600;color:#065F46">Impatto: alto. Pillar People + ESG. Rischio reputazionale: minimo.</p></div>
-
-<div class="al op"><div class="ab">Priorità media — 2 settimane</div><h4>Anti-spreco: voce pragmatica della sostenibilità</h4><p>Lo spot "Chi non spreca, ci guadagna" parla al portafoglio, non al senso di colpa. 17% degli italiani (Eumetra) chiede più impegno. Il frame economico è più efficace del frame morale. Fondazione Barilla è asset credibile.</p><p style="margin-top:8px;font-size:12px;font-weight:600;color:#065F46">Impatto: medio-alto. Rischio: basso se si mantiene tono pragmatico.</p></div>
-
-<div class="al op"><div class="ab">Strategico — Lungo periodo</div><h4>#MadeInItaly: pre-lancio narrativa 150° anniversario</h4><p>Il tema genera 2.4K post/settimana ed è territorio "owned" per Barilla. Con il 150° nel 2027, ora è il momento di seminare. Contenuti food/Italy (es. @andrerieu 137.8K eng) dimostrano appetito del pubblico per italianità autentica.</p><p style="margin-top:8px;font-size:12px;font-weight:600;color:#065F46">Impatto: alto nel lungo periodo. Costruisce equity per 2027.</p></div>
-
-<h3 style="font-size:18px;font-weight:700;color:var(--red);margin:32px 0 16px">Rischi da monitorare</h3>
-
-<div class="al ri"><div class="ab">Rischio — Basso ma presente</div><h4>Saturazione ADV: il 24% delle menzioni Barilla è sponsored</h4><p>Un quarto delle menzioni social è taggato #adv. In un contesto dove la conversazione organica genera 3x più engagement dell'adv, l'eccesso di contenuti sponsorizzati può erodere l'autenticità. Rischio: essere percepiti come "brand che paga" anziché "brand di cui si parla".</p><span class="ac">⚠ Bilanciare ADV con earned media e UGC</span></div>
-
-<div class="al wa"><div class="ab">Monitorare — Contesto geopolitico</div><h4>Tensione internazionale: non è il momento per comunicazione leggera</h4><p>La notizia di Erbil è nei trending. Evitare nelle prossime 48-72h toni celebrativi o contenuti che possano sembrare fuori contesto. La comunicazione 8 Marzo è appropriata perché seria e valoriale.</p><span class="ac">⏸ Posticipare contenuti lifestyle leggeri di 48-72h</span></div>
-
-<div class="al wa"><div class="ab">Monitorare — Pre-referendum</div><h4>Finestra in chiusura: referendum 22-23 Marzo</h4><p>L'attenzione si sposterà verso il referendum. La disponibilità mentale per messaggi corporate calerà. Concentrare le iniziative nella settimana 12-20 marzo.</p><span class="ac">⏳ Agire entro il 20 Marzo</span></div>
-
-<!-- MATRIX -->
-<div class="cd" style="margin-top:24px">
-<div class="ct">Matrice Impatto × Urgenza</div>
-<div class="mx" style="margin-top:12px">
-<div class="mx-ax" style="bottom:8px;left:50%;transform:translateX(-50%)">IMPATTO REPUTAZIONALE →</div>
-<div class="mx-ax" style="left:8px;top:50%;transform:rotate(-90deg) translateX(-50%);transform-origin:left center">URGENZA →</div>
-<!-- dots positioned as % -->
-<div class="mx-dot" style="width:56px;height:56px;background:rgba(22,163,74,.75);left:85%;bottom:82%;transform:translate(-50%,50%)" title="8 Marzo Leadership">8M</div>
-<div class="mx-dot" style="width:48px;height:48px;background:rgba(22,163,74,.6);left:65%;bottom:62%;transform:translate(-50%,50%)" title="Anti-Spreco">AS</div>
-<div class="mx-dot" style="width:44px;height:44px;background:rgba(20,40,160,.55);left:75%;bottom:32%;transform:translate(-50%,50%)" title="Made in Italy Heritage">MI</div>
-<div class="mx-dot" style="width:36px;height:36px;background:rgba(227,25,55,.5);left:45%;bottom:42%;transform:translate(-50%,50%)" title="Saturazione ADV">AD</div>
-<div class="mx-dot" style="width:32px;height:32px;background:rgba(217,119,6,.55);left:25%;bottom:72%;transform:translate(-50%,50%)" title="Tensione geopolitica">GE</div>
-<div class="mx-dot" style="width:30px;height:30px;background:rgba(217,119,6,.45);left:35%;bottom:52%;transform:translate(-50%,50%)" title="Pre-referendum">RE</div>
-<!-- labels -->
-<div class="mx-label" style="left:calc(85% + 34px);bottom:calc(82% - 6px)">8 Marzo</div>
-<div class="mx-label" style="left:calc(65% + 30px);bottom:calc(62% - 6px)">Anti-Spreco</div>
-<div class="mx-label" style="left:calc(75% + 28px);bottom:calc(32% - 6px)">Heritage 150°</div>
-<div class="mx-label" style="left:calc(45% + 24px);bottom:calc(42% - 6px)">ADV Risk</div>
-<div class="mx-label" style="left:calc(25% - 60px);bottom:calc(72% + 20px)">Geopolitica</div>
-<div class="mx-label" style="left:calc(35% + 20px);bottom:calc(52% - 6px)">Referendum</div>
-<!-- quadrant lines -->
-<div style="position:absolute;left:50%;top:0;bottom:0;width:1px;background:var(--bd)"></div>
-<div style="position:absolute;top:50%;left:0;right:0;height:1px;background:var(--bd)"></div>
-<!-- quadrant labels -->
-<div style="position:absolute;right:12px;top:8px;font-size:9px;color:var(--grn);font-weight:700;text-transform:uppercase;letter-spacing:1px">Agire subito</div>
-<div style="position:absolute;left:12px;top:8px;font-size:9px;color:var(--amb);font-weight:700;text-transform:uppercase;letter-spacing:1px">Monitorare</div>
-<div style="position:absolute;right:12px;bottom:8px;font-size:9px;color:var(--blue);font-weight:700;text-transform:uppercase;letter-spacing:1px">Pianificare</div>
-<div style="position:absolute;left:12px;bottom:8px;font-size:9px;color:var(--tm);font-weight:700;text-transform:uppercase;letter-spacing:1px">Bassa priorità</div>
-</div>
-</div>
-
-</div></div>
-
-<!-- ══════ S5: VOCE DEL CONSUMATORE ══════ -->
-<div class="sc" id="s5"><div class="w">
-<div class="sh"><h2>Voce del Consumatore</h2><p>Come il consumatore italiano percepisce i temi rilevanti per Barilla. Dati Eumetra e GWI per comprendere atteggiamenti e potenziale ricettività.</p></div>
-
-<div class="g2">
-<div class="cd">
-<div class="ct">Sostenibilità: cosa chiedono i consumatori</div>
-<div style="text-align:center;padding:20px 0">
-<!-- CSS donut -->
-<div style="display:inline-block;width:160px;height:160px;border-radius:50%;background:conic-gradient(var(--blue) 0% 58%, var(--red) 58% 75%, #E2E8F0 75% 100%);position:relative">
-<div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:100px;height:100px;border-radius:50%;background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center">
-<div style="font-size:28px;font-weight:800;color:var(--red)">17%</div>
-<div style="font-size:9px;color:var(--tm)">CHIEDE DI PIÙ</div>
-</div>
-</div>
-</div>
-<div style="display:flex;gap:16px;justify-content:center;margin-top:8px">
-<span style="font-size:11px;color:var(--t2);display:flex;align-items:center;gap:5px"><i style="display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--blue)"></i>Soddisfatto (58%)</span>
-<span style="font-size:11px;color:var(--t2);display:flex;align-items:center;gap:5px"><i style="display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--red)"></i>Fare di più (17%)</span>
-<span style="font-size:11px;color:var(--t2);display:flex;align-items:center;gap:5px"><i style="display:inline-block;width:10px;height:10px;border-radius:2px;background:#E2E8F0"></i>NS/NR (25%)</span>
-</div>
-<div style="margin-top:18px"><div class="ct">Implicazione per Barilla</div><p style="font-size:13px;color:var(--t2);line-height:1.7">Il 17% è una minoranza significativa e vocale. Barilla non deve essere "attivista" ma <strong>brand pragmatico</strong> che fa cose concrete. Lo spot anti-spreco con focus economico è il tono perfetto: sostenibilità pratica, non ideologica.</p></div>
-</div>
-
-<div class="cd">
-<div class="ct">Conversazione Food: di cosa parla il consumatore</div>
-<p style="font-size:13px;color:var(--t2);line-height:1.7;margin-bottom:14px">Il panorama food (144K post in 14gg) è dominato da contenuti aspirazionali: ricette, salute, alimentazione sana.</p>
-<table class="dt"><thead><tr><th>Tema</th><th>Volume</th><th>Sentiment</th></tr></thead><tbody>
-<tr><td><strong>Salute & nutrizione</strong></td><td>41/sett.</td><td style="color:var(--grn)">Positivo</td></tr>
-<tr><td><strong>Alimentazione sana</strong></td><td>38/sett.</td><td style="color:var(--grn)">Positivo</td></tr>
-<tr><td><strong>Dieta & fitness</strong></td><td>34/sett.</td><td>Neutro</td></tr>
-<tr><td><strong>Benessere psicologico</strong></td><td>18/sett.</td><td style="color:var(--grn)">Positivo</td></tr>
-</tbody></table>
-<div style="margin-top:18px;padding-top:14px;border-top:1px solid var(--bl)">
-<div class="ct">Top Food Content — questa settimana</div>
-<table class="dt" style="margin-top:8px"><thead><tr><th>Creator</th><th></th><th>Engagement</th></tr></thead><tbody>
-<tr><td>@andrerieu</td><td><span class="pt ig">IG</span></td><td>137.8K</td></tr>
-<tr><td>@growingupitalian</td><td><span class="pt tt">TT</span></td><td>122.1K</td></tr>
-<tr><td>@calciatoribrutti</td><td><span class="pt ig">IG</span></td><td>108.9K</td></tr>
-</tbody></table>
-</div>
-</div>
-</div>
-
-<div class="rb" style="margin-top:20px"><h4>Come il consumatore riceverebbe la comunicazione Barilla oggi</h4><ul>
-<li><strong>Leadership femminile (8 Marzo):</strong> ricezione molto positiva. Tema caldo, tono appropriato. Le direttrici di stabilimento sono il "proof point" perfetto contro il cynicism.</li>
-<li><strong>Anti-spreco:</strong> ricezione positiva se il messaggio è pratico. Frame economico ("risparmio") più efficace del frame morale. Il consumatore vuole soluzioni, non prediche.</li>
-<li><strong>Heritage / Made in Italy:</strong> terreno sicuro e identitario. Contenuti su storia e tradizione generano orgoglio ed engagement organico.</li>
-<li><strong>Prodotto (ProteinPlus):</strong> buona ricettività nel contesto salute/fitness. Bilanciare ADV con contenuti editoriali/UGC.</li>
-</ul></div>
-</div></div>
-
-<!-- ══════ S6: RACCOMANDAZIONI ══════ -->
-<div class="sc" id="s6"><div class="w">
-<div class="sh"><h2>Raccomandazioni Operative</h2><p>Piano d'azione per la comunicazione corporate Barilla 12-20 Marzo 2026. Priorità per impatto e urgenza.</p></div>
-
-<div class="cd pr" style="border-color:var(--red)"><span class="pr-badge" style="background:var(--red)">PRIORITÀ 1</span><span class="pr-time">Entro 48 ore</span><h3>Amplificare 8 Marzo sui canali social</h3><p>Trasformare il comunicato in contenuto social nativo. Video-pillole (30-60s) delle 3 direttrici — behind-the-scenes, non istituzionale. IG Reels + LinkedIn. Copy: zero retorica, solo fatti e voci reali. "3 stabilimenti guidati da donne" è più potente di qualsiasi claim.</p><div class="pr-kpi"><div class="l">KPI ATTESI</div><p>Reach organico: 50K+ · Engagement rate: >2% · Earned media: 5+ riprese trade</p></div></div>
-
-<div class="cd pr" style="border-color:var(--amb)"><span class="pr-badge" style="background:var(--amb)">PRIORITÀ 2</span><span class="pr-time">Entro 1 settimana</span><h3>Push Fondazione Barilla: dati concreti anti-spreco</h3><p>Accompagnare lo spot con infografica social: dato Eumetra (17%), risparmio familiare possibile. Carosello IG 5 slide: dato → problema → soluzione → Barilla → CTA. Tono informativo, zero guilt-tripping.</p><div class="pr-kpi"><div class="l">KPI ATTESI</div><p>Save rate: >3% · Share rate: >1% · PR pick-up su dato Eumetra originale</p></div></div>
-
-<div class="cd pr" style="border-color:var(--blue)"><span class="pr-badge" style="background:var(--blue)">PRIORITÀ 3</span><span class="pr-time">Entro 2 settimane</span><h3>Audit earned vs paid: riequilibrare la share of voice</h3><p>24% menzioni = #adv. Attivare strategia UGC: challenge ("La mia ricetta Barilla in 15s"), micro-creator food (10-50K), re-sharing di contenuti organici. Target: rapporto earned/paid a 60/40 entro Q2.</p></div>
-
-<div class="cd pr" style="border-color:#8B5CF6"><span class="pr-badge" style="background:#8B5CF6">STRATEGICO</span><span class="pr-time">Q2 2026</span><h3>Seminare la narrativa del 150° Anniversario</h3><p>Iniziare a costruire equity: "Storie dalla Bottega" (origini), "150 Anni di Tavole Italiane" (archivio storico). Formato: docu-serie social 12 episodi (1/mese da aprile 2026 a marzo 2027).</p></div>
-
-<!-- CALENDAR -->
-<div class="cd" style="margin-top:16px">
-<div class="ct">Calendario comunicazione — Marzo 2026</div>
-<table class="dt" style="margin-top:12px"><thead><tr><th>Data</th><th>Azione</th><th>Canale</th><th>Stato</th></tr></thead><tbody>
-<tr><td>12-14 Mar</td><td><strong>Video direttrici 8 Marzo</strong></td><td>IG Reels + LinkedIn</td><td style="color:var(--red);font-weight:600">→ AGIRE ORA</td></tr>
-<tr><td>14-16 Mar</td><td>Infografica anti-spreco Fondazione</td><td>IG Carousel + Stories</td><td style="color:var(--amb);font-weight:600">Preparare</td></tr>
-<tr><td>17-19 Mar</td><td>Contenuto #MadeInItaly heritage</td><td>IG + TT</td><td style="color:var(--blue);font-weight:600">Pianificare</td></tr>
-<tr><td>20 Mar</td><td>⚠ Inizio silenzio pre-referendum</td><td>—</td><td style="color:var(--tm)">Standby</td></tr>
-<tr><td>22-23 Mar</td><td>Referendum: no comunicazione corporate</td><td>—</td><td style="color:var(--tm)">Pausa</td></tr>
-<tr><td>24+ Mar</td><td>Ripresa piano editoriale</td><td>Tutti</td><td style="color:var(--grn);font-weight:600">Riprogrammare</td></tr>
-</tbody></table>
-</div>
-
-<div class="syn"><h4>La sintesi in una frase</h4><p>Barilla oggi è in posizione reputazionale solida e senza crisi. Le prossime 8 giorni (12-20 marzo) sono una <strong>finestra d'oro</strong> per comunicare su leadership femminile, anti-spreco e heritage italiano prima che il referendum assorba l'agenda. Tono vincente: <strong>concreto, pragmatico, autentico</strong>.</p></div>
-</div></div>
-
-<!-- ══════ S7: RASSEGNA STAMPA ══════ -->
-<div class="sc" id="s7"><div class="w">
-<div class="sh"><h2>Rassegna Stampa</h2><p>Copertura mediatica di Barilla sulle principali testate nazionali e internazionali. Analisi del tono, dei temi e della visibilità earned sui media tradizionali e digitali.</p></div>
-
-<div class="g4" style="margin-bottom:24px">
-<div class="kp"><div class="v">47</div><div class="l">Articoli (ultimi 90gg)</div><div class="c u">+12% vs trimestre prec.</div></div>
-<div class="kp"><div class="v">32</div><div class="l">Testate coinvolte</div><div class="c" style="color:var(--t2)">Nazionali + trade + internazionali</div></div>
-<div class="kp"><div class="v" style="color:var(--grn)">92%</div><div class="l">Tono positivo / neutro</div><div class="c" style="color:var(--t2)">0% negativo · 8% critico costruttivo</div></div>
-<div class="kp"><div class="v">25°</div><div class="l">RepTrak Global 100</div><div class="c u">#1 Food Company al mondo</div></div>
-</div>
-
-<!-- TOP PRESS STORIES -->
-<div class="cd" style="margin-bottom:20px">
-<div class="ct">Notizie chiave — Ultimi 6 mesi</div>
-<div style="overflow-x:auto">
-<table class="dt"><thead><tr><th>Data</th><th>Testata</th><th>Notizia</th><th>Tono</th><th>Rilevanza</th></tr></thead><tbody>
-<tr style="background:#F7FFF7"><td>Mar 2026</td><td><strong>ANSA · Food Affairs · ParmaToday</strong></td><td>3 direttrici di stabilimento Barilla — leadership femminile</td><td style="color:var(--grn);font-weight:600">Positivo</td><td><span style="background:#D1FAE5;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:700;color:#065F46">ALTA</span></td></tr>
-<tr style="background:#F7FFF7"><td>Mar 2026</td><td><strong>Media nazionali</strong></td><td>Spot Fondazione Barilla "Chi non spreca, ci guadagna" — anti-spreco</td><td style="color:var(--grn);font-weight:600">Positivo</td><td><span style="background:#D1FAE5;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:700;color:#065F46">ALTA</span></td></tr>
-<tr style="background:#F7FFF7"><td>Gen 2026</td><td><strong>PRNewswire</strong></td><td>Protein+ miglior pasta proteica USA — blind taste test</td><td style="color:var(--grn);font-weight:600">Positivo</td><td><span style="background:#DBEAFE;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:700;color:#1E40AF">MEDIA</span></td></tr>
-<tr style="background:#F7FFF7"><td>Nov 2025</td><td><strong>BusinessWire · Morningstar · La Voce di NY</strong></td><td>Apertura BITE Innovation Center — €20M investimento, 200 esperti</td><td style="color:var(--grn);font-weight:600">Positivo</td><td><span style="background:#D1FAE5;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:700;color:#065F46">ALTA</span></td></tr>
-<tr style="background:#F7FFF7"><td>Lug 2025</td><td><strong>Corriere dello Sport · Mark Up · FoodWeb</strong></td><td>Rapporto Sostenibilità 2024 — €4.9 mld fatturato, roadmap green 2030</td><td style="color:var(--grn);font-weight:600">Positivo</td><td><span style="background:#D1FAE5;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:700;color:#065F46">ALTA</span></td></tr>
-<tr style="background:#F7FFF7"><td>Apr 2025</td><td><strong>BusinessWire · RepTrak</strong></td><td>Barilla #1 food company al mondo per reputazione — RepTrak 2025</td><td style="color:var(--grn);font-weight:600">Positivo</td><td><span style="background:#D1FAE5;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:700;color:#065F46">ALTA</span></td></tr>
-<tr><td>Gen 2025</td><td><strong>FoodWeb · Barilla Group</strong></td><td>Lancio Accademia del Basilico — coltivazione sostenibile</td><td style="color:var(--grn);font-weight:600">Positivo</td><td><span style="background:#DBEAFE;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:700;color:#1E40AF">MEDIA</span></td></tr>
-<tr><td>Set 2025</td><td><strong>Trade press</strong></td><td>Nomina Oddone Incisa a CFO — leadership renewal</td><td style="color:var(--t2)">Neutro</td><td><span style="background:#F0F3F7;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:700;color:#8896AB">BASSA</span></td></tr>
-</tbody></table>
-</div>
-</div>
-
-<div class="g2">
-<!-- TEMI STAMPA -->
-<div class="cd">
-<div class="ct">Temi dominanti nella copertura stampa</div>
-<div class="tr"><div class="tk" style="background:var(--grn)">1</div><div class="ti"><div class="n">Innovazione & R&D</div><div class="m">BITE Center, pasta 3D, Good Food Makers</div></div><div class="tv"><div class="n">14</div><div class="s">articoli</div></div></div>
-<div class="tr"><div class="tk" style="background:var(--blue)">2</div><div class="ti"><div class="n">Sostenibilità & ESG</div><div class="m">Report 2024, agricoltura rigenerativa, packaging</div></div><div class="tv"><div class="n">12</div><div class="s">articoli</div></div></div>
-<div class="tr"><div class="tk" style="background:var(--amb)">3</div><div class="ti"><div class="n">Prodotto & Mercato</div><div class="m">Protein+, Al Bronzo, export USA</div></div><div class="tv"><div class="n">9</div><div class="s">articoli</div></div></div>
-<div class="tr"><div class="tk" style="background:#8B5CF6">4</div><div class="ti"><div class="n">People & Corporate</div><div class="m">Leadership femminile, CFO, Fondazione</div></div><div class="tv"><div class="n">8</div><div class="s">articoli</div></div></div>
-<div class="tr"><div class="tk" style="background:var(--red)">5</div><div class="ti"><div class="n">Heritage & Brand</div><div class="m">Made in Italy, storia, 150° anniversario</div></div><div class="tv"><div class="n">4</div><div class="s">articoli</div></div></div>
-</div>
-
-<!-- TIPOLOGIA TESTATE -->
-<div class="cd">
-<div class="ct">Distribuzione per tipologia testata</div>
-<div style="margin-top:16px">
-<div style="display:flex;align-items:center;gap:12px;margin-bottom:14px"><div style="width:38%;height:24px;background:var(--blue);border-radius:4px"></div><span style="font-size:13px;font-weight:600">Trade / settore food (38%)</span></div>
-<div style="display:flex;align-items:center;gap:12px;margin-bottom:14px"><div style="width:26%;height:24px;background:var(--grn);border-radius:4px"></div><span style="font-size:13px;font-weight:600">Generalisti nazionali (26%)</span></div>
-<div style="display:flex;align-items:center;gap:12px;margin-bottom:14px"><div style="width:21%;height:24px;background:var(--amb);border-radius:4px"></div><span style="font-size:13px;font-weight:600">Business / finanza (21%)</span></div>
-<div style="display:flex;align-items:center;gap:12px"><div style="width:15%;height:24px;background:#8B5CF6;border-radius:4px"></div><span style="font-size:13px;font-weight:600">Internazionali (15%)</span></div>
-</div>
-<div style="margin-top:20px;padding-top:14px;border-top:1px solid var(--bl)">
-<div class="ct">Testate con maggiore copertura</div>
-<div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px">
-<span style="background:#EBF4FF;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;color:var(--blue)">BusinessWire (4)</span>
-<span style="background:#F0F3F7;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:500">ANSA (3)</span>
-<span style="background:#F0F3F7;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:500">Corriere dello Sport (2)</span>
-<span style="background:#F0F3F7;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:500">Food Affairs (2)</span>
-<span style="background:#F0F3F7;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:500">Mark Up (2)</span>
-<span style="background:#F0F3F7;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:500">FoodWeb (2)</span>
-<span style="background:#F0F3F7;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:500">La Voce di NY (1)</span>
-<span style="background:#F0F3F7;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:500">Morningstar (1)</span>
-<span style="background:#F0F3F7;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:500">PRNewswire (1)</span>
-<span style="background:#F0F3F7;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:500">Il Fatto Quotidiano (1)</span>
-</div>
-</div>
-</div>
-</div>
-
-<!-- DATI CHIAVE STAMPA -->
-<div class="g3" style="margin-top:20px">
-<div style="text-align:center;padding:24px;background:#F0FFF4;border-radius:12px"><div style="font-size:28px;font-weight:800;color:var(--grn)">€4.9 mld</div><div style="font-size:12px;color:var(--tm);font-weight:600;margin-top:4px">FATTURATO 2024</div><div style="font-size:13px;color:var(--t2);margin-top:6px">+1.7% al netto del cambio</div></div>
-<div style="text-align:center;padding:24px;background:#EBF4FF;border-radius:12px"><div style="font-size:28px;font-weight:800;color:var(--blue)">€300M</div><div style="font-size:12px;color:var(--tm);font-weight:600;margin-top:4px">INVESTIMENTI</div><div style="font-size:13px;color:var(--t2);margin-top:6px">Innovazione + sviluppo industriale</div></div>
-<div style="text-align:center;padding:24px;background:#FFFBEB;border-radius:12px"><div style="font-size:28px;font-weight:800;color:var(--amb)">48%</div><div style="font-size:12px;color:var(--tm);font-weight:600;margin-top:4px">ENERGIA RINNOVABILE</div><div style="font-size:13px;color:var(--t2);margin-top:6px">Obiettivo: 24MW fotovoltaico al 2030</div></div>
-</div>
-
-<!-- ALERT STAMPA -->
-<div class="al op" style="margin-top:20px"><div class="ab">Highlight stampa</div><h4>RepTrak 2025: Barilla prima azienda food al mondo per reputazione</h4><p>Barilla si è posizionata al 25° posto nella classifica RepTrak Global 100 2025, guadagnando 4 posizioni rispetto al 2024 e confermandosi come <strong>prima azienda alimentare al mondo</strong> per reputazione. Un asset strategico da comunicare con continuità.</p><span class="ac">↗ Integrare in ogni comunicazione corporate come proof point</span></div>
-
-<div class="al in" style="margin-top:12px"><div class="ab">Nota strategica</div><h4>BITE Innovation Center: la narrativa dell'innovazione è forte</h4><p>L'apertura del centro R&D da 14.000 mq a Parma ha generato copertura internazionale (Morningstar, La Voce di NY, Food & Drink Technology). 200 esperti, €20M di investimento. La narrativa "Barilla che investe nel futuro del cibo italiano" funziona trasversalmente su testate business, trade e generaliste.</p><span class="ac">ℹ Pianificare visite stampa periodiche al BITE Center</span></div>
-
-<div class="rb" style="margin-top:20px"><h4>Implicazioni per la comunicazione corporate</h4><ul>
-<li><strong>Stampa allineata con la reputazione social:</strong> tono 92% positivo/neutro sui media tradizionali, coerente con il sentiment social (zero crisi). Segnale di salute reputazionale complessiva.</li>
-<li><strong>Innovazione è la narrativa più forte:</strong> BITE Center e R&D generano il maggior volume stampa (14 articoli). Barilla è percepita come innovatore, non solo come heritage brand.</li>
-<li><strong>Sostenibilità credibile:</strong> il Report 2024 con dati concreti (€300M investimenti, 48% rinnovabili, 7.000 agricoltori coinvolti) costruisce credibilità. Da usare come fonte in ogni comunicazione ESG.</li>
-<li><strong>Gap: poca stampa su heritage e 150°:</strong> solo 4 articoli su brand/heritage. Serve una strategia PR dedicata per il pre-lancio narrativa del 150° anniversario (2027).</li>
-<li><strong>Internazionalizzazione stampa:</strong> 15% copertura internazionale, trainata da BITE e RepTrak. Potenziale per aumentare con lancio Protein+ e espansione USA.</li>
-</ul></div>
-
-</div></div>
-
-<!-- ══════ S8: SINTESI RADAR ══════ -->
-<div class="sc" id="s8"><div class="w">
-<div class="sh"><h2>Sintesi Radar</h2><p>Quadro sinottico della reputazione Barilla su 8 dimensioni chiave. Punteggio 0-100 basato sull'analisi incrociata dei dati social, consumer intelligence, rassegna stampa e agenda pubblica.</p></div>
-
-<div class="g2">
-<div class="cd" style="display:flex;align-items:center;justify-content:center;min-height:440px">
-<svg id="radarSvg" viewBox="0 0 500 500" style="width:100%;max-width:460px"></svg>
-</div>
-
-<div class="cd">
-<div class="ct">Dettaglio Dimensioni</div>
-<div id="radarLegend" style="margin-top:8px"></div>
-<div style="margin-top:20px;padding:16px;background:var(--grn-bg);border-radius:10px;border:1px solid #D1FAE5">
-<div style="font-size:11px;text-transform:uppercase;letter-spacing:1px;font-weight:700;color:#065F46;margin-bottom:6px">Score complessivo</div>
-<div style="font-size:38px;font-weight:800;color:#065F46;letter-spacing:-1px" id="radarScore">—</div>
-<div style="font-size:12px;color:#065F46;margin-top:4px">Posizione reputazionale <strong>solida</strong></div>
-</div>
-
-<div style="margin-top:14px;padding:16px;background:var(--blu-bg);border-radius:10px;border:1px solid #BFDBFE">
-<div style="font-size:11px;text-transform:uppercase;letter-spacing:1px;font-weight:700;color:#1E40AF;margin-bottom:8px">Lettura rapida</div>
-<div style="font-size:13px;color:var(--t2);line-height:1.65">
-Barilla registra eccellenza su <strong>sentiment</strong> e <strong>heritage</strong>, con una base consumer solida. Le aree di maggiore opportunità sono il <strong>volume di menzioni organiche</strong> e la <strong>diversificazione piattaforme</strong> (forte dipendenza da Instagram). Nessun segnale di crisi attivo.
-</div>
-</div>
-</div>
-</div>
-
-<!-- 8 KPI mini-cards -->
-<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:20px" id="radarCards"></div>
-
-<!-- Interpretazione -->
-<div class="cd" style="margin-top:20px">
-<div class="ct">Interpretazione Strategica</div>
-<div class="g2" style="margin-top:12px;gap:16px">
-<div>
-<h4 style="font-size:14px;font-weight:700;color:var(--grn);margin-bottom:8px">● Punti di forza</h4>
-<ul style="list-style:none;padding:0">
-<li style="padding:5px 0;font-size:13px;color:var(--t2);padding-left:16px;position:relative"><span style="position:absolute;left:0;color:var(--grn)">✓</span>Sentiment positivo costante — zero crisi reputazionali attive</li>
-<li style="padding:5px 0;font-size:13px;color:var(--t2);padding-left:16px;position:relative"><span style="position:absolute;left:0;color:var(--grn)">✓</span>Heritage e italianità come asset forti e difendibili</li>
-<li style="padding:5px 0;font-size:13px;color:var(--t2);padding-left:16px;position:relative"><span style="position:absolute;left:0;color:var(--grn)">✓</span>Engagement rate sopra media di categoria</li>
-<li style="padding:5px 0;font-size:13px;color:var(--t2);padding-left:16px;position:relative"><span style="position:absolute;left:0;color:var(--grn)">✓</span>Allineamento con valori consumer (anti-spreco, sostenibilità)</li>
-</ul>
-</div>
-<div>
-<h4 style="font-size:14px;font-weight:700;color:var(--amb);margin-bottom:8px">● Aree di miglioramento</h4>
-<ul style="list-style:none;padding:0">
-<li style="padding:5px 0;font-size:13px;color:var(--t2);padding-left:16px;position:relative"><span style="position:absolute;left:0;color:var(--amb)">!</span>Volume menzioni limitato — serve push organico</li>
-<li style="padding:5px 0;font-size:13px;color:var(--t2);padding-left:16px;position:relative"><span style="position:absolute;left:0;color:var(--amb)">!</span>Dipendenza da Instagram (76%) — diversificare su TikTok</li>
-<li style="padding:5px 0;font-size:13px;color:var(--t2);padding-left:16px;position:relative"><span style="position:absolute;left:0;color:var(--amb)">!</span>Rapporto ADV/Organico (30/70) da migliorare verso earned</li>
-<li style="padding:5px 0;font-size:13px;color:var(--t2);padding-left:16px;position:relative"><span style="position:absolute;left:0;color:var(--amb)">!</span>Trend settimanale in calo — serve pipeline contenuti</li>
-</ul>
-</div>
-</div>
-</div>
-
-<div class="syn"><h4>Il verdict in una frase</h4><p>Barilla è in una <strong>posizione reputazionale solida (score 72/100)</strong> con eccellenza in sentiment e heritage, ma necessita di incrementare il <strong>volume organico</strong> e <strong>diversificare le piattaforme</strong> per trasformare una buona reputazione in autentica leadership di conversazione.</p></div>
-</div></div>
-
-<!-- FOOTER -->
-<footer class="ft"><div class="w">
-<p>Barilla Radar Reputazionale — 12 Marzo 2026</p>
-<p class="pw">Fonti: AIQ Social Intelligence · GWI Consumer Intelligence · Eumetra Survey · Rassegna Stampa & Web Monitoring</p>
-</div></footer>
 
 <script>
-function go(i){document.querySelectorAll('.sc').forEach(function(s,j){s.classList.toggle('a',j===i)});document.querySelectorAll('.nb').forEach(function(b,j){b.classList.toggle('a',j===i)});window.scrollTo({top:0,behavior:'smooth'})}
+// ===== OPENSEARCH CONFIG =====
+const OS_URL = 'http://34.249.17.211:4443/euQesdfkoYcHeCHackathonPl';
+const OS_INDEX = 'channel_posts';
+const OS_AUTH = 'Basic ' + btoa('e.mazzi:bSv3LmrHR9xTET!');
 
-// CSS bar chart
-(function(){
-var d=[
-{l:'5 Mar',ig:2100,tt:2300,yt:800},
-{l:'6 Mar',ig:18200,tt:19600,yt:7300},
-{l:'7 Mar',ig:15800,tt:17100,yt:6300},
-{l:'8 Mar',ig:16300,tt:17500,yt:6400},
-{l:'9 Mar',ig:17800,tt:19200,yt:7100},
-{l:'10 Mar',ig:17600,tt:19100,yt:7100},
-{l:'11 Mar',ig:16200,tt:17700,yt:6600},
-{l:'12 Mar',ig:3200,tt:3400,yt:1200}
-];
-var mx=0;d.forEach(function(r){var t=r.ig+r.tt+r.yt;if(t>mx)mx=t});
-var c=document.getElementById('volChart');if(!c)return;
-d.forEach(function(r){
-var g=document.createElement('div');g.className='bar-group';
-var s=document.createElement('div');s.className='bar-stack';s.style.height='160px';s.style.display='flex';s.style.flexDirection='column-reverse';
-var total=r.ig+r.tt+r.yt;
-var h=function(v,col){var b=document.createElement('div');b.style.height=(v/mx*100)+'%';b.style.background=col;b.style.borderRadius='2px';b.style.minHeight='1px';return b};
-s.appendChild(h(r.ig,'rgba(193,24,91,.7)'));
-s.appendChild(h(r.tt,'rgba(59,83,196,.7)'));
-s.appendChild(h(r.yt,'rgba(204,0,0,.5)'));
-var lb=document.createElement('div');lb.className='bar-label';lb.textContent=r.l;
-var vl=document.createElement('div');vl.style.cssText='font-size:11px;font-weight:600;color:#4A5568;margin-top:2px';vl.textContent=total>=1000?Math.round(total/1000)+'K':total;
-g.appendChild(s);g.appendChild(lb);g.appendChild(vl);c.appendChild(g);
-});
-})();
-
-// RADAR CHART — SVG
-(function(){
-var dims=[
-{label:'Sentiment',score:85,color:'#16A34A',desc:'Tono positivo nelle menzioni. Zero crisi attive, feedback costruttivo prevalente.'},
-{label:'Engagement',score:78,color:'#1428A0',desc:'Engagement rate medio 2.7K per post, sopra media food. IG 2,458 / TT 3,396.'},
-{label:'Volume',score:52,color:'#D97706',desc:'37 menzioni in 7 giorni. Volume contenuto, spazio per crescita organica.'},
-{label:'Heritage',score:88,color:'#16A34A',desc:'Narrativa "Made in Italy" forte. 150° anniversario come asset strategico.'},
-{label:'Consumer Fit',score:75,color:'#1428A0',desc:'Allineamento con valori anti-spreco e benessere. GWI conferma risonanza.'},
-{label:'Platform Mix',score:48,color:'#D97706',desc:'76% Instagram, 24% TikTok, 0% YouTube. Forte dipendenza mono-piattaforma.'},
-{label:'Earned vs Paid',score:65,color:'#1428A0',desc:'70% organico, 30% ADV. Buon rapporto ma margine di miglioramento su earned.'},
-{label:'Risk Shield',score:82,color:'#16A34A',desc:'Nessun segnale di crisi. Solo attenzione su @ciboserio (gestibile).'}
-];
-var cx=250,cy=250,R=180,n=dims.length;
-var svg=document.getElementById('radarSvg');
-if(!svg)return;
-function pt(i,r){var a=Math.PI*2*i/n-Math.PI/2;return[cx+r*Math.cos(a),cy+r*Math.sin(a)]}
-function poly(pts){return pts.map(function(p,i){return(i?'L':'M')+p[0]+','+p[1]}).join('')+'Z'}
-// grid
-[20,40,60,80,100].forEach(function(pct){
-var pts=[];for(var i=0;i<n;i++)pts.push(pt(i,R*pct/100));
-var p=document.createElementNS('http://www.w3.org/2000/svg','path');
-p.setAttribute('d',poly(pts));p.setAttribute('fill','none');
-p.setAttribute('stroke',pct===100?'#D6DFFF':'#E8ECF1');p.setAttribute('stroke-width',pct===100?'1.5':'0.7');
-svg.appendChild(p);
-if(pct%40===0){var t=document.createElementNS('http://www.w3.org/2000/svg','text');t.setAttribute('x',cx+4);t.setAttribute('y',cy-R*pct/100+4);t.setAttribute('fill','#8896AB');t.setAttribute('font-size','10');t.textContent=pct;svg.appendChild(t)}
-});
-// axes
-for(var i=0;i<n;i++){
-var ep=pt(i,R);
-var l=document.createElementNS('http://www.w3.org/2000/svg','line');
-l.setAttribute('x1',cx);l.setAttribute('y1',cy);l.setAttribute('x2',ep[0]);l.setAttribute('y2',ep[1]);
-l.setAttribute('stroke','#E8ECF1');l.setAttribute('stroke-width','0.7');svg.appendChild(l);
-// label
-var lp=pt(i,R+28);
-var t=document.createElementNS('http://www.w3.org/2000/svg','text');
-t.setAttribute('x',lp[0]);t.setAttribute('y',lp[1]+4);t.setAttribute('text-anchor','middle');
-t.setAttribute('fill','#4A5568');t.setAttribute('font-size','11');t.setAttribute('font-weight','600');
-t.textContent=dims[i].label;svg.appendChild(t);
-// score at vertex
-var sp=pt(i,R*dims[i].score/100);
-var c=document.createElementNS('http://www.w3.org/2000/svg','circle');
-c.setAttribute('cx',sp[0]);c.setAttribute('cy',sp[1]);c.setAttribute('r','5');
-c.setAttribute('fill',dims[i].color);c.setAttribute('stroke','#fff');c.setAttribute('stroke-width','2');
-svg.appendChild(c);
+async function osQuery(body, endpoint = '_search') {
+  try {
+    const res = await fetch(`${OS_URL}/${OS_INDEX}/${endpoint}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Authorization': OS_AUTH },
+      body: JSON.stringify(body)
+    });
+    if (!res.ok) throw new Error(`OS ${res.status}`);
+    return await res.json();
+  } catch(e) { console.warn('OpenSearch query failed:', e.message); return null; }
 }
-// filled polygon
-var dpts=[];for(var i=0;i<n;i++)dpts.push(pt(i,R*dims[i].score/100));
-var dp=document.createElementNS('http://www.w3.org/2000/svg','path');
-dp.setAttribute('d',poly(dpts));dp.setAttribute('fill','rgba(20,40,160,.12)');dp.setAttribute('stroke','#1428A0');dp.setAttribute('stroke-width','2.5');
-svg.appendChild(dp);
-// avg score
-var total=0;dims.forEach(function(d){total+=d.score});
-var avg=Math.round(total/n);
-document.getElementById('radarScore').textContent=avg+'/100';
-// legend items
-var leg=document.getElementById('radarLegend');
-dims.forEach(function(d){
-var row=document.createElement('div');row.style.cssText='display:flex;align-items:center;justify-content:space-between;padding:7px 0;border-bottom:1px solid #F0F3F7';
-var left=document.createElement('div');left.style.cssText='display:flex;align-items:center;gap:8px';
-var dot=document.createElement('span');dot.style.cssText='width:8px;height:8px;border-radius:50%;background:'+d.color+';flex-shrink:0';
-var lbl=document.createElement('span');lbl.style.cssText='font-size:12px;color:#4A5568';lbl.textContent=d.label;
-left.appendChild(dot);left.appendChild(lbl);
-var sc=document.createElement('span');sc.style.cssText='font-size:13px;font-weight:700;color:'+d.color;sc.textContent=d.score;
-row.appendChild(left);row.appendChild(sc);leg.appendChild(row);
+
+// ===== LOAD REAL DATA =====
+async function loadLiveData() {
+  const days = parseInt(document.querySelector('.tf-btn.active')?.dataset.range?.replace(/[^0-9]/g,'')) || 7;
+  const daysNum = days <= 1 ? 1 : days;
+  const from = new Date(Date.now() - daysNum * 86400000).toISOString();
+  const prevFrom = new Date(Date.now() - daysNum * 2 * 86400000).toISOString();
+
+  // 1) Main aggregations query
+  const mainResult = await osQuery({
+    size: 0,
+    track_total_hits: true,
+    query: { range: { published_at: { gte: from } } },
+    aggs: {
+      platforms: { terms: { field: 'channel.type', size: 10 } },
+      total_engagement: { sum: { field: 'engagement' } },
+      avg_er: { avg: { field: 'engagement_rate' } },
+      daily_volume: {
+        date_histogram: { field: 'published_at', calendar_interval: 'day' },
+        aggs: { engagement: { sum: { field: 'engagement' } } }
+      },
+      top_hashtags: { terms: { field: 'hashtags', size: 20 } },
+      sponsored: { filter: { term: { is_sponsored: true } } },
+      hourly_volume: {
+        date_histogram: { field: 'published_at', calendar_interval: 'hour' },
+        aggs: { engagement: { sum: { field: 'engagement' } } }
+      }
+    }
+  });
+
+  // 2) Previous period for comparison
+  const prevResult = await osQuery({
+    size: 0,
+    track_total_hits: true,
+    query: { range: { published_at: { gte: prevFrom, lte: from } } },
+    aggs: {
+      total_engagement: { sum: { field: 'engagement' } },
+      avg_er: { avg: { field: 'engagement_rate' } }
+    }
+  });
+
+  // 3) Latest posts for feed
+  const latestPosts = await osQuery({
+    size: 30,
+    sort: [{ published_at: 'desc' }],
+    query: { range: { published_at: { gte: from } } },
+    _source: ['caption', 'channel.name', 'channel.type', 'engagement', 'engagement_rate', 'published_at', 'hashtags', 'post_type', 'is_sponsored', 'followers', 'image_url']
+  });
+
+  // 4) Top creators by engagement
+  const topCreators = await osQuery({
+    size: 0,
+    query: { range: { published_at: { gte: from } } },
+    aggs: {
+      creators: {
+        terms: { field: 'channel.name', size: 10, order: { total_eng: 'desc' } },
+        aggs: {
+          total_eng: { sum: { field: 'engagement' } },
+          platform: { terms: { field: 'channel.type', size: 1 } },
+          followers: { max: { field: 'followers' } }
+        }
+      }
+    }
+  });
+
+  if (!mainResult) return; // OpenSearch unreachable, keep demo data
+
+  const aggs = mainResult.aggregations;
+  const curTotal = mainResult.hits.total.value;
+  const prevTotal = prevResult ? prevResult.hits.total.value : 0;
+  const avgER = aggs.avg_er.value || 0;
+  const totalEng = aggs.total_engagement.value || 0;
+  const platforms = aggs.platforms.buckets;
+  const sponsoredCount = aggs.sponsored.doc_count;
+  const organicCount = curTotal - sponsoredCount;
+  const earnedPaidRatio = curTotal > 0 ? organicCount / curTotal : 0;
+  const volumeChange = prevTotal > 0 ? ((curTotal - prevTotal) / prevTotal * 100) : 0;
+  const prevAvgER = prevResult?.aggregations?.avg_er?.value || 0;
+  const erChange = prevAvgER > 0 ? ((avgER - prevAvgER) / prevAvgER * 100) : 0;
+
+  // Platform diversity (entropy)
+  const platCounts = platforms.map(p => p.doc_count);
+  const platTotal = platCounts.reduce((a,b) => a+b, 0) || 1;
+  const entropy = platCounts.reduce((acc, c) => { const p = c/platTotal; return p>0 ? acc - p*Math.log2(p) : acc; }, 0);
+  const maxEntropy = Math.log2(Math.max(platforms.length, 1)) || 1;
+  const platformMixScore = Math.round((entropy / maxEntropy) * 100);
+
+  // Compute dimension scores
+  const dimensions = [
+    { name: 'Sentiment', score: Math.min(100, Math.round(50 + avgER * 2000)), color: 'var(--green)' },
+    { name: 'Engagement', score: Math.min(100, Math.round(avgER * 5000)), color: 'var(--accent2)' },
+    { name: 'Volume', score: Math.min(100, Math.round(curTotal / (daysNum * 0.5) * 10)), color: 'var(--accent)' },
+    { name: 'Heritage', score: 88, color: 'var(--green)' },
+    { name: 'Consumer Fit', score: 75, color: 'var(--cyan)' },
+    { name: 'Platform Mix', score: platformMixScore, color: platformMixScore > 60 ? 'var(--green)' : 'var(--amber)' },
+    { name: 'Earned vs Paid', score: Math.round(earnedPaidRatio * 100), color: 'var(--green)' },
+    { name: 'Risk Shield', score: 82, color: 'var(--green)' },
+  ];
+  const overallScore = Math.round(dimensions.reduce((s,d) => s+d.score, 0) / dimensions.length);
+
+  // ===== UPDATE UI =====
+
+  // Brand Health Score
+  const gaugeVal = document.getElementById('gaugeVal');
+  gaugeVal.textContent = overallScore;
+  const gaugeColor = overallScore >= 75 ? 'var(--green)' : overallScore >= 55 ? 'var(--amber)' : 'var(--red)';
+  gaugeVal.style.color = gaugeColor;
+  const gaugeLabel = overallScore >= 75 ? 'Stabile' : overallScore >= 55 ? 'Attenzione' : 'Critico';
+  gaugeVal.nextElementSibling.textContent = gaugeLabel;
+  gaugeVal.nextElementSibling.style.color = gaugeColor;
+
+  // Health badge in topbar
+  const hb = document.getElementById('healthBadge');
+  hb.textContent = `SCORE ${overallScore} — ${gaugeLabel.toUpperCase()}`;
+  hb.className = 'health-badge ' + (overallScore >= 75 ? 'good' : overallScore >= 55 ? 'warn' : 'crit');
+
+  // Gauge arc offset
+  const arcOffset = 204 - (overallScore / 100 * 204);
+  document.getElementById('gaugeArc').setAttribute('stroke-dashoffset', arcOffset);
+
+  // Subbar stats
+  document.getElementById('mentions24h').textContent = curTotal.toLocaleString();
+  document.querySelector('.subbar-stat .up')?.replaceWith(Object.assign(document.createElement('span'), {
+    className: volumeChange >= 0 ? 'up' : 'down',
+    textContent: `${volumeChange >= 0 ? '+' : ''}${volumeChange.toFixed(1)}%`
+  }));
+
+  // Dimensions
+  const dimEl = document.getElementById('dimensionScores');
+  dimEl.innerHTML = dimensions.map(d => `
+    <div class="dim-item">
+      <div class="dim-name">${d.name}</div>
+      <div class="dim-bar-bg"><div class="dim-bar-fill" style="width:${d.score}%;background:${d.color};"></div></div>
+      <div class="dim-score" style="color:${d.color}">${d.score}</div>
+    </div>
+  `).join('');
+
+  // Volume chart from daily data
+  const dailyData = aggs.daily_volume.buckets;
+  if (dailyData.length > 0) {
+    const volEl = document.getElementById('volumeChart');
+    const maxVol = Math.max(...dailyData.map(d => d.doc_count)) * 1.1;
+    volEl.innerHTML = '';
+    dailyData.forEach(d => {
+      const bar = document.createElement('div');
+      bar.className = 'chart-bar';
+      bar.style.height = (d.doc_count / maxVol * 100) + '%';
+      bar.style.background = 'var(--accent2)';
+      bar.title = `${new Date(d.key).toLocaleDateString('it-IT')}: ${d.doc_count} post`;
+      volEl.appendChild(bar);
+    });
+    const labels = document.querySelector('.chart-labels');
+    if (dailyData.length <= 7) {
+      const dayNames = ['Dom','Lun','Mar','Mer','Gio','Ven','Sab'];
+      labels.innerHTML = dailyData.map(d => `<span>${dayNames[new Date(d.key).getDay()]}</span>`).join('');
+    }
+    // Update KPIs
+    const todayCount = dailyData[dailyData.length - 1]?.doc_count || 0;
+    document.querySelector('.kpi-val').textContent = todayCount >= 1000 ? (todayCount/1000).toFixed(1) + 'K' : todayCount;
+    // Total mentions badge
+    document.getElementById('totalMentions').textContent = (curTotal >= 1000 ? (curTotal/1000).toFixed(1) + 'K' : curTotal) + ` ${daysNum}d`;
+  }
+
+  // Sentiment (proxy: engagement rate distribution)
+  const sentScore = Math.min(100, Math.round(50 + avgER * 2000));
+  const positivePct = Math.round(sentScore * 0.85);
+  const negativePct = Math.max(2, Math.round((100 - sentScore) * 0.3));
+  const neutralPct = 100 - positivePct - negativePct;
+  const netSent = positivePct - negativePct;
+  document.querySelector('.panel-body [style*="font-size:36px"]').textContent = `+${netSent}`;
+  const sentBars = document.querySelectorAll('.sent-bar-fill');
+  const sentPcts = document.querySelectorAll('.sent-pct');
+  if (sentBars[0]) { sentBars[0].style.width = positivePct+'%'; sentPcts[0].textContent = positivePct+'%'; }
+  if (sentBars[1]) { sentBars[1].style.width = neutralPct+'%'; sentPcts[1].textContent = neutralPct+'%'; }
+  if (sentBars[2]) { sentBars[2].style.width = negativePct+'%'; sentPcts[2].textContent = negativePct+'%'; }
+
+  // Platform monitor
+  if (platforms.length > 0) {
+    const platCards = document.querySelectorAll('.platform-card');
+    const platMap = { instagram: 0, tiktok: 1, youtube: 2, twitter: 3 };
+    platforms.forEach(p => {
+      const idx = platMap[p.key];
+      if (idx !== undefined && platCards[idx]) {
+        const detail = platCards[idx].querySelector('.plat-detail');
+        if (detail) detail.textContent = `${p.doc_count.toLocaleString()} post nel periodo`;
+        const metrics = platCards[idx].querySelector('.plat-metrics');
+        if (metrics) {
+          const pctOfTotal = ((p.doc_count / curTotal) * 100).toFixed(1);
+          metrics.innerHTML = `<span>${pctOfTotal}% del totale</span> <span>${p.doc_count.toLocaleString()} post</span>`;
+        }
+      }
+    });
+  }
+
+  // Top hashtags / topics
+  const hashBuckets = aggs.top_hashtags.buckets;
+  if (hashBuckets.length > 0) {
+    const topicEl = document.getElementById('topicCloud');
+    topicEl.innerHTML = hashBuckets.map((h, i) => {
+      const isTop = i < 2;
+      const borderColor = isTop ? (i === 0 ? 'var(--green)' : 'var(--cyan)') : '';
+      const textColor = isTop ? (i === 0 ? 'var(--green)' : 'var(--cyan)') : '';
+      return `<div class="topic-tag" ${borderColor ? `style="border-color:${borderColor};color:${textColor}"` : ''}>#${h.key} <span class="topic-count">${h.doc_count >= 1000 ? (h.doc_count/1000).toFixed(1)+'K' : h.doc_count}</span></div>`;
+    }).join('');
+  }
+
+  // Top creators
+  if (topCreators?.aggregations?.creators?.buckets) {
+    const creatorsEl = document.querySelector('.panel-body:has(.creator-item)') || document.querySelectorAll('.panel-body')[8];
+    const colors = ['rgba(193,24,91,.2)', 'rgba(0,229,255,.15)', 'rgba(30,144,255,.15)', 'rgba(179,136,255,.15)', 'rgba(255,171,0,.15)'];
+    const textColors = ['#f06292', 'var(--cyan)', 'var(--accent2)', 'var(--purple)', 'var(--amber)'];
+    const buckets = topCreators.aggregations.creators.buckets.slice(0, 5);
+
+    // Find the creators panel by looking for the one with TOP CREATORS header
+    const allPanels = document.querySelectorAll('.panel');
+    let creatorPanel = null;
+    allPanels.forEach(p => { if (p.querySelector('.panel-title')?.textContent.includes('TOP CREATORS')) creatorPanel = p; });
+    if (creatorPanel) {
+      const body = creatorPanel.querySelector('.panel-body');
+      body.innerHTML = buckets.map((c, i) => {
+        const initials = c.key.split(/\s/).map(w => w[0]?.toUpperCase() || '').join('').slice(0,2);
+        const plat = c.platform.buckets[0]?.key || '';
+        const platShort = plat === 'instagram' ? 'IG' : plat === 'tiktok' ? 'TT' : plat === 'youtube' ? 'YT' : plat.toUpperCase().slice(0,2);
+        const eng = c.total_eng.value;
+        const engStr = eng >= 1e6 ? (eng/1e6).toFixed(1)+'M' : eng >= 1e3 ? (eng/1e3).toFixed(1)+'K' : eng;
+        const followers = c.followers.value;
+        const folStr = followers >= 1e6 ? (followers/1e6).toFixed(1)+'M' : followers >= 1e3 ? (followers/1e3).toFixed(0)+'K' : followers || '--';
+        return `<div class="creator-item">
+          <div class="creator-avatar" style="background:${colors[i%5]};color:${textColors[i%5]};">${initials}</div>
+          <div class="creator-info">
+            <div class="creator-name">${c.key}</div>
+            <div class="creator-handle">${platShort} &bull; ${folStr} followers</div>
+          </div>
+          <div class="creator-stats">
+            <div class="creator-eng">${engStr} eng</div>
+            <div>${c.doc_count} post</div>
+          </div>
+        </div>`;
+      }).join('');
+    }
+  }
+
+  // Social feed from real posts
+  if (latestPosts?.hits?.hits?.length > 0) {
+    const platTypeMap = { instagram: 'ig', tiktok: 'tt', youtube: 'yt', twitter: 'tw', facebook: 'fb' };
+    feedData.length = 0;
+    latestPosts.hits.hits.forEach(hit => {
+      const s = hit._source;
+      const platType = platTypeMap[s.channel?.type] || 'news';
+      const ago = timeAgo(s.published_at);
+      const caption = (s.caption || '').slice(0, 200);
+      const engRate = s.engagement_rate || 0;
+      const sentiment = engRate > 0.03 ? 'pos' : engRate > 0.01 ? 'neu' : 'neg';
+      feedData.push({
+        platform: platType,
+        author: s.channel?.name || 'Unknown',
+        time: ago,
+        text: caption.replace(/(barilla|pesto|pasta|al bronzo)/gi, '<span class="hl">$1</span>'),
+        likes: formatNum(s.engagement || 0),
+        comments: '--',
+        shares: '--',
+        sentiment: sentiment
+      });
+    });
+    renderFeed('all');
+  }
+
+  console.log(`[BARILLA MONITOR] Live data loaded: ${curTotal} posts, score ${overallScore}, ${platforms.length} platforms`);
+}
+
+function timeAgo(dateStr) {
+  const diff = Date.now() - new Date(dateStr).getTime();
+  const mins = Math.floor(diff / 60000);
+  if (mins < 1) return 'ora';
+  if (mins < 60) return `${mins} min fa`;
+  const hours = Math.floor(mins / 60);
+  if (hours < 24) return `${hours} ore fa`;
+  return `${Math.floor(hours / 24)} giorni fa`;
+}
+
+function formatNum(n) {
+  if (n >= 1e6) return (n/1e6).toFixed(1) + 'M';
+  if (n >= 1e3) return (n/1e3).toFixed(1) + 'K';
+  return n.toString();
+}
+
+// Load data on startup and every 60 seconds
+loadLiveData();
+setInterval(loadLiveData, 60000);
+
+// ===== CLOCK =====
+function updateClock() {
+  const now = new Date();
+  const opts = { weekday:'short', day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit', second:'2-digit', hour12:false };
+  document.getElementById('clock').textContent = now.toLocaleDateString('it-IT', opts).toUpperCase() + ' UTC+1';
+  document.getElementById('lastUpdate').textContent = now.toLocaleTimeString('it-IT', {hour:'2-digit',minute:'2-digit',second:'2-digit'});
+}
+updateClock();
+setInterval(updateClock, 1000);
+
+// ===== TIME FILTERS =====
+document.querySelectorAll('.tf-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tf-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    loadLiveData(); // Reload data for new time range
+  });
 });
-// mini-cards
-var cc=document.getElementById('radarCards');
-dims.forEach(function(d){
-var card=document.createElement('div');
-var bg=d.score>=75?'#F0FFF4':d.score>=60?'#EBF4FF':'#FFFBEB';
-var bc=d.score>=75?'#D1FAE5':d.score>=60?'#BFDBFE':'#FEF3C7';
-card.style.cssText='background:'+bg+';border:1px solid '+bc+';border-radius:12px;padding:14px;text-align:center';
-card.innerHTML='<div style="font-size:22px;font-weight:800;color:'+d.color+';letter-spacing:-0.5px">'+d.score+'</div><div style="font-size:10px;text-transform:uppercase;letter-spacing:1px;font-weight:600;color:#8896AB;margin-top:2px">'+d.label+'</div><div style="font-size:11px;color:#4A5568;margin-top:6px;line-height:1.4">'+d.desc+'</div>';
-cc.appendChild(card);
-});
-})();
+
+// ===== VOLUME CHART =====
+function renderVolumeChart() {
+  const el = document.getElementById('volumeChart');
+  const data = [2100, 2400, 3100, 2800, 3400, 2200, 2847];
+  const max = Math.max(...data) * 1.1;
+  el.innerHTML = '';
+  data.forEach((v, i) => {
+    // Each day has multiple bars for hours
+    for (let h = 0; h < 6; h++) {
+      const hv = v * (0.5 + Math.random() * 0.7) / 6;
+      const bar = document.createElement('div');
+      bar.className = 'chart-bar';
+      const pct = (hv / max * 100);
+      bar.style.height = pct + '%';
+      const hue = pct > 70 ? 'var(--accent)' : pct > 40 ? 'var(--accent2)' : 'rgba(30,144,255,.4)';
+      bar.style.background = hue;
+      el.appendChild(bar);
+    }
+  });
+}
+renderVolumeChart();
+
+// ===== SENTIMENT TIMELINE =====
+function renderSentimentTimeline() {
+  const el = document.getElementById('sentimentTimeline');
+  el.innerHTML = '';
+  for (let i = 0; i < 24; i++) {
+    const v = 40 + Math.random() * 60;
+    const bar = document.createElement('div');
+    bar.className = 'chart-bar';
+    bar.style.height = v + '%';
+    bar.style.background = v > 70 ? 'var(--green)' : v > 45 ? 'rgba(0,230,118,.4)' : 'var(--amber)';
+    el.appendChild(bar);
+  }
+}
+renderSentimentTimeline();
+
+// ===== DIMENSION SCORES =====
+function renderDimensions() {
+  const dims = [
+    { name: 'Sentiment', score: 82, color: 'var(--green)' },
+    { name: 'Engagement', score: 76, color: 'var(--accent2)' },
+    { name: 'Volume', score: 71, color: 'var(--accent)' },
+    { name: 'Heritage', score: 88, color: 'var(--green)' },
+    { name: 'Consumer Fit', score: 75, color: 'var(--cyan)' },
+    { name: 'Platform Mix', score: 69, color: 'var(--amber)' },
+    { name: 'Earned vs Paid', score: 78, color: 'var(--green)' },
+    { name: 'Risk Shield', score: 84, color: 'var(--green)' },
+  ];
+  const el = document.getElementById('dimensionScores');
+  el.innerHTML = dims.map(d => `
+    <div class="dim-item">
+      <div class="dim-name">${d.name}</div>
+      <div class="dim-bar-bg"><div class="dim-bar-fill" style="width:${d.score}%;background:${d.color};"></div></div>
+      <div class="dim-score" style="color:${d.color}">${d.score}</div>
+    </div>
+  `).join('');
+}
+renderDimensions();
+
+// ===== SOCIAL FEED =====
+const feedData = [
+  { platform:'ig', author:'@giaborollozafferano', time:'2 min fa', text:'La nostra ricetta della settimana con <span class="hl">Barilla Al Bronzo</span> Penne Rigate... un piatto che conquista al primo assaggio! 🍝', likes:'24.5K', comments:'1.2K', shares:'890', sentiment:'pos' },
+  { platform:'tt', author:'@nonnaitalia', time:'8 min fa', text:'POV: quando la nonna scopre che usi la pasta <span class="hl">Barilla</span> per la carbonara... approvata! ✅', likes:'45.2K', comments:'3.4K', shares:'12.1K', sentiment:'pos' },
+  { platform:'tw', author:'@foodcritic_it', time:'12 min fa', text:'I prezzi della pasta <span class="hl">Barilla</span> sono aumentati del 15% in un anno. &Egrave; ancora il best value? Thread 🧵', likes:'890', comments:'234', shares:'156', sentiment:'neg' },
+  { platform:'news', author:'Corriere della Sera', time:'15 min fa', text:'<span class="hl">Barilla</span> annuncia investimento da 200M in innovazione sostenibile per il triennio 2026-2028', likes:'--', comments:'45', shares:'89', sentiment:'pos' },
+  { platform:'ig', author:'@fattoincasadabenedetta', time:'22 min fa', text:'Pasta e fagioli con <span class="hl">Barilla</span> Ditalini... comfort food perfetto per queste sere di marzo! ❤️', likes:'18.7K', comments:'980', shares:'540', sentiment:'pos' },
+  { platform:'yt', author:'Chef Club Italia', time:'35 min fa', text:'PASTA HACK: 5 modi creativi per usare gli spaghetti <span class="hl">Barilla</span> che non avete mai provato!', likes:'12.3K', comments:'567', shares:'2.1K', sentiment:'pos' },
+  { platform:'tt', author:'@pastaboy_ita', time:'41 min fa', text:'Test cieco pasta: <span class="hl">Barilla</span> vs marca discount... il risultato vi sorprender&agrave; 😱', likes:'89.4K', comments:'5.6K', shares:'21.3K', sentiment:'pos' },
+  { platform:'tw', author:'@consumatori_ita', time:'48 min fa', text:'Indagine prezzi GDO: la pasta <span class="hl">Barilla</span> resta nella fascia media. Confronto con competitor nel grafico ⬇️', likes:'234', comments:'67', shares:'45', sentiment:'neu' },
+  { platform:'fb', author:'Barilla Official', time:'1 ora fa', text:'Da oltre 140 anni, portiamo la qualit&agrave; italiana sulle tavole del mondo. Scopri la nostra nuova linea <span class="hl">Al Bronzo</span> 🇮🇹', likes:'5.6K', comments:'234', shares:'890', sentiment:'pos' },
+  { platform:'ig', author:'@italianfoodporn', time:'1 ora fa', text:'Questa cacio e pepe con <span class="hl">Barilla</span> Spaghettoni &egrave; un&rsquo;opera d&rsquo;arte 🎨', likes:'32.1K', comments:'1.8K', shares:'4.5K', sentiment:'pos' },
+  { platform:'news', author:'Il Sole 24 Ore', time:'2 ore fa', text:'Il mercato della pasta premium cresce del 12%: <span class="hl">Barilla</span> guida la transizione con la linea Al Bronzo', likes:'--', comments:'12', shares:'34', sentiment:'pos' },
+  { platform:'tt', author:'@chef_marco_tt', time:'2 ore fa', text:'One pot pasta alla vodka con <span class="hl">Barilla</span> Penne... il trend americano versione italiana! 🔥', likes:'56.7K', comments:'2.3K', shares:'8.9K', sentiment:'pos' },
+];
+
+function renderFeed(filter) {
+  const el = document.getElementById('socialFeed');
+  const items = filter === 'all' ? feedData : feedData.filter(d => d.platform === filter);
+  el.innerHTML = items.map(d => `
+    <div class="feed-item">
+      <div class="feed-meta">
+        <span class="feed-platform ${d.platform}">${d.platform.toUpperCase()}</span>
+        <span class="feed-author">${d.author}</span>
+        <span class="feed-sentiment sent-${d.sentiment}">${d.sentiment === 'pos' ? 'POSITIVO' : d.sentiment === 'neg' ? 'NEGATIVO' : 'NEUTRO'}</span>
+        <span class="feed-time">${d.time}</span>
+      </div>
+      <div class="feed-text">${d.text}</div>
+      <div class="feed-stats">
+        <span>&#9825; ${d.likes}</span>
+        <span>&#128172; ${d.comments}</span>
+        <span>&#8634; ${d.shares}</span>
+      </div>
+    </div>
+  `).join('');
+}
+renderFeed('all');
+
+function filterFeed(filter) {
+  document.querySelectorAll('.panel-tabs .ptab').forEach(t => t.classList.remove('active'));
+  event.target.classList.add('active');
+  renderFeed(filter);
+}
+
+// ===== SPARKLINES =====
+function renderSparkline(id, data, color) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  const max = Math.max(...data);
+  el.innerHTML = data.map(v => {
+    const h = Math.max(2, (v / max) * 24);
+    return `<div class="spark-bar" style="height:${h}px;background:${color};"></div>`;
+  }).join('');
+}
+renderSparkline('sparkBarilla', [28,32,30,35,33,38,34], 'var(--green)');
+renderSparkline('sparkDececco', [18,17,19,22,24,26,22], 'var(--text2)');
+renderSparkline('sparkRummo', [14,13,15,14,13,14,14], 'var(--text3)');
+renderSparkline('sparkGarofalo', [12,13,11,10,11,10,11], 'var(--text3)');
+renderSparkline('sparkVoiello', [8,7,8,9,8,8,8], 'var(--text3)');
+
+// ===== LIVE SIMULATION =====
+function simulateLiveUpdates() {
+  // Randomly update mention count
+  const m24h = document.getElementById('mentions24h');
+  const current = parseInt(m24h.textContent.replace(/,/g, ''));
+  const delta = Math.floor(Math.random() * 5) + 1;
+  m24h.textContent = (current + delta).toLocaleString();
+
+  // Occasionally add a new feed item
+  if (Math.random() > 0.7) {
+    const newItems = [
+      { platform:'ig', author:'@pasta_queen', time:'ora', text:'Sunday pasta perfetta con <span class="hl">Barilla</span>! La famiglia approva 💯', likes: Math.floor(Math.random()*10000).toLocaleString(), comments: Math.floor(Math.random()*500).toString(), shares: Math.floor(Math.random()*200).toString(), sentiment:'pos' },
+      { platform:'tt', author:'@cookingwithema', time:'ora', text:'Replying to @user il segreto &egrave; la cottura al dente... <span class="hl">Barilla</span> tiene bene! 🍝', likes: Math.floor(Math.random()*50000).toLocaleString(), comments: Math.floor(Math.random()*2000).toString(), shares: Math.floor(Math.random()*5000).toString(), sentiment:'pos' },
+      { platform:'tw', author:'@marketwatch_it', time:'ora', text:'Aggiornamento mercato: <span class="hl">Barilla</span> mantiene leadership nel segmento pasta premium', likes: Math.floor(Math.random()*500).toString(), comments: Math.floor(Math.random()*50).toString(), shares: Math.floor(Math.random()*100).toString(), sentiment:'neu' },
+    ];
+    const item = newItems[Math.floor(Math.random() * newItems.length)];
+    feedData.unshift(item);
+    if (feedData.length > 20) feedData.pop();
+    renderFeed('all');
+
+    // Flash the feed count
+    const fc = document.getElementById('feedCount');
+    fc.textContent = parseInt(fc.textContent) + 1;
+  }
+}
+setInterval(simulateLiveUpdates, 5000);
+
+// ===== CHART ANIMATION =====
+setInterval(() => {
+  renderSentimentTimeline();
+}, 15000);
 </script>
 </body>
 </html>
