@@ -122,9 +122,11 @@ async function fetchOpenSearchData(days = 7) {
     }
   });
 
-  // Latest posts — filter for Barilla-related content only
-  const latest = await query({
-    size: 50,
+  // Latest posts — Barilla-related content (brand + category keywords)
+  // The index tracks creators in Barilla's space, so we use broader food/pasta
+  // keywords alongside the brand name to capture relevant content
+  const barillaDirect = await query({
+    size: 30,
     sort: [{ published_at: 'desc' }],
     query: {
       bool: {
@@ -143,8 +145,47 @@ async function fetchOpenSearchData(days = 7) {
         ]
       }
     },
-    _source: ['caption', 'channel.name', 'channel.type', 'channel.id', 'engagement', 'engagement_rate', 'published_at', 'hashtags', 'post_type', 'post_id', 'is_sponsored', 'followers', 'image_url']
+    _source: ['caption', 'channel.name', 'channel.type', 'channel.id', 'engagement', 'engagement_rate', 'published_at', 'hashtags', 'post_type', 'post_id', 'is_sponsored', 'followers', 'image_url', 'title']
   });
+
+  // Also fetch top-engagement posts from each platform (category-relevant)
+  const categoryPosts = await query({
+    size: 30,
+    sort: [{ engagement: 'desc' }],
+    query: {
+      bool: {
+        must: [
+          { range: { published_at: { gte: from } } },
+          { bool: {
+            should: [
+              { match_phrase: { caption: 'pasta' } },
+              { match_phrase: { caption: 'spaghetti' } },
+              { match_phrase: { caption: 'penne' } },
+              { match_phrase: { caption: 'ricetta' } },
+              { match_phrase: { title: 'pasta' } },
+              { match_phrase: { title: 'spaghetti' } },
+              { match_phrase: { title: 'ricetta' } },
+              { terms: { hashtags: ['pasta', 'spaghetti', 'ricetta', 'food', 'cucina', 'italianfood'] } }
+            ],
+            minimum_should_match: 1
+          }}
+        ]
+      }
+    },
+    _source: ['caption', 'channel.name', 'channel.type', 'channel.id', 'engagement', 'engagement_rate', 'published_at', 'hashtags', 'post_type', 'post_id', 'is_sponsored', 'followers', 'image_url', 'title']
+  });
+
+  // Merge and deduplicate: brand posts first, then category posts
+  const seenIds = new Set();
+  const allHits = [];
+  for (const hit of [...barillaDirect.hits.hits, ...categoryPosts.hits.hits]) {
+    const id = hit._id;
+    if (!seenIds.has(id)) {
+      seenIds.add(id);
+      allHits.push(hit);
+    }
+  }
+  const latest = { hits: { hits: allHits.slice(0, 50) } };
 
   const aggs = main.aggregations;
   const curTotal = main.hits.total.value;
@@ -212,11 +253,13 @@ async function fetchOpenSearchData(days = 7) {
   const posts = latest.hits.hits.map(hit => {
     const s = hit._source;
     const cType = s.channel?.type || '';
+    // Use caption, fallback to title (YouTube often has empty caption)
+    const text = (s.caption || s.title || '').slice(0, 250);
     return {
       platform: platTypeMap[cType] || 'news',
       author: s.channel?.name || 'Unknown',
       time: s.published_at,
-      text: (s.caption || '').slice(0, 250),
+      text,
       engagement: s.engagement || 0,
       engagementRate: s.engagement_rate || 0,
       sentiment: (s.engagement_rate || 0) > 0.03 ? 'pos' : (s.engagement_rate || 0) > 0.01 ? 'neu' : 'neg',

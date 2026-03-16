@@ -1608,23 +1608,36 @@ async function loadFromPipeline() {
       if (creatorPanel) {
         creatorPanel.querySelector('.panel-body').innerHTML = s.creators.slice(0,5).map(function(c,i) {
           var init = c.name.split(/\s/).map(function(w){return (w[0]||'').toUpperCase();}).join('').slice(0,2);
-          var plat = c.platform === 'instagram' ? 'IG' : c.platform === 'tiktok' ? 'TT' : c.platform === 'youtube' ? 'YT' : (c.platform||'').toUpperCase().slice(0,2);
+          var plat = (c.platform === 'instagram' || c.platform === 'ig') ? 'IG' : (c.platform === 'tiktok' || c.platform === 'tt') ? 'TT' : (c.platform === 'youtube' || c.platform === 'yt') ? 'YT' : (c.platform === 'twitter' || c.platform === 'tw') ? 'X' : (c.platform||'').toUpperCase().slice(0,2);
           return '<div class="creator-item"><div class="creator-avatar" style="background:'+cColors[i%5]+';color:'+tColors[i%5]+';">'+init+'</div><div class="creator-info"><div class="creator-name">'+c.name+'</div><div class="creator-handle">'+plat+' &bull; '+formatNum(c.followers)+' followers</div></div><div class="creator-stats"><div class="creator-eng">'+formatNum(c.engagement)+' eng</div><div>'+c.posts+' post</div></div></div>';
         }).join('');
       }
     }
 
-    // Feed
+    // Feed — social posts + news articles merged
+    feedData.length = 0;
     if (s.posts && s.posts.length) {
-      feedData.length = 0;
       s.posts.forEach(function(p) {
         feedData.push({ platform: p.platform, author: p.author, time: timeAgo(p.time),
-          text: p.text.replace(/(barilla|pesto|pasta|al bronzo)/gi, '<span class="hl">$1</span>'),
+          text: p.text.replace(/(barilla|pesto|pasta|al bronzo|spaghetti|penne)/gi, '<span class="hl">$1</span>'),
           likes: formatNum(p.engagement), comments: '--', shares: '--', sentiment: p.sentiment,
           url: p.url || null });
       });
-      renderFeed('all');
     }
+    // Add news articles from Apify as "news" platform items
+    if (news && news.length) {
+      news.forEach(function(n) {
+        feedData.push({ platform: 'news', author: (n.source || 'News').toUpperCase(), time: timeAgo(n.date),
+          text: ('<b>' + (n.title || '') + '</b>' + (n.snippet ? ' — ' + n.snippet.slice(0, 150) : '')).replace(/(barilla|pesto|pasta|al bronzo)/gi, '<span class="hl">$1</span>'),
+          likes: '--', comments: '--', shares: '--', sentiment: 'neu',
+          url: n.url || null });
+      });
+    }
+    // Sort merged feed by recency (approximate — timeAgo strings)
+    renderFeed('all');
+    // Update feed count
+    var fc = document.getElementById('feedCount');
+    if (fc) fc.textContent = feedData.length;
 
     // AI Insights
     if (ai && ai.insights && ai.insights.length) {
