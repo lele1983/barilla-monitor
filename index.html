@@ -1657,7 +1657,20 @@ async function loadFromPipeline() {
       if (compPanel) {
         compPanel.querySelector('.panel-body').innerHTML = comp.map(function(c) {
           var isB = c.name.toLowerCase() === 'barilla';
-          return '<div class="comp-item"><div><div class="comp-name"'+(isB?' style="color:var(--green);"':'')+'>&#9679; '+c.name+'</div><div class="comp-signals">'+c.mentions.toLocaleString()+' menzioni</div></div><div class="comp-right"><div class="comp-score"'+(isB?' style="color:var(--green)"':'')+'>'+c.shareOfVoice+'%</div></div></div>';
+          var barW = Math.max(4, c.shareOfVoice);
+          var nameColor = isB ? ' style="color:var(--green);"' : '';
+          var scoreColor = isB ? ' style="color:var(--green)"' : '';
+          var socialLabel = (c.socialMentions != null) ? ' &bull; ' + (c.socialMentions || 0) + ' social' : '';
+          return '<div class="comp-item">' +
+            '<div style="flex:1;min-width:0">' +
+              '<div class="comp-name"' + nameColor + '>&#9679; ' + c.name + '</div>' +
+              '<div class="comp-signals">' + (c.mentions || 0) + ' news' + socialLabel + '</div>' +
+              '<div style="margin-top:3px;height:4px;background:rgba(255,255,255,.06);border-radius:2px;overflow:hidden">' +
+                '<div style="width:' + barW + '%;height:100%;background:' + (isB ? 'var(--green)' : 'var(--accent)') + ';border-radius:2px;transition:width .6s"></div>' +
+              '</div>' +
+            '</div>' +
+            '<div class="comp-right"><div class="comp-score"' + scoreColor + '>' + c.shareOfVoice + '%</div><div style="font-size:9px;color:var(--text-dim);text-align:right">News SoV</div></div>' +
+          '</div>';
         }).join('');
       }
     }

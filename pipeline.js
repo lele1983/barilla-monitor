@@ -558,55 +558,83 @@ Basa insight e forecast sui dati reali forniti. Sii specifico e usa numeri reali
   }
 }
 
-// ===== 5. COMPETITOR DATA =====
+// ===== 5. COMPETITOR DATA — Google News Share of Voice =====
 async function fetchCompetitorData(days = 7) {
-  log('COMPETITORS', 'Fetching competitor share of voice...');
+  log('COMPETITORS', 'Fetching competitor share of voice via Google News...');
+
+  // Brands to track with their search queries
+  const brands = [
+    { name: 'Barilla', query: 'Barilla' },
+    { name: 'De Cecco', query: 'De+Cecco' },
+    { name: 'Rummo', query: 'Rummo+pasta' },
+    { name: 'Garofalo', query: 'Garofalo+pasta' },
+    { name: 'Voiello', query: 'Voiello' },
+    { name: 'Divella', query: 'Divella+pasta' },
+    { name: 'La Molisana', query: 'La+Molisana' },
+  ];
+
+  // Count news articles per brand in the last N days via Google News RSS
+  async function countNewsArticles(searchQuery) {
+    try {
+      const url = `https://news.google.com/rss/search?q=${searchQuery}+pasta+when:${days}d&hl=it&gl=IT&ceid=IT:it`;
+      const res = await fetch(url);
+      if (!res.ok) return 0;
+      const xml = await res.text();
+      return (xml.match(/<item>/g) || []).length;
+    } catch (e) { return 0; }
+  }
+
+  // Also count mentions in OpenSearch social data (as secondary signal)
   const { url, index, user, pass } = CONFIG.opensearch;
-  if (!user || !pass) return null;
-
-  const auth = Buffer.from(`${user}:${pass}`).toString('base64');
+  const auth = user && pass ? Buffer.from(`${user}:${pass}`).toString('base64') : null;
   const from = new Date(Date.now() - days * 86400000).toISOString();
-  const brands = ['barilla', ...CONFIG.brand.competitors];
 
-  // Get total posts in the period (the index is Barilla-focused, so all posts = Barilla)
-  const totalRes = await fetch(`${url}/${index}/_count`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'Authorization': `Basic ${auth}` },
-    body: JSON.stringify({ query: { range: { published_at: { gte: from } } } }),
-  });
-  const totalCount = totalRes.ok ? (await totalRes.json()).count : 0;
-
-  const results = [{ name: 'Barilla', count: totalCount }];
-  for (const brand of CONFIG.brand.competitors) {
+  async function countSocialMentions(brandName) {
+    if (!auth) return 0;
     try {
       const res = await fetch(`${url}/${index}/_count`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'Authorization': `Basic ${auth}` },
         body: JSON.stringify({
-          query: {
-            bool: {
-              must: [
-                { match_phrase: { caption: brand } },
-                { range: { published_at: { gte: from } } }
-              ]
-            }
-          }
+          query: { bool: { must: [
+            { range: { published_at: { gte: from } } },
+            { bool: { should: [
+              { multi_match: { query: brandName.toLowerCase(), fields: ['caption', 'title'], type: 'phrase' } },
+            ], minimum_should_match: 1 } }
+          ] } }
         }),
       });
-      if (!res.ok) continue;
+      if (!res.ok) return 0;
       const data = await res.json();
-      results.push({ name: brand.charAt(0).toUpperCase() + brand.slice(1), count: data.count });
-    } catch (e) { /* skip */ }
+      return data.count || 0;
+    } catch (e) { return 0; }
   }
 
-  const total = results.reduce((s, r) => s + r.count, 0) || 1;
-  const competitors = results.map(r => ({
-    name: r.name,
-    mentions: r.count,
-    shareOfVoice: +((r.count / total) * 100).toFixed(1),
+  // Fetch all counts in parallel
+  const results = await Promise.all(brands.map(async (brand) => {
+    const [newsCount, socialCount] = await Promise.all([
+      countNewsArticles(brand.query),
+      countSocialMentions(brand.name),
+    ]);
+    return { name: brand.name, newsCount, socialCount };
   }));
 
-  log('COMPETITORS', `Done: ${competitors.length} brands tracked`);
+  // Calculate Share of Voice based on news (primary metric)
+  const totalNews = results.reduce((s, r) => s + r.newsCount, 0) || 1;
+  const totalSocial = results.reduce((s, r) => s + r.socialCount, 0) || 1;
+
+  const competitors = results.map(r => ({
+    name: r.name,
+    mentions: r.newsCount,
+    socialMentions: r.socialCount,
+    shareOfVoice: +((r.newsCount / totalNews) * 100).toFixed(1),
+    socialSoV: +((r.socialCount / totalSocial) * 100).toFixed(1),
+  }));
+
+  // Sort by news SoV descending
+  competitors.sort((a, b) => b.shareOfVoice - a.shareOfVoice);
+
+  log('COMPETITORS', `Done: ${competitors.length} brands — News SoV: ${competitors.map(c => `${c.name} ${c.shareOfVoice}%`).join(', ')}`);
   return competitors;
 }
 
