@@ -149,6 +149,7 @@ async function fetchOpenSearchData(days = 7) {
   });
 
   // Also fetch top-engagement posts from each platform (category-relevant)
+  // Use multi_match to search across both caption AND title (YouTube has empty caption)
   const categoryPosts = await query({
     size: 30,
     sort: [{ engagement: 'desc' }],
@@ -158,14 +159,12 @@ async function fetchOpenSearchData(days = 7) {
           { range: { published_at: { gte: from } } },
           { bool: {
             should: [
-              { match_phrase: { caption: 'pasta' } },
-              { match_phrase: { caption: 'spaghetti' } },
-              { match_phrase: { caption: 'penne' } },
-              { match_phrase: { caption: 'ricetta' } },
-              { match_phrase: { title: 'pasta' } },
-              { match_phrase: { title: 'spaghetti' } },
-              { match_phrase: { title: 'ricetta' } },
-              { terms: { hashtags: ['pasta', 'spaghetti', 'ricetta', 'food', 'cucina', 'italianfood'] } }
+              { multi_match: { query: 'pasta', fields: ['caption', 'title'], type: 'phrase' } },
+              { multi_match: { query: 'spaghetti', fields: ['caption', 'title'], type: 'phrase' } },
+              { multi_match: { query: 'penne', fields: ['caption', 'title'], type: 'phrase' } },
+              { multi_match: { query: 'ricetta', fields: ['caption', 'title'], type: 'phrase' } },
+              { multi_match: { query: 'barilla', fields: ['caption', 'title'], type: 'phrase' } },
+              { terms: { hashtags: ['pasta', 'spaghetti', 'ricetta', 'food', 'cucina', 'italianfood', 'barilla'] } }
             ],
             minimum_should_match: 1
           }}
@@ -323,53 +322,61 @@ async function fetchOpenSearchData(days = 7) {
   };
 }
 
-// ===== 2. APIFY — Google News =====
+// ===== 2. GOOGLE NEWS — RSS Feed =====
 async function fetchGoogleNews() {
-  log('APIFY', 'Fetching Google News for Barilla...');
-  const { token } = CONFIG.apify;
-  if (!token) { log('APIFY', 'SKIP: No API token'); return null; }
+  log('NEWS', 'Fetching Google News RSS for Barilla...');
 
-  const actors = [
-    { id: 'lexis-solutions~google-news-scraper', input: { query: 'Barilla', country: 'IT', language: 'it', maxItems: 30 } },
-    { id: 'lhotanova~google-news-scraper', input: { queries: ['Barilla pasta', 'Barilla brand'], language: 'it', maxItems: 30 } },
-    { id: 'apify~google-search-scraper', input: { queries: ['Barilla pasta news Italia'], maxPagesPerQuery: 1, languageCode: 'it', countryCode: 'it', resultsPerPage: 20 } },
+  const queries = [
+    'Barilla+pasta',
+    'Barilla+brand+Italia',
   ];
 
-  for (const actor of actors) {
+  const allArticles = [];
+  const seenTitles = new Set();
+
+  for (const q of queries) {
     try {
-      const runRes = await fetch(`https://api.apify.com/v2/acts/${actor.id}/runs?waitForFinish=120`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` },
-        body: JSON.stringify(actor.input),
-      });
-      if (!runRes.ok) { log('APIFY', `Actor ${actor.id} failed (${runRes.status}), trying next...`); continue; }
+      const rssUrl = `https://news.google.com/rss/search?q=${q}&hl=it&gl=IT&ceid=IT:it`;
+      const res = await fetch(rssUrl);
+      if (!res.ok) { log('NEWS', `RSS failed for "${q}" (${res.status})`); continue; }
 
-      const run = await runRes.json();
-      const datasetId = run.data?.defaultDatasetId;
-      if (!datasetId) continue;
+      const xml = await res.text();
 
-      const dataRes = await fetch(`https://api.apify.com/v2/datasets/${datasetId}/items?limit=30`, {
-        headers: { 'Authorization': `Bearer ${token}` },
-      });
-      const items = await dataRes.json();
-      if (!Array.isArray(items) || items.length === 0) continue;
+      // Parse RSS items with regex (no XML parser needed)
+      const items = xml.match(/<item>[\s\S]*?<\/item>/g) || [];
 
-      const articles = items.map(a => ({
-        title: a.title || a.name || '',
-        source: a.source || a.publisher || a.displayedUrl || '',
-        url: a.url || a.link || '',
-        date: a.publishedAt || a.date || a.datePublished || new Date().toISOString(),
-        snippet: a.description || a.snippet || a.text || '',
-      })).filter(a => a.title);
+      for (const item of items.slice(0, 20)) {
+        const title = (item.match(/<title>([^<]*)<\/title>/) || [])[1] || '';
+        const link = (item.match(/<link>([^<]*)<\/link>/) || [])[1] || '';
+        const pubDate = (item.match(/<pubDate>([^<]*)<\/pubDate>/) || [])[1] || '';
+        const source = (item.match(/<source[^>]*>([^<]*)<\/source>/) || [])[1] || '';
+        const description = (item.match(/<description>([^<]*)<\/description>/) || [])[1] || '';
 
-      if (articles.length > 0) {
-        log('APIFY', `Done: ${articles.length} articles via ${actor.id}`);
-        return articles;
+        if (!title || seenTitles.has(title)) continue;
+        seenTitles.add(title);
+
+        allArticles.push({
+          title: title.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#39;/g, "'").replace(/&quot;/g, '"'),
+          source: source || 'Google News',
+          url: link,
+          date: pubDate ? new Date(pubDate).toISOString() : new Date().toISOString(),
+          snippet: description.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').slice(0, 200),
+        });
       }
-    } catch (e) { log('APIFY', `Actor ${actor.id} error: ${e.message}`); }
+    } catch (e) {
+      log('NEWS', `RSS error for "${q}": ${e.message}`);
+    }
   }
 
-  log('APIFY', 'All actors failed, no news data');
+  // Sort by date descending
+  allArticles.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  if (allArticles.length > 0) {
+    log('NEWS', `Done: ${allArticles.length} articles from Google News RSS`);
+    return allArticles.slice(0, 30);
+  }
+
+  log('NEWS', 'No articles found');
   return null;
 }
 
