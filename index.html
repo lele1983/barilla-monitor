@@ -286,6 +286,13 @@ body { font-family: var(--sans); background: var(--bg); color: var(--text); over
 .feed-text .hl { color: var(--accent2); font-weight: 600; }
 .feed-stats { display: flex; gap: 12px; font-family: var(--mono); font-size: 10px; color: var(--text3); }
 .feed-stats span { display: flex; align-items: center; gap: 3px; }
+.feed-link { color: inherit; text-decoration: none; transition: color .2s; }
+.feed-link:hover { color: var(--accent2); }
+.feed-item.has-link:hover { background: rgba(30,144,255,.05); }
+.feed-item.has-link .feed-text .feed-link { border-bottom: 1px dotted rgba(255,255,255,.15); }
+.feed-item.has-link .feed-text .feed-link:hover { border-bottom-color: var(--accent2); }
+.feed-extlink { font-size: 11px; opacity: .5; transition: opacity .2s; }
+.feed-item.has-link:hover .feed-extlink { opacity: 1; color: var(--accent2); }
 .feed-sentiment {
   display: inline-block;
   font-family: var(--mono);
@@ -411,6 +418,9 @@ body { font-family: var(--sans); background: var(--bg); color: var(--text); over
   display: flex; align-items: center; justify-content: space-between;
 }
 .news-title { font-size: 12px; font-weight: 600; line-height: 1.4; margin-bottom: 3px; }
+.news-link { color: inherit; text-decoration: none; transition: color .2s; }
+.news-link:hover { color: var(--accent2); }
+.news-item:hover .feed-extlink { opacity: 1; color: var(--accent2); }
 .news-time { font-family: var(--mono); font-size: 9px; color: var(--text3); }
 
 /* ===== TICKER BAR ===== */
@@ -1015,7 +1025,7 @@ body { font-family: var(--sans); background: var(--bg); color: var(--text); over
       <button class="ptab">USA</button>
       <button class="ptab">Trade</button>
     </div>
-    <div class="panel-body" style="display:grid;grid-template-columns:1fr 1fr;gap:0 20px;">
+    <div class="panel-body" id="newsGrid" style="display:grid;grid-template-columns:1fr 1fr;gap:0 20px;">
       <div>
         <div class="news-item">
           <div class="news-source">CORRIERE DELLA SERA <span class="news-time">2 ore fa</span></div>
@@ -1610,7 +1620,8 @@ async function loadFromPipeline() {
       s.posts.forEach(function(p) {
         feedData.push({ platform: p.platform, author: p.author, time: timeAgo(p.time),
           text: p.text.replace(/(barilla|pesto|pasta|al bronzo)/gi, '<span class="hl">$1</span>'),
-          likes: formatNum(p.engagement), comments: '--', shares: '--', sentiment: p.sentiment });
+          likes: formatNum(p.engagement), comments: '--', shares: '--', sentiment: p.sentiment,
+          url: p.url || null });
       });
       renderFeed('all');
     }
@@ -1632,6 +1643,28 @@ async function loadFromPipeline() {
           var isB = c.name.toLowerCase() === 'barilla';
           return '<div class="comp-item"><div><div class="comp-name"'+(isB?' style="color:var(--green);"':'')+'>&#9679; '+c.name+'</div><div class="comp-signals">'+c.mentions.toLocaleString()+' menzioni</div></div><div class="comp-right"><div class="comp-score"'+(isB?' style="color:var(--green)"':'')+'>'+c.shareOfVoice+'%</div></div></div>';
         }).join('');
+      }
+    }
+
+    // News from Apify
+    if (news && news.length) {
+      var ng = document.getElementById('newsGrid');
+      if (ng) {
+        var half = Math.ceil(news.length / 2);
+        var col1 = news.slice(0, half);
+        var col2 = news.slice(half);
+        function renderNewsCol(items) {
+          return '<div>' + items.map(function(n) {
+            var linkO = n.url ? '<a href="' + n.url + '" target="_blank" rel="noopener noreferrer" class="news-link">' : '';
+            var linkC = n.url ? '</a>' : '';
+            var extI = n.url ? ' <span class="feed-extlink">&#8599;</span>' : '';
+            return '<div class="news-item">' +
+              '<div class="news-source">' + (n.source || '').toUpperCase() + ' <span class="news-time">' + timeAgo(n.date) + '</span></div>' +
+              '<div class="news-title">' + linkO + (n.title || '') + extI + linkC + '</div>' +
+              '</div>';
+          }).join('') + '</div>';
+        }
+        ng.innerHTML = renderNewsCol(col1) + renderNewsCol(col2);
       }
     }
 
@@ -1757,22 +1790,26 @@ const feedData = [
 function renderFeed(filter) {
   const el = document.getElementById('socialFeed');
   const items = filter === 'all' ? feedData : feedData.filter(d => d.platform === filter);
-  el.innerHTML = items.map(d => `
-    <div class="feed-item">
+  el.innerHTML = items.map(d => {
+    const linkOpen = d.url ? `<a href="${d.url}" target="_blank" rel="noopener noreferrer" class="feed-link" title="Apri post originale">` : '';
+    const linkClose = d.url ? '</a>' : '';
+    const linkIcon = d.url ? ' <span class="feed-extlink">&#8599;</span>' : '';
+    return `
+    <div class="feed-item${d.url ? ' has-link' : ''}">
       <div class="feed-meta">
         <span class="feed-platform ${d.platform}">${d.platform.toUpperCase()}</span>
-        <span class="feed-author">${d.author}</span>
+        <span class="feed-author">${linkOpen}${d.author}${linkIcon}${linkClose}</span>
         <span class="feed-sentiment sent-${d.sentiment}">${d.sentiment === 'pos' ? 'POSITIVO' : d.sentiment === 'neg' ? 'NEGATIVO' : 'NEUTRO'}</span>
         <span class="feed-time">${d.time}</span>
       </div>
-      <div class="feed-text">${d.text}</div>
+      <div class="feed-text">${d.url ? linkOpen : ''}${d.text}${d.url ? linkClose : ''}</div>
       <div class="feed-stats">
         <span>&#9825; ${d.likes}</span>
         <span>&#128172; ${d.comments}</span>
         <span>&#8634; ${d.shares}</span>
       </div>
     </div>
-  `).join('');
+  `}).join('');
 }
 renderFeed('all');
 

@@ -127,7 +127,7 @@ async function fetchOpenSearchData(days = 7) {
     size: 50,
     sort: [{ published_at: 'desc' }],
     query: { range: { published_at: { gte: from } } },
-    _source: ['caption', 'channel.name', 'channel.type', 'engagement', 'engagement_rate', 'published_at', 'hashtags', 'post_type', 'is_sponsored', 'followers', 'image_url']
+    _source: ['caption', 'channel.name', 'channel.type', 'channel.id', 'engagement', 'engagement_rate', 'published_at', 'hashtags', 'post_type', 'post_id', 'is_sponsored', 'followers', 'image_url']
   });
 
   const aggs = main.aggregations;
@@ -172,10 +172,28 @@ async function fetchOpenSearchData(days = 7) {
 
   // Format posts for feed
   const platTypeMap = { instagram: 'ig', tiktok: 'tt', youtube: 'yt', twitter: 'tw', facebook: 'fb' };
+
+  function buildPostUrl(channelType, channelName, channelId, postId, postType) {
+    if (!postId) return null;
+    switch (channelType) {
+      case 'yt': return `https://www.youtube.com/watch?v=${postId}`;
+      case 'tt': return `https://www.tiktok.com/@${channelName}/video/${postId}`;
+      case 'ig': return postType === 'reel'
+        ? `https://www.instagram.com/reel/${postId}/`
+        : `https://www.instagram.com/p/${postId}/`;
+      case 'tw': return `https://x.com/${channelName}/status/${postId}`;
+      case 'fb': return channelId
+        ? `https://www.facebook.com/${channelId}/posts/${postId}`
+        : `https://www.facebook.com/posts/${postId}`;
+      default: return null;
+    }
+  }
+
   const posts = latest.hits.hits.map(hit => {
     const s = hit._source;
+    const cType = s.channel?.type || '';
     return {
-      platform: platTypeMap[s.channel?.type] || 'news',
+      platform: platTypeMap[cType] || 'news',
       author: s.channel?.name || 'Unknown',
       time: s.published_at,
       text: (s.caption || '').slice(0, 250),
@@ -184,6 +202,7 @@ async function fetchOpenSearchData(days = 7) {
       sentiment: (s.engagement_rate || 0) > 0.03 ? 'pos' : (s.engagement_rate || 0) > 0.01 ? 'neu' : 'neg',
       hashtags: s.hashtags || [],
       imageUrl: s.image_url || null,
+      url: buildPostUrl(cType, s.channel?.name, s.channel?.id, s.post_id, s.post_type),
     };
   });
 
