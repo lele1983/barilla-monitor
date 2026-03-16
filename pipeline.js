@@ -664,26 +664,28 @@ async function fetchCompetitorData(days = 7) {
     return { name: brand.name, newsArticles, socialPosts };
   }));
 
-  // Calculate Share of Voice based on news count (primary metric)
-  const totalNews = results.reduce((s, r) => s + r.newsArticles.length, 0) || 1;
-  const totalSocial = results.reduce((s, r) => s + r.socialPosts.length, 0) || 1;
+  // Calculate Share of Voice based on TOTAL mentions (news + social combined)
+  const totalAll = results.reduce((s, r) => s + r.newsArticles.length + r.socialPosts.length, 0) || 1;
 
-  const competitors = results.map(r => ({
-    name: r.name,
-    mentions: r.newsArticles.length,
-    socialMentions: r.socialPosts.length,
-    shareOfVoice: +((r.newsArticles.length / totalNews) * 100).toFixed(1),
-    socialSoV: +((r.socialPosts.length / totalSocial) * 100).toFixed(1),
-    posts: [
-      ...r.newsArticles.map(a => ({ ...a, brand: r.name })),
-      ...r.socialPosts.map(p => ({ ...p, brand: r.name })),
-    ],
-  }));
+  const competitors = results.map(r => {
+    const totalMentions = r.newsArticles.length + r.socialPosts.length;
+    return {
+      name: r.name,
+      mentions: r.newsArticles.length,
+      socialMentions: r.socialPosts.length,
+      totalMentions,
+      shareOfVoice: +((totalMentions / totalAll) * 100).toFixed(1),
+      posts: [
+        ...r.newsArticles.map(a => ({ ...a, brand: r.name })),
+        ...r.socialPosts.map(p => ({ ...p, brand: r.name })),
+      ],
+    };
+  });
 
-  // Sort by news SoV descending
+  // Sort by total SoV descending
   competitors.sort((a, b) => b.shareOfVoice - a.shareOfVoice);
 
-  log('COMPETITORS', `Done: ${competitors.length} brands — News SoV: ${competitors.map(c => `${c.name} ${c.shareOfVoice}%`).join(', ')}`);
+  log('COMPETITORS', `Done: ${competitors.length} brands — SoV: ${competitors.map(c => `${c.name} ${c.shareOfVoice}% (${c.totalMentions})`).join(', ')}`);
   log('COMPETITORS', `Posts per brand: ${competitors.map(c => `${c.name} ${c.posts.length}`).join(', ')}`);
   return competitors;
 }

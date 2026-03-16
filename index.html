@@ -1736,17 +1736,16 @@ async function loadFromPipeline() {
           var barW = Math.max(4, c.shareOfVoice);
           var nameColor = isB ? ' style="color:var(--green);"' : '';
           var scoreColor = isB ? ' style="color:var(--green)"' : '';
-          var socialLabel = (c.socialMentions != null) ? ' &bull; ' + (c.socialMentions || 0) + ' social' : '';
-          var hasPosts = c.posts && c.posts.length > 0;
+          var total = (c.totalMentions || ((c.mentions||0) + (c.socialMentions||0)));
           return '<div class="comp-item" onclick="openBrandModal(\'' + c.name.replace(/'/g, "\\'") + '\')" title="Clicca per vedere i post">' +
             '<div style="flex:1;min-width:0">' +
               '<div class="comp-name"' + nameColor + '>&#9679; ' + c.name + '</div>' +
-              '<div class="comp-signals">' + (c.mentions || 0) + ' news' + socialLabel + postCount(c) + '</div>' +
+              '<div class="comp-signals">' + total + ' menzioni (' + (c.mentions || 0) + ' news, ' + (c.socialMentions || 0) + ' social)</div>' +
               '<div style="margin-top:3px;height:4px;background:rgba(255,255,255,.06);border-radius:2px;overflow:hidden">' +
                 '<div style="width:' + barW + '%;height:100%;background:' + (isB ? 'var(--green)' : 'var(--accent)') + ';border-radius:2px;transition:width .6s"></div>' +
               '</div>' +
             '</div>' +
-            '<div class="comp-right"><div class="comp-score"' + scoreColor + '>' + c.shareOfVoice + '%</div><div style="font-size:9px;color:var(--text3);text-align:right">News SoV</div></div>' +
+            '<div class="comp-right"><div class="comp-score"' + scoreColor + '>' + c.shareOfVoice + '%</div><div style="font-size:9px;color:var(--text3);text-align:right">SoV</div></div>' +
           '</div>';
         }).join('');
       }
@@ -1956,7 +1955,7 @@ function openBrandModal(brandName) {
 
   var overlay = document.getElementById('brandModalOverlay');
   document.getElementById('brandModalTitle').textContent = brand.name;
-  document.getElementById('brandModalBadge').textContent = brand.shareOfVoice + '% News SoV';
+  document.getElementById('brandModalBadge').textContent = brand.shareOfVoice + '% SoV — ' + (brand.totalMentions || brand.posts.length) + ' menzioni';
 
   // Set tabs
   var socialCount = brand.posts.filter(function(p) { return p.type === 'social'; }).length;
