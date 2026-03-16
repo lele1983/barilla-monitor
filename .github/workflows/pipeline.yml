@@ -1,0 +1,47 @@
+name: Barilla Monitor Pipeline
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run Data Pipeline
+        env:
+          OPENSEARCH_URL: ${{ secrets.OPENSEARCH_URL }}
+          OPENSEARCH_INDEX: channel_posts
+          OPENSEARCH_USER: ${{ secrets.OPENSEARCH_USER }}
+          OPENSEARCH_PASS: ${{ secrets.OPENSEARCH_PASS }}
+          APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
+          TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
+          TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node pipeline.js
+
+      - name: Commit & Push data.json
+        run: |
+          git config user.name "Barilla Monitor Bot"
+          git config user.email "bot@barilla-monitor.github.io"
+          git add data.json
+          if git diff --staged --quiet; then
+            echo "No changes to data.json"
+          else
+            git commit -m "chore: update dashboard data"
+            git push
+          fi
