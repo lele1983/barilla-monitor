@@ -148,43 +148,46 @@ async function fetchOpenSearchData(days = 7) {
     _source: ['caption', 'channel.name', 'channel.type', 'channel.id', 'engagement', 'engagement_rate', 'published_at', 'hashtags', 'post_type', 'post_id', 'is_sponsored', 'followers', 'image_url', 'title']
   });
 
-  // Also fetch top-engagement posts from each platform (category-relevant)
-  // Use multi_match to search across both caption AND title (YouTube has empty caption)
-  const categoryPosts = await query({
-    size: 30,
-    sort: [{ engagement: 'desc' }],
-    query: {
-      bool: {
-        must: [
-          { range: { published_at: { gte: from } } },
-          { bool: {
-            should: [
-              { multi_match: { query: 'pasta', fields: ['caption', 'title'], type: 'phrase' } },
-              { multi_match: { query: 'spaghetti', fields: ['caption', 'title'], type: 'phrase' } },
-              { multi_match: { query: 'penne', fields: ['caption', 'title'], type: 'phrase' } },
-              { multi_match: { query: 'ricetta', fields: ['caption', 'title'], type: 'phrase' } },
-              { multi_match: { query: 'barilla', fields: ['caption', 'title'], type: 'phrase' } },
-              { terms: { hashtags: ['pasta', 'spaghetti', 'ricetta', 'food', 'cucina', 'italianfood', 'barilla'] } }
-            ],
-            minimum_should_match: 1
-          }}
-        ]
-      }
-    },
-    _source: ['caption', 'channel.name', 'channel.type', 'channel.id', 'engagement', 'engagement_rate', 'published_at', 'hashtags', 'post_type', 'post_id', 'is_sponsored', 'followers', 'image_url', 'title']
-  });
+  // Fetch top-engagement category posts PER PLATFORM to ensure diversity
+  const foodKeywords = [
+    { multi_match: { query: 'pasta', fields: ['caption', 'title'], type: 'phrase' } },
+    { multi_match: { query: 'spaghetti', fields: ['caption', 'title'], type: 'phrase' } },
+    { multi_match: { query: 'ricetta', fields: ['caption', 'title'], type: 'phrase' } },
+    { multi_match: { query: 'barilla', fields: ['caption', 'title'], type: 'phrase' } },
+    { terms: { hashtags: ['pasta', 'spaghetti', 'ricetta', 'food', 'cucina', 'italianfood', 'barilla'] } }
+  ];
+  const srcFields = ['caption', 'channel.name', 'channel.type', 'channel.id', 'engagement', 'engagement_rate', 'published_at', 'hashtags', 'post_type', 'post_id', 'is_sponsored', 'followers', 'image_url', 'title'];
 
-  // Merge and deduplicate: brand posts first, then category posts
+  // Query each platform separately for category posts
+  const platQueries = ['ig', 'tt', 'yt'].map(plat =>
+    query({
+      size: 15,
+      sort: [{ engagement: 'desc' }],
+      query: { bool: { must: [
+        { range: { published_at: { gte: from } } },
+        { term: { 'channel.type': plat } },
+        { bool: { should: foodKeywords, minimum_should_match: 1 } }
+      ] } },
+      _source: srcFields
+    }).then(r => {
+      log('OPENSEARCH', `Category posts for ${plat}: ${r.hits.total.value} total, ${r.hits.hits.length} fetched`);
+      return r;
+    }).catch(e => { log('OPENSEARCH', `Category ${plat} error: ${e.message}`); return { hits: { hits: [] } }; })
+  );
+  const [igCat, ttCat, ytCat] = await Promise.all(platQueries);
+
+  // Merge and deduplicate: brand posts first, then per-platform category posts
   const seenIds = new Set();
   const allHits = [];
-  for (const hit of [...barillaDirect.hits.hits, ...categoryPosts.hits.hits]) {
+  for (const hit of [...barillaDirect.hits.hits, ...igCat.hits.hits, ...ttCat.hits.hits, ...ytCat.hits.hits]) {
     const id = hit._id;
     if (!seenIds.has(id)) {
       seenIds.add(id);
       allHits.push(hit);
     }
   }
-  const latest = { hits: { hits: allHits.slice(0, 50) } };
+  log('OPENSEARCH', `Feed: ${allHits.length} unique posts (brand: ${barillaDirect.hits.hits.length}, ig: ${igCat.hits.hits.length}, tt: ${ttCat.hits.hits.length}, yt: ${ytCat.hits.hits.length})`);
+  const latest = { hits: { hits: allHits.slice(0, 60) } };
 
   const aggs = main.aggregations;
   const curTotal = main.hits.total.value;
