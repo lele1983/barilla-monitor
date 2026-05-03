@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-05-02T18:59:01.053Z",
+    "generatedAt": "2026-05-03T02:52:04.775Z",
     "pipelineVersion": "1.0.0",
     "sources": {
       "opensearch": true,
@@ -9,19 +9,19 @@
       "claude": false,
       "competitors": true
     },
-    "processingTimeMs": 7833
+    "processingTimeMs": 3655
   },
   "social": {
     "overview": {
-      "totalPosts": 244749,
-      "prevTotalPosts": 270766,
-      "volumeChange": -9.6,
-      "mentions24h": 9251,
-      "totalEngagement": 504925021,
-      "avgEngagementRate": 0.008626480202413732,
-      "erChange": -25.8,
+      "totalPosts": 258866,
+      "prevTotalPosts": 270005,
+      "volumeChange": -4.1,
+      "mentions24h": 22492,
+      "totalEngagement": 542902537,
+      "avgEngagementRate": 0.008863210741663196,
+      "erChange": -23.9,
       "organicPct": 98,
-      "sponsoredCount": 5742
+      "sponsoredCount": 5934
     },
     "brandHealth": {
       "score": 79,
@@ -29,12 +29,12 @@
       "dimensions": [
         {
           "name": "Sentiment",
-          "score": 67,
+          "score": 68,
           "color": "#00e676"
         },
         {
           "name": "Engagement",
-          "score": 43,
+          "score": 44,
           "color": "#3ba4ff"
         },
         {
@@ -70,347 +70,342 @@
       ]
     },
     "sentiment": {
-      "netScore": 47,
-      "positive": 57,
-      "neutral": 33,
+      "netScore": 48,
+      "positive": 58,
+      "neutral": 32,
       "negative": 10
     },
     "platforms": [
       {
         "name": "tt",
-        "count": 125427,
+        "count": 132535,
         "pctOfTotal": 51.2
       },
       {
         "name": "ig",
-        "count": 110167,
-        "pctOfTotal": 45
+        "count": 116632,
+        "pctOfTotal": 45.1
       },
       {
         "name": "yt",
-        "count": 9155,
+        "count": 9699,
         "pctOfTotal": 3.7
       }
     ],
     "dailyVolume": [
       {
-        "date": "2026-04-25T00:00:00.000Z",
-        "count": 5093,
-        "engagement": 11868115,
-        "avgEr": 0.010058203925568287
-      },
-      {
         "date": "2026-04-26T00:00:00.000Z",
-        "count": 34538,
-        "engagement": 90025375,
-        "avgEr": 0.011468888884477934
+        "count": 34058,
+        "engagement": 89414106,
+        "avgEr": 0.011681490822743086
       },
       {
         "date": "2026-04-27T00:00:00.000Z",
         "count": 41679,
-        "engagement": 97959593,
-        "avgEr": 0.010069660095260499
+        "engagement": 99331989,
+        "avgEr": 0.010258108817629442
       },
       {
         "date": "2026-04-28T00:00:00.000Z",
         "count": 41432,
-        "engagement": 88618301,
-        "avgEr": 0.009517455109788882
+        "engagement": 90887518,
+        "avgEr": 0.009828475553636662
       },
       {
         "date": "2026-04-29T00:00:00.000Z",
-        "count": 41704,
-        "engagement": 94732235,
-        "avgEr": 0.009331219869317257
+        "count": 41705,
+        "engagement": 99551657,
+        "avgEr": 0.00982498463884836
       },
       {
         "date": "2026-04-30T00:00:00.000Z",
-        "count": 41182,
-        "engagement": 73695342,
-        "avgEr": 0.007164688019769626
+        "count": 41193,
+        "engagement": 80056529,
+        "avgEr": 0.007941899124965943
       },
       {
         "date": "2026-05-01T00:00:00.000Z",
-        "count": 33529,
-        "engagement": 40206166,
-        "avgEr": 0.00438569800954387
+        "count": 35928,
+        "engagement": 57056343,
+        "avgEr": 0.006314069908782236
       },
       {
         "date": "2026-05-02T00:00:00.000Z",
-        "count": 5592,
-        "engagement": 7819894,
-        "avgEr": 0.0033513376489917594
+        "count": 22801,
+        "engagement": 26547128,
+        "avgEr": 0.004299849640996062
+      },
+      {
+        "date": "2026-05-03T00:00:00.000Z",
+        "count": 70,
+        "engagement": 57267,
+        "avgEr": 0.0005431595746508889
       }
     ],
     "hourlyVolume": [
       {
-        "hour": "2026-05-01T18:00:00.000Z",
-        "count": 30,
-        "engagement": 19775
-      },
-      {
-        "hour": "2026-05-01T19:00:00.000Z",
-        "count": 1518,
-        "engagement": 1684371
-      },
-      {
-        "hour": "2026-05-01T20:00:00.000Z",
-        "count": 922,
-        "engagement": 737709
-      },
-      {
-        "hour": "2026-05-01T21:00:00.000Z",
-        "count": 589,
-        "engagement": 676462
-      },
-      {
-        "hour": "2026-05-01T22:00:00.000Z",
-        "count": 412,
-        "engagement": 665108
-      },
-      {
-        "hour": "2026-05-01T23:00:00.000Z",
-        "count": 188,
-        "engagement": 106949
-      },
-      {
-        "hour": "2026-05-02T00:00:00.000Z",
-        "count": 106,
-        "engagement": 30178
-      },
-      {
-        "hour": "2026-05-02T01:00:00.000Z",
-        "count": 61,
-        "engagement": 29329
-      },
-      {
         "hour": "2026-05-02T02:00:00.000Z",
-        "count": 47,
-        "engagement": 208732
+        "count": 14,
+        "engagement": 192519
       },
       {
         "hour": "2026-05-02T03:00:00.000Z",
-        "count": 35,
-        "engagement": 11690
+        "count": 95,
+        "engagement": 44802
       },
       {
         "hour": "2026-05-02T04:00:00.000Z",
-        "count": 46,
-        "engagement": 11453
+        "count": 199,
+        "engagement": 80110
       },
       {
         "hour": "2026-05-02T05:00:00.000Z",
-        "count": 144,
-        "engagement": 307836
+        "count": 503,
+        "engagement": 641895
       },
       {
         "hour": "2026-05-02T06:00:00.000Z",
-        "count": 202,
-        "engagement": 81720
+        "count": 732,
+        "engagement": 439910
       },
       {
         "hour": "2026-05-02T07:00:00.000Z",
-        "count": 355,
-        "engagement": 289423
+        "count": 1168,
+        "engagement": 1347584
       },
       {
         "hour": "2026-05-02T08:00:00.000Z",
-        "count": 472,
-        "engagement": 596998
+        "count": 1593,
+        "engagement": 1837044
       },
       {
         "hour": "2026-05-02T09:00:00.000Z",
-        "count": 432,
-        "engagement": 1336205
+        "count": 1637,
+        "engagement": 2544923
       },
       {
         "hour": "2026-05-02T10:00:00.000Z",
-        "count": 561,
-        "engagement": 3348244
+        "count": 1925,
+        "engagement": 5105991
       },
       {
         "hour": "2026-05-02T11:00:00.000Z",
-        "count": 568,
-        "engagement": 422460
+        "count": 1870,
+        "engagement": 2149108
       },
       {
         "hour": "2026-05-02T12:00:00.000Z",
-        "count": 515,
-        "engagement": 382696
+        "count": 1779,
+        "engagement": 1740615
       },
       {
         "hour": "2026-05-02T13:00:00.000Z",
-        "count": 431,
-        "engagement": 232064
+        "count": 1493,
+        "engagement": 990061
       },
       {
         "hour": "2026-05-02T14:00:00.000Z",
-        "count": 434,
-        "engagement": 262943
+        "count": 1487,
+        "engagement": 1640155
       },
       {
         "hour": "2026-05-02T15:00:00.000Z",
-        "count": 438,
-        "engagement": 161271
+        "count": 1484,
+        "engagement": 1610646
       },
       {
         "hour": "2026-05-02T16:00:00.000Z",
-        "count": 502,
-        "engagement": 96227
+        "count": 1818,
+        "engagement": 1232951
       },
       {
         "hour": "2026-05-02T17:00:00.000Z",
-        "count": 239,
-        "engagement": 10368
+        "count": 1421,
+        "engagement": 1855923
       },
       {
         "hour": "2026-05-02T18:00:00.000Z",
-        "count": 4,
-        "engagement": 57
+        "count": 1103,
+        "engagement": 1284742
+      },
+      {
+        "hour": "2026-05-02T19:00:00.000Z",
+        "count": 943,
+        "engagement": 503694
+      },
+      {
+        "hour": "2026-05-02T20:00:00.000Z",
+        "count": 584,
+        "engagement": 595884
+      },
+      {
+        "hour": "2026-05-02T21:00:00.000Z",
+        "count": 332,
+        "engagement": 500686
+      },
+      {
+        "hour": "2026-05-02T22:00:00.000Z",
+        "count": 171,
+        "engagement": 33120
+      },
+      {
+        "hour": "2026-05-02T23:00:00.000Z",
+        "count": 71,
+        "engagement": 6728
+      },
+      {
+        "hour": "2026-05-03T00:00:00.000Z",
+        "count": 55,
+        "engagement": 57007
+      },
+      {
+        "hour": "2026-05-03T01:00:00.000Z",
+        "count": 15,
+        "engagement": 260
       }
     ],
     "hashtags": [
       {
         "tag": "perte",
-        "count": 5757
+        "count": 6086
       },
       {
         "tag": "fyp",
-        "count": 5503
+        "count": 5818
       },
       {
         "tag": "accadeoggi",
-        "count": 5037
+        "count": 5326
       },
       {
         "tag": "viral",
-        "count": 3872
+        "count": 4124
       },
       {
         "tag": "adv",
-        "count": 2846
+        "count": 2922
       },
       {
         "tag": "offerteperte",
-        "count": 2362
+        "count": 2489
       },
       {
         "tag": "neiperte",
-        "count": 2149
+        "count": 2296
       },
       {
         "tag": "tiktokshop",
-        "count": 1963
+        "count": 2068
       },
       {
         "tag": "foryou",
-        "count": 1889
+        "count": 2054
       },
       {
         "tag": "imperdibilidiprimavera",
-        "count": 1537
+        "count": 1591
       },
       {
         "tag": "napoli",
-        "count": 1461
-      },
-      {
-        "tag": "capcut",
-        "count": 1218
+        "count": 1588
       },
       {
         "tag": "italy",
-        "count": 1144
+        "count": 1268
+      },
+      {
+        "tag": "capcut",
+        "count": 1261
       },
       {
         "tag": "italia",
-        "count": 1021
+        "count": 1082
       },
       {
         "tag": "seriea",
-        "count": 1018
+        "count": 1055
       },
       {
         "tag": "calcio",
-        "count": 951
-      },
-      {
-        "tag": "sheintrends",
-        "count": 908
+        "count": 1025
       },
       {
         "tag": "madeinitaly",
-        "count": 905
-      },
-      {
-        "tag": "milano",
-        "count": 900
+        "count": 977
       },
       {
         "tag": "perteeee",
-        "count": 888
+        "count": 949
+      },
+      {
+        "tag": "milano",
+        "count": 948
       },
       {
         "tag": "roma",
-        "count": 887
+        "count": 930
       },
       {
         "tag": "amore",
-        "count": 868
+        "count": 925
+      },
+      {
+        "tag": "sheintrends",
+        "count": 922
       },
       {
         "tag": "davedere",
-        "count": 825
-      },
-      {
-        "tag": "virale",
-        "count": 777
+        "count": 864
       },
       {
         "tag": "love",
-        "count": 760
+        "count": 820
+      },
+      {
+        "tag": "virale",
+        "count": 820
       }
     ],
     "creators": [
       {
         "name": "fabriziorom",
-        "posts": 53,
-        "engagement": 18855686,
+        "posts": 58,
+        "engagement": 21000169,
         "platform": "ig",
         "followers": 42939922,
-        "avgEr": 0.00828772785632791
+        "avgEr": 0.008434206212779353
       },
       {
         "name": "charlidamelio",
-        "posts": 14,
-        "engagement": 7042573,
+        "posts": 12,
+        "engagement": 6224406,
         "platform": "tt",
         "followers": 157400000,
-        "avgEr": 0.0031959398257396985
+        "avgEr": 0.003295428843710292
       },
       {
         "name": "juventus",
-        "posts": 64,
-        "engagement": 4209329,
+        "posts": 69,
+        "engagement": 4530678,
         "platform": "ig",
         "followers": 60056456,
-        "avgEr": 0.0013141219049758199
-      },
-      {
-        "name": "acmilan",
-        "posts": 53,
-        "engagement": 4024845,
-        "platform": "tt",
-        "followers": 23200000,
-        "avgEr": 0.003592844999603253
+        "avgEr": 0.00129180878489353
       },
       {
         "name": "maltipootoy.mia",
-        "posts": 11,
-        "engagement": 3857067,
+        "posts": 12,
+        "engagement": 4415929,
         "platform": "ig",
-        "followers": 561800,
-        "avgEr": 0.9273681756593586
+        "followers": 566500,
+        "avgEr": 0.9307557446072717
+      },
+      {
+        "name": "acmilan",
+        "posts": 55,
+        "engagement": 4126649,
+        "platform": "tt",
+        "followers": 23200000,
+        "avgEr": 0.003562864972375576
       },
       {
         "name": "wojciechszczesny1",
@@ -423,10 +418,10 @@
       {
         "name": "charles_leclerc",
         "posts": 5,
-        "engagement": 3204812,
+        "engagement": 3388435,
         "platform": "ig",
         "followers": 23669818,
-        "avgEr": 0.027079312565901438
+        "avgEr": 0.028630849633064354
       },
       {
         "name": "paky_twc",
@@ -439,10 +434,34 @@
       {
         "name": "theweeknd",
         "posts": 2,
-        "engagement": 2370211,
+        "engagement": 2591270,
         "platform": "ig",
         "followers": 77580306,
-        "avgEr": 0.015275854931533783
+        "avgEr": 0.016700565733783004
+      },
+      {
+        "name": "tania_mannaa",
+        "posts": 84,
+        "engagement": 2504975,
+        "platform": "tt",
+        "followers": 1100000,
+        "avgEr": 0.034634480657033055
+      },
+      {
+        "name": "scuderiaferrari",
+        "posts": 40,
+        "engagement": 2235894,
+        "platform": "ig",
+        "followers": 20459333,
+        "avgEr": 0.0027321198594304126
+      },
+      {
+        "name": "im_marilin",
+        "posts": 6,
+        "engagement": 1974352,
+        "platform": "tt",
+        "followers": 2500000,
+        "avgEr": 0.13162346666666666
       },
       {
         "name": "zlatan",
@@ -453,20 +472,12 @@
         "avgEr": 0.029452646971487507
       },
       {
-        "name": "im_marilin",
-        "posts": 5,
-        "engagement": 1843169,
-        "platform": "tt",
-        "followers": 2500000,
-        "avgEr": 0.14745352
-      },
-      {
-        "name": "scuderiaferrari",
-        "posts": 40,
-        "engagement": 1734716,
+        "name": "victorosimhen9",
+        "posts": 2,
+        "engagement": 1781400,
         "platform": "ig",
-        "followers": 20459333,
-        "avgEr": 0.0021197123092918033
+        "followers": 7523849,
+        "avgEr": 0.11838355607615197
       },
       {
         "name": "fabrizioromano",
@@ -475,96 +486,29 @@
         "platform": "tt",
         "followers": 21000000,
         "avgEr": 0.013729555555555556
-      },
-      {
-        "name": "victorosimhen9",
-        "posts": 2,
-        "engagement": 1699817,
-        "platform": "ig",
-        "followers": 7523849,
-        "avgEr": 0.11296192945924352
-      },
-      {
-        "name": "outpump",
-        "posts": 41,
-        "engagement": 1583206,
-        "platform": "tt",
-        "followers": 835797,
-        "avgEr": 0.07881183130426753
       }
     ],
     "posts": [
       {
-        "platform": "yt",
-        "author": "chefsebastianfitarau",
-        "time": "2026-05-01T18:28:12Z",
-        "text": "Spaghetti cacio e pepe🤤🍴\n\nIngredienti x2\n220g spaghetti traffilati al bronzo \n80g pecorino più dolce stagionato in grotta\nsale q.b.\npepe q.b.\n\nSpaghetti cacio e pepe 🤤🍴\n\nIngredients x2\n220g spaghetti\n80g pecorino cheese\nsalt to taste\npepper to ta",
-        "engagement": 167,
-        "engagementRate": 0.0017560462670872766,
+        "platform": "ig",
+        "author": "visacashapprb",
+        "time": "2026-05-02T18:01:13Z",
+        "text": "Barilla 🤝 VCARB - Both born in Italy’s Food Valley and celebrating what matters most 🫶\n\nTo launch our new partnership, Barilla Group helped reunite team members with their families for a special weekend in Miami 💙\n\n#F1 #VCARB #MiamiGP",
+        "engagement": 1117,
+        "engagementRate": 0.0002841400502650617,
         "sentiment": "neg",
         "hashtags": [
-          "sebastianfitarau",
-          "spaghetti",
-          "cacioepepe"
+          "f1",
+          "vcarb",
+          "miamigp"
         ],
-        "imageUrl": "https://i.ytimg.com/vi/ezpSk6G95aQ/hqdefault.jpg",
-        "url": "https://www.youtube.com/watch?v=ezpSk6G95aQ"
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.71878-15/682690913_1742990440207011_1312349412596436497_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=102&ig_cache_key=Mzg4ODMyNzE0MTU1OTg5NTQwNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&_nc_ohc=sYEyYkAy8HQQ7kNvwGb-149&_nc_oc=Adp1hH43vkUUGiwceuvNYwqOEtsoIFR1dWvaTFPXVSf56lOOlidQhgihiMt5kPDrkXCLc_8gLD54LARypiHMy4k7&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=KtF4DPWd6el-xXWgDMPu9A&_nc_ss=7a3ba&oh=00_Af6QtBwYLDlbSSUjMgdBwikopFVhDVOgSj2l3PEyfpJbYQ&oe=69FC1D78",
+        "url": "https://www.instagram.com/reel/3888327141559895407/"
       },
       {
         "platform": "tt",
         "author": "pizzerialacarmecita",
-        "time": "2026-05-01T17:40:35Z",
-        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
-        "engagement": 0,
-        "engagementRate": 0,
-        "sentiment": "neg",
-        "hashtags": [
-          "pizzanapoletana",
-          "cucinacampana",
-          "tradizionedal1982",
-          "foodlovers"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oAIe0pvEpBOuLgRwj9QADFEFV5DDW9DOlfW8Zk~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=P0tnf92qLGJp%2B8UD7wzs%2BNHbJ2g%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634979665014394135"
-      },
-      {
-        "platform": "tt",
-        "author": "pizzerialacarmecita",
-        "time": "2026-05-01T17:38:03Z",
-        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
-        "engagement": 0,
-        "engagementRate": 0,
-        "sentiment": "neg",
-        "hashtags": [
-          "pizzanapoletana",
-          "cucinacampana",
-          "tradizionedal1982",
-          "foodlovers"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/ogBFSTpI0jmDqB05gykPOfEZFEARPB9fv3G5vE~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=BSILSObMN62rDhKm91%2FM8JsYBkA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634979015475957014"
-      },
-      {
-        "platform": "tt",
-        "author": "pizzerialacarmecita",
-        "time": "2026-05-01T17:37:41Z",
-        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
-        "engagement": 1,
-        "engagementRate": 0.000023696682464454976,
-        "sentiment": "neg",
-        "hashtags": [
-          "pizzanapoletana",
-          "cucinacampana",
-          "tradizionedal1982",
-          "foodlovers"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oAcIi6DPBLG6ADIcfTrxj2AJmIIfeLMGQpycua~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=nHD01ZSEaf%2FlD3LvmKOaaJD91cM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634978915844459798"
-      },
-      {
-        "platform": "tt",
-        "author": "pizzerialacarmecita",
-        "time": "2026-05-01T17:37:08Z",
+        "time": "2026-05-02T17:32:26Z",
         "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
         "engagement": 4,
         "engagementRate": 0.0000947867298578199,
@@ -575,16 +519,16 @@
           "tradizionedal1982",
           "foodlovers"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/ooEF6JpoC5R8iZ3EinAb6EIB0gDkewLBCQfRM3~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=apHYeT15Z6NWf5Uhdgpir%2BRttd8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634978773439352086"
+        "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oMcjW7QffAvBbsIlINpLaeAQM8AEWLIqtDpTGg~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=5h7OlWrfutJ4l5yLXBRsG1TdtvQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635348660120751382"
       },
       {
         "platform": "tt",
         "author": "pizzerialacarmecita",
-        "time": "2026-05-01T17:36:44Z",
+        "time": "2026-05-02T17:31:42Z",
         "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
-        "engagement": 0,
-        "engagementRate": 0,
+        "engagement": 21,
+        "engagementRate": 0.0004976303317535545,
         "sentiment": "neg",
         "hashtags": [
           "pizzanapoletana",
@@ -592,16 +536,16 @@
           "tradizionedal1982",
           "foodlovers"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o0VFcg6TpOTA4fly5xIUDL6IjLVGEAkI7Qefv3~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=ZWRhCPzuxhw4b%2FCsmeRdLalMf%2B0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634978674361519382"
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o4126DwfvAEpz0DOABI0jOBMNiCSiCAFoYAIP8~tplv-tiktokx-dmt-logom:tos-no1a-i-0068-no/osflNjqk9CFFXweEAI1AhAApYLTgOpIHDER2ED.image?dr=10393&x-expires=1777924800&x-signature=Y15zTwIuIQh4UiFsRournDOI%2FzY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635348462661291267"
       },
       {
         "platform": "tt",
         "author": "pizzerialacarmecita",
-        "time": "2026-05-01T17:35:51Z",
+        "time": "2026-05-02T17:30:05Z",
         "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
-        "engagement": 4,
-        "engagementRate": 0.0000947867298578199,
+        "engagement": 23,
+        "engagementRate": 0.0005450236966824645,
         "sentiment": "neg",
         "hashtags": [
           "pizzanapoletana",
@@ -609,16 +553,16 @@
           "tradizionedal1982",
           "foodlovers"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/osxXE8pERkRfVRXuygCO0QY9IAvp0vD3fQOFFB~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=sgfVblsN6hmMgCyilFGxyDTktIM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634978443788061974"
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oQgVSixGpFp3N0J6ABBrTXneiCpEkIfRJEEJ2G~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=R4EuD84VU69wzxgaAm3BYOz8goc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635348050403134742"
       },
       {
         "platform": "tt",
         "author": "pizzerialacarmecita",
-        "time": "2026-05-01T17:35:10Z",
+        "time": "2026-05-02T17:27:40Z",
         "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
-        "engagement": 2,
-        "engagementRate": 0.00004739336492890995,
+        "engagement": 3,
+        "engagementRate": 0.00007109004739336493,
         "sentiment": "neg",
         "hashtags": [
           "pizzanapoletana",
@@ -626,13 +570,47 @@
           "tradizionedal1982",
           "foodlovers"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/ogIEzriemEB4OzBAI6AgfMigp0I5RKsFkJEn5B~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=epgTAzxZRWRjTUW5KjcxIEeQeJw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634978270185819414"
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oMjffLRCAaagOJBTcGIWQgE7QDf8kxis6AMaIO~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=bn0scy4Q%2BTk38yQBZyoH1VMfFAw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635347426630503702"
       },
       {
         "platform": "tt",
         "author": "pizzerialacarmecita",
-        "time": "2026-05-01T17:34:18Z",
+        "time": "2026-05-02T15:10:10Z",
+        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
+        "engagement": 21,
+        "engagementRate": 0.0004976303317535545,
+        "sentiment": "neg",
+        "hashtags": [
+          "pizzanapoletana",
+          "cucinacampana",
+          "tradizionedal1982",
+          "foodlovers"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o4kOpDkDpBJg4U8FEjwhfAIDEFVsf9UgtRQ6X1~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=to1oz02TnwYEUJMkZD5Lz6IntYE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635311982379404566"
+      },
+      {
+        "platform": "tt",
+        "author": "pizzerialacarmecita",
+        "time": "2026-05-02T10:51:59Z",
+        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
+        "engagement": 14,
+        "engagementRate": 0.00033175355450236965,
+        "sentiment": "neg",
+        "hashtags": [
+          "pizzanapoletana",
+          "cucinacampana",
+          "tradizionedal1982",
+          "foodlovers"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/ooLiC1W0E75EkbeBz17BfFvRujAiB1ugObHpIT~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=5HZg7g4agJ%2FuklaebzN16rbeaXo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635245451125476630"
+      },
+      {
+        "platform": "tt",
+        "author": "pizzerialacarmecita",
+        "time": "2026-05-02T10:51:34Z",
         "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
         "engagement": 5,
         "engagementRate": 0.00011848341232227489,
@@ -643,28 +621,16 @@
           "tradizionedal1982",
           "foodlovers"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/osfREENRI9NBj0k0kOBqIde5gBFBFpAO9yDkFE~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=5Cdea%2BdiZthzD%2FSUYqN4qTHXvmY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634978046608542998"
-      },
-      {
-        "platform": "ig",
-        "author": "gallipoli.it",
-        "time": "2026-05-01T17:32:49Z",
-        "text": "​👨‍🍳 La Visione di Maurizio Bono: Qualità Senza Compromessi\n\n​Il titolare, Maurizio Bono, ha costruito l'identità del pastificio su un pilastro fondamentale: la qualità estrema. In un mercato spesso dominato dalla produzione industriale, Maurizio h",
-        "engagement": 10,
-        "engagementRate": 0.00002726340814412528,
-        "sentiment": "neg",
-        "hashtags": [],
-        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.71878-15/683554079_1696624544843233_2846532768323176505_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=109&ig_cache_key=Mzg4NzU4Nzc0NTc0MzY4Mjg2NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&_nc_ohc=wtTB3KMOGkAQ7kNvwH1UMG4&_nc_oc=AdrPztm6IXg4r37fbsAsHvsUyWaP9PJud1PjtrF49MrZ_xe_zU78IazOVNiClf0YQCjFy8Kafr9uhK0GptsqPmKV&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=2-MhZD72yFEOqfg6MniNsw&_nc_ss=7a3ba&oh=00_Af65aFlIq_1t6KbBM9vcHtjRoKyKUxrW2UJ0tYj0wyR--A&oe=69FB55A1",
-        "url": "https://www.instagram.com/reel/3887587745743682865/"
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oMdEh9CvMFrgABkP0pu8R2gebEI8fFiDQ11zYt~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=%2FGXxSj3Ti9KUlR9QoeqmcAC8tBo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635245342425926934"
       },
       {
         "platform": "tt",
         "author": "pizzerialacarmecita",
-        "time": "2026-05-01T16:58:12Z",
+        "time": "2026-05-02T10:50:10Z",
         "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
-        "engagement": 17,
-        "engagementRate": 0.0004028436018957346,
+        "engagement": 4,
+        "engagementRate": 0.0000947867298578199,
         "sentiment": "neg",
         "hashtags": [
           "pizzanapoletana",
@@ -672,16 +638,16 @@
           "tradizionedal1982",
           "foodlovers"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/ooAvAfqUDFDpFAfEB0E2NME49CkIKWbgnERFuA~tplv-tiktokx-dmt-logom:tos-no1a-i-0068-no/o0mEBeADNi1HACkASp9ARKgA3iEvfFmBI024Gj.image?dr=10393&x-expires=1777831200&x-signature=z0q53CemfcMqb6Kvw%2BB%2Fdpd1sy4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634968744841776406"
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o01dpFQybCDHgHAQIJLEBan1skFuR9XEPeOOfM~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=498UmMfqm1mGz8apSHKuX2IFFIg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635244985037737238"
       },
       {
         "platform": "tt",
         "author": "pizzerialacarmecita",
-        "time": "2026-05-01T16:54:07Z",
+        "time": "2026-05-02T10:49:38Z",
         "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
-        "engagement": 8,
-        "engagementRate": 0.0001895734597156398,
+        "engagement": 4,
+        "engagementRate": 0.0000947867298578199,
         "sentiment": "neg",
         "hashtags": [
           "pizzanapoletana",
@@ -689,28 +655,16 @@
           "tradizionedal1982",
           "foodlovers"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oEAB0iMT1e4qB2hnRfbBm8ExgkiWFTDI0paSEI~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=gGkgbm4Xf1RjuBd4JSh1U3%2FarGM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634967689869397270"
-      },
-      {
-        "platform": "ig",
-        "author": "davidecamicioli",
-        "time": "2026-05-01T13:12:14Z",
-        "text": "Sorpresona a Miami by Barilla 🍝🏎️ @barillaus",
-        "engagement": 459,
-        "engagementRate": 0.0037300394132704887,
-        "sentiment": "neg",
-        "hashtags": [],
-        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/683647199_18581407858045744_4631015969026827650_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_cat=111&ig_cache_key=Mzg4NzQ1NjU0MjA0Nzk1MjQzMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTE4Ni5zZHIuQzMifQ%3D%3D&_nc_ohc=qxyEi7iox6wQ7kNvwEaqLzX&_nc_oc=Adp8jF5qIXoaY0639cR_pfcAMvQjSZGDt3EXFdKLX7LyaTV-9VDyiu5MkiDOASlCG33hbJ30JPtRyuE86hgvgQgq&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=eO4qbh7vwM4LtTqjWA8UUQ&_nc_ss=7a3ba&oh=00_Af5QYLzVmPnjt2P3jam-m_uMgmY4tjrgeHWWYcszrLt9jQ&oe=69FC0767",
-        "url": "https://www.instagram.com/p/3887458057333404284/"
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oQIrQCLcjrg6AQGTnLvOeUlH21RI5I1AIe6YDf~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=qqLCAhVoTBoCgIg%2F7h0lumJV9Es%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635244840913259798"
       },
       {
         "platform": "tt",
         "author": "pizzerialacarmecita",
-        "time": "2026-05-01T12:42:10Z",
+        "time": "2026-05-02T10:49:19Z",
         "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
-        "engagement": 3,
-        "engagementRate": 0.00007109004739336493,
+        "engagement": 4,
+        "engagementRate": 0.0000947867298578199,
         "sentiment": "neg",
         "hashtags": [
           "pizzanapoletana",
@@ -718,98 +672,13 @@
           "tradizionedal1982",
           "foodlovers"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/octfJifoA63RGB6qIgnFOYVbPMiE9pukgBB0Eb~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=ZxEGlawOKv1neFfFPrl892qE8xk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634902760361659670"
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oopkILALgQCsvjEAM6I6S1g6egWDGeVDIreTaX~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=J4SJMxIYsuqHnPoxHU%2BaTGxR4%2F4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635244760592076054"
       },
       {
         "platform": "tt",
         "author": "pizzerialacarmecita",
-        "time": "2026-05-01T12:30:40Z",
-        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
-        "engagement": 8,
-        "engagementRate": 0.0001895734597156398,
-        "sentiment": "neg",
-        "hashtags": [
-          "pizzanapoletana",
-          "cucinacampana",
-          "tradizionedal1982",
-          "foodlovers"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oQhLfnTg0x5GXDNnATIPTeIsLIAjfJ61AokgkQ~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=r9xfaezOwFB03O9%2FlZ0m7WPQx4M%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634899799199747350"
-      },
-      {
-        "platform": "tt",
-        "author": "pizzerialacarmecita",
-        "time": "2026-05-01T12:29:30Z",
-        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
-        "engagement": 13,
-        "engagementRate": 0.0003080568720379147,
-        "sentiment": "neg",
-        "hashtags": [
-          "pizzanapoletana",
-          "cucinacampana",
-          "tradizionedal1982",
-          "foodlovers"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oE79kETID7yyJBnqgEfKApCEbFfDQpFEpgZRG0~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=z4qLFZ4cKXfq8%2B0%2B4Gsxe9qfQxg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634899499399286038"
-      },
-      {
-        "platform": "tt",
-        "author": "pizzerialacarmecita",
-        "time": "2026-05-01T12:26:04Z",
-        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
-        "engagement": 2,
-        "engagementRate": 0.00004739336492890995,
-        "sentiment": "neg",
-        "hashtags": [
-          "pizzanapoletana",
-          "cucinacampana",
-          "tradizionedal1982",
-          "foodlovers"
-        ],
-        "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oIxBiAK2SC2Ec7b0ECQ9iv61ymfp0IApTCXIwG~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=6NvSzcgqB31yketL8OvUkg2PFrA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634898606281067798"
-      },
-      {
-        "platform": "tt",
-        "author": "pizzerialacarmecita",
-        "time": "2026-05-01T12:24:13Z",
-        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
-        "engagement": 3,
-        "engagementRate": 0.00007109004739336493,
-        "sentiment": "neg",
-        "hashtags": [
-          "pizzanapoletana",
-          "cucinacampana",
-          "tradizionedal1982",
-          "foodlovers"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/owzjU6IbINeW10I2IeaZmEAEGeAmLLC9oDTTTI~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=onGH2bg4svTjjwGcTEOGq0Qudpw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634898123952901398"
-      },
-      {
-        "platform": "tt",
-        "author": "pizzerialacarmecita",
-        "time": "2026-05-01T12:23:17Z",
-        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
-        "engagement": 2,
-        "engagementRate": 0.00004739336492890995,
-        "sentiment": "neg",
-        "hashtags": [
-          "pizzanapoletana",
-          "cucinacampana",
-          "tradizionedal1982",
-          "foodlovers"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o85CJIVt0xpAPyVmexEMBF9ERFzDpgskIEfr0X~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=3YQGD3XmY3Cv%2FznbV%2BfrSauxgRo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634897884130839830"
-      },
-      {
-        "platform": "tt",
-        "author": "pizzerialacarmecita",
-        "time": "2026-05-01T12:21:45Z",
+        "time": "2026-05-02T10:48:50Z",
         "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
         "engagement": 5,
         "engagementRate": 0.00011848341232227489,
@@ -820,13 +689,13 @@
           "tradizionedal1982",
           "foodlovers"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/osmCmiTBwqEAaarivr0ICCA7EP0ItfIoS0kn5y~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=7frU0pjS9VQRnAHmHgBCqEGcMHA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634897499009846550"
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oUDm1pfaBtrdpFLEOOxBAMk7E9IF1EfgRdvTLG~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=aR1oxRcmosj7jHSTFP3OkDrxc0k%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635244641608027414"
       },
       {
         "platform": "tt",
         "author": "pizzerialacarmecita",
-        "time": "2026-05-01T12:20:11Z",
+        "time": "2026-05-02T10:48:27Z",
         "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
         "engagement": 3,
         "engagementRate": 0.00007109004739336493,
@@ -837,30 +706,13 @@
           "tradizionedal1982",
           "foodlovers"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oENn0AcjkkBumiIpveifFBgS4mOR0KEMRnByE6~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=jiuFFx0loDzTh6dYVxEH3cnzTxM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634897090014891286"
+        "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/ooFBXI0d1z0ASdu1VFi6AifCICnBLwWypEPjWr~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=CRLtqMRietu6Js%2F8bwYDT33VGKA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635244542303800598"
       },
       {
         "platform": "tt",
         "author": "pizzerialacarmecita",
-        "time": "2026-05-01T12:16:33Z",
-        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
-        "engagement": 8,
-        "engagementRate": 0.0001895734597156398,
-        "sentiment": "neg",
-        "hashtags": [
-          "pizzanapoletana",
-          "cucinacampana",
-          "tradizionedal1982",
-          "foodlovers"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oA0GyiAIyB0PfXCZmwWjAUaPEPkjJCCiEiIGSB~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=R%2F78qAev7glF8BfaUI8ryHStxCE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634896153045191958"
-      },
-      {
-        "platform": "tt",
-        "author": "pizzerialacarmecita",
-        "time": "2026-05-01T12:07:59Z",
+        "time": "2026-05-02T10:16:28Z",
         "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
         "engagement": 1,
         "engagementRate": 0.000023696682464454976,
@@ -871,47 +723,13 @@
           "tradizionedal1982",
           "foodlovers"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o4Eo00MC5ASRTwIp2KIAXiiCXlBggfB52P9m5y~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=Z4%2BlCT8b8R45Lh7MnhhFGCRGiKw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634893937769090306"
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oYzzUFsEEILEg99Fc1f4Ox6ARkRspDkeFBovBC~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=K7JluOa2ZIQihXiTFN0II8wqDf0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635236296864156950"
       },
       {
         "platform": "tt",
         "author": "pizzerialacarmecita",
-        "time": "2026-05-01T11:56:14Z",
-        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
-        "engagement": 3,
-        "engagementRate": 0.00007109004739336493,
-        "sentiment": "neg",
-        "hashtags": [
-          "pizzanapoletana",
-          "cucinacampana",
-          "tradizionedal1982",
-          "foodlovers"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o8BUAlVeViHq4EkBEpiB7NfZID5PgpZDFk0tcR~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=mP6gZIsECbeiPzT2%2Bi7IvXxflN4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634890913621314838"
-      },
-      {
-        "platform": "tt",
-        "author": "pizzerialacarmecita",
-        "time": "2026-05-01T11:55:34Z",
-        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
-        "engagement": 19,
-        "engagementRate": 0.00045023696682464456,
-        "sentiment": "neg",
-        "hashtags": [
-          "pizzanapoletana",
-          "cucinacampana",
-          "tradizionedal1982",
-          "foodlovers"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oACTrWVfRpizzkFwBmB0FpiksL7egA8E6YlBIE~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=TUsiN1Xeb%2BuAUzT%2F1bqg4uRtTz4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634890745245191446"
-      },
-      {
-        "platform": "tt",
-        "author": "pizzerialacarmecita",
-        "time": "2026-05-01T11:29:25Z",
+        "time": "2026-05-02T10:04:18Z",
         "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
         "engagement": 2,
         "engagementRate": 0.00004739336492890995,
@@ -922,13 +740,47 @@
           "tradizionedal1982",
           "foodlovers"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/ooI06pj3EWYIAFU7eAkEKgFjKUj9B2D7EIpfR9~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=fpNa3XhEwmBVV8dmMH6crGuh4aw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634884010988162326"
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oULBXI7B140AavJzIliFAifCICCBYwMyiEPPZ0~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=BMvkLKcFBZQS1ld6%2BgxapwQlx%2B4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635233160585874710"
       },
       {
         "platform": "tt",
         "author": "pizzerialacarmecita",
-        "time": "2026-05-01T11:29:04Z",
+        "time": "2026-05-02T09:41:45Z",
+        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
+        "engagement": 9,
+        "engagementRate": 0.0002132701421800948,
+        "sentiment": "neg",
+        "hashtags": [
+          "pizzanapoletana",
+          "cucinacampana",
+          "tradizionedal1982",
+          "foodlovers"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o4lZBfCpDFXpFioELrEjceIb9BkQ0Wdg5IRZbA~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=i3vDe25tfgC6eNXSF%2BrXwwAXcsY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635227346957618454"
+      },
+      {
+        "platform": "tt",
+        "author": "pizzerialacarmecita",
+        "time": "2026-05-02T09:41:30Z",
+        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
+        "engagement": 3,
+        "engagementRate": 0.00007109004739336493,
+        "sentiment": "neg",
+        "hashtags": [
+          "pizzanapoletana",
+          "cucinacampana",
+          "tradizionedal1982",
+          "foodlovers"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oIkIgz9EpGxxF0ppEFcmENEt1D5sfqAeRABazk~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=0Kr76hh80zxkaFpNlvmuiiFLJZ8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635227287004204310"
+      },
+      {
+        "platform": "tt",
+        "author": "pizzerialacarmecita",
+        "time": "2026-05-02T09:40:53Z",
         "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
         "engagement": 4,
         "engagementRate": 0.0000947867298578199,
@@ -939,13 +791,64 @@
           "tradizionedal1982",
           "foodlovers"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oMHRTLgGzCGTA2A7Q8fIDhmp4ILPj6WIe7sXeT~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=CvqMkbMvvwBVAx7UOuUAO0xtwgs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634883909569858838"
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oAeJeAG60jvLULjvTur5yBIIAIGrDBoQMzf4IK~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=ud9HzCTwh4%2FcMniH2fz2i6ZMTQ8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635227133203254550"
       },
       {
         "platform": "tt",
         "author": "pizzerialacarmecita",
-        "time": "2026-05-01T11:28:42Z",
+        "time": "2026-05-02T09:39:36Z",
+        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
+        "engagement": 3,
+        "engagementRate": 0.00007109004739336493,
+        "sentiment": "neg",
+        "hashtags": [
+          "pizzanapoletana",
+          "cucinacampana",
+          "tradizionedal1982",
+          "foodlovers"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/okrzI3BpFgXQeHRGbESKfBVAriXD9FlWckIjWE~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=wNRcoZ2oXAz5NF1q8OxFGvlvRXQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635226791954697494"
+      },
+      {
+        "platform": "tt",
+        "author": "pizzerialacarmecita",
+        "time": "2026-05-02T09:36:33Z",
+        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
+        "engagement": 2,
+        "engagementRate": 0.00004739336492890995,
+        "sentiment": "neg",
+        "hashtags": [
+          "pizzanapoletana",
+          "cucinacampana",
+          "tradizionedal1982",
+          "foodlovers"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/ogzEGfcrLgeRDVGQC56EAqBkiF9FIPIYppUwI3~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=xel1QKoX%2F5MkfWuq4MhmPyFOnaQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635225996903451926"
+      },
+      {
+        "platform": "tt",
+        "author": "pizzerialacarmecita",
+        "time": "2026-05-02T09:34:27Z",
+        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
+        "engagement": 35,
+        "engagementRate": 0.0008293838862559242,
+        "sentiment": "neg",
+        "hashtags": [
+          "pizzanapoletana",
+          "cucinacampana",
+          "tradizionedal1982",
+          "foodlovers"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oIINQMWeFuIrf26XLCMAgl6YjfTAFDvIs4Q08z~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=4yIXLAAwHcnc391T9s7Fg7USxtc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635225468727217430"
+      },
+      {
+        "platform": "tt",
+        "author": "pizzerialacarmecita",
+        "time": "2026-05-02T09:32:07Z",
         "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
         "engagement": 4,
         "engagementRate": 0.0000947867298578199,
@@ -956,16 +859,16 @@
           "tradizionedal1982",
           "foodlovers"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oc3m0ADsSyAr5iI0XfiPCAw0ojB8OzEII0ByCV~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=yHn9Aqm10CJc%2FF9sqSrIbBG4Da4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634883832507845910"
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oksWlXIgxThf1rlnAGGAGENuf4fzBeRQWYoGA7~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=7TL5A2uA0UspQ1M0%2FDxPirvvdxQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635224873543159043"
       },
       {
         "platform": "tt",
         "author": "pizzerialacarmecita",
-        "time": "2026-05-01T11:26:45Z",
+        "time": "2026-05-02T09:31:48Z",
         "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
-        "engagement": 1,
-        "engagementRate": 0.000023696682464454976,
+        "engagement": 6,
+        "engagementRate": 0.00014218009478672987,
         "sentiment": "neg",
         "hashtags": [
           "pizzanapoletana",
@@ -973,13 +876,13 @@
           "tradizionedal1982",
           "foodlovers"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oUnEyGGfIJyEk89BppQDfF0R3wAFBLIgvQbpQ1~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=%2FTXWelRNkrPD4M4s4lXwTp5EwP8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634883318923775254"
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/owOBiA3RXC9SxzE1EAtIiPTbyxfr0IA2SC3IwI~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=yRETHI7w%2FK%2BCjnZ%2BKf06lblNTio%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635224794966789398"
       },
       {
         "platform": "tt",
         "author": "pizzerialacarmecita",
-        "time": "2026-05-01T11:23:28Z",
+        "time": "2026-05-02T09:31:23Z",
         "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
         "engagement": 4,
         "engagementRate": 0.0000947867298578199,
@@ -990,8 +893,110 @@
           "tradizionedal1982",
           "foodlovers"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oIZCIQNsplpAEf8G11EjBF9ERFlDPg0kJIfnLx~tplv-tiktokx-origin.image?dr=10395&x-expires=1777831200&x-signature=r5QMGnyJgBh3UBJHt%2FDZB3szBO8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7634882476606803203"
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/osGCEVipvwyNP0N1CABAIEf3IA0wxA3CxXirPp~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=lGI3now5PaXgVEywBUpKh5Gpj30%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635224676544843030"
+      },
+      {
+        "platform": "tt",
+        "author": "pizzerialacarmecita",
+        "time": "2026-05-02T09:30:27Z",
+        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
+        "engagement": 8,
+        "engagementRate": 0.0001895734597156398,
+        "sentiment": "neg",
+        "hashtags": [
+          "pizzanapoletana",
+          "cucinacampana",
+          "tradizionedal1982",
+          "foodlovers"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o0EWyDIgkfAFMEchHcRR39ftAODVFCAQuAwpCr~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=R%2BaY7sDujrmtLA1jowDZrPt7Y8o%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635224436534267158"
+      },
+      {
+        "platform": "tt",
+        "author": "pizzerialacarmecita",
+        "time": "2026-05-02T09:25:21Z",
+        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
+        "engagement": 9,
+        "engagementRate": 0.0002132701421800948,
+        "sentiment": "neg",
+        "hashtags": [
+          "pizzanapoletana",
+          "cucinacampana",
+          "tradizionedal1982",
+          "foodlovers"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oUERnFQ1nLslMPDZBgfyFKAkCJIkweE5Fc9pwE~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=zFiPq3S69GdGkZPAqW9C4ziM2vA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635223123549244694"
+      },
+      {
+        "platform": "tt",
+        "author": "pizzerialacarmecita",
+        "time": "2026-05-02T08:05:08Z",
+        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
+        "engagement": 7,
+        "engagementRate": 0.00016587677725118482,
+        "sentiment": "neg",
+        "hashtags": [
+          "pizzanapoletana",
+          "cucinacampana",
+          "tradizionedal1982",
+          "foodlovers"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/owIB0fBwYHKWCAcyITwCKZuAiXyD1taETwPiIs~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=vn7vz%2Btwei%2BXXaQJ8MbkUZtBdfs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635202436705127702"
+      },
+      {
+        "platform": "tt",
+        "author": "pizzerialacarmecita",
+        "time": "2026-05-02T05:45:04Z",
+        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
+        "engagement": 441,
+        "engagementRate": 0.010450236966824645,
+        "sentiment": "neu",
+        "hashtags": [
+          "pizzanapoletana",
+          "cucinacampana",
+          "tradizionedal1982",
+          "foodlovers"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o8DE2jK0ErqEkJ9Cm12DfFER9NAFAAYgANVpIf~tplv-tiktokx-dmt-logom:tos-no1a-i-0068-no/ogfpZKRHEgD9JreEpHF9NIApFGAVQgCnY9AkKA.image?dr=10393&x-expires=1777924800&x-signature=%2BYUNNK33drjtfAeo5WqxK2ulkls%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635166282802810115"
+      },
+      {
+        "platform": "tt",
+        "author": "pizzerialacarmecita",
+        "time": "2026-05-02T05:43:44Z",
+        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
+        "engagement": 5,
+        "engagementRate": 0.00011848341232227489,
+        "sentiment": "neg",
+        "hashtags": [
+          "pizzanapoletana",
+          "cucinacampana",
+          "tradizionedal1982",
+          "foodlovers"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/ocjK8fBtEE3CBHRFYjpE1DxB9IynkMofgAFFXR~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=ZxTe28yeQJ4XFFegmT8Ap2531n0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635165967315635478"
+      },
+      {
+        "platform": "tt",
+        "author": "pizzerialacarmecita",
+        "time": "2026-05-02T05:43:31Z",
+        "text": "🍕🔥 Domenica  aperti anche a pranzo! Non solo ristorante… qui è un’esplosione di colori e sapori: pizza dorata, panuozzi fragranti, friggitoria croccante e profumata 😍 Dalla tradizione che scalda il cuore: 🍝 gnocchi alla sorrentina filanti 🐟 pacc",
+        "engagement": 5,
+        "engagementRate": 0.00011848341232227489,
+        "sentiment": "neg",
+        "hashtags": [
+          "pizzanapoletana",
+          "cucinacampana",
+          "tradizionedal1982",
+          "foodlovers"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oU7IRjywEpeIIC6De1LGeLcj37ALBRxAdGVTI0~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=fhx7Lmg6JDTnjk6pYOk%2ByhOBGU4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pizzerialacarmecita/video/7635165850512805142"
       },
       {
         "platform": "ig",
@@ -1008,6 +1013,20 @@
         ],
         "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.71878-15/682928237_1878753496144023_4954125974657737645_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=101&ig_cache_key=Mzg4MzM5ODYzMzI1NzQ3NTgzNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&_nc_ohc=OE-qusY-UUoQ7kNvwHR0Tre&_nc_oc=AdoIjej9fLTixzkqI0U6bD---dQvwyrTz70piqFBnnjLKKbnTrgVDzUv7Cu_UaGVuDI7jn1CNDb7_Grcf1S5RTcV&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=HurXrdnmhoOz3oAb976o8Q&_nc_ss=7a3ba&oh=00_Af61gNwrrBHgeJ06KKc1xvU7WCz_cDu3_Qt3wkr0HBvluA&oe=69FBEF51",
         "url": "https://www.instagram.com/reel/3883398633257475834/"
+      },
+      {
+        "platform": "ig",
+        "author": "mikaelashiffrin",
+        "time": "2026-05-01T03:12:00Z",
+        "text": "Day 1 ☺️\n\n@f1 \n#MiamiGP \n@barilla\n\nStyled/HMU by @jshinyeda\n📷: @lucamartiniphoto",
+        "engagement": 61198,
+        "engagementRate": 0.03597751214427689,
+        "sentiment": "pos",
+        "hashtags": [
+          "miamigp"
+        ],
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/683539285_18580952242008225_3772434744417311642_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=1&ig_cache_key=Mzg4NzE1Mzg2MzkyNTIyMzY3MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkxOS5zZHIuQzMifQ%3D%3D&_nc_ohc=R-_GJSAJ1dQQ7kNvwGvQyB2&_nc_oc=AdqbiGu8DiSVEFFKckyOhcI_Bx0BzLYRLFVgTcizbr2Qzw_w0vkxcTtT5eNQfONWW8ejz3huIYbHrFEFSI9Mx7_1&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=4dDKirKrybENK4zuKL-ciw&_nc_ss=7a3ba&oh=00_Af7giNfhbxYfcHVRqWq5xOwpFV_tkLzYHFn__N6qO3YwBw&oe=69FC3E97",
+        "url": "https://www.instagram.com/p/3887155944090287490/"
       },
       {
         "platform": "ig",
@@ -1059,20 +1078,6 @@
       },
       {
         "platform": "ig",
-        "author": "mikaelashiffrin",
-        "time": "2026-05-01T03:12:00Z",
-        "text": "Day 1 ☺️\n\n@f1 \n#MiamiGP \n@barilla\n\nStyled/HMU by @jshinyeda\n📷: @lucamartiniphoto",
-        "engagement": 47788,
-        "engagementRate": 0.02809394670333514,
-        "sentiment": "neu",
-        "hashtags": [
-          "miamigp"
-        ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/683539285_18580952242008225_3772434744417311642_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=1&ig_cache_key=Mzg4NzE1Mzg2MzkyNTIyMzY3MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkxOS5zZHIuQzMifQ%3D%3D&_nc_ohc=mgPk5jWaTFQQ7kNvwEwQ3vn&_nc_oc=AdrXBBWpKwkC4XvKyj_HLtKlc8n4B45bAZe2LYkEX2wIeZh0iKS754dYtatum5VnB03TAEM7bYIZVfFce_3WrBzC&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=-37fFV1O1nxml2UDUW-DrQ&_nc_ss=7a3ba&oh=00_Af5wtrNTMHJkGFeg8rh_HarK-uo7QQzOmEnMtf6B132nvQ&oe=69FAB4D7",
-        "url": "https://www.instagram.com/p/3887155944090287490/"
-      },
-      {
-        "platform": "ig",
         "author": "cookingwithbello",
         "time": "2026-04-29T17:12:35Z",
         "text": "WHOLE LEMON CAKE 🍋\nIf you are looking for a super easy recipe for your next dessert, this lemon cake is the answer 😍\n\nTo make it even easier, you can also add all the ingredients into a blender then pour the cake batter into the pan 😋\nAlso, if you",
@@ -1094,8 +1099,8 @@
         "author": "charleyeanna",
         "time": "2026-04-28T18:07:45Z",
         "text": "Oggi facciamo la ricotta… ma senza fare del male a nessuno 😉\n\nUna ricotta vera, cremosa, fresca… ma fatta solo con ingredienti vegetali.\n\nLa cosa bella?\nNon c’è latte animale 🐮 \n\nE questo significa una cosa molto semplice:\nnessuna gravidanza forzat",
-        "engagement": 40957,
-        "engagementRate": 0.06074363005368849,
+        "engagement": 43628,
+        "engagementRate": 0.06470500993681963,
         "sentiment": "pos",
         "hashtags": [
           "ricetta",
@@ -1104,7 +1109,7 @@
           "veganrecipe",
           "plantbased"
         ],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/680866843_997705072695690_7032975574085603545_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=105&ig_cache_key=Mzg4NTQyNjE1MjMxMTcwOTY1NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&_nc_ohc=Wm9iGd9sX34Q7kNvwGb-l0L&_nc_oc=Adrx3Fk7sQYxA27tq3amERX6L21DQwASkDhtHAclIExISwpl35SGB8iqN1Lm20S2rYaWAGUfoD7vTZ7Ew2JJ2IIG&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=jablSmZpUG4nV-y3-3dWkg&_nc_ss=7a3ba&oh=00_Af4OO-IIMp0Yp6se3y8va3LvNNYQJeayC7I-kQ3Jb3Axgg&oe=69FB0C53",
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/680866843_997705072695690_7032975574085603545_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=105&ig_cache_key=Mzg4NTQyNjE1MjMxMTcwOTY1NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&_nc_ohc=8YYjKSioBCgQ7kNvwHMpG9V&_nc_oc=AdqeaqqPq2xQdAfZuYxmk7tDzGfz0DU33wJO2EkKfrLEzoUKh6TJkyzsH2Lf6dZI_RKPwnzT1D5hbctRCjCCcsQO&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=a1RTBSZhW_dPYZJRK_oZxQ&_nc_ss=7a3ba&oh=00_Af5cWkD39dAZfiMY_yScxQ74pvCjuTN_T60k-0cZrE5ROg&oe=69FC5DD3",
         "url": "https://www.instagram.com/reel/3885426152311709655/"
       },
       {
@@ -1112,8 +1117,8 @@
         "author": "saraamyn2",
         "time": "2026-04-27T15:47:50Z",
         "text": "Ossobuco in umido alla marocchina 🇲🇦\n\nUn piatto che profuma tutta la cucina… e si fa tutto in una sola pentola 😍\n\n👉 Morbidissimo, saporito e super semplice\n\nIngredienti:\nossobuco, cipolla, aglio, pomodoro, patate, piselli, prezzemolo\n\nSpezie:\nsal",
-        "engagement": 38751,
-        "engagementRate": 0.04953451539876493,
+        "engagement": 41159,
+        "engagementRate": 0.052612606624287524,
         "sentiment": "pos",
         "hashtags": [
           "recipe",
@@ -1121,7 +1126,7 @@
           "spezzatino",
           "cucina"
         ],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/681602324_1273433741660152_2451895089101438628_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=105&ig_cache_key=Mzg4NDYzNjk2OTE1MDIyNzAxOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&_nc_ohc=sQGQS6JcMNkQ7kNvwEYSqmF&_nc_oc=AdqfWmVLI9SghVbltS5rBhYYJX4hiF-0zxvsc_EghJYUcs5HuP9oF9uTVRo_R9ROq2DnXpTstoxPGhufrG4KQ1Ri&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=6bUgnIarXhCfcuUiazlJhw&_nc_ss=7a3ba&oh=00_Af5esCie0xHSzcdElZFxS9282r2VNvknv5Zw2w7xGkaGEA&oe=69FAB0A2",
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/681602324_1273433741660152_2451895089101438628_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=105&ig_cache_key=Mzg4NDYzNjk2OTE1MDIyNzAxOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&_nc_ohc=sQGQS6JcMNkQ7kNvwHjmy-z&_nc_oc=AdprZ-kYWUCY5Z0tAGQT4SPCBUNRxElG29ftqj2rpW_jM-KDgQ1FJ8Tq6JW0TesaICoREEQRdbvHUwGrckFAlfvE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=r4Rj0RL9qI-8yK1JbFxrAA&_nc_ss=7a3ba&oh=00_Af5ZC9vbDQgZWSH5Hww_FaEo9x-xW8QYqav26CFu0YpUHg&oe=69FC3A62",
         "url": "https://www.instagram.com/reel/3884636969150227019/"
       },
       {
@@ -1173,6 +1178,23 @@
       },
       {
         "platform": "ig",
+        "author": "sebastian_fitarau",
+        "time": "2026-04-29T17:45:09Z",
+        "text": "Pasta al sugo di mare🌊\n\nIngredienti x2:\n180g Paccheri rigati\n250g totani\n5 gamberoni\n400g pomodorini in conserva\n1 spicchio d’aglio piccolo \n1 peperoncino piccolo \nOlio evo Q.b.\nSale Q.b.\nPepe Q.b.\nPrezzemolo Q.b.\n\nBuon Appetito!🍴\n\nSeafood Sauce Pa",
+        "engagement": 35093,
+        "engagementRate": 0.013373586585331927,
+        "sentiment": "neu",
+        "hashtags": [
+          "pasta",
+          "mare",
+          "sebastianfitarau",
+          "chef"
+        ],
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/683048529_1263479762659687_4264999841394626476_n.jpg?stp=dst-jpegr_e15_p360x360_tt6&_nc_cat=105&ig_cache_key=Mzg4NjE0NDI4MTY5NzcxNDc3NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2Lmhkci5DMyJ9&_nc_ohc=-a_0yTKxIJ0Q7kNvwGs9CxM&_nc_oc=AdrJqaWrkaXLBDpAGVxQfKi_0nbHECjqaNQNxXLytmaAkhXm2Lycxfi_JQh1QA9XPdD8BAjhsuBRcxOM7btNgecc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=yhLxnlGWxvRGBj1u0D9m0w&_nc_ss=7a3ba&oh=00_Af68_iFsz8Q6-LV_mZx9yoHcg71ja72bAknQE_T2T3VZVQ&oe=69FC8A9E",
+        "url": "https://www.instagram.com/reel/3886144281697714775/"
+      },
+      {
+        "platform": "ig",
         "author": "chefmaxmariola",
         "time": "2026-04-28T09:58:08Z",
         "text": "Crostino selvaggio 🥓🐑🌱🍞\n\nHo continuato a scoprire i territori sardi e stavolta è uscita ‘na ricetta che è pura goduria 🤤\n\nPane civraxiu croccante cotto alla brace, pecorino fatto con latte di pecora vero, lardo sardo fuso e, per dare freschezza,",
@@ -1191,56 +1213,32 @@
       },
       {
         "platform": "ig",
-        "author": "beardedscara",
-        "time": "2026-05-01T11:03:33Z",
-        "text": "🍝 PASTATINE ⤵️\r\n\r\nSarà “Figata o M1nch1@ta?”\n\r\n🧾 Ingredienti:\n\r\n- 30g Pasta;\n- ⁠q.b. olio semi alto oleico.\n\r\n👨‍🍳 Preparazione:\n\r\n•⁠ ⁠⁠butta la pasta nell’olio caldo\n\r\n🔥 Valori nutrizionali - per 1 porzione (~ 30g):\n\n•⁠ ⁠~140kcal\n\n⚠️ Considerazi",
-        "engagement": 31145,
-        "engagementRate": 0.016829785992344054,
+        "author": "natalieyospina",
+        "time": "2026-05-01T17:08:00Z",
+        "text": "Looking for a husband? Try this recipe: Pasta with zucchini flowers,Saffron and Fresh Cream Cheese #pasta #cooking #chef #dresses",
+        "engagement": 33130,
+        "engagementRate": 0.0279441050421692,
         "sentiment": "neu",
         "hashtags": [
           "pasta",
-          "popcorn",
-          "dieta",
-          "ricettefacili",
-          "cibosano"
+          "cooking",
+          "chef",
+          "dresses"
         ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.71878-15/675351173_1468989858053246_284693143789261457_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=1&ig_cache_key=Mzg4NzM4MjQ0OTM4NTM5NzIwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&_nc_ohc=4w4MnenV0FEQ7kNvwE-A_fP&_nc_oc=Adq1jVqkfNzS188XpM9rThBzcR_X73E6ncXkCFD5Zld7ar8SkChPZ3gTsp071zGWJkxOVHPag8v23jlHUBoGZ5CG&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=w5Z_moGDW0tZYXCdLPmFmA&_nc_ss=7a3ba&oh=00_Af51jRPj794LuGs0vzBKg5HfqrdFkk9ZSOgM5ShuGfGgog&oe=69FB4654",
-        "url": "https://www.instagram.com/reel/3887382449385397202/"
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.71878-15/682737234_1714818299930886_7915821667568537364_n.jpg?stp=dst-jpegr_e15_p480x480_tt6&_nc_cat=1&ig_cache_key=Mzg4NTYxNDUxMDkzNzk0NTgyOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2Lmhkci5DMyJ9&_nc_ohc=2UO38XUhuiIQ7kNvwFcpKQT&_nc_oc=Adre8f_E9fhEwiGNBk4sjB03-6QdEADPORaeoSRd32ffUr9FvPvl_PYITPF01uT9ZW8tG1xVYOWLukGITKYV9mDY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=o7T1FLtj2JxYjGZUvmzb6A&_nc_ss=7a3ba&oh=00_Af7A6egM1GvbeDslDxVh6Zj-aKLC4k9sACJPyunDCavy-Q&oe=69FC62D7",
+        "url": "https://www.instagram.com/reel/3885614510937945828/"
       },
       {
         "platform": "ig",
-        "author": "dr.tizianoscarparo",
-        "time": "2026-04-28T13:21:17Z",
-        "text": "BANANA, ECCO QUALE SCEGLIERE SPIEGAZIONE DA MEDICO🍌\n\nSE VUOI LA RICETTA FACILISSIMA A BASSO INDICE GLICEMICO SCRIVI “BANANA” NEI COMMENTI👇🏼\n\nIN QUESTO NUOVO STILE DI VITA NULLA È VIETATO, NON SI CONTANO LE CALORIE, BASTA BILANCIARE I PICCHI GLICEM",
-        "engagement": 30533,
-        "engagementRate": 0.03156332150385018,
+        "author": "pasqualedinuzzoreal",
+        "time": "2026-04-29T20:16:20Z",
+        "text": "Al parecer en Italia nos complicamos un poco más 🇮🇹😅\nComenta con tu pasta favorita 🍝",
+        "engagement": 32134,
+        "engagementRate": 0.036860047901773836,
         "sentiment": "pos",
-        "hashtags": [
-          "banana",
-          "frutta",
-          "antinfiammatorio",
-          "alimentazione",
-          "alimentazionesana"
-        ],
-        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/683793394_18578330716049999_3052105822301657096_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=111&ig_cache_key=Mzg4NTI4NTE0MzM0Mjc4MjM5NjE4NTc4MzMwNzEwMDQ5OTk5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwNTZ4MTg3Ni5zZHIuQzMifQ%3D%3D&_nc_ohc=3_zQWSlQgG0Q7kNvwG6ig3F&_nc_oc=Adr70IQVv85QumoWfSHde54IGD71pIWSsn0B5vikDHG23xYEohof3xy65vbUtel4XvGB6W0-yDY0r-iW_8T1qati&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=r_9V348lUDcX5d0i3aDKbg&_nc_ss=7a3ba&oh=00_Af7xv7ygcFgdnrMrQtzONQGFDtcldBdAlhY-5LYPmfXhSw&oe=69FC0A80",
-        "url": "https://www.instagram.com/reel/3885285143342782396/"
-      },
-      {
-        "platform": "ig",
-        "author": "sebastian_fitarau",
-        "time": "2026-04-29T17:45:09Z",
-        "text": "Pasta al sugo di mare🌊\n\nIngredienti x2:\n180g Paccheri rigati\n250g totani\n5 gamberoni\n400g pomodorini in conserva\n1 spicchio d’aglio piccolo \n1 peperoncino piccolo \nOlio evo Q.b.\nSale Q.b.\nPepe Q.b.\nPrezzemolo Q.b.\n\nBuon Appetito!🍴\n\nSeafood Sauce Pa",
-        "engagement": 30256,
-        "engagementRate": 0.011530254914820699,
-        "sentiment": "neu",
-        "hashtags": [
-          "pasta",
-          "mare",
-          "sebastianfitarau",
-          "chef"
-        ],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/683048529_1263479762659687_4264999841394626476_n.jpg?stp=dst-jpegr_e15_p360x360_tt6&_nc_cat=105&ig_cache_key=Mzg4NjE0NDI4MTY5NzcxNDc3NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2Lmhkci5DMyJ9&_nc_ohc=-a_0yTKxIJ0Q7kNvwHN2yOi&_nc_oc=AdpiuSMF75n1ik8JfV8mLhb0Po7W641XoS-tIeBiiCdfhO5Mvxs8qDvbs2wNcXZC6w1mUi6oh_1_gKJqrniSa6qz&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=g9OTT2CWdmKN9jIaF3bSpw&_nc_ss=7a3ba&oh=00_Af7ghoTi97YxCh36Wz4V_CZF2Fg5cWxtFZ7yNvo0xoZ-RQ&oe=69FB00DE",
-        "url": "https://www.instagram.com/reel/3886144281697714775/"
+        "hashtags": [],
+        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.71878-15/682792961_1461997462071821_6255060140212900441_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=107&ig_cache_key=Mzg4NjIxOTczNTIxNDQ5NjcyNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&_nc_ohc=TkrsWkdJvSkQ7kNvwGpWFFq&_nc_oc=Adoaek1SlM_-LUhE0lWeeeZzf4VDzfke1kbCnKNu19nYLN003dq3fIp3kFOB9Ul2nTUayHHQaN-VnyuVRMwgx-Wj&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=nWmd3u4Wu6D6bnLi2BJZaA&_nc_ss=7a3ba&oh=00_Af42ZMsjOGDAtxZ3nZlIRXBtroPlBu_eHZRBjv8dEmES0g&oe=69FC5EF2",
+        "url": "https://www.instagram.com/reel/3886219735214496725/"
       },
       {
         "platform": "tt",
@@ -1265,8 +1263,8 @@
         "author": "4hands4gourmet",
         "time": "2026-04-29T16:52:31Z",
         "text": "Ma ancora che ti fai la solita pasta al tonno ? Questa è molto più cremosa e si prepara in 10 minuti  #ricetta #pasta #tonno #cucinaitaliana ",
-        "engagement": 59226,
-        "engagementRate": 0.2015861130020422,
+        "engagement": 83259,
+        "engagementRate": 0.2821382582175534,
         "sentiment": "pos",
         "hashtags": [
           "ricetta",
@@ -1274,7 +1272,7 @@
           "tonno",
           "cucinaitaliana"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o4NgI8NXAtcEjfkpRYRBFzqW1EIZICFyrT08fD~tplv-tiktokx-origin.image?dr=10395&x-expires=1777827600&x-signature=pNoiTSYekl%2Fdf8%2BqSNSpuB66lL0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o4NgI8NXAtcEjfkpRYRBFzqW1EIZICFyrT08fD~tplv-tiktokx-origin.image?dr=10395&x-expires=1777932000&x-signature=ZnBkx3RYjbaGBVouCP1YfiZAZjE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
         "url": "https://www.tiktok.com/@4hands4gourmet/video/7634225112480222486"
       },
       {
@@ -1300,8 +1298,8 @@
         "author": "_markour_",
         "time": "2026-04-27T11:50:57Z",
         "text": "7 trucchi psicologici usati dai supermercati #fitness #wellness #health #food #science ",
-        "engagement": 49146,
-        "engagementRate": 0.07209329617133636,
+        "engagement": 51045,
+        "engagementRate": 0.07484604105571847,
         "sentiment": "pos",
         "hashtags": [
           "fitness",
@@ -1310,7 +1308,7 @@
           "food",
           "science"
         ],
-        "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o4tv9fgIEDDA7kMF0dC3DpT2mAPFREAAEiYEfX~tplv-tiktokx-origin.image?dr=10395&x-expires=1777838400&x-signature=VRRJ0eBUtyi10DUs4JsPkpNFPYg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o4tv9fgIEDDA7kMF0dC3DpT2mAPFREAAEiYEfX~tplv-tiktokx-origin.image?dr=10395&x-expires=1777932000&x-signature=4DNCPOwzQ3fDlJRYpGWYGHQxAO0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@_markour_/video/7633405205219937558"
       },
       {
@@ -1318,8 +1316,8 @@
         "author": "mammanelidaegiuseppe",
         "time": "2026-04-28T11:36:01Z",
         "text": "L’altra volta l’abbiamo fatto nella versione Maxi oggi in un formato più piccolo 😅❤️ TUTTI GLI INGREDIENTI DEVONO ESSERE GIÀ COTTI a poi con la pasta di pizza ricoprire il tutto e cuocete in friggitrice ad aria a 180 gradi per 10 minuti oppure a  19",
-        "engagement": 42057,
-        "engagementRate": 0.26368025078369906,
+        "engagement": 43685,
+        "engagementRate": 0.27354414527238574,
         "sentiment": "pos",
         "hashtags": [
           "panino",
@@ -1327,8 +1325,24 @@
           "mammaefiglio",
           "pranzo"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oAbVUHiIEFgpPbef4mikwWv2L6271EADBBERBy~tplv-tiktokx-origin.image?dr=10395&x-expires=1777827600&x-signature=9lSs833N7pq16IJuQRGfsWb%2Fjag%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oAbVUHiIEFgpPbef4mikwWv2L6271EADBBERBy~tplv-tiktokx-origin.image?dr=10395&x-expires=1777942800&x-signature=zCZCOtFLQC5HHwjyi3n62iUurC0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
         "url": "https://www.tiktok.com/@mammanelidaegiuseppe/video/7633772431588609302"
+      },
+      {
+        "platform": "tt",
+        "author": "dianaealessio",
+        "time": "2026-04-30T18:59:17Z",
+        "text": "Se ogni giorno ti ritrovi a chiederti ‘cosa mangio oggi?’ e finisci per improvvisare, mangiare a caso o ripetere sempre le stesse cose…non è mancanza di costanza. È che ti manca un sistema semplice da seguire nella vita reale. Anch’io ero così. Ed è ",
+        "engagement": 33486,
+        "engagementRate": 0.5783419689119171,
+        "sentiment": "pos",
+        "hashtags": [
+          "senzaglutine",
+          "pane",
+          "fyp"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/okimoAz0fAKdCPhAiyZODIpBSQzPIUjACu0wEB~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=V5Mjrcf8yphd6Vom%2BfCJ3k%2F0z%2Bw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@dianaealessio/video/7634628862755753238"
       },
       {
         "platform": "tt",
@@ -1411,11 +1425,11 @@
         "author": "giovannimele",
         "time": "2026-04-28T10:52:44Z",
         "text": "NON È UN’ ARANCINA AL BURRO🔥 Riposta la ricetta e seguimi 🫂 Amici siciliani perdonatemi perché non è rotonda e non è fritta, ma questa arancina al burro è comunque saporitissima! Insomma è un riso al forno alla siciliana, al burro che è uno dei mie",
-        "engagement": 27303,
-        "engagementRate": 0.04533123028391167,
+        "engagement": 27552,
+        "engagementRate": 0.045737051792828685,
         "sentiment": "pos",
         "hashtags": [],
-        "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oQBAfAOeCyCEiCief3iifJifQgsCwAq7xe0vIkU~tplv-tiktokx-dmt-logom:tos-no1a-i-0068-no/oUpDEwUEABivYgAAykOCfiXziFkW9IVLREeDtA.image?dr=10393&x-expires=1777845600&x-signature=tDBQBMtJDIf1w6NO%2BLJJkJZjVZE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oQBAfAOeCyCEiCief3iifJifQgsCwAq7xe0vIkU~tplv-tiktokx-dmt-logom:tos-no1a-i-0068-no/oUpDEwUEABivYgAAykOCfiXziFkW9IVLREeDtA.image?dr=10393&x-expires=1777942800&x-signature=fiVCsRHvGW3XLRhKrUeCijXeraU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@giovannimele/video/7633761288161627414"
       },
       {
@@ -1444,46 +1458,25 @@
       },
       {
         "platform": "tt",
-        "author": "dianaealessio",
-        "time": "2026-04-30T18:59:17Z",
-        "text": "Se ogni giorno ti ritrovi a chiederti ‘cosa mangio oggi?’ e finisci per improvvisare, mangiare a caso o ripetere sempre le stesse cose…non è mancanza di costanza. È che ti manca un sistema semplice da seguire nella vita reale. Anch’io ero così. Ed è ",
-        "engagement": 25039,
-        "engagementRate": 0.4347048611111111,
+        "author": "mariaderosa__",
+        "time": "2026-04-30T13:01:15Z",
+        "text": "Lampone  Purea al lampone  ✨125 gr lamponi ✨80 gr zucchero  ✨qualche goccia di limone Ganache al lampone ✨200 ml panna calda ✨100 gr cioccolato bianco  ✨rifare un’altra purea al lampone ✨130 ml di panna frena ✨4 gr di gelatina  Per la copertura  ✨200",
+        "engagement": 25381,
+        "engagementRate": 0.09657914764079148,
         "sentiment": "pos",
         "hashtags": [
-          "senzaglutine",
-          "pane",
-          "fyp"
+          "lampone",
+          "dolce",
+          "ricetta",
+          "ricettafacile",
+          "ricettadelgiorno"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/okimoAz0fAKdCPhAiyZODIpBSQzPIUjACu0wEB~tplv-tiktokx-origin.image?dr=10395&x-expires=1777827600&x-signature=Db6miBYc0yaxuauUVvGzyViSpus%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@dianaealessio/video/7634628862755753238"
-      },
-      {
-        "platform": "tt",
-        "author": "lasalsicciaciociara",
-        "time": "2026-04-27T20:20:14Z",
-        "text": "#alessandrafonta #pasta #freshpasta ",
-        "engagement": 24739,
-        "engagementRate": 0.008246333333333333,
-        "sentiment": "neg",
-        "hashtags": [
-          "alessandrafonta",
-          "pasta",
-          "freshpasta"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o0sAUFfEyg7Pp8ukmICTRUApAsEyFMEADeD8xv~tplv-tiktokx-origin.image?dr=10395&x-expires=1777856400&x-signature=ZHduJ3by6WVU%2FX0AYz5fRO9mUag%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@lasalsicciaciociara/video/7633536462008372502"
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oEAv7zEIEFgp8Z8fSUFkzDnrfp71LEAdDB0RBx~tplv-tiktokx-origin.image?dr=10395&x-expires=1777924800&x-signature=oBBfQmjdsiHrU7efYbbyflpqUoE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@mariaderosa__/video/7634536594271128854"
       }
     ]
   },
   "news": [
-    {
-      "title": "Barilla \"Con Zanardi rapporto basato su valori condivisi, resilienza e inclusione\" - Italpress",
-      "source": "Italpress",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaTlLOUtXZkVvR3V4MWhPUE9pdDlsUUx4Y190b1Zwei1KajZWX3dVRkRCMHlTb3laRkQ1TjVvc1hmb3QyR1UzQXd1ZGE3LVdGbWJCS0kwYXdJUGRLR01NT2prY05UX21EZ1RxcTBHTm9ZN21hMmx0b0R4RnpWSU16SUtRNm5wdE9INVo5bmZKN21nQTJfR0xKVjZhSU14clZPN0NxS2M2QmlnUQ?oc=5",
-      "date": "2026-05-02T17:04:11.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaTlLOUtXZkVvR3V4MWhPUE9pdDlsUUx4Y190b1Zwei1KajZWX3dVRkRCMHlTb3laRkQ1TjVvc1hmb3QyR1UzQXd1ZGE3LVdGbWJCS0kwYXdJUGRLR01NT2prY05UX21EZ1RxcTBHTm"
-    },
     {
       "title": "Queste sono le marche di pasta con 100% grano italiano che puoi trovare al supermercato - MSN",
       "source": "MSN",
@@ -1499,46 +1492,11 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxOeWtwRUtaTGRVSWlXRzJWNzg0UjJKRjg5T1E4dm9mZVlZcGhuNDdhbjZTazJra0RacndraUdGOUttdUFJOWpIbDdWRVBFbXB3VXoxbmw4VzR3ZWowUllTdmVZSjBWMWtQYm1fcmZzQX"
     },
     {
-      "title": "Gran Premio di Miami, cena a sorpresa di Barilla per le famiglie della Formula 1 - Italpress",
-      "source": "Italpress",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNUUtdHo5SU52cGEwal84WjdzdTN5enByOW9DT19pOWlPZ1BwSXhwOTNNempGbEN4ckxpMFdFTFVpcUxoRzJxMEQtNW12UEJoRzYtX1VPYTBlUzhKSXJBV2dVUWlVdGwzMFVadmpnUnJYUUkydXpvdmRCejFNTXc0bHN2WUVEeHBfNWZqbVY4dkVueHliamVLUzlHVEh6WkFqNlV6b08wWndndw?oc=5",
-      "date": "2026-05-02T11:05:03.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNUUtdHo5SU52cGEwal84WjdzdTN5enByOW9DT19pOWlPZ1BwSXhwOTNNempGbEN4ckxpMFdFTFVpcUxoRzJxMEQtNW12UEJoRzYtX1VPYTBlUzhKSXJBV2dVUWlVdGwzMFVadmpnUn"
-    },
-    {
-      "title": "Gran Premio di Miami, cena a sorpresa di Barilla per le famiglie della Formula 1 - Virgilio",
-      "source": "Virgilio",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQN0VZT3J2TWhZaFdWa2psZ2ZNeWZqczBacy1KQVdhVHBZMXlPVFM3c200b09BTHRqMGVDOUJWOWR6OTlCX2g1OUdaMDlVTExHWVlXRFh1U3d5UFpZMjRva1YyWEtBS0dMUXh3UHdER1ZjZEQxTG56VmFBSFFqcDNCb3hvMFAxUVFURFpvbmpLVTJuN3VUSnl3T1k1c1Z4R0tGQlo0ZnJ1YlNOckxzdTQ2VXNDZmgwUEoxT1loWXBaNnMzQUNGMENJbE1uaEZMcWdyckk4MGJlSEFLZEY4Yzc00gHkAUFVX3lxTFBqRF94MWc0TUVKaWVzUXJLYmNVMm14NHZZTmpzLXk1LUhYM2E1cEdVNE9TSWMtTS1va3FOcWJCY0RtYVRVSVdXdHJfazlTYTJncnUxWGtMVUVjRk9iQTVLUk5wZzFuOVozMlJGVVdBVlZXYUlaWGtyZDR0LUJmenY0UTh5azVnWExiOWpDTmRDS29TY0p4TmRHSDlUSzEtemJQQUdrS2VUSEZlMzgzc0ozbldGSG5HR1FGVENPdHQyYTJWZGdVOV9jVmNaakpSNDdkN2ZIN0pDTVRXOHhkTTFqYjcwSA?oc=5",
-      "date": "2026-05-02T09:38:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxQN0VZT3J2TWhZaFdWa2psZ2ZNeWZqczBacy1KQVdhVHBZMXlPVFM3c200b09BTHRqMGVDOUJWOWR6OTlCX2g1OUdaMDlVTExHWVlXRFh1U3d5UFpZMjRva1YyWEtBS0dMUXh3UHdER1"
-    },
-    {
       "title": "Gran Premio di Miami, cena a sorpresa di Barilla per le famiglie della Formula1® - Adnkronos",
       "source": "Adnkronos",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbldqSGFHT3hoNllxZmtQVzhtdHdEQXAyaUlaN3QtWGlEclN6OEMxUXNsU3kzQk90aEZIYW42MzBHZWVCcE5TakI5YVpYSjNfWkJMT3hVdDY3UU8wdmlXdUcxWF92bzRQQzBCT1loZHR5TGxheU1Cc1p1d0xJbXpaZ3RFX2FyY2Q3MUcwUDhtZ1cwbmdQVEpuRUU2LVEyamJVdzlhX3JpWmxRSDRiYTl6aWJOaGgzdkg0XzBhTm9pUVpBcjdZS3ltUFE2SElvUQ?oc=5",
       "date": "2026-05-02T08:15:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxNbldqSGFHT3hoNllxZmtQVzhtdHdEQXAyaUlaN3QtWGlEclN6OEMxUXNsU3kzQk90aEZIYW42MzBHZWVCcE5TakI5YVpYSjNfWkJMT3hVdDY3UU8wdmlXdUcxWF92bzRQQzBCT1loZH"
-    },
-    {
-      "title": "Barilla è famiglia anche in Formula 1: una cena stellata per il Gp di Miami - Sportmediaset",
-      "source": "Sportmediaset",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPeFQ2OXZzYVhaeE1PRXBKbERlZUlnYW9hZFNpbm5tRWNmYklOSzJNWm50Mk1zVmdKYmo4U1dzdU0tSU55SGNGZUhhSTFrTXM0MG5qTHphZC05MTF5LWFrdjBHalh1NF9ZRmxPZ3NjSi1kRHpmVDV0Ync2d1RtQUZpVmhVLVo4MGdmcy1hX0xPNUZJVUNXdnUya0E3V1R6VDFGeWdJU1VtQjRKRGlBb1JVQm1JOERDdFhKRXR3NHM0aXZ2bERkenhBSlJtaXN6UUJCRFotSnNYSmctLWd1Z1MzLVlEV0PSAX9BVV95cUxNNVdlNFdnX0t1eF83ell6bm45RS0xdTJNdjA1dDZnUjZqSll6LXB3NW1fZlU0QnpkQU9RTVlzNGV0dmpQbXlvYm04VzBCREtnckxpb2NLQU5ieWhRdXJTZkIzam1Zd3B6UmFtT2xBa2dTQl9HdElxaTYtbG93YjBR?oc=5",
-      "date": "2026-05-02T07:30:48.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxPeFQ2OXZzYVhaeE1PRXBKbERlZUlnYW9hZFNpbm5tRWNmYklOSzJNWm50Mk1zVmdKYmo4U1dzdU0tSU55SGNGZUhhSTFrTXM0MG5qTHphZC05MTF5LWFrdjBHalh1NF9ZRmxPZ3NjSi"
-    },
-    {
-      "title": "Barilla ospita una cena a sorpresa con riunione di famiglia di Formula 1® durante il weekend della gara di Miami - l'Adige",
-      "source": "l'Adige",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNQlMyS2hEaVU2dnl5cWFrTDBZUzVybTZ3NkRkLWlOTDlEOWN0Z28yOW1BZ19TN3M1eTU3T0s4MWJtbzVRZUFINWhTNmdZMGwxdDBPU2hETDdlSk9zN0JNbDdKb1VESzQxV1NCOGFMU1F6SEtCTUNWNGFXNUxManFyNFp4THB6cjh6cnhLT01xU1dNaXQtYTI1bnQ5SFM3OENQdm1fNW9ZUjF4S1I5MW04WElMZnBqZ1JvS0FpcFFTRUtZd0tFclVOV29DR09hcHdOLVJ4RkV2emRVWFlMV2tTOW96UGl4dlAzRGl4WHRUSklVdE9rYmFZTlljbWg?oc=5",
-      "date": "2026-05-02T04:09:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi_AFBVV95cUxNQlMyS2hEaVU2dnl5cWFrTDBZUzVybTZ3NkRkLWlOTDlEOWN0Z28yOW1BZ19TN3M1eTU3T0s4MWJtbzVRZUFINWhTNmdZMGwxdDBPU2hETDdlSk9zN0JNbDdKb1VESzQxV1NCOGFMU1"
-    },
-    {
-      "title": "Barilla ospita una cena a sorpresa con riunione di famiglia di Formula 1® durante il weekend della gara di Miami - Business Wire",
-      "source": "Business Wire",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1nLXNsN2UwUmw5bFNKVzBUQ2lJTEczSTFOODVPdTY5NzRTZzM0d2I3ak9wdldDMXZvUVRQcldqRW1nMUV5bmQ5dGN4UERrcFNRZFdnVU8wV0dEbHQ3eXpKX0N2d0c3SXM?oc=5",
-      "date": "2026-05-02T02:09:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1nLXNsN2UwUmw5bFNKVzBUQ2lJTEczSTFOODVPdTY5NzRTZzM0d2I3ak9wdldDMXZvUVRQcldqRW1nMUV5bmQ5dGN4UERrcFNRZFdnVU8wV0dEbHQ3eXpKX0N2d0c3SXM?oc=5\" targ"
+      "snippet": "<ol><li><a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxNbldqSGFHT3hoNllxZmtQVzhtdHdEQXAyaUlaN3QtWGlEclN6OEMxUXNsU3kzQk90aEZIYW42MzBHZWVCcE5TakI5YVpYSjNfWkJMT3hVdDY3UU8wdmlXdUcxWF92bzRQQz"
     },
     {
       "title": "Il volto di uno storico dipendente al centro della nuova pubblicità Barilla - Brand News",
@@ -1555,60 +1513,11 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNbWJjWHNHWXdMNC1yTHg4d0xlc3A2XzRVUy12c3poWjhEMDgzcEd2REhlZVEyaV9ETkRiVXJJeGtuMnI2OG5BMFpVOUFDbnAtUTZNQ0lzRDZDeWViR1BiUnlPT0RnZDdSZGVjSzB6ND"
     },
     {
-      "title": "Barilla porta a scaffale i Riccioli Al Bronzo: il nuovo formato di pasta che unisce forma e funzionalità - Alimentando",
-      "source": "Alimentando",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQalZtTF9UeXQxTFg5YTJKZWl6Q0FhWmZSUzJfZ0tNSlhqajJGRGxqNFFMbVRhVGllaE5xeXRWR3lWTzZzdWJ6Sm1lVlhZU0NBc2Z5VXV2dlhsMk5uTEUzOTJoRjE1cG9MVFptTmZQZkpKX3oyRjR5akY1SkFLQi1jSkdvbi1Nd091VDJabFF3Y3lhRzNvajR0c2kzckNUTGllcU5uNzFKeGJQNnE5WVN6RkRHR2dIU1NQUDFqZHdlbkppYXl0S0JTTG1tVUdfUQ?oc=5",
-      "date": "2026-04-30T08:47:13.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxQalZtTF9UeXQxTFg5YTJKZWl6Q0FhWmZSUzJfZ0tNSlhqajJGRGxqNFFMbVRhVGllaE5xeXRWR3lWTzZzdWJ6Sm1lVlhZU0NBc2Z5VXV2dlhsMk5uTEUzOTJoRjE1cG9MVFptTmZQZk"
-    },
-    {
-      "title": "Come la biomimetica influenza la struttura e l'esperienza del cibo: un esempio di costruzione su un nuovo formato di pasta - L'Espresso",
-      "source": "L'Espresso",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPU25SQnN2TXNQdjZpWDJmMUxYd2NibXE0d1ZFbjFlcmFKWUI4eUd6R2tqMkduTEFzUTZrRjBYUmNjemZBTElLX1FwS2pYNC1vWTFmck9LMXp4VVZWcTdudjBULVZaYlh0UEZCdnFjRWZNbHI1ekxUZGMwc1hxcWtIbzJDNXdlTG9GNW5nTEJZZ2s5aUdjMVpWbE9UQ3FtamtUYTB4OHNVbzVVZGtIQjRiSWdidWlNZ2piMkhXOHdzc1FGS2FRNWVJSWtTcWpXalR0VFpEOXZTclBBQlVXbkllSVBqM1pSWkx0RnBGMTB5ZzZOSUFQUzBNS21xQXc?oc=5",
-      "date": "2026-04-29T10:54:05.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi_AFBVV95cUxPU25SQnN2TXNQdjZpWDJmMUxYd2NibXE0d1ZFbjFlcmFKWUI4eUd6R2tqMkduTEFzUTZrRjBYUmNjemZBTElLX1FwS2pYNC1vWTFmck9LMXp4VVZWcTdudjBULVZaYlh0UEZCdnFjRW"
-    },
-    {
-      "title": "Il nuovo finger food da aperitivo? Usa la pasta 3D - MixerPlanet",
-      "source": "MixerPlanet",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUDM4bjdsMlhseF95azIyaW5kbUlkbVI4SDFoM2xIdW1hX09jWWpucVFaeHJXeGIyQ0NFblY4amlBM3BsUzhNOEV2MmdyWDYxcDY1QXJ5d1pqTWFfV3NRbjJNOURubDVRazBEdGtRclBab1JhNTlwbnpmNXUwZEh6cjZDbw?oc=5",
-      "date": "2026-04-23T11:35:37.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxOUDM4bjdsMlhseF95azIyaW5kbUlkbVI4SDFoM2xIdW1hX09jWWpucVFaeHJXeGIyQ0NFblY4amlBM3BsUzhNOEV2MmdyWDYxcDY1QXJ5d1pqTWFfV3NRbjJNOURubDVRazBEdGtRcl"
-    },
-    {
-      "title": "Barilla lancia il nuovo formato di pasta a forma di ruota (dedicato alla Formula 1): arriverà nei nostri supermercati? - greenMe",
-      "source": "greenMe",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQWlI4R3RudXd4NFBzX0dXcGE1OHQzT25RNDJkZ05MRWR0NGNaSHdiNG5aRlVqR3o4VlExZ3gzdllyWWZ4c1hWQXp2MWw2d3lveHAyVGN1LUZRZUZHZ1oyX1EtZVFzSmRyVG5vMHEzeFlJN2VUeDc1a1ZqcjhrTVlYanVhczdUdTlSVHUtdzYyd0hqYmI3UDJSMFpPVE4wNlBaZlA1ZUFSR3NPLWZ4NnZzd2dYV2llWWhhUXE3U1U0Z2ZJSWtXMEhFQm8ycFZVX3cyYmpnaDE0QXR1eWoxQXRra3d4eHFTRm1ZRFBmSVJzVHo5eUl3RmpR?oc=5",
-      "date": "2026-04-22T13:01:39.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi9wFBVV95cUxQWlI4R3RudXd4NFBzX0dXcGE1OHQzT25RNDJkZ05MRWR0NGNaSHdiNG5aRlVqR3o4VlExZ3gzdllyWWZ4c1hWQXp2MWw2d3lveHAyVGN1LUZRZUZHZ1oyX1EtZVFzSmRyVG5vMHEzeF"
-    },
-    {
-      "title": "Barilla dedica alla Formula 1 una nuova pasta - Sportmediaset",
-      "source": "Sportmediaset",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSXBvSjdKTFhHeUhob1NqR05wZ2RRbjN5Tl94ZVlqT0w3YjNfX1l5SGYta1FsS3NRTGxIWFRfUUFHeUotYUFrOWhDZFpmWmM1ODE4U2ptN2MwUGwtWHM4cmhnR1hHZm5YcExSNF9odTJxcE5TWTZ2Q1EwU1laRVNXdXZ4NlExVTRqczRMSHltOXZCNVVfRHVZMldOaURuTjM5Y1RxanIzeG05NXVISnZkSXRfVkFsNmfSAXhBVV95cUxOTkdzVWYxNlJUWWdfVGNHbXVWS2dua0xxOEl0S1l3WXZHWVpWU2RVRFdQcVlQNnJrb1E0Y0lZTUJWeXY5UzI1QnE4XzlCblRKZEJMZlNuTE9zLUltYUNTNlg2UjY1RDJzMXh2Njluay0ybGN6WUpSVG0?oc=5",
-      "date": "2026-04-21T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPSXBvSjdKTFhHeUhob1NqR05wZ2RRbjN5Tl94ZVlqT0w3YjNfX1l5SGYta1FsS3NRTGxIWFRfUUFHeUotYUFrOWhDZFpmWmM1ODE4U2ptN2MwUGwtWHM4cmhnR1hHZm5YcExSNF9odT"
-    },
-    {
-      "title": "Barilla lancia la pasta della Formula 1 a forma di cerchi in lega: ecco dove acquistarla - Everyeye Lifestyle",
-      "source": "Everyeye Lifestyle",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUmZDUTFrVTRWdnNFX2NOcEdBVmRsOXhtMUdRTVVIWDlDQXl0eG5RRlp0T3hBZ0ltcTFycjNoLXUxZEtBMmxfM1FQQWhrUkVYX3BvTEJUdXU1SWJxaU9IZWtuMjVQQ1ZxZndSTnNSVmxYMlVNb3lNUndGM0pXa0J3YTduRTNZd2U0d19LTV9vQV9jX0lBakRZM25LZTFVXzVBTWFhckJSWnFjdWlVd2tJ?oc=5",
-      "date": "2026-04-17T16:45:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPUmZDUTFrVTRWdnNFX2NOcEdBVmRsOXhtMUdRTVVIWDlDQXl0eG5RRlp0T3hBZ0ltcTFycjNoLXUxZEtBMmxfM1FQQWhrUkVYX3BvTEJUdXU1SWJxaU9IZWtuMjVQQ1ZxZndSTnNSVm"
-    },
-    {
-      "title": "Barilla lancia la pasta dedicata alla Formula 1 (con il formato peggiore di sempre) - Dissapore",
-      "source": "Dissapore",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdnlhWXlXTndKaHpfODNuN1pJX1A5aHVjRnBWWHJ1dHNWMWlkZjJ4OWoxd2F1aUpaSjhKY3dfVm1pT1hJVE5hSlI0QnhpdEZ5Uk55UjR5WjFXOXBia04xNU1LcjJEU3NMUjMxS283U2NFd1I5RUxaUUNKODJXWGRMM1gzMWh4cHZRX3liODJMcXZIRE9wcl9LQzJMVGI3bGw1ejluNjUtWDBVRnBiZW96R3E1NUdpYlk?oc=5",
-      "date": "2026-04-17T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOdnlhWXlXTndKaHpfODNuN1pJX1A5aHVjRnBWWHJ1dHNWMWlkZjJ4OWoxd2F1aUpaSjhKY3dfVm1pT1hJVE5hSlI0QnhpdEZ5Uk55UjR5WjFXOXBia04xNU1LcjJEU3NMUjMxS283U2"
-    },
-    {
-      "title": "Barilla e Formula 1: Racing Wheels, la nuova pasta ispirata alle gomme da gara - nss sports",
-      "source": "nss sports",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTUozRlFGX0w0OTAwczhBZkFVMmh5RXZHM1N0RXRTTnZOamVNeHhqRXcyUjFSSXh0TzFNYmtlQ3Q4UUx5VUtYd2hQMEFKR2owNUQxZHc3d1VkWE5XN0dEdHFBS2RzOXFMQ2tERFBsOHIwaFpwQTFlbDM3YUxRM0lEUnNRRnRQa25lVkNR?oc=5",
-      "date": "2026-04-16T11:21:45.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTUozRlFGX0w0OTAwczhBZkFVMmh5RXZHM1N0RXRTTnZOamVNeHhqRXcyUjFSSXh0TzFNYmtlQ3Q4UUx5VUtYd2hQMEFKR2owNUQxZHc3d1VkWE5XN0dEdHFBS2RzOXFMQ2tERFBsOH"
+      "title": "Barilla, campagna stampa e digital per celebrare memoria e passione ﻿ - Adnkronos",
+      "source": "Adnkronos",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUEg2U0N1bUt1RFJoRzZhMW82YW9fbXVOa1VzUmpKeHhiWTdwM1hLYmtmWHdvWHM1czlUV0M3M3JzUzl6UVB5QkhjT0dURHUtZ0NhVDBiLTdIbjNockFSbUV5aXpxZG11RmUwRDlUWjBveTRHcjhlazhDSE4wcVlkei1fOWg1MnltSXN5S2JFdWVGeDFEUkxQckw0X094ZElSemlBS3lfVlZuRW1VUk0wellPNy1tcy0wTnp1cGpkQjBpdw?oc=5",
+      "date": "2026-04-30T08:35:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUEg2U0N1bUt1RFJoRzZhMW82YW9fbXVOa1VzUmpKeHhiWTdwM1hLYmtmWHdvWHM1czlUV0M3M3JzUzl6UVB5QkhjT0dURHUtZ0NhVDBiLTdIbjNockFSbUV5aXpxZG11RmUwRDlUWj"
     },
     {
       "title": "Il miglior marchio food per reputazione nel mondo è italiano: Barilla n. 9 del Global RepTrak 100 - WineNews",
@@ -1630,13 +1539,6 @@
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObjE1cUhWSmFMcloxR0VTTjFLMFF5cmhDVFgyd1BaMG1xZjl3R1RJbWxqQlo2Ni1EUmxiRW9hWWViaEpjRXBLZEM4a3NMMF9kM0pTVktDSXhXSW1OLUJ4bm42TWs4ZXJrSlZWZGJGVFk1UV9UTndwcWFvc3JRUEFBdnI0Wno4VU5Va0NmdVVqTmQwVlZHc3NZT3BYbFlydjFNY1NCWGdOcW44aVhYemhJdkx1VHJvUERjNFJvQTNpMnE4TVRqNGk1clVIYVpYa0JBX2l6cw?oc=5",
       "date": "2026-02-27T08:00:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxObjE1cUhWSmFMcloxR0VTTjFLMFF5cmhDVFgyd1BaMG1xZjl3R1RJbWxqQlo2Ni1EUmxiRW9hWWViaEpjRXBLZEM4a3NMMF9kM0pTVktDSXhXSW1OLUJ4bm42TWs4ZXJrSlZWZGJGVF"
-    },
-    {
-      "title": "Come nascono i nuovi formati di pasta Barilla? Il lungo percorso dall'idea allo scaffale - Vanity Fair Italia",
-      "source": "Vanity Fair Italia",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE45Zncxa0ZfTXM3YTRWSTEyRllaWUljSjlKTkYzRng2NkVFREtZLXBCVUY4aFNQVmFzQ2tkU3NOc1BxNF9hbHlucURBYWM3czFkV2ZOckdEcG5jRThpOXJhMjk4WXFBNWNSTXlHYmc4YUNNMWYwa2paWWtR?oc=5",
-      "date": "2026-01-09T08:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE45Zncxa0ZfTXM3YTRWSTEyRllaWUljSjlKTkYzRng2NkVFREtZLXBCVUY4aFNQVmFzQ2tkU3NOc1BxNF9hbHlucURBYWM3czFkV2ZOckdEcG5jRThpOXJhMjk4WXFBNWNSTXlHYmc4YU"
     },
     {
       "title": "Barilla presenta il nuovo posizionamento del brand in una campagna ispirata al mondo della Formula 1 - Inside Marketing",
@@ -1686,6 +1588,76 @@
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTzRUZlUtT2NZOVBRcEg2U2I0MDlsNktJSFVuMHZiUF9RRjJmOWhwZlh0OUxpT3dNUjlIYk1vSl9vMWNUUWQtN0JBTzZYZTlLQ1JhZnZOdkpwQkpLRVJUZlFCNVptSXZlc1R1NXh4UVZ1Qm94dXdqek5xYTdnTGdCN3hSOWZMZUcyYi1YSk9DODJQUHVrLUZITnV1OVhiTE5VUTJIZnBFdm54QW1SRFdkMWNzODgzRk5hRGcxMWtuUGJ6NjJPUHJDRldNQTd6RUdvTmNBVkRFZ2NMUQ?oc=5",
       "date": "2024-08-30T07:00:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTzRUZlUtT2NZOVBRcEg2U2I0MDlsNktJSFVuMHZiUF9RRjJmOWhwZlh0OUxpT3dNUjlIYk1vSl9vMWNUUWQtN0JBTzZYZTlLQ1JhZnZOdkpwQkpLRVJUZlFCNVptSXZlc1R1NXh4UV"
+    },
+    {
+      "title": "Multinazionali. Cibo italiano il più amato ma brand non emergono. Solo Barilla e Ferrero in Top100. Nestlè e Danone ai primi posti. IL REPORT - Agricolae",
+      "source": "Agricolae",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOX1dlVDdQWmN1dkRPTjgwWk1kMGI1ampISFJqV3pLYi1iVlFHRVhCeV83clZHdTlpdlhlV2p2RDBNOHNHYzBXWjlhMUIxWTZGdEhUaU1yeVMxWmpfakpmV0hBNEhiVDdvN3lUd3lkX1JiNGUwN1laRGVFUzZRLVBmN0o2U3dZYVR3bEwtVWdwaHZQV21OMWFyQjQ5ZmxpTFMtc1RqTFZDN2N4bFNXajE0QlBxMjdBaHVBSi1JMjBVdVl6ZzFzZjcydDZaX2dTYVRBNncwM2dpZW9mdzFWdng4Tng0X0d3WkpXN3B4WEZSdk0?oc=5",
+      "date": "2024-08-27T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi8AFBVV95cUxOX1dlVDdQWmN1dkRPTjgwWk1kMGI1ampISFJqV3pLYi1iVlFHRVhCeV83clZHdTlpdlhlV2p2RDBNOHNHYzBXWjlhMUIxWTZGdEhUaU1yeVMxWmpfakpmV0hBNEhiVDdvN3lUd3lkX1"
+    },
+    {
+      "title": "Cibo italiano al top, ma i brand non emergono - Mark Up",
+      "source": "Mark Up",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB3bEUwZkVSNHNKMGtJQzNCVC1MYlZwQTdiMmhQcGIxWXhTN1BZWXJ3QmNaTFR5dlVHYmEzUjVwRmQydWNzUWxENHk0aFpoZVhNQ0ZJSklPQ0JQQlF1TVFlWUd1Qy1XcHhfcl9VYlA1SmNTOEZnTkQ0?oc=5",
+      "date": "2024-08-27T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFB3bEUwZkVSNHNKMGtJQzNCVC1MYlZwQTdiMmhQcGIxWXhTN1BZWXJ3QmNaTFR5dlVHYmEzUjVwRmQydWNzUWxENHk0aFpoZVhNQ0ZJSklPQ0JQQlF1TVFlWUd1Qy1XcHhfcl9VYlA1Sm"
+    },
+    {
+      "title": "Pubblicità Barilla: il nuovo spot racconta la qualità del grano 100% italiano - Brand News",
+      "source": "Brand News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObktCaUJDZkxSRVg0SXZlbW1aOW5PWFJhaU9lQV9lSlJYMU1mVnE2Mk9VcHhQMWJNQll2LWE0OW9hd3hwdnlzNkpXdzZCMEpFR2RiZFZ3cjJlSzdSLVVsQ21qel9rY2tjWU5IQkhrSWlvV3pHVnZYY0VBRnk3YnlwcUQxOU90SXl2Rnhrd244cXpVdTZO?oc=5",
+      "date": "2023-10-13T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxObktCaUJDZkxSRVg0SXZlbW1aOW5PWFJhaU9lQV9lSlJYMU1mVnE2Mk9VcHhQMWJNQll2LWE0OW9hd3hwdnlzNkpXdzZCMEpFR2RiZFZ3cjJlSzdSLVVsQ21qel9rY2tjWU5IQkhrSW"
+    },
+    {
+      "title": "Nestlè si conferma il primo marchio di cibo al mondo in valore. Barilla n. 1 tra gli italiani - WineNews",
+      "source": "WineNews",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUWZBTGk1WkJ5Tm8wR0hJNXplLVFLNk9uczNOWkRtOS1NeVBVRUVfb2tKcXkwcWZLUHhDWkNWaUpsN0FUNDhxVzdtUDZPZjNrTjJrV2FiVVh1dlg0U0pid0VCM1lMdWJrYVAtc1M4WGgwcVFTNG53czdid1NTX21XTnE2MjAwLVJnWVVscmQzOXRhNGxSaE9DdUpPUm1TNTl2VHo3Q1ZsV290TnAzc183bFpOaHBrckV1V2IydUpJNA?oc=5",
+      "date": "2022-09-06T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQUWZBTGk1WkJ5Tm8wR0hJNXplLVFLNk9uczNOWkRtOS1NeVBVRUVfb2tKcXkwcWZLUHhDWkNWaUpsN0FUNDhxVzdtUDZPZjNrTjJrV2FiVVh1dlg0U0pid0VCM1lMdWJrYVAtc1M4WG"
+    },
+    {
+      "title": "I 100 top brand del food: Nestlè capofila globale, Barilla dell’Italia - Mark Up",
+      "source": "Mark Up",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSXl6UVJzYzk2MC1vYk9ONTlnR3dxajhmMERJc3hGZHpFcU95UWg1TktBMVpTSExsNWpqRHdRNTlNcVNVSWVhbWVHbWU5alQyTzF2NGJTeXo2OUwwRC03Ml9yT0pDM3Y5V1VOREEyalB5VzBqRlptbW1sM3BkWm50MXRjUTdqbXJfUXB4RTNnSDFJY2JQT0E?oc=5",
+      "date": "2022-08-31T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPSXl6UVJzYzk2MC1vYk9ONTlnR3dxajhmMERJc3hGZHpFcU95UWg1TktBMVpTSExsNWpqRHdRNTlNcVNVSWVhbWVHbWU5alQyTzF2NGJTeXo2OUwwRC03Ml9yT0pDM3Y5V1VOREEyal"
+    },
+    {
+      "title": "Ferrero e Barilla i marchi italiani più forti, ma i brand made in Italy del food sono fuori dalla top 10 mondiale - Il Sole 24 ORE",
+      "source": "Il Sole 24 ORE",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOa2sxRlU4cVU5VFNxUmtWb09xNm9NRVo1MzN1aWhEUzdhbW5acHh1SW53bXNldHVUSjlNUVNrV3NLRDBqN0JOelg4QmpHdl9scm9iZHFmZHpEdWlNWGZjSy1TS2dlVkNnT3I5cXZaR2Y1aGFhc1c0YmtBalY2b3RaVzVQY3Q1cEJ6VlFURXpWTGZOV0h1dGRGVU5Ra2F4YzNQcGd1czFWVmNlV1NaakQxMXIwNmpKcnc?oc=5",
+      "date": "2021-08-31T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOa2sxRlU4cVU5VFNxUmtWb09xNm9NRVo1MzN1aWhEUzdhbW5acHh1SW53bXNldHVUSjlNUVNrV3NLRDBqN0JOelg4QmpHdl9scm9iZHFmZHpEdWlNWGZjSy1TS2dlVkNnT3I5cXZaR2"
+    },
+    {
+      "title": "Barilla lancia “A sign of love”, riposizionamento globale del brand firmato da Publicis italia - Ninja Business School",
+      "source": "Ninja Business School",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdjZPMU0yTnhXMXl1OUxPci1rNzg5VTRhMm90MnVldFVuNmRkdlNUM3RlbVFVNFNoSzNsUjZlX1c1NUtMcTlWZVZQZXpQYUxNVy1OVlZ0YzFPTVNyS2lNUUhlSVVBVEdSSTh3cVlkNGtTaFEzTmowRVdsd2JLYzV1SnBnZ1dTNUg0alh5dlgyQ2dVeTlKOXU0dkJnMWtDOVQ5Y1Z3Q1U3MjU0SmdPX05sdW45WQ?oc=5",
+      "date": "2021-04-12T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNdjZPMU0yTnhXMXl1OUxPci1rNzg5VTRhMm90MnVldFVuNmRkdlNUM3RlbVFVNFNoSzNsUjZlX1c1NUtMcTlWZVZQZXpQYUxNVy1OVlZ0YzFPTVNyS2lNUUhlSVVBVEdSSTh3cVlkNG"
+    },
+    {
+      "title": "Barilla fa suo il Carbonara Day: un nostro commento sull'ultimo video del brand di pasta più famoso al mondo - Reporter Gourmet",
+      "source": "Reporter Gourmet",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPLWN1RC04cHpWaVpEcVp2Tll3VkRWMWs1ZUdqYVhkOFhmVVZuaWJkSXpYNnhuZXZ5NElBUXlsUUFOQUhPTm0zV2E3TlVPRHNWcllsd1dER3ZlcGRkQzBnUVpqZjF0Nm5faUdObDVxZDllaG1UOFJQdVRwUUREUGdEWXRZdExFVHdIUGxPcFNCSHFBUlpQNi1NRkNRS3czdm1LZGM5YXBEa0E5QTRuTEpQbC1Wc1NZdmNYZWMzTEV0c1REcG0wUFA3YnoxdVlhREM0WUNUWW5GTS1WZzQ5SnBMNUxMUzNuV0pIYkhBWEp1cw?oc=5",
+      "date": "2021-04-07T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxPLWN1RC04cHpWaVpEcVp2Tll3VkRWMWs1ZUdqYVhkOFhmVVZuaWJkSXpYNnhuZXZ5NElBUXlsUUFOQUhPTm0zV2E3TlVPRHNWcllsd1dER3ZlcGRkQzBnUVpqZjF0Nm5faUdObDVxZD"
+    },
+    {
+      "title": "Barilla con Publicis Italia lancia una campagna in 18 paesi per celebrare le tavole di tutto il mondo - Brand News",
+      "source": "Brand News",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQaUZ2UkQ2R2VUNzlFWG9DR19Wcjd6ci1CQkFtc3dzVkhIODVpNnR3dGNvZU1fc2FHRkJFcFNvSzVhXzFxN0UweDk2WFJQZExUV1hHTXBVZ21ONWxoNDBTeEhWalc2cWNQOXR6QlVGdS1pZ2k2WjEwUHR4Yk5wSVVka25JQnhCUTA3dDE4WWxkU0tBWVBFLXlYbTRLMzh4dWR2Um1rMEZJWl9GS3REZFhkeGFSV1EzUTE4ajJjWml0OVp2R2V2NEJhQWxDRjJCRTVhWG5VSDRnVXNWX3hudHA4?oc=5",
+      "date": "2020-09-21T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxQaUZ2UkQ2R2VUNzlFWG9DR19Wcjd6ci1CQkFtc3dzVkhIODVpNnR3dGNvZU1fc2FHRkJFcFNvSzVhXzFxN0UweDk2WFJQZExUV1hHTXBVZ21ONWxoNDBTeEhWalc2cWNQOXR6QlVGdS"
+    },
+    {
+      "title": "I 100 top brand in Italia per reputazione: al vertice Ferrero, Ferrari e Barilla - Mark Up",
+      "source": "Mark Up",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaDZEYnBkR1EzUHJKRmtTM194QmE1ZzZuMnYydGVUZUNGdzJzOHJvTWhESWxpSGM3Q3Niem44UjZRN2dGd3ZWVExjek9USGVHQ0t2V3pXZEhNdWItQ2ctdmJsS21FS0RJX2lXdTBLMmpQcnRSNm1aSG93aGtrTmpBWVp3bXFtRU5FRFpWVWxTSWgzTUl1WnFGYk5nQlZPUUgw?oc=5",
+      "date": "2020-08-28T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPaDZEYnBkR1EzUHJKRmtTM194QmE1ZzZuMnYydGVUZUNGdzJzOHJvTWhESWxpSGM3Q3Niem44UjZRN2dGd3ZWVExjek9USGVHQ0t2V3pXZEhNdWItQ2ctdmJsS21FS0RJX2lXdTBLMm"
     }
   ],
   "consumer": {
@@ -2101,9 +2073,9 @@
     {
       "name": "Barilla",
       "mentions": 20,
-      "socialMentions": 11,
-      "totalMentions": 31,
-      "shareOfVoice": 42.5,
+      "socialMentions": 12,
+      "totalMentions": 32,
+      "shareOfVoice": 43.2,
       "posts": [
         {
           "type": "news",
@@ -2163,18 +2135,18 @@
         },
         {
           "type": "news",
-          "title": "La forma della pasta cambia il gusto? La risposta arriva dalla biomimetica - Italia a Tavola",
-          "source": "ITALIA A TAVOLA",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeWtwRUtaTGRVSWlXRzJWNzg0UjJKRjg5T1E4dm9mZVlZcGhuNDdhbjZTazJra0RacndraUdGOUttdUFJOWpIbDdWRVBFbXB3VXoxbmw4VzR3ZWowUllTdmVZSjBWMWtQYm1fcmZzQXhHVGpXY2REUTl4RXRuejF1SnhpTXNLZDZVMkpnRVU0aUpXSm1iY1VlWUk2V2p0Wkh5eG91NlhVYkFEREMtcEFhNFctV1ZCWFo5XzV5a3dpcTcwRUViR25J?oc=5",
-          "date": "2026-05-02T12:25:00.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
           "title": "Barilla ospita una cena a sorpresa con riunione di famiglia di Formula 1® durante il weekend della gara di Miami - Business Wire",
           "source": "BUSINESS WIRE",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1nLXNsN2UwUmw5bFNKVzBUQ2lJTEczSTFOODVPdTY5NzRTZzM0d2I3ak9wdldDMXZvUVRQcldqRW1nMUV5bmQ5dGN4UERrcFNRZFdnVU8wV0dEbHQ3eXpKX0N2d0c3SXM?oc=5",
           "date": "2026-05-02T02:09:00.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "La forma della pasta cambia il gusto? La risposta arriva dalla biomimetica - Italia a Tavola",
+          "source": "ITALIA A TAVOLA",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeWtwRUtaTGRVSWlXRzJWNzg0UjJKRjg5T1E4dm9mZVlZcGhuNDdhbjZTazJra0RacndraUdGOUttdUFJOWpIbDdWRVBFbXB3VXoxbmw4VzR3ZWowUllTdmVZSjBWMWtQYm1fcmZzQXhHVGpXY2REUTl4RXRuejF1SnhpTXNLZDZVMkpnRVU0aUpXSm1iY1VlWUk2V2p0Wkh5eG91NlhVYkFEREMtcEFhNFctV1ZCWFo5XzV5a3dpcTcwRUViR25J?oc=5",
+          "date": "2026-05-02T12:25:00.000Z",
           "brand": "Barilla"
         },
         {
@@ -2211,18 +2183,18 @@
         },
         {
           "type": "news",
-          "title": "Barilla apre “Agribosco”, assorbirà 13mila kg di CO2 - Ticinonews",
-          "source": "TICINONEWS",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc2Y0cS1KNnhfc2ROMTBiT245aHBtc1hyQXVxdWRSNVZScXhRV3U3bGdxclJnR0J0dTFjVU9wOGM1MDg0TkhMZ05rMEFSdTU3RlV3Q3RPQ1djaVl4SW84QUtUVWkwdTRENDZKVUZhUnFOYjZxWVk4ZUFycjdpWndrY2JZNU0tcG13ZDFmZTdTSDhBNXB6bXc?oc=5",
-          "date": "2026-04-28T07:00:00.000Z",
+          "title": "Barilla \"Con Zanardi rapporto basato su valori condivisi, resilienza e inclusione\" - Italpress",
+          "source": "ITALPRESS",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaTlLOUtXZkVvR3V4MWhPUE9pdDlsUUx4Y190b1Zwei1KajZWX3dVRkRCMHlTb3laRkQ1TjVvc1hmb3QyR1UzQXd1ZGE3LVdGbWJCS0kwYXdJUGRLR01NT2prY05UX21EZ1RxcTBHTm9ZN21hMmx0b0R4RnpWSU16SUtRNm5wdE9INVo5bmZKN21nQTJfR0xKVjZhSU14clZPN0NxS2M2QmlnUQ?oc=5",
+          "date": "2026-05-02T18:06:07.000Z",
           "brand": "Barilla"
         },
         {
           "type": "news",
-          "title": "Barilla \"Con Zanardi rapporto basato su valori condivisi, resilienza e inclusione\" - Italpress",
-          "source": "ITALPRESS",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaTlLOUtXZkVvR3V4MWhPUE9pdDlsUUx4Y190b1Zwei1KajZWX3dVRkRCMHlTb3laRkQ1TjVvc1hmb3QyR1UzQXd1ZGE3LVdGbWJCS0kwYXdJUGRLR01NT2prY05UX21EZ1RxcTBHTm9ZN21hMmx0b0R4RnpWSU16SUtRNm5wdE9INVo5bmZKN21nQTJfR0xKVjZhSU14clZPN0NxS2M2QmlnUQ?oc=5",
-          "date": "2026-05-02T17:04:11.000Z",
+          "title": "Barilla apre “Agribosco”, assorbirà 13mila kg di CO2 - Ticinonews",
+          "source": "TICINONEWS",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc2Y0cS1KNnhfc2ROMTBiT245aHBtc1hyQXVxdWRSNVZScXhRV3U3bGdxclJnR0J0dTFjVU9wOGM1MDg0TkhMZ05rMEFSdTU3RlV3Q3RPQ1djaVl4SW84QUtUVWkwdTRENDZKVUZhUnFOYjZxWVk4ZUFycjdpWndrY2JZNU0tcG13ZDFmZTdTSDhBNXB6bXc?oc=5",
+          "date": "2026-04-28T07:00:00.000Z",
           "brand": "Barilla"
         },
         {
@@ -2270,7 +2242,7 @@
           "platform": "ig",
           "author": "mikaelashiffrin",
           "text": "Day 1 ☺️\n\n@f1 \n#MiamiGP \n@barilla\n\nStyled/HMU by @jshinyeda\n📷: @lucamartiniphoto",
-          "engagement": 47788,
+          "engagement": 61198,
           "date": "2026-05-01T03:12:00Z",
           "url": "https://www.instagram.com/p/3887155944090287490/",
           "brand": "Barilla"
@@ -2278,9 +2250,29 @@
         {
           "type": "social",
           "platform": "ig",
+          "author": "luciadelpasqua",
+          "text": "🍝 Ieri ho mangiato la pasta.\nAllora dopo l’ho disegnata a mio modo 😇\n\nNon è una adv, ma amo i packaging @barilla e mi hanno ispirata.\n\n🥰 Condividi pure il disegno che ti risuona di più, se vuoi.",
+          "engagement": 1532,
+          "date": "2026-05-01T05:30:00Z",
+          "url": "https://www.instagram.com/p/3887225841864189616/",
+          "brand": "Barilla"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "visacashapprb",
+          "text": "Barilla 🤝 VCARB - Both born in Italy’s Food Valley and celebrating what matters most 🫶\n\nTo launch our new partnership, Barilla Group helped reunite team members with their families for a special weekend in Miami 💙\n\n#F1 #VCARB #MiamiGP",
+          "engagement": 1117,
+          "date": "2026-05-02T18:01:13Z",
+          "url": "https://www.instagram.com/reel/3888327141559895407/",
+          "brand": "Barilla"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
           "author": "quantoguadagna",
           "text": "Barilla, partner ufficiale della Formula 1 per la pasta, ha appena lanciato “Racing Wheels”, una pasta in edizione speciale a forma di pneumatici di F1, completa di veri raggi e scanalature.\n\nUna confezione da 450 grmmi costa solo 1,77 dollari ed è g",
-          "engagement": 1083,
+          "engagement": 1101,
           "date": "2026-04-29T10:01:42Z",
           "url": "https://www.instagram.com/p/3885912607152728361/",
           "brand": "Barilla"
@@ -2290,19 +2282,9 @@
           "platform": "ig",
           "author": "ilsocialemon",
           "text": "Per celebrare la partnership con la Formula 1, il brand ha lanciato le nuove “Racing Wheels”: un formato ispirato alle ruote delle monoposto. \n\nE qui c’è una lezione marketing enorme 👇\n\n📊 Cosa funziona davvero in questa operazione:\n\n– partnership c",
-          "engagement": 958,
+          "engagement": 1077,
           "date": "2026-04-29T12:37:08Z",
           "url": "https://www.instagram.com/p/3885990832650089035/",
-          "brand": "Barilla"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "luciadelpasqua",
-          "text": "🍝 Ieri ho mangiato la pasta.\nAllora dopo l’ho disegnata a mio modo 😇\n\nNon è una adv, ma amo i packaging @barilla e mi hanno ispirata.\n\n🥰 Condividi pure il disegno che ti risuona di più, se vuoi.",
-          "engagement": 785,
-          "date": "2026-05-01T05:30:00Z",
-          "url": "https://www.instagram.com/p/3887225841864189616/",
           "brand": "Barilla"
         },
         {
@@ -2379,10 +2361,10 @@
     },
     {
       "name": "Garofalo",
-      "mentions": 6,
+      "mentions": 5,
       "socialMentions": 11,
-      "totalMentions": 17,
-      "shareOfVoice": 23.3,
+      "totalMentions": 16,
+      "shareOfVoice": 21.6,
       "posts": [
         {
           "type": "news",
@@ -2398,14 +2380,6 @@
           "source": "LA GAZZETTA DELLO SPORT",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPenNyNzVvUTFvQnU5cUVIdlJZLW9GdFI0NjBtYkFmQ21ZNHctdFZzMHY3WDNvTXBlTEp3YVZpa29uQi1RaHhMQ0UyaEpHcW1pSVpUS2xxbm14b0hTaFVWZUdETEhfbDEzbVZxcGQ3OGxuTlNkcTJ3dGlIZVcyNmRDaXJTX2REQVRHX0w3dGs3MjBoWkJ4dzVXcTVNbzZEZTZ6X2hFUUtHUXNlRHM3UGfSAbMBQVVfeXFMT09VRFN0R3pqYjdaOF9WTVpaQmFlcDlrSk8xVmw0ZEtCbGtSc2NZZnpGUEJaWXplMlE0SkRfbUplaXdDSUVvOGhxcGJ4MnFMTWtvNzhUcVEzWDN5d281NFdCOG15MVBLUjUzTFZQT0NLSHM5RWdDTkpkSGx4QUotNV9DLUpOYmVsQUpnVHZhREtRLWNjRnZWV1RqWkw3Wkd3dmVKVHp3bmtTdU80Uzl1ekZLRzQ?oc=5",
           "date": "2026-04-27T16:04:16.000Z",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "news",
-          "title": "Melaverde: Tecnologia e materie prime Video - Mediaset Infinity",
-          "source": "MEDIASET INFINITY",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVnpKYlhJdVlXcjF5eDAzMFBQOUNwbVZOQ1U5eDVLYktCVU93d2dpVFNIaDBpS1hVU0tqMDJYY0wxYlRLMS1Fc1dUZ3MySlpqYWFMam40bzdEZUJldndJU09ZZUplbExDejBXc0hOQTlDZWdxSDB1U0laS0xELWt2Q3ZyNGYyTk1TWnNMSU5yTmlFdXRHUmJVTGdub08?oc=5",
-          "date": "2026-04-26T10:22:51.000Z",
           "brand": "Garofalo"
         },
         {
@@ -2447,7 +2421,7 @@
           "platform": "tt",
           "author": "martina.smibie",
           "text": "#adv • Garofalo e Il Diavolo Veste Prada 2: non sapevo di aver bisogno di questa collaborazione fino a oggi. Il Diavolo Veste Prada 2 al cinema dal 29 aprile! @Pasta Garofalo @20th Century Studios @Disney Italia #ItsAMatterOfTaste #IlDiavoloVestePrad",
-          "engagement": 1137,
+          "engagement": 1172,
           "date": "2026-04-28T14:40:33Z",
           "url": "https://www.tiktok.com/@martina.smibie/video/7633820007096683799",
           "brand": "Garofalo"
@@ -2487,7 +2461,7 @@
           "platform": "ig",
           "author": "maximall_pompeii",
           "text": "Un sapore che sa di casa, di tradizione, di momenti da condividere.\nE’ amore al primo assaggio!\nVieni a provare la mozzarella di Fattorie Garofalo al MaxiMall Pompeii.\n\n#Delicious #FattorieGarofalo #MaxiMallPompeii",
-          "engagement": 115,
+          "engagement": 120,
           "date": "2026-04-27T10:02:09Z",
           "url": "https://www.instagram.com/reel/3884462410018493473/",
           "brand": "Garofalo"
@@ -2549,7 +2523,7 @@
       "mentions": 7,
       "socialMentions": 2,
       "totalMentions": 9,
-      "shareOfVoice": 12.3,
+      "shareOfVoice": 12.2,
       "posts": [
         {
           "type": "news",
@@ -2632,9 +2606,9 @@
     {
       "name": "Rummo",
       "mentions": 3,
-      "socialMentions": 4,
-      "totalMentions": 7,
-      "shareOfVoice": 9.6,
+      "socialMentions": 5,
+      "totalMentions": 8,
+      "shareOfVoice": 10.8,
       "posts": [
         {
           "type": "news",
@@ -2675,7 +2649,7 @@
           "platform": "ig",
           "author": "pasta_rummo",
           "text": "Un incontro tra mondi diversi, uniti da una stessa visione. In occasione della Biennale d’Arte di Venezia e dell’apertura della mostra di Hans Hartung alla @fondazionequerinistampalia, Rummo e galleria @perrotin si uniscono per dare vita a un momento",
-          "engagement": 2443,
+          "engagement": 2450,
           "date": "2026-04-28T13:13:40Z",
           "url": "https://www.instagram.com/p/3885284448942173199/",
           "brand": "Rummo"
@@ -2685,7 +2659,7 @@
           "platform": "ig",
           "author": "pasta_rummo",
           "text": "Fondato nel 1951, quando Aldo, Paolo, Franco e Anna Sersale decisero di trasformare la loro casa al mare in un piccolo albergo di charme affacciato sulla baia di Positano, @lesirenuse è oggi un albergo dal fascino unico, tra attenzione ai dettagli e ",
-          "engagement": 1315,
+          "engagement": 1373,
           "date": "2026-04-29T12:30:00Z",
           "url": "https://www.instagram.com/reel/3885987311273391404/",
           "brand": "Rummo"
@@ -2699,6 +2673,16 @@
           "date": "2026-04-27T15:47:39Z",
           "url": "https://www.instagram.com/reel/3884636945872002415/",
           "brand": "Rummo"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "pasta_rummo",
+          "text": "Una casa di famiglia trasformata in sogno, una vista sul mare che non ha pari e il genio creativo dello chef Gennaro Russo. Per questa occasione, questi elementi si incontrano nella pasta Rummo, dando forma a due piatti che portano la luce di Positan",
+          "engagement": 264,
+          "date": "2026-05-02T12:39:57Z",
+          "url": "https://www.instagram.com/p/3888166579263517162/",
+          "brand": "Rummo"
         }
       ]
     },
@@ -2707,7 +2691,7 @@
       "mentions": 1,
       "socialMentions": 3,
       "totalMentions": 4,
-      "shareOfVoice": 5.5,
+      "shareOfVoice": 5.4,
       "posts": [
         {
           "type": "news",
