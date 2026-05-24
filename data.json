@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-05-24T08:28:33.143Z",
+    "generatedAt": "2026-05-24T13:25:02.794Z",
     "pipelineVersion": "1.0.0",
     "sources": {
       "opensearch": true,
@@ -9,19 +9,19 @@
       "claude": false,
       "competitors": true
     },
-    "processingTimeMs": 3368
+    "processingTimeMs": 3801
   },
   "social": {
     "overview": {
-      "totalPosts": 264980,
-      "prevTotalPosts": 266632,
-      "volumeChange": -0.6,
-      "mentions24h": 26670,
-      "totalEngagement": 958091431,
-      "avgEngagementRate": 0.00933765529960627,
-      "erChange": -24.6,
+      "totalPosts": 253890,
+      "prevTotalPosts": 266590,
+      "volumeChange": -4.8,
+      "mentions24h": 14380,
+      "totalEngagement": 920976432,
+      "avgEngagementRate": 0.009246507967724709,
+      "erChange": -24.7,
       "organicPct": 98,
-      "sponsoredCount": 5973
+      "sponsoredCount": 5793
     },
     "brandHealth": {
       "score": 79,
@@ -29,12 +29,12 @@
       "dimensions": [
         {
           "name": "Sentiment",
-          "score": 69,
+          "score": 68,
           "color": "#00e676"
         },
         {
           "name": "Engagement",
-          "score": 47,
+          "score": 46,
           "color": "#3ba4ff"
         },
         {
@@ -70,102 +70,83 @@
       ]
     },
     "sentiment": {
-      "netScore": 50,
-      "positive": 59,
+      "netScore": 48,
+      "positive": 58,
       "neutral": 32,
-      "negative": 9
+      "negative": 10
     },
     "platforms": [
       {
         "name": "tt",
-        "count": 134368,
+        "count": 128655,
         "pctOfTotal": 50.7
       },
       {
         "name": "ig",
-        "count": 120349,
-        "pctOfTotal": 45.4
+        "count": 115410,
+        "pctOfTotal": 45.5
       },
       {
         "name": "yt",
-        "count": 10263,
+        "count": 9825,
         "pctOfTotal": 3.9
       }
     ],
     "dailyVolume": [
       {
         "date": "2026-05-17T00:00:00.000Z",
-        "count": 30558,
-        "engagement": 150154273,
-        "avgEr": 0.012598771755919095
+        "count": 19463,
+        "engagement": 112983966,
+        "avgEr": 0.01326377802373936
       },
       {
         "date": "2026-05-18T00:00:00.000Z",
         "count": 40946,
-        "engagement": 163683408,
-        "avgEr": 0.01200476692108331
+        "engagement": 163691883,
+        "avgEr": 0.012005117297647984
       },
       {
         "date": "2026-05-19T00:00:00.000Z",
         "count": 39359,
-        "engagement": 163732896,
-        "avgEr": 0.010169767990671257
+        "engagement": 163732955,
+        "avgEr": 0.010169786333718983
       },
       {
         "date": "2026-05-20T00:00:00.000Z",
         "count": 40173,
-        "engagement": 181820615,
-        "avgEr": 0.010796127667888119
+        "engagement": 181821874,
+        "avgEr": 0.01079616035727304
       },
       {
         "date": "2026-05-21T00:00:00.000Z",
         "count": 39798,
-        "engagement": 151108877,
-        "avgEr": 0.00897331024570205
+        "engagement": 151109845,
+        "avgEr": 0.008973348818907028
       },
       {
         "date": "2026-05-22T00:00:00.000Z",
         "count": 41888,
-        "engagement": 112555018,
-        "avgEr": 0.00700322600701476
+        "engagement": 112563736,
+        "avgEr": 0.007003441841878768
       },
       {
         "date": "2026-05-23T00:00:00.000Z",
-        "count": 32258,
-        "engagement": 35036344,
-        "avgEr": 0.0035157957835327486
+        "count": 32261,
+        "engagement": 35069345,
+        "avgEr": 0.003516247321749751
+      },
+      {
+        "date": "2026-05-24T00:00:00.000Z",
+        "count": 2,
+        "engagement": 2828,
+        "avgEr": 0.0016793002117168132
       }
     ],
     "hourlyVolume": [
       {
-        "hour": "2026-05-23T08:00:00.000Z",
-        "count": 1026,
-        "engagement": 2380542
-      },
-      {
-        "hour": "2026-05-23T09:00:00.000Z",
-        "count": 2305,
-        "engagement": 3314603
-      },
-      {
-        "hour": "2026-05-23T10:00:00.000Z",
-        "count": 2786,
-        "engagement": 5437542
-      },
-      {
-        "hour": "2026-05-23T11:00:00.000Z",
-        "count": 2613,
-        "engagement": 2876364
-      },
-      {
-        "hour": "2026-05-23T12:00:00.000Z",
-        "count": 2556,
-        "engagement": 2854863
-      },
-      {
         "hour": "2026-05-23T13:00:00.000Z",
-        "count": 2135,
-        "engagement": 1837522
+        "count": 1127,
+        "engagement": 865760
       },
       {
         "hour": "2026-05-23T14:00:00.000Z",
@@ -194,13 +175,13 @@
       },
       {
         "hour": "2026-05-23T19:00:00.000Z",
-        "count": 1367,
-        "engagement": 100156
+        "count": 1368,
+        "engagement": 111197
       },
       {
         "hour": "2026-05-23T20:00:00.000Z",
-        "count": 349,
-        "engagement": 19853
+        "count": 350,
+        "engagement": 23698
       },
       {
         "hour": "2026-05-23T21:00:00.000Z",
@@ -216,108 +197,163 @@
         "hour": "2026-05-23T23:00:00.000Z",
         "count": 6,
         "engagement": 27
+      },
+      {
+        "hour": "2026-05-24T00:00:00.000Z",
+        "count": 0,
+        "engagement": 0
+      },
+      {
+        "hour": "2026-05-24T01:00:00.000Z",
+        "count": 0,
+        "engagement": 0
+      },
+      {
+        "hour": "2026-05-24T02:00:00.000Z",
+        "count": 0,
+        "engagement": 0
+      },
+      {
+        "hour": "2026-05-24T03:00:00.000Z",
+        "count": 0,
+        "engagement": 0
+      },
+      {
+        "hour": "2026-05-24T04:00:00.000Z",
+        "count": 0,
+        "engagement": 0
+      },
+      {
+        "hour": "2026-05-24T05:00:00.000Z",
+        "count": 0,
+        "engagement": 0
+      },
+      {
+        "hour": "2026-05-24T06:00:00.000Z",
+        "count": 1,
+        "engagement": 2558
+      },
+      {
+        "hour": "2026-05-24T07:00:00.000Z",
+        "count": 0,
+        "engagement": 0
+      },
+      {
+        "hour": "2026-05-24T08:00:00.000Z",
+        "count": 0,
+        "engagement": 0
+      },
+      {
+        "hour": "2026-05-24T09:00:00.000Z",
+        "count": 0,
+        "engagement": 0
+      },
+      {
+        "hour": "2026-05-24T10:00:00.000Z",
+        "count": 1,
+        "engagement": 270
       }
     ],
     "hashtags": [
       {
         "tag": "perte",
-        "count": 5899
+        "count": 5627
       },
       {
         "tag": "fyp",
-        "count": 5362
+        "count": 5125
       },
       {
         "tag": "accadeoggi",
-        "count": 4841
+        "count": 4666
       },
       {
         "tag": "viral",
-        "count": 3842
+        "count": 3676
       },
       {
         "tag": "adv",
-        "count": 2857
+        "count": 2797
       },
       {
         "tag": "neiperte",
-        "count": 2581
+        "count": 2455
       },
       {
         "tag": "tiktokshop",
-        "count": 2048
+        "count": 1950
       },
       {
         "tag": "offerteperte",
-        "count": 1994
+        "count": 1900
       },
       {
         "tag": "foryou",
-        "count": 1929
+        "count": 1847
       },
       {
         "tag": "napoli",
-        "count": 1772
-      },
-      {
-        "tag": "seriea",
-        "count": 1201
+        "count": 1686
       },
       {
         "tag": "italy",
-        "count": 1160
+        "count": 1119
       },
       {
         "tag": "italia",
-        "count": 1111
+        "count": 1067
       },
       {
         "tag": "capcut",
-        "count": 1099
+        "count": 1050
+      },
+      {
+        "tag": "seriea",
+        "count": 1040
       },
       {
         "tag": "madeinitaly",
-        "count": 1054
-      },
-      {
-        "tag": "calcio",
-        "count": 1045
-      },
-      {
-        "tag": "roma",
-        "count": 1025
+        "count": 1024
       },
       {
         "tag": "spacchettaleoffertedimaggio",
-        "count": 1017
+        "count": 985
       },
       {
-        "tag": "milano",
-        "count": 896
+        "tag": "roma",
+        "count": 964
       },
       {
-        "tag": "davedere",
-        "count": 891
+        "tag": "calcio",
+        "count": 962
       },
       {
         "tag": "amore",
-        "count": 881
+        "count": 856
+      },
+      {
+        "tag": "milano",
+        "count": 855
       },
       {
         "tag": "perteeee",
-        "count": 868
+        "count": 848
       },
       {
         "tag": "virale",
-        "count": 864
+        "count": 820
       },
       {
         "tag": "inter",
-        "count": 819
+        "count": 773
       },
       {
         "tag": "outfit",
-        "count": 807
+        "count": 769
+      },
+      {
+        "tag": "viralvideos",
+        "count": 738
       }
     ],
     "creators": [
@@ -331,11 +367,11 @@
       },
       {
         "name": "fcbarcelona",
-        "posts": 44,
-        "engagement": 32149680,
+        "posts": 42,
+        "engagement": 31769689,
         "platform": "ig",
         "followers": 145268169,
-        "avgEr": 0.005032470012805181
+        "avgEr": 0.005209777633269728
       },
       {
         "name": "fabriziorom",
@@ -346,20 +382,20 @@
         "avgEr": 0.011400798616193695
       },
       {
-        "name": "433",
-        "posts": 74,
-        "engagement": 30854463,
-        "platform": "ig",
-        "followers": 76870016,
-        "avgEr": 0.005427055763861893
-      },
-      {
         "name": "giorgiameloni",
-        "posts": 18,
-        "engagement": 30022548,
+        "posts": 17,
+        "engagement": 29936101,
         "platform": "ig",
         "followers": 6555803,
-        "avgEr": 0.2544187696508472
+        "avgEr": 0.26860891299617434
+      },
+      {
+        "name": "433",
+        "posts": 67,
+        "engagement": 28771309,
+        "platform": "ig",
+        "followers": 76870016,
+        "avgEr": 0.005589328997905358
       },
       {
         "name": "neymarjr",
@@ -378,14 +414,6 @@
         "avgEr": 0.03845172271475227
       },
       {
-        "name": "premierleague",
-        "posts": 64,
-        "engagement": 13557668,
-        "platform": "ig",
-        "followers": 79333268,
-        "avgEr": 0.002672285278462732
-      },
-      {
         "name": "fabrizioromano",
         "posts": 14,
         "engagement": 13505307,
@@ -394,12 +422,20 @@
         "avgEr": 0.04466040674603174
       },
       {
+        "name": "premierleague",
+        "posts": 60,
+        "engagement": 13040586,
+        "platform": "ig",
+        "followers": 79333268,
+        "avgEr": 0.0027416206171861374
+      },
+      {
         "name": "realmadrid",
-        "posts": 48,
-        "engagement": 12300131,
+        "posts": 43,
+        "engagement": 11656343,
         "platform": "ig",
         "followers": 178783114,
-        "avgEr": 0.0014334800887983552
+        "avgEr": 0.0015164209339473605
       },
       {
         "name": "shakira",
@@ -410,20 +446,20 @@
         "avgEr": 0.030176565365918014
       },
       {
-        "name": "manutd",
-        "posts": 71,
-        "engagement": 11307477,
-        "platform": "ig",
-        "followers": 65739755,
-        "avgEr": 0.002424861802955863
-      },
-      {
         "name": "f1",
-        "posts": 50,
-        "engagement": 10641337,
+        "posts": 48,
+        "engagement": 10147801,
         "platform": "ig",
         "followers": 42424101,
-        "avgEr": 0.0050191175297363945
+        "avgEr": 0.004985717882820661
+      },
+      {
+        "name": "manutd",
+        "posts": 60,
+        "engagement": 9710838,
+        "platform": "ig",
+        "followers": 65739755,
+        "avgEr": 0.002464147027105632
       },
       {
         "name": "championsleague",
@@ -873,24 +909,6 @@
       },
       {
         "platform": "ig",
-        "author": "fattoincasadabenedetta",
-        "time": "2026-05-17T12:00:11Z",
-        "text": "TORTA SFOGLIA CREMA E FRAGOLE Facile, scenografica e ideale come dessert di fine pasto 🍓\n\nINGREDIENTI \n\nPER BASE E COPERTURA\n\n2 rotoli di pasta sfoglia rettangolare\nZucchero a velo\n\nPER LA CREMA PASTICCERA E FARCITURA \n\n750ml di latte\nScorza di limo",
-        "engagement": 40016,
-        "engagementRate": 0.007396609936403498,
-        "sentiment": "neg",
-        "hashtags": [
-          "ricettafacile",
-          "tortasfoglia",
-          "fragole",
-          "fattoincasadabenedetta",
-          "dolci"
-        ],
-        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/700135281_18589638574037488_6819107245413810310_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=107&ig_cache_key=Mzg5OTAxODQ4NDEyMTIyMzM5MzE4NTg5NjM4NTcxMDM3NDg4.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjc2MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=xnLI4bWPooMQ7kNvwGeOQyO&_nc_oc=AdpxXp8NjfyPHnrXXhiffONsPiHuZ55WkJKC-sHk0ni3nGc5DcBO1qTr_C0owVK9e0ODGoZEYP-s7frCzAK6QF-t&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=of3Jcg4Sk3gm3yNh8kVCRg&_nc_ss=7a3ba&oh=00_Af5bM_wqpRYyMEko02wJhL7kPQRYkLHZ8Xz1pr3nkuEqLQ&oe=6A17B3E8",
-        "url": "https://www.instagram.com/reel/3899018484121223393/"
-      },
-      {
-        "platform": "ig",
         "author": "nonnanellaa",
         "time": "2026-05-18T09:42:43Z",
         "text": "Bruschette fichi, prosciutto e gorgonzola🥰\n\n INGREDIENTI\n\n- Pane\n- Prosciutto\n- Fichi\n- Gorgonzola a sentimento\n- Olio (se volete)\n\n💚 metti un 👍🏻 se ti è piaciuto il video\n🖋 scrivi nei commenti cosa ne pensi\n🧾salva per non perdere la ricetta\n✅ ",
@@ -972,6 +990,24 @@
         "hashtags": [],
         "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/703136382_18443758660141449_6630574526850892979_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=100&ig_cache_key=MzkwMTEyMTQ0NTk5NTAxNDExNzE4NDQzNzU4NjU0MTQxNDQ5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=AU3SFbQonXMQ7kNvwF8eeXh&_nc_oc=AdqY4Jd8QnAXvkw4rZeWjjZXTXX7rkcuFDD6kzsWMUZcuq52YbfRjOO7UtQSH3WDKOqkH6itJdvRxJlJPEYimMvn&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=W4Ob7Z7NkQMKad6y7202NQ&_nc_ss=7a3ba&oh=00_Af4IqHodgR1mDX1WZ-Ar1Mh8SrSlxsQEgwvHR0GT8QP0gA&oe=6A17CDF6",
         "url": "https://www.instagram.com/reel/3901121445995014117/"
+      },
+      {
+        "platform": "ig",
+        "author": "fattoincasadabenedetta",
+        "time": "2026-05-18T10:00:11Z",
+        "text": "STRACCETTI DI POLLO AL LIMONE 🍋 Un secondo piatto leggero, facile e ideale per quando abbiamo poco tempo 😊\n\nINGREDIENTI\n\n500g di petto di pollo a fette\n100g di farina circa\nLa scorza e il succo di 1 limone\n100ml di vino bianco\nOlio d’oliva\nSale fin",
+        "engagement": 31520,
+        "engagementRate": 0.005826198150625707,
+        "sentiment": "neg",
+        "hashtags": [
+          "straccettidipollo",
+          "ricettafacile",
+          "fattoincasadabenedetta",
+          "ricetta",
+          "secondipiatti"
+        ],
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/688839822_18589918858037488_4022167882454795267_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=105&ig_cache_key=Mzg5OTY4MjYzNTAzODUzOTU4OTE4NTg5OTE4ODUyMDM3NDg4.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTUuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=ig7QqCXaYJcQ7kNvwGURuvF&_nc_oc=AdpQDhiKwH90Z2BHqrRA5J5tuBztrvA1TxKvt2YJA8hq4ZDxN9MXU4TP1MkdHsZgZu_so47GHVaqku1MrRtFLFbk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=of3Jcg4Sk3gm3yNh8kVCRg&_nc_ss=7a3ba&oh=00_Af7zttx09K2ekRvJUhh40eYJhayATej0ORWVFNtg8XUOXw&oe=6A17E523",
+        "url": "https://www.instagram.com/reel/3899682635038539589/"
       },
       {
         "platform": "tt",
@@ -1438,32 +1474,11 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMigwJBVV95cUxNdVA4dUg1V19GenpUOUlyblZ5dXlldHFUbGxtSnNVN2k3WFVsYTgtaGFNR0lYbm1ZS3E2OHBZY2lDODI2V1hCQ1JxVzBEZG9WQ2tPUHRveU5EVFdCLV9OaEpYb0l6bkk3QUVHRlFHNV"
     },
     {
-      "title": "Barilla investe 170 mln in stabilimento Usa. Casa Bianca: American pasta - Askanews",
-      "source": "Askanews",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOWo1ZXBMTXRPb28tSmJZQWliYlVjN0U3bE9nNWpaMGdlU3Z6czZVNWFIVzA4dnpGcmRLVzFOY3ZWcV9uYnBxUHc3eVozQlllNEdNbE1nWElMMTAtZ2V4eThYTzZFZGFnSzlReVAwUjZnTHJvQzlsa1RKUi1kRVVvMmF6NERON05qaGRVcGJranpMMkd1Mml6NVJKZUx2Z1VSSVVfUQ?oc=5",
-      "date": "2026-05-22T09:38:21.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNOWo1ZXBMTXRPb28tSmJZQWliYlVjN0U3bE9nNWpaMGdlU3Z6czZVNWFIVzA4dnpGcmRLVzFOY3ZWcV9uYnBxUHc3eVozQlllNEdNbE1nWElMMTAtZ2V4eThYTzZFZGFnSzlReVAwUj"
-    },
-    {
-      "title": "Barilla accelera negli Usa: investimento da 170 milioni - Italia Informa",
-      "source": "Italia Informa",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BYUQxZVBQekJ4NjFZM0QxeWdYUDRqckw0cmNLSWRhVXJPMXF5MGtjbHhndi1HQVFWRFBxTzl6aFl5LU1hYzFfTjBkYTZ2Y2F4YlVKaU84YkZ3RTVxVXk1TVJKQ1l0ZHc?oc=5",
-      "date": "2026-05-22T02:30:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BYUQxZVBQekJ4NjFZM0QxeWdYUDRqckw0cmNLSWRhVXJPMXF5MGtjbHhndi1HQVFWRFBxTzl6aFl5LU1hYzFfTjBkYTZ2Y2F4YlVKaU84YkZ3RTVxVXk1TVJKQ1l0ZHc?oc=5\" targ"
-    },
-    {
-      "title": "Barilla: nuovi formati di pasta al bronzo e snack proteici - de-gustare",
-      "source": "de-gustare",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQzBySEZlNXZEX1pLRkNyazdweW1VZTk2dmVDR0tBY3U2c0ZiWWNqUzhnUGJDdXk0QldacjJkSGtfZlhiUk1nZzdzd2txenRuUVJ0TmJRMXhpcmt6SERjdEtreDl0RFJTRnlNdFAwWFRYWkltTU1yTXNuOWtreXhYN0pHcVl6MU0?oc=5",
-      "date": "2026-05-19T09:00:27.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxPQzBySEZlNXZEX1pLRkNyazdweW1VZTk2dmVDR0tBY3U2c0ZiWWNqUzhnUGJDdXk0QldacjJkSGtfZlhiUk1nZzdzd2txenRuUVJ0TmJRMXhpcmt6SERjdEtreDl0RFJTRnlNdFAwWF"
-    },
-    {
-      "title": "Da oggi si fa pace con la pasta una volta per tutte - ELLE",
-      "source": "ELLE",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mUmxMdWRPVEI2TGROS1ZtY0RzVTRlVDZWVVZQTXBMS1g4WlprRy1ZXzUxWjBtem5FbDdSRjRYODMwVUtkVDRFVGtKWHZveWZ5TERXU2liRi01SVJTUlhsSDdCeUE2emVRQzVJV29CSWhpblVJTWc?oc=5",
-      "date": "2026-05-15T11:14:25.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5mUmxMdWRPVEI2TGROS1ZtY0RzVTRlVDZWVVZQTXBMS1g4WlprRy1ZXzUxWjBtem5FbDdSRjRYODMwVUtkVDRFVGtKWHZveWZ5TERXU2liRi01SVJTUlhsSDdCeUE2emVRQzVJV29CSW"
+      "title": "Barilla investe 170 mln in stabilimento Usa. Casa Bianca: American pasta - Radio Studio90 Italia - solo musica italiana",
+      "source": "Radio Studio90 Italia - solo musica italiana",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOE9OWlk4cFZ6eS1HdV9BZ0ZXbG9rU3hxVmNJeXA5Z21Gb3BFZ2dIX0hOTXo3Ym9aOUE4OWlMbGNxeTJKeHpEYll2SnpreEFCYUxZTUZjSjZIRGlJRkRETld6eVlJaFFYbUhTRDJDbmtNY3Q3cnJxOUltQkpUdi0zTldhdVM3WUNSUGhPRVdGQWxyMm10WU8wdDZyd21NSWwzeFNwd2FBVFFCQQ?oc=5",
+      "date": "2026-05-22T09:44:06.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOE9OWlk4cFZ6eS1HdV9BZ0ZXbG9rU3hxVmNJeXA5Z21Gb3BFZ2dIX0hOTXo3Ym9aOUE4OWlMbGNxeTJKeHpEYll2SnpreEFCYUxZTUZjSjZIRGlJRkRETld6eVlJaFFYbUhTRDJDbm"
     },
     {
       "title": "Barilla, a Tuttofood oltre 4.000 piatti di pasta serviti e uno stand che celebra persone e prodotti - Adnkronos",
@@ -1480,25 +1495,11 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxPWUk1NjE3bkFONXZKMEZ1U3Zvb2VvZlJXb2N6cWlyOEpSNVZ5aVNWRmZrcWgtSUNSUFdRQUJnc0xjQ09ZekdlUlRGajI4aF9OZzI2bnZTdTFPYnNZOUY2bmFCTldESVZZUDhQaUhlcF"
     },
     {
-      "title": "Barilla a TuttoFood con una nuova pasta ispirata alla Formula 1 - ANSA",
+      "title": "A Tuttofood in migliaia allo stand Barilla, serviti 4mila piatti di pasta - ANSA",
       "source": "ANSA",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQTkdsaHZrSXBubVUtems0blBNSXo2MTRvckRwdERFbUNLWTRwVFYwU3J0N0l4Z212cjZEZmpMOXladmg4N3F2SDJBaV9PTDd0LWFsbG42eHgyVUY1MjJrQTRQTUZvQ1M2S2hJbDJWd1R6UHZqZ0d1OE4tLWwtaFlOYlRzbXFFc3VyLUJTY2hUb3dQTUU3ZlRyX1huNFpTa3lzUDJRQkE1ZnF5ajRVMXR3SElMbndNSkR3YkFlSHBDR3E1SjhpTWcweUVKRjV3Y1d1YVZJMnF2WFhBeFpsUlBPcnVSdmtLU08zOGNLZ2hXVjJ6N3l3Q2c?oc=5",
-      "date": "2026-05-13T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi9gFBVV95cUxQTkdsaHZrSXBubVUtems0blBNSXo2MTRvckRwdERFbUNLWTRwVFYwU3J0N0l4Z212cjZEZmpMOXladmg4N3F2SDJBaV9PTDd0LWFsbG42eHgyVUY1MjJrQTRQTUZvQ1M2S2hJbDJWd1"
-    },
-    {
-      "title": "Barilla scende in pista con la nuova Gran Ruote Racing Edition: la pasta in edizione limitata ispirata al mondo della Formula1 - Media Key",
-      "source": "Media Key",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPMjk2aXR4clZwLTNvZTdXTVQ5UV94RXdTRlhxUzAzelEwZHdPbHNoU29iN3RfWWxXWFl6a0QtdWtmVktTVmEzbUZ1SHVPeGVmTmZEbExJUU9GbzdFaDVva2g4UnJWbzVyc2ZrUXNpMlpGdVRGNkhRQWVvUmJuNHltdkxsWkdBV3g5eXZwdlozckhPTm93QS1PajFxT0p0UG5XVlRtZDEzUkU3Nk5CX1lfZDgyUWl6dUVpLWNUdXpaYmJBSzgtUGhsUl9tRG1ZZ1NSVG0wWU90Wi1NdVUzXzN3Z0dFelFTQQ?oc=5",
-      "date": "2026-05-12T10:14:32.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxPMjk2aXR4clZwLTNvZTdXTVQ5UV94RXdTRlhxUzAzelEwZHdPbHNoU29iN3RfWWxXWFl6a0QtdWtmVktTVmEzbUZ1SHVPeGVmTmZEbExJUU9GbzdFaDVva2g4UnJWbzVyc2ZrUXNpMl"
-    },
-    {
-      "title": "Barilla svela le novità a TuttoFood: nuovi lanci e campagne di comunicazione - Brand News",
-      "source": "Brand News",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdHhWMWV3Q2duaTZaRmZVTkhUU2sxdFZwZDcyeXZXRUFPamxLbmNuVWdobHd2ZDdjNnlPeUdvOWxQemJ4ZUFxY2ZnN3JaM0MxQUZVd1g1X0t6YlczTHF1U0hCNGNBaG5JOEdfYVhZM2JUWlJmd1BldFkwQnNuREVLaGt4R2FET3psd3NzdjZzN2c0SEczQ2lqYUZ2aHlhVGlhYmZ0TUNXT1lfbWtZckVFeGZBZDk?oc=5",
-      "date": "2026-05-12T08:14:25.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQdHhWMWV3Q2duaTZaRmZVTkhUU2sxdFZwZDcyeXZXRUFPamxLbmNuVWdobHd2ZDdjNnlPeUdvOWxQemJ4ZUFxY2ZnN3JaM0MxQUZVd1g1X0t6YlczTHF1U0hCNGNBaG5JOEdfYVhZM2"
+      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNQmlYMi1zUnV6bGtfdDFBVllUX0ZPbFdhbHpTUzJkTk1MN0tHZ1V1aGZBZnRERGl1RnRHUEJQVE5ZSXVWS2lBUEpJRE1XWkJfdC1QZEFibWNmZlJ0ZUZPQ1BiemtyakhycUFVb0MzeGNSV0xKM1E3clE5QklZMmktbm53ODliV0tORkt5Z0tnUHhjaV9XWWlUUWg5UHpDdlJINlYtTGw3WG5mUDFERW5uTTNPS05rT2dmYXhWMkU3dU9GMlBzZzNfSHB0dHdNX3Z3LUNTa1JnTVB2VlZvLUhqNEZZeG1IQVV1eHYzUVFuc2FOTXd3RzdzVUNXRWhlSTZOMl9NWHdObWppTko2NEVUV19CWERibTV3eTlZUzNROExsUjJFN0NDUlVWdFTSAbICQVVfeXFMUDEwWGtkQ0NQSmE2WjBzbVlPVE5ueDhLNkpxX1RjRWFGblh1bVVBczMwRjdtU2J4SVFmUUVQejZHWU85X2h2NExRUjVCQWVxX0V6YV9Jc3VCdUplRjZaOXpNRGFrdWxlNDJZOHpxbUNNTDVubnlYLS1SVzFkRURlSnNUSWZqTGpVSU9PZmZqbExUZ2FXZjJJSHZzajRJeWsySktqZXd2UFJ4eTFkcEJBMHRtTFBLcHBDZEk1RUJQRjJ4OXctcm1IWGV6cW5xNkRha1luNFZadG9qclF5TUU1SExUbzMxLVdxdVlLeGdSZXdzRmdUdG5pcTlORjNiUXY1UnBSTWtoZnFrUHp1ZEowcS1XbWpxUGZWczVyNVh1MHZ2Vk1OMHdaZ0xiR3RpSm1ZcnRB?oc=5",
+      "date": "2026-05-14T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMirAJBVV95cUxNQmlYMi1zUnV6bGtfdDFBVllUX0ZPbFdhbHpTUzJkTk1MN0tHZ1V1aGZBZnRERGl1RnRHUEJQVE5ZSXVWS2lBUEpJRE1XWkJfdC1QZEFibWNmZlJ0ZUZPQ1BiemtyakhycUFVb0MzeG"
     },
     {
       "title": "La pasta da F1 di Barilla, un'edizione limitata per un GP a tavola - HDmotori",
@@ -1506,6 +1507,20 @@
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE00cWxNNE94aEVsUmdvVjB6TnRxb3RpMXEwbUZLWmdPLURrelc1bW5xeVRZSjVhdHRRTHM4QXJSS3BuTjA4YTgtdExQcHJ3MGlqT3VkaFBEZVRjcU1KSXBKLUllMmVOUTdXd3Fr?oc=5",
       "date": "2026-05-12T07:00:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE00cWxNNE94aEVsUmdvVjB6TnRxb3RpMXEwbUZLWmdPLURrelc1bW5xeVRZSjVhdHRRTHM4QXJSS3BuTjA4YTgtdExQcHJ3MGlqT3VkaFBEZVRjcU1KSXBKLUllMmVOUTdXd3Fr?oc=5\""
+    },
+    {
+      "title": "Foto: Barilla a TuttoFood presenta la nuova pasta ispirata alla Formula 1 - Bresciaoggi",
+      "source": "Bresciaoggi",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaVNWY1NDRjdCNE5ZZ0ZjR0hXQjZQajltNmxielNTZGNpLXN4MlVDYjVubHR2UHV1bGJGRlZTaFVVM1pudVZLX1k5UVJQQldmcHVWNzYzNjhaNTJNTF96UGphbGZxdUhEelVHbEJ0LVN4bDdFZFB4eFFDb2VMOXB4V2tsd2JkOXM2eTBmcmw4ekJ6YXhEVWZiY2VCempLZm9NcWNYeWFHWTVVbVdTZVNpeFE2MURJYVhBZFJv?oc=5",
+      "date": "2026-05-12T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaVNWY1NDRjdCNE5ZZ0ZjR0hXQjZQajltNmxielNTZGNpLXN4MlVDYjVubHR2UHV1bGJGRlZTaFVVM1pudVZLX1k5UVJQQldmcHVWNzYzNjhaNTJNTF96UGphbGZxdUhEelVHbEJ0LV"
+    },
+    {
+      "title": "Barilla presenta le nuove proposte tra pasta e bakery - Foodaffairs.it",
+      "source": "Foodaffairs.it",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMUdqMWhoVjY1ZDRYRFFJbDBkVU9wSzVWVEZ2QUpHN3pTM2ZyVHZfSzdMWE51Q2ZKZ1llb2xOa29aMl9BaEpMRXQxa1Nva1hnRmVUa3c5V1FLbG0ya0VkMFdua0JmWEdFaHdmOUFpc2tVZF8tZXhUUlZ6ZjkyYWRBV08tcTRpUktrWEpkX1A0WjF1LXlsWTdv?oc=5",
+      "date": "2026-05-11T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQMUdqMWhoVjY1ZDRYRFFJbDBkVU9wSzVWVEZ2QUpHN3pTM2ZyVHZfSzdMWE51Q2ZKZ1llb2xOa29aMl9BaEpMRXQxa1Nva1hnRmVUa3c5V1FLbG0ya0VkMFdua0JmWEdFaHdmOUFpc2"
     },
     {
       "title": "Barilla mette l’accento su convivialità e famiglia per il GP di Miami e lancia la pasta a forma di ruota negli USA - Brand News",
@@ -1529,11 +1544,25 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE1nb0VMUGo5cUwtZkNXbXlmRU5Nc2lpYVNqVUVuc3pQTmlKeTkxTU5ZZDlfN2V1UC1ZRnpyalRBRlpWcW93MGJVTXJqOVp5TDhMMWx4c2pNTERSQklFTFd5QzBRV3BZWEZRLXdMWE8xOW"
     },
     {
+      "title": "Barilla lancia il nuovo formato di pasta a forma di ruota (dedicato alla Formula 1): arriverà nei nostri supermercati? - greenMe",
+      "source": "greenMe",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQWlI4R3RudXd4NFBzX0dXcGE1OHQzT25RNDJkZ05MRWR0NGNaSHdiNG5aRlVqR3o4VlExZ3gzdllyWWZ4c1hWQXp2MWw2d3lveHAyVGN1LUZRZUZHZ1oyX1EtZVFzSmRyVG5vMHEzeFlJN2VUeDc1a1ZqcjhrTVlYanVhczdUdTlSVHUtdzYyd0hqYmI3UDJSMFpPVE4wNlBaZlA1ZUFSR3NPLWZ4NnZzd2dYV2llWWhhUXE3U1U0Z2ZJSWtXMEhFQm8ycFZVX3cyYmpnaDE0QXR1eWoxQXRra3d4eHFTRm1ZRFBmSVJzVHo5eUl3RmpR?oc=5",
+      "date": "2026-04-22T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi9wFBVV95cUxQWlI4R3RudXd4NFBzX0dXcGE1OHQzT25RNDJkZ05MRWR0NGNaSHdiNG5aRlVqR3o4VlExZ3gzdllyWWZ4c1hWQXp2MWw2d3lveHAyVGN1LUZRZUZHZ1oyX1EtZVFzSmRyVG5vMHEzeF"
+    },
+    {
       "title": "Barilla dedica alla Formula 1 una nuova pasta - Sportmediaset",
       "source": "Sportmediaset",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSXBvSjdKTFhHeUhob1NqR05wZ2RRbjN5Tl94ZVlqT0w3YjNfX1l5SGYta1FsS3NRTGxIWFRfUUFHeUotYUFrOWhDZFpmWmM1ODE4U2ptN2MwUGwtWHM4cmhnR1hHZm5YcExSNF9odTJxcE5TWTZ2Q1EwU1laRVNXdXZ4NlExVTRqczRMSHltOXZCNVVfRHVZMldOaURuTjM5Y1RxanIzeG05NXVISnZkSXRfVkFsNmfSAXhBVV95cUxOTkdzVWYxNlJUWWdfVGNHbXVWS2dua0xxOEl0S1l3WXZHWVpWU2RVRFdQcVlQNnJrb1E0Y0lZTUJWeXY5UzI1QnE4XzlCblRKZEJMZlNuTE9zLUltYUNTNlg2UjY1RDJzMXh2Njluay0ybGN6WUpSVG0?oc=5",
       "date": "2026-04-21T07:00:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPSXBvSjdKTFhHeUhob1NqR05wZ2RRbjN5Tl94ZVlqT0w3YjNfX1l5SGYta1FsS3NRTGxIWFRfUUFHeUotYUFrOWhDZFpmWmM1ODE4U2ptN2MwUGwtWHM4cmhnR1hHZm5YcExSNF9odT"
+    },
+    {
+      "title": "Barilla presenta “Racing Wheels”, la pasta ispirata alla Formula 1 - Italia a Tavola",
+      "source": "Italia a Tavola",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNYUpjbm5FY3ExbXJiejlMWFpYd3Jsek9DdWlQOFYtUEtVWXFsR2lJam05dkVqeUp2Z0RqUkg1OTdGN3FtZkhPazZib3pOOEVqNHdzVzBhNjB0UTY0cHBySWNZNW1jVW12WFZnczlxUmd5d2NfZ1Zic3FUSV9oX1c2MEIwa1ZMdlowQnc2dHdZNGxxRkUwdmxPUWd6ckJqRHBHWGNRT2RnS1BtTG9nYU9ITDRvRHl3c0RCMWtWUTF2TVJBcUZT?oc=5",
+      "date": "2026-04-20T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNYUpjbm5FY3ExbXJiejlMWFpYd3Jsek9DdWlQOFYtUEtVWXFsR2lJam05dkVqeUp2Z0RqUkg1OTdGN3FtZkhPazZib3pOOEVqNHdzVzBhNjB0UTY0cHBySWNZNW1jVW12WFZnczlxUm"
     },
     {
       "title": "Barilla lancia la pasta dedicata alla Formula 1 (con il formato peggiore di sempre) - Dissapore",
@@ -1592,6 +1621,13 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPcVVVS2JudVVYNkNDTE1HNUQ0eG93X3NrczdETXF6ZEZ6SzJhSGx5OHB2Rnh0MVFqVTlnS2t2ekNPRWYzbUxiOU5KZ2p6MXE0WGxDX21BNzI4Rk5CT3R3R3BBSjVSQkNnOEJycEJnYU"
     },
     {
+      "title": "Barilla presenta la nuova linea Barilla Protein+ - foodweb.it",
+      "source": "foodweb.it",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQ2lsb2lRY0tHNGxjSXA5NzZFWXpUVi1iT1l1akZydmJLMExxeE5icHBxSFpoWVBvZjhLbTVDNVZWQXVRRGpVZzNCR1JaMy1iYjRpd1FJdXgxTnFOYlhwRGhZMGV4SkV0QmZzY3RFSFQ5RE9hTS0xVjI4aEF5MUNnd2NGLS0zZw?oc=5",
+      "date": "2025-11-30T08:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQQ2lsb2lRY0tHNGxjSXA5NzZFWXpUVi1iT1l1akZydmJLMExxeE5icHBxSFpoWVBvZjhLbTVDNVZWQXVRRGpVZzNCR1JaMy1iYjRpd1FJdXgxTnFOYlhwRGhZMGV4SkV0QmZzY3RFSF"
+    },
+    {
       "title": "Barilla presenta il nuovo posizionamento del brand in una campagna ispirata al mondo della Formula 1 - Inside Marketing",
       "source": "Inside Marketing",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNakpKMExtVERfTC1LaW9aVkpNWGd5NFVwb25QZUQ5MHk5U1BJNGZ0Y0VnaGhlNjRXWGpPZ21ROTZnbmlvLTlFMWZBbkRheVdvV2ZrbWpGV0JaY0ZIcmdOaEJCdFpqdmZzRmtkN0tUWFNKLUlZSjZSRjc5SDNRb1FJN3N2dDVkUV93TVNONWEzMzJOUVR0?oc=5",
@@ -1627,11 +1663,11 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNT2Z4NmgtNU1FVV91b2RNdXo5SkpYZFZWMHIyazJtZWpZMGlLTG5XNkNyU0l3UlF2V0NQM2V5azRCd18tOGxRNDZ4SURjZGhOX3JTSVJ2NWlheEJwZzlFMXd6M2VqUDNPdkkzblBOT1"
     },
     {
-      "title": "Valore del brand, Barilla nella Top10 mondiale - Gazzetta di Parma",
-      "source": "Gazzetta di Parma",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZHBxVXdubkRrdDhILW03TmlRdktya3RoV19ERVJPc3lxV2QyMjh6Vkk2ZTlzN3FicVdid21zWDJNSDRadVN0bUV6Zy1NZGhxTGVsODFGNzhrMmY0emxnX0lfd2hTdm9zd1ZxWV81YWwyOTZLX1NURFlXV19uRmlQVHB0YWNtbkhQQ0V2RGt6bFJiUW01TDdQWEc1Y0luRzdTNnl6WEhuSjZSX2ZXb3c?oc=5",
-      "date": "2025-08-29T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOZHBxVXdubkRrdDhILW03TmlRdktya3RoV19ERVJPc3lxV2QyMjh6Vkk2ZTlzN3FicVdid21zWDJNSDRadVN0bUV6Zy1NZGhxTGVsODFGNzhrMmY0emxnX0lfd2hTdm9zd1ZxWV81YW"
+      "title": "Brand del food: cresce il valore dell’Italia nel calo globale. Barilla in top ten - Il Sole 24 ORE",
+      "source": "Il Sole 24 ORE",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRnV0WktnN0syZ29HalBNd2xlTWo1OVVnM1dLSDluWDRqMVoxVy1KYUlmVXQtUkNlQk1Ec3NJSzFVdDFOcW96WVdzMkIzN0xZMlNxR3BRMC12OW80X2lIMGxSQm8wNXI3dTVjNi1waEZlQ2lkMW41c0kyYVVfYTg0bWIxOG9fSF92SlQ0WHJic2xqdFR5cXd1cGRyajFqbVpwMEFsRW5PUHFQUQ?oc=5",
+      "date": "2025-08-28T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRnV0WktnN0syZ29HalBNd2xlTWo1OVVnM1dLSDluWDRqMVoxVy1KYUlmVXQtUkNlQk1Ec3NJSzFVdDFOcW96WVdzMkIzN0xZMlNxR3BRMC12OW80X2lIMGxSQm8wNXI3dTVjNi1waE"
     }
   ],
   "consumer": {
@@ -2046,10 +2082,10 @@
   "competitors": [
     {
       "name": "Barilla",
-      "mentions": 18,
+      "mentions": 17,
       "socialMentions": 10,
-      "totalMentions": 28,
-      "shareOfVoice": 41.2,
+      "totalMentions": 27,
+      "shareOfVoice": 42.2,
       "posts": [
         {
           "type": "news",
@@ -2061,18 +2097,18 @@
         },
         {
           "type": "news",
-          "title": "Barilla investe 170 mln in stabilimento Usa. Casa Bianca: American pasta - Askanews",
-          "source": "ASKANEWS",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOWo1ZXBMTXRPb28tSmJZQWliYlVjN0U3bE9nNWpaMGdlU3Z6czZVNWFIVzA4dnpGcmRLVzFOY3ZWcV9uYnBxUHc3eVozQlllNEdNbE1nWElMMTAtZ2V4eThYTzZFZGFnSzlReVAwUjZnTHJvQzlsa1RKUi1kRVVvMmF6NERON05qaGRVcGJranpMMkd1Mml6NVJKZUx2Z1VSSVVfUQ?oc=5",
-          "date": "2026-05-22T09:38:21.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
           "title": "La Casa Bianca celebra Barilla: fusilli a stelle e strisce sull'account della White House - TGLA7",
           "source": "TGLA7",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORkV6c21VNWl0bE9TU25VWlQtZTAyak1JcUxLZlVlV253eDl0eUNSOF9PdDhhcTM4aDNRaEVjUHYtdU9vZTh6dk92M05MaEM2UmRHWXZKcFhjdWJwZXNyUkU2MzVNMmhIdUxXWDF5bTUxQkRmdFBTNWpQNEtnekgxU21wZGp2bW5haVo0dlpGQXdMZUpIUGtuOHJSMHNrNGlIdnU0b0E4em_SAa4BQVVfeXFMTUFUamZ4MkNSMXRHZkNqb2Q0MGpKaXZBTzllakt4c3AyRlh5WVdBZ3g5LXhIQl9jYmVSMHhraGhPTm11SFpaQkNhT0FDUDFidlhVY3Y5cWxWS0gxVU56TGtxcVpWUVYzd01wd2F1eU9nOE8xSGVoa0JGblFmQnNGVFdDSVB4MnRiaW1uRi13Rjd3Y1hadWRDUlpDVUtzZ2U2ZGFDejdyMElkQ19jbnp3?oc=5",
           "date": "2026-05-22T18:36:44.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Barilla investe 170 mln in stabilimento Usa. Casa Bianca: American pasta - Askanews",
+          "source": "ASKANEWS",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOWo1ZXBMTXRPb28tSmJZQWliYlVjN0U3bE9nNWpaMGdlU3Z6czZVNWFIVzA4dnpGcmRLVzFOY3ZWcV9uYnBxUHc3eVozQlllNEdNbE1nWElMMTAtZ2V4eThYTzZFZGFnSzlReVAwUjZnTHJvQzlsa1RKUi1kRVVvMmF6NERON05qaGRVcGJranpMMkd1Mml6NVJKZUx2Z1VSSVVfUQ?oc=5",
+          "date": "2026-05-22T09:38:21.000Z",
           "brand": "Barilla"
         },
         {
@@ -2089,14 +2125,6 @@
           "source": "MILANOTODAY",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcWU0RU44NjJxNlppS1ZjNjd0aFVnMkhZTFM1QkZJQTcySEV1OUlTZWxfSDBnTVp1WEsyMU51ZDc1dk9IeVRnWHY3Z2pHbGY1UkV5Y2VpbWxuMFUzN1FjRm9DTDMzS0ZEQ3lJeTNSQVV1X00xZ1FuWHQ3dGhIY3BCd3UwY3lvZmt5eTlzVzltVnlXNk84MHlCRVZ3UUlnU2ll?oc=5",
           "date": "2026-05-20T12:09:00.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Barilla accelera negli Usa: investimento da 170 milioni - Italia Informa",
-          "source": "ITALIA INFORMA",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BYUQxZVBQekJ4NjFZM0QxeWdYUDRqckw0cmNLSWRhVXJPMXF5MGtjbHhndi1HQVFWRFBxTzl6aFl5LU1hYzFfTjBkYTZ2Y2F4YlVKaU84YkZ3RTVxVXk1TVJKQ1l0ZHc?oc=5",
-          "date": "2026-05-22T02:30:00.000Z",
           "brand": "Barilla"
         },
         {
@@ -2181,18 +2209,18 @@
         },
         {
           "type": "news",
-          "title": "Appropriazione indebita di spaghetti - Zazoom Social News",
-          "source": "ZAZOOM SOCIAL NEWS",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQzFPeVBCd2pRblpERWx4RDJOdHBZSUl5dGF0UjVDV0VXN1JRNk8yRV9oVjF1XzV3LVFueldKYXVrX1pBaFNvbDltekl0VXRJd05jaDB6MDh6ZGs3Yndaa2VsY1VVX3pIaEt1UWVaYkN5VXJHaFhRdndIRnZsU3JueDd0elI1Zw?oc=5",
-          "date": "2026-05-23T02:56:53.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
           "title": "Volantino Tigros dal 19 maggio 2026 - Anteprima Volantino",
           "source": "ANTEPRIMA VOLANTINO",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcmJZbWFGSTRVYW12RjVuVGl0eVNZNkJOT2hqOEZ0VTdXRkxQLW9zd0FzZzZ3a1dfTm1sYUpCVHpHckNCdGJLNVRxcFlkNUN3ODNERjQtcXhMUEtIYnV1RlhrOXdDeU42QVJpNkVSUUY5NzlKT3RMaWF5Y1JZNjJxOVV0RQ?oc=5",
           "date": "2026-05-18T05:07:07.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Appropriazione indebita di spaghetti - Zazoom Social News",
+          "source": "ZAZOOM SOCIAL NEWS",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQzFPeVBCd2pRblpERWx4RDJOdHBZSUl5dGF0UjVDV0VXN1JRNk8yRV9oVjF1XzV3LVFueldKYXVrX1pBaFNvbDltekl0VXRJd05jaDB6MDh6ZGs3Yndaa2VsY1VVX3pIaEt1UWVaYkN5VXJHaFhRdndIRnZsU3JueDd0elI1Zw?oc=5",
+          "date": "2026-05-23T02:56:53.000Z",
           "brand": "Barilla"
         },
         {
@@ -2300,9 +2328,9 @@
     {
       "name": "Garofalo",
       "mentions": 5,
-      "socialMentions": 9,
-      "totalMentions": 14,
-      "shareOfVoice": 20.6,
+      "socialMentions": 7,
+      "totalMentions": 12,
+      "shareOfVoice": 18.8,
       "posts": [
         {
           "type": "news",
@@ -2310,6 +2338,14 @@
           "source": "SPOT AND WEB",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQc0xKTG9xT2NTN011OFY1bWY0emg5QkZVMmhrTHlwNzJlWl8yM3hMSTV3VlhVWkxkcC10aFlueldSeHhKUXhmdHRaTy1RQTdoNXdYUEd3N3pGVHYzN3FxQkZkX1hGeTRjV3VTSVVfU093T3pCSUN6UElMVFBiTE9lV2NucmE4QklhUWZjYS1vYncwS0hSOXZPQmowS1hVclJPdzhxSk5pbWw2RmFQdkdBWmRvUV9JUk1H?oc=5",
           "date": "2026-05-22T09:37:52.000Z",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "news",
+          "title": "Da Rummo a Voiello: chi usa davvero grano italiano? La nostra indagine sulla pasta del supermercato - greenMe",
+          "source": "GREENME",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUDYtOFJXRVNLYUM0WlV0T0w3MUNtX3VXZmdtMUlvYkFFa0xFNHFxMnJhbHVpVTVYaGotNUkxd3o3cHBTcGQxMnJ3NjRYTkZQaGhUMVVKd2swMnhjcV9CV09lMEJlQUg3eEhjMTFJQVJxRXEtYmZLVHNkQ0lXTnozZlBUNWIzeTJaU0hkQ2hlM2NpbDJleU9oNDlkbEVXQVhmWnBLcHduSndySDNvOUF2Y2M0d29XcFJGN1UzV2tHTUlKMm1teS1YMExYeWw3U1BZS0w0MzZPeGhta3hZSXdoYQ?oc=5",
+          "date": "2026-05-22T10:24:03.000Z",
           "brand": "Garofalo"
         },
         {
@@ -2326,14 +2362,6 @@
           "source": "NAPOLI MAGAZINE",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOOF81dWtLSVJDTWlqeWo5Wmk2d0dSeXI2OFdTZFpicXRVNmRZeHN5T3BNeXU4NGlDZ0ZycmJfeEM3Z3E2aTR2Ym9mdl84NXRGclZQVE9DV1JMcFlpWU9RQUVDZ0dzUHEzRmZHR0U4Tk1sY3Uwc2x1SGRleEYxaXBVZUdldmdKaXEwcEJORzZvSHVfVE9ybmQ0TnlEX0FWNmIxZUdnVVB3V2NQa3dlcXU4cXhKSDlkbzdKU0h3emlPMFhhS1d4RkpOY19tWjNheC0wVDIxQ3pHckgwQQ?oc=5",
           "date": "2026-05-22T10:49:00.000Z",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "news",
-          "title": "Da Rummo a Voiello: chi usa davvero grano italiano? La nostra indagine sulla pasta del supermercato - MSN",
-          "source": "MSN",
-          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPVVItUU1HZUY5WG5GeHZGSVQyMFJrUHdORnpObWZrT1VHd2kxX2RNQ2pYa1dFLUlYUktFNDZXMDBxQ1JYMXdLTEl2cFNDOV9VcHJ5MEQwNWp3Vm1wRWxfajBZbjNneTFPWC1xazN1TmxVNU9pNjM1Z3dhUnJPSmUtNmpTNE4xM3FRZEVsbV9XOHV2VTdXMnZfOV9fLTRHanlEZkF1bXFHMDBTYUc1V1dUZ2tOQThVRXJxcXZTbklmUlRacV9vRWhBYmVETGtoVGRDVXhsdENYSFRxVjVwcmVSVWpHWUJBeWxxYnZrU0Jsa0tYazdVR3FrUUpySUk5MlpYbUVxOXVSSVNibF9FazJhV3JjS2toNWVCckxmbGh3cElfWUV0ZFNV?oc=5",
-          "date": "2026-05-23T11:17:09.000Z",
           "brand": "Garofalo"
         },
         {
@@ -2413,26 +2441,6 @@
           "date": "2026-05-21T16:23:03Z",
           "url": "https://www.tiktok.com/@camillaincucina/video/7642381396274597153",
           "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "tt",
-          "author": "rosaria_simioli",
-          "text": "Non c'è giorno in cui io non mi svegli col sorriso. Grazie per essere la mia certezza, il mio rifugio e la mia gioia più grande@Mario Garofalo⚽️⚽️ ",
-          "engagement": 28,
-          "date": "2026-05-17T11:45:48Z",
-          "url": "https://www.tiktok.com/@rosaria_simioli/video/7640825607055510816",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "yt",
-          "author": "bluemusicrecord",
-          "text": "@bluemusic2025 - Dario Fazio - Con amore e fedelta' (Cover version)\n\nAutore e compositore: Peppe D'Agostino - Fabio Garofalo\n\nArrangiamenti: Nino Marchi\n\nRec & Mix: Bluemusic Record\n\nDistribuito da: BLUEMUSIC Produzioni discografiche\n#dariofazio #con",
-          "engagement": 22,
-          "date": "2026-05-17T10:00:06Z",
-          "url": "https://www.youtube.com/watch?v=8N1LxJiRDoA",
-          "brand": "Garofalo"
         }
       ]
     },
@@ -2441,7 +2449,7 @@
       "mentions": 4,
       "socialMentions": 4,
       "totalMentions": 8,
-      "shareOfVoice": 11.8,
+      "shareOfVoice": 12.5,
       "posts": [
         {
           "type": "news",
@@ -2449,6 +2457,14 @@
           "source": "BRAND NEWS",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYXgzbnp5Z19mZU1qZ3NUWDZhMVZIbTNJUGd0T0U1amVER2Y0eF9vd1ZPSDdMb1pLTkhkQ3RlaE5CVk5EVXZzXzR6MC1NRXktZDQyQzdGRjdKYXJTRVYtYzFpRTg4NDdRdHBvSTVSaEhTQnVoa3RsNThBaUdacmVzazJNWm41bmVVeTA1aVZVVUREWUk2Q3RGcDlQQjFSQkEzbGJnUkVtLTdzVmVhdXdaZEZaWEljMnR1Yk1SX0EtdXZkRk5LTTFFUUUtOUpLWnBrdkZpU3B4Ti1VZw?oc=5",
           "date": "2026-05-19T08:23:48.000Z",
+          "brand": "De Cecco"
+        },
+        {
+          "type": "news",
+          "title": "Da Rummo a Voiello: chi usa davvero grano italiano? La nostra indagine sulla pasta del supermercato - greenMe",
+          "source": "GREENME",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUDYtOFJXRVNLYUM0WlV0T0w3MUNtX3VXZmdtMUlvYkFFa0xFNHFxMnJhbHVpVTVYaGotNUkxd3o3cHBTcGQxMnJ3NjRYTkZQaGhUMVVKd2swMnhjcV9CV09lMEJlQUg3eEhjMTFJQVJxRXEtYmZLVHNkQ0lXTnozZlBUNWIzeTJaU0hkQ2hlM2NpbDJleU9oNDlkbEVXQVhmWnBLcHduSndySDNvOUF2Y2M0d29XcFJGN1UzV2tHTUlKMm1teS1YMExYeWw3U1BZS0w0MzZPeGhta3hZSXdoYQ?oc=5",
+          "date": "2026-05-22T10:24:03.000Z",
           "brand": "De Cecco"
         },
         {
@@ -2465,14 +2481,6 @@
           "source": "RIVISTA UNDICI",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fUDljd1ZuZHdRUUI4RlVhMmpUNnlSVzJKT1hjazZXT1hTcUU1VFVOZTBvN0dsbnFKbkhURHp6YlNVSnczVm5NNXptYVVHcW5WODV6c3FqTkZtTHd1aGt5QlJMSWpXMkhWR0x1TGM3aEEydE5oSVhxMEFn?oc=5",
           "date": "2026-05-24T05:21:04.000Z",
-          "brand": "De Cecco"
-        },
-        {
-          "type": "news",
-          "title": "Da Rummo a Voiello: chi usa davvero grano italiano? La nostra indagine sulla pasta del supermercato - MSN",
-          "source": "MSN",
-          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPVVItUU1HZUY5WG5GeHZGSVQyMFJrUHdORnpObWZrT1VHd2kxX2RNQ2pYa1dFLUlYUktFNDZXMDBxQ1JYMXdLTEl2cFNDOV9VcHJ5MEQwNWp3Vm1wRWxfajBZbjNneTFPWC1xazN1TmxVNU9pNjM1Z3dhUnJPSmUtNmpTNE4xM3FRZEVsbV9XOHV2VTdXMnZfOV9fLTRHanlEZkF1bXFHMDBTYUc1V1dUZ2tOQThVRXJxcXZTbklmUlRacV9vRWhBYmVETGtoVGRDVXhsdENYSFRxVjVwcmVSVWpHWUJBeWxxYnZrU0Jsa0tYazdVR3FrUUpySUk5MlpYbUVxOXVSSVNibF9FazJhV3JjS2toNWVCckxmbGh3cElfWUV0ZFNV?oc=5",
-          "date": "2026-05-23T11:17:09.000Z",
           "brand": "De Cecco"
         },
         {
@@ -2518,18 +2526,75 @@
       ]
     },
     {
-      "name": "Rummo",
-      "mentions": 1,
-      "socialMentions": 5,
+      "name": "La Molisana",
+      "mentions": 6,
+      "socialMentions": 0,
       "totalMentions": 6,
-      "shareOfVoice": 8.8,
+      "shareOfVoice": 9.4,
       "posts": [
         {
           "type": "news",
-          "title": "Da Rummo a Voiello: chi usa davvero grano italiano? La nostra indagine sulla pasta del supermercato - MSN",
-          "source": "MSN",
-          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPVVItUU1HZUY5WG5GeHZGSVQyMFJrUHdORnpObWZrT1VHd2kxX2RNQ2pYa1dFLUlYUktFNDZXMDBxQ1JYMXdLTEl2cFNDOV9VcHJ5MEQwNWp3Vm1wRWxfajBZbjNneTFPWC1xazN1TmxVNU9pNjM1Z3dhUnJPSmUtNmpTNE4xM3FRZEVsbV9XOHV2VTdXMnZfOV9fLTRHanlEZkF1bXFHMDBTYUc1V1dUZ2tOQThVRXJxcXZTbklmUlRacV9vRWhBYmVETGtoVGRDVXhsdENYSFRxVjVwcmVSVWpHWUJBeWxxYnZrU0Jsa0tYazdVR3FrUUpySUk5MlpYbUVxOXVSSVNibF9FazJhV3JjS2toNWVCckxmbGh3cElfWUV0ZFNV?oc=5",
-          "date": "2026-05-23T11:17:09.000Z",
+          "title": "Da Rummo a Voiello: chi usa davvero grano italiano? La nostra indagine sulla pasta del supermercato - greenMe",
+          "source": "GREENME",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUDYtOFJXRVNLYUM0WlV0T0w3MUNtX3VXZmdtMUlvYkFFa0xFNHFxMnJhbHVpVTVYaGotNUkxd3o3cHBTcGQxMnJ3NjRYTkZQaGhUMVVKd2swMnhjcV9CV09lMEJlQUg3eEhjMTFJQVJxRXEtYmZLVHNkQ0lXTnozZlBUNWIzeTJaU0hkQ2hlM2NpbDJleU9oNDlkbEVXQVhmWnBLcHduSndySDNvOUF2Y2M0d29XcFJGN1UzV2tHTUlKMm1teS1YMExYeWw3U1BZS0w0MzZPeGhta3hZSXdoYQ?oc=5",
+          "date": "2026-05-22T10:24:03.000Z",
+          "brand": "La Molisana"
+        },
+        {
+          "type": "news",
+          "title": "La Molisana presenta il nuovo “Ricettario della Salute” per promuovere la prevenzione a tavola - Ottiche Parallele magazine",
+          "source": "OTTICHE PARALLELE MAGAZINE",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQVBVZ281cXhxSEVleUo4bXhNVVI4aGU2ZFpXMjZUTk5XWGxYa0J2Q3MwQ0lHYzAtNk9RdTRhQldRNmlzdTdpejZmUjFJbld4b2x3a2ZPS041bVZzRjRURU9FM0ZIV1BQYjF6MHlMdmxhZXR0aXBPdHdGeFJCdktuVGwyZGYwZ1NNaXZ2aGxEbXpLLVg3V2NtUllCeWZnOEdybm1BZUQyb2xyZ1N2anQ4anc5cDlJckQ5VFhrWFgxcXViY2stMVN6c0h5UGgtd2tHcFpVLUlDZkw?oc=5",
+          "date": "2026-05-18T03:01:32.000Z",
+          "brand": "La Molisana"
+        },
+        {
+          "type": "news",
+          "title": "Quale è la pasta fatta realmente in Italia, le etichette poco chiare e cosa cambia se è realizzata con grano estero - Businessonline.it",
+          "source": "BUSINESSONLINE.IT",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNemFMSEtKa3dyYlBJZDZhMWRDVmd0R0hxYVBLOTdyd3VzMUgxTU5zVnNEOUV0ZUVBYlEwSXhWSWkzSEF6THYtVTZUcnJLSGtSalo1Q1FWalJlVnFNYlh0WUVNRVpDT2t4UEhrRGtUYW9LMHZ3SEhVc21GenJFdExIeTQ0QjhIM0xvWW5FYjUxQXBjTDByMlMzMEVzNU91OHpwSGpCT2ZFc1hPZlNkMVBicjNiWVU0bmxLZEd4Y2FNUU1LV2t2NkxMQkI5dEVFWnpYVGFtYzJ3RVJ0cmNsUWpEMkFhc1ZLaEFGaldta19n?oc=5",
+          "date": "2026-05-17T14:01:00.000Z",
+          "brand": "La Molisana"
+        },
+        {
+          "type": "news",
+          "title": "La Molisana Official Pasta del Torino FC - Sport Business Management",
+          "source": "SPORT BUSINESS MANAGEMENT",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQWFDYV93VkU0Y1owWEFXczd1bkFwS3kwN1duUk1KaDJCY3BMZFBJY1JPa2hLZ1d2aDhISXljOVdRNGItNDI3NUxYeGxuV1pIMzBsR1duOFo3eUFjdlhsT1hOTHpydjdINW1pRmZDNVZaSU1aRHlkRWNmc3NHdlJPWFhRMVN0U29QYmtEcFhjWVhmTi1FNGNZ?oc=5",
+          "date": "2026-05-21T08:08:48.000Z",
+          "brand": "La Molisana"
+        },
+        {
+          "type": "news",
+          "title": "Gli atleti più pagati al mondo del 2026 - Sport Business Management",
+          "source": "SPORT BUSINESS MANAGEMENT",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZEpBeUtDV0FZa0ozSFZ5alU3YWRJLUVHa2lvSlFuMnNKVEpfUlZ6bnl3MXFhMHlxalNhd2cwNHd2U2F2T29vY2JyTGR2UGZrQmR2QmJBWGFUNVpuVGVRUUhCUmVrdl9hX0xLWDRZSHV4QkhQcndkdG5jX3JfRDNVclRuNHljOENVckhCNWVDM0RMUkVKb0E?oc=5",
+          "date": "2026-05-23T06:48:19.000Z",
+          "brand": "La Molisana"
+        },
+        {
+          "type": "news",
+          "title": "Al via le Fasi Finali della 41ª Coppa Paolo Mantovani - Sport Business Management",
+          "source": "SPORT BUSINESS MANAGEMENT",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNc3Vnbkg3dUY4b3hpUmV6dXdyWjNMbXAxTnE1MDF1SFZZNUhtUWVYNnA2cERqQVdBajBFUWd2QTRMREI5aWlUdzJ0Qm9Sc1d0SUtiQzR5OXdwSThKNUZnMEdTZ0dLU21ybVp5Z3paNE14YzItdzRhTGZLcm83ZzdxTWZxZkMyU1ZGbXJpbDB4Z1MtZw?oc=5",
+          "date": "2026-05-21T08:13:19.000Z",
+          "brand": "La Molisana"
+        }
+      ]
+    },
+    {
+      "name": "Rummo",
+      "mentions": 1,
+      "socialMentions": 4,
+      "totalMentions": 5,
+      "shareOfVoice": 7.8,
+      "posts": [
+        {
+          "type": "news",
+          "title": "Da Rummo a Voiello: chi usa davvero grano italiano? La nostra indagine sulla pasta del supermercato - greenMe",
+          "source": "GREENME",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUDYtOFJXRVNLYUM0WlV0T0w3MUNtX3VXZmdtMUlvYkFFa0xFNHFxMnJhbHVpVTVYaGotNUkxd3o3cHBTcGQxMnJ3NjRYTkZQaGhUMVVKd2swMnhjcV9CV09lMEJlQUg3eEhjMTFJQVJxRXEtYmZLVHNkQ0lXTnozZlBUNWIzeTJaU0hkQ2hlM2NpbDJleU9oNDlkbEVXQVhmWnBLcHduSndySDNvOUF2Y2M0d29XcFJGN1UzV2tHTUlKMm1teS1YMExYeWw3U1BZS0w0MzZPeGhta3hZSXdoYQ?oc=5",
+          "date": "2026-05-22T10:24:03.000Z",
           "brand": "Rummo"
         },
         {
@@ -2566,16 +2631,6 @@
           "type": "social",
           "platform": "ig",
           "author": "pasta_rummo",
-          "text": "Gli @internazionalibnlditalia dal vostro punto di vista. Ecco il racconto che gli spettatori che sono passati a trovarci al nostro stand al Foro Italico hanno fatto con una macchina fotografica analogica targata Rummo.  The @internazionalibnlditalia ",
-          "engagement": 584,
-          "date": "2026-05-17T11:00:00Z",
-          "url": "https://www.instagram.com/reel/3898988207796167409/",
-          "brand": "Rummo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "pasta_rummo",
           "text": "In questa ricetta usiamo la tecnica lenta della minestratura per far diventare la Zita Tagliati n° 36 Rummo protagonista in un piatto di mare e di terra assieme ai gamberetti e ai fagioli. Come sempre, la minestratura è una cottura più lenta che nece",
           "engagement": 377,
           "date": "2026-05-21T11:00:00Z",
@@ -2585,68 +2640,11 @@
       ]
     },
     {
-      "name": "La Molisana",
-      "mentions": 6,
-      "socialMentions": 0,
-      "totalMentions": 6,
-      "shareOfVoice": 8.8,
-      "posts": [
-        {
-          "type": "news",
-          "title": "La Molisana presenta il nuovo “Ricettario della Salute” per promuovere la prevenzione a tavola - Ottiche Parallele magazine",
-          "source": "OTTICHE PARALLELE MAGAZINE",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQVBVZ281cXhxSEVleUo4bXhNVVI4aGU2ZFpXMjZUTk5XWGxYa0J2Q3MwQ0lHYzAtNk9RdTRhQldRNmlzdTdpejZmUjFJbld4b2x3a2ZPS041bVZzRjRURU9FM0ZIV1BQYjF6MHlMdmxhZXR0aXBPdHdGeFJCdktuVGwyZGYwZ1NNaXZ2aGxEbXpLLVg3V2NtUllCeWZnOEdybm1BZUQyb2xyZ1N2anQ4anc5cDlJckQ5VFhrWFgxcXViY2stMVN6c0h5UGgtd2tHcFpVLUlDZkw?oc=5",
-          "date": "2026-05-18T03:01:32.000Z",
-          "brand": "La Molisana"
-        },
-        {
-          "type": "news",
-          "title": "Quale è la pasta fatta realmente in Italia, le etichette poco chiare e cosa cambia se è realizzata con grano estero - Businessonline.it",
-          "source": "BUSINESSONLINE.IT",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNemFMSEtKa3dyYlBJZDZhMWRDVmd0R0hxYVBLOTdyd3VzMUgxTU5zVnNEOUV0ZUVBYlEwSXhWSWkzSEF6THYtVTZUcnJLSGtSalo1Q1FWalJlVnFNYlh0WUVNRVpDT2t4UEhrRGtUYW9LMHZ3SEhVc21GenJFdExIeTQ0QjhIM0xvWW5FYjUxQXBjTDByMlMzMEVzNU91OHpwSGpCT2ZFc1hPZlNkMVBicjNiWVU0bmxLZEd4Y2FNUU1LV2t2NkxMQkI5dEVFWnpYVGFtYzJ3RVJ0cmNsUWpEMkFhc1ZLaEFGaldta19n?oc=5",
-          "date": "2026-05-17T14:01:00.000Z",
-          "brand": "La Molisana"
-        },
-        {
-          "type": "news",
-          "title": "La Molisana Official Pasta del Torino FC - Sport Business Management",
-          "source": "SPORT BUSINESS MANAGEMENT",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQWFDYV93VkU0Y1owWEFXczd1bkFwS3kwN1duUk1KaDJCY3BMZFBJY1JPa2hLZ1d2aDhISXljOVdRNGItNDI3NUxYeGxuV1pIMzBsR1duOFo3eUFjdlhsT1hOTHpydjdINW1pRmZDNVZaSU1aRHlkRWNmc3NHdlJPWFhRMVN0U29QYmtEcFhjWVhmTi1FNGNZ?oc=5",
-          "date": "2026-05-21T08:08:48.000Z",
-          "brand": "La Molisana"
-        },
-        {
-          "type": "news",
-          "title": "Da Rummo a Voiello: chi usa davvero grano italiano? La nostra indagine sulla pasta del supermercato - MSN",
-          "source": "MSN",
-          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPVVItUU1HZUY5WG5GeHZGSVQyMFJrUHdORnpObWZrT1VHd2kxX2RNQ2pYa1dFLUlYUktFNDZXMDBxQ1JYMXdLTEl2cFNDOV9VcHJ5MEQwNWp3Vm1wRWxfajBZbjNneTFPWC1xazN1TmxVNU9pNjM1Z3dhUnJPSmUtNmpTNE4xM3FRZEVsbV9XOHV2VTdXMnZfOV9fLTRHanlEZkF1bXFHMDBTYUc1V1dUZ2tOQThVRXJxcXZTbklmUlRacV9vRWhBYmVETGtoVGRDVXhsdENYSFRxVjVwcmVSVWpHWUJBeWxxYnZrU0Jsa0tYazdVR3FrUUpySUk5MlpYbUVxOXVSSVNibF9FazJhV3JjS2toNWVCckxmbGh3cElfWUV0ZFNV?oc=5",
-          "date": "2026-05-23T11:17:09.000Z",
-          "brand": "La Molisana"
-        },
-        {
-          "type": "news",
-          "title": "Gli atleti più pagati al mondo del 2026 - Sport Business Management",
-          "source": "SPORT BUSINESS MANAGEMENT",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZEpBeUtDV0FZa0ozSFZ5alU3YWRJLUVHa2lvSlFuMnNKVEpfUlZ6bnl3MXFhMHlxalNhd2cwNHd2U2F2T29vY2JyTGR2UGZrQmR2QmJBWGFUNVpuVGVRUUhCUmVrdl9hX0xLWDRZSHV4QkhQcndkdG5jX3JfRDNVclRuNHljOENVckhCNWVDM0RMUkVKb0E?oc=5",
-          "date": "2026-05-23T06:48:19.000Z",
-          "brand": "La Molisana"
-        },
-        {
-          "type": "news",
-          "title": "Al via le Fasi Finali della 41ª Coppa Paolo Mantovani - Sport Business Management",
-          "source": "SPORT BUSINESS MANAGEMENT",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNc3Vnbkg3dUY4b3hpUmV6dXdyWjNMbXAxTnE1MDF1SFZZNUhtUWVYNnA2cERqQVdBajBFUWd2QTRMREI5aWlUdzJ0Qm9Sc1d0SUtiQzR5OXdwSThKNUZnMEdTZ0dLU21ybVp5Z3paNE14YzItdzRhTGZLcm83ZzdxTWZxZkMyU1ZGbXJpbDB4Z1MtZw?oc=5",
-          "date": "2026-05-21T08:13:19.000Z",
-          "brand": "La Molisana"
-        }
-      ]
-    },
-    {
       "name": "Divella",
       "mentions": 3,
       "socialMentions": 1,
       "totalMentions": 4,
-      "shareOfVoice": 5.9,
+      "shareOfVoice": 6.3,
       "posts": [
         {
           "type": "news",
@@ -2658,18 +2656,18 @@
         },
         {
           "type": "news",
-          "title": "Quale è la pasta fatta realmente in Italia, le etichette poco chiare e cosa cambia se è realizzata con grano estero - Businessonline.it",
-          "source": "BUSINESSONLINE.IT",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNemFMSEtKa3dyYlBJZDZhMWRDVmd0R0hxYVBLOTdyd3VzMUgxTU5zVnNEOUV0ZUVBYlEwSXhWSWkzSEF6THYtVTZUcnJLSGtSalo1Q1FWalJlVnFNYlh0WUVNRVpDT2t4UEhrRGtUYW9LMHZ3SEhVc21GenJFdExIeTQ0QjhIM0xvWW5FYjUxQXBjTDByMlMzMEVzNU91OHpwSGpCT2ZFc1hPZlNkMVBicjNiWVU0bmxLZEd4Y2FNUU1LV2t2NkxMQkI5dEVFWnpYVGFtYzJ3RVJ0cmNsUWpEMkFhc1ZLaEFGaldta19n?oc=5",
-          "date": "2026-05-17T14:01:00.000Z",
+          "title": "Da Rummo a Voiello: chi usa davvero grano italiano? La nostra indagine sulla pasta del supermercato - greenMe",
+          "source": "GREENME",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUDYtOFJXRVNLYUM0WlV0T0w3MUNtX3VXZmdtMUlvYkFFa0xFNHFxMnJhbHVpVTVYaGotNUkxd3o3cHBTcGQxMnJ3NjRYTkZQaGhUMVVKd2swMnhjcV9CV09lMEJlQUg3eEhjMTFJQVJxRXEtYmZLVHNkQ0lXTnozZlBUNWIzeTJaU0hkQ2hlM2NpbDJleU9oNDlkbEVXQVhmWnBLcHduSndySDNvOUF2Y2M0d29XcFJGN1UzV2tHTUlKMm1teS1YMExYeWw3U1BZS0w0MzZPeGhta3hZSXdoYQ?oc=5",
+          "date": "2026-05-22T10:24:03.000Z",
           "brand": "Divella"
         },
         {
           "type": "news",
-          "title": "Da Rummo a Voiello: chi usa davvero grano italiano? La nostra indagine sulla pasta del supermercato - MSN",
-          "source": "MSN",
-          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPVVItUU1HZUY5WG5GeHZGSVQyMFJrUHdORnpObWZrT1VHd2kxX2RNQ2pYa1dFLUlYUktFNDZXMDBxQ1JYMXdLTEl2cFNDOV9VcHJ5MEQwNWp3Vm1wRWxfajBZbjNneTFPWC1xazN1TmxVNU9pNjM1Z3dhUnJPSmUtNmpTNE4xM3FRZEVsbV9XOHV2VTdXMnZfOV9fLTRHanlEZkF1bXFHMDBTYUc1V1dUZ2tOQThVRXJxcXZTbklmUlRacV9vRWhBYmVETGtoVGRDVXhsdENYSFRxVjVwcmVSVWpHWUJBeWxxYnZrU0Jsa0tYazdVR3FrUUpySUk5MlpYbUVxOXVSSVNibF9FazJhV3JjS2toNWVCckxmbGh3cElfWUV0ZFNV?oc=5",
-          "date": "2026-05-23T11:17:09.000Z",
+          "title": "Quale è la pasta fatta realmente in Italia, le etichette poco chiare e cosa cambia se è realizzata con grano estero - Businessonline.it",
+          "source": "BUSINESSONLINE.IT",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNemFMSEtKa3dyYlBJZDZhMWRDVmd0R0hxYVBLOTdyd3VzMUgxTU5zVnNEOUV0ZUVBYlEwSXhWSWkzSEF6THYtVTZUcnJLSGtSalo1Q1FWalJlVnFNYlh0WUVNRVpDT2t4UEhrRGtUYW9LMHZ3SEhVc21GenJFdExIeTQ0QjhIM0xvWW5FYjUxQXBjTDByMlMzMEVzNU91OHpwSGpCT2ZFc1hPZlNkMVBicjNiWVU0bmxLZEd4Y2FNUU1LV2t2NkxMQkI5dEVFWnpYVGFtYzJ3RVJ0cmNsUWpEMkFhc1ZLaEFGaldta19n?oc=5",
+          "date": "2026-05-17T14:01:00.000Z",
           "brand": "Divella"
         },
         {
@@ -2689,14 +2687,14 @@
       "mentions": 1,
       "socialMentions": 1,
       "totalMentions": 2,
-      "shareOfVoice": 2.9,
+      "shareOfVoice": 3.1,
       "posts": [
         {
           "type": "news",
-          "title": "Da Rummo a Voiello: chi usa davvero grano italiano? La nostra indagine sulla pasta del supermercato - MSN",
-          "source": "MSN",
-          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPVVItUU1HZUY5WG5GeHZGSVQyMFJrUHdORnpObWZrT1VHd2kxX2RNQ2pYa1dFLUlYUktFNDZXMDBxQ1JYMXdLTEl2cFNDOV9VcHJ5MEQwNWp3Vm1wRWxfajBZbjNneTFPWC1xazN1TmxVNU9pNjM1Z3dhUnJPSmUtNmpTNE4xM3FRZEVsbV9XOHV2VTdXMnZfOV9fLTRHanlEZkF1bXFHMDBTYUc1V1dUZ2tOQThVRXJxcXZTbklmUlRacV9vRWhBYmVETGtoVGRDVXhsdENYSFRxVjVwcmVSVWpHWUJBeWxxYnZrU0Jsa0tYazdVR3FrUUpySUk5MlpYbUVxOXVSSVNibF9FazJhV3JjS2toNWVCckxmbGh3cElfWUV0ZFNV?oc=5",
-          "date": "2026-05-23T11:17:09.000Z",
+          "title": "Da Rummo a Voiello: chi usa davvero grano italiano? La nostra indagine sulla pasta del supermercato - greenMe",
+          "source": "GREENME",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUDYtOFJXRVNLYUM0WlV0T0w3MUNtX3VXZmdtMUlvYkFFa0xFNHFxMnJhbHVpVTVYaGotNUkxd3o3cHBTcGQxMnJ3NjRYTkZQaGhUMVVKd2swMnhjcV9CV09lMEJlQUg3eEhjMTFJQVJxRXEtYmZLVHNkQ0lXTnozZlBUNWIzeTJaU0hkQ2hlM2NpbDJleU9oNDlkbEVXQVhmWnBLcHduSndySDNvOUF2Y2M0d29XcFJGN1UzV2tHTUlKMm1teS1YMExYeWw3U1BZS0w0MzZPeGhta3hZSXdoYQ?oc=5",
+          "date": "2026-05-22T10:24:03.000Z",
           "brand": "Voiello"
         },
         {
