@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-06-02T03:56:28.026Z",
+    "generatedAt": "2026-06-02T10:22:23.103Z",
     "pipelineVersion": "1.0.0",
     "sources": {
       "opensearch": true,
@@ -9,32 +9,32 @@
       "claude": false,
       "competitors": true
     },
-    "processingTimeMs": 5407
+    "processingTimeMs": 15505
   },
   "social": {
     "overview": {
-      "totalPosts": 241107,
-      "prevTotalPosts": 271565,
-      "volumeChange": -11.2,
-      "mentions24h": 15018,
-      "totalEngagement": 931350398,
-      "avgEngagementRate": 0.009228050258492307,
-      "erChange": -18.4,
+      "totalPosts": 254420,
+      "prevTotalPosts": 271607,
+      "volumeChange": -6.3,
+      "mentions24h": 28572,
+      "totalEngagement": 929465308,
+      "avgEngagementRate": 0.00953583985294656,
+      "erChange": -15.8,
       "organicPct": 98,
-      "sponsoredCount": 5922
+      "sponsoredCount": 6086
     },
     "brandHealth": {
-      "score": 79,
+      "score": 80,
       "status": "stabile",
       "dimensions": [
         {
           "name": "Sentiment",
-          "score": 68,
+          "score": 69,
           "color": "#00e676"
         },
         {
           "name": "Engagement",
-          "score": 46,
+          "score": 48,
           "color": "#3ba4ff"
         },
         {
@@ -70,331 +70,316 @@
       ]
     },
     "sentiment": {
-      "netScore": 48,
-      "positive": 58,
+      "netScore": 50,
+      "positive": 59,
       "neutral": 32,
-      "negative": 10
+      "negative": 9
     },
     "platforms": [
       {
         "name": "tt",
-        "count": 123132,
+        "count": 129894,
         "pctOfTotal": 51.1
       },
       {
         "name": "ig",
-        "count": 108477,
+        "count": 114365,
         "pctOfTotal": 45
       },
       {
         "name": "yt",
-        "count": 9498,
-        "pctOfTotal": 3.9
+        "count": 10161,
+        "pctOfTotal": 4
       }
     ],
     "dailyVolume": [
       {
         "date": "2026-05-26T00:00:00.000Z",
-        "count": 39372,
-        "engagement": 144538298,
-        "avgEr": 0.011105218881888274
+        "count": 29894,
+        "engagement": 124316666,
+        "avgEr": 0.012365776275863582
       },
       {
         "date": "2026-05-27T00:00:00.000Z",
         "count": 39523,
-        "engagement": 164027647,
-        "avgEr": 0.010511581620009366
+        "engagement": 164583514,
+        "avgEr": 0.0107108434838854
       },
       {
         "date": "2026-05-28T00:00:00.000Z",
-        "count": 39364,
-        "engagement": 131690600,
-        "avgEr": 0.010579955563670017
+        "count": 39366,
+        "engagement": 132480666,
+        "avgEr": 0.010895108741796514
       },
       {
         "date": "2026-05-29T00:00:00.000Z",
-        "count": 40216,
-        "engagement": 150229249,
-        "avgEr": 0.009380057347818264
+        "count": 40214,
+        "engagement": 151556745,
+        "avgEr": 0.009867264781075604
       },
       {
         "date": "2026-05-30T00:00:00.000Z",
-        "count": 34627,
-        "engagement": 158915869,
-        "avgEr": 0.00825771414029617
+        "count": 34636,
+        "engagement": 160843573,
+        "avgEr": 0.009028251775745021
       },
       {
         "date": "2026-05-31T00:00:00.000Z",
-        "count": 32763,
-        "engagement": 107314736,
-        "avgEr": 0.006363234287660849
+        "count": 32867,
+        "engagement": 113250166,
+        "avgEr": 0.008943666558146997
       },
       {
         "date": "2026-06-01T00:00:00.000Z",
-        "count": 15071,
-        "engagement": 74456754,
-        "avgEr": 0.005562848106616379
+        "count": 37002,
+        "engagement": 82233547,
+        "avgEr": 0.005407082988227617
       },
       {
         "date": "2026-06-02T00:00:00.000Z",
-        "count": 171,
-        "engagement": 177245,
-        "avgEr": 0.0006836872102596785
+        "count": 918,
+        "engagement": 200431,
+        "avgEr": 0.0007038337238836946
       }
     ],
     "hourlyVolume": [
       {
-        "hour": "2026-06-01T03:00:00.000Z",
-        "count": 4,
-        "engagement": 5586
-      },
-      {
-        "hour": "2026-06-01T04:00:00.000Z",
-        "count": 114,
-        "engagement": 251856
-      },
-      {
-        "hour": "2026-06-01T05:00:00.000Z",
-        "count": 222,
-        "engagement": 507823
-      },
-      {
-        "hour": "2026-06-01T06:00:00.000Z",
-        "count": 341,
-        "engagement": 693289
-      },
-      {
-        "hour": "2026-06-01T07:00:00.000Z",
-        "count": 526,
-        "engagement": 3828076
-      },
-      {
-        "hour": "2026-06-01T08:00:00.000Z",
-        "count": 690,
-        "engagement": 3806730
-      },
-      {
-        "hour": "2026-06-01T09:00:00.000Z",
-        "count": 819,
-        "engagement": 4992809
-      },
-      {
         "hour": "2026-06-01T10:00:00.000Z",
-        "count": 1142,
-        "engagement": 4162564
+        "count": 1669,
+        "engagement": 2904470
       },
       {
         "hour": "2026-06-01T11:00:00.000Z",
-        "count": 1086,
-        "engagement": 6175985
+        "count": 2580,
+        "engagement": 6965281
       },
       {
         "hour": "2026-06-01T12:00:00.000Z",
-        "count": 1158,
-        "engagement": 7566058
+        "count": 2642,
+        "engagement": 8354252
       },
       {
         "hour": "2026-06-01T13:00:00.000Z",
-        "count": 988,
-        "engagement": 4501754
+        "count": 2278,
+        "engagement": 4929752
       },
       {
         "hour": "2026-06-01T14:00:00.000Z",
-        "count": 914,
-        "engagement": 4496057
+        "count": 2130,
+        "engagement": 4904889
       },
       {
         "hour": "2026-06-01T15:00:00.000Z",
-        "count": 1068,
-        "engagement": 4947392
+        "count": 2487,
+        "engagement": 5439464
       },
       {
         "hour": "2026-06-01T16:00:00.000Z",
-        "count": 1341,
-        "engagement": 5481093
+        "count": 3055,
+        "engagement": 6048666
       },
       {
         "hour": "2026-06-01T17:00:00.000Z",
-        "count": 1045,
-        "engagement": 3071052
+        "count": 2548,
+        "engagement": 3510527
       },
       {
         "hour": "2026-06-01T18:00:00.000Z",
-        "count": 1076,
-        "engagement": 4670398
+        "count": 2592,
+        "engagement": 5051275
       },
       {
         "hour": "2026-06-01T19:00:00.000Z",
-        "count": 848,
-        "engagement": 2677620
+        "count": 2112,
+        "engagement": 2905714
       },
       {
         "hour": "2026-06-01T20:00:00.000Z",
-        "count": 561,
-        "engagement": 916972
+        "count": 1359,
+        "engagement": 1041458
       },
       {
         "hour": "2026-06-01T21:00:00.000Z",
-        "count": 448,
-        "engagement": 552747
+        "count": 1071,
+        "engagement": 631465
       },
       {
         "hour": "2026-06-01T22:00:00.000Z",
-        "count": 274,
-        "engagement": 340493
+        "count": 733,
+        "engagement": 403483
       },
       {
         "hour": "2026-06-01T23:00:00.000Z",
-        "count": 182,
-        "engagement": 372255
+        "count": 398,
+        "engagement": 383320
       },
       {
         "hour": "2026-06-02T00:00:00.000Z",
-        "count": 60,
-        "engagement": 151367
+        "count": 199,
+        "engagement": 155969
       },
       {
         "hour": "2026-06-02T01:00:00.000Z",
-        "count": 54,
-        "engagement": 19152
+        "count": 145,
+        "engagement": 21035
       },
       {
         "hour": "2026-06-02T02:00:00.000Z",
-        "count": 34,
-        "engagement": 6443
+        "count": 110,
+        "engagement": 8830
       },
       {
         "hour": "2026-06-02T03:00:00.000Z",
-        "count": 23,
-        "engagement": 283
+        "count": 136,
+        "engagement": 6785
+      },
+      {
+        "hour": "2026-06-02T04:00:00.000Z",
+        "count": 157,
+        "engagement": 3834
+      },
+      {
+        "hour": "2026-06-02T05:00:00.000Z",
+        "count": 66,
+        "engagement": 2304
+      },
+      {
+        "hour": "2026-06-02T06:00:00.000Z",
+        "count": 84,
+        "engagement": 1478
+      },
+      {
+        "hour": "2026-06-02T07:00:00.000Z",
+        "count": 21,
+        "engagement": 196
       }
     ],
     "hashtags": [
       {
         "tag": "perte",
-        "count": 5217
+        "count": 5574
       },
       {
         "tag": "fyp",
-        "count": 4970
+        "count": 5289
       },
       {
         "tag": "accadeoggi",
-        "count": 4529
+        "count": 4731
       },
       {
         "tag": "viral",
-        "count": 3616
+        "count": 3897
       },
       {
         "tag": "adv",
-        "count": 3140
+        "count": 3161
       },
       {
         "tag": "neiperte",
-        "count": 2177
+        "count": 2343
       },
       {
         "tag": "offerteperte",
-        "count": 2106
+        "count": 2175
       },
       {
         "tag": "tiktokshop",
-        "count": 1876
+        "count": 1969
       },
       {
         "tag": "foryou",
-        "count": 1763
+        "count": 1882
       },
       {
         "tag": "napoli",
-        "count": 1706
+        "count": 1821
       },
       {
         "tag": "spacchettaleoffertedimaggio",
-        "count": 1383
+        "count": 1429
       },
       {
         "tag": "italia",
-        "count": 1121
+        "count": 1230
       },
       {
         "tag": "sheintrends",
-        "count": 1113
+        "count": 1109
       },
       {
         "tag": "italy",
-        "count": 1033
+        "count": 1099
       },
       {
         "tag": "capcut",
-        "count": 977
-      },
-      {
-        "tag": "madeinitaly",
-        "count": 916
+        "count": 1049
       },
       {
         "tag": "calcio",
-        "count": 906
+        "count": 970
+      },
+      {
+        "tag": "madeinitaly",
+        "count": 956
       },
       {
         "tag": "roma",
-        "count": 876
+        "count": 945
       },
       {
         "tag": "amore",
-        "count": 819
-      },
-      {
-        "tag": "virale",
-        "count": 817
+        "count": 854
       },
       {
         "tag": "perteeee",
-        "count": 787
+        "count": 853
+      },
+      {
+        "tag": "virale",
+        "count": 850
       },
       {
         "tag": "estate",
-        "count": 731
+        "count": 790
+      },
+      {
+        "tag": "voliamoneixte✈🦁🔝💯💥",
+        "count": 749
       },
       {
         "tag": "outfit",
-        "count": 702
+        "count": 736
       },
       {
-        "tag": "milano",
-        "count": 672
-      },
-      {
-        "tag": "milan",
-        "count": 646
+        "tag": "viralvideos",
+        "count": 710
       }
     ],
     "creators": [
       {
         "name": "433",
-        "posts": 78,
-        "engagement": 41830504,
+        "posts": 77,
+        "engagement": 40906414,
         "platform": "ig",
         "followers": 76953652,
-        "avgEr": 0.006973177944267375
+        "avgEr": 0.006907615809666578
       },
       {
         "name": "championsleague",
-        "posts": 166,
-        "engagement": 36752546,
+        "posts": 163,
+        "engagement": 36536135,
         "platform": "ig",
         "followers": 119555553,
-        "avgEr": 0.003449788766161664
+        "avgEr": 0.0034933071042603796
       },
       {
         "name": "fcbarcelona",
-        "posts": 30,
-        "engagement": 29434959,
+        "posts": 29,
+        "engagement": 28946133,
         "platform": "ig",
         "followers": 145509071,
-        "avgEr": 0.0067455612267566965
+        "avgEr": 0.0068621326331779016
       },
       {
         "name": "fabriziorom",
@@ -410,7 +395,7 @@
         "engagement": 23442574,
         "platform": "ig",
         "followers": 363470199,
-        "avgEr": 0.01630356054540678
+        "avgEr": 0.016303560545406777
       },
       {
         "name": "fabrizioromano",
@@ -418,7 +403,7 @@
         "engagement": 22988319,
         "platform": "tt",
         "followers": 22621836,
-        "avgEr": 0.029913401335032657
+        "avgEr": 0.029913401335032664
       },
       {
         "name": "psg",
@@ -454,27 +439,27 @@
       },
       {
         "name": "realmadrid",
-        "posts": 24,
-        "engagement": 10016265,
+        "posts": 25,
+        "engagement": 9568888,
         "platform": "ig",
         "followers": 178750182,
-        "avgEr": 0.002334857298911889
+        "avgEr": 0.0021413361152216592
       },
       {
         "name": "f1",
-        "posts": 60,
-        "engagement": 8723759,
+        "posts": 59,
+        "engagement": 8574985,
         "platform": "ig",
         "followers": 42534841,
-        "avgEr": 0.0034220283411088765
+        "avgEr": 0.0034205910688472406
       },
       {
         "name": "premierleague",
-        "posts": 49,
-        "engagement": 8251241,
+        "posts": 47,
+        "engagement": 7828597,
         "platform": "ig",
         "followers": 79458020,
-        "avgEr": 0.002120738063544267
+        "avgEr": 0.0020976322414511966
       },
       {
         "name": "thv",
@@ -495,6 +480,24 @@
     ],
     "posts": [
       {
+        "platform": "tt",
+        "author": "volantino_spesa",
+        "time": "2026-06-01T12:58:22Z",
+        "text": "Nuovo volantino Sottocosto Conad City! 🚀 Dal 4 al 13 giugno grandi marche a prezzi mai visti. La pasta Barilla a soli 0,49€ e il tris di mozzarella Santa Lucia a 2,59€! Di corsa a fare scorta prima che finiscano i pezzi disponibili! 🏃‍♂️💨 ​Tu cosa",
+        "engagement": 359,
+        "engagementRate": 0.010227920227920228,
+        "sentiment": "neu",
+        "hashtags": [
+          "spesa",
+          "offerte",
+          "sottocosto",
+          "conad",
+          "risparmio"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/6b7ef65e0c354283bb20d158c2028c0b~tplv-photomode-image.jpeg?dr=10375&x-expires=1780549200&x-signature=bWo%2BTOixKwyJr6gG6Po6uCQTDSg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=no1a&ftpl=1",
+        "url": "https://www.tiktok.com/@volantino_spesa/video/7646410583889153312"
+      },
+      {
         "platform": "ig",
         "author": "sofiamontagna",
         "time": "2026-06-01T09:36:28Z",
@@ -508,6 +511,24 @@
         ],
         "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/710986365_18588858559005521_9023454801415727897_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=103&ig_cache_key=MzkwOTgxNjY4NDA1ODM4MjQyNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzA3NS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=K1v48Z3B_74Q7kNvwE-WsyY&_nc_oc=AdqEGboUTl2atE-2A4x-BJrTaqPVe5-OeWe7E8oQLUK03FhyDApprR81hWWF8LlmpYNxQJo8c3Q6daDsJIw2LqlZ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=AFC5BXdVv0fZMdvhkY57Kg&_nc_ss=7a3ba&oh=00_Af_tQCNyrj3PbvzRKwEvOus-GTrE92Vwbb-vFGCp4pHEDw&oe=6A243453",
         "url": "https://www.instagram.com/p/3909817503891343267/"
+      },
+      {
+        "platform": "ig",
+        "author": "unimarconi",
+        "time": "2026-06-01T07:01:06Z",
+        "text": "👷Master di I livello - Health Safety Environment\nNasce il Master di I livello in Health Safety Environment di Unimarconi, nato da un idea di Barilla e Associazione Nazionale Ingegneri e con la collaborazione di grandi imprese e professionisti del se",
+        "engagement": 29,
+        "engagementRate": 0.0007592418054246518,
+        "sentiment": "neg",
+        "hashtags": [
+          "hse",
+          "master",
+          "unimarconi",
+          "sicurezzasullavoro",
+          "managerhse"
+        ],
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/710307173_18534003670077436_2750615105609734643_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=MzkwOTczOTAzNzMzMDg1NDA5Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=u0JR0ZXjLCUQ7kNvwF49-Ej&_nc_oc=Adon0oKmP2rFcYkAuSAT01PjZMjr3EjvvN2LXWLxXKqACdx-Qxr_58A9UqlRlryz_hljMhcABGmSSI5cxywTQZHh&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=oeVrkx6FKYp6nWDYFtl-gQ&_nc_ss=7a3ba&oh=00_Af9a0II0yntNTBk9hTPXh7dfcFNFGDXpZKY7sWc63iFBvg&oe=6A241A93",
+        "url": "https://www.instagram.com/p/3909739063184543917/"
       },
       {
         "platform": "tt",
@@ -531,8 +552,8 @@
         "author": "viaggiatoregourmet",
         "time": "2026-05-30T08:57:55Z",
         "text": "A Gavardo, Osteria Capoborgo ha riaperto il proprio racconto con una nuova gestione giovane, frizzante e già molto centrata.\nUn’osteria Lombarda contemporanea, intima e curata, dove il desiderio è quello di riportare a tavola sapori riconoscibili, ma",
-        "engagement": 70,
-        "engagementRate": 0.0013683634373289546,
+        "engagement": 78,
+        "engagementRate": 0.0015247478301665493,
         "sentiment": "neg",
         "hashtags": [
           "osteriacapoborgo",
@@ -541,7 +562,7 @@
           "altissimoceto",
           "viaggiatoregourmet"
         ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/708833204_18591945739055173_4983893671382878980_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_cat=104&ig_cache_key=MzkwODM0Njk4NjA4NjcxMDcwNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=5AFxkDDGV3sQ7kNvwGbBRCA&_nc_oc=AdoVlZkE2uMdc4ZTfuTWLyqj1Bwid77DksV0hkciMsmnQteILSLHyU0t0JbY0IQQiLrzujHbcIGs9saKY1VN5enk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=Hy6sS9vZ69PppyzrTojJsQ&_nc_ss=7a3ba&oh=00_Af-hDMlnkZxvvSk_O1SBRT40M_m1nh1Q_YTKWeX7nO-H4g&oe=6A22BF1E",
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/708833204_18591945739055173_4983893671382878980_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_cat=104&ig_cache_key=MzkwODM0Njk4NjA4NjcxMDcwNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=1BFMWRoYe6MQ7kNvwHYopuA&_nc_oc=AdqJfMvM0l5g9R-06h9CpN1GfYEMFJCUVTnE9SGaFTCLU6zMWtmrSQXOXDOsm9cxyZpGRwjGNtQ4g-IwI9EC3tHb&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=-YyvnLYbIj5QI4Ch1-eW-w&_nc_ss=7a3ba&oh=00_Af9Nr8rwZXd8k-eA7qHTWzInb9rM0xscTRiEpk0PFL8A5w&oe=6A2448DE",
         "url": "https://www.instagram.com/p/3908348548345374809/"
       },
       {
@@ -561,11 +582,11 @@
         "author": "prinzesabala",
         "time": "2026-05-29T12:03:57Z",
         "text": "@amaty.club per la prima volta a Rimini Wellness 💗\n\nÈ passato appena un anno da quando abbiamo lanciato questo progetto insieme a @elisabettagregoracireal e oggi siamo a Rimini Wellness, una delle più grandi fiere del fitness e del wellness al mondo",
-        "engagement": 1731,
-        "engagementRate": 0.014999610062130101,
+        "engagement": 1751,
+        "engagementRate": 0.015172915782085388,
         "sentiment": "neu",
         "hashtags": [],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/709821463_18587570311016169_4997198772263963283_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=102&ig_cache_key=MzkwNzcxMTY4MjcwMzY5OTE0NTE4NTg3NTcwMzA1MDE2MTY5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=zNyOcwnrtzwQ7kNvwE5qIxS&_nc_oc=Adq5MPmJAMTSZzno7BE2JoxL08l8itGJUQWDKG8JH90unkMcn0nRTe7kQQTxUq9gdnkTtdc9aAoh3SDFLI52YVIh&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=yv5sXfqjTAUEW_M9bMI3Kw&_nc_ss=7a3ba&oh=00_Af9dG2fxjsigtPvW-aR3IoE0h9qRnzrNUCPpWiRCZ9lusw&oe=6A229011",
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/709821463_18587570311016169_4997198772263963283_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=102&ig_cache_key=MzkwNzcxMTY4MjcwMzY5OTE0NTE4NTg3NTcwMzA1MDE2MTY5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=nl4qouFdswwQ7kNvwGH0zxh&_nc_oc=AdpZQZZrxnKSmnTGoXK8MOOGr4GuxdprkXA376JnUsjPex7ls5KY2obIE1u1IGkTXMAgSEtQYRupoAUdXei7T3QF&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=jNH9MmRxJvJnzGDLnCrJhw&_nc_ss=7a3ba&oh=00_Af_1OawZIJuRp746qVTPMvGd6w5bO3V8zRie7HKD3QewCg&oe=6A2419D1",
         "url": "https://www.instagram.com/reel/3907711682703699145/"
       },
       {
@@ -636,7 +657,7 @@
         "hashtags": [
           "capitalist"
         ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/708049486_17931922584265813_5378401643921320417_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=102&ig_cache_key=MzkwNzE5NTM0ODkyMTkxNzg1NDE3OTMxOTIyNTc4MjY1ODEz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=4WJ0PGk2v8MQ7kNvwHfWMye&_nc_oc=AdoGJL1FuolU--Rc3-cm68rV5NS5E9MfTVe1WSa-UMwI-9BuejLAxAtptBKsp95H-fWL1Le_S5RxWePonzslZbMK&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=ve7ACsAYQVFla4pQRfbweg&_nc_ss=7a3ba&oh=00_Af8139RHPqzCvCNCbEidS1pYVfgUFuJBs511vu1D1VJlsw&oe=6A229423",
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/708049486_17931922584265813_5378401643921320417_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=102&ig_cache_key=MzkwNzE5NTM0ODkyMTkxNzg1NDE3OTMxOTIyNTc4MjY1ODEz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=4WJ0PGk2v8MQ7kNvwF0XVu6&_nc_oc=AdqP6EIvwaAVb0xXzzam8SzbBJ3Qdi5NB2llZ4Lulv8F55H-cqW5DZYr25VHMYRkMkeClQ-Lu4aHJlNSm8fATIzK&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=kPo32lCVCF7Vb_ATRbiudQ&_nc_ss=7a3ba&oh=00_Af_T8nlj9cI2J_CcoUWiUVD4kJw-yGXNnrnvk-QmA-h08g&oe=6A241DE3",
         "url": "https://www.instagram.com/reel/3907195348921917854/"
       },
       {
@@ -697,8 +718,8 @@
         "author": "gianni_masterchef14",
         "time": "2026-05-28T10:00:02Z",
         "text": "#adv Cosa succede quando la Puglia sposa la Sicilia? Nasce un capolavoro di profumi, sapori e colori. 🇮🇹✨\n\nDa una parte la cremosità inconfondibile della Stracciatella @murgella_cheese , l’anima bianca della terra pugliese. Dall’altra l’eleganza de",
-        "engagement": 576,
-        "engagementRate": 0.008749278488319105,
+        "engagement": 591,
+        "engagementRate": 0.00897712428228575,
         "sentiment": "neg",
         "hashtags": [
           "adv",
@@ -707,7 +728,7 @@
           "cucinaitaliana",
           "pastalover"
         ],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/707464879_18423703918130667_6634298658300753657_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=103&ig_cache_key=MzkwNjkyNzk4NDgwMjY1MDgyMzE4NDIzNzAzOTE1MTMwNjY3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyNC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=rt21Lfjeq7IQ7kNvwH_J4AI&_nc_oc=Adqp4BE-tXeVuwjMQPBqls1kRAt8GqXhYEG5y223MzdoEliNFFtKOh080p3MwCkWEHnfjndZbk1UINO4SaQ6twUi&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=tuiTRcOVMz4fCEOU0-glRg&_nc_ss=7a3ba&oh=00_Af9d6wbF5avuwl-TOfnJzswu74jynQepcKz3E0dSXYXb7Q&oe=6A228DCA",
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/707464879_18423703918130667_6634298658300753657_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=103&ig_cache_key=MzkwNjkyNzk4NDgwMjY1MDgyMzE4NDIzNzAzOTE1MTMwNjY3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyNC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=JkN159jqP8EQ7kNvwH5chY2&_nc_oc=AdpX3Bbfvpq8cG_LKDCRjjd7-8UXcxr28JHMhw71xE6Ps0LnKbKHIkzC1G1Pf8JLZo4qQzxX9b3YzPV2pm5s14mt&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=P3CXW13pDp0OeMQYV5fIFQ&_nc_ss=7a3ba&oh=00_Af9fa-wyVc8SVeDgMD_PNjJHpWTn8uiI1jQwybA47uSJ0A&oe=6A24178A",
         "url": "https://www.instagram.com/reel/3906927984802650823/"
       },
       {
@@ -752,30 +773,6 @@
         ],
         "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/706664543_18092339783201524_5610352399634348332_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=106&ig_cache_key=MzkwNTUyNjYwMzQyMDEwNzMxNTE4MDkyMzM5NzgwMjAxNTI0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExOTguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=TLhAAvhJHL8Q7kNvwGbcPdJ&_nc_oc=AdpmJ4_yghwQTs7X28qPN6cbaZnRLXOQ1tiERwteITfmRQx2GUY5oeBlVw1mNaAGD8KEQsGXhTH0vR8989eFuT4d&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=7RVtC2fftWANDjIYtXc39g&_nc_ss=7a3ba&oh=00_Af9C8drzYKAO4Si2ovryV5wqBk36JDj_C-UjrH9EhJLgfg&oe=6A242D42",
         "url": "https://www.instagram.com/reel/3905526603420107315/"
-      },
-      {
-        "platform": "ig",
-        "author": "miriam_denicolo",
-        "time": "2026-05-26T09:12:03Z",
-        "text": "Mea culpa, mea maxima culpa, al ristorante “13 Giugno” in via Goldoni Milano, sono arrivata troppo tardi, e mi chiedo come sia possibile non esserci inciampata fino ad ora. \n\nDalle vetrate alla porta d’ingresso, già è possibile assaggiare l’eleganza ",
-        "engagement": 146,
-        "engagementRate": 0.002309980380988545,
-        "sentiment": "neg",
-        "hashtags": [],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/706594894_18582573532033201_1887582487985523609_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=100&ig_cache_key=MzkwNTQ1Mzc4NDU1NjcyNjc5Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzAyNC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=7D_ZcS1CZw4Q7kNvwGeYYUD&_nc_oc=AdoOn06WkKFGb5T3SXYDAidYbZm__z4tadIocK5z_-8keSXbPei_hOvOhVyCXAOrMq9w2fOMMlnp8uOEDxJlM6eA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=fEzc8RY7gVuKeV8PwHQSZQ&_nc_ss=7a3ba&oh=00_Af8NnYENSIHyjREpXizlzjK_sAI7H5lRBDJDoftkY7mpGg&oe=6A22AC92",
-        "url": "https://www.instagram.com/p/3905456560176724976/"
-      },
-      {
-        "platform": "ig",
-        "author": "barillaitalia",
-        "time": "2026-05-26T09:07:16Z",
-        "text": "Bella figura a tavola, bella figura al RiminiWellness.\n\nDal 28 al 31 Maggio Barilla Protein+ torna alla fiera internazionale del benessere e della sana alimentazione: vieni a provarla dalle 11.00 alle 15.00 al Padiglione B5 e scopri tutte le attività",
-        "engagement": 1128,
-        "engagementRate": 0.00907905539189646,
-        "sentiment": "neg",
-        "hashtags": [],
-        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/708222272_18597270961052613_5866450699341983036_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkwNTQ1MjUyNjY4NTA0OTM1NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=c5jZ0eI4QA4Q7kNvwEx76Nn&_nc_oc=AdqgLw5EzjVW_YqwPokwc0j48ykt1NRYoLfvH9pr7hCXRdUIiewmuOZwnYSgBj06UV2ijsdasZ824VNRfZGGvkmD&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=7&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=gQqZsOJI97KfyxVKfmJo4w&_nc_ss=7a3ba&oh=00_Af-MTBqwOY54DoycCnjPvHQMYVjh2cMK_gmr1oLAJF_VSA&oe=6A22B26B",
-        "url": "https://www.instagram.com/p/3905454152663029347/"
       },
       {
         "platform": "ig",
@@ -1040,6 +1037,24 @@
       },
       {
         "platform": "tt",
+        "author": "boscoboscoboscobosco",
+        "time": "2026-05-26T11:00:00Z",
+        "text": "Perchè mi ha fatto un gelato del genere??? 😭😭😭 @Giglio Innamorati maestri gel anche se era poco gelato era buonissimoooo. Scusate se vi ho rotto il c*zzo ❤️😂 @Davide Mazzola 📹🏋️ #bosco #naples #food #free #prank ",
+        "engagement": 77434,
+        "engagementRate": 0.7389586593884796,
+        "sentiment": "pos",
+        "hashtags": [
+          "bosco",
+          "naples",
+          "food",
+          "free",
+          "prank"
+        ],
+        "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oUAAGUEIEDQqFWFfjXFmVcATgo6fyEA9DCVRA0~tplv-tiktokx-cropcenter-q:300:400:q70.heic?dr=9232&refresh_token=446c31f0&x-expires=1780459200&x-signature=n%2FSvqUkIgMsLIXahub7RAPdLxVc%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=useast2b&item=7644119846837325089&biz_tag=tt_video&s=PUBLISH&sc=cover",
+        "url": "https://www.tiktok.com/@boscoboscoboscobosco/video/7644119846837325089"
+      },
+      {
+        "platform": "tt",
         "author": "cucinamammaela",
         "time": "2026-05-27T10:48:34Z",
         "text": "INSALATE COME SI DEVE • Episodio 3: La sfiziosa 🥔✨ Dopo questa… le insalate tristi te le scordi 😌 Per 3 persone ho utilizzato: 🥗 Ingredienti * 1 cespo di iceberg (o circa 250 g) * 2 carote medie tagliate a julienne * 240 g di ceci già cotti * 350 ",
@@ -1055,24 +1070,6 @@
         ],
         "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oguZEAtERmRfOwAcmQAsNQAFIARqn8DeMBADFC~tplv-tiktokx-dmt-logoccm:300:400:tos-useast2a-i-0068-euttp/oYBaA12B9aYiCKiIT9IA4FATNzofvA7WAACEAB.heic?dr=9231&refresh_token=19087766&x-expires=1780455600&x-signature=vjjaQiFZccYMmsjbZS2gf0uFgr8%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover&item=7644521709000822048",
         "url": "https://www.tiktok.com/@cucinamammaela/video/7644521709000822048"
-      },
-      {
-        "platform": "tt",
-        "author": "boscoboscoboscobosco",
-        "time": "2026-05-26T11:00:00Z",
-        "text": "Perchè mi ha fatto un gelato del genere??? 😭😭😭 @Giglio Innamorati maestri gel anche se era poco gelato era buonissimoooo. Scusate se vi ho rotto il c*zzo ❤️😂 @Davide Mazzola 📹🏋️ #bosco #naples #food #free #prank ",
-        "engagement": 73684,
-        "engagementRate": 0.7044359464627151,
-        "sentiment": "pos",
-        "hashtags": [
-          "bosco",
-          "naples",
-          "food",
-          "free",
-          "prank"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oUAAGUEIEDQqFWFfjXFmVcATgo6fyEA9DCVRA0~tplv-tiktokx-origin.image?dr=10395&x-expires=1780441200&x-signature=e6hBRR%2FfhFtMfBxM095cY3I8c00%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@boscoboscoboscobosco/video/7644119846837325089"
       },
       {
         "platform": "tt",
@@ -1135,8 +1132,8 @@
         "author": "spunticulinari",
         "time": "2026-05-26T16:38:57Z",
         "text": "PASTA FREDDA CON CREMA DI BURRATA, PESCHE GRIGLIATE E SPECK CROCCANTE 😍🤤 Segui➡️ @spunticulinari 💕 SALVA LA RICETTA ✨ Per 2 persone hai bisogno di: - Mezze maniche 200g  - Burrata 250g - Pesca noce 1/2 - Basilico qb - Pecorino grattugiato qb - Sal",
-        "engagement": 50240,
-        "engagementRate": 0.5158110882956879,
+        "engagement": 50527,
+        "engagementRate": 0.5187577002053388,
         "sentiment": "pos",
         "hashtags": [
           "ricettadelgiorno",
@@ -1144,7 +1141,7 @@
           "cucinaitaliana",
           "ricette"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/owqAEV4EADEwFQAASz6CfFJwyDm8cIfPRcFXvA~tplv-tiktokx-origin.image?dr=10395&x-expires=1780441200&x-signature=C5Qp5OUkP7xVBsQSXvhewWw71zc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/owqAEV4EADEwFQAASz6CfFJwyDm8cIfPRcFXvA~tplv-tiktokx-origin.image?dr=10395&x-expires=1780545600&x-signature=7SatFSG5E9UqbB4PYOwOkjK%2BN1c%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@spunticulinari/video/7644240914981932321"
       },
       {
@@ -1213,6 +1210,39 @@
       },
       {
         "platform": "tt",
+        "author": "andyfelipe.real",
+        "time": "2026-05-29T10:26:57Z",
+        "text": "Quando il cliente insiste!😅 ##food##andyfelipe##viralfood",
+        "engagement": 39234,
+        "engagementRate": 0.47326899879372736,
+        "sentiment": "pos",
+        "hashtags": [
+          "food",
+          "andyfelipe",
+          "viralfood"
+        ],
+        "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/o0BiA0iGuFQrZEWCIqED0ffOQEIsQmsADmyXnR~tplv-tiktokx-origin.image?dr=10395&x-expires=1780545600&x-signature=Lnq5cPNW80N%2FTNqv4E1yUtGyop8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
+        "url": "https://www.tiktok.com/@andyfelipe.real/video/7645258306491075873"
+      },
+      {
+        "platform": "tt",
+        "author": "fabiohofame",
+        "time": "2026-05-26T10:35:27Z",
+        "text": "Linguine fredde, assoluto di gamberi rossi ✨🦐  Linguine mantecate a freddo con una bisque di gambero rosso concentrata e raffreddata. Le code solo condite con sale, olio e limone.  Prova a immaginare il sapore! #pasta#gamberi#chef#gourmet",
+        "engagement": 37373,
+        "engagementRate": 0.3431864095500459,
+        "sentiment": "pos",
+        "hashtags": [
+          "pasta",
+          "gamberi",
+          "chef",
+          "gourmet"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/ocD6jDG7KAue1Wo3qYayMelISueLQIU1GQgAu7~tplv-tiktokx-origin.image?dr=10395&x-expires=1780545600&x-signature=rrCKSSWZkJKgg4CklqjNxxaPVLM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@fabiohofame/video/7644147234061307168"
+      },
+      {
+        "platform": "tt",
         "author": "micheleelorenzo",
         "time": "2026-05-28T07:49:28Z",
         "text": "Questa pasta ti svolta la cena  Ingredienti:  - Pasta 300g  - Zucchine 3  - Ricotta 100g  - Parmigiano 30g  #pasta #pastalover #zucchine #cucinaitaliana #ricettafacile ",
@@ -1228,39 +1258,6 @@
         ],
         "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oo0UmhMpXAMiBjzOgEFLL8MDgf5eo4fEGIDIXI~tplv-tiktokx-cropcenter-q:300:400:q70.heic?dr=9232&refresh_token=e756592a&x-expires=1780455600&x-signature=YiwrsZlpv4PqFVNJb5PVWDqDat8%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover&item=7644846619376061728",
         "url": "https://www.tiktok.com/@micheleelorenzo/video/7644846619376061728"
-      },
-      {
-        "platform": "tt",
-        "author": "fabiohofame",
-        "time": "2026-05-26T10:35:27Z",
-        "text": "Linguine fredde, assoluto di gamberi rossi ✨🦐  Linguine mantecate a freddo con una bisque di gambero rosso concentrata e raffreddata. Le code solo condite con sale, olio e limone.  Prova a immaginare il sapore! #pasta#gamberi#chef#gourmet",
-        "engagement": 34229,
-        "engagementRate": 0.3146047794117647,
-        "sentiment": "pos",
-        "hashtags": [
-          "pasta",
-          "gamberi",
-          "chef",
-          "gourmet"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/ocD6jDG7KAue1Wo3qYayMelISueLQIU1GQgAu7~tplv-tiktokx-origin.image?dr=10395&x-expires=1780441200&x-signature=QFsJ3UoE4lCZSjo5YJynFOOCG6s%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
-        "url": "https://www.tiktok.com/@fabiohofame/video/7644147234061307168"
-      },
-      {
-        "platform": "tt",
-        "author": "andyfelipe.real",
-        "time": "2026-05-29T10:26:57Z",
-        "text": "Quando il cliente insiste!😅 ##food##andyfelipe##viralfood",
-        "engagement": 32983,
-        "engagementRate": 0.3983454106280193,
-        "sentiment": "pos",
-        "hashtags": [
-          "food",
-          "andyfelipe",
-          "viralfood"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/o0BiA0iGuFQrZEWCIqED0ffOQEIsQmsADmyXnR~tplv-tiktokx-origin.image?dr=10395&x-expires=1780441200&x-signature=2c1AN5NhFVr%2FuIvTJlwJNthE9D4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@andyfelipe.real/video/7645258306491075873"
       },
       {
         "platform": "yt",
@@ -1425,6 +1422,18 @@
       },
       {
         "platform": "yt",
+        "author": "varyaren",
+        "time": "2026-06-01T11:09:26Z",
+        "text": "Jujutsu Kaisen Pasta edition 😂🍝 #capelli #crescitacapelli #japan #anime #manga #jjk #jujutsukaisen",
+        "engagement": 2262,
+        "engagementRate": 0.03401503759398496,
+        "sentiment": "pos",
+        "hashtags": [],
+        "imageUrl": "https://i.ytimg.com/vi/15AA2rxI1aw/hqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=15AA2rxI1aw"
+      },
+      {
+        "platform": "yt",
         "author": "RapaNello",
         "time": "2026-05-27T12:00:13Z",
         "text": "Scaloppine alla Parmigiana senza friggere\n■ Qui trovi tutto, i miei libri e le cose che uso nei video, le magliette.\nhttps://linktr.ee/rapanello\n■  Ecco il sito internet ufficiale gratuito   https://www.ziorapa.it/\n\n☕ Vuoi offrirmi un caffè? Sostieni",
@@ -1503,22 +1512,150 @@
         ],
         "imageUrl": "https://i.ytimg.com/vi/TnoRSK6hgdU/hqdefault.jpg",
         "url": "https://www.youtube.com/watch?v=TnoRSK6hgdU"
-      },
-      {
-        "platform": "yt",
-        "author": "dr.walter.antonucci",
-        "time": "2026-06-01T16:34:53Z",
-        "text": "Pasta: non è il veleno che pensi #nutrizione #dieta #dimagrire #cibo #salute #blog",
-        "engagement": 1671,
-        "engagementRate": 0.006451737451737452,
-        "sentiment": "neg",
-        "hashtags": [],
-        "imageUrl": "https://i.ytimg.com/vi/ZQMvKH0lts0/hqdefault.jpg",
-        "url": "https://www.youtube.com/watch?v=ZQMvKH0lts0"
       }
     ]
   },
   "news": [
+    {
+      "title": "Barilla abbassa i prezzi e recupera quote di mercato. Al via il piano da 280 milioni per l'era dell'Ai - ItalyPost",
+      "source": "ItalyPost",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVW9UUG9qTTZ3WGhGc3pWTk5xN0sxWXpzMTY5NkVaZWJSQkYxd3E1OV82MGZIUFJqanNxanYta2ZQUS05WGVjSzlVdU1vX2dQVmgzWDNJYk1kb1owRW5jUkRnWEZCTm93dEVlR2FLNGg3RXNrUDJkQnUtU2llUHdINElmdmpKZ2twVmVoX0dOVnFwcHFRWmxkZWZETTdBSXNHQU5XRmNSTlpocE9ZQkdYQ0Y0SnhnMVdpdmNaTkFXaEJJMGQ5Y28tTHJpa2JRa1FQaGJodlBzem50V21nTDVKWVhldw?oc=5",
+      "date": "2026-05-31T17:51:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVW9UUG9qTTZ3WGhGc3pWTk5xN0sxWXpzMTY5NkVaZWJSQkYxd3E1OV82MGZIUFJqanNxanYta2ZQUS05WGVjSzlVdU1vX2dQVmgzWDNJYk1kb1owRW5jUkRnWEZCTm93dEVlR2FLNG"
+    },
+    {
+      "title": "Riminiwellness, da Barilla la pasta che fa bene al corpo e al pianeta - Startupbusiness.it",
+      "source": "Startupbusiness.it",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMGszaWkxazh5V2ZSNWdJVWRQenI1M1VHbnZ1MEhta0pCMkFjVDFvT2Z2T0d4bEhEV1NMRndXc084S1d5MEwwbUlLOVAyR2V1cUdNM0lWRWRGRFdJMVl1MXUtQlVwMkF2Z0xpTEh0V3JpcEpldVhsTjE1X0JFeW1IVXJHY1pvT0lRekI2Y1VVd0VIVUNGQzVJQ0g0bU5sRzFTNVVnY183aHZWbVE?oc=5",
+      "date": "2026-05-29T17:17:19.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMGszaWkxazh5V2ZSNWdJVWRQenI1M1VHbnZ1MEhta0pCMkFjVDFvT2Z2T0d4bEhEV1NMRndXc084S1d5MEwwbUlLOVAyR2V1cUdNM0lWRWRGRFdJMVl1MXUtQlVwMkF2Z0xpTEh0V3"
+    },
+    {
+      "title": "Riminiwellness, da Barilla la pasta che fa bene al corpo e al pianeta - Touchpoint News",
+      "source": "Touchpoint News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWnAtQmZOQVJYdHFBcnN6a2FqY1dzUVJJNXlScEF1aXBpNHhuOUZybmZlRVNfRjNlT3RCZ3VWVndxRjBIUkxZa2NGdUIyd2Iwa045N3VfZkhlMGhDa2hWcEIyN3VyUG44eERDTkxOM0RGS0gyY0hWSkhrNHZHWjhfZVdTdjlxZ1Rzaml5UEJCLWQ1blMxck1iV0lkSENyc3JDbzdMV1lkay1FMFI1?oc=5",
+      "date": "2026-05-29T09:07:48.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNWnAtQmZOQVJYdHFBcnN6a2FqY1dzUVJJNXlScEF1aXBpNHhuOUZybmZlRVNfRjNlT3RCZ3VWVndxRjBIUkxZa2NGdUIyd2Iwa045N3VfZkhlMGhDa2hWcEIyN3VyUG44eERDTkxOM0"
+    },
+    {
+      "title": "Riminiwellness, da Barilla la pasta che fa bene al corpo e al pianeta - Adnkronos",
+      "source": "Adnkronos",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdTRTUXNsM0ZnNnJ4TDhtdzRmSUxrdDl3aC1sSERjakkzYXgyMS1STFhUNnFyQW41NXFHUDJJVlB2X3ByNnlSZVFMb3FvZHJleXpnalNsUmZkQnVSSDZYNDY0dlJHQWxhdzUxSC1yTDdUVWVRdV93OTNUVzZGZ0xzMlh0c2oxWERjTTVrelQtSV8tTXpXWXNDM3RaRWhjVnJZS1NwYkpRQXVId3U1YWE1LUxxbE5ZeWlUeWtIdzFSMkFBb0pj?oc=5",
+      "date": "2026-05-29T06:24:07.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxOdTRTUXNsM0ZnNnJ4TDhtdzRmSUxrdDl3aC1sSERjakkzYXgyMS1STFhUNnFyQW41NXFHUDJJVlB2X3ByNnlSZVFMb3FvZHJleXpnalNsUmZkQnVSSDZYNDY0dlJHQWxhdzUxSC1yTD"
+    },
+    {
+      "title": "Guido Barilla, il manager che ha reso globale la pasta - Business People",
+      "source": "Business People",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMDRrQVV4UkFwQ2s3WHF3VWprQl9WdVYwMnYtemt4SFVvT3p2ZnhRUi14VFFjQk5IemZnb1dNU0VjQ2thN1U5Wnk2anNhVWNjZlo1bkYyeXZjUHRNZl9CR1g1eHkzcUNoT2tCVVBtWlB1X0FyVWx5NHNQaEtpVm1SY2dET0l5aWRtQUhqUWUyZGM3NEZSMUE?oc=5",
+      "date": "2026-05-23T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxOMDRrQVV4UkFwQ2s3WHF3VWprQl9WdVYwMnYtemt4SFVvT3p2ZnhRUi14VFFjQk5IemZnb1dNU0VjQ2thN1U5Wnk2anNhVWNjZlo1bkYyeXZjUHRNZl9CR1g1eHkzcUNoT2tCVVBtWl"
+    },
+    {
+      "title": "Barilla investe 170 mln in stabilimento Usa. Casa Bianca: American pasta - Radio Studio90 Italia - solo musica italiana",
+      "source": "Radio Studio90 Italia - solo musica italiana",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOE9OWlk4cFZ6eS1HdV9BZ0ZXbG9rU3hxVmNJeXA5Z21Gb3BFZ2dIX0hOTXo3Ym9aOUE4OWlMbGNxeTJKeHpEYll2SnpreEFCYUxZTUZjSjZIRGlJRkRETld6eVlJaFFYbUhTRDJDbmtNY3Q3cnJxOUltQkpUdi0zTldhdVM3WUNSUGhPRVdGQWxyMm10WU8wdDZyd21NSWwzeFNwd2FBVFFCQQ?oc=5",
+      "date": "2026-05-22T09:44:06.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOE9OWlk4cFZ6eS1HdV9BZ0ZXbG9rU3hxVmNJeXA5Z21Gb3BFZ2dIX0hOTXo3Ym9aOUE4OWlMbGNxeTJKeHpEYll2SnpreEFCYUxZTUZjSjZIRGlJRkRETld6eVlJaFFYbUhTRDJDbm"
+    },
+    {
+      "title": "Barilla investe sullo stabilimento di Avon, la Casa Bianca sui social posta una foto e commenta \"American Pasta\" - Gazzetta di Parma",
+      "source": "Gazzetta di Parma",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNdVA4dUg1V19GenpUOUlyblZ5dXlldHFUbGxtSnNVN2k3WFVsYTgtaGFNR0lYbm1ZS3E2OHBZY2lDODI2V1hCQ1JxVzBEZG9WQ2tPUHRveU5EVFdCLV9OaEpYb0l6bkk3QUVHRlFHNVBoVVQ1VTdKbzNTWGNiRXlQWExCalVCQ2RwdGk2bXB4UzJkNXVaX0lmakRDUEoyU0tteFhmanVwQzRlU2hhOFNZY1h4UlQtOFVzRVdXaExjODJzS2pVYS1kMS1UcEt6YkxNVVVMY202OWRJRWdabmVMa2RKTmU5MFUxcWd3dzZaenNpSjNzdVlWWmtteDZHVFdSLWxr?oc=5",
+      "date": "2026-05-22T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMigwJBVV95cUxNdVA4dUg1V19GenpUOUlyblZ5dXlldHFUbGxtSnNVN2k3WFVsYTgtaGFNR0lYbm1ZS3E2OHBZY2lDODI2V1hCQ1JxVzBEZG9WQ2tPUHRveU5EVFdCLV9OaEpYb0l6bkk3QUVHRlFHNV"
+    },
+    {
+      "title": "Barilla lancia un concorso per un nuovo formato di pasta - millionaire.it",
+      "source": "millionaire.it",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRjkyNzhTaEJ2MTg2V2pmY3E0Qk5LYzQwU1JZcFltVmRpRkd2V2FkWFYxZkh6LWNtRkhzRjQ5T2kzWkxqS3pmcGNEblUwQnMtaV80Q3RFZ2pWTHJUcmtCSlNTY2pyXzFTRk5qbWF3bF9JWHZaNmd6QmN0YzAwNDE2MWlOdGRHejQ?oc=5",
+      "date": "2026-05-16T10:10:48.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxQRjkyNzhTaEJ2MTg2V2pmY3E0Qk5LYzQwU1JZcFltVmRpRkd2V2FkWFYxZkh6LWNtRkhzRjQ5T2kzWkxqS3pmcGNEblUwQnMtaV80Q3RFZ2pWTHJUcmtCSlNTY2pyXzFTRk5qbWF3bF"
+    },
+    {
+      "title": "Da oggi si fa pace con la pasta una volta per tutte - ELLE",
+      "source": "ELLE",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mUmxMdWRPVEI2TGROS1ZtY0RzVTRlVDZWVVZQTXBMS1g4WlprRy1ZXzUxWjBtem5FbDdSRjRYODMwVUtkVDRFVGtKWHZveWZ5TERXU2liRi01SVJTUlhsSDdCeUE2emVRQzVJV29CSWhpblVJTWc?oc=5",
+      "date": "2026-05-15T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5mUmxMdWRPVEI2TGROS1ZtY0RzVTRlVDZWVVZQTXBMS1g4WlprRy1ZXzUxWjBtem5FbDdSRjRYODMwVUtkVDRFVGtKWHZveWZ5TERXU2liRi01SVJTUlhsSDdCeUE2emVRQzVJV29CSW"
+    },
+    {
+      "title": "Barilla, a Tuttofood oltre 4.000 piatti di pasta serviti e uno stand che celebra persone e prodotti - Adnkronos",
+      "source": "Adnkronos",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPck1pOWxkU2l3QjNTOUxpdzB3VVFjTEs1bXdsOXh6QTlUajFDZWhQazhtVnpnTXMtcy1UUGg4OWZwaXlZX0JBOURka3diWXp4Z3NpbzZtU1NaSDBuZDZ5YTA3ekp5VmdrQWU1VHNiM3g1QkVOcUtBWWZxV3oxLXduZlkwQUFEdjVWSXpJLWVVLWdyMzU5SGlUODdHQWp0Ti03RnFQQTJQV0JtakdFUW1jRjRUSXVHcmduRUNVRWJYaUtSczh0a0U3cV9WRXI0Y2tMbENKZXJpUFpUX3dZTE5MVkN2c2swdXhfTGtn?oc=5",
+      "date": "2026-05-15T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxPck1pOWxkU2l3QjNTOUxpdzB3VVFjTEs1bXdsOXh6QTlUajFDZWhQazhtVnpnTXMtcy1UUGg4OWZwaXlZX0JBOURka3diWXp4Z3NpbzZtU1NaSDBuZDZ5YTA3ekp5VmdrQWU1VHNiM3"
+    },
+    {
+      "title": "A Tuttofood in migliaia allo stand Barilla, serviti 4mila piatti di pasta - ANSA",
+      "source": "ANSA",
+      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNQmlYMi1zUnV6bGtfdDFBVllUX0ZPbFdhbHpTUzJkTk1MN0tHZ1V1aGZBZnRERGl1RnRHUEJQVE5ZSXVWS2lBUEpJRE1XWkJfdC1QZEFibWNmZlJ0ZUZPQ1BiemtyakhycUFVb0MzeGNSV0xKM1E3clE5QklZMmktbm53ODliV0tORkt5Z0tnUHhjaV9XWWlUUWg5UHpDdlJINlYtTGw3WG5mUDFERW5uTTNPS05rT2dmYXhWMkU3dU9GMlBzZzNfSHB0dHdNX3Z3LUNTa1JnTVB2VlZvLUhqNEZZeG1IQVV1eHYzUVFuc2FOTXd3RzdzVUNXRWhlSTZOMl9NWHdObWppTko2NEVUV19CWERibTV3eTlZUzNROExsUjJFN0NDUlVWdFTSAbICQVVfeXFMUDEwWGtkQ0NQSmE2WjBzbVlPVE5ueDhLNkpxX1RjRWFGblh1bVVBczMwRjdtU2J4SVFmUUVQejZHWU85X2h2NExRUjVCQWVxX0V6YV9Jc3VCdUplRjZaOXpNRGFrdWxlNDJZOHpxbUNNTDVubnlYLS1SVzFkRURlSnNUSWZqTGpVSU9PZmZqbExUZ2FXZjJJSHZzajRJeWsySktqZXd2UFJ4eTFkcEJBMHRtTFBLcHBDZEk1RUJQRjJ4OXctcm1IWGV6cW5xNkRha1luNFZadG9qclF5TUU1SExUbzMxLVdxdVlLeGdSZXdzRmdUdG5pcTlORjNiUXY1UnBSTWtoZnFrUHp1ZEowcS1XbWpxUGZWczVyNVh1MHZ2Vk1OMHdaZ0xiR3RpSm1ZcnRB?oc=5",
+      "date": "2026-05-14T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMirAJBVV95cUxNQmlYMi1zUnV6bGtfdDFBVllUX0ZPbFdhbHpTUzJkTk1MN0tHZ1V1aGZBZnRERGl1RnRHUEJQVE5ZSXVWS2lBUEpJRE1XWkJfdC1QZEFibWNmZlJ0ZUZPQ1BiemtyakhycUFVb0MzeG"
+    },
+    {
+      "title": "La pasta da F1 di Barilla, un'edizione limitata per un GP a tavola - HDmotori",
+      "source": "HDmotori",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE00cWxNNE94aEVsUmdvVjB6TnRxb3RpMXEwbUZLWmdPLURrelc1bW5xeVRZSjVhdHRRTHM4QXJSS3BuTjA4YTgtdExQcHJ3MGlqT3VkaFBEZVRjcU1KSXBKLUllMmVOUTdXd3Fr?oc=5",
+      "date": "2026-05-12T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE00cWxNNE94aEVsUmdvVjB6TnRxb3RpMXEwbUZLWmdPLURrelc1bW5xeVRZSjVhdHRRTHM4QXJSS3BuTjA4YTgtdExQcHJ3MGlqT3VkaFBEZVRjcU1KSXBKLUllMmVOUTdXd3Fr?oc=5\""
+    },
+    {
+      "title": "Foto: Barilla a TuttoFood presenta la nuova pasta ispirata alla Formula 1 - Bresciaoggi",
+      "source": "Bresciaoggi",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaVNWY1NDRjdCNE5ZZ0ZjR0hXQjZQajltNmxielNTZGNpLXN4MlVDYjVubHR2UHV1bGJGRlZTaFVVM1pudVZLX1k5UVJQQldmcHVWNzYzNjhaNTJNTF96UGphbGZxdUhEelVHbEJ0LVN4bDdFZFB4eFFDb2VMOXB4V2tsd2JkOXM2eTBmcmw4ekJ6YXhEVWZiY2VCempLZm9NcWNYeWFHWTVVbVdTZVNpeFE2MURJYVhBZFJv?oc=5",
+      "date": "2026-05-12T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaVNWY1NDRjdCNE5ZZ0ZjR0hXQjZQajltNmxielNTZGNpLXN4MlVDYjVubHR2UHV1bGJGRlZTaFVVM1pudVZLX1k5UVJQQldmcHVWNzYzNjhaNTJNTF96UGphbGZxdUhEelVHbEJ0LV"
+    },
+    {
+      "title": "Barilla a TuttoFood presenta la nuova pasta ispirata alla Formula 1 - ANSA",
+      "source": "ANSA",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNdlZlUTY0N21RYk8tY19jNHJLNlVFaUdSeWxHNk9VUEZtamFhZUo5dTZwV0Q5WWpLV29xRGVscVp6OG5XS09vanVJZ2NibWg0MFJVVnZTaHhxd2puVlY0U2NWQVdQY2g4QmROQnU2bkJjTnY3VGxwYk5RSE82b2F0U0pGdU5mamdBMWNPZU1ETGU3N25wVi1iTTlmN3NDX25WZFFISi1RNG84R2hFSk1CR2tHR3VhOVhJRGJROE1lNTBHcnEwcWFneUVPa3VnNWZkTGIza3FZWV8wV2ZSSDg1SWpUcXVGcG42RGRhUzNiSdIB9AFBVV95cUxOSUdtQVFwczRkWUlBOFVtSEpJT21sZVV2dzAzZ0diSThJMUlrRVJLcmNGcVVsWi0zYTBOSHlqWVRnWEdhWHYxT3YzbnlnTXVleFIwY1EtaTI2ZjZ3bllkMzJzdEYtQjVsRjJXSUpyczhvVGhSOUg0SW9lYWF5T2QwcG0xb3hSMHpvLTNWV2ZBZl9IVF9vei10NXRUQjB5M0plbnFIaEt5UGdJcHVqNVhJNklobm9uYjJ2U0gtaUpIZjZWRnJLdzctUE04RWpFY1JtdURqazFCNEdSZzVUQnhaMXNOZkpvUy1SN0lGZGhSMzBGeVIt?oc=5",
+      "date": "2026-05-12T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxNdlZlUTY0N21RYk8tY19jNHJLNlVFaUdSeWxHNk9VUEZtamFhZUo5dTZwV0Q5WWpLV29xRGVscVp6OG5XS09vanVJZ2NibWg0MFJVVnZTaHhxd2puVlY0U2NWQVdQY2g4QmROQnU2bk"
+    },
+    {
+      "title": "Barilla lancia “Gran Ruote”, la pasta nata dall’incontro con la Formula 1 - Italia a Tavola",
+      "source": "Italia a Tavola",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObjlIaDRSOU4yUHJGd3prM3dvS0J1V2h6bzZOS2t6eUdmVVZBUmZDWF9jYXJ0VlBiVE43NDBuaWVHNVFiQi1JOEc3UWpnQW51Z19DMWZjQUt0dWFkWi1pLXRZOEJJcU1MVWt6OUlpYzVPMERWRTd4WndTaFpwYlNlZnFoeXNsWHdyV2FiemJSRDEyekpnNGw0dmtMcVRSb3RFOExReUNQYWFvR2xlSW1HdDRiMFdPWkZsY3oxb0x0Q0tQOHBMNWc?oc=5",
+      "date": "2026-05-11T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxObjlIaDRSOU4yUHJGd3prM3dvS0J1V2h6bzZOS2t6eUdmVVZBUmZDWF9jYXJ0VlBiVE43NDBuaWVHNVFiQi1JOEc3UWpnQW51Z19DMWZjQUt0dWFkWi1pLXRZOEJJcU1MVWt6OUlpYz"
+    },
+    {
+      "title": "Parma a Tuttofood tra ingredienti innovativi e e nuovi trend alternativi - ParmaToday",
+      "source": "ParmaToday",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00YjdVTENDSG4wVTVGdW9CZWY0WlZuaFdoLXhyVThDTmJ4SXR3WWMxZEVqSVJ6bjVCTllhUWRRTFNqdGZjWklYanI4TU9ubG1adWNGckhLbnZSZ3ZjbExjblpIcUdVS3lu?oc=5",
+      "date": "2026-05-11T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE00YjdVTENDSG4wVTVGdW9CZWY0WlZuaFdoLXhyVThDTmJ4SXR3WWMxZEVqSVJ6bjVCTllhUWRRTFNqdGZjWklYanI4TU9ubG1adWNGckhLbnZSZ3ZjbExjblpIcUdVS3lu?oc=5\" tar"
+    },
+    {
+      "title": "Barilla mette l’accento su convivialità e famiglia per il GP di Miami e lancia la pasta a forma di ruota negli USA - Brand News",
+      "source": "Brand News",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNc3FQb3FCMjg2SEp2Q2J0VjZwaGg2YzEyWWktRDJISTVETnpNelpuUTNxamF4d1NoODNSd0JCM3NObDVqYjJFXzBwSks2Y1ZNakxYX2N5N05OeERJNk9UV1BwSkZMb2JDYXdRLTQwMzVOWHZNS0pobXJiLVpCRmdXbXpxRHJGdmFpRUhHRjNSN1ZrMDMwNFFXNG1CNkh0d2tTdWpSTVg2cU1ZZEo3MXpfT0tsNDRZNTBUN05IXzZoeTFnSE9hMzBITGZDeDhmcVlxc1FkNEgwUVYtS3l6dklGdU13?oc=5",
+      "date": "2026-05-07T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxNc3FQb3FCMjg2SEp2Q2J0VjZwaGg2YzEyWWktRDJISTVETnpNelpuUTNxamF4d1NoODNSd0JCM3NObDVqYjJFXzBwSks2Y1ZNakxYX2N5N05OeERJNk9UV1BwSkZMb2JDYXdRLTQwMz"
+    },
+    {
+      "title": "Barilla Al bronzo, con i Riccioli la natura ispira la forma della pasta - Il Sole 24 ORE",
+      "source": "Il Sole 24 ORE",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaDdQTUZiSll2OXB3ZDNtN2dIQ19ELVR4MTlPMnpwN1piU2o1Xzd6TGJjWHpfV3J6RHdOSnFGWXhnLW9uMW1UcDNTWmhXNXVFUGVnYWZ2b0N6bUhESTBXY0JvZUNoSEdNR0JlNjdWZVAyQVBRWDE3THVxSDJZNjhadGoyYnFqTy1ITVRpQzJnMGJxaXpscHM3YVBDZVhEcU9VVWE2TUZyUHBYRnZY?oc=5",
+      "date": "2026-04-30T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxOaDdQTUZiSll2OXB3ZDNtN2dIQ19ELVR4MTlPMnpwN1piU2o1Xzd6TGJjWHpfV3J6RHdOSnFGWXhnLW9uMW1UcDNTWmhXNXVFUGVnYWZ2b0N6bUhESTBXY0JvZUNoSEdNR0JlNjdWZV"
+    },
+    {
+      "title": "Barilla dedica alla Formula 1 una nuova pasta - Sportmediaset",
+      "source": "Sportmediaset",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSXBvSjdKTFhHeUhob1NqR05wZ2RRbjN5Tl94ZVlqT0w3YjNfX1l5SGYta1FsS3NRTGxIWFRfUUFHeUotYUFrOWhDZFpmWmM1ODE4U2ptN2MwUGwtWHM4cmhnR1hHZm5YcExSNF9odTJxcE5TWTZ2Q1EwU1laRVNXdXZ4NlExVTRqczRMSHltOXZCNVVfRHVZMldOaURuTjM5Y1RxanIzeG05NXVISnZkSXRfVkFsNmfSAXhBVV95cUxOTkdzVWYxNlJUWWdfVGNHbXVWS2dua0xxOEl0S1l3WXZHWVpWU2RVRFdQcVlQNnJrb1E0Y0lZTUJWeXY5UzI1QnE4XzlCblRKZEJMZlNuTE9zLUltYUNTNlg2UjY1RDJzMXh2Njluay0ybGN6WUpSVG0?oc=5",
+      "date": "2026-04-21T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPSXBvSjdKTFhHeUhob1NqR05wZ2RRbjN5Tl94ZVlqT0w3YjNfX1l5SGYta1FsS3NRTGxIWFRfUUFHeUotYUFrOWhDZFpmWmM1ODE4U2ptN2MwUGwtWHM4cmhnR1hHZm5YcExSNF9odT"
+    },
+    {
+      "title": "Barilla lancia la pasta dedicata alla Formula 1 (con il formato peggiore di sempre) - Dissapore",
+      "source": "Dissapore",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdnlhWXlXTndKaHpfODNuN1pJX1A5aHVjRnBWWHJ1dHNWMWlkZjJ4OWoxd2F1aUpaSjhKY3dfVm1pT1hJVE5hSlI0QnhpdEZ5Uk55UjR5WjFXOXBia04xNU1LcjJEU3NMUjMxS283U2NFd1I5RUxaUUNKODJXWGRMM1gzMWh4cHZRX3liODJMcXZIRE9wcl9LQzJMVGI3bGw1ejluNjUtWDBVRnBiZW96R3E1NUdpYlk?oc=5",
+      "date": "2026-04-17T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOdnlhWXlXTndKaHpfODNuN1pJX1A5aHVjRnBWWHJ1dHNWMWlkZjJ4OWoxd2F1aUpaSjhKY3dfVm1pT1hJVE5hSlI0QnhpdEZ5Uk55UjR5WjFXOXBia04xNU1LcjJEU3NMUjMxS283U2"
+    },
     {
       "title": "Il miglior marchio food per reputazione nel mondo è italiano: Barilla n. 9 del Global RepTrak 100 - WineNews",
       "source": "WineNews",
@@ -1546,6 +1683,13 @@
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObjE1cUhWSmFMcloxR0VTTjFLMFF5cmhDVFgyd1BaMG1xZjl3R1RJbWxqQlo2Ni1EUmxiRW9hWWViaEpjRXBLZEM4a3NMMF9kM0pTVktDSXhXSW1OLUJ4bm42TWs4ZXJrSlZWZGJGVFk1UV9UTndwcWFvc3JRUEFBdnI0Wno4VU5Va0NmdVVqTmQwVlZHc3NZT3BYbFlydjFNY1NCWGdOcW44aVhYemhJdkx1VHJvUERjNFJvQTNpMnE4TVRqNGk1clVIYVpYa0JBX2l6cw?oc=5",
       "date": "2026-02-27T08:00:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxObjE1cUhWSmFMcloxR0VTTjFLMFF5cmhDVFgyd1BaMG1xZjl3R1RJbWxqQlo2Ni1EUmxiRW9hWWViaEpjRXBLZEM4a3NMMF9kM0pTVktDSXhXSW1OLUJ4bm42TWs4ZXJrSlZWZGJGVF"
+    },
+    {
+      "title": "Da Barilla al Grana Padano, da Giorgio Armani a Gucci, dalla Ferrari alla Fiat: storia ed eccellenze delle imprese italiane - Il Gazzettino",
+      "source": "Il Gazzettino",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPT1NsMkdUNG5qalFzVnBXQ3BKTVJDdUc1YjNNNUV3aG8wNEFFbVh0eGpFYmpsQnJacUtFWm9SRXlZLTE2cmxkWkQtWGNtWjZPZDNXSmRCeDVMekF2bHQwblA4cHltZnpMeFg3VnQ3d0l3OFB2Ylc1N0NtbWVSdFNHVXlwLVItUWhBcmVQUHN1VnpuUGlYOU5iVmp4R2N6a1Q4akYydW9tbVJfZ1RWWWMwemNGMGtuYVVPd3FfcEpud21LcGk2cFd5LTZxVnVjMUJUSDRFOdIBzwFBVV95cUxOM19ZZEl6VjdTRlZ4X05fTDlrTVBtTXBCVmh6VkJPT2dMRmZHTGRQTjFWRFpFUGVSQXdEdlVTVDV3VzBfVk0wNEk2alpCbWhjOUVBOFdxaC1Jb2tWMnNZblVUdkVseldsbDBaU2J6WktDYzVSMG9mcjk1VFRObWJndEE1OE9EUlotLVp6TDlDcjRpdXJsY0hGVlhVa0lWRDdyVFZyU3RqNnlKZ0Z0N1Z1U3BUQ1g2bHZZVS1QTTVCdmJINzRaVGFtenBOcnVMckE?oc=5",
+      "date": "2025-11-27T08:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxPT1NsMkdUNG5qalFzVnBXQ3BKTVJDdUc1YjNNNUV3aG8wNEFFbVh0eGpFYmpsQnJacUtFWm9SRXlZLTE2cmxkWkQtWGNtWjZPZDNXSmRCeDVMekF2bHQwblA4cHltZnpMeFg3VnQ3d0"
     },
     {
       "title": "Barilla presenta il nuovo posizionamento del brand in una campagna ispirata al mondo della Formula 1 - Inside Marketing",
@@ -1581,83 +1725,6 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNT2Z4NmgtNU1FVV91b2RNdXo5SkpYZFZWMHIyazJtZWpZMGlLTG5XNkNyU0l3UlF2V0NQM2V5azRCd18tOGxRNDZ4SURjZGhOX3JTSVJ2NWlheEJwZzlFMXd6M2VqUDNPdkkzblBOT1FEeTJXNE03SDFaSlVKTkVNMWVGenpUMFNXYW45VWJmemlRTG9XWWI3NFcwTFhQanplUHg5TUpVWHlXZVJabVdPM0tGREhIZ09lWHRaZEFBRQ?oc=5",
       "date": "2025-09-01T07:00:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNT2Z4NmgtNU1FVV91b2RNdXo5SkpYZFZWMHIyazJtZWpZMGlLTG5XNkNyU0l3UlF2V0NQM2V5azRCd18tOGxRNDZ4SURjZGhOX3JTSVJ2NWlheEJwZzlFMXd6M2VqUDNPdkkzblBOT1"
-    },
-    {
-      "title": "Valore del brand, Barilla nella Top10 mondiale - Gazzetta di Parma",
-      "source": "Gazzetta di Parma",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZHBxVXdubkRrdDhILW03TmlRdktya3RoV19ERVJPc3lxV2QyMjh6Vkk2ZTlzN3FicVdid21zWDJNSDRadVN0bUV6Zy1NZGhxTGVsODFGNzhrMmY0emxnX0lfd2hTdm9zd1ZxWV81YWwyOTZLX1NURFlXV19uRmlQVHB0YWNtbkhQQ0V2RGt6bFJiUW01TDdQWEc1Y0luRzdTNnl6WEhuSjZSX2ZXb3c?oc=5",
-      "date": "2025-08-29T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOZHBxVXdubkRrdDhILW03TmlRdktya3RoV19ERVJPc3lxV2QyMjh6Vkk2ZTlzN3FicVdid21zWDJNSDRadVN0bUV6Zy1NZGhxTGVsODFGNzhrMmY0emxnX0lfd2hTdm9zd1ZxWV81YW"
-    },
-    {
-      "title": "Brand del food: cresce il valore dell’Italia nel calo globale. Barilla in top ten - Il Sole 24 ORE",
-      "source": "Il Sole 24 ORE",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRnV0WktnN0syZ29HalBNd2xlTWo1OVVnM1dLSDluWDRqMVoxVy1KYUlmVXQtUkNlQk1Ec3NJSzFVdDFOcW96WVdzMkIzN0xZMlNxR3BRMC12OW80X2lIMGxSQm8wNXI3dTVjNi1waEZlQ2lkMW41c0kyYVVfYTg0bWIxOG9fSF92SlQ0WHJic2xqdFR5cXd1cGRyajFqbVpwMEFsRW5PUHFQUQ?oc=5",
-      "date": "2025-08-28T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRnV0WktnN0syZ29HalBNd2xlTWo1OVVnM1dLSDluWDRqMVoxVy1KYUlmVXQtUkNlQk1Ec3NJSzFVdDFOcW96WVdzMkIzN0xZMlNxR3BRMC12OW80X2lIMGxSQm8wNXI3dTVjNi1waE"
-    },
-    {
-      "title": "Brand Finance 2025 Food e Analcolici: Barilla, Lavazza e San Pellegrino tra i top brand - Beverfood.com",
-      "source": "Beverfood.com",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZ0hieGlOT3VCX2kxa0MxRlVGLXpPalE3aF9MQXN2TGFoT0JUVEk4bGNtU1lOdUFBeEE2UFRQLXJpR3NJNXNSRi1oV1lWelB6cFVJT0hqZ2JTc3BTWGQ4OVZCWGFPMXpVYTYzZGZMY2hUNnV4THMyYldOQ2x6bjNwZ1hUNHNtandUTXdsZWw2bjloVk5VOXRn?oc=5",
-      "date": "2025-08-07T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPZ0hieGlOT3VCX2kxa0MxRlVGLXpPalE3aF9MQXN2TGFoT0JUVEk4bGNtU1lOdUFBeEE2UFRQLXJpR3NJNXNSRi1oV1lWelB6cFVJT0hqZ2JTc3BTWGQ4OVZCWGFPMXpVYTYzZGZMY2"
-    },
-    {
-      "title": "Nestlé è il brand food che vale di più nel mondo, secondo Brand Finance. I marchi italiani non emergono - Brand News",
-      "source": "Brand News",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTzRUZlUtT2NZOVBRcEg2U2I0MDlsNktJSFVuMHZiUF9RRjJmOWhwZlh0OUxpT3dNUjlIYk1vSl9vMWNUUWQtN0JBTzZYZTlLQ1JhZnZOdkpwQkpLRVJUZlFCNVptSXZlc1R1NXh4UVZ1Qm94dXdqek5xYTdnTGdCN3hSOWZMZUcyYi1YSk9DODJQUHVrLUZITnV1OVhiTE5VUTJIZnBFdm54QW1SRFdkMWNzODgzRk5hRGcxMWtuUGJ6NjJPUHJDRldNQTd6RUdvTmNBVkRFZ2NMUQ?oc=5",
-      "date": "2024-08-30T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTzRUZlUtT2NZOVBRcEg2U2I0MDlsNktJSFVuMHZiUF9RRjJmOWhwZlh0OUxpT3dNUjlIYk1vSl9vMWNUUWQtN0JBTzZYZTlLQ1JhZnZOdkpwQkpLRVJUZlFCNVptSXZlc1R1NXh4UV"
-    },
-    {
-      "title": "Multinazionali. Cibo italiano il più amato ma brand non emergono. Solo Barilla e Ferrero in Top100. Nestlè e Danone ai primi posti. IL REPORT - Agricolae",
-      "source": "Agricolae",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOX1dlVDdQWmN1dkRPTjgwWk1kMGI1ampISFJqV3pLYi1iVlFHRVhCeV83clZHdTlpdlhlV2p2RDBNOHNHYzBXWjlhMUIxWTZGdEhUaU1yeVMxWmpfakpmV0hBNEhiVDdvN3lUd3lkX1JiNGUwN1laRGVFUzZRLVBmN0o2U3dZYVR3bEwtVWdwaHZQV21OMWFyQjQ5ZmxpTFMtc1RqTFZDN2N4bFNXajE0QlBxMjdBaHVBSi1JMjBVdVl6ZzFzZjcydDZaX2dTYVRBNncwM2dpZW9mdzFWdng4Tng0X0d3WkpXN3B4WEZSdk0?oc=5",
-      "date": "2024-08-27T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi8AFBVV95cUxOX1dlVDdQWmN1dkRPTjgwWk1kMGI1ampISFJqV3pLYi1iVlFHRVhCeV83clZHdTlpdlhlV2p2RDBNOHNHYzBXWjlhMUIxWTZGdEhUaU1yeVMxWmpfakpmV0hBNEhiVDdvN3lUd3lkX1"
-    },
-    {
-      "title": "Nestlè si conferma il primo marchio di cibo al mondo in valore. Barilla n. 1 tra gli italiani - WineNews",
-      "source": "WineNews",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUWZBTGk1WkJ5Tm8wR0hJNXplLVFLNk9uczNOWkRtOS1NeVBVRUVfb2tKcXkwcWZLUHhDWkNWaUpsN0FUNDhxVzdtUDZPZjNrTjJrV2FiVVh1dlg0U0pid0VCM1lMdWJrYVAtc1M4WGgwcVFTNG53czdid1NTX21XTnE2MjAwLVJnWVVscmQzOXRhNGxSaE9DdUpPUm1TNTl2VHo3Q1ZsV290TnAzc183bFpOaHBrckV1V2IydUpJNA?oc=5",
-      "date": "2022-09-06T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQUWZBTGk1WkJ5Tm8wR0hJNXplLVFLNk9uczNOWkRtOS1NeVBVRUVfb2tKcXkwcWZLUHhDWkNWaUpsN0FUNDhxVzdtUDZPZjNrTjJrV2FiVVh1dlg0U0pid0VCM1lMdWJrYVAtc1M4WG"
-    },
-    {
-      "title": "I 100 top brand del food: Nestlè capofila globale, Barilla dell’Italia - Mark Up",
-      "source": "Mark Up",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSXl6UVJzYzk2MC1vYk9ONTlnR3dxajhmMERJc3hGZHpFcU95UWg1TktBMVpTSExsNWpqRHdRNTlNcVNVSWVhbWVHbWU5alQyTzF2NGJTeXo2OUwwRC03Ml9yT0pDM3Y5V1VOREEyalB5VzBqRlptbW1sM3BkWm50MXRjUTdqbXJfUXB4RTNnSDFJY2JQT0E?oc=5",
-      "date": "2022-08-31T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPSXl6UVJzYzk2MC1vYk9ONTlnR3dxajhmMERJc3hGZHpFcU95UWg1TktBMVpTSExsNWpqRHdRNTlNcVNVSWVhbWVHbWU5alQyTzF2NGJTeXo2OUwwRC03Ml9yT0pDM3Y5V1VOREEyal"
-    },
-    {
-      "title": "Ferrero e Barilla i marchi italiani più forti, ma i brand made in Italy del food sono fuori dalla top 10 mondiale - Il Sole 24 ORE",
-      "source": "Il Sole 24 ORE",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOa2sxRlU4cVU5VFNxUmtWb09xNm9NRVo1MzN1aWhEUzdhbW5acHh1SW53bXNldHVUSjlNUVNrV3NLRDBqN0JOelg4QmpHdl9scm9iZHFmZHpEdWlNWGZjSy1TS2dlVkNnT3I5cXZaR2Y1aGFhc1c0YmtBalY2b3RaVzVQY3Q1cEJ6VlFURXpWTGZOV0h1dGRGVU5Ra2F4YzNQcGd1czFWVmNlV1NaakQxMXIwNmpKcnc?oc=5",
-      "date": "2021-08-31T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOa2sxRlU4cVU5VFNxUmtWb09xNm9NRVo1MzN1aWhEUzdhbW5acHh1SW53bXNldHVUSjlNUVNrV3NLRDBqN0JOelg4QmpHdl9scm9iZHFmZHpEdWlNWGZjSy1TS2dlVkNnT3I5cXZaR2"
-    },
-    {
-      "title": "Barilla fa suo il Carbonara Day: un nostro commento sull'ultimo video del brand di pasta più famoso al mondo - Reporter Gourmet",
-      "source": "Reporter Gourmet",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPLWN1RC04cHpWaVpEcVp2Tll3VkRWMWs1ZUdqYVhkOFhmVVZuaWJkSXpYNnhuZXZ5NElBUXlsUUFOQUhPTm0zV2E3TlVPRHNWcllsd1dER3ZlcGRkQzBnUVpqZjF0Nm5faUdObDVxZDllaG1UOFJQdVRwUUREUGdEWXRZdExFVHdIUGxPcFNCSHFBUlpQNi1NRkNRS3czdm1LZGM5YXBEa0E5QTRuTEpQbC1Wc1NZdmNYZWMzTEV0c1REcG0wUFA3YnoxdVlhREM0WUNUWW5GTS1WZzQ5SnBMNUxMUzNuV0pIYkhBWEp1cw?oc=5",
-      "date": "2021-04-07T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxPLWN1RC04cHpWaVpEcVp2Tll3VkRWMWs1ZUdqYVhkOFhmVVZuaWJkSXpYNnhuZXZ5NElBUXlsUUFOQUhPTm0zV2E3TlVPRHNWcllsd1dER3ZlcGRkQzBnUVpqZjF0Nm5faUdObDVxZD"
-    },
-    {
-      "title": "Ferrero, Ferrari e Barilla le marche più amate dagli italiani - Il Sole 24 ORE",
-      "source": "Il Sole 24 ORE",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcVRreHM3bnNCTkJwWHdGV1NuNXdnWF83TlVxcXMtLW5lMjB1d3VrMzFHV1FtUWYwcGFsNlFJWnZQQmQ3NThjRGFPVlM3aGlNbWhXYjd1VUowZ3FrYTVlekhjYUE2RDhnQjNjRFBCaldyODBNaDdIdk13SExvRnZzMlgtYkJYbmFhWGVmT0QtaDhORGJvR2Jj?oc=5",
-      "date": "2021-03-30T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOcVRreHM3bnNCTkJwWHdGV1NuNXdnWF83TlVxcXMtLW5lMjB1d3VrMzFHV1FtUWYwcGFsNlFJWnZQQmQ3NThjRGFPVlM3aGlNbWhXYjd1VUowZ3FrYTVlekhjYUE2RDhnQjNjRFBCal"
-    },
-    {
-      "title": "I 100 top brand in Italia per reputazione: al vertice Ferrero, Ferrari e Barilla - Mark Up",
-      "source": "Mark Up",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaDZEYnBkR1EzUHJKRmtTM194QmE1ZzZuMnYydGVUZUNGdzJzOHJvTWhESWxpSGM3Q3Niem44UjZRN2dGd3ZWVExjek9USGVHQ0t2V3pXZEhNdWItQ2ctdmJsS21FS0RJX2lXdTBLMmpQcnRSNm1aSG93aGtrTmpBWVp3bXFtRU5FRFpWVWxTSWgzTUl1WnFGYk5nQlZPUUgw?oc=5",
-      "date": "2020-08-28T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPaDZEYnBkR1EzUHJKRmtTM194QmE1ZzZuMnYydGVUZUNGdzJzOHJvTWhESWxpSGM3Q3Niem44UjZRN2dGd3ZWVExjek9USGVHQ0t2V3pXZEhNdWItQ2ctdmJsS21FS0RJX2lXdTBLMm"
     }
   ],
   "consumer": {
@@ -2072,10 +2139,10 @@
   "competitors": [
     {
       "name": "Barilla",
-      "mentions": 15,
-      "socialMentions": 11,
-      "totalMentions": 26,
-      "shareOfVoice": 40.6,
+      "mentions": 13,
+      "socialMentions": 12,
+      "totalMentions": 25,
+      "shareOfVoice": 37.3,
       "posts": [
         {
           "type": "news",
@@ -2119,14 +2186,6 @@
         },
         {
           "type": "news",
-          "title": "Barilla investe 170 milioni negli USA - Largo Consumo",
-          "source": "LARGO CONSUMO",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GczNhMEZ0NERZR09wd1I5ejlOWl9fMlF4cHZjaGJEbGh3ejIyUXc0WGdGWUU5d2NScFA3a3E1NUdpMjFhWVAtd0RORFZrQ3lQWmdvWHlHanZIVVkwWmhJclQyVGlYLXF2RjNzc1pCZmFicEM3REU5eg?oc=5",
-          "date": "2026-05-26T07:52:49.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
           "title": "Sinner, tra uno spot di un marchio di pasta e un sorso di birra rigorosamente gelata (e analcolica) ecco svelato il suo ''tallone d'Achille'' - il Dolomiti",
           "source": "IL DOLOMITI",
           "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNVVc1SUhwdVRReEJodEowaUJOeFI5Sno1V09fdnA0U1lWT0x2NHYwb3UzSjF3MGJib1lUMGlfeF9UNmZJOE1oTjNULWp1d2xSVTEyUTRiNGlmT0xaLWwxa3ZMaFBYcHBrMVRlYjBGd21rMmhPMHZTSDlwamRjdWxKc3VaejdFTERudWJCSFpraVQxS1hBVGxWazJzUzB1azJXVEVveFYzY2JCNEgwWXBRU3BlMERYZC11SW5OVFY3VHc4dUNjblJuUWdCUjBPMVJaNjFSMkdIempKcTlXWUxUMWZUS2QtTHdFRUQzb1Rnd1hMLUtUX0FVd2FNSkhGb01SdEl1bi02amNzbkxZ?oc=5",
@@ -2143,18 +2202,10 @@
         },
         {
           "type": "news",
-          "title": "Riminiwellness, proteine buone per tutti - Startupbusiness.it",
+          "title": "Libertà di espressione, Coghe: “In Europa cresce la censura contro il mondo pro life” - Startupbusiness.it",
           "source": "STARTUPBUSINESS.IT",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYVVEY2FxTjVXaVhHNVFzMjhwZzBSc1BXS0VjUE5INmU0MUxzQVlWNVJTblZQMy1pWGY3RXJvV0RuSnZDQUxWSU1oRlQyZ3o4cXJORms4V00tbmxqS2ZFRlVrd1lsTEhfNUt1SFhBXzBkQVJLbnduTEJKTVRXY2Ita0ZkZ1I?oc=5",
-          "date": "2026-05-29T15:27:19.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Libertà di espressione, Coghe: “In Europa cresce la censura contro il mondo pro life” - Sassari Notizie",
-          "source": "SASSARI NOTIZIE",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPX2hiZ0hKY3JWZTNQbFA1cTU3RFRIYzZpLXdBR185enFwUXVSb1h1U1BWRFVpYVZfT1RPem1PTGNkSnFjLVZGYmtnWXhLd1QzSi1XUFp5cUI5YjdIT3dUcGJma0JuTzVJVE9Wam45eWcxZTVuMG5jbV9Qb3pIT2JrMHgwRDNnOFlUUGROQzN6OTM1emxZTHFuSnJGZ2tKWnY1MFpxSldVbGFIQzY4OTdvVlFPMVhXTW1iaEhoNUFXYmxUaTMt?oc=5",
-          "date": "2026-05-29T10:51:42.000Z",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUjBlTkpKNm9lbnotVlN2VkZmcnkwOG5XMjNQYnVUYjZqTmRITGswdnRyWnRzSzFQakIyZ1BsNzN5Uld1TWtIb1M5UXRueVI0SUpvSGZKSVU1aVBSYkpMTlBjY012NUJNSFlTRUFOd1pxWUtVR281SmhDSVZKbFhmZ0dyTmZKQkxBandzdEJjVkhEZUVCSGNadEdVb0Q2Y2tDNnB1TXdudmtONk1OREdmejBTbFRRNUtrMlcyQw?oc=5",
+          "date": "2026-05-29T15:25:20.000Z",
           "brand": "Barilla"
         },
         {
@@ -2167,18 +2218,18 @@
         },
         {
           "type": "news",
-          "title": "Riminiwellness, da Barilla la pasta che fa bene al corpo e al pianeta - ilmonito",
-          "source": "ILMONITO",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTzlOYUh3Z3RrQVQxaGJMc2tsd2JuUkd2NkNrNWE0VkRoN3VpX1FQN1BMS0l5WUFfaFlZclJsOTRVMFJZNmQ2X245SEhfVngtSnBSdmRfNnVyTjFTYnJWeWVJNUFoWFcxd2h2U1pWY2pOVGN1VVlTcHpFbjVmcVRHWUFyalhTV25Qc2RJeldIRmYzS2U5Sk5MdA?oc=5",
-          "date": "2026-05-29T09:13:22.000Z",
+          "title": "Riminiwellness da Barilla la pasta che fa bene al corpo e al pianeta - Zazoom Social News",
+          "source": "ZAZOOM SOCIAL NEWS",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdWFXOWtiYTFERWYwU19aLXJGNWtCa0c4NmJaS25PTzc0aW9nVDdnWjkwVS1VeEtpYTBhRjZOc09yQk8yUzVwX0EwaEdQRVVoLXh2WF9UYXFNOVJwXzhTLUx1RGpob1hyZnE5UF9NUUxvTFVvbTVqR2JUektMdUdYWXBjMGpOZDlPcmE3dU1LTnUtWGFnc21iYlpHNmc2QlhPdUNzVlpZVzNGdExxa3BZVg?oc=5",
+          "date": "2026-05-29T08:57:39.000Z",
           "brand": "Barilla"
         },
         {
           "type": "news",
-          "title": "Barilla e PizzAut: insieme per un’inclusione sociale autentica e gustosa. - Sicilianews24.it",
-          "source": "SICILIANEWS24.IT",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaVRxUk5SR1g5X25qdlhsdEVlcXBhbVpHNFplVHhMT0tkb29xY3RCa3dSdmV5TnZJdjA4WDBvUUNmOGdQSnMxdXBHUF9FeVp3SVhnSjBNc2pzOUpfVEg5VGV3UnN1aFFQbWNvZTduVm42cnRaYi1hXzFnZnE3dy1peFJmdzdKVDRDYzhTWkItUm5iSk5FSHUwMWZqSVpGWEJxbHNWdTFKY0RYSzdScXd1YQ?oc=5",
-          "date": "2026-05-27T20:39:52.000Z",
+          "title": "Riminiwellness, proteine buone per tutti - ilmonito",
+          "source": "ILMONITO",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CVTgyTWZDMGZoNE1WNjBWVE5uRWhXYXZ1U2g2UGlnVXc1LTNKN29VamcwSHNqeWFnR1JXMm03NXltRjNIWEZ1bmg3VVMtS2w5dlhfVC1YcDZsSUtFYmRweWtvUDNWVGNpM1kyeTdqWGJuQQ?oc=5",
+          "date": "2026-05-29T09:17:11.000Z",
           "brand": "Barilla"
         },
         {
@@ -2222,7 +2273,7 @@
           "platform": "ig",
           "author": "prinzesabala",
           "text": "@amaty.club per la prima volta a Rimini Wellness 💗\n\nÈ passato appena un anno da quando abbiamo lanciato questo progetto insieme a @elisabettagregoracireal e oggi siamo a Rimini Wellness, una delle più grandi fiere del fitness e del wellness al mondo",
-          "engagement": 1731,
+          "engagement": 1751,
           "date": "2026-05-29T12:03:57Z",
           "url": "https://www.instagram.com/reel/3907711682703699145/",
           "brand": "Barilla"
@@ -2240,21 +2291,21 @@
         {
           "type": "social",
           "platform": "ig",
-          "author": "barillaitalia",
-          "text": "Bella figura a tavola, bella figura al RiminiWellness.\n\nDal 28 al 31 Maggio Barilla Protein+ torna alla fiera internazionale del benessere e della sana alimentazione: vieni a provarla dalle 11.00 alle 15.00 al Padiglione B5 e scopri tutte le attività",
-          "engagement": 1128,
-          "date": "2026-05-26T09:07:16Z",
-          "url": "https://www.instagram.com/p/3905454152663029347/",
-          "brand": "Barilla"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
           "author": "lorenzotripii",
           "text": "#adv @barillaitalia Mamma, oggi devo dirti grazie.\n\nPer tutte quelle volte in cui tornavamo tardi a casa e, anche quando il tempo era poco, riuscivi sempre a riempire il piatto con qualcosa di buono. Ogni giorno diverso, ogni giorno fatto con cura. T",
           "engagement": 817,
           "date": "2026-05-26T11:32:24Z",
           "url": "https://www.instagram.com/reel/3905526603420107315/",
+          "brand": "Barilla"
+        },
+        {
+          "type": "social",
+          "platform": "tt",
+          "author": "volantino_spesa",
+          "text": "Nuovo volantino Sottocosto Conad City! 🚀 Dal 4 al 13 giugno grandi marche a prezzi mai visti. La pasta Barilla a soli 0,49€ e il tris di mozzarella Santa Lucia a 2,59€! Di corsa a fare scorta prima che finiscano i pezzi disponibili! 🏃‍♂️💨 ​Tu cosa",
+          "engagement": 359,
+          "date": "2026-06-01T12:58:22Z",
+          "url": "https://www.tiktok.com/@volantino_spesa/video/7646410583889153312",
           "brand": "Barilla"
         },
         {
@@ -2275,6 +2326,16 @@
           "engagement": 32,
           "date": "2026-05-26T14:42:18Z",
           "url": "https://www.instagram.com/reel/3905620369945505897/",
+          "brand": "Barilla"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "unimarconi",
+          "text": "👷Master di I livello - Health Safety Environment\nNasce il Master di I livello in Health Safety Environment di Unimarconi, nato da un idea di Barilla e Associazione Nazionale Ingegneri e con la collaborazione di grandi imprese e professionisti del se",
+          "engagement": 29,
+          "date": "2026-06-01T07:01:06Z",
+          "url": "https://www.instagram.com/p/3909739063184543917/",
           "brand": "Barilla"
         },
         {
@@ -2314,7 +2375,7 @@
       "mentions": 6,
       "socialMentions": 12,
       "totalMentions": 18,
-      "shareOfVoice": 28.1,
+      "shareOfVoice": 26.9,
       "posts": [
         {
           "type": "news",
@@ -2389,9 +2450,19 @@
           "platform": "ig",
           "author": "pastagarofaloit",
           "text": "Strapasta Garofalo arriva a Rimini 🔥🍝\n\nDal 28 al 31 maggio ci trovate a Rimini Wellness con uno stand e un chiosco dedicato per vivere insieme quattro giorni di gusto, benessere e movimento.\n\n📍 Padiglione B5 – Stand 134\n📍 Chiosco Strapasta – Padi",
-          "engagement": 354,
+          "engagement": 355,
           "date": "2026-05-27T11:57:54Z",
           "url": "https://www.instagram.com/p/3906264809117379728/",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "equestrian_insights",
+          "text": "Giampiero Garofalo 🎤 da @piazzadisiena !\n\nLo abbiamo martellato 🔨con qualche questions 🤣\n\n#piazzadisiena #eqin #showjumping",
+          "engagement": 330,
+          "date": "2026-05-30T17:23:14Z",
+          "url": "https://www.instagram.com/reel/3908602491132052771/",
           "brand": "Garofalo"
         },
         {
@@ -2409,7 +2480,7 @@
           "platform": "tt",
           "author": "laconvenientemarigliano",
           "text": "@Ferramenta Garofalo🛠️ ‼️ #superofferta #piscina #comment #viral #perte ",
-          "engagement": 87,
+          "engagement": 88,
           "date": "2026-05-28T16:42:07Z",
           "url": "https://www.tiktok.com/@laconvenientemarigliano/video/7644983910211849505",
           "brand": "Garofalo"
@@ -2419,7 +2490,7 @@
           "platform": "ig",
           "author": "infosubmarine",
           "text": "Questo mese the Submarine compie 10 anni — e sono stati 10 anni lunghissimi.\n\nCi vediamo il 13 giugno ai Giardini Lea Garofalo con un programma di podcast dal vivo, talk, bibite e musica per andare in profondità ma anche per distrarci. Vieni e porta ",
-          "engagement": 87,
+          "engagement": 88,
           "date": "2026-05-30T11:42:03Z",
           "url": "https://www.instagram.com/p/3908431158501635969/",
           "brand": "Garofalo"
@@ -2429,7 +2500,7 @@
           "platform": "tt",
           "author": "aurorapavesi",
           "text": "Ci sono paure che accomunano tantissimi genitori. La paura di non fare abbastanza. La paura di non riuscire a proteggere. La paura di non riuscire a trasmettere tutto l’amore che si prova. In questo estratto della puntata, Bianca Garofalo parla di am",
-          "engagement": 34,
+          "engagement": 35,
           "date": "2026-05-29T14:46:17Z",
           "url": "https://www.tiktok.com/@aurorapavesi/video/7645325135670431009",
           "brand": "Garofalo"
@@ -2439,7 +2510,7 @@
           "platform": "tt",
           "author": "rosaria_simioli",
           "text": "@Mario Garofalo⚽️⚽️  sei tu ne minimi dettagli hahah",
-          "engagement": 10,
+          "engagement": 11,
           "date": "2026-05-29T19:37:07Z",
           "url": "https://www.tiktok.com/@rosaria_simioli/video/7645400086503116064",
           "brand": "Garofalo"
@@ -2473,25 +2544,15 @@
           "date": "2026-05-28T12:08:03Z",
           "url": "https://www.instagram.com/p/3906994369025125237/",
           "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "equestrian_insights",
-          "text": "Giampiero Garofalo 🎤 da @piazzadisiena !\n\nLo abbiamo martellato 🔨con qualche questions 🤣\n\n#piazzadisiena #eqin #showjumping",
-          "engagement": 0,
-          "date": "2026-05-30T17:23:14Z",
-          "url": "https://www.instagram.com/reel/3908602491132052771/",
-          "brand": "Garofalo"
         }
       ]
     },
     {
       "name": "De Cecco",
       "mentions": 4,
-      "socialMentions": 7,
-      "totalMentions": 11,
-      "shareOfVoice": 17.2,
+      "socialMentions": 9,
+      "totalMentions": 13,
+      "shareOfVoice": 19.4,
       "posts": [
         {
           "type": "news",
@@ -2530,7 +2591,7 @@
           "platform": "ig",
           "author": "dececco_pasta",
           "text": "Noi condividiamo molto più di una collaborazione: una visione fatta di metodo, impegno quotidiano e ricerca costante dell’eccellenza.\n\nPerché un grande risultato si ottiene curando ogni dettaglio.\nSì, siamo fatti della stessa pasta 💙\n\n#DeCecco #Jann",
-          "engagement": 3175,
+          "engagement": 3467,
           "date": "2026-05-27T08:00:15Z",
           "url": "https://www.instagram.com/reel/3906144923636211883/",
           "brand": "De Cecco"
@@ -2550,7 +2611,7 @@
           "platform": "ig",
           "author": "dececco_pasta",
           "text": "Sport, benessere e voglia di mettersi in gioco.\nAlla De Cecco High Protein Arena abbiamo vissuto una giornata fatta di allenamento, incontri, sorrisi e passione per uno stile di vita attivo.\nGrazie a @littlecrumb_ per essere stata protagonista di que",
-          "engagement": 641,
+          "engagement": 662,
           "date": "2026-05-30T08:00:11Z",
           "url": "https://www.instagram.com/reel/3908319873787653520/",
           "brand": "De Cecco"
@@ -2560,7 +2621,7 @@
           "platform": "ig",
           "author": "dececco_pasta",
           "text": "Day 1. E che energia 💥\n\nWorkout, musica, sorrisi, challenge, selfie, allenamenti e tantissima voglia di stare insieme.\n\nOggi la De Cecco High Protein Arena si è accesa così: piena di persone, movimento ed energia condivisa ⚡\n\nProtagonista assoluta? ",
-          "engagement": 564,
+          "engagement": 570,
           "date": "2026-05-29T07:30:09Z",
           "url": "https://www.instagram.com/reel/3907579604020546558/",
           "brand": "De Cecco"
@@ -2570,7 +2631,7 @@
           "platform": "ig",
           "author": "dececco_pasta",
           "text": "Dal 28 al 31 maggio saremo a Rimini Wellness 💪\n\nTi aspettiamo alla De Cecco High Protein Arena con un programma di attività dedicate a benessere, movimento e performance, pensato per chi vive ogni giorno con gusto ed energia ⚡\n\nProtagonista la nostr",
-          "engagement": 186,
+          "engagement": 190,
           "date": "2026-05-28T07:30:09Z",
           "url": "https://www.instagram.com/p/3906854821231891626/",
           "brand": "De Cecco"
@@ -2579,8 +2640,8 @@
           "type": "social",
           "platform": "ig",
           "author": "dececco_pasta",
-          "text": "Un format semplice: una domanda, una risposta. E poi un’altra. E un’altra ancora.\n\nAlla De Cecco High Protein Arena, @littlecrumb_ ha affrontato la raffica di domande di @pov.interviste tra sport, alimentazione, allenamento e stile di vita.\n\nVoi quan",
-          "engagement": 137,
+          "text": "Un format semplice: una domanda, una risposta. E poi un’altra. E un’altra ancora.\n\nAlla De Cecco High Protein Arena, @littlecrumb_ ha affrontato la raffica di domande di Federico tra sport, alimentazione, allenamento e stile di vita.\n\nVoi quante dell",
+          "engagement": 190,
           "date": "2026-05-31T16:00:20Z",
           "url": "https://www.instagram.com/reel/3909286006665570958/",
           "brand": "De Cecco"
@@ -2594,15 +2655,35 @@
           "date": "2026-05-30T15:01:20Z",
           "url": "https://www.instagram.com/reel/3908530972938484089/",
           "brand": "De Cecco"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "dececco_pasta",
+          "text": "Un’idea freschissima per un pranzo primaverile? 🌻\n\nEcco una ricetta facile e gustosa: le Linguine Piccole n°8 De Cecco con agretti croccanti, pomodorini succosi e olive saporite per un piatto pieno di colore!\n\nProva questo formato sottile e avvolgen",
+          "engagement": 105,
+          "date": "2026-06-01T07:31:01Z",
+          "url": "https://www.instagram.com/reel/3909754103731358490/",
+          "brand": "De Cecco"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "dececco_pasta",
+          "text": "Pochi secondi per rispondere. Nessun tempo per pensarci troppo. 😉\n\nAlla De Cecco High Protein Arena, @cottoaldente si è messo alla prova con le domande di Federico tra pasta, benessere, allenamento e qualche scelta decisamente difficile.\n\nVoi come a",
+          "engagement": 68,
+          "date": "2026-06-01T13:11:47Z",
+          "url": "https://www.instagram.com/reel/3909924924864998372/",
+          "brand": "De Cecco"
         }
       ]
     },
     {
       "name": "La Molisana",
-      "mentions": 4,
-      "socialMentions": 2,
-      "totalMentions": 6,
-      "shareOfVoice": 9.4,
+      "mentions": 5,
+      "socialMentions": 3,
+      "totalMentions": 8,
+      "shareOfVoice": 11.9,
       "posts": [
         {
           "type": "news",
@@ -2630,6 +2711,14 @@
         },
         {
           "type": "news",
+          "title": "Volantino Conad City Campania dal 3 giugno 2026 - Anteprima Volantino",
+          "source": "ANTEPRIMA VOLANTINO",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOHFwOG5LWjh2Z0xnRERMLVhfaFJLLWx1enVGaC00TmxXLWRFYzMzSkxvOWJ5N00wV2tMdWFFWWpHSm92aUkyRWZZVktPVFdWSnBIOHViNC1yLUpINDVxcjJac3c5ekpwQ1pIU2JTclRURE5ZSGc0SlprYVFZeXpFSnExZTN0VTRneFdPRHIzajFFMFU?oc=5",
+          "date": "2026-06-02T07:59:19.000Z",
+          "brand": "La Molisana"
+        },
+        {
+          "type": "news",
           "title": "Volantino Decò Supermercati dal 29 maggio 2026 - Anteprima Volantino",
           "source": "ANTEPRIMA VOLANTINO",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSW5wU1NOZ0lFYVdFR1QycEhlcUZQSVdSTGlkbG1nS1pqOUhlUHhhVHFSM1FlS0hUVlNpc3lmcGt1UDRpNVRSYUdGSGs2eWJKeHNqQUcwWWp4dWhXXzRxWndZNHRxSlBnRzlBa1c1b192Zk9hVGlRSW4wLXpuN3M2VnBvUmxwdkdxZzBVRG94ak9VQQ?oc=5",
@@ -2651,9 +2740,19 @@
           "platform": "ig",
           "author": "pastalamolisana",
           "text": "Inizia il caldo e diciamolo le ricette leggere sono quelle che amiamo di più. Noi adoriamo questa idea semplice, ma piccante! E voi?​\n\nIngredienti per 4 persone\nPenne rigate 20 La Molisana, 320 g\nPomodori San Marzano maturi, 5​\nPeperoncino fresco, 1\n",
-          "engagement": 108,
+          "engagement": 171,
           "date": "2026-05-28T10:01:17Z",
           "url": "https://www.instagram.com/reel/3906930722421679926/",
+          "brand": "La Molisana"
+        },
+        {
+          "type": "social",
+          "platform": "tt",
+          "author": "silvanomazzocco",
+          "text": "la molisana sempre top ho comprato un pacco di paccheri",
+          "engagement": 88,
+          "date": "2026-06-01T10:17:33Z",
+          "url": "https://www.tiktok.com/@silvanomazzocco/video/7646369127522733345",
           "brand": "La Molisana"
         }
       ]
@@ -2663,14 +2762,14 @@
       "mentions": 0,
       "socialMentions": 2,
       "totalMentions": 2,
-      "shareOfVoice": 3.1,
+      "shareOfVoice": 3,
       "posts": [
         {
           "type": "social",
           "platform": "ig",
           "author": "callmewine_official",
           "text": "#BESTOF - Le nostre migliori bevute di maggio ✨\n\n🍷 Pinot Nero Dalzocchio\n🍾 Spumante Metodo Classico Dosaggio Zero Blanc de Noirs Divella\n\n🍾 Spumante Brut Nature ‘La Planta’ Mas Gomà\n\n🥂 Vitovska Skerlj\n🍇 Vosne Romanée ‘Quartiers de Nuits’ Domaine",
-          "engagement": 27,
+          "engagement": 36,
           "date": "2026-05-31T10:30:04Z",
           "url": "https://www.instagram.com/p/3909119770759014748/",
           "brand": "Divella"
@@ -2680,7 +2779,7 @@
           "platform": "ig",
           "author": "divellaofficial",
           "text": "C'era un tempo in cui il sugo di pesce si faceva con quello che il mercato offriva la mattina. Si andava presto, si sceglieva con gli occhi e con il naso. Gli Spaghetti n.8 Divella con scampi e finocchietto portano ancora con sé quel modo di cucinare",
-          "engagement": 27,
+          "engagement": 31,
           "date": "2026-05-30T12:01:10Z",
           "url": "https://www.instagram.com/p/3908440781307861455/",
           "brand": "Divella"
@@ -2692,7 +2791,7 @@
       "mentions": 0,
       "socialMentions": 1,
       "totalMentions": 1,
-      "shareOfVoice": 1.6,
+      "shareOfVoice": 1.5,
       "posts": [
         {
           "type": "social",
