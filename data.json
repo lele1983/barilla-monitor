@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-06-16T11:09:11.846Z",
+    "generatedAt": "2026-06-16T16:50:40.343Z",
     "pipelineVersion": "1.0.0",
     "sources": {
       "opensearch": true,
@@ -9,19 +9,19 @@
       "claude": false,
       "competitors": true
     },
-    "processingTimeMs": 2982
+    "processingTimeMs": 2714
   },
   "social": {
     "overview": {
-      "totalPosts": 247006,
-      "prevTotalPosts": 260255,
-      "volumeChange": -5.1,
-      "mentions24h": 27892,
-      "totalEngagement": 956845493,
-      "avgEngagementRate": 0.009354319583865662,
-      "erChange": -25,
+      "totalPosts": 231941,
+      "prevTotalPosts": 262646,
+      "volumeChange": -11.7,
+      "mentions24h": 12497,
+      "totalEngagement": 904459415,
+      "avgEngagementRate": 0.009160875378679092,
+      "erChange": -25.4,
       "organicPct": 98,
-      "sponsoredCount": 5332
+      "sponsoredCount": 4879
     },
     "brandHealth": {
       "score": 79,
@@ -29,12 +29,12 @@
       "dimensions": [
         {
           "name": "Sentiment",
-          "score": 69,
+          "score": 68,
           "color": "#00e676"
         },
         {
           "name": "Engagement",
-          "score": 47,
+          "score": 46,
           "color": "#3ba4ff"
         },
         {
@@ -70,123 +70,98 @@
       ]
     },
     "sentiment": {
-      "netScore": 50,
-      "positive": 59,
+      "netScore": 48,
+      "positive": 58,
       "neutral": 32,
-      "negative": 9
+      "negative": 10
     },
     "platforms": [
       {
         "name": "tt",
-        "count": 128947,
-        "pctOfTotal": 52.2
+        "count": 121611,
+        "pctOfTotal": 52.4
       },
       {
         "name": "ig",
-        "count": 112842,
-        "pctOfTotal": 45.7
+        "count": 105532,
+        "pctOfTotal": 45.5
       },
       {
         "name": "yt",
-        "count": 5217,
+        "count": 4798,
         "pctOfTotal": 2.1
       }
     ],
     "dailyVolume": [
       {
         "date": "2026-06-09T00:00:00.000Z",
-        "count": 25897,
-        "engagement": 109837761,
-        "avgEr": 0.011622043902592026
+        "count": 10796,
+        "engagement": 47837733,
+        "avgEr": 0.010625324801397766
       },
       {
         "date": "2026-06-10T00:00:00.000Z",
         "count": 38422,
-        "engagement": 164102910,
-        "avgEr": 0.011209718132138313
+        "engagement": 164110592,
+        "avgEr": 0.011209734482880995
       },
       {
         "date": "2026-06-11T00:00:00.000Z",
         "count": 38821,
-        "engagement": 164095718,
-        "avgEr": 0.011358335634029814
+        "engagement": 164123987,
+        "avgEr": 0.011358457437724631
       },
       {
         "date": "2026-06-12T00:00:00.000Z",
-        "count": 38306,
-        "engagement": 136453720,
-        "avgEr": 0.00917228026066718
+        "count": 38308,
+        "engagement": 136680835,
+        "avgEr": 0.009177272122850555
       },
       {
         "date": "2026-06-13T00:00:00.000Z",
         "count": 34099,
-        "engagement": 147946585,
-        "avgEr": 0.009125274503752653
+        "engagement": 148339364,
+        "avgEr": 0.009125419363126828
       },
       {
         "date": "2026-06-14T00:00:00.000Z",
         "count": 31305,
-        "engagement": 139875264,
-        "avgEr": 0.008795018660469832
+        "engagement": 140144921,
+        "avgEr": 0.008795386325204267
       },
       {
         "date": "2026-06-15T00:00:00.000Z",
-        "count": 39259,
-        "engagement": 94414230,
-        "avgEr": 0.005077591734588905
+        "count": 39273,
+        "engagement": 98505667,
+        "avgEr": 0.005077461185468662
       },
       {
         "date": "2026-06-16T00:00:00.000Z",
-        "count": 897,
-        "engagement": 119305,
-        "avgEr": 0.0008379519146740095
+        "count": 917,
+        "engagement": 4716316,
+        "avgEr": 0.0009370260147820637
       }
     ],
     "hourlyVolume": [
       {
-        "hour": "2026-06-15T11:00:00.000Z",
-        "count": 2195,
-        "engagement": 3612499
-      },
-      {
-        "hour": "2026-06-15T12:00:00.000Z",
-        "count": 2777,
-        "engagement": 8914769
-      },
-      {
-        "hour": "2026-06-15T13:00:00.000Z",
-        "count": 2379,
-        "engagement": 8471884
-      },
-      {
-        "hour": "2026-06-15T14:00:00.000Z",
-        "count": 2340,
-        "engagement": 4176803
-      },
-      {
-        "hour": "2026-06-15T15:00:00.000Z",
-        "count": 2775,
-        "engagement": 4386791
-      },
-      {
         "hour": "2026-06-15T16:00:00.000Z",
-        "count": 3349,
-        "engagement": 6279288
+        "count": 391,
+        "engagement": 645251
       },
       {
         "hour": "2026-06-15T17:00:00.000Z",
-        "count": 2707,
-        "engagement": 4631251
+        "count": 2708,
+        "engagement": 4634100
       },
       {
         "hour": "2026-06-15T18:00:00.000Z",
-        "count": 2610,
-        "engagement": 4508467
+        "count": 2613,
+        "engagement": 5593483
       },
       {
         "hour": "2026-06-15T19:00:00.000Z",
-        "count": 2301,
-        "engagement": 1959859
+        "count": 2302,
+        "engagement": 1966354
       },
       {
         "hour": "2026-06-15T20:00:00.000Z",
@@ -195,18 +170,18 @@
       },
       {
         "hour": "2026-06-15T21:00:00.000Z",
-        "count": 1053,
-        "engagement": 872357
+        "count": 1055,
+        "engagement": 1357297
       },
       {
         "hour": "2026-06-15T22:00:00.000Z",
-        "count": 697,
-        "engagement": 304331
+        "count": 698,
+        "engagement": 825521
       },
       {
         "hour": "2026-06-15T23:00:00.000Z",
-        "count": 347,
-        "engagement": 258163
+        "count": 348,
+        "engagement": 390358
       },
       {
         "hour": "2026-06-16T00:00:00.000Z",
@@ -220,8 +195,8 @@
       },
       {
         "hour": "2026-06-16T02:00:00.000Z",
-        "count": 105,
-        "engagement": 45124
+        "count": 106,
+        "engagement": 440976
       },
       {
         "hour": "2026-06-16T03:00:00.000Z",
@@ -230,148 +205,183 @@
       },
       {
         "hour": "2026-06-16T04:00:00.000Z",
-        "count": 130,
-        "engagement": 1899
+        "count": 131,
+        "engagement": 494274
       },
       {
         "hour": "2026-06-16T05:00:00.000Z",
-        "count": 92,
-        "engagement": 5915
+        "count": 93,
+        "engagement": 888201
       },
       {
         "hour": "2026-06-16T06:00:00.000Z",
-        "count": 81,
-        "engagement": 1352
+        "count": 82,
+        "engagement": 251262
       },
       {
         "hour": "2026-06-16T07:00:00.000Z",
-        "count": 34,
-        "engagement": 2496
+        "count": 36,
+        "engagement": 715372
       },
       {
         "hour": "2026-06-16T08:00:00.000Z",
+        "count": 3,
+        "engagement": 268296
+      },
+      {
+        "hour": "2026-06-16T09:00:00.000Z",
+        "count": 5,
+        "engagement": 1266041
+      },
+      {
+        "hour": "2026-06-16T10:00:00.000Z",
+        "count": 2,
+        "engagement": 89982
+      },
+      {
+        "hour": "2026-06-16T11:00:00.000Z",
+        "count": 0,
+        "engagement": 0
+      },
+      {
+        "hour": "2026-06-16T12:00:00.000Z",
         "count": 1,
-        "engagement": 443
+        "engagement": 216872
+      },
+      {
+        "hour": "2026-06-16T13:00:00.000Z",
+        "count": 2,
+        "engagement": 3387
+      },
+      {
+        "hour": "2026-06-16T14:00:00.000Z",
+        "count": 0,
+        "engagement": 0
+      },
+      {
+        "hour": "2026-06-16T15:00:00.000Z",
+        "count": 2,
+        "engagement": 19577
       }
     ],
     "hashtags": [
       {
         "tag": "perte",
-        "count": 5659
+        "count": 5316
       },
       {
         "tag": "fyp",
-        "count": 5410
+        "count": 5111
       },
       {
         "tag": "accadeoggi",
-        "count": 4978
+        "count": 4805
       },
       {
         "tag": "viral",
-        "count": 3709
+        "count": 3507
       },
       {
         "tag": "adv",
-        "count": 2702
+        "count": 2448
       },
       {
         "tag": "neiperte",
-        "count": 2291
+        "count": 2158
       },
       {
         "tag": "tiktokshop",
-        "count": 2061
+        "count": 1929
       },
       {
         "tag": "foryou",
-        "count": 1708
+        "count": 1603
       },
       {
         "tag": "napoli",
-        "count": 1594
+        "count": 1498
       },
       {
         "tag": "cavalcalondadeirisparmi",
-        "count": 1487
+        "count": 1415
       },
       {
         "tag": "italia",
-        "count": 1304
+        "count": 1247
       },
       {
         "tag": "offertestive",
-        "count": 1208
+        "count": 1140
       },
       {
         "tag": "italy",
-        "count": 1132
+        "count": 1077
       },
       {
         "tag": "capcut",
-        "count": 1059
+        "count": 1007
       },
       {
         "tag": "offerteperte",
-        "count": 961
-      },
-      {
-        "tag": "calcio",
-        "count": 955
+        "count": 910
       },
       {
         "tag": "madeinitaly",
-        "count": 953
+        "count": 896
+      },
+      {
+        "tag": "calcio",
+        "count": 893
       },
       {
         "tag": "virale",
-        "count": 930
+        "count": 859
       },
       {
         "tag": "perteeee",
-        "count": 918
+        "count": 853
       },
       {
         "tag": "amore",
-        "count": 808
+        "count": 767
       },
       {
         "tag": "f1",
-        "count": 801
+        "count": 760
       },
       {
         "tag": "roma",
-        "count": 800
-      },
-      {
-        "tag": "milano",
-        "count": 757
-      },
-      {
-        "tag": "estate",
-        "count": 754
+        "count": 736
       },
       {
         "tag": "voliamoneixte✈🦁🔝💯💥",
-        "count": 752
+        "count": 711
+      },
+      {
+        "tag": "estate",
+        "count": 699
+      },
+      {
+        "tag": "milano",
+        "count": 699
       }
     ],
     "creators": [
       {
-        "name": "433",
-        "posts": 95,
-        "engagement": 41001858,
-        "platform": "ig",
-        "followers": 77275609,
-        "avgEr": 0.00559710125705464
-      },
-      {
         "name": "fabriziorom",
-        "posts": 60,
-        "engagement": 40084110,
+        "posts": 70,
+        "engagement": 44581001,
         "platform": "ig",
         "followers": 45260692,
-        "avgEr": 0.014824178519257434
+        "avgEr": 0.014125800591189626
+      },
+      {
+        "name": "433",
+        "posts": 91,
+        "engagement": 38899173,
+        "platform": "ig",
+        "followers": 77275609,
+        "avgEr": 0.005543295258979014
       },
       {
         "name": "fabrizioromano",
@@ -380,14 +390,6 @@
         "platform": "tt",
         "followers": 24000000,
         "avgEr": 0.019007996165033802
-      },
-      {
-        "name": "leomessi",
-        "posts": 8,
-        "engagement": 30012781,
-        "platform": "ig",
-        "followers": 507015476,
-        "avgEr": 0.007399374974897216
       },
       {
         "name": "cristiano",
@@ -399,43 +401,43 @@
       },
       {
         "name": "realmadrid",
-        "posts": 37,
-        "engagement": 25954097,
+        "posts": 45,
+        "engagement": 29002506,
         "platform": "ig",
-        "followers": 178804393,
-        "avgEr": 0.0039230696142967866
+        "followers": 178918225,
+        "avgEr": 0.0036040456755982065
       },
       {
-        "name": "f1",
-        "posts": 72,
-        "engagement": 17691835,
+        "name": "leomessi",
+        "posts": 7,
+        "engagement": 27499261,
         "platform": "ig",
-        "followers": 42970336,
-        "avgEr": 0.005744260992906955
+        "followers": 507015476,
+        "avgEr": 0.0077482168555005945
       },
       {
         "name": "neymarjr",
         "posts": 3,
-        "engagement": 16980422,
+        "engagement": 17507388,
         "platform": "ig",
         "followers": 235300141,
-        "avgEr": 0.024054982043834248
+        "avgEr": 0.024801498100249758
+      },
+      {
+        "name": "f1",
+        "posts": 67,
+        "engagement": 16939097,
+        "platform": "ig",
+        "followers": 42970336,
+        "avgEr": 0.005909333075309143
       },
       {
         "name": "fcbarcelona",
-        "posts": 20,
-        "engagement": 11209056,
+        "posts": 18,
+        "engagement": 10355178,
         "platform": "ig",
         "followers": 145618242,
-        "avgEr": 0.0038487815283472517
-      },
-      {
-        "name": "arianagrande",
-        "posts": 9,
-        "engagement": 10629890,
-        "platform": "ig",
-        "followers": 363450837,
-        "avgEr": 0.004626440567316447
+        "avgEr": 0.003950656585090944
       },
       {
         "name": "bts.bighitofficial",
@@ -446,14 +448,6 @@
         "avgEr": 0.030537316872486897
       },
       {
-        "name": "scuderiaferrari",
-        "posts": 73,
-        "engagement": 8878413,
-        "platform": "ig",
-        "followers": 20492727,
-        "avgEr": 0.005938184813405639
-      },
-      {
         "name": "lewishamilton",
         "posts": 5,
         "engagement": 8766122,
@@ -462,12 +456,20 @@
         "avgEr": 0.040682528795622244
       },
       {
-        "name": "championsleague",
-        "posts": 39,
-        "engagement": 8067957,
+        "name": "arianagrande",
+        "posts": 8,
+        "engagement": 8741176,
         "platform": "ig",
-        "followers": 119554251,
-        "avgEr": 0.002407656140698642
+        "followers": 363450837,
+        "avgEr": 0.004555168787758651
+      },
+      {
+        "name": "scuderiaferrari",
+        "posts": 70,
+        "engagement": 8102811,
+        "platform": "ig",
+        "followers": 20492727,
+        "avgEr": 0.005650354581244888
       },
       {
         "name": "thv",
@@ -476,6 +478,14 @@
         "platform": "ig",
         "followers": 74335196,
         "avgEr": 0.050373244458789074
+      },
+      {
+        "name": "kimkardashian",
+        "posts": 6,
+        "engagement": 6780776,
+        "platform": "ig",
+        "followers": 344995899,
+        "avgEr": 0.0032757761370761497
       }
     ],
     "posts": [
@@ -652,52 +662,6 @@
       },
       {
         "platform": "ig",
-        "author": "federicofusca",
-        "time": "2026-06-09T16:04:01Z",
-        "text": "CRUDAIOLA♥️COTTA A FUOCO SPENTO!\nSALVALA SUBITO E CONDIVIDILA!\n.\nIngredienti 🛒 \n350 gr di pasta \n100 gr di pomodorini gialli \n100 gr di pomodori pachino \n1 mazzo di basilico \n1 spicchio di aglio \n70 gr olive taggiasche \n120 gr di mozzarelline \n60 gr",
-        "engagement": 58003,
-        "engagementRate": 0.04391817709618946,
-        "sentiment": "pos",
-        "hashtags": [
-          "primipiatti",
-          "pasta",
-          "ricetteestive",
-          "foodporn"
-        ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/721265957_18597960046056581_2384726978077450282_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=101&ig_cache_key=MzkxNTgxMDEwMjY4ODU4Nzc4MDE4NTk3OTYwMDQzMDU2NTgx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjk1MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=SCJTplxOlzoQ7kNvwEg0OhS&_nc_oc=AdpLTgb6Ro9s0uoVZxYo1P4ngIE_HcEecLXuUMHnCJYLrlo3TOGvLDCdnj5dmuyY-ZW5L08jRV3OyabhhrFUVCLe&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=rFZKZjUqPaf4EjlnN-e41Q&_nc_ss=7a3ba&oh=00_Af_u7bTnbUvr7izlc4VmfZhPnF7AX6Te0vhpzFvLnsl72w&oe=6A36A9AD",
-        "url": "https://www.instagram.com/reel/3915810102688587780/"
-      },
-      {
-        "platform": "ig",
-        "author": "ristoranteratana",
-        "time": "2026-06-09T16:43:53Z",
-        "text": "CROSTONE CON STRACCIATELLA E CILIEGIE + LAMBRUSCO E CILIEGIE\n\n#food #perte #chef #milano",
-        "engagement": 54806,
-        "engagementRate": 0.12178028619678251,
-        "sentiment": "pos",
-        "hashtags": [
-          "food",
-          "perte",
-          "chef",
-          "milano"
-        ],
-        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/717596054_18600854470055167_7716578401709243568_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=110&ig_cache_key=MzkxNTgzMDEyNDgzNjc5NTU0MzE4NjAwODU0NDY3MDU1MTY3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTUuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=hlGxY5l76vwQ7kNvwEAAfN_&_nc_oc=AdrO2bNWd61_xrybQz5MubGTjt6P2AW1QdhGv6Ts9h7kAd2xltq3KDfldK9oSKuvtYKCOWB6tYdLcuaCfUvOH2qB&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=xiNTeZuWEafKYg3rwDbC2Q&_nc_ss=7a3ba&oh=00_Af_zML1i9vObWgNruxrNfrDCUw15_UeoVKZpbAi_U0os5w&oe=6A3696DA",
-        "url": "https://www.instagram.com/reel/3915830124836795543/"
-      },
-      {
-        "platform": "ig",
-        "author": "storie_degli_altri",
-        "time": "2026-06-09T14:29:45Z",
-        "text": "Lei è Laura Held, ha 87 anni e per gran parte della sua vita ha vissuto in auto. Aveva il bagagliaio pieno di vestiti, si lavava con una bacinella d’acqua e mangiava i panini offerti dai passanti. Era stanca, rassegnata, ma quando la sua storia ha in",
-        "engagement": 53776,
-        "engagementRate": 0.09116925038314956,
-        "sentiment": "pos",
-        "hashtags": [],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/720125765_18553674637066142_1326293939235381172_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=MzkxNTc2MTkxMjg5NjMwNjg1Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=cL3HPyY1Sb4Q7kNvwEAMsO2&_nc_oc=Adpnz_hqPQleuQPbzOnUMEvMw9tRiUHPRBkm3czcjpQHJmsh1UZXKA3-q5_89v5HniNp17iT-vrQ8BIG8WIld_LZ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=PFZVhSw3n_8GzV_YSnsjnw&_nc_ss=7a3ba&oh=00_Af-ra0eR93jxgnLQsKgrxq9_fLaEXl57-vOklbzcP9ldkQ&oe=6A3676C9",
-        "url": "https://www.instagram.com/p/3915763319722236346/"
-      },
-      {
-        "platform": "ig",
         "author": "beardedscara",
         "time": "2026-06-15T10:40:05Z",
         "text": "🍦 MAXIBON LIGHT 🍨\n\nIngredienti - per DUE gelato:\n\r\n🍪 4 biscotti a piacere (io 2 Oro Saiwa Integrali);\n🍦 150g yogurt greco 0%;\n🍯 25g miele;\n🍫 15g scaglie di cioccolato;\n🍫 50g cioccolato fondente;\n🥜 15g granella di nocciole.\n\n👨‍🍳 Preparazione",
@@ -742,24 +706,6 @@
         ],
         "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/723137217_18472632835098210_4620614575620231661_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=110&ig_cache_key=MzkxOTI5MjE5MjU5NjgwMjU4ODE4NDcyNjMyODMyMDk4MjEw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTUuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=7ou2EHNlBy0Q7kNvwGxGFPf&_nc_oc=Adq0yfe-X4bwNfDL-nORuuijbw9uSRiNO-STfwfZkNc-QkyL2OviHH2Yfcd6RRxMPCNGjtAyrFjNfr7BkHGxoUTe&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=ql-z1frZeSZLX4u9oLZdkA&_nc_ss=7a3ba&oh=00_Af_3Hxbf--Sp1PgxQ7Lt-bz6MMFIlZe38ZRmgV5VC2GmfQ&oe=6A3691FF",
         "url": "https://www.instagram.com/reel/3919292192596802588/"
-      },
-      {
-        "platform": "ig",
-        "author": "treuominieunsocial",
-        "time": "2026-06-09T13:01:28Z",
-        "text": "Se ci fosse una pasta con le sarde, se ci fosse…\n\n📹 @banijayitalia \n\n#agg #aldogiovanniegiacomo #treuominieunsocial #giovannistorti #celebritychef",
-        "engagement": 37161,
-        "engagementRate": 0.07748138078279942,
-        "sentiment": "pos",
-        "hashtags": [
-          "agg",
-          "aldogiovanniegiacomo",
-          "treuominieunsocial",
-          "giovannistorti",
-          "celebritychef"
-        ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/721464085_18324954586262129_7141956298221560453_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzkxNTcxODI5MDgzMzQ4MzI5MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Wb0cQFxuPM4Q7kNvwG74cH5&_nc_oc=AdpSNIBBr_YMiITiMSU_DCWBPsNNHVw-FucdMMhIgZeF7kI41-vzuf47F8l90fyTNxZmItF_gH6Q1K8w4LjohjaR&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=VLGOuxrBOcGyXRa1S3JW2w&_nc_ss=7a3ba&oh=00_Af8R9F1-Ks0vB63FNr9S99PkeWh-M3Gm4qtbnesvigcPBA&oe=6A369CC1",
-        "url": "https://www.instagram.com/p/3915718890634138741/"
       },
       {
         "platform": "ig",
@@ -862,6 +808,77 @@
         ],
         "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.71878-15/722703996_754834374358554_215307492889794432_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=109&ig_cache_key=MzkxNzg4NTMzMTU0Nzg5NzkwNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=8RG4P15qNHcQ7kNvwF0sC6r&_nc_oc=Adrdival2Edd5KEqdTc0NjMBAI_4S0mpfuiADOZKis-oaIh2-8X1N62KUKqAx23GGxj2aqhClrX0GvUwmntdkQEt&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=cCWPugPcehqcEliwcZmq5w&_nc_ss=7a3ba&oh=00_Af9XKeYMBrGxLOd-2sdj59UJhkcyVqJFE3DW-mN0ABN3xQ&oe=6A36AD2A",
         "url": "https://www.instagram.com/reel/3917885331547897904/"
+      },
+      {
+        "platform": "ig",
+        "author": "ristoranteratana",
+        "time": "2026-06-14T09:55:10Z",
+        "text": "PASTA FREDDA CON LE ZUCCHINE\n\n#chef #milano #ratana #pasta",
+        "engagement": 28154,
+        "engagementRate": 0.06255888365478623,
+        "sentiment": "pos",
+        "hashtags": [
+          "chef",
+          "milano",
+          "ratana",
+          "pasta"
+        ],
+        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/722910027_18602229883055167_540247021706453169_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=110&ig_cache_key=MzkxOTI0OTM1MTgyNjE0ODI2NzE4NjAyMjI5ODc3MDU1MTY3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTcuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=MnZWMvURK4QQ7kNvwGp1qrk&_nc_oc=AdopvJjhvShAahe1cdZLVUtTX_gxgbIAfOKLtsfMszw28mX3GdsDAWKawOF2M9pRpjqahMq-ZuhLdkLx5imI9pe0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=xiNTeZuWEafKYg3rwDbC2Q&_nc_ss=7a3ba&oh=00_Af9Jql4uikp69dHwxDnjTG9dWjDVadt-qhYyBNOmaoVxfA&oe=6A3678E0",
+        "url": "https://www.instagram.com/reel/3919249351826148267/"
+      },
+      {
+        "platform": "ig",
+        "author": "andrianakulchytska",
+        "time": "2026-06-15T11:57:32Z",
+        "text": "Perfetti quando fa caldo e hai voglia di uno spuntino fresco🍓☀️🤤\n\n👩‍🍳Ingridienti:\n• 300 g di lamponi\n• 80 g di cioccolato bianco\n• 80 g di cioccolato al latte\n\n❄️Nota bene: bisogna congelare i lampioni prima di passare nel cioccolato\n\n#ricettefac",
+        "engagement": 27855,
+        "engagementRate": 0.021246232045007994,
+        "sentiment": "neu",
+        "hashtags": [
+          "ricettefacili",
+          "dolcifacili",
+          "lamponi",
+          "cioccolato",
+          "ricetta"
+        ],
+        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.71878-15/723852908_4678708662362994_8002352957109380773_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=109&ig_cache_key=MzkyMDAzNDc5NTExNzI0MzEzMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=8NWTypTC7-IQ7kNvwEE0g-d&_nc_oc=AdqbbU5nX7qAp0TNAp4xfByDPo7VwK9faINn3dypqV2j6YD-tTmReMSe1N_Fj9UqIMUxseUMtX2vT_Rkktb8jYDW&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=YInsI9g5PCQsAUDshTkMLw&_nc_ss=7a3ba&oh=00_Af-qqtTRxjOmJwOzFx4zLIpstysw31JZ5Hl0AD-T-bv_fA&oe=6A36A0A4",
+        "url": "https://www.instagram.com/reel/3920034795117243131/"
+      },
+      {
+        "platform": "ig",
+        "author": "andrea_mancino_1",
+        "time": "2026-06-14T08:26:01Z",
+        "text": "Quindi dimmi la verità… 👀🐱\nDopo tutto quello che ho raccontato, pensi che il tuo gatto ti consideri la sua mamma o il suo papà? 😹\nSe fa la pasta su di te, dorme accanto a te e pretende che tu sia lì mentre mangia… qualche sospetto io ce l’avrei. ❤",
+        "engagement": 27657,
+        "engagementRate": 0.08392633345370351,
+        "sentiment": "pos",
+        "hashtags": [
+          "adv",
+          "gatto",
+          "cat",
+          "catlife",
+          "catdad"
+        ],
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/723930760_1621064795622164_8191234170762099271_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=106&ig_cache_key=MzkxOTIwMTE2ODMyMDAxNDg1NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=MxfXZYFMIf4Q7kNvwF5dFy8&_nc_oc=Adr6Knegfm7W0uzX-rRulvVdzkQYdFxojKfKNuPlVs7NAFwe3MP8dtz2V_3SpQD_sDaAAWYASH9iYOfMo2o4xZ3R&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=3CtiOVxcIZgpaPsZjGO_uQ&_nc_ss=7a3ba&oh=00_Af8Xa6rNER9RsveW2kPPeNJmiuZkaOjksuBQAS3weyBmjA&oe=6A368736",
+        "url": "https://www.instagram.com/reel/3919201168320014854/"
+      },
+      {
+        "platform": "ig",
+        "author": "spunticulinari",
+        "time": "2026-06-10T16:16:14Z",
+        "text": "INVOLTINI DI MELANZANA RIPIENI 🤤😍\nSegui➡️ @spunticulinari 💕\n\nSALVA LA RICETTA ✨\n\nPer circa 10 involtini hai bisogno di:\n- Melanzana 1 grande \n- Ricotta 250g\n- Feta 100g\n- Pecorino grattugiato qb\n- Olio extravergine d’oliva qb\n- Prezzemolo qb\n- Agl",
+        "engagement": 27096,
+        "engagementRate": 0.0634207311078967,
+        "sentiment": "pos",
+        "hashtags": [
+          "ricettadelgiorno",
+          "ricette",
+          "ricettefacili",
+          "antipasto",
+          "ricetteveloci"
+        ],
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/722469368_18035650733803385_8075183632693466633_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=100&ig_cache_key=MzkxNjU0MDYzNTY3MzQyNjQ4MDE4MDM1NjUwNzMwODAzMzg1.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTUuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=_z7eNITEgLcQ7kNvwH6wRW6&_nc_oc=AdqyqaKYHWENNG35-bxmQspPkjoJCgRrnnMclNS-U5mZf7hCqqG0T8gcmFX_LvCQs3iEA9lNtXhEVvBXywALYb4_&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=NUN3GHBfCs5R9iJr5CGspg&_nc_ss=7a3ba&oh=00_Af8p3psEhnTswz9e6rOiO2EStYAe6s_iI0s3_bgJFtoISw&oe=6A3685DB",
+        "url": "https://www.instagram.com/reel/3916540635673426480/"
       },
       {
         "platform": "tt",
@@ -1375,11 +1392,11 @@
   },
   "news": [
     {
-      "title": "Non chiamarla solo carboidrato: che cosa c'è davvero in un piatto di pasta, oltre alle calorie - Men's Health",
-      "source": "Men's Health",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYjAwNDZlYjFPektSSDFvNkMtSHJHMUFiMnBIc2lacEtGSG9kQTVodm5nWjJmMjJ2anpEUWhBa0dzQ1k2V2dOMU0tRW1GaHNsOVJJV0owcThZcjJOWGJDX0NsTVF1RUNSMkFyRGVZLVlYdEtER1F0UmlJdnJEdGpEbUJWUjlTSy1hQkZEOE02SQ?oc=5",
-      "date": "2026-06-16T07:01:57.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNYjAwNDZlYjFPektSSDFvNkMtSHJHMUFiMnBIc2lacEtGSG9kQTVodm5nWjJmMjJ2anpEUWhBa0dzQ1k2V2dOMU0tRW1GaHNsOVJJV0owcThZcjJOWGJDX0NsTVF1RUNSMkFyRGVZLV"
+      "title": "Miglior ragù del supermercato: i più buoni e quelli proprio da evitare - VeronaSera",
+      "source": "VeronaSera",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOGczeEdQVmJYZDFZSEE1UGgtdDhiQ3I3LW5FTjMxNmU0RzdCclVMMmhNc01KbGlNQUJkMHpySldRME9tVmhhcTAydFRyeVJHcFN1LW1ZdlVaUjN5MHJjV0stc0ZoM0I2U29NZVl6ZmJfZ3NEVkFqZHZ5X3QxV2xDTU1QRDJoRTRGTjF6YnlFeU5uZw?oc=5",
+      "date": "2026-06-16T12:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxOOGczeEdQVmJYZDFZSEE1UGgtdDhiQ3I3LW5FTjMxNmU0RzdCclVMMmhNc01KbGlNQUJkMHpySldRME9tVmhhcTAydFRyeVJHcFN1LW1ZdlVaUjN5MHJjV0stc0ZoM0I2U29NZVl6Zm"
     },
     {
       "title": "Barilla lancia un concorso per un nuovo formato di pasta - millionaire.it",
@@ -1518,7 +1535,7 @@
       "title": "Il cibo italiano segue la moda: il 36% di clienti nel mondo è disposto a pagarlo di più (il 44% nel fashion) - Il Sole 24 ORE",
       "source": "Il Sole 24 ORE",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObjE1cUhWSmFMcloxR0VTTjFLMFF5cmhDVFgyd1BaMG1xZjl3R1RJbWxqQlo2Ni1EUmxiRW9hWWViaEpjRXBLZEM4a3NMMF9kM0pTVktDSXhXSW1OLUJ4bm42TWs4ZXJrSlZWZGJGVFk1UV9UTndwcWFvc3JRUEFBdnI0Wno4VU5Va0NmdVVqTmQwVlZHc3NZT3BYbFlydjFNY1NCWGdOcW44aVhYemhJdkx1VHJvUERjNFJvQTNpMnE4TVRqNGk1clVIYVpYa0JBX2l6cw?oc=5",
-      "date": "2026-02-28T08:00:00.000Z",
+      "date": "2026-02-27T08:00:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxObjE1cUhWSmFMcloxR0VTTjFLMFF5cmhDVFgyd1BaMG1xZjl3R1RJbWxqQlo2Ni1EUmxiRW9hWWViaEpjRXBLZEM4a3NMMF9kM0pTVktDSXhXSW1OLUJ4bm42TWs4ZXJrSlZWZGJGVF"
     },
     {
@@ -2000,7 +2017,7 @@
       "mentions": 20,
       "socialMentions": 5,
       "totalMentions": 25,
-      "shareOfVoice": 28.1,
+      "shareOfVoice": 28.4,
       "posts": [
         {
           "type": "news",
@@ -2028,10 +2045,10 @@
         },
         {
           "type": "news",
-          "title": "Antitrust: Coldiretti, fare piena luce sull’inganno della pasta “Tricolore” di Divella - Agricolae",
-          "source": "AGRICOLAE",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQR1FjM0tIbnpFTkhfVTkyVXRzYkxiN3Z1S2dOSEtidGZadnc3cXdwa1VEd2N5aE9KcUtSMDNTTEVZeEQ1c2FRb1EtTWduQkQxTllpNjdYbl9GY0dfN1ZBYm01YWo4c1lyY2l2OUlXVDhWSE9mRDVlSU1HZlFaMW1raFBqYUpIVG1KQmdSU0RvcFB5dEZyMzg3aDJ0RFQwZmszZWFYeURB?oc=5",
-          "date": "2026-06-12T13:33:00.000Z",
+          "title": "Pasta Divella nel mirino di Codacons e Adusbef: esposto all'Antitrust sull'origine del grano - BariToday",
+          "source": "BARITODAY",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSlZ6azd2WDNFbGtkUHU5SGRjOEw2bHNxSk13SGF0VzBHUTFMOHBNQzFCcFJUd3JhZWdDdUZFcVl4ODVBbkFRMThoaWpfV0cyd1ZKVUxST1VzX1RWR3hzSWdrejZFckFWZE9NY1ZUTW53Z3JoSFpwa2c4cnVubEw1SktTc3Z5bHdsdmNYQ3BMSjV4bkxQaHpsWHJIa2lPM2RJLXc?oc=5",
+          "date": "2026-06-12T12:29:54.000Z",
           "brand": "Divella"
         },
         {
@@ -2048,14 +2065,6 @@
           "source": "LA REPUBBLICA",
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTHdoVmw0UkoyNGkwTG52WklyTlhHUExrR1ZwQ2xQa0k0UUE1cWIwblE1TGctT0Q2VVF0T3NOUTR5R1lrVGRJd1Q5eEg3WkROR3J5azlYQjBWN3hyQm5VSTE0QUhGN0dmay1nZWxVcnI3MHdtWlRRTmZxM28xV1BVZE0xMEV6SENtMmFLSUN3Z1VXckIxVFJKMEgydVNRRlZLUGthNGVKSU8ySEZBYlJzaERoZEF4emdOekx6S0ZZR1E1S1FoMjgzdGlvLVUyU2V3NEV4TEhmZUjSAd4BQVVfeXFMT2JHUG5xcUpjQjRlZjgzS2xWMThhTW5Ia0YwUlVEYVZ1UlBQN25CeDU3RnpvLWE0c3FUcDB6elJZRGJxVXZzRlFBYlZrY1FEMVk3Y3pWNXFIbjF4RG5pZXpQX0d3ZjJ5WFN3NHN3ZmN2cjhjbEsyeHJkVjIyUy1tSXBDcl9vV2VJRUFqRWFtSGp3azdtcXVJVEF2QXQ3RGF2enUtLWRlRUJlZ2ZvVE5LMXRlWWM1aDh0REVmTE40Nk54V3U1ME5jNWxFMTV1Tlh2QXhaS0NnUUVXeVphVW93?oc=5",
           "date": "2026-06-13T09:16:42.000Z",
-          "brand": "Divella"
-        },
-        {
-          "type": "news",
-          "title": "Pasta Divella nel mirino di Codacons e Adusbef: esposto all'Antitrust sull'origine del grano - BariToday",
-          "source": "BARITODAY",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSlZ6azd2WDNFbGtkUHU5SGRjOEw2bHNxSk13SGF0VzBHUTFMOHBNQzFCcFJUd3JhZWdDdUZFcVl4ODVBbkFRMThoaWpfV0cyd1ZKVUxST1VzX1RWR3hzSWdrejZFckFWZE9NY1ZUTW53Z3JoSFpwa2c4cnVubEw1SktTc3Z5bHdsdmNYQ3BMSjV4bkxQaHpsWHJIa2lPM2RJLXc?oc=5",
-          "date": "2026-06-12T12:29:54.000Z",
           "brand": "Divella"
         },
         {
@@ -2124,10 +2133,26 @@
         },
         {
           "type": "news",
+          "title": "Esposto Codacons-Adusbef contro Divella: “Indicazioni fuorvianti sull’origine del grano” - Senza Colonne News",
+          "source": "SENZA COLONNE NEWS",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUHZ0VWw4eklqUDVfa0pzYTB5UGxuanRYUUh5VllzckctXzBUemlqVnR0S2d6RDFJNm02VXR5UWstYS1kTTc4SnkzX1d2X1k2T1JQTUNUUm5rZS1sbGNGXzhmSDRiRjhFR3NOb3ZuSEZvOUhVQlZpY1dYbHJ3bGVIM1NWam1XSm5UeXQ5YlhGLXowekxSVDNIWmRXbk1adkdWWjJkRV9Ba0lUYUxHSEphZFJhYUlDellLUC1jR3RCU1dkdkZibURnVFVQeGVRUjg?oc=5",
+          "date": "2026-06-13T05:25:30.000Z",
+          "brand": "Divella"
+        },
+        {
+          "type": "news",
           "title": "Esposto all'Antitrust contro Divella, la replica dell'azienda: \"Trasparenza al centro del nostro operato\" - BariToday",
           "source": "BARITODAY",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY0hQTnZ5MGVZYUJFanpkcENLWGFzY0t3bUR5SUNxaHdfWGE4NDhidDFYX2RQWS1oMjE4M2xzek5SbE5TN1ZtYVJUdHh3QnhuZmRqcjFGV2lYNDV4dDJJZFh4R05nRnpCNFBIN0YwcHBTalRjVl9kZFk0MGZDbnV2Mmw3OWpIcm52dGVHbW1vUnZHYnh5U3psdEI5Z2U?oc=5",
           "date": "2026-06-13T11:10:13.000Z",
+          "brand": "Divella"
+        },
+        {
+          "type": "news",
+          "title": "​Esposto all'Antitrust contro Divella: «Inganna sull'origine del grano». Coldiretti attacca: «Usano il tricolore per distrarre i cittadini» - Leggo.it",
+          "source": "LEGGO.IT",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVnNrTTF6QXR3MUx1MXh3VGJDZlIycDdGS2tJVEI5OWJoN0tzanhwN1M2YjcxcWxEMy1Hb1diTktFcWJUWU5CS3dXdEdxNUpyamI5UU1LZHNMTGFoY012dTU0NFM0LWJYUzhfNThfTk41VUxwYnNuNUVvNkNkNmdFeGFwMkRzNEFnZFRWTlBKOTNNMGpTMjN3SFREMV93SVVfbVBrZU5sYW1qZ9IBlAFBVV95cUxPdk5fRU40dG0zVEZWMkktUFFBaHplNUpDOUVoaW82OVVUTGw2UFc1ODY2ZkdNaHZTdC1tM29aR0Jlc043OF8yZV9INmp6RXEwcEZPd3hXcGVzUXJtSWREMzRyamJHZVE5TkdMeTNLc0dFTnNiTGEycWhiYldyVlhIZGtjY29KTm9jWmQ0b0M4YTdYT1Jh?oc=5",
+          "date": "2026-06-12T13:50:05.000Z",
           "brand": "Divella"
         },
         {
@@ -2148,18 +2173,10 @@
         },
         {
           "type": "news",
-          "title": "​Esposto all'Antitrust contro Divella: «Inganna sull'origine del grano». Coldiretti attacca: «Usano il tricolore per distrarre i cittadini» - Leggo.it",
-          "source": "LEGGO.IT",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVnNrTTF6QXR3MUx1MXh3VGJDZlIycDdGS2tJVEI5OWJoN0tzanhwN1M2YjcxcWxEMy1Hb1diTktFcWJUWU5CS3dXdEdxNUpyamI5UU1LZHNMTGFoY012dTU0NFM0LWJYUzhfNThfTk41VUxwYnNuNUVvNkNkNmdFeGFwMkRzNEFnZFRWTlBKOTNNMGpTMjN3SFREMV93SVVfbVBrZU5sYW1qZ9IBlAFBVV95cUxPdk5fRU40dG0zVEZWMkktUFFBaHplNUpDOUVoaW82OVVUTGw2UFc1ODY2ZkdNaHZTdC1tM29aR0Jlc043OF8yZV9INmp6RXEwcEZPd3hXcGVzUXJtSWREMzRyamJHZVE5TkdMeTNLc0dFTnNiTGEycWhiYldyVlhIZGtjY29KTm9jWmQ0b0M4YTdYT1Jh?oc=5",
-          "date": "2026-06-12T13:50:05.000Z",
-          "brand": "Divella"
-        },
-        {
-          "type": "news",
-          "title": "Esposto Codacons-Adusbef contro Divella: “Indicazioni fuorvianti sull’origine del grano” - Senza Colonne News",
-          "source": "SENZA COLONNE NEWS",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUHZ0VWw4eklqUDVfa0pzYTB5UGxuanRYUUh5VllzckctXzBUemlqVnR0S2d6RDFJNm02VXR5UWstYS1kTTc4SnkzX1d2X1k2T1JQTUNUUm5rZS1sbGNGXzhmSDRiRjhFR3NOb3ZuSEZvOUhVQlZpY1dYbHJ3bGVIM1NWam1XSm5UeXQ5YlhGLXowekxSVDNIWmRXbk1adkdWWjJkRV9Ba0lUYUxHSEphZFJhYUlDellLUC1jR3RCU1dkdkZibURnVFVQeGVRUjg?oc=5",
-          "date": "2026-06-13T05:25:30.000Z",
+          "title": "Tricolore sulla confezione, ma il grano arriva anche dall’estero: esposto contro Divella - Italia a Tavola",
+          "source": "ITALIA A TAVOLA",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOLXYxdXVpcXhuNHBaakNrb05KTE9IMHJPSk03LU9hRnlIM2I1dmJGbFdTQm5hWGxtZkJ6YW9oN3I2eUhEWkhvaHo1b0F6WDROT3dRSjlENTNWSVY4OFh6TnJ1OGZxOXY2WXZNdzhwcWFEbWtNdHVJbEprOFZfb09UWjh6Vnl6YWg5cUgtSWFQM1RzZS1uaEgwMGZxZlN5cjR0WFhxVm02X3ptR1VkYWtwS1V5U2Z3R0ZMV3NvOUpzWXZwd3JGRXNHV2I3RTF3Qms?oc=5",
+          "date": "2026-06-12T13:58:00.000Z",
           "brand": "Divella"
         },
         {
@@ -2219,7 +2236,7 @@
       "mentions": 19,
       "socialMentions": 5,
       "totalMentions": 24,
-      "shareOfVoice": 27,
+      "shareOfVoice": 27.3,
       "posts": [
         {
           "type": "news",
@@ -2235,22 +2252,6 @@
           "source": "LA VOCE DI NEW YORK",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNGtoaVpzQWx6Ulh6VlVPQWp4RXpQcnNtRUpPSGYwYndTaXk3SmJRTE95WWhWQXhSem9VeW9Icm04dk11ZDkzZGpJeHFhM0VqSlRBdE40OTdpRWQ5YUF1alRHT2Ffc0VXZ0FzOUpXSm55XzhRSnUxRlBUVTJIejZWZERn?oc=5",
           "date": "2026-06-09T16:59:16.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Cena dei Mille, regina della sera è la minestra di pasta mista con pesci di scoglio - AgroAlimentare News",
-          "source": "AGROALIMENTARE NEWS",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPa1NzUkxxbUdHcTUwMjZSem9OWFU5VVZuY0N2aWFqX245NUlNNGpoUVZiT200T3dTX1BNVU5zSldQYlN5Z1QyZUNmeWJWTVhNLXAzY2Fld09uYWo0WF96UWFiMmRlSnNxZkNicVZSN1RLQ3BFTW40TXhNQzJsYUtWNEl3NGpLbU9oX2lfYXB4cmVSNHpveC1iX1p4VHpEeW5iSUh3aS1XdEh3RW5PZjJEcjZlVWQ5bS1EVkE?oc=5",
-          "date": "2026-06-09T12:07:37.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Nell'Archivio Storico Barilla la storia non solo di un gruppo ma della nostra società - Adnkronos",
-          "source": "ADNKRONOS",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWVVYTm1pcVdoOWZhRE5lY0JIajdqazBBZ1ZfbFN3SGMyNWphTXpweGVRVERVZ3dHZlJkWjJFODlObnRaWGVvSWo3Y1FKU0tMRldUQ0luTnZDOGxXeE95dFF1QnQzdXNJTXh5cnlGVHNYWVlVZm53bW5JQ0llUWFEU1MzOE03RUxWRzdKT2tMdFJoVV95RlRvZlgzRm52WDYyYWZOVWRyTkVtUWIwMHdRam5MdU82MXRfQzI3Wjd0NGdLcGd2ZlpqeEQzcnRDOWxmaW1DYzhrR3U?oc=5",
-          "date": "2026-06-09T11:38:00.000Z",
           "brand": "Barilla"
         },
         {
@@ -2295,6 +2296,22 @@
         },
         {
           "type": "news",
+          "title": "Barilla celebra la Giornata Internazionale degli Archivi raccontando 150 anni di cultura italiana - Agenfood",
+          "source": "AGENFOOD",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMldKdG9jclA0Y1phT0MyOXd2dFZnek9KRlZVTzZuZDZ6SHRNREZIa1ljSkpNQWczbEUwTUt0V2NHS1JuSnVDeTBPakd4N3FxaXN6MWZkVjU2Qnd6U1VpUU9DNVZoT28xWVBTNDNJZ0RVbGZIa1EwN1hPZ2pYWHVXa0dqU3NfdWoxZjZBZXc0cDRTamMyUnFoZU5LajJQOVIwT0hPMldpOWN6dUVXOW1iUjBBcGtCRlRxbHhYVWdiNTNWR09IUFprb2RYRHFsVzRrNGc?oc=5",
+          "date": "2026-06-10T07:45:00.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Forno Madré cresce con Tyche Bank - EFA News - European Food Agency",
+          "source": "EFA NEWS - EUROPEAN FOOD AGENCY",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNX2xzMVpnZnY2aVlhT3JmV1F1YkZtRXhvaHBkRU9fWjFfY0NGb1Nqd1hYSmxxX0N5UUhzZW1MNmtNRk4xTzZ4Z0ZxejVFSkhQOW9Ya3RDcnQ2a1RGUGlfOFpGMF9lRmhkdnFFYXE4WkhNbktlVXdTZC05WkJrV2lIWkttVQ?oc=5",
+          "date": "2026-06-16T13:04:00.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
           "title": "Chef Gennaro Esposito protagonista alla Cena dei Mille 2026 con la sua minestra di pasta mista - Cookist",
           "source": "COOKIST",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeFBCQWRYbWgtby1HeGFXSk9Vam5ld0VyWU1VQkxXN1d0ZDgtd05zaUgtT1lVeFp3aDBLVnptTTZMUzk2bXQtRy1jeDh0YkNvcVF5R1NwMS1qV1V6akMxcDVGN3ZEa1l3VnVpYU1jT1lxZ0lual9WRnQzT2YwM1FSdXVCbl9ralQ0Q1NqLS02aWFTek1RaUNLZHF2Wm5oZnhmLUhrWGFOT3NKSTBHanhoOHhFOA?oc=5",
@@ -2303,26 +2320,18 @@
         },
         {
           "type": "news",
-          "title": "Cena dei Mille di Parma, sarà Gennaro Esposito il guest chef dell'edizione 2026 - Corriere della Sera",
-          "source": "CORRIERE DELLA SERA",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOajJVVFZjVGNpdmhGM1pSRG5fVmVKTk9UM0RyRTFsVVZVYTUyUHZfOW53U0l0S1NTXzhPcnF1RFo0MVlXR05xd2FjQ2NjdzJFcmtiYUZETHVyT0pZMG1QMUU1U0V2VUQ3MUpUNV9zeVMwdE8zU1BvMGJhc2RCa0VzakhmLUhTdVBEMkN2YWxmZVpyUVdOOGJBVTZkOHJEYUJjZGJjT0xXOXRWZ2UzcXRFV3NNLWN3UXk3RmNBY0U0Q2hydnZKRlNvcmxrazg3Mm05TFBDbjJPMG84ZG1JN191UDA5UE5GX1U5NWdPOUxaaTNIZzhPNzBlSlNjOVTSAYICQVVfeXFMT2JjTlZ0bHdxNXdsMklWV0dfX19RNzdwaXFNWDFqQTBUN1RSNkxNNW5vbDExN0ozcDZkVDdha0FSMHhia0JXcVBtT2l5Vk5tMkw4QnJZd084aTUwcUk4OWpLWnRzWXREV1ZqV1AyRmwzcTJ1ckV2OWUtNGkxczVodGd6T215M2hUZ2d2X2JvU0tFLUZjYVdubU1kTHlsM1lXeXVIODVKcV80Z3A2bjBQbF91X3pROWdRREYxck1mNmQxVFlEd3l3d3dZOHhUOXRiMXlabnhyT3ZSR3BmM1NOWl80TEEwc3VHbG1BREpRcXZiT09MQ01DVE9ZR0ZlOURmX0p3?oc=5",
-          "date": "2026-06-09T11:55:00.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Il Due Stelle Michelin Gennaro Esposito sarà il guest chef della Cena dei Mille di Parma - Agenfood",
-          "source": "AGENFOOD",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNzNYdmQ1MXZXTWM0Y3BTWnRIVVlkSUNZaFZCM1FveEtzdU03N3F6VEhHZGFKaUdrZlo5cXVNV1dPb1REOEk4djZTZGNmZW9TcS10bW0zNzJ2RmZiOFNvbjBDUTlYWjRueXlPYWZlMUVGb1lLTVV4VEFGSGFaTWQtU2lKZDdIMEJYVFVkR1E2WkVZUUk2ZklIU0syaS1Ja09DNlY3UDFZcjR2N2wtSXpfemo2Ykk2UTFYZ0V6Yw?oc=5",
-          "date": "2026-06-10T09:30:00.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
           "title": "Gennaro Esposito guest chef della Cena dei Mille 2026. La Food Valley supera i 12,5 miliardi di fatturato - Il Messaggero",
           "source": "IL MESSAGGERO",
           "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdkZYMFlNWmd3ZUtLZmtsS01lOUJ0N09mODJlSjBsdXdpRmY3a3FfVzh0Y2l5MUd2ano5RGJuN2V1TlBaQ2FhT296RjNQU1dZcmtQd3E4anN5WjRnVVhjSFhDV01VNUJTbTRwLWQ4Y2dNbW5BM0ZoUzF2bTlPNXMxUGxHejdjbWNCU1FvS1pPcGQ5ZldlaHl3LVhzdmNPaFVGUUZVYTN0cVZsRHR0eEpTd2gyRnFiN3ZoSlU4b0wyUTZBQzN6TS0tQ29LZmh3ZktmQWx1bktvNEdUVHotU3fSAdoBQVVfeXFMTzgtblplTzRPdGdPNFBId3pNVkRKZkVmZ2RsQ1VacWduVjMzUDFpLWxrSzExNkVucUdfNzZzdGZNaXNyRzBfRDRTc2NpdE54VmNXbU45NlNaQ3pqS19wSVpBQWtuSkh1Q3FkaEZONHE1Y2lMRVlqbGpKQzNURGVtUW5MelFpY2hqT1BGNFJLaU9kY0VKd09QZXlUNkRSWjl6dWFHcTJHZWwzN21yNTBPZ29jdENSQXN6TC1kSmZENDFFV1U1eHdLS2ZaX1NzOXdra0R6Q28xTnZPbXc?oc=5",
           "date": "2026-06-10T08:59:16.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Miglior ragù del supermercato: i più buoni e quelli proprio da evitare - VeronaSera",
+          "source": "VERONASERA",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOGczeEdQVmJYZDFZSEE1UGgtdDhiQ3I3LW5FTjMxNmU0RzdCclVMMmhNc01KbGlNQUJkMHpySldRME9tVmhhcTAydFRyeVJHcFN1LW1ZdlVaUjN5MHJjV0stc0ZoM0I2U29NZVl6ZmJfZ3NEVkFqZHZ5X3QxV2xDTU1QRDJoRTRGTjF6YnlFeU5uZw?oc=5",
+          "date": "2026-06-16T12:00:00.000Z",
           "brand": "Barilla"
         },
         {
@@ -2347,6 +2356,14 @@
           "source": "GAZZETTA DELL'EMILIA",
           "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQQnU2bUMyVDM3dGFoSlozUmtPTVE2cGRybmtORm9fd0lZVTU1c0FHb1N6aVNnV0xPVW16RnFPYjlxZ1NnRXpSa3AtSmNYT0E0bEsySENZVExzTk9BTXdQbUNVb2NDenFoNENMWUhhLUJVQWFRZ1FjOVc5V3JnLTBLZXhRT0lkc01GZE90a0RjZnpGVlJySFFUS0tDRnN2a2RGRVY3MjlQNzJkTk05bHIxUy1rSUMzMUxFOEFsbWZuY0tvbzNVZDZkeEJxM0ZkMEFweF9mMnhVbVEzUnVFZ1hld2RVSjhWUi10U2R0OW8tNWFTQQ?oc=5",
           "date": "2026-06-10T12:01:00.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Il Due Stelle Michelin Gennaro Esposito sarà il guest chef della Cena dei Mille di Parma - Agenfood",
+          "source": "AGENFOOD",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNzNYdmQ1MXZXTWM0Y3BTWnRIVVlkSUNZaFZCM1FveEtzdU03N3F6VEhHZGFKaUdrZlo5cXVNV1dPb1REOEk4djZTZGNmZW9TcS10bW0zNzJ2RmZiOFNvbjBDUTlYWjRueXlPYWZlMUVGb1lLTVV4VEFGSGFaTWQtU2lKZDdIMEJYVFVkR1E2WkVZUUk2ZklIU0syaS1Ja09DNlY3UDFZcjR2N2wtSXpfemo2Ykk2UTFYZ0V6Yw?oc=5",
+          "date": "2026-06-10T09:30:00.000Z",
           "brand": "Barilla"
         },
         {
@@ -2427,10 +2444,10 @@
     },
     {
       "name": "De Cecco",
-      "mentions": 8,
-      "socialMentions": 3,
+      "mentions": 9,
+      "socialMentions": 2,
       "totalMentions": 11,
-      "shareOfVoice": 12.4,
+      "shareOfVoice": 12.5,
       "posts": [
         {
           "type": "news",
@@ -2458,6 +2475,14 @@
         },
         {
           "type": "news",
+          "title": "Forno Madré cresce con Tyche Bank - EFA News - European Food Agency",
+          "source": "EFA NEWS - EUROPEAN FOOD AGENCY",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUmJPMktld0xlZFhZQUkzYmpmMXoxQ0ZpcTJYRnUtcEM1MlRGX3ZpZV9hOXg2R2RqS0RiY2ZiR0JaZWlXVkxqR19NRGtCNmR3RFV0UHdPUW5QMl92d2VyMGh0TWx4MU9EQ3BUZjZ0ODdYeUNUTWkyeXUyS2dyNXZoVEl0TDB0aC1WUUF4R3lJSllKdw?oc=5",
+          "date": "2026-06-16T13:04:00.000Z",
+          "brand": "De Cecco"
+        },
+        {
+          "type": "news",
           "title": "Cereal Docks acquisisce PRD e rafforza la piattaforma ingredienti - foodweb.it",
           "source": "FOODWEB.IT",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZ0FPRUdsY3RMZFpsNDNQY2V3b1owN2NaZzVsLXl4TEpBRmJMczB1VHlTeHl3ZnhXc1dpTjh1Y2hXRENRUE56LWVRcGwyZTU4c2pFWmQwZHY3LXRwRTkxYVBmRm45cmRSOU4xU1NrUkpxSXBlUGRUUVVKTDlGc3Z3QjdiQTA3MlFhU29ReVNXWHFDWFhQMXJmMjhyRF9zUQ?oc=5",
@@ -2477,15 +2502,7 @@
           "title": "Volantino Ipercoop dal 18 giugno 2026 - Anteprima Volantino",
           "source": "ANTEPRIMA VOLANTINO",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQlJ3U1dpeGFwUkFWMnp4Z2ItQkdENjhveGpRczJxaG1qTHNFbzEwOGxNc2Y3Y2Q5T0s2VHNmemdQYmhFVVRDQjVZakpCWHdmSkNaTWRlZ1hFTW1Ed3JWTnotWXJfekR3RTgzc3pKZy1aekpTQ1dHYVdHWU9yMGlBOTQteFQzQQ?oc=5",
-          "date": "2026-06-16T09:34:49.000Z",
-          "brand": "De Cecco"
-        },
-        {
-          "type": "news",
-          "title": "Volantino Conad City Lazio dal 17 giugno 2026 - Anteprima Volantino",
-          "source": "ANTEPRIMA VOLANTINO",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZzJyaDQ2Y002bjBCSmJ3YXFydDF6bDhHTTUyVzNHcFkzT0V2VHN1a21UMW45aXBlcElkdXRNeWdJV2JTdEFNRllyNkRNMlJadWs2X2R3ZmdGSUd2WUxvSW1Bazd0YWEtZmIwMk9ybVRIeEJhNFJNT1l6c01tTm4wWGxQV2RVVWpIZVFxdm10Znc?oc=5",
-          "date": "2026-06-16T05:03:59.000Z",
+          "date": "2026-06-16T16:45:58.000Z",
           "brand": "De Cecco"
         },
         {
@@ -2497,13 +2514,11 @@
           "brand": "De Cecco"
         },
         {
-          "type": "social",
-          "platform": "tt",
-          "author": "volantino_spesa",
-          "text": "Raga, guardate cosa c’è nel nuovo volantino Spazio Conad! 🔴 Dal 12 giugno parte la promo 1+1 GRATIS (prendi due e paghi uno). Pasta De Cecco a €1,56 per due pacchi, Mozzarella Nodino a €3,14 per due pezzi e tonno Mare Aperto a €8,79 per due confezio",
-          "engagement": 218,
-          "date": "2026-06-09T11:14:08Z",
-          "url": "https://www.tiktok.com/@volantino_spesa/video/7649352402046438688",
+          "type": "news",
+          "title": "Volantino Conad City Lazio dal 17 giugno 2026 - Anteprima Volantino",
+          "source": "ANTEPRIMA VOLANTINO",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZzJyaDQ2Y002bjBCSmJ3YXFydDF6bDhHTTUyVzNHcFkzT0V2VHN1a21UMW45aXBlcElkdXRNeWdJV2JTdEFNRllyNkRNMlJadWs2X2R3ZmdGSUd2WUxvSW1Bazd0YWEtZmIwMk9ybVRIeEJhNFJNT1l6c01tTm4wWGxQV2RVVWpIZVFxdm10Znc?oc=5",
+          "date": "2026-06-16T05:03:59.000Z",
           "brand": "De Cecco"
         },
         {
@@ -2530,10 +2545,10 @@
     },
     {
       "name": "La Molisana",
-      "mentions": 10,
+      "mentions": 9,
       "socialMentions": 1,
-      "totalMentions": 11,
-      "shareOfVoice": 12.4,
+      "totalMentions": 10,
+      "shareOfVoice": 11.4,
       "posts": [
         {
           "type": "news",
@@ -2585,6 +2600,14 @@
         },
         {
           "type": "news",
+          "title": "Forno Madré cresce con Tyche Bank - EFA News - European Food Agency",
+          "source": "EFA NEWS - EUROPEAN FOOD AGENCY",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNXzlGN1Rxc0FYeHNPZ3pMQ2EzRlZiYW8wcnVOWElReVpZM1NscDk0TlpWRDNHbldBaEZWT2g0a0FRMzlhY0tnaDh2S1RQNnowZkNQUEk4Q0RveDFOTHN4M0pIUVpzUEJQSTcwT01PMDUyZUxIV0NUckZnYnVFblo4Wg?oc=5",
+          "date": "2026-06-16T13:04:00.000Z",
+          "brand": "La Molisana"
+        },
+        {
+          "type": "news",
           "title": "Divella nel mirino di Codacons e Adusbef per l’origine del grano nella pasta - InfoOggi",
           "source": "INFOOGGI",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUUNtU1RyUTlKczZHdnBGa2c2SHpEOEM1V2p3d1BTa3RYd1A2SEZfYU9EdVl3ZUNDRXI0XzJnWEpSWDhyUE9WYk5pU0N2cTUwb0JGR2Ziai1Ya2F1S3F5azYyS2NPTnFUYjhPUTVMTFZhUXZjVVVGQnNWYUliMERnbHFTMzlPSUY4eXUzWUNJSktDVUtxaEwtX3ZsYThGYlpnTnJ0bk9LUXNGZ2dES0daU0MwRkJRRFHSAbwBQVVfeXFMT0pmNHotMWprTFFkZnBZWi1BVXhubnFZSlQ2WlZsV2xWb0p2U2dxSk12WklIcEtfNnh6Y0oyS3FELXA4TG1yMThKbjBxb1hVZnFiajVjTGw4QTQwWV85V1JFYkU5RENiZ3pjWVZmU1FVbTFJeHRhNnNfcUdBdVdyVDZNb05Paml2UHNBa1FUem4xSFZCSWRYX2hWRmY0WEZfOWNEUklaU2NTQU12SnlfV1RUWmhGOC1ORDlwdVc?oc=5",
@@ -2593,26 +2616,10 @@
         },
         {
           "type": "news",
-          "title": "Conto alla rovescia per la Stracittadina, quest'anno il passaggio notturno sulla Via delle Stelle - MarsicaLive",
-          "source": "MARSICALIVE",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSm52OEhhdlQ5djNTQllHbmRhT2FNV0V1NGdMLUZHQ0tQWXVoSXBSOUdHVjg2Z2VTNmVOOEJPM2dOV0wxM05tMnZILTZsRVlqQmNLdFRUcFV1Mmc3dzJRRGhEU3U4X0cwd3lsSDFqbmFId2lPMzhDUWJtTFlZci1xcTRGRmY2T2tTVlQ2dGNRU0UtczRzeEhUVWRaMjZ5dEpUN1VUaWIycmM5OGNRdm9iWWRIN2JHMDBmMi1z?oc=5",
-          "date": "2026-06-09T14:16:33.000Z",
-          "brand": "La Molisana"
-        },
-        {
-          "type": "news",
           "title": "Volantino Iper La Grande I dal 12 giugno 2026 - Anteprima Volantino",
           "source": "ANTEPRIMA VOLANTINO",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcktGbzFFQjhlZ2pKWHh1YkthX0dqVTVpd0Q1RnNwaWxnaTAxUWdLc3pYb0YyMjdzSVZuRHRmWnJYQTBZYWVNak53ZHFuZGFRLVFMd21lNzdWNTJudk9zeGZjRTFPTngyU1BtN2puSHNpWjFlbTM5S1c2cE1iQXhuX0pSSkpZWDhaRW1tc25LWE8?oc=5",
           "date": "2026-06-12T05:01:48.000Z",
-          "brand": "La Molisana"
-        },
-        {
-          "type": "news",
-          "title": "Volantino Iperal dal 17 giugno 2026 - Anteprima Volantino",
-          "source": "ANTEPRIMA VOLANTINO",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb2JSal9CTVc2SzRXQkU4RThrdWN1WjhkVlBxMkJWeGtibVRGQkwyeU1PLVlZekFJUzE3endLd0otWkdjbTNQTEZhalZ4S0h0SVZxVDFrZngydWQ2VHBxY3dNdksxUU5YcVBfeVFRQWkwa2kteXgxaXB1SXYzY1J3REFxNA?oc=5",
-          "date": "2026-06-16T05:45:00.000Z",
           "brand": "La Molisana"
         },
         {
@@ -2632,7 +2639,7 @@
       "mentions": 4,
       "socialMentions": 5,
       "totalMentions": 9,
-      "shareOfVoice": 10.1,
+      "shareOfVoice": 10.2,
       "posts": [
         {
           "type": "news",
@@ -2663,7 +2670,7 @@
           "title": "Volantino Ipercoop dal 18 giugno 2026 - Anteprima Volantino",
           "source": "ANTEPRIMA VOLANTINO",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQlJ3U1dpeGFwUkFWMnp4Z2ItQkdENjhveGpRczJxaG1qTHNFbzEwOGxNc2Y3Y2Q5T0s2VHNmemdQYmhFVVRDQjVZakpCWHdmSkNaTWRlZ1hFTW1Ed3JWTnotWXJfekR3RTgzc3pKZy1aekpTQ1dHYVdHWU9yMGlBOTQteFQzQQ?oc=5",
-          "date": "2026-06-16T09:34:49.000Z",
+          "date": "2026-06-16T16:45:58.000Z",
           "brand": "Garofalo"
         },
         {
@@ -2723,7 +2730,7 @@
       "mentions": 4,
       "socialMentions": 1,
       "totalMentions": 5,
-      "shareOfVoice": 5.6,
+      "shareOfVoice": 5.7,
       "posts": [
         {
           "type": "news",
