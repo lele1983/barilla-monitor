@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-06-17T10:54:20.662Z",
+    "generatedAt": "2026-06-17T15:28:16.110Z",
     "pipelineVersion": "1.0.0",
     "sources": {
       "opensearch": true,
@@ -9,19 +9,19 @@
       "claude": false,
       "competitors": true
     },
-    "processingTimeMs": 12093
+    "processingTimeMs": 2600
   },
   "social": {
     "overview": {
-      "totalPosts": 249826,
-      "prevTotalPosts": 263406,
-      "volumeChange": -5.2,
-      "mentions24h": 30622,
-      "totalEngagement": 985434812,
-      "avgEngagementRate": 0.00938780159164614,
-      "erChange": -23,
+      "totalPosts": 241640,
+      "prevTotalPosts": 263484,
+      "volumeChange": -8.3,
+      "mentions24h": 21666,
+      "totalEngagement": 944964625,
+      "avgEngagementRate": 0.009243811842411515,
+      "erChange": -23.8,
       "organicPct": 98,
-      "sponsoredCount": 5379
+      "sponsoredCount": 5114
     },
     "brandHealth": {
       "score": 79,
@@ -29,12 +29,12 @@
       "dimensions": [
         {
           "name": "Sentiment",
-          "score": 69,
+          "score": 68,
           "color": "#00e676"
         },
         {
           "name": "Engagement",
-          "score": 47,
+          "score": 46,
           "color": "#3ba4ff"
         },
         {
@@ -70,318 +70,313 @@
       ]
     },
     "sentiment": {
-      "netScore": 50,
-      "positive": 59,
+      "netScore": 48,
+      "positive": 58,
       "neutral": 32,
-      "negative": 9
+      "negative": 10
     },
     "platforms": [
       {
         "name": "tt",
-        "count": 130875,
-        "pctOfTotal": 52.4
+        "count": 125832,
+        "pctOfTotal": 52.1
       },
       {
         "name": "ig",
-        "count": 113061,
-        "pctOfTotal": 45.3
+        "count": 110053,
+        "pctOfTotal": 45.5
       },
       {
         "name": "yt",
-        "count": 5890,
+        "count": 5755,
         "pctOfTotal": 2.4
       }
     ],
     "dailyVolume": [
       {
         "date": "2026-06-10T00:00:00.000Z",
-        "count": 26481,
-        "engagement": 123679104,
-        "avgEr": 0.01222910741229559
+        "count": 15097,
+        "engagement": 72725528,
+        "avgEr": 0.012204364452628146
       },
       {
         "date": "2026-06-11T00:00:00.000Z",
         "count": 38825,
-        "engagement": 168426527,
-        "avgEr": 0.011736991019746984
+        "engagement": 168461286,
+        "avgEr": 0.01176062561447118
       },
       {
         "date": "2026-06-12T00:00:00.000Z",
-        "count": 38311,
-        "engagement": 141896904,
-        "avgEr": 0.009693446679830837
+        "count": 38310,
+        "engagement": 142050543,
+        "avgEr": 0.009715088127030537
       },
       {
         "date": "2026-06-13T00:00:00.000Z",
         "count": 34098,
-        "engagement": 156612706,
-        "avgEr": 0.00987957248314162
+        "engagement": 156888639,
+        "avgEr": 0.009898694803198079
       },
       {
         "date": "2026-06-14T00:00:00.000Z",
         "count": 31307,
-        "engagement": 152035584,
-        "avgEr": 0.010058283707246537
+        "engagement": 152133236,
+        "avgEr": 0.010096683164791887
       },
       {
         "date": "2026-06-15T00:00:00.000Z",
-        "count": 39325,
-        "engagement": 161614575,
-        "avgEr": 0.00866157373340275
+        "count": 39329,
+        "engagement": 162071791,
+        "avgEr": 0.008847722188287114
       },
       {
         "date": "2026-06-16T00:00:00.000Z",
-        "count": 36573,
-        "engagement": 79706852,
-        "avgEr": 0.005358436184081283
+        "count": 38804,
+        "engagement": 84366607,
+        "avgEr": 0.00544342617915403
       },
       {
         "date": "2026-06-17T00:00:00.000Z",
-        "count": 4906,
-        "engagement": 1462560,
-        "avgEr": 0.0012255452203403887
+        "count": 5870,
+        "engagement": 6266995,
+        "avgEr": 0.001330991665855782
       }
     ],
     "hourlyVolume": [
       {
-        "hour": "2026-06-16T10:00:00.000Z",
-        "count": 233,
-        "engagement": 351421
-      },
-      {
-        "hour": "2026-06-16T11:00:00.000Z",
-        "count": 2555,
-        "engagement": 4374808
-      },
-      {
-        "hour": "2026-06-16T12:00:00.000Z",
-        "count": 2521,
-        "engagement": 5341793
-      },
-      {
-        "hour": "2026-06-16T13:00:00.000Z",
-        "count": 2185,
-        "engagement": 3681721
-      },
-      {
-        "hour": "2026-06-16T14:00:00.000Z",
-        "count": 2166,
-        "engagement": 4751185
-      },
-      {
         "hour": "2026-06-16T15:00:00.000Z",
-        "count": 2520,
-        "engagement": 5924499
+        "count": 1408,
+        "engagement": 2242245
       },
       {
         "hour": "2026-06-16T16:00:00.000Z",
-        "count": 3117,
-        "engagement": 7000690
+        "count": 3317,
+        "engagement": 7031209
       },
       {
         "hour": "2026-06-16T17:00:00.000Z",
-        "count": 2484,
-        "engagement": 5583219
+        "count": 2633,
+        "engagement": 5602509
       },
       {
         "hour": "2026-06-16T18:00:00.000Z",
-        "count": 2397,
-        "engagement": 3737954
+        "count": 2526,
+        "engagement": 3774396
       },
       {
         "hour": "2026-06-16T19:00:00.000Z",
-        "count": 2020,
-        "engagement": 3376340
+        "count": 2158,
+        "engagement": 3388803
       },
       {
         "hour": "2026-06-16T20:00:00.000Z",
-        "count": 1419,
-        "engagement": 1890728
+        "count": 1504,
+        "engagement": 1900637
       },
       {
         "hour": "2026-06-16T21:00:00.000Z",
-        "count": 1037,
-        "engagement": 2999591
+        "count": 1134,
+        "engagement": 3005988
       },
       {
         "hour": "2026-06-16T22:00:00.000Z",
-        "count": 721,
-        "engagement": 2078583
+        "count": 756,
+        "engagement": 2081334
       },
       {
         "hour": "2026-06-16T23:00:00.000Z",
-        "count": 341,
-        "engagement": 157766
+        "count": 360,
+        "engagement": 3459018
       },
       {
         "hour": "2026-06-17T00:00:00.000Z",
-        "count": 173,
-        "engagement": 172086
+        "count": 180,
+        "engagement": 173610
       },
       {
         "hour": "2026-06-17T01:00:00.000Z",
-        "count": 105,
-        "engagement": 45621
+        "count": 108,
+        "engagement": 45694
       },
       {
         "hour": "2026-06-17T02:00:00.000Z",
-        "count": 132,
-        "engagement": 144293
+        "count": 139,
+        "engagement": 1259218
       },
       {
         "hour": "2026-06-17T03:00:00.000Z",
-        "count": 201,
-        "engagement": 380121
+        "count": 223,
+        "engagement": 2596975
       },
       {
         "hour": "2026-06-17T04:00:00.000Z",
-        "count": 403,
-        "engagement": 179736
+        "count": 431,
+        "engagement": 183258
       },
       {
         "hour": "2026-06-17T05:00:00.000Z",
-        "count": 950,
-        "engagement": 237931
+        "count": 1003,
+        "engagement": 239953
       },
       {
         "hour": "2026-06-17T06:00:00.000Z",
-        "count": 1255,
-        "engagement": 214132
+        "count": 1363,
+        "engagement": 945005
       },
       {
         "hour": "2026-06-17T07:00:00.000Z",
-        "count": 1244,
-        "engagement": 70032
+        "count": 1337,
+        "engagement": 75122
       },
       {
         "hour": "2026-06-17T08:00:00.000Z",
-        "count": 442,
-        "engagement": 18608
+        "count": 606,
+        "engagement": 293834
       },
       {
         "hour": "2026-06-17T09:00:00.000Z",
-        "count": 1,
+        "count": 196,
+        "engagement": 348018
+      },
+      {
+        "hour": "2026-06-17T10:00:00.000Z",
+        "count": 220,
+        "engagement": 105449
+      },
+      {
+        "hour": "2026-06-17T11:00:00.000Z",
+        "count": 63,
+        "engagement": 791
+      },
+      {
+        "hour": "2026-06-17T12:00:00.000Z",
+        "count": 0,
         "engagement": 0
+      },
+      {
+        "hour": "2026-06-17T13:00:00.000Z",
+        "count": 1,
+        "engagement": 68
       }
     ],
     "hashtags": [
       {
         "tag": "perte",
-        "count": 5694
+        "count": 5397
       },
       {
         "tag": "fyp",
-        "count": 5478
+        "count": 5266
       },
       {
         "tag": "accadeoggi",
-        "count": 5209
+        "count": 5108
       },
       {
         "tag": "viral",
-        "count": 3798
+        "count": 3661
       },
       {
         "tag": "adv",
-        "count": 2733
+        "count": 2583
       },
       {
         "tag": "neiperte",
-        "count": 2346
+        "count": 2250
       },
       {
         "tag": "tiktokshop",
-        "count": 2064
+        "count": 1926
       },
       {
         "tag": "foryou",
-        "count": 1748
+        "count": 1669
       },
       {
         "tag": "napoli",
-        "count": 1637
+        "count": 1573
       },
       {
         "tag": "cavalcalondadeirisparmi",
-        "count": 1582
+        "count": 1519
       },
       {
         "tag": "italia",
-        "count": 1318
+        "count": 1268
       },
       {
         "tag": "offertestive",
-        "count": 1259
+        "count": 1201
       },
       {
         "tag": "italy",
-        "count": 1153
+        "count": 1119
       },
       {
         "tag": "capcut",
-        "count": 1072
+        "count": 1046
       },
       {
         "tag": "calcio",
-        "count": 973
-      },
-      {
-        "tag": "offerteperte",
-        "count": 954
-      },
-      {
-        "tag": "virale",
-        "count": 952
+        "count": 927
       },
       {
         "tag": "madeinitaly",
-        "count": 946
+        "count": 925
+      },
+      {
+        "tag": "offerteperte",
+        "count": 922
       },
       {
         "tag": "perteeee",
-        "count": 938
+        "count": 899
+      },
+      {
+        "tag": "virale",
+        "count": 897
       },
       {
         "tag": "roma",
-        "count": 823
+        "count": 794
       },
       {
         "tag": "amore",
-        "count": 816
+        "count": 780
       },
       {
         "tag": "f1",
-        "count": 800
-      },
-      {
-        "tag": "estate",
         "count": 773
       },
       {
+        "tag": "estate",
+        "count": 746
+      },
+      {
         "tag": "milano",
-        "count": 766
+        "count": 742
       },
       {
         "tag": "voliamoneixte✈🦁🔝💯💥",
-        "count": 761
+        "count": 729
       }
     ],
     "creators": [
       {
-        "name": "433",
-        "posts": 92,
-        "engagement": 44112778,
-        "platform": "ig",
-        "followers": 77275609,
-        "avgEr": 0.006214758499079928
-      },
-      {
         "name": "fabriziorom",
-        "posts": 61,
-        "engagement": 40202968,
+        "posts": 69,
+        "engagement": 44877796,
         "platform": "ig",
         "followers": 45260692,
-        "avgEr": 0.014603937060436105
+        "avgEr": 0.014404065760579171
+      },
+      {
+        "name": "433",
+        "posts": 88,
+        "engagement": 42214948,
+        "platform": "ig",
+        "followers": 77275609,
+        "avgEr": 0.006217400679235147
       },
       {
         "name": "fabrizioromano",
@@ -400,36 +395,36 @@
         "avgEr": 0.007591819718075432
       },
       {
-        "name": "leomessi",
-        "posts": 7,
-        "engagement": 27118115,
-        "platform": "ig",
-        "followers": 507015476,
-        "avgEr": 0.007640824810979593
-      },
-      {
         "name": "realmadrid",
-        "posts": 42,
-        "engagement": 26636546,
+        "posts": 41,
+        "engagement": 26223824,
         "platform": "ig",
         "followers": 178918225,
-        "avgEr": 0.0035464271911336454
+        "avgEr": 0.00357662707679924
       },
       {
-        "name": "f1",
-        "posts": 75,
-        "engagement": 19000500,
+        "name": "leomessi",
+        "posts": 6,
+        "engagement": 22316334,
         "platform": "ig",
-        "followers": 42970336,
-        "avgEr": 0.005917351195049078
+        "followers": 507015476,
+        "avgEr": 0.00733584905404347
       },
       {
         "name": "neymarjr",
-        "posts": 3,
-        "engagement": 17507388,
+        "posts": 4,
+        "engagement": 21181707,
         "platform": "ig",
         "followers": 235300141,
-        "avgEr": 0.024801498100249758
+        "avgEr": 0.022504987576696778
+      },
+      {
+        "name": "f1",
+        "posts": 70,
+        "engagement": 18125180,
+        "platform": "ig",
+        "followers": 42970336,
+        "avgEr": 0.006046624648077747
       },
       {
         "name": "bts.bighitofficial",
@@ -441,11 +436,11 @@
       },
       {
         "name": "fcbarcelona",
-        "posts": 23,
-        "engagement": 13003054,
+        "posts": 22,
+        "engagement": 12184095,
         "platform": "ig",
         "followers": 145674822,
-        "avgEr": 0.003881816037730918
+        "avgEr": 0.003802625231147827
       },
       {
         "name": "thv",
@@ -465,11 +460,11 @@
       },
       {
         "name": "scuderiaferrari",
-        "posts": 73,
-        "engagement": 8372789,
+        "posts": 70,
+        "engagement": 8165659,
         "platform": "ig",
         "followers": 20492727,
-        "avgEr": 0.005597898942226532
+        "avgEr": 0.005692977472301829
       },
       {
         "name": "charlidamelio",
@@ -480,15 +475,32 @@
         "avgEr": 0.0038079993708561182
       },
       {
-        "name": "arianagrande",
-        "posts": 8,
-        "engagement": 7550927,
+        "name": "mrbeast",
+        "posts": 5,
+        "engagement": 7070594,
         "platform": "ig",
-        "followers": 363450837,
-        "avgEr": 0.0046445507486957294
+        "followers": 87132261,
+        "avgEr": 0.01623051203105841
       }
     ],
     "posts": [
+      {
+        "platform": "ig",
+        "author": "divellaofficial",
+        "time": "2026-06-17T10:00:17Z",
+        "text": "C'è un ordine nelle cose che chi ha imparato a cucinare da qualcuno conosce bene. Prima il sugo, poi la pasta, poi il pesce spada scottato all'ultimo momento perché resti morbido e non perda la sua succulenza.\nLe Caserecce Trafilate al Bronzo n.25 de",
+        "engagement": 10,
+        "engagementRate": 0.0003317409766454352,
+        "sentiment": "neg",
+        "hashtags": [
+          "divella",
+          "passionemediterranea",
+          "pasta",
+          "passionemediterraneanelmondo"
+        ],
+        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t39.30808-6/723406814_1433900672102366_57064864722762010_n.jpg?stp=c0.0.1638.2048a_dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_cat=109&ig_cache_key=MzkyMTQyNTg3NjUyODUwMDUwMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTYzOS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=UzFVz5GFFpgQ7kNvwErchuj&_nc_oc=Adpq_1i95IS8IZDyUt5e6bUaKRuOi6L-ikTmM0-EQqtnhXz4SRn3-VoxqJMdVD1I_I-BUfN93PJ3ObORlPjhcTAX&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=846Yb3lbFLqVhsAeSlxORA&_nc_ss=7a3ba&oh=00_Af8rFQmD2Lch8nh8b7P7vU6noJwJncSqD2r8W2vurezJ0Q&oe=6A383A2E",
+        "url": "https://www.instagram.com/p/3921425892575895361/"
+      },
       {
         "platform": "ig",
         "author": "elenazeng__",
@@ -539,8 +551,8 @@
         "author": "divellaofficial",
         "time": "2026-06-15T18:00:49Z",
         "text": "Alcune ricette nascono dalla semplicità di chi sa quello che sta facendo. Pesce spada, pomodorini, melanzana fritta e le Caserecce n.25 trafilate al bronzo Divella, che con la loro forma trattengono tutto.\n\nNon servono grandi gesti ma solo gli ingred",
-        "engagement": 21,
-        "engagementRate": 0.000696656050955414,
+        "engagement": 26,
+        "engagementRate": 0.0008625265392781317,
         "sentiment": "neg",
         "hashtags": [
           "divella",
@@ -548,7 +560,7 @@
           "pasta",
           "passionemediterraneanelmondo"
         ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t39.30808-6/722933622_1433870325438734_2817258847215894259_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=101&ig_cache_key=MzkyMDIxODIwMzgwODk3ODg5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTYzOS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ioqpNkqlE4EQ7kNvwEQAmOj&_nc_oc=AdqQ0YhUHLpEwZb7sCGk4KH9ARpT9ICNZdbQqaX5KXjj0uiBghyamF-NHnAmJE9-4zjaDgxuCFkhSStzLMeq-kGi&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=K-bCLBbcRZqzP1KVABS37w&_nc_ss=7a3ba&oh=00_Af8I6LOf2uHudv_-7NosMFr9z2k75cP-o3M_SpRiLbBPXg&oe=6A36D48A",
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t39.30808-6/722933622_1433870325438734_2817258847215894259_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=101&ig_cache_key=MzkyMDIxODIwMzgwODk3ODg5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTYzOS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ioqpNkqlE4EQ7kNvwGthK3p&_nc_oc=AdqcziOgqKncd43FMzXHBc_EW8fpIR7rRcRzUGe9ORAVKsi1dS-c9wjM43Dw4e5uVx3FDJbdRhyJMXB2JYQZ8nJc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=846Yb3lbFLqVhsAeSlxORA&_nc_ss=7a3ba&oh=00_Af8cC0SPcrFLkzwERdOX9aSl0ET97Hh_F75tXXBiE1lm3Q&oe=6A385E4A",
         "url": "https://www.instagram.com/p/3920218203808978890/"
       },
       {
@@ -998,23 +1010,6 @@
       },
       {
         "platform": "tt",
-        "author": "saimon_mh",
-        "time": "2026-06-10T12:05:40Z",
-        "text": "Perfetti per sto caldo asfissiante😌🍇 🍇 Ingredienti: 300ml Acqua totali 15gr Gelatina in Polvere Succo di Limone q.b. 10gr Jell’O al Limone Colorante verde, opzionale Uva 🧊 Procedimento: Tagliamo l’Uva a metà e prepariamo la base sciogliendo in un",
-        "engagement": 41481,
-        "engagementRate": 0.01728375,
-        "sentiment": "neu",
-        "hashtags": [
-          "cucina",
-          "ricetteveloci",
-          "ghiaccioli",
-          "estate"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/og1DivTADnZAipAAHEBAaBxEp6AIYEJBiUk0l~tplv-tiktokx-origin.image?dr=10395&x-expires=1781852400&x-signature=KjzgWDPTwOdmLKeT%2BJoLjvTY1uA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@saimon_mh/video/7649736761471520022"
-      },
-      {
-        "platform": "tt",
         "author": "giovannimele",
         "time": "2026-06-15T15:51:23Z",
         "text": "PASTA FREDDA a modo mio 😎 Riposta la ricetta e seguimi 🫂 È iniziato il caldo afoso, asfissiante. Quello che ti debilita proprio, ti toglie le forze e, qualche volta, anche la voglia di mangiare. Che poi se sono piatti caldi peggio ancora…meglio pia",
@@ -1060,18 +1055,6 @@
         ],
         "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oMDIj2GqXy6eq6fQfkCsImbIIsHLQIUpLgAA2W~tplv-tiktokx-origin.image?dr=10395&x-expires=1781852400&x-signature=lJdVX%2FadA7OX2z00lmY5pFQvzGI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
         "url": "https://www.tiktok.com/@fabriziogalluzzo7sette/video/7651569218462207254"
-      },
-      {
-        "platform": "tt",
-        "author": "fra.9892",
-        "time": "2026-06-10T12:09:00Z",
-        "text": "Sì ma sbrigati che devo finire la mia pasta @Gigi ",
-        "engagement": 38521,
-        "engagementRate": 0.36512796208530807,
-        "sentiment": "pos",
-        "hashtags": [],
-        "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oAbUIfTFDDAqFe5EdiEtriQaIBmQCu3QgaRkVA~tplv-tiktokx-origin.image?dr=10395&x-expires=1781852400&x-signature=cyWdOMG%2FmB77WPjC%2FQfbY4RPG6g%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
-        "url": "https://www.tiktok.com/@fra.9892/video/7647874809300274465"
       },
       {
         "platform": "tt",
@@ -1143,6 +1126,42 @@
         "hashtags": [],
         "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oQ27gIIrhGAEeu40N9LzLjULSIwA0DVXg1eXfI~tplv-tiktokx-origin.image?dr=10395&x-expires=1781852400&x-signature=7%2BT9ANlcq9vnhEjCCylqcLndU2s%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@aaliceperego/video/7651607257053957398"
+      },
+      {
+        "platform": "tt",
+        "author": "rosariarinaldispeedychef",
+        "time": "2026-06-12T17:34:17Z",
+        "text": "Succo di albicocche. Ricetta qui ⤵️  Ingredienti: 1kg di albicocche pesate senza  nocciolo 1l acqua 150g zucchero succo di 1 limone   Procedimento  Prima di tutto dobbiamo pulire la frutta. Sciacquiamo bene le albicocche che dovranno essere mature e ",
+        "engagement": 31942,
+        "engagementRate": 0.159949924887331,
+        "sentiment": "pos",
+        "hashtags": [
+          "succodifrutta",
+          "fattoincasa",
+          "albicocche",
+          "succo",
+          "speedychef"
+        ],
+        "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/okFczAfzSFIAhQIACuwsEniik1AXA1stBjCiB5~tplv-tiktokx-dmt-logom:tos-no1a-i-0068-no/oQEqCsVAEdtFOAQATgJELuUARL6hDFAfEf1IMk.image?dr=10393&x-expires=1781852400&x-signature=5OyqQTa%2F39JowYOrB7mEKK9TN4s%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@rosariarinaldispeedychef/video/7650563608459496726"
+      },
+      {
+        "platform": "tt",
+        "author": "spunticulinari",
+        "time": "2026-06-10T16:19:15Z",
+        "text": "INVOLTINI DI MELANZANA RIPIENI 🤤😍 Ig spunticulinari 💕 SALVA LA RICETTA ✨ Per circa 10 involtini hai bisogno di: - Melanzana 1 grande  - Ricotta 250g - Feta 100g - Pecorino grattugiato qb - Olio extravergine d’oliva qb - Prezzemolo qb - Aglio 1 spi",
+        "engagement": 30990,
+        "engagementRate": 0.31525940996948115,
+        "sentiment": "pos",
+        "hashtags": [
+          "ricettadelgiorno",
+          "ricette",
+          "ricettefacili",
+          "antipasto",
+          "ricetteveloci"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oIYFiAajBtAOOSpyiopGEAiIBJgP9sYEAmAAB~tplv-tiktokx-origin.image?dr=10395&x-expires=1781852400&x-signature=2dIHK5m6xNBHwPqba4NDfNtUUgg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
+        "url": "https://www.tiktok.com/@spunticulinari/video/7649802115153399062"
       },
       {
         "platform": "yt",
@@ -1261,32 +1280,6 @@
         ],
         "imageUrl": "https://i.ytimg.com/vi/zj2wZN_-0dw/hqdefault.jpg",
         "url": "https://www.youtube.com/watch?v=zj2wZN_-0dw"
-      },
-      {
-        "platform": "yt",
-        "author": "RapaNello",
-        "time": "2026-06-10T12:00:19Z",
-        "text": "COSTE e PATATE LE HAI MAI FATTE? Finalmente le coste buone ricetta facile di coste e patate\n\n■ Qui trovi tutto, i miei libri e le cose che uso nei video, le magliette.\nhttps://linktr.ee/rapanello\n■  Ecco il sito internet ufficiale gratuito   https://",
-        "engagement": 1994,
-        "engagementRate": 0.0024199029126213594,
-        "sentiment": "neg",
-        "hashtags": [
-          "coste",
-          "costeepatate",
-          "bietola",
-          "bietole",
-          "cucinaitaliana",
-          "ricettafacile",
-          "ricetteveloci",
-          "rapanello",
-          "ricetterapanello",
-          "pancetta",
-          "parmigiano",
-          "contorno",
-          "salvacena"
-        ],
-        "imageUrl": "https://i.ytimg.com/vi/88tFIzP3aFA/hqdefault.jpg",
-        "url": "https://www.youtube.com/watch?v=88tFIzP3aFA"
       },
       {
         "platform": "yt",
@@ -1418,21 +1411,38 @@
       },
       {
         "platform": "yt",
-        "author": "polverediriso",
-        "time": "2026-06-10T12:00:36Z",
-        "text": "🌸TORTE FACILI EFFETTO WOW: Torta Numero 3✨\nQuesta è la torta che ho preparato per la mia nipotina Flaminia per i suoi 3 anni 🩷 \nUn dolce facilissimo da preparare, alla portata di tutti, con zero sforzo ma bellissimo 😍\n\nDopo il successo del tronche",
-        "engagement": 1485,
-        "engagementRate": 0.01400943396226415,
+        "author": "piovonoricette",
+        "time": "2026-06-16T10:27:17Z",
+        "text": "Questo piatto di pasta mettera’ l’acquolina in bocca ancor prima di portarla in tavola! #food",
+        "engagement": 1405,
+        "engagementRate": 0.009493243243243243,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": null,
+        "url": "https://www.youtube.com/watch?v=tN5oCycOZ6s"
+      },
+      {
+        "platform": "yt",
+        "author": "romi_home",
+        "time": "2026-06-10T17:10:08Z",
+        "text": "#cozycooking  #cottagecore  #cozyhome \nBenvenuti in un nuovo pomeriggio su Romi&Home 🌿✨\nOggi vi porto con me in una routine lenta e profumata, dove la cura della casa si intreccia con i doni del mio orto. Iniziamo con i piccoli gesti del mattino, tr",
+        "engagement": 1350,
+        "engagementRate": 0.01967930029154519,
         "sentiment": "neu",
         "hashtags": [
-          "tortefacilieffettowow",
-          "tortanumero",
-          "tortafacile",
-          "senzacottura",
-          "compleannobambini"
+          "cozycooking",
+          "cottagecore",
+          "cozyhome",
+          "slowliving",
+          "vitarurale",
+          "ricetteestive",
+          "ortoincucina",
+          "routinecasa",
+          "romiehome",
+          "simpleliving"
         ],
-        "imageUrl": "https://i.ytimg.com/vi/k_T3G79zKIo/hqdefault.jpg",
-        "url": "https://www.youtube.com/watch?v=k_T3G79zKIo"
+        "imageUrl": "https://i.ytimg.com/vi/Fir3UVDeqpk/hqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=Fir3UVDeqpk"
       }
     ]
   },
@@ -2061,9 +2071,9 @@
     {
       "name": "Divella",
       "mentions": 20,
-      "socialMentions": 5,
-      "totalMentions": 25,
-      "shareOfVoice": 30.1,
+      "socialMentions": 6,
+      "totalMentions": 26,
+      "shareOfVoice": 33.8,
       "posts": [
         {
           "type": "news",
@@ -2071,14 +2081,6 @@
           "source": "SKY TG24",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBmNGhVazBnU2lWSC0tSXB5TTZqZk5hdTlTWWpMZDR1a3dqbWVRTllsYzlIVG80enhrNXZRTkVZNDR2T205bEdzc19nMjZpWG9PRVNCVFN5OGI3TkdsOW5KcXhYNFFEcktlVXI3NndTSVdaN19md2JGQzBMSDg?oc=5",
           "date": "2026-06-12T13:54:43.000Z",
-          "brand": "Divella"
-        },
-        {
-          "type": "news",
-          "title": "Esposto dei consumatori all'Antitrust contro pasta Divella - ANSA",
-          "source": "ANSA",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQcFRfRmtLOF93TXdWWEk1YVJNdkhzV2pFOWRUS1lYNE9sQm5qdWNvbTd4YlE5ZHc0NTZIYjZXSm9GdkZJVE9mZXlTMlFwODZ2TnBHbDFnOWlQMXZkSEtzdUpRWjA4SVJGakRBTjJLSE5sNW5TeUVyWnE0M1hnaEQwQ001ZjlfWU9HNHBMa0RGN2lZc2tobl9XVmpUVnNldmFrbzNJM1ViZklvdmJwNURJSUVlZnpiNV94Y19qOVhuVGltTmlXN1ROSXR1elBhTDV6RVJJUjBVX0tmQ2RDXzRTTUQ1M3ltUQ?oc=5",
-          "date": "2026-06-12T08:04:00.000Z",
           "brand": "Divella"
         },
         {
@@ -2091,6 +2093,22 @@
         },
         {
           "type": "news",
+          "title": "Esposto dei consumatori all'Antitrust contro pasta Divella - ANSA",
+          "source": "ANSA",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQcFRfRmtLOF93TXdWWEk1YVJNdkhzV2pFOWRUS1lYNE9sQm5qdWNvbTd4YlE5ZHc0NTZIYjZXSm9GdkZJVE9mZXlTMlFwODZ2TnBHbDFnOWlQMXZkSEtzdUpRWjA4SVJGakRBTjJLSE5sNW5TeUVyWnE0M1hnaEQwQ001ZjlfWU9HNHBMa0RGN2lZc2tobl9XVmpUVnNldmFrbzNJM1ViZklvdmJwNURJSUVlZnpiNV94Y19qOVhuVGltTmlXN1ROSXR1elBhTDV6RVJJUjBVX0tmQ2RDXzRTTUQ1M3ltUQ?oc=5",
+          "date": "2026-06-12T08:04:00.000Z",
+          "brand": "Divella"
+        },
+        {
+          "type": "news",
+          "title": "Antitrust: Coldiretti, fare piena luce sull’inganno della pasta “Tricolore” di Divella - Agricolae",
+          "source": "AGRICOLAE",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQR1FjM0tIbnpFTkhfVTkyVXRzYkxiN3Z1S2dOSEtidGZadnc3cXdwa1VEd2N5aE9KcUtSMDNTTEVZeEQ1c2FRb1EtTWduQkQxTllpNjdYbl9GY0dfN1ZBYm01YWo4c1lyY2l2OUlXVDhWSE9mRDVlSU1HZlFaMW1raFBqYUpIVG1KQmdSU0RvcFB5dEZyMzg3aDJ0RFQwZmszZWFYeURB?oc=5",
+          "date": "2026-06-12T13:33:00.000Z",
+          "brand": "Divella"
+        },
+        {
+          "type": "news",
           "title": "Pasta Divella nel mirino di Codacons e Adusbef: esposto all'Antitrust sull'origine del grano - BariToday",
           "source": "BARITODAY",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSlZ6azd2WDNFbGtkUHU5SGRjOEw2bHNxSk13SGF0VzBHUTFMOHBNQzFCcFJUd3JhZWdDdUZFcVl4ODVBbkFRMThoaWpfV0cyd1ZKVUxST1VzX1RWR3hzSWdrejZFckFWZE9NY1ZUTW53Z3JoSFpwa2c4cnVubEw1SktTc3Z5bHdsdmNYQ3BMSjV4bkxQaHpsWHJIa2lPM2RJLXc?oc=5",
@@ -2099,10 +2117,10 @@
         },
         {
           "type": "news",
-          "title": "Spaghetti tricolore, ma il grano da dove arriva? Tempesta sulla pasta Divella - BresciaToday",
-          "source": "BRESCIATODAY",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9mTUVSMG0zSElLaWRITndfUklXUnVYSEFBVzZnQVA2b01MTTB3U2xZMy13bzJENHNBV0hJT0U4V1dienNSWFAyU0tQZnphYXFNTTRDT0ZGMV8yUldVOXdETHpWaTR6WUFxX1FCMF9YSQ?oc=5",
-          "date": "2026-06-13T11:31:18.000Z",
+          "title": "Spaghetti tricolore, ma il grano da dove arriva? Tempesta sulla pasta Divella: \"Inganno sul Made in Italy\" - today.it",
+          "source": "TODAY.IT",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBoVVhDNFdLX19XYVlnUnVidlZZWXV0SUJ1NjNEbjBxb2JPWlBpVklUZTBXUGNSdGJ3cUhpOWdVOEVEVmVfUGdaMzJobzNxbWU4d0FyRkJUZDhpclkyeldTa3lDTTFPOEl3QjdsQ1M4b9IBb0FVX3lxTE56dlJkUnhTaXRPZ3BrU0lvZ0p6WHNWc1J5TTUwUm9CQTdLb0UtcmZsNjVGRmJtcjVIODI3WEUyZWhXVG5VbC13Z19DSVJOOFBPdGVJc0l0TWxUNDVtOXV4cFNWbmpCLXF3Z2kwZ3hkTQ?oc=5",
+          "date": "2026-06-12T13:44:04.000Z",
           "brand": "Divella"
         },
         {
@@ -2125,16 +2143,8 @@
           "type": "news",
           "title": "Pasta Divella, esposto di Codacons e Adusbef per italian sounding. L’azienda: “Vicenda conclusa” - Help Consumatori",
           "source": "HELP CONSUMATORI",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQclI4dWpOd2hLODJST2NIcUM0QlpjbzFHLU5EQlRIc0wtc1U3NDdSTGNWS2FBZlcwYk81N29NUThPSXRMTWxqbWF2cEFaaFVUMTJ1ZW9hakRjMWRpdlhhXzF2YWJWNEhDX1ktTk8wbzU5UzRqaWRvYjR4NWpkWDF2b3V6QzN0dGFKQ0kzTmc2MlBWa3VWYnpCMzQ5R0ktV08tSmkxbU16SUJLZlJJYWk4cHZEMHI3ZFlvNjg5cFdWMDhfcmluY1o1NEU4SDk2dEhkdlE?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQOE5wUDI3QWtfT3hTbnRGdVU2TmZPSXR5YTk4dEZfWXlTbF9BdkxJRUR6THhfR2J1ejJaZk5JNlZDV3lTTmpNcGJnd2tzaFRCS2ROM183dGJQb1JCeVp5M3RvMzZ6OFdhMmNNMGdUVUVpaEc4THA3YUc2N3lpVE9aZEtuRGxiUFctbkpfS0dzYUhJblBzc05ZMTY1VjNLMDh0cHpRNmNXc2NhMkszcDR4UVpYYWlmS1ZhUWJ2c1l3cDF1alRCam8zaFVYbXFxZUI5dmc?oc=5",
           "date": "2026-06-15T09:45:36.000Z",
-          "brand": "Divella"
-        },
-        {
-          "type": "news",
-          "title": "Pasta Divella, esposto all’Antitrust: contestata la trasparenza sull’origine del grano - Torino Cronaca",
-          "source": "TORINO CRONACA",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZENBSVpyczQyZmF4SXo5YlE2OUN2VDUzWEVNSU9ELS1FeW42dUxtTHJKMEFwdElSdktxM1dBbHNCckZGWVljb19VTU82ZEpHVlZYR0Zubm5OdUtINVZHZFVsSkRTenlSQldwWF9aMVdmWXQyLTdUakRobkQzbkNCbF9yLXRuSFU2SzFvWVhWUHpsRHVmRmRLcGpydmFDTER0LTZuQTJEYmp4Z3dpWl9NYTFGbFIyRzNaaDRLT0xUbWpTQzZtcnJySnVBQjFlMnJDMXc?oc=5",
-          "date": "2026-06-12T15:30:00.000Z",
           "brand": "Divella"
         },
         {
@@ -2211,18 +2221,18 @@
         },
         {
           "type": "news",
-          "title": "Divella replica alle accuse sulle confezioni: “Vicenda chiusa da oltre 6 anni” - Buonasera24",
-          "source": "BUONASERA24",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUkhDb1c0Z05ZQnBROTVHQTRBQ2tGS25kU2dkRkV2alI0RTA2UDRxVkZPN2pwZ2Y2T1dqdUNJM0gtYXVncDZJdjhjRkxYMVhVekdUZ3FsR3N5Ry1QV183UVVfVnIyNHFDYllYY1Ztak45S1VFaXRXUHhRQndQMTJDSDVicXhmT2lJOHZ5MUNVRzV0Z0xSSTk3U1JfOXIwVHRtWmV1cVNwdy1GZUJqelptTUxRTDRITDlrVERGdmJwdDNHa1JpQ1E?oc=5",
-          "date": "2026-06-13T13:32:00.000Z",
+          "title": "Tricolore sulla confezione, ma il grano arriva anche dall’estero: esposto contro Divella - Italia a Tavola",
+          "source": "ITALIA A TAVOLA",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOLXYxdXVpcXhuNHBaakNrb05KTE9IMHJPSk03LU9hRnlIM2I1dmJGbFdTQm5hWGxtZkJ6YW9oN3I2eUhEWkhvaHo1b0F6WDROT3dRSjlENTNWSVY4OFh6TnJ1OGZxOXY2WXZNdzhwcWFEbWtNdHVJbEprOFZfb09UWjh6Vnl6YWg5cUgtSWFQM1RzZS1uaEgwMGZxZlN5cjR0WFhxVm02X3ptR1VkYWtwS1V5U2Z3R0ZMV3NvOUpzWXZwd3JGRXNHV2I3RTF3Qms?oc=5",
+          "date": "2026-06-12T13:58:00.000Z",
           "brand": "Divella"
         },
         {
           "type": "news",
-          "title": "Esposto Codacons-Adusbef contro Divella: “Indicazioni fuorvianti sull’origine del grano” - Senza Colonne News",
-          "source": "SENZA COLONNE NEWS",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUHZ0VWw4eklqUDVfa0pzYTB5UGxuanRYUUh5VllzckctXzBUemlqVnR0S2d6RDFJNm02VXR5UWstYS1kTTc4SnkzX1d2X1k2T1JQTUNUUm5rZS1sbGNGXzhmSDRiRjhFR3NOb3ZuSEZvOUhVQlZpY1dYbHJ3bGVIM1NWam1XSm5UeXQ5YlhGLXowekxSVDNIWmRXbk1adkdWWjJkRV9Ba0lUYUxHSEphZFJhYUlDellLUC1jR3RCU1dkdkZibURnVFVQeGVRUjg?oc=5",
-          "date": "2026-06-13T05:25:30.000Z",
+          "title": "divella - imgpress",
+          "source": "IMGPRESS",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVmV0U0ItYVhITWhuSm14SVBrRFVLcWVsdmI0ZXNQX3lDVkZCalhaOWllcmg1ZF9RdUNoOG9GZThqdHVydWZtTmJHTHhsaUlmcTVSdTZpRTIzMlhIS290bURNU3kwSmpTWG5iNTh3X0EwY1FUTWhqVzJqZnpXMEJ3UTNxU0JmNUk2MXMzT3JSLXpwSTg2WjFuUlFZNk5LNVlENG5qVGxheUp5eEgtLS1WS3V0cnBWc1dMRXFtVzNmeENQSTY1M3BUMlNzeEE?oc=5",
+          "date": "2026-06-12T15:09:40.000Z",
           "brand": "Divella"
         },
         {
@@ -2250,7 +2260,7 @@
           "platform": "ig",
           "author": "divellaofficial",
           "text": "Certe mattine hanno un ritmo tutto loro. Lento, silenzioso, con la luce che entra dalla finestra e il caffelatte ancora caldo. \nGli Ottimini Integrali Divella sono fatti per stare in quel momento, con la loro semplicità di sempre e quel sapore  che c",
-          "engagement": 29,
+          "engagement": 31,
           "date": "2026-06-12T08:01:01Z",
           "url": "https://www.instagram.com/p/3917741978271910345/",
           "brand": "Divella"
@@ -2260,7 +2270,7 @@
           "platform": "ig",
           "author": "divellaofficial",
           "text": "Qui gli Spaghetti n. 8 Divella fanno la differenza: la consistenza perfetta per accogliere e trattenere il condimento di scampi, finocchietto, mollica e noci. Un piatto semplice che sa di cose fatte bene.\n\n#divella #passionemediterraneanelmondo",
-          "engagement": 26,
+          "engagement": 27,
           "date": "2026-06-10T19:00:23Z",
           "url": "https://www.instagram.com/p/3916624305584730951/",
           "brand": "Divella"
@@ -2270,19 +2280,29 @@
           "platform": "ig",
           "author": "divellaofficial",
           "text": "Alcune ricette nascono dalla semplicità di chi sa quello che sta facendo. Pesce spada, pomodorini, melanzana fritta e le Caserecce n.25 trafilate al bronzo Divella, che con la loro forma trattengono tutto.\n\nNon servono grandi gesti ma solo gli ingred",
-          "engagement": 21,
+          "engagement": 26,
           "date": "2026-06-15T18:00:49Z",
           "url": "https://www.instagram.com/p/3920218203808978890/",
+          "brand": "Divella"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "divellaofficial",
+          "text": "C'è un ordine nelle cose che chi ha imparato a cucinare da qualcuno conosce bene. Prima il sugo, poi la pasta, poi il pesce spada scottato all'ultimo momento perché resti morbido e non perda la sua succulenza.\nLe Caserecce Trafilate al Bronzo n.25 de",
+          "engagement": 10,
+          "date": "2026-06-17T10:00:17Z",
+          "url": "https://www.instagram.com/p/3921425892575895361/",
           "brand": "Divella"
         }
       ]
     },
     {
       "name": "Barilla",
-      "mentions": 11,
+      "mentions": 9,
       "socialMentions": 7,
-      "totalMentions": 18,
-      "shareOfVoice": 21.7,
+      "totalMentions": 16,
+      "shareOfVoice": 20.8,
       "posts": [
         {
           "type": "news",
@@ -2298,14 +2318,6 @@
           "source": "EGNEWS.IT",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSWlNNVBrdXg1NWZnbHN3VTk4MXBicHZuYzl2MUtaQ1M2U0JmZWdiNHdkbTBJU1c2QmR5cVE0SnhLeThCMnNKZEpxM3dEYmh5X0VBZkJCRWRvbUFhUS0xZzVPTnVRU3RXX1FJR3k5dVExWDIxQVFkNEtoV01ZZ3Y1c0ZCQ1V1YWRBajVUS2xYOXZVLW5NamZPYnNsWm1zVUczZ2RpRzJQWld0ZkxXalg5YXJERGI4eDA?oc=5",
           "date": "2026-06-11T12:25:34.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "\"E…state al dente!\": gli eventi della bottega Barilla - ParmaToday",
-          "source": "PARMATODAY",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xYUxpUTkzdFZaZVlnZTZ5VU1vRGhtSW05LXBjY0tpbjQ2NmlhRjg1TGFZTmluckU5bnNtbmNHMFNhQjN2Y09TUmNWMHNsQjB2WG0tUjdaRm5JUS1lSjNMUlQ1VUZ3TkJxSjVKLWtvVTg?oc=5",
-          "date": "2026-06-10T15:07:00.000Z",
           "brand": "Barilla"
         },
         {
@@ -2350,10 +2362,10 @@
         },
         {
           "type": "news",
-          "title": "Agricoltori e Coldiretti in piazza contro i trafficanti di olio e grano - LaRampa",
-          "source": "LARAMPA",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWnZ2eWpOZ2tGTFIwOTBYb1Y5NkVQT0tYWkRpQ2hncnBnS3NVdW42RFlvNEh6eXZ6R2pSUzM4bGhJMFJ4T2ZwNEh4WFZIVTZkcTlwSTIteDAyVzVYQTRxbTMyVjBNUXlVRHRQNVJ2LWg1VUZjM0tVVjY4TXBCaWp6WVNwY0xQelNjM0tyekZSMUtoeUxtUmV3?oc=5",
-          "date": "2026-06-10T13:40:28.000Z",
+          "title": "Spaghetti tricolore ma il grano da dove arriva? Tempesta sulla pasta Divella - Zazoom Social News",
+          "source": "ZAZOOM SOCIAL NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSFhrVjY4bzR0ckkxVWJfSXhad0l6SWZ6elh3Q2VBR2tocnYwRTNFZ3d4MHpHeXp6YldpVzVmNXVYOG0ySm95djRPMXprLUE3Vk1ZX1lValoyVWhCSVQ0aW1GemEwb2UzU3ZQWDBNYm5BOTNBOWltbU5hMExGNTF5S0ZjelNIUjEyTHJGcGtiQmhleE5HTm0wc0lUaWhwTmlfTlRCbVllNnNzbnd5V3lzYjZwX1lmeVY3a1E?oc=5",
+          "date": "2026-06-13T12:19:28.000Z",
           "brand": "Barilla"
         },
         {
@@ -2362,14 +2374,6 @@
           "source": "ANTEPRIMA VOLANTINO",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcktGbzFFQjhlZ2pKWHh1YkthX0dqVTVpd0Q1RnNwaWxnaTAxUWdLc3pYb0YyMjdzSVZuRHRmWnJYQTBZYWVNak53ZHFuZGFRLVFMd21lNzdWNTJudk9zeGZjRTFPTngyU1BtN2puSHNpWjFlbTM5S1c2cE1iQXhuX0pSSkpZWDhaRW1tc25LWE8?oc=5",
           "date": "2026-06-12T05:01:48.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Spaghetti tricolore ma il grano da dove arriva? Tempesta sulla pasta Divella - Zazoom Social News",
-          "source": "ZAZOOM SOCIAL NEWS",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSFhrVjY4bzR0ckkxVWJfSXhad0l6SWZ6elh3Q2VBR2tocnYwRTNFZ3d4MHpHeXp6YldpVzVmNXVYOG0ySm95djRPMXprLUE3Vk1ZX1lValoyVWhCSVQ0aW1GemEwb2UzU3ZQWDBNYm5BOTNBOWltbU5hMExGNTF5S0ZjelNIUjEyTHJGcGtiQmhleE5HTm0wc0lUaWhwTmlfTlRCbVllNnNzbnd5V3lzYjZwX1lmeVY3a1E?oc=5",
-          "date": "2026-06-13T12:19:28.000Z",
           "brand": "Barilla"
         },
         {
@@ -2446,19 +2450,11 @@
     },
     {
       "name": "Garofalo",
-      "mentions": 4,
+      "mentions": 3,
       "socialMentions": 6,
-      "totalMentions": 10,
-      "shareOfVoice": 12,
+      "totalMentions": 9,
+      "shareOfVoice": 11.7,
       "posts": [
-        {
-          "type": "news",
-          "title": "Melaverde: Praline al cioccolato \"Melaverde\" Video - Mediaset Infinity",
-          "source": "MEDIASET INFINITY",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRk51ZVYwUDhrbzZtSG5PQ0RhZ1FPc3ctWktGelA2bjVjb0Fld0JLMHNSblYtaThZUUx3YWR5aUZ4bFZ0TV9zYTh3dDU3Qk5haHZUWURlbEVRamRqR0l4cl8wWlJGOWxuQzFNZFJYQkJGOHlmN0R5YkNhempQNGtyVC02OXZiOG5lMHBHemM5Mm1FZXFhYi00anE0UUZvclpjTy13?oc=5",
-          "date": "2026-06-14T10:42:50.000Z",
-          "brand": "Garofalo"
-        },
         {
           "type": "news",
           "title": "Pasta Divella: l'origine del grano è poco chiara in etichetta? Scatta l'esposto all'Antitrust (ma l'azienda non ci sta) - greenMe",
@@ -2480,7 +2476,7 @@
           "title": "Volantino Ipercoop dal 18 giugno 2026 - Anteprima Volantino",
           "source": "ANTEPRIMA VOLANTINO",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQlJ3U1dpeGFwUkFWMnp4Z2ItQkdENjhveGpRczJxaG1qTHNFbzEwOGxNc2Y3Y2Q5T0s2VHNmemdQYmhFVVRDQjVZakpCWHdmSkNaTWRlZ1hFTW1Ed3JWTnotWXJfekR3RTgzc3pKZy1aekpTQ1dHYVdHWU9yMGlBOTQteFQzQQ?oc=5",
-          "date": "2026-06-16T23:07:14.000Z",
+          "date": "2026-06-17T11:36:30.000Z",
           "brand": "Garofalo"
         },
         {
@@ -2547,10 +2543,10 @@
     },
     {
       "name": "La Molisana",
-      "mentions": 9,
+      "mentions": 8,
       "socialMentions": 1,
-      "totalMentions": 10,
-      "shareOfVoice": 12,
+      "totalMentions": 9,
+      "shareOfVoice": 11.7,
       "posts": [
         {
           "type": "news",
@@ -2582,14 +2578,6 @@
           "source": "FORCHECAUDINE.COM",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeUJoWGtncHRDdy1tS2RsNmYxV2VCRzRrajFuYjRsa3J3YXhvVW5EMUU1QlNnNHo1MHl5QzV0RHRCNEFJTVdaNFRvSFpVbFlmQzEtZ1RKZk44S3hvTGdGYVVfU3dzT3BURUVJWUQ1MW40Nzgzd3p3LVpaZWxHc0xXZF9n?oc=5",
           "date": "2026-06-12T06:30:30.000Z",
-          "brand": "La Molisana"
-        },
-        {
-          "type": "news",
-          "title": "Pasta italiana tra innovazione e gusto - The Way Magazine",
-          "source": "THE WAY MAGAZINE",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMUlySDRocWlaSk8wT25ZSzJYcWo5cXJlX3Y0eXVYNm9aTHp1V1RvM0RiYk91UjV1V0lSLTZZUW5WS0tpQTkyMmJvQUIxeHpTR09jcFVoMDdKOEFuNEt0TjFxcERWOGFBTTVsWmFCaEpoMkxIWFZWcEhHNF8yc1dtOHp3?oc=5",
-          "date": "2026-06-14T18:48:09.000Z",
           "brand": "La Molisana"
         },
         {
@@ -2638,10 +2626,10 @@
     },
     {
       "name": "De Cecco",
-      "mentions": 8,
+      "mentions": 7,
       "socialMentions": 1,
-      "totalMentions": 9,
-      "shareOfVoice": 10.8,
+      "totalMentions": 8,
+      "shareOfVoice": 10.4,
       "posts": [
         {
           "type": "news",
@@ -2649,14 +2637,6 @@
           "source": "IL SOLE 24 ORE",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZ095emtVcUZHUkZseUg1S2xkVFMzX29uYW1qbU4zMmhUY09zdmZzYWk1dGtyOWcySklGOWx3RHhvYjNqTlUzY2l5ajExZG1fczhqQXNSR2MxMm03UVdXeklqVjBQVUhYODQ0LTlwZWZaRTNYb1ZSMERCN0lRREpxUlFHU0VHZWpxRHZxaHZMV29nenc?oc=5",
           "date": "2026-06-11T05:06:26.000Z",
-          "brand": "De Cecco"
-        },
-        {
-          "type": "news",
-          "title": "Rinnovo Rsu allo stabilimento De Cecco a Fara San Martino: trionfa la Fai Cisl Abruzzo Molise - ChietiToday",
-          "source": "CHIETITODAY",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNk1pS0JCU0stVkRleGFPRkViQTQyVWFrTTZQR2pZM0xCdHdwZTdnbW5HMkxQenJTSi1DTzVZeHpNRGk0cWJWWm1EZEdTWmNIQ0NtRURKRUUxU21EMXBDQmFhQkNKaDQxRzlkTzM2ZEVOUGxJbmRtdXRFN3JkS0Q4OFlBeFpBQXV4c05EWHZB?oc=5",
-          "date": "2026-06-10T13:22:19.000Z",
           "brand": "De Cecco"
         },
         {
@@ -2688,7 +2668,7 @@
           "title": "Volantino Ipercoop dal 18 giugno 2026 - Anteprima Volantino",
           "source": "ANTEPRIMA VOLANTINO",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQlJ3U1dpeGFwUkFWMnp4Z2ItQkdENjhveGpRczJxaG1qTHNFbzEwOGxNc2Y3Y2Q5T0s2VHNmemdQYmhFVVRDQjVZakpCWHdmSkNaTWRlZ1hFTW1Ed3JWTnotWXJfekR3RTgzc3pKZy1aekpTQ1dHYVdHWU9yMGlBOTQteFQzQQ?oc=5",
-          "date": "2026-06-16T23:07:14.000Z",
+          "date": "2026-06-17T11:36:30.000Z",
           "brand": "De Cecco"
         },
         {
@@ -2722,9 +2702,9 @@
     {
       "name": "Rummo",
       "mentions": 2,
-      "socialMentions": 4,
-      "totalMentions": 6,
-      "shareOfVoice": 7.2,
+      "socialMentions": 3,
+      "totalMentions": 5,
+      "shareOfVoice": 6.5,
       "posts": [
         {
           "type": "news",
@@ -2756,16 +2736,6 @@
           "type": "social",
           "platform": "ig",
           "author": "pasta_rummo",
-          "text": "C’è chi dice che un tappo di sughero aiuti a rendere morbido il polpo e chi sostiene che sia solo un gesto scaramantico. Qualunque sia la verità, in questa ricetta il abbiamo unito il polpo in due consistenze, morbido e croccante, per unirlo alle pat",
-          "engagement": 1198,
-          "date": "2026-06-10T13:30:20Z",
-          "url": "https://www.instagram.com/reel/3916458254290634440/",
-          "brand": "Rummo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "pasta_rummo",
           "text": "Uno dei trucchi per rendere molto morbido il polpo è quello di cuocerlo molto lentamente. È proprio quello che abbiamo fatto in questa ricetta che unisce il polpo morbido e croccante alle patate e alla Calamarata n° 141 Rummo. Il tutto aromatizzato d",
           "engagement": 342,
           "date": "2026-06-15T16:36:00Z",
@@ -2786,10 +2756,10 @@
     },
     {
       "name": "Voiello",
-      "mentions": 4,
+      "mentions": 3,
       "socialMentions": 1,
-      "totalMentions": 5,
-      "shareOfVoice": 6,
+      "totalMentions": 4,
+      "shareOfVoice": 5.2,
       "posts": [
         {
           "type": "news",
@@ -2797,14 +2767,6 @@
           "source": "IL SALVAGENTE",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRDZBOXRVQmtUYkpuWGRyZHRPTjRZanhXbDRZZ082UzBKNEFaajZxdmhBcTdRd2dNcU53bC1GRmZtdkZyUVRGOHJaZGFaa0V6NVp5alBzekxPVjUtSkhlY2RCSnl3QmJSRUdWeFM5dlQ1dmRFUG9pc1dXOFdkdEdDMmoyamVQTnU1dTlLV25QcDk?oc=5",
           "date": "2026-06-11T16:00:02.000Z",
-          "brand": "Voiello"
-        },
-        {
-          "type": "news",
-          "title": "Agricoltori e Coldiretti in piazza contro i trafficanti di olio e grano - LaRampa",
-          "source": "LARAMPA",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWnZ2eWpOZ2tGTFIwOTBYb1Y5NkVQT0tYWkRpQ2hncnBnS3NVdW42RFlvNEh6eXZ6R2pSUzM4bGhJMFJ4T2ZwNEh4WFZIVTZkcTlwSTIteDAyVzVYQTRxbTMyVjBNUXlVRHRQNVJ2LWg1VUZjM0tVVjY4TXBCaWp6WVNwY0xQelNjM0tyekZSMUtoeUxtUmV3?oc=5",
-          "date": "2026-06-10T13:40:28.000Z",
           "brand": "Voiello"
         },
         {
