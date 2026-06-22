@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-06-22T11:52:44.773Z",
+    "generatedAt": "2026-06-22T16:54:39.028Z",
     "pipelineVersion": "1.0.0",
     "sources": {
       "opensearch": true,
@@ -9,19 +9,19 @@
       "claude": false,
       "competitors": true
     },
-    "processingTimeMs": 2818
+    "processingTimeMs": 4731
   },
   "social": {
     "overview": {
-      "totalPosts": 246051,
-      "prevTotalPosts": 258279,
-      "volumeChange": -4.7,
-      "mentions24h": 19461,
-      "totalEngagement": 949410287,
-      "avgEngagementRate": 0.009365659451997865,
-      "erChange": -20.3,
+      "totalPosts": 232353,
+      "prevTotalPosts": 258156,
+      "volumeChange": -10,
+      "mentions24h": 9720,
+      "totalEngagement": 897442639,
+      "avgEngagementRate": 0.009236387164232878,
+      "erChange": -20.9,
       "organicPct": 98,
-      "sponsoredCount": 5812
+      "sponsoredCount": 5386
     },
     "brandHealth": {
       "score": 79,
@@ -29,12 +29,12 @@
       "dimensions": [
         {
           "name": "Sentiment",
-          "score": 69,
+          "score": 68,
           "color": "#00e676"
         },
         {
           "name": "Engagement",
-          "score": 47,
+          "score": 46,
           "color": "#3ba4ff"
         },
         {
@@ -54,7 +54,7 @@
         },
         {
           "name": "Platform Mix",
-          "score": 76,
+          "score": 75,
           "color": "#00e676"
         },
         {
@@ -70,133 +70,108 @@
       ]
     },
     "sentiment": {
-      "netScore": 50,
-      "positive": 59,
+      "netScore": 48,
+      "positive": 58,
       "neutral": 32,
-      "negative": 9
+      "negative": 10
     },
     "platforms": [
       {
         "name": "tt",
-        "count": 125872,
-        "pctOfTotal": 51.2
+        "count": 119490,
+        "pctOfTotal": 51.4
       },
       {
         "name": "ig",
-        "count": 110373,
-        "pctOfTotal": 44.9
+        "count": 103756,
+        "pctOfTotal": 44.7
       },
       {
         "name": "yt",
-        "count": 9806,
-        "pctOfTotal": 4
+        "count": 9107,
+        "pctOfTotal": 3.9
       }
     ],
     "dailyVolume": [
       {
         "date": "2026-06-15T00:00:00.000Z",
-        "count": 25211,
-        "engagement": 129068558,
-        "avgEr": 0.011817789249100317
+        "count": 11466,
+        "engagement": 64203990,
+        "avgEr": 0.012141893636930533
       },
       {
         "date": "2026-06-16T00:00:00.000Z",
         "count": 38850,
-        "engagement": 163558421,
-        "avgEr": 0.010297247690391599
+        "engagement": 163839400,
+        "avgEr": 0.010298417285059591
       },
       {
         "date": "2026-06-17T00:00:00.000Z",
         "count": 39117,
-        "engagement": 204151678,
-        "avgEr": 0.01066469080442478
+        "engagement": 204333329,
+        "avgEr": 0.01066571570932791
       },
       {
         "date": "2026-06-18T00:00:00.000Z",
         "count": 39413,
-        "engagement": 129567908,
-        "avgEr": 0.010305481233569384
+        "engagement": 129772667,
+        "avgEr": 0.010306208271244118
       },
       {
         "date": "2026-06-19T00:00:00.000Z",
         "count": 39350,
-        "engagement": 153408065,
-        "avgEr": 0.00963052489980755
+        "engagement": 153523200,
+        "avgEr": 0.00963048736729634
       },
       {
         "date": "2026-06-20T00:00:00.000Z",
         "count": 33084,
-        "engagement": 111429854,
-        "avgEr": 0.007672169866056962
+        "engagement": 111805174,
+        "avgEr": 0.0076723382676206365
       },
       {
         "date": "2026-06-21T00:00:00.000Z",
-        "count": 30965,
-        "engagement": 58091419,
-        "avgEr": 0.0048528408169977
+        "count": 30979,
+        "engagement": 64235550,
+        "avgEr": 0.004852752711633244
       },
       {
         "date": "2026-06-22T00:00:00.000Z",
-        "count": 61,
-        "engagement": 134384,
-        "avgEr": 0.0010024961678614715
+        "count": 94,
+        "engagement": 5729329,
+        "avgEr": 0.002660376940580189
       }
     ],
     "hourlyVolume": [
       {
-        "hour": "2026-06-21T11:00:00.000Z",
-        "count": 205,
-        "engagement": 578039
-      },
-      {
-        "hour": "2026-06-21T12:00:00.000Z",
-        "count": 2076,
-        "engagement": 5130060
-      },
-      {
-        "hour": "2026-06-21T13:00:00.000Z",
-        "count": 1786,
-        "engagement": 3034433
-      },
-      {
-        "hour": "2026-06-21T14:00:00.000Z",
-        "count": 1657,
-        "engagement": 3118034
-      },
-      {
-        "hour": "2026-06-21T15:00:00.000Z",
-        "count": 1889,
-        "engagement": 2095658
-      },
-      {
         "hour": "2026-06-21T16:00:00.000Z",
-        "count": 2347,
-        "engagement": 4738477
+        "count": 177,
+        "engagement": 117605
       },
       {
         "hour": "2026-06-21T17:00:00.000Z",
-        "count": 2153,
-        "engagement": 2588252
+        "count": 2155,
+        "engagement": 3699099
       },
       {
         "hour": "2026-06-21T18:00:00.000Z",
-        "count": 2175,
-        "engagement": 6284281
+        "count": 2177,
+        "engagement": 7174616
       },
       {
         "hour": "2026-06-21T19:00:00.000Z",
-        "count": 1891,
-        "engagement": 1588027
+        "count": 1892,
+        "engagement": 1588608
       },
       {
         "hour": "2026-06-21T20:00:00.000Z",
-        "count": 1396,
-        "engagement": 742019
+        "count": 1397,
+        "engagement": 1185701
       },
       {
         "hour": "2026-06-21T21:00:00.000Z",
-        "count": 918,
-        "engagement": 2517134
+        "count": 920,
+        "engagement": 5269360
       },
       {
         "hour": "2026-06-21T22:00:00.000Z",
@@ -205,13 +180,13 @@
       },
       {
         "hour": "2026-06-21T23:00:00.000Z",
-        "count": 241,
-        "engagement": 7390
+        "count": 242,
+        "engagement": 7934
       },
       {
         "hour": "2026-06-22T00:00:00.000Z",
-        "count": 42,
-        "engagement": 78407
+        "count": 43,
+        "engagement": 738000
       },
       {
         "hour": "2026-06-22T01:00:00.000Z",
@@ -220,13 +195,13 @@
       },
       {
         "hour": "2026-06-22T02:00:00.000Z",
-        "count": 4,
-        "engagement": 554
+        "count": 6,
+        "engagement": 1574068
       },
       {
         "hour": "2026-06-22T03:00:00.000Z",
-        "count": 3,
-        "engagement": 19186
+        "count": 4,
+        "engagement": 622500
       },
       {
         "hour": "2026-06-22T04:00:00.000Z",
@@ -240,18 +215,18 @@
       },
       {
         "hour": "2026-06-22T06:00:00.000Z",
-        "count": 1,
-        "engagement": 60
+        "count": 8,
+        "engagement": 486614
       },
       {
         "hour": "2026-06-22T07:00:00.000Z",
-        "count": 0,
-        "engagement": 0
+        "count": 1,
+        "engagement": 520478
       },
       {
         "hour": "2026-06-22T08:00:00.000Z",
-        "count": 1,
-        "engagement": 29276
+        "count": 3,
+        "engagement": 758920
       },
       {
         "hour": "2026-06-22T09:00:00.000Z",
@@ -260,136 +235,169 @@
       },
       {
         "hour": "2026-06-22T10:00:00.000Z",
+        "count": 4,
+        "engagement": 556774
+      },
+      {
+        "hour": "2026-06-22T11:00:00.000Z",
+        "count": 0,
+        "engagement": 0
+      },
+      {
+        "hour": "2026-06-22T12:00:00.000Z",
+        "count": 7,
+        "engagement": 231066
+      },
+      {
+        "hour": "2026-06-22T13:00:00.000Z",
         "count": 2,
-        "engagement": 5430
+        "engagement": 573
+      },
+      {
+        "hour": "2026-06-22T14:00:00.000Z",
+        "count": 5,
+        "engagement": 238745
+      },
+      {
+        "hour": "2026-06-22T15:00:00.000Z",
+        "count": 3,
+        "engagement": 120
       }
     ],
     "hashtags": [
       {
         "tag": "perte",
-        "count": 5410
+        "count": 5131
       },
       {
         "tag": "fyp",
-        "count": 5192
+        "count": 4915
       },
       {
         "tag": "accadeoggi",
-        "count": 4995
+        "count": 4814
       },
       {
         "tag": "viral",
-        "count": 3555
+        "count": 3383
       },
       {
         "tag": "adv",
-        "count": 2941
+        "count": 2722
       },
       {
         "tag": "neiperte",
-        "count": 2299
+        "count": 2185
       },
       {
         "tag": "tiktokshop",
-        "count": 2089
+        "count": 1972
       },
       {
         "tag": "foryou",
-        "count": 1768
+        "count": 1686
       },
       {
         "tag": "napoli",
-        "count": 1585
+        "count": 1487
       },
       {
         "tag": "cavalcalondadeirisparmi",
-        "count": 1584
+        "count": 1483
       },
       {
         "tag": "offertestive",
-        "count": 1283
+        "count": 1222
       },
       {
         "tag": "italia",
-        "count": 1209
+        "count": 1159
       },
       {
         "tag": "italy",
-        "count": 1088
+        "count": 1032
       },
       {
         "tag": "estate",
-        "count": 967
+        "count": 934
       },
       {
         "tag": "capcut",
-        "count": 953
+        "count": 892
       },
       {
         "tag": "madeinitaly",
-        "count": 943
+        "count": 871
       },
       {
         "tag": "calcio",
-        "count": 923
+        "count": 860
       },
       {
         "tag": "virale",
-        "count": 884
+        "count": 845
       },
       {
         "tag": "roma",
-        "count": 857
+        "count": 800
       },
       {
         "tag": "sheintrends",
-        "count": 825
-      },
-      {
-        "tag": "perteeee",
-        "count": 817
+        "count": 800
       },
       {
         "tag": "amore",
-        "count": 810
+        "count": 779
       },
       {
-        "tag": "summer",
-        "count": 761
+        "tag": "perteeee",
+        "count": 768
       },
       {
         "tag": "voliamoneixte✈🦁🔝💯💥",
-        "count": 758
+        "count": 722
+      },
+      {
+        "tag": "summer",
+        "count": 714
       },
       {
         "tag": "offerteestive",
-        "count": 741
+        "count": 699
       }
     ],
     "creators": [
       {
         "name": "433",
-        "posts": 79,
-        "engagement": 46682988,
+        "posts": 74,
+        "engagement": 44584226,
         "platform": "ig",
         "followers": 77275609,
-        "avgEr": 0.00764696527638077
+        "avgEr": 0.007796632706453864
       },
       {
-        "name": "leomessi",
-        "posts": 5,
-        "engagement": 38067790,
+        "name": "fabriziorom",
+        "posts": 73,
+        "engagement": 36561739,
         "platform": "ig",
-        "followers": 508800211,
-        "avgEr": 0.014963747725332604
+        "followers": 45912781,
+        "avgEr": 0.010980538310561094
       },
       {
         "name": "realmadrid",
-        "posts": 48,
-        "engagement": 31711189,
+        "posts": 53,
+        "engagement": 33561512,
         "platform": "ig",
         "followers": 178918225,
-        "avgEr": 0.0036924677228009233
+        "avgEr": 0.0035392485895257356
+      },
+      {
+        "name": "leomessi",
+        "posts": 4,
+        "engagement": 32284530,
+        "platform": "ig",
+        "followers": 508800211,
+        "avgEr": 0.015863068303641092
       },
       {
         "name": "cristiano",
@@ -400,20 +408,12 @@
         "avgEr": 0.009180887427176954
       },
       {
-        "name": "fabriziorom",
-        "posts": 63,
-        "engagement": 30215180,
-        "platform": "ig",
-        "followers": 45912781,
-        "avgEr": 0.010529341717553275
-      },
-      {
         "name": "fabrizioromano",
-        "posts": 74,
-        "engagement": 26000137,
+        "posts": 70,
+        "engagement": 24643841,
         "platform": "tt",
         "followers": 24400000,
-        "avgEr": 0.014456373554718066
+        "avgEr": 0.014481805054184834
       },
       {
         "name": "annehathaway",
@@ -425,11 +425,11 @@
       },
       {
         "name": "fcbarcelona",
-        "posts": 26,
-        "engagement": 16297003,
+        "posts": 25,
+        "engagement": 16029410,
         "platform": "ig",
         "followers": 145674822,
-        "avgEr": 0.00430278753106908
+        "avgEr": 0.004401422230672092
       },
       {
         "name": "dualipa",
@@ -440,12 +440,20 @@
         "avgEr": 0.1434386116122001
       },
       {
+        "name": "neymarjr",
+        "posts": 3,
+        "engagement": 11938735,
+        "platform": "ig",
+        "followers": 236389701,
+        "avgEr": 0.01683482113010217
+      },
+      {
         "name": "f1",
-        "posts": 48,
-        "engagement": 10838596,
+        "posts": 41,
+        "engagement": 10192750,
         "platform": "ig",
         "followers": 42970336,
-        "avgEr": 0.005254882887891156
+        "avgEr": 0.00578547159921173
       },
       {
         "name": "zlatan",
@@ -456,20 +464,12 @@
         "avgEr": 0.026078991763011622
       },
       {
-        "name": "neymarjr",
-        "posts": 2,
-        "engagement": 9071988,
+        "name": "k.mbappe",
+        "posts": 3,
+        "engagement": 8124310,
         "platform": "ig",
-        "followers": 235300141,
-        "avgEr": 0.01927748101094423
-      },
-      {
-        "name": "thv",
-        "posts": 1,
-        "engagement": 8508358,
-        "platform": "ig",
-        "followers": 74335196,
-        "avgEr": 0.11445934709044152
+        "followers": 131175095,
+        "avgEr": 0.020644950425485364
       },
       {
         "name": "erling",
@@ -480,12 +480,12 @@
         "avgEr": 0.024532886665344117
       },
       {
-        "name": "k.mbappe",
-        "posts": 3,
-        "engagement": 7970907,
+        "name": "enzozelocchi",
+        "posts": 6,
+        "engagement": 6774805,
         "platform": "ig",
-        "followers": 130666667,
-        "avgEr": 0.020333946376699115
+        "followers": 23644515,
+        "avgEr": 0.04775459199170153
       }
     ],
     "posts": [
@@ -771,24 +771,6 @@
       },
       {
         "platform": "ig",
-        "author": "cucinafacileconelena",
-        "time": "2026-06-15T16:50:33Z",
-        "text": "Oggi vi do la ricetta del vostro prossimo dolce preferito 😍 solo tre ingredienti e due minuti per questo cremosissimo BUDINO DI BISCOTTI 🍪 una coccola fresca e super golosa che vi farà innamorare 💜\n\n👉🏻 SEGUIMI @cucinafacileconelena per ricevere ",
-        "engagement": 69241,
-        "engagementRate": 0.09335244217463287,
-        "sentiment": "pos",
-        "hashtags": [
-          "budino",
-          "biscotti",
-          "cioccolato",
-          "dessert",
-          "easyrecipe"
-        ],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/723162061_1330133081808402_2207970516334352974_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=106&ig_cache_key=MzkyMDE4MjI0NzUwMTc4NjI0NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=7XfXIsCLtpIQ7kNvwG2A2dy&_nc_oc=Adqg2nhoKrNmcAaqm9XwIcyOpEgcFpioffdT9DlhPn4QsF4ELWWhVobskqkA-dSdimygMLk7JdChFX9NNG8Rxn4J&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=R2ZBzdlkENhbCgd6W47Ufw&_nc_ss=7a3ba&oh=00_Af-T_pM5lXkrde88iSz8v1jZvD-0kW_H_xL8AfsPxTTwrA&oe=6A3E314E",
-        "url": "https://www.instagram.com/reel/3920182247501786245/"
-      },
-      {
-        "platform": "ig",
         "author": "beardedscara",
         "time": "2026-06-19T10:38:26Z",
         "text": "🐔POLLO PANATO 🌽\n\nIngredienti - per QUATTRO persone:\n\r\n🐔 700g petto di pollo (a fette);\n🥛 130mL latte;\n🫒 40mL olio e.v.o.;\n🍋 40mL succo di limone;\n🍞 80g pangrattato;\n🧀 80g parmigiano;\n🧂 q.b. sale, pepe, prezzemolo, origano secco, scorza di li",
@@ -855,24 +837,6 @@
       },
       {
         "platform": "ig",
-        "author": "andrianakulchytska",
-        "time": "2026-06-15T11:57:32Z",
-        "text": "Perfetti quando fa caldo e hai voglia di uno spuntino fresco🍓☀️🤤\n\n👩‍🍳Ingridienti:\n• 300 g di lamponi\n• 80 g di cioccolato bianco\n• 80 g di cioccolato al latte\n\n❄️Nota bene: bisogna congelare i lampioni prima di passare nel cioccolato\n\n#ricettefac",
-        "engagement": 48602,
-        "engagementRate": 0.03707088026750955,
-        "sentiment": "pos",
-        "hashtags": [
-          "ricettefacili",
-          "dolcifacili",
-          "lamponi",
-          "cioccolato",
-          "ricetta"
-        ],
-        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/722075425_18543391426074429_7276136508992707059_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=111&ig_cache_key=MzkyMDAzNDc5NTExNzI0MzEzMTE4NTQzMzkxNDIzMDc0NDI5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=K9Dh6HNDenUQ7kNvwGyynBD&_nc_oc=Adob854_A5fY88gvhs2yTsxiWnMJY36ClOuHRXegUXfd11KGqZBJ6xNcAK6b3GHqMk9BYP8UNM0ArrRCafmw39xw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=MeXMMzI4tm7YRw2ib--QSg&_nc_ss=7a3ba&oh=00_Af-uC8M4EzvRM3KTvU1w00OyGF2AB1uA7XpbAkPXlq4BKg&oe=6A3E47F0",
-        "url": "https://www.instagram.com/reel/3920034795117243131/"
-      },
-      {
-        "platform": "ig",
         "author": "fattoincasadabenedetta",
         "time": "2026-06-21T06:30:10Z",
         "text": "PIADINA PIGRA Una delle ricette inutili di Marco, perfetta per una cena estiva e  per quando abbiamo poco tempo 😊\n\nIn realtà la ricetta è di @chefdavidfiordigiglio\n\nGli ingredienti sono solo tre e la preparazione è ancora più semplice :\n\n1 bicchiere",
@@ -908,24 +872,6 @@
       },
       {
         "platform": "ig",
-        "author": "cucinamammaela",
-        "time": "2026-06-15T16:25:59Z",
-        "text": "HO PROVATO TANTISSIME RICETTE CON LE ZUCCHINE, MA QUESTE CRÊPES NON LE BATTE NESSUNO. 🥒✨\n\nLeggere, gustose e facilissime da preparare: sono una di quelle ricette che ti salvano le cene estive quando hai poche idee e poca voglia di stare ai fornelli.",
-        "engagement": 41569,
-        "engagementRate": 0.059073558795023885,
-        "sentiment": "pos",
-        "hashtags": [
-          "crepesdizucchine",
-          "zucchine",
-          "ricetteconzucchine",
-          "cenaestiva",
-          "salvacena"
-        ],
-        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/723428103_18078624467692777_8381066323242817475_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=111&ig_cache_key=MzkyMDE2ODUwNzU5MjMwODUxODE4MDc4NjI0NDY0NjkyNzc3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNjQuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=K46VqNzuFoYQ7kNvwEQTBrH&_nc_oc=AdqOcrx_mbk7dSfqhmrygWgNZXcPNhYc2KRBOTjN4WHBJMt-mMQnDOstvu4J86CAQCRjwufOGr9L11QVufncrANQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=EkPYOhtrF0XuCZuPqv_OdQ&_nc_ss=7a3ba&oh=00_Af_0dhnblRXh_5YiB3WxZvXKWxiZ6IpWUsZdL0cudBTRLQ&oe=6A3E26E2",
-        "url": "https://www.instagram.com/reel/3920168507592308518/"
-      },
-      {
-        "platform": "ig",
         "author": "with_asso",
         "time": "2026-06-19T15:10:01Z",
         "text": "E voi la provereste questa bistecca?😏🥩 Vi piace sto tipo di video?👀\n#bistecca #ricetta #zackdfilms #challenge #fyp",
@@ -941,6 +887,51 @@
         ],
         "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/726838475_1858755072145655_6871850917515143210_n.jpg?stp=dst-jpegr_e15_p360x360_tt6&_nc_cat=106&ig_cache_key=MzkyMzAyODU3MzY4Mzg3NjEzNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=-3q_nfQfeJAQ7kNvwFXya63&_nc_oc=Adr9PFTqrYswPpRPXt1HfjVbu0MS0iLKlqY0EJgWzu7txLikWi1vIS8J5sFyBi27mEz8fkYbi82XyMJaUldBPvql&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=qJIQD7aw4gkbe8lAuXOE9w&_nc_ss=7a3ba&oh=00_Af_Zxh-uVsvMF8zuTKe71yUmIMF7vsbzzVtkIy5TgCeliA&oe=6A3E423A",
         "url": "https://www.instagram.com/reel/3923028573683876136/"
+      },
+      {
+        "platform": "ig",
+        "author": "andrea.presti_ifbbpro",
+        "time": "2026-06-21T17:06:42Z",
+        "text": "“FIGATA o MINKIATA”?\nIl dott. @beardedscara valuta l’ormai iconica ricetta “Tonno al naturale e Coca0”.\nQuale sarà stato il verdetto?",
+        "engagement": 40968,
+        "engagementRate": 0.06762114464731962,
+        "sentiment": "pos",
+        "hashtags": [],
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/727465746_18562379620068120_3120068405833661538_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=1&ig_cache_key=MzkyNDUzNzg0ODk3NDM1MjMzNTE4NTYyMzc5NjE0MDY4MTIw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=4M6V_6r9sp0Q7kNvwFrsINU&_nc_oc=AdpttJJ_2hjDn6pboMMTRSwqV_GPMesaOMoJFYBe0pXhz_XYsQDpmxdkdZkt9rzjcO60l_UMQbuGnt5TpBOk98Hu&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=A2p53-JHdtWJGBeVhuo36w&_nc_ss=7a3ba&oh=00_Af-US4tS6vzMrAiFpNQOwO5lTQms7-GdxJpI6Mm6CG9big&oe=6A3E3E6F",
+        "url": "https://www.instagram.com/reel/3924537848974352335/"
+      },
+      {
+        "platform": "ig",
+        "author": "ristoranteratana",
+        "time": "2026-06-21T09:55:34Z",
+        "text": "CROSTONE CON TZATZIKI\n\n#food #milano #cocktail",
+        "engagement": 39973,
+        "engagementRate": 0.08882099368944983,
+        "sentiment": "pos",
+        "hashtags": [
+          "food",
+          "milano",
+          "cocktail"
+        ],
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/728265931_18604413925055167_7370892871912119105_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=1&ig_cache_key=MzkyNDMyMTU3MjEyMDk1MDg2NzE4NjA0NDEzOTIyMDU1MTY3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTcuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=8vI9bJrT62AQ7kNvwGZpOgz&_nc_oc=AdoXCIy2kevzPjAAPjWKiwhkau_Zc49QWpkUbYvoBTNnMhea9eciFkRPmLDidHvSWRrA2OPWG7P_NC7uv3uknzZj&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=_u53v3kVlezS87ZgRYv89g&_nc_ss=7a3ba&oh=00_Af8TsMheWoVcue4s9ruRTvRup0lL1WGjOs092PscF4kNSw&oe=6A3E2A03",
+        "url": "https://www.instagram.com/reel/3924321572120950867/"
+      },
+      {
+        "platform": "ig",
+        "author": "fattoincasadabenedetta",
+        "time": "2026-06-18T10:00:09Z",
+        "text": "PASTA AL FORNO CON LE ZUCCHINE Un primo piatto vegetariano cremoso, facile e irresistibile, perfetto per i pranzi in famiglia 😊\n\nINGREDIENTI\n\n320g di mezze maniche o altra pasta corta\n500g di zucchine\n1 cipolla\n100g di robiola\n250g di mozzarella\n40g",
+        "engagement": 37792,
+        "engagementRate": 0.006977046013389533,
+        "sentiment": "neg",
+        "hashtags": [
+          "ricettafacile",
+          "pastaalforno",
+          "fattoincasadabenedetta",
+          "zucchine"
+        ],
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/724242686_18599634472037488_2524148790416038107_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=1&ig_cache_key=MzkyMjE1MDY0OTQxOTc0NDAzNjE4NTk5NjM0NDY2MDM3NDg4.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTUuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=WY-FSJ4YNI4Q7kNvwGt598I&_nc_oc=Ado9Jg4GWrRW5XxYOUi0AQCZFMyJ31ix35mXM7dH1sc7sydlavXJTucI7i-B19M5LKSeJDYTHhnqt2tke3M5GDSG&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=c8NLA38Lzw34Yg0CJDAgNg&_nc_ss=7a3ba&oh=00_Af_W1FWUj_AqtY5y_odxzixqnQKsRbQTJMYSEYcYnDQ68g&oe=6A3E54DC",
+        "url": "https://www.instagram.com/reel/3922150649419744036/"
       },
       {
         "platform": "tt",
@@ -1010,24 +1001,6 @@
       },
       {
         "platform": "tt",
-        "author": "massilava",
-        "time": "2026-06-15T12:03:59Z",
-        "text": "Il lattaiolo 🥛 Mio zio è andato in pensione e, invece di guardare i cantieri, ha deciso di diventare un pasticcere.👨‍🍳 L’altro giorno mi ha fatto scoprire il lattaiolo, un dolce tipico toscano pazzesco che onestamente non conoscevo. Potevo starmen",
-        "engagement": 79610,
-        "engagementRate": 0.1359460382513661,
-        "sentiment": "pos",
-        "hashtags": [
-          "lattaiolo",
-          "latte",
-          "cucinaitaliana",
-          "ricette",
-          "dolce"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oMBNIAB6FAfvqAZnv0DDS5LiAKxiEC1FCIwAiG~tplv-tiktokx-origin.image?dr=10395&x-expires=1782255600&x-signature=gJP7BbnsN8bOog%2BnrIcHrcnuxjE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@massilava/video/7651591743405559062"
-      },
-      {
-        "platform": "tt",
         "author": "saimon_mh",
         "time": "2026-06-19T12:01:28Z",
         "text": "NON BUTTARE LA BUCCIA D’ANGURIA: trasformala in caramelle! 🍉🍬 🍉 Ingredienti: 450gr Buccia d’anguria 250gr Zucchero 200ml Acqua Acido citrico q.b. Zucchero q.b. per la copertura 👨🏻‍🍳 Procedimento: Eliminate la parte verde più esterna della bucci",
@@ -1045,18 +1018,6 @@
       },
       {
         "platform": "tt",
-        "author": "giovannimele",
-        "time": "2026-06-15T15:51:23Z",
-        "text": "PASTA FREDDA a modo mio 😎 Riposta la ricetta e seguimi 🫂 È iniziato il caldo afoso, asfissiante. Quello che ti debilita proprio, ti toglie le forze e, qualche volta, anche la voglia di mangiare. Che poi se sono piatti caldi peggio ancora…meglio pia",
-        "engagement": 72790,
-        "engagementRate": 0.11264314453729496,
-        "sentiment": "pos",
-        "hashtags": [],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o0oUk27WAAAeAjQkAELfYHIGzekQl3DILIFAwI~tplv-tiktokx-dmt-logom:tos-no1a-i-0068-no/o4AeEzCqFgAIjARcAE13fAqAw42DMFt9BkmHHE.image?dr=10393&x-expires=1782255600&x-signature=7HITwLhxMfsSKZNUe%2Fi%2BcqlfnEY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@giovannimele/video/7651650341125016854"
-      },
-      {
-        "platform": "tt",
         "author": "danyresconi",
         "time": "2026-06-20T05:51:49Z",
         "text": "Piatto preferito? 😋 #comedy #ricetta ",
@@ -1069,24 +1030,6 @@
         ],
         "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/osRInyKTFDKN9kj24FFkgoIERAfdC0gfETBqQi~tplv-tiktokx-origin.image?dr=10395&x-expires=1782255600&x-signature=hahO%2BJZ7QnS5DTkJMOIoPdjoGpA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@danyresconi/video/7653351169380748567"
-      },
-      {
-        "platform": "tt",
-        "author": "cucinamammaela",
-        "time": "2026-06-15T16:31:33Z",
-        "text": "HO PROVATO TANTISSIME RICETTE CON LE ZUCCHINE, MA QUESTE CRÊPES NON LE BATTE NESSUNO. 🥒✨ Leggere, gustose e facilissime da preparare: sono una di quelle ricette che ti salvano le cene estive quando hai poche idee e poca voglia di stare ai fornelli. ",
-        "engagement": 48857,
-        "engagementRate": 0.2022226821192053,
-        "sentiment": "pos",
-        "hashtags": [
-          "crepesdizucchine",
-          "zucchine",
-          "ricetteconzucchine",
-          "cenaestiva",
-          "salvacena"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o0EAsIYwvBBoAynZigHlBIaRKcw7gBQiOLijP~tplv-tiktokx-origin.image?dr=10395&x-expires=1782255600&x-signature=ZaHsLZOB0Zc5sVPp8ND%2B3iJOJgo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@cucinamammaela/video/7651660692956695830"
       },
       {
         "platform": "tt",
@@ -1140,18 +1083,6 @@
       },
       {
         "platform": "tt",
-        "author": "aaliceperego",
-        "time": "2026-06-15T13:04:10Z",
-        "text": "la pasta di hello kitty 😭 (btw qua costa tutto molto poco!)",
-        "engagement": 36043,
-        "engagementRate": 0.0180215,
-        "sentiment": "neu",
-        "hashtags": [],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oQ27gIIrhGAEeu40N9LzLjULSIwA0DVXg1eXfI~tplv-tiktokx-origin.image?dr=10395&x-expires=1782255600&x-signature=ar31CVPVkqOMZ5FK9obaR0kRquc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@aaliceperego/video/7651607257053957398"
-      },
-      {
-        "platform": "tt",
         "author": "tirmagno",
         "time": "2026-06-19T12:01:37Z",
         "text": "Benvenuti a Non le solite paste fredde  La mia nuova serie in cui vi mostro le mie migliori ricette per realizzare delle paste fredde colorate, fresche e perfette da mettere al centro della tavola! Ingredienti per questa ricetta  500g di pasta  3 bar",
@@ -1178,6 +1109,74 @@
         ],
         "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oUTKu2ypEB7jAi1BAYLEVAxiAbaj17IMyOPAB~tplv-tiktokx-origin.image?dr=10395&x-expires=1782255600&x-signature=3JNCnPQonTfhhDp9QEZt68p4xPk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@briochina05/video/7652333621700791575"
+      },
+      {
+        "platform": "tt",
+        "author": "micheleelorenzo",
+        "time": "2026-06-17T16:43:00Z",
+        "text": "Crostone con albicocche Brie e speck croccante 🥓 #ricetta #albicocche #speck #cibobuono ",
+        "engagement": 29486,
+        "engagementRate": 0.08775595238095238,
+        "sentiment": "pos",
+        "hashtags": [
+          "ricetta",
+          "albicocche",
+          "speck",
+          "cibobuono"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/okyKuAIERImApkPffAEAd7DqAM5FEFTsCgr6zM~tplv-tiktokx-origin.image?dr=10395&x-expires=1782255600&x-signature=S8FZUOadf9zDpr6Mzz%2FVN5OTTvE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@micheleelorenzo/video/7652405824639290646"
+      },
+      {
+        "platform": "tt",
+        "author": "micheleelorenzo",
+        "time": "2026-06-19T20:13:55Z",
+        "text": "Polpette alla mediterranea 🧆 #ricetta #polpette #cucinaitaliana ",
+        "engagement": 29444,
+        "engagementRate": 0.08763095238095238,
+        "sentiment": "pos",
+        "hashtags": [
+          "ricetta",
+          "polpette",
+          "cucinaitaliana"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/ogB4qi4BKIpGeiuBKyzPEiKXsMRcAKwJ11ItAC~tplv-tiktokx-origin.image?dr=10395&x-expires=1782255600&x-signature=W7IgthiOiVbnhTzQIrY2oyn6eUw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@micheleelorenzo/video/7653202344385072406"
+      },
+      {
+        "platform": "tt",
+        "author": "fattoincasadabenedetta",
+        "time": "2026-06-18T17:00:00Z",
+        "text": "PASTA AL FORNO BIANCA CON ZUCCHINE 🥒 Una pasta al forno cremosa, filante e facile da preparare, perfetta quando vogliamo portare in tavola un primo piatto semplice ma davvero gustoso ✨ Questa pasta al forno bianca con zucchine si prepara con mezze m",
+        "engagement": 29044,
+        "engagementRate": 0.020745714285714284,
+        "sentiment": "neu",
+        "hashtags": [
+          "fattoincasadabenedetta",
+          "benedettarossi",
+          "pastaalforno",
+          "ricetteconzucchine",
+          "primipiatti"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oMzklByILBGBpAAymhAxvIEAiAjiaIyOpYHAC~tplv-tiktokx-origin.image?dr=10395&x-expires=1782255600&x-signature=7NtDn9iu66s91PiQuzhCxGZ9gd4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@fattoincasadabenedetta/video/7652356698740641027"
+      },
+      {
+        "platform": "tt",
+        "author": "dietista.paolastavolone",
+        "time": "2026-06-16T08:18:34Z",
+        "text": "Burger di zucchine e ricotta 🥒✨ Una ricetta facile e veloce per portare in tavola le zucchine in modo diverso dal solito: pochi ingredienti, morbidi dentro e dorati fuori!  Ingredienti per 1 porzione: • 1 zucchina grande già cotta • 1 uovo • 100 g d",
+        "engagement": 27885,
+        "engagementRate": 0.12316696113074205,
+        "sentiment": "pos",
+        "hashtags": [
+          "burger",
+          "ricettefacili",
+          "ricetteveloci",
+          "veggies"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oUuCIfQxUgjVDasICDmEAkBkBFMFI7QKqebGdo~tplv-tiktokx-dmt-logom:tos-no1a-i-0068-no/o0tC3fIxSwlIBSAIA81iAsBSBCGiEm5615NZAA.image?dr=10393&x-expires=1782255600&x-signature=zxBKyX79SwkIHXpzEC4Qd8Z%2B%2BJ0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@dietista.paolastavolone/video/7651904714681978135"
       },
       {
         "platform": "yt",
@@ -1527,11 +1526,11 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxOVlBmZTh4enhya3Izc200bVNzZmZ3QTYzT0xtaHJyV0N0LU1IdU1FeFRPd0NUWjh5UUhzbnVDRmVhT2ROYlVhZVFjZ0dfMXJiSWdPSGpNcFE3WG5TNF90bHBqakJjSDl2YWNLUHVhSn"
     },
     {
-      "title": "Barilla lancia i Riccioli Al Bronzo, il nuovo formato di pasta è fatto con 100% grano italiano? - greenMe",
-      "source": "greenMe",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOEVMbFlBbmVadnpMZC1naUxqeEV4amM2Z0V1NkFQajhpcFBhWmR6bThCemxiQVloUlpIcEVBdDFhMjNNUEFiU1ExVGUycjRhSXZXcGRnd2xEVFlfbmJUTWN0NHhXSEJOdk4xX3VUYXc3dDRfN2NyUzNWTW13TjdrN3BEcWxUQ3NmODA4bUxseDhzbDRlNlBhdGRhT1BDLTVGaHBhaEktOW42SGZKWGJpU0M0amE1alBFaHVzQXZNSl9fM1RQOFFYRHdzSWlsT3VDVlhmclZKV3FiUQ?oc=5",
-      "date": "2026-06-05T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOEVMbFlBbmVadnpMZC1naUxqeEV4amM2Z0V1NkFQajhpcFBhWmR6bThCemxiQVloUlpIcEVBdDFhMjNNUEFiU1ExVGUycjRhSXZXcGRnd2xEVFlfbmJUTWN0NHhXSEJOdk4xX3VUYX"
+      "title": "Barilla abbassa i prezzi e recupera quote di mercato. Al via il piano da 280 milioni per l'era dell'Ai - ItalyPost",
+      "source": "ItalyPost",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVW9UUG9qTTZ3WGhGc3pWTk5xN0sxWXpzMTY5NkVaZWJSQkYxd3E1OV82MGZIUFJqanNxanYta2ZQUS05WGVjSzlVdU1vX2dQVmgzWDNJYk1kb1owRW5jUkRnWEZCTm93dEVlR2FLNGg3RXNrUDJkQnUtU2llUHdINElmdmpKZ2twVmVoX0dOVnFwcHFRWmxkZWZETTdBSXNHQU5XRmNSTlpocE9ZQkdYQ0Y0SnhnMVdpdmNaTkFXaEJJMGQ5Y28tTHJpa2JRa1FQaGJodlBzem50V21nTDVKWVhldw?oc=5",
+      "date": "2026-05-31T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVW9UUG9qTTZ3WGhGc3pWTk5xN0sxWXpzMTY5NkVaZWJSQkYxd3E1OV82MGZIUFJqanNxanYta2ZQUS05WGVjSzlVdU1vX2dQVmgzWDNJYk1kb1owRW5jUkRnWEZCTm93dEVlR2FLNG"
     },
     {
       "title": "Riminiwellness, da Barilla la pasta che fa bene al corpo e al pianeta - Adnkronos",
@@ -1628,7 +1627,7 @@
       "title": "Il cibo italiano segue la moda: il 36% di clienti nel mondo è disposto a pagarlo di più (il 44% nel fashion) - Il Sole 24 ORE",
       "source": "Il Sole 24 ORE",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObjE1cUhWSmFMcloxR0VTTjFLMFF5cmhDVFgyd1BaMG1xZjl3R1RJbWxqQlo2Ni1EUmxiRW9hWWViaEpjRXBLZEM4a3NMMF9kM0pTVktDSXhXSW1OLUJ4bm42TWs4ZXJrSlZWZGJGVFk1UV9UTndwcWFvc3JRUEFBdnI0Wno4VU5Va0NmdVVqTmQwVlZHc3NZT3BYbFlydjFNY1NCWGdOcW44aVhYemhJdkx1VHJvUERjNFJvQTNpMnE4TVRqNGk1clVIYVpYa0JBX2l6cw?oc=5",
-      "date": "2026-02-27T08:00:00.000Z",
+      "date": "2026-02-28T08:00:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxObjE1cUhWSmFMcloxR0VTTjFLMFF5cmhDVFgyd1BaMG1xZjl3R1RJbWxqQlo2Ni1EUmxiRW9hWWViaEpjRXBLZEM4a3NMMF9kM0pTVktDSXhXSW1OLUJ4bm42TWs4ZXJrSlZWZGJGVF"
     },
     {
@@ -2107,10 +2106,10 @@
   "competitors": [
     {
       "name": "Garofalo",
-      "mentions": 7,
+      "mentions": 5,
       "socialMentions": 10,
-      "totalMentions": 17,
-      "shareOfVoice": 26.6,
+      "totalMentions": 15,
+      "shareOfVoice": 25.9,
       "posts": [
         {
           "type": "news",
@@ -2134,22 +2133,6 @@
           "source": "MEDIASET INFINITY",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYUEwNFNZZXQ0ZGY0ZHNNMUEzZ0NJX004VEdvaEl5bXgzSzZyaDFtUGVpTWMwNzY5Y3lNRVMtQVVRX2RmcmdsaURjX0EwdndpYmYtTF8wNUhZZFhLbVhhNTVlbHhZTlV4YkRvWVRlc1BHMnhfQmRURVZfc0pBeFE0SHN1RzJtLWRPQngtb1pzdHY1MW0yU1hfalNfLURkZUcyYTJsOVRnaw?oc=5",
           "date": "2026-06-21T10:19:18.000Z",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "news",
-          "title": "Pasta Divella: l'origine del grano è poco chiara in etichetta? Scatta l'esposto all'Antitrust (ma l'azienda non ci sta) - greenMe",
-          "source": "GREENME",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOM3c0RG1Kb2FfbVpyVk1BRlFENEZzSUpzVjIxY2ZlRE1hNmxiZFdORjdBd212T0d4alQwZlphSTVCc0hlN28xeWdkOUR1S2xUUUR4a1FkVW9lYUNWWm44NnhSUHhpYXpDYnp6U0xWTjJFdk03V2E2YUdfbEttRFpLb2tSNjR4Nk1sUVBIUTNMSTd5bXVLRWY2SzlRdWV0ZWF4dFE0aFdsbVk1eXVlblFod1dFbnl3UU8yeEVIanBnYkpzRVItMzZ3d1B2aDhhY043RUNJOEFPRVhYRHVlVHNGTGRFcjRQaXdTM2dQb1Jla3U?oc=5",
-          "date": "2026-06-15T13:51:08.000Z",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "news",
-          "title": "Melaverde: Puntata del 21 giugno Video - Mediaset Infinity",
-          "source": "MEDIASET INFINITY",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSGVOeVhEU21fQWhjS3p6eGNta0I2Y2pJNnV1UHRYVXFsTlMyN1VUYzZkWEhHZlU1WFJuTjBkOGJSWVBZRTR3eWFlZFVQVHFkNnE3SElzOElyb0JYZXFhOTFaMlBIQ2dUTEF2ZkROek8wbDlMbDZrUnBWcEJlQ25VaVJyWG1TTWRmSTVtQ0U3WFM3Yno0Q3c?oc=5",
-          "date": "2026-06-21T11:17:30.000Z",
           "brand": "Garofalo"
         },
         {
@@ -2272,10 +2255,10 @@
     },
     {
       "name": "Divella",
-      "mentions": 9,
+      "mentions": 7,
       "socialMentions": 4,
-      "totalMentions": 13,
-      "shareOfVoice": 20.3,
+      "totalMentions": 11,
+      "shareOfVoice": 19,
       "posts": [
         {
           "type": "news",
@@ -2283,14 +2266,6 @@
           "source": "EGNEWS.IT",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbzhZUnFiNEpPZkNxUHoyam5aeWg0emRwdVU4LTlsaU4zY3dMeXpCZHphbXUzTkJRb19fWjBrSUhZNHU5MzNfc1BxNU1Pak1helpoa1RTQk1wRTg4ZVMzbVR0QVJidDhfbEl6TnJld1FqOGhvVXdvNHBBNHM0eVQwa2xzMFFVem1qSldmcGNGY2VlREh3?oc=5",
           "date": "2026-06-22T10:07:50.000Z",
-          "brand": "Divella"
-        },
-        {
-          "type": "news",
-          "title": "Pasta Divella: l'origine del grano è poco chiara in etichetta? Scatta l'esposto all'Antitrust (ma l'azienda non ci sta) - greenMe",
-          "source": "GREENME",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOM3c0RG1Kb2FfbVpyVk1BRlFENEZzSUpzVjIxY2ZlRE1hNmxiZFdORjdBd212T0d4alQwZlphSTVCc0hlN28xeWdkOUR1S2xUUUR4a1FkVW9lYUNWWm44NnhSUHhpYXpDYnp6U0xWTjJFdk03V2E2YUdfbEttRFpLb2tSNjR4Nk1sUVBIUTNMSTd5bXVLRWY2SzlRdWV0ZWF4dFE0aFdsbVk1eXVlblFod1dFbnl3UU8yeEVIanBnYkpzRVItMzZ3d1B2aDhhY043RUNJOEFPRVhYRHVlVHNGTGRFcjRQaXdTM2dQb1Jla3U?oc=5",
-          "date": "2026-06-15T13:51:08.000Z",
           "brand": "Divella"
         },
         {
@@ -2307,14 +2282,6 @@
           "source": "INPRIMAPAGINA",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOemhWMHVBeTdGTHNYYWI4OU1DZVA1eVptMGM5V2tZUGlhbmNoa3lTUEtxWjI4aWhId3Y1emhvekVvSVllblF1SGg3Rll4TkVwSTRYaW1FczRKaEx3U0tnMW41QXdjcENYT1ZYOFlJbmh2d2oyTjF2em1qUnUyNEFJY3JRYm44dlZSZTFDeVRXZUFzMW80RUZsOWV3NTV6TEU3VlVTb21vcm5nQjdfdWJEQVV3U3FMdlVrM2k2ZEF1b2QwZFduWGlES1RSWDNnZw?oc=5",
           "date": "2026-06-19T11:48:28.000Z",
-          "brand": "Divella"
-        },
-        {
-          "type": "news",
-          "title": "Grano italiano ed estero, cosa cambia davvero per pasta e pane in base a provenienza: rischi e conseguenze - Businessonline.it",
-          "source": "BUSINESSONLINE.IT",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQRWdLWnJJQURXU2tzMVNvVXgzenhrR19ISlNKLXRZcG5xd2ZGczI5bmlxRlRZMjJWaExDOXN1MlhTN2pUV2p0a0pYWlpkTkl2dnc4RXpBb0d0Q0dKQlVYQUxpS3dHSlZJc25NVDdfVGJLYnVwd0dSZ0JwYWFvUF9uT29IUThoLTlKbW5SMDJOdFRZcmgwd0hQZzdKSExnZ2cyaE5JV3NWQlYwVXAtZk1LVEllM0xNSmEzZzAwdXlCWmYwWmZlY01TS0VoYlhkdFZDYjZpcm0zSWJfekRXTDAwT3dFMy1yOUFSMHc1a00xU1E?oc=5",
-          "date": "2026-06-15T16:30:00.000Z",
           "brand": "Divella"
         },
         {
@@ -2396,7 +2363,7 @@
       "mentions": 6,
       "socialMentions": 4,
       "totalMentions": 10,
-      "shareOfVoice": 15.6,
+      "shareOfVoice": 17.2,
       "posts": [
         {
           "type": "news",
@@ -2426,7 +2393,7 @@
           "type": "news",
           "title": "In Ucraina il made in Italy fa faville - EFA News - European Food Agency",
           "source": "EFA NEWS - EUROPEAN FOOD AGENCY",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeUM1YU1PbVJWalVyeG9DWVBZUjUzdXlSNWVCRWJYLWxoZFdESmh3dkJXaWlXc3BhMHMwUUlWRVlud25yMThhVWlQRTZiY3B3c0x5OVpRZGZDbGVaN24yT2JWMS1rZW1HanoyWUVEeXNRZktlSGFRU0hvQTVSQndfUThQRTZYZWVY?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTjNhbm1nVUhROVFGUDMzeU05TW4zcmtCMFg0VUxTY3cyWFJOVlpnOGNmX1RCVDJVYmFrMDJXUExaSFNoOF9oYlp4S2VsNkFqV1BTalZnb0R4VEY0czVET01NaTQyMmdEdnp4YXFZRzRTQ2NFVDFmcmJybFFNQkFsbkw4UQ?oc=5",
           "date": "2026-06-22T07:28:00.000Z",
           "brand": "Barilla"
         },
@@ -2443,7 +2410,7 @@
           "title": "Addio a Giorgia Moll, la star di Carosello: celebre nello spot della Pasta del Capitano - Nonsolocalcio",
           "source": "NONSOLOCALCIO",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaDdqRzZuRE1TUElDaE1WR1E3OWVyQUl4WUdUMzQ4R1ZPSEpNR1psMnBITzMzakxDMl9nSFFpdjNMSnNqV25RTkd6Qlg2RTF0M1pNX1FFRFROZVo2bEdoemZ0T3hsRUE2a0haSlpYOXl1c1BhSG9YNjdteGhNWUZSNzU0QXp2Z0tjX3I2TjRrdWF0bnhKRURhOTlmTHNJek1fbkpXNUJmTWh4ZE42UzJtY0lYMjY1cVFEclZrYlFpNnZzUQ?oc=5",
-          "date": "2026-06-21T15:54:21.000Z",
+          "date": "2026-06-21T15:54:38.000Z",
           "brand": "Barilla"
         },
         {
@@ -2493,22 +2460,22 @@
       "mentions": 8,
       "socialMentions": 2,
       "totalMentions": 10,
-      "shareOfVoice": 15.6,
+      "shareOfVoice": 17.2,
       "posts": [
-        {
-          "type": "news",
-          "title": "De Cecco apre il suo primo negozio ufficiale in corso Umberto I - IlPescara",
-          "source": "ILPESCARA",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRjBJdzd3Q0ZGRGcza0hpVXphNl92dGxsci1wTFJQZFliZy1oeHBVRTFGQlBxelB6Wm1NS3JxNlhEaGMyVGxvU0JCNTQ1WC1EWEp5eUVGODdIUjhJMWdmS2lXNEhLY0VQckFtbGMwNGtTaEFsME4xZGNCd2NFSlZlU0VmTEhIQ3VlV2c?oc=5",
-          "date": "2026-06-20T14:23:30.000Z",
-          "brand": "De Cecco"
-        },
         {
           "type": "news",
           "title": "Pasta e pomodoro uniti in un'unica filiera per valorizzare il made in Italy - FreshPlaza",
           "source": "FRESHPLAZA",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbHNlOVk5MzFtMVBvekJ1QWJQSmZ6SXFKcWF3cEVtS1FjR3FoUlVfZ0gtQURyeFFGMlZyRnB0TTRtb3NfUjMtYUtvZnI1c29CV1RUSHBlZmc0VmZpLXp3ekh0Y29uc2kyaVlWYld1eHdISUJqaXlvS0M5LXZCMnljMWZJZGJLeTFHQVAtTmhjRS14ajRvNFlTeWxoVDRsNGVUcFpmZFZkVU13dGd0SUtycWtXWDVZZlFNVnc?oc=5",
           "date": "2026-06-18T04:05:00.000Z",
+          "brand": "De Cecco"
+        },
+        {
+          "type": "news",
+          "title": "De Cecco apre il suo primo negozio ufficiale in corso Umberto I - IlPescara",
+          "source": "ILPESCARA",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRjBJdzd3Q0ZGRGcza0hpVXphNl92dGxsci1wTFJQZFliZy1oeHBVRTFGQlBxelB6Wm1NS3JxNlhEaGMyVGxvU0JCNTQ1WC1EWEp5eUVGODdIUjhJMWdmS2lXNEhLY0VQckFtbGMwNGtTaEFsME4xZGNCd2NFSlZlU0VmTEhIQ3VlV2c?oc=5",
+          "date": "2026-06-20T14:23:30.000Z",
           "brand": "De Cecco"
         },
         {
@@ -2531,16 +2498,8 @@
           "type": "news",
           "title": "In Ucraina il made in Italy fa faville - EFA News - European Food Agency",
           "source": "EFA NEWS - EUROPEAN FOOD AGENCY",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeUM1YU1PbVJWalVyeG9DWVBZUjUzdXlSNWVCRWJYLWxoZFdESmh3dkJXaWlXc3BhMHMwUUlWRVlud25yMThhVWlQRTZiY3B3c0x5OVpRZGZDbGVaN24yT2JWMS1rZW1HanoyWUVEeXNRZktlSGFRU0hvQTVSQndfUThQRTZYZWVY?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTjNhbm1nVUhROVFGUDMzeU05TW4zcmtCMFg0VUxTY3cyWFJOVlpnOGNmX1RCVDJVYmFrMDJXUExaSFNoOF9oYlp4S2VsNkFqV1BTalZnb0R4VEY0czVET01NaTQyMmdEdnp4YXFZRzRTQ2NFVDFmcmJybFFNQkFsbkw4UQ?oc=5",
           "date": "2026-06-22T07:28:00.000Z",
-          "brand": "De Cecco"
-        },
-        {
-          "type": "news",
-          "title": "Volantino Ipercoop dal 18 giugno 2026 - Anteprima Volantino",
-          "source": "ANTEPRIMA VOLANTINO",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQlJ3U1dpeGFwUkFWMnp4Z2ItQkdENjhveGpRczJxaG1qTHNFbzEwOGxNc2Y3Y2Q5T0s2VHNmemdQYmhFVVRDQjVZakpCWHdmSkNaTWRlZ1hFTW1Ed3JWTnotWXJfekR3RTgzc3pKZy1aekpTQ1dHYVdHWU9yMGlBOTQteFQzQQ?oc=5",
-          "date": "2026-06-16T09:30:00.000Z",
           "brand": "De Cecco"
         },
         {
@@ -2557,6 +2516,14 @@
           "source": "ANTEPRIMA VOLANTINO",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZzJyaDQ2Y002bjBCSmJ3YXFydDF6bDhHTTUyVzNHcFkzT0V2VHN1a21UMW45aXBlcElkdXRNeWdJV2JTdEFNRllyNkRNMlJadWs2X2R3ZmdGSUd2WUxvSW1Bazd0YWEtZmIwMk9ybVRIeEJhNFJNT1l6c01tTm4wWGxQV2RVVWpIZVFxdm10Znc?oc=5",
           "date": "2026-06-16T05:03:59.000Z",
+          "brand": "De Cecco"
+        },
+        {
+          "type": "news",
+          "title": "Volantino Ipercoop dal 18 giugno 2026 - Anteprima Volantino",
+          "source": "ANTEPRIMA VOLANTINO",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQlJ3U1dpeGFwUkFWMnp4Z2ItQkdENjhveGpRczJxaG1qTHNFbzEwOGxNc2Y3Y2Q5T0s2VHNmemdQYmhFVVRDQjVZakpCWHdmSkNaTWRlZ1hFTW1Ed3JWTnotWXJfekR3RTgzc3pKZy1aekpTQ1dHYVdHWU9yMGlBOTQteFQzQQ?oc=5",
+          "date": "2026-06-16T09:30:00.000Z",
           "brand": "De Cecco"
         },
         {
@@ -2586,7 +2553,7 @@
       "mentions": 6,
       "socialMentions": 1,
       "totalMentions": 7,
-      "shareOfVoice": 10.9,
+      "shareOfVoice": 12.1,
       "posts": [
         {
           "type": "news",
@@ -2649,56 +2616,11 @@
       ]
     },
     {
-      "name": "Rummo",
-      "mentions": 2,
-      "socialMentions": 2,
-      "totalMentions": 4,
-      "shareOfVoice": 6.3,
-      "posts": [
-        {
-          "type": "news",
-          "title": "Raccolta benefica a segno. Chili di pasta, farina e soldi in dono all’Emporio Solidale - Il Giorno",
-          "source": "IL GIORNO",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTEs1YnpVVjVjNXFuQWM1MDhSNFlvZXVaTWlYYll5bWJnQVRSX0tYVUMtXzY2ckNUak4xWTBRNnYyVEVKNWtwX09FbkVLbEZmdGdQNm1ScFYza1VfVnhWdS0wY3owVTI5a3h5TGx1SGk1WGJQQVBtWEtFU2k3dGdoRjhKcw?oc=5",
-          "date": "2026-06-17T03:26:30.000Z",
-          "brand": "Rummo"
-        },
-        {
-          "type": "news",
-          "title": "Pasta Divella: l'origine del grano è poco chiara in etichetta? Scatta l'esposto all'Antitrust (ma l'azienda non ci sta) - greenMe",
-          "source": "GREENME",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOM3c0RG1Kb2FfbVpyVk1BRlFENEZzSUpzVjIxY2ZlRE1hNmxiZFdORjdBd212T0d4alQwZlphSTVCc0hlN28xeWdkOUR1S2xUUUR4a1FkVW9lYUNWWm44NnhSUHhpYXpDYnp6U0xWTjJFdk03V2E2YUdfbEttRFpLb2tSNjR4Nk1sUVBIUTNMSTd5bXVLRWY2SzlRdWV0ZWF4dFE0aFdsbVk1eXVlblFod1dFbnl3UU8yeEVIanBnYkpzRVItMzZ3d1B2aDhhY043RUNJOEFPRVhYRHVlVHNGTGRFcjRQaXdTM2dQb1Jla3U?oc=5",
-          "date": "2026-06-15T13:51:08.000Z",
-          "brand": "Rummo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "giallozafferano",
-          "text": "#adv @pasta_rummo Cremosi, senza glutine, saporiti e super profumati 💚 Sono gli gnocchetti del nostro @manucookandrock con burro, alici, nocciole e tante erbette aromatiche 🌿 Da provare subito! \n\nIngredienti:\nGnocchi senza glutine Rummo 500 g\nBurro",
-          "engagement": 4116,
-          "date": "2026-06-16T16:08:36Z",
-          "url": "https://www.instagram.com/reel/3920885385063297356/",
-          "brand": "Rummo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "pasta_rummo",
-          "text": "Uno dei trucchi per rendere molto morbido il polpo è quello di cuocerlo molto lentamente. È proprio quello che abbiamo fatto in questa ricetta che unisce il polpo morbido e croccante alle patate e alla Calamarata n° 141 Rummo. Il tutto aromatizzato d",
-          "engagement": 470,
-          "date": "2026-06-15T16:36:00Z",
-          "url": "https://www.instagram.com/p/3920175523896768734/",
-          "brand": "Rummo"
-        }
-      ]
-    },
-    {
       "name": "Voiello",
       "mentions": 3,
       "socialMentions": 0,
       "totalMentions": 3,
-      "shareOfVoice": 4.7,
+      "shareOfVoice": 5.2,
       "posts": [
         {
           "type": "news",
@@ -2723,6 +2645,33 @@
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZzJyaDQ2Y002bjBCSmJ3YXFydDF6bDhHTTUyVzNHcFkzT0V2VHN1a21UMW45aXBlcElkdXRNeWdJV2JTdEFNRllyNkRNMlJadWs2X2R3ZmdGSUd2WUxvSW1Bazd0YWEtZmIwMk9ybVRIeEJhNFJNT1l6c01tTm4wWGxQV2RVVWpIZVFxdm10Znc?oc=5",
           "date": "2026-06-16T05:03:59.000Z",
           "brand": "Voiello"
+        }
+      ]
+    },
+    {
+      "name": "Rummo",
+      "mentions": 1,
+      "socialMentions": 1,
+      "totalMentions": 2,
+      "shareOfVoice": 3.4,
+      "posts": [
+        {
+          "type": "news",
+          "title": "Raccolta benefica a segno. Chili di pasta, farina e soldi in dono all’Emporio Solidale - Il Giorno",
+          "source": "IL GIORNO",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTEs1YnpVVjVjNXFuQWM1MDhSNFlvZXVaTWlYYll5bWJnQVRSX0tYVUMtXzY2ckNUak4xWTBRNnYyVEVKNWtwX09FbkVLbEZmdGdQNm1ScFYza1VfVnhWdS0wY3owVTI5a3h5TGx1SGk1WGJQQVBtWEtFU2k3dGdoRjhKcw?oc=5",
+          "date": "2026-06-17T03:26:30.000Z",
+          "brand": "Rummo"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "giallozafferano",
+          "text": "#adv @pasta_rummo Cremosi, senza glutine, saporiti e super profumati 💚 Sono gli gnocchetti del nostro @manucookandrock con burro, alici, nocciole e tante erbette aromatiche 🌿 Da provare subito! \n\nIngredienti:\nGnocchi senza glutine Rummo 500 g\nBurro",
+          "engagement": 4116,
+          "date": "2026-06-16T16:08:36Z",
+          "url": "https://www.instagram.com/reel/3920885385063297356/",
+          "brand": "Rummo"
         }
       ]
     }
