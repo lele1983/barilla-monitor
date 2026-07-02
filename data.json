@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-01T19:54:06.995Z",
+    "generatedAt": "2026-07-02T03:32:03.012Z",
     "pipelineVersion": "1.0.0",
     "sources": {
       "opensearch": true,
@@ -9,19 +9,19 @@
       "claude": false,
       "competitors": true
     },
-    "processingTimeMs": 2620
+    "processingTimeMs": 3100
   },
   "social": {
     "overview": {
-      "totalPosts": 231397,
-      "prevTotalPosts": 260628,
-      "volumeChange": -11.2,
-      "mentions24h": 9603,
-      "totalEngagement": 908184948,
-      "avgEngagementRate": 0.009435442848502281,
-      "erChange": -20.7,
+      "totalPosts": 227170,
+      "prevTotalPosts": 260741,
+      "volumeChange": -12.9,
+      "mentions24h": 5470,
+      "totalEngagement": 906180362,
+      "avgEngagementRate": 0.009374324955341167,
+      "erChange": -21.3,
       "organicPct": 97,
-      "sponsoredCount": 5954
+      "sponsoredCount": 5904
     },
     "brandHealth": {
       "score": 79,
@@ -78,120 +78,80 @@
     "platforms": [
       {
         "name": "tt",
-        "count": 118626,
-        "pctOfTotal": 51.3
+        "count": 115868,
+        "pctOfTotal": 51
       },
       {
         "name": "ig",
-        "count": 103547,
-        "pctOfTotal": 44.7
+        "count": 102201,
+        "pctOfTotal": 45
       },
       {
         "name": "yt",
-        "count": 9224,
+        "count": 9101,
         "pctOfTotal": 4
       }
     ],
     "dailyVolume": [
       {
-        "date": "2026-06-24T00:00:00.000Z",
-        "count": 3817,
-        "engagement": 18546378,
-        "avgEr": 0.013089506174334487
-      },
-      {
         "date": "2026-06-25T00:00:00.000Z",
-        "count": 38973,
-        "engagement": 195414886,
-        "avgEr": 0.01158303752631106
+        "count": 38294,
+        "engagement": 165902409,
+        "avgEr": 0.011655166981535943
       },
       {
         "date": "2026-06-26T00:00:00.000Z",
         "count": 39623,
-        "engagement": 157880265,
-        "avgEr": 0.009951561631412005
+        "engagement": 158359721,
+        "avgEr": 0.009952714740657917
       },
       {
         "date": "2026-06-27T00:00:00.000Z",
         "count": 33622,
-        "engagement": 133630817,
-        "avgEr": 0.0106910206099552
+        "engagement": 134685659,
+        "avgEr": 0.010691894669795598
       },
       {
         "date": "2026-06-28T00:00:00.000Z",
         "count": 32058,
-        "engagement": 152378082,
-        "avgEr": 0.010110232493746384
+        "engagement": 153817993,
+        "avgEr": 0.01011127126107837
       },
       {
         "date": "2026-06-29T00:00:00.000Z",
         "count": 38798,
-        "engagement": 133100570,
-        "avgEr": 0.009190319733367518
+        "engagement": 135697784,
+        "avgEr": 0.009192710223480043
       },
       {
         "date": "2026-06-30T00:00:00.000Z",
-        "count": 38718,
-        "engagement": 109883972,
-        "avgEr": 0.006194606989687909
+        "count": 38734,
+        "engagement": 127257192,
+        "avgEr": 0.006204533810163611
       },
       {
         "date": "2026-07-01T00:00:00.000Z",
-        "count": 5788,
-        "engagement": 7349978,
-        "avgEr": 0.0013102577160636916
+        "count": 6032,
+        "engagement": 29957931,
+        "avgEr": 0.0013619611363907228
+      },
+      {
+        "date": "2026-07-02T00:00:00.000Z",
+        "count": 9,
+        "engagement": 501673,
+        "avgEr": 0.0008957883211967397
       }
     ],
     "hourlyVolume": [
       {
-        "hour": "2026-06-30T19:00:00.000Z",
-        "count": 167,
-        "engagement": 1916283
-      },
-      {
-        "hour": "2026-06-30T20:00:00.000Z",
-        "count": 1444,
-        "engagement": 8821131
-      },
-      {
-        "hour": "2026-06-30T21:00:00.000Z",
-        "count": 1092,
-        "engagement": 3467643
-      },
-      {
-        "hour": "2026-06-30T22:00:00.000Z",
-        "count": 763,
-        "engagement": 2494115
-      },
-      {
-        "hour": "2026-06-30T23:00:00.000Z",
-        "count": 349,
-        "engagement": 1302729
-      },
-      {
-        "hour": "2026-07-01T00:00:00.000Z",
-        "count": 222,
-        "engagement": 2074915
-      },
-      {
-        "hour": "2026-07-01T01:00:00.000Z",
-        "count": 152,
-        "engagement": 657498
-      },
-      {
-        "hour": "2026-07-01T02:00:00.000Z",
-        "count": 109,
-        "engagement": 131361
-      },
-      {
         "hour": "2026-07-01T03:00:00.000Z",
-        "count": 192,
-        "engagement": 48188
+        "count": 111,
+        "engagement": 26631
       },
       {
         "hour": "2026-07-01T04:00:00.000Z",
-        "count": 475,
-        "engagement": 83491
+        "count": 479,
+        "engagement": 509048
       },
       {
         "hour": "2026-07-01T05:00:00.000Z",
@@ -200,196 +160,236 @@
       },
       {
         "hour": "2026-07-01T06:00:00.000Z",
-        "count": 1306,
-        "engagement": 226374
+        "count": 1307,
+        "engagement": 269028
       },
       {
         "hour": "2026-07-01T07:00:00.000Z",
-        "count": 1282,
-        "engagement": 89492
+        "count": 1288,
+        "engagement": 621314
       },
       {
         "hour": "2026-07-01T08:00:00.000Z",
-        "count": 619,
-        "engagement": 440284
+        "count": 630,
+        "engagement": 936159
       },
       {
         "hour": "2026-07-01T09:00:00.000Z",
-        "count": 184,
-        "engagement": 505367
+        "count": 189,
+        "engagement": 1233756
       },
       {
         "hour": "2026-07-01T10:00:00.000Z",
-        "count": 240,
-        "engagement": 416162
+        "count": 249,
+        "engagement": 752634
       },
       {
         "hour": "2026-07-01T11:00:00.000Z",
-        "count": 63,
-        "engagement": 50410
+        "count": 71,
+        "engagement": 714620
       },
       {
         "hour": "2026-07-01T12:00:00.000Z",
-        "count": 1,
-        "engagement": 43897
+        "count": 14,
+        "engagement": 4445795
       },
       {
         "hour": "2026-07-01T13:00:00.000Z",
-        "count": 4,
-        "engagement": 307954
+        "count": 20,
+        "engagement": 1336359
       },
       {
         "hour": "2026-07-01T14:00:00.000Z",
-        "count": 4,
-        "engagement": 1074494
+        "count": 24,
+        "engagement": 2005954
       },
       {
         "hour": "2026-07-01T15:00:00.000Z",
-        "count": 3,
-        "engagement": 141596
+        "count": 23,
+        "engagement": 1831575
       },
       {
         "hour": "2026-07-01T16:00:00.000Z",
-        "count": 1,
-        "engagement": 102599
+        "count": 23,
+        "engagement": 1042739
       },
       {
         "hour": "2026-07-01T17:00:00.000Z",
-        "count": 3,
-        "engagement": 299605
+        "count": 20,
+        "engagement": 2143683
       },
       {
         "hour": "2026-07-01T18:00:00.000Z",
+        "count": 21,
+        "engagement": 2805256
+      },
+      {
+        "hour": "2026-07-01T19:00:00.000Z",
+        "count": 16,
+        "engagement": 1770834
+      },
+      {
+        "hour": "2026-07-01T20:00:00.000Z",
+        "count": 22,
+        "engagement": 1378939
+      },
+      {
+        "hour": "2026-07-01T21:00:00.000Z",
+        "count": 11,
+        "engagement": 41351
+      },
+      {
+        "hour": "2026-07-01T22:00:00.000Z",
+        "count": 15,
+        "engagement": 1394566
+      },
+      {
+        "hour": "2026-07-01T23:00:00.000Z",
         "count": 3,
-        "engagement": 449091
+        "engagement": 487983
+      },
+      {
+        "hour": "2026-07-02T00:00:00.000Z",
+        "count": 1,
+        "engagement": 40758
+      },
+      {
+        "hour": "2026-07-02T01:00:00.000Z",
+        "count": 4,
+        "engagement": 391399
+      },
+      {
+        "hour": "2026-07-02T02:00:00.000Z",
+        "count": 4,
+        "engagement": 69516
       }
     ],
     "hashtags": [
       {
         "tag": "perte",
-        "count": 5259
+        "count": 5159
       },
       {
         "tag": "accadeoggi",
-        "count": 5063
+        "count": 4897
       },
       {
         "tag": "fyp",
-        "count": 4481
+        "count": 4384
       },
       {
         "tag": "viral",
-        "count": 3560
+        "count": 3483
       },
       {
         "tag": "adv",
-        "count": 3128
+        "count": 3108
       },
       {
         "tag": "tiktokshop",
-        "count": 2217
+        "count": 2189
       },
       {
         "tag": "cavalcalondadeirisparmi",
-        "count": 2105
+        "count": 2078
       },
       {
         "tag": "neiperte",
-        "count": 2035
+        "count": 1996
       },
       {
         "tag": "napoli",
-        "count": 1699
+        "count": 1674
       },
       {
         "tag": "foryou",
-        "count": 1625
+        "count": 1598
       },
       {
         "tag": "offertestive",
-        "count": 1616
+        "count": 1575
       },
       {
         "tag": "offerteestive",
-        "count": 1596
+        "count": 1567
       },
       {
         "tag": "estate",
-        "count": 1144
+        "count": 1135
       },
       {
         "tag": "italia",
-        "count": 1079
+        "count": 1067
       },
       {
         "tag": "italy",
-        "count": 1047
-      },
-      {
-        "tag": "capcut",
-        "count": 958
+        "count": 1024
       },
       {
         "tag": "sheintrends",
         "count": 932
       },
       {
-        "tag": "perteeee",
-        "count": 896
+        "tag": "capcut",
+        "count": 925
       },
       {
         "tag": "madeinitaly",
-        "count": 887
+        "count": 884
+      },
+      {
+        "tag": "perteeee",
+        "count": 882
       },
       {
         "tag": "summer",
-        "count": 878
+        "count": 873
       },
       {
         "tag": "calcio",
-        "count": 860
+        "count": 852
       },
       {
         "tag": "virale",
-        "count": 826
+        "count": 819
       },
       {
         "tag": "roma",
-        "count": 806
+        "count": 797
       },
       {
         "tag": "amore",
-        "count": 763
+        "count": 750
       },
       {
         "tag": "voliamoneixte✈🦁🔝💯💥",
-        "count": 762
+        "count": 747
       }
     ],
     "creators": [
       {
         "name": "433",
-        "posts": 69,
-        "engagement": 40462567,
+        "posts": 73,
+        "engagement": 43756037,
         "platform": "ig",
-        "followers": 77897079,
-        "avgEr": 0.007528061668304066
+        "followers": 78322161,
+        "avgEr": 0.00768557393599869
       },
       {
         "name": "fabriziorom",
-        "posts": 65,
-        "engagement": 30177140,
+        "posts": 59,
+        "engagement": 26587088,
         "platform": "ig",
         "followers": 46337716,
-        "avgEr": 0.010048613252324175
+        "avgEr": 0.00974571409408885
       },
       {
-        "name": "neymarjr",
-        "posts": 5,
-        "engagement": 29853923,
-        "platform": "ig",
-        "followers": 237784237,
-        "avgEr": 0.025170160615053692
+        "name": "fabrizioromano",
+        "posts": 77,
+        "engagement": 26106968,
+        "platform": "tt",
+        "followers": 24800000,
+        "avgEr": 0.013678287968398326
       },
       {
         "name": "cristiano",
@@ -400,20 +400,28 @@
         "avgEr": 0.011442284116147892
       },
       {
-        "name": "fabrizioromano",
-        "posts": 63,
-        "engagement": 21379289,
-        "platform": "tt",
-        "followers": 24800000,
-        "avgEr": 0.013699007262780607
+        "name": "erling",
+        "posts": 11,
+        "engagement": 19933411,
+        "platform": "ig",
+        "followers": 44854076,
+        "avgEr": 0.04040052620250772
       },
       {
         "name": "realmadrid",
-        "posts": 45,
-        "engagement": 19913181,
+        "posts": 44,
+        "engagement": 19574217,
         "platform": "ig",
         "followers": 178997824,
-        "avgEr": 0.0024725719192538035
+        "avgEr": 0.0024857203324063467
+      },
+      {
+        "name": "neymarjr",
+        "posts": 4,
+        "engagement": 17748407,
+        "platform": "ig",
+        "followers": 237784237,
+        "avgEr": 0.01866020139089371
       },
       {
         "name": "fcbarcelona",
@@ -424,36 +432,36 @@
         "avgEr": 0.003339822574431513
       },
       {
-        "name": "leomessi",
-        "posts": 2,
-        "engagement": 16596331,
+        "name": "f1",
+        "posts": 71,
+        "engagement": 15042235,
         "platform": "ig",
-        "followers": 511115680,
-        "avgEr": 0.016235396065329085
+        "followers": 43111607,
+        "avgEr": 0.004918937369236035
       },
       {
         "name": "georginagio",
-        "posts": 7,
-        "engagement": 15399085,
+        "posts": 6,
+        "engagement": 14768684,
         "platform": "ig",
         "followers": 74247689,
-        "avgEr": 0.029628791351529953
-      },
-      {
-        "name": "f1",
-        "posts": 60,
-        "engagement": 13043855,
-        "platform": "ig",
-        "followers": 43111607,
-        "avgEr": 0.005048181852406308
+        "avgEr": 0.033151837673133955
       },
       {
         "name": "thv",
         "posts": 2,
-        "engagement": 12851238,
+        "engagement": 13599657,
         "platform": "ig",
         "followers": 74801571,
-        "avgEr": 0.08590219315046205
+        "avgEr": 0.09090488888261451
+      },
+      {
+        "name": "leomessi",
+        "posts": 1,
+        "engagement": 10804351,
+        "platform": "ig",
+        "followers": 511115680,
+        "avgEr": 0.02113875864657488
       },
       {
         "name": "zendaya",
@@ -464,28 +472,20 @@
         "avgEr": 0.061092256766550876
       },
       {
-        "name": "erling",
-        "posts": 8,
-        "engagement": 10616297,
-        "platform": "ig",
-        "followers": 44854076,
-        "avgEr": 0.029585652929290083
-      },
-      {
         "name": "dualipa",
         "posts": 3,
-        "engagement": 9650702,
+        "engagement": 9975813,
         "platform": "ig",
         "followers": 88493031,
-        "avgEr": 0.03635202264307871
+        "avgEr": 0.037576642617202255
       },
       {
-        "name": "charlidamelio",
-        "posts": 10,
-        "engagement": 7633922,
-        "platform": "tt",
-        "followers": 158900000,
-        "avgEr": 0.0048042303335431085
+        "name": "milliebobbybrown",
+        "posts": 4,
+        "engagement": 8209336,
+        "platform": "ig",
+        "followers": 70699096,
+        "avgEr": 0.02902914062720123
       }
     ],
     "posts": [
@@ -1997,7 +1997,7 @@
       "mentions": 16,
       "socialMentions": 2,
       "totalMentions": 18,
-      "shareOfVoice": 34.6,
+      "shareOfVoice": 34,
       "posts": [
         {
           "type": "news",
@@ -2151,11 +2151,19 @@
     },
     {
       "name": "Garofalo",
-      "mentions": 0,
+      "mentions": 1,
       "socialMentions": 15,
-      "totalMentions": 15,
-      "shareOfVoice": 28.8,
+      "totalMentions": 16,
+      "shareOfVoice": 30.2,
       "posts": [
+        {
+          "type": "news",
+          "title": "Giù i dazi antidumping ai produttori di pasta italiani - TeatroNaturale.it",
+          "source": "TEATRONATURALE.IT",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUFBrNWViSUNqczUzT3Y3WFBuVTM1QjdwWUdxYk90SWYwVmVEbHd0RmhpN0t5dUlBRmpkYmtxUDdJY1BNWUluM21jZ1BuNTNrMUhSQ0dLelROcFNDc2t1cy1tMWZ2emplUl9Oc1d1bThPZU1VMG01LTI0b3RmNG1mY0g3WXVLN0x3N2UzaFNTc0JnQllhYVpWUmh1bENjTy10Vk1SU1QxVUl4QQ?oc=5",
+          "date": "2026-07-01T07:45:58.000Z",
+          "brand": "Garofalo"
+        },
         {
           "type": "social",
           "platform": "ig",
@@ -2310,10 +2318,10 @@
     },
     {
       "name": "De Cecco",
-      "mentions": 6,
+      "mentions": 7,
       "socialMentions": 2,
-      "totalMentions": 8,
-      "shareOfVoice": 15.4,
+      "totalMentions": 9,
+      "shareOfVoice": 17,
       "posts": [
         {
           "type": "news",
@@ -2345,6 +2353,14 @@
           "source": "ABRUZZONEWS",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcmFUOU5xemtMclF4TDN2MkFoNFpJUzVGemRHdlpjWi1pcGdSWnFwZ041ckZkakR3M3ZOS2d6VVN0anpmODlMVHRSS3lZTmxXYzAzU2YwY3AyREd2dUV1S1dnTHZEZnk0LUUweGEyazFyem1pSW1ycVhNRFdGSFdyT0h2el9BTVg1SVJqM3FfMkotemE3Z0czYmVzRdIBoAFBVV95cUxOcEV3N3lJZDZEZk9jSEUzV29JMDhFNUozTVVadmN0Z3FnNTU3NF90X0h3dWprMGdoYmZWNTQ5Vkc3ZV9DcklmMk9TbmFTZnM3NEV5MFIyTWtwTTJVUF96cTNLVkxMM2NVN1VjT2ZOUDIxRml2clNNYm1CZUZWNUNrbWl4YU5uRnZESXgyNTNFZ2E0Z0d3UkFuOVNSeDI0Z3hs?oc=5",
           "date": "2026-06-28T20:30:08.000Z",
+          "brand": "De Cecco"
+        },
+        {
+          "type": "news",
+          "title": "Pesto rosso De Cecco richiamato dai supermercati per allergene non dichiarato in etichetta, il lotto coinvolto - Virgilio",
+          "source": "VIRGILIO",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbWFwMlpYN2lJcTJkZ056MnpMbmJ2S3h1dmhhM2kyNHBHbGVRdFhzQ19JX1BJUFlSZGRNdExLMEJUNWQtQXdNQndyaFpfQ1pOODU4VmRZTXljVHRiYXY5Z2QxTDlDYzdCRS1tckNzeWM5Ulc3RE5KVnlha09OT2hDWHBqTG1KOXR2T3huODRZT3hJRzR3Rm9rTzlPNThRRVNxeGdEM1FJd2hDT3ItWTJNNWg2MDlSa1lkRWJGbXVnd2sxY01RNTAyMEV4eVItaUpId2hoS29CSEg5eGtzTEN5Sm1PZ9IB6AFBVV95cUxPRDR2OEFicTRHRlk5VEQ2NExmMllPQURrd0RDd1ZzdGFuX1JZQzVNSHNJN3ctZFp0RER2b0h3dUNKSjFHa0o2V2dRRGl3M2RRbmRCMVlRZ2FOa3ZMZVhWTVZDVldvYkhBTHlZdk1GZ1Jldkh0X0N3bFM3NEJKZ3FKOUI0MXU4Y0JBd2J2REk3emZzVFA0U1FNY2lfOEJZVFpoZ3MxUzN6bGxQY1BuVXJEMzNlbmdpcUtnTVh0WjdILVgzMGt0d1pHVk91V3VDbUc4d1lGM0VhdFdLOUwzYWw5ak1WOGZuZ29Q?oc=5",
+          "date": "2026-07-01T20:48:00.000Z",
           "brand": "De Cecco"
         },
         {
@@ -2390,7 +2406,7 @@
       "mentions": 5,
       "socialMentions": 0,
       "totalMentions": 5,
-      "shareOfVoice": 9.6,
+      "shareOfVoice": 9.4,
       "posts": [
         {
           "type": "news",
@@ -2402,18 +2418,18 @@
         },
         {
           "type": "news",
-          "title": "STRACITTADINA 2026: AVEZZANO SI TRASFORMA IN UN PALCOSCENICO A CIELO APERTO CON LA CORSA PODISTICA - Marsica-Web",
-          "source": "MARSICA-WEB",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTGg2bDVIM0N1YnVfYWl4b21CVmF4eUd5VHFESkFKUmNNNHYweUNobUczZnNmN21ORWxvdXU5Yll4c0lYU2dzSkpObkhOeldTU3NTMGo1a3pVSFFUOFV6TzFMYkc0LUNPQWxjSVg0Y2l1anVxU0EtOWFHMjk4R2FfT09Rc3lJcXBpYWgwX0VKeDlJZ196cHQ5NUtVQVZuTkFwbk5pMEJyZ2p6VjB5MEtQYk5kV3Fla0podnVDUW9ER2s3QzZJYWxMcjJCSTNXQ1JqOGc?oc=5",
-          "date": "2026-06-27T09:20:26.000Z",
+          "title": "Padova, successo per l’apertura di “Bufala Fest” week end tutto da vivere e da gustare - Agenfood",
+          "source": "AGENFOOD",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMkxqcEp4Z1k0NFdoNVhjQ3FFa1FPXy1iOUxBOXVFLWdIdV9VemlBeWpDbGViQV9yT0NfWjdFZ3hhNFo3Z2c3a2ZJSjBwQm9LQWY4SEdENkZLOGlDQ2otd25PM2ZRTk9rZXE5OFZMR3NwR1hhOTRKMkpoRm42UE5sSnNEd3VBWFN5eklrak9ieGxOUGtEV0NicUUwZmhzMVlFZWhrWHhxanhkMUtDaUdKNkxYSQ?oc=5",
+          "date": "2026-06-27T15:00:00.000Z",
           "brand": "La Molisana"
         },
         {
           "type": "news",
-          "title": "notturnadelcampanile - Abruzzo Popolare",
-          "source": "ABRUZZO POPOLARE",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcjhoelhseUVpTEpfYlo4ejlRSW81Z3ZJYVdQLW4yMU9oUlkzQmVsY2FqaGhWcjJ2enNkZmQwczRsb0pJdEpIdFNRbnM1TkRHZHRCemc5U0JSUGNndjdyTjQwVkxLcVNQNmQzRmZJYXY4cktGVDRpa1d5YnljMk9kNGd3?oc=5",
-          "date": "2026-06-24T23:15:29.000Z",
+          "title": "STRACITTADINA 2026: AVEZZANO SI TRASFORMA IN UN PALCOSCENICO A CIELO APERTO CON LA CORSA PODISTICA - Marsica-Web",
+          "source": "MARSICA-WEB",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTGg2bDVIM0N1YnVfYWl4b21CVmF4eUd5VHFESkFKUmNNNHYweUNobUczZnNmN21ORWxvdXU5Yll4c0lYU2dzSkpObkhOeldTU3NTMGo1a3pVSFFUOFV6TzFMYkc0LUNPQWxjSVg0Y2l1anVxU0EtOWFHMjk4R2FfT09Rc3lJcXBpYWgwX0VKeDlJZ196cHQ5NUtVQVZuTkFwbk5pMEJyZ2p6VjB5MEtQYk5kV3Fla0podnVDUW9ER2s3QzZJYWxMcjJCSTNXQ1JqOGc?oc=5",
+          "date": "2026-06-27T09:20:26.000Z",
           "brand": "La Molisana"
         },
         {
@@ -2464,31 +2480,6 @@
       ]
     },
     {
-      "name": "Voiello",
-      "mentions": 2,
-      "socialMentions": 0,
-      "totalMentions": 2,
-      "shareOfVoice": 3.8,
-      "posts": [
-        {
-          "type": "news",
-          "title": "Lo Spaghettone Innamorato di Voiello conquista l'estate 2026con ricette fresche, veloci e piene di sapore - Zarabazà",
-          "source": "ZARABAZÀ",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMXAwYlNKZFM5N3ZWLWZxdVFBWWRKSTNVRklxVndwdXhBZGdLNDZ2V2gtQlBra1hDWURmNXlVNGZ0eDFTSjZpcEYxRGY5WGxOVFFHQXV4VGZtVXlOclFVR3l2RThEVGVka2ZNdC11Yk9MZEVBQjV0XzhIdU15enpDeHJBT2pBYS1LS3RHOUh2Vlg5M1Qwcjc0ZHk1YU9aeWFaU1NNc2drZzgzRU82X3I1REN0eFFqTm9Gc1E0QmwyVE9lSERtZWhTLWhBbENwUHUxZ1M4UzF3?oc=5",
-          "date": "2026-06-25T17:19:32.000Z",
-          "brand": "Voiello"
-        },
-        {
-          "type": "news",
-          "title": "Sintesi volantino Conad dal 1 luglio 2026 - Anteprima Volantino",
-          "source": "ANTEPRIMA VOLANTINO",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRzlPdXk1Mm5UQnk1U0E2TWhiYjhKN1B1dWdhTEFZc2xSQjNBU3dVNVF6X2VGX21SZERPd0gtMDhoMXFRQmdBbkJTb2czdV9XV3ZYYmhaV0tsdEQ2VGNvd004b3lEOFNrMS1wNzYwdWYzczExeTJ2dFFWeWhCbkFOaA?oc=5",
-          "date": "2026-06-26T08:41:36.000Z",
-          "brand": "Voiello"
-        }
-      ]
-    },
-    {
       "name": "Divella",
       "mentions": 0,
       "socialMentions": 2,
@@ -2514,6 +2505,23 @@
           "date": "2026-06-26T09:00:13Z",
           "url": "https://www.instagram.com/p/3927918643560821413/",
           "brand": "Divella"
+        }
+      ]
+    },
+    {
+      "name": "Voiello",
+      "mentions": 1,
+      "socialMentions": 0,
+      "totalMentions": 1,
+      "shareOfVoice": 1.9,
+      "posts": [
+        {
+          "type": "news",
+          "title": "Lo Spaghettone Innamorato di Voiello conquista l'estate 2026con ricette fresche, veloci e piene di sapore - Zarabazà",
+          "source": "ZARABAZÀ",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMXAwYlNKZFM5N3ZWLWZxdVFBWWRKSTNVRklxVndwdXhBZGdLNDZ2V2gtQlBra1hDWURmNXlVNGZ0eDFTSjZpcEYxRGY5WGxOVFFHQXV4VGZtVXlOclFVR3l2RThEVGVka2ZNdC11Yk9MZEVBQjV0XzhIdU15enpDeHJBT2pBYS1LS3RHOUh2Vlg5M1Qwcjc0ZHk1YU9aeWFaU1NNc2drZzgzRU82X3I1REN0eFFqTm9Gc1E0QmwyVE9lSERtZWhTLWhBbENwUHUxZ1M4UzF3?oc=5",
+          "date": "2026-06-25T17:19:32.000Z",
+          "brand": "Voiello"
         }
       ]
     }
