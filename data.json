@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-06T10:19:23.855Z",
+    "generatedAt": "2026-07-06T15:30:52.183Z",
     "pipelineVersion": "1.0.0",
     "sources": {
       "opensearch": true,
@@ -9,32 +9,32 @@
       "claude": false,
       "competitors": true
     },
-    "processingTimeMs": 2776
+    "processingTimeMs": 17033
   },
   "social": {
     "overview": {
-      "totalPosts": 248601,
-      "prevTotalPosts": 260778,
-      "volumeChange": -4.7,
-      "mentions24h": 22581,
-      "totalEngagement": 992448296,
-      "avgEngagementRate": 0.009864416577107902,
-      "erChange": -18,
+      "totalPosts": 235577,
+      "prevTotalPosts": 260137,
+      "volumeChange": -9.4,
+      "mentions24h": 12969,
+      "totalEngagement": 959402485,
+      "avgEngagementRate": 0.009685513170944989,
+      "erChange": -19.7,
       "organicPct": 98,
-      "sponsoredCount": 5831
+      "sponsoredCount": 5413
     },
     "brandHealth": {
-      "score": 80,
+      "score": 79,
       "status": "stabile",
       "dimensions": [
         {
           "name": "Sentiment",
-          "score": 70,
+          "score": 69,
           "color": "#00e676"
         },
         {
           "name": "Engagement",
-          "score": 49,
+          "score": 48,
           "color": "#3ba4ff"
         },
         {
@@ -54,7 +54,7 @@
         },
         {
           "name": "Platform Mix",
-          "score": 76,
+          "score": 75,
           "color": "#00e676"
         },
         {
@@ -70,128 +70,103 @@
       ]
     },
     "sentiment": {
-      "netScore": 51,
-      "positive": 60,
-      "neutral": 31,
+      "netScore": 50,
+      "positive": 59,
+      "neutral": 32,
       "negative": 9
     },
     "platforms": [
       {
         "name": "tt",
-        "count": 127697,
-        "pctOfTotal": 51.4
+        "count": 121430,
+        "pctOfTotal": 51.5
       },
       {
         "name": "ig",
-        "count": 111119,
-        "pctOfTotal": 44.7
+        "count": 104959,
+        "pctOfTotal": 44.6
       },
       {
         "name": "yt",
-        "count": 9785,
+        "count": 9188,
         "pctOfTotal": 3.9
       }
     ],
     "dailyVolume": [
       {
         "date": "2026-06-29T00:00:00.000Z",
-        "count": 29316,
-        "engagement": 134719313,
-        "avgEr": 0.012276922382385735
+        "count": 16208,
+        "engagement": 83341861,
+        "avgEr": 0.011641720801270997
       },
       {
         "date": "2026-06-30T00:00:00.000Z",
         "count": 38791,
-        "engagement": 186109486,
-        "avgEr": 0.011351189000881046
+        "engagement": 186363695,
+        "avgEr": 0.011351335514412041
       },
       {
         "date": "2026-07-01T00:00:00.000Z",
         "count": 38875,
-        "engagement": 153591683,
-        "avgEr": 0.011168753240045569
+        "engagement": 153843651,
+        "avgEr": 0.011168913073450205
       },
       {
         "date": "2026-07-02T00:00:00.000Z",
         "count": 37918,
-        "engagement": 134449891,
-        "avgEr": 0.010323695074680044
+        "engagement": 134751454,
+        "avgEr": 0.010323857789477971
       },
       {
         "date": "2026-07-03T00:00:00.000Z",
         "count": 39158,
-        "engagement": 170720106,
-        "avgEr": 0.009150008830721649
+        "engagement": 171342376,
+        "avgEr": 0.00915039732672933
       },
       {
         "date": "2026-07-04T00:00:00.000Z",
         "count": 33417,
-        "engagement": 144512775,
-        "avgEr": 0.008889655725206242
+        "engagement": 146153357,
+        "avgEr": 0.00889079539188881
       },
       {
         "date": "2026-07-05T00:00:00.000Z",
-        "count": 31034,
-        "engagement": 68342400,
-        "avgEr": 0.005509655639413217
+        "count": 31066,
+        "engagement": 78505813,
+        "avgEr": 0.005515454744852388
       },
       {
         "date": "2026-07-06T00:00:00.000Z",
-        "count": 92,
-        "engagement": 2642,
-        "avgEr": 0.0007136806449191182
+        "count": 144,
+        "engagement": 5100278,
+        "avgEr": 0.0016221273524355477
       }
     ],
     "hourlyVolume": [
       {
-        "hour": "2026-07-05T10:00:00.000Z",
-        "count": 1359,
-        "engagement": 5171920
-      },
-      {
-        "hour": "2026-07-05T11:00:00.000Z",
-        "count": 1958,
-        "engagement": 5375669
-      },
-      {
-        "hour": "2026-07-05T12:00:00.000Z",
-        "count": 1978,
-        "engagement": 6070878
-      },
-      {
-        "hour": "2026-07-05T13:00:00.000Z",
-        "count": 1772,
-        "engagement": 5087252
-      },
-      {
-        "hour": "2026-07-05T14:00:00.000Z",
-        "count": 1616,
-        "engagement": 3099323
-      },
-      {
         "hour": "2026-07-05T15:00:00.000Z",
-        "count": 1976,
-        "engagement": 5762051
+        "count": 972,
+        "engagement": 1803018
       },
       {
         "hour": "2026-07-05T16:00:00.000Z",
-        "count": 2355,
-        "engagement": 4924034
+        "count": 2358,
+        "engagement": 5923374
       },
       {
         "hour": "2026-07-05T17:00:00.000Z",
-        "count": 2156,
-        "engagement": 3359526
+        "count": 2157,
+        "engagement": 3359530
       },
       {
         "hour": "2026-07-05T18:00:00.000Z",
-        "count": 2083,
-        "engagement": 2790226
+        "count": 2086,
+        "engagement": 3193168
       },
       {
         "hour": "2026-07-05T19:00:00.000Z",
-        "count": 1818,
-        "engagement": 1616625
+        "count": 1821,
+        "engagement": 3788664
       },
       {
         "hour": "2026-07-05T20:00:00.000Z",
@@ -200,28 +175,28 @@
       },
       {
         "hour": "2026-07-05T21:00:00.000Z",
-        "count": 1022,
-        "engagement": 528891
+        "count": 1024,
+        "engagement": 934524
       },
       {
         "hour": "2026-07-05T22:00:00.000Z",
-        "count": 858,
-        "engagement": 620451
+        "count": 860,
+        "engagement": 1214012
       },
       {
         "hour": "2026-07-05T23:00:00.000Z",
-        "count": 263,
-        "engagement": 19586
+        "count": 272,
+        "engagement": 3625612
       },
       {
         "hour": "2026-07-06T00:00:00.000Z",
-        "count": 75,
-        "engagement": 1636
+        "count": 76,
+        "engagement": 3235967
       },
       {
         "hour": "2026-07-06T01:00:00.000Z",
-        "count": 9,
-        "engagement": 54
+        "count": 11,
+        "engagement": 623604
       },
       {
         "hour": "2026-07-06T02:00:00.000Z",
@@ -230,120 +205,183 @@
       },
       {
         "hour": "2026-07-06T03:00:00.000Z",
+        "count": 4,
+        "engagement": 346112
+      },
+      {
+        "hour": "2026-07-06T04:00:00.000Z",
+        "count": 0,
+        "engagement": 0
+      },
+      {
+        "hour": "2026-07-06T05:00:00.000Z",
+        "count": 0,
+        "engagement": 0
+      },
+      {
+        "hour": "2026-07-06T06:00:00.000Z",
+        "count": 0,
+        "engagement": 0
+      },
+      {
+        "hour": "2026-07-06T07:00:00.000Z",
+        "count": 3,
+        "engagement": 617601
+      },
+      {
+        "hour": "2026-07-06T08:00:00.000Z",
         "count": 2,
-        "engagement": 11
+        "engagement": 496
+      },
+      {
+        "hour": "2026-07-06T09:00:00.000Z",
+        "count": 12,
+        "engagement": 257410
+      },
+      {
+        "hour": "2026-07-06T10:00:00.000Z",
+        "count": 5,
+        "engagement": 2082
+      },
+      {
+        "hour": "2026-07-06T11:00:00.000Z",
+        "count": 7,
+        "engagement": 3048
+      },
+      {
+        "hour": "2026-07-06T12:00:00.000Z",
+        "count": 6,
+        "engagement": 4336
+      },
+      {
+        "hour": "2026-07-06T13:00:00.000Z",
+        "count": 6,
+        "engagement": 7438
+      },
+      {
+        "hour": "2026-07-06T14:00:00.000Z",
+        "count": 6,
+        "engagement": 1243
       }
     ],
     "hashtags": [
       {
         "tag": "perte",
-        "count": 5693
-      },
-      {
-        "tag": "fyp",
-        "count": 4989
+        "count": 5412
       },
       {
         "tag": "accadeoggi",
-        "count": 4934
+        "count": 4791
+      },
+      {
+        "tag": "fyp",
+        "count": 4742
       },
       {
         "tag": "viral",
-        "count": 3865
+        "count": 3678
       },
       {
         "tag": "adv",
-        "count": 2997
+        "count": 2764
       },
       {
         "tag": "tiktokshop",
-        "count": 2346
+        "count": 2211
       },
       {
         "tag": "neiperte",
-        "count": 2165
+        "count": 2067
       },
       {
         "tag": "foryou",
-        "count": 1861
+        "count": 1766
       },
       {
         "tag": "napoli",
-        "count": 1694
+        "count": 1606
       },
       {
         "tag": "cavalcalondadeirisparmi",
-        "count": 1463
-      },
-      {
-        "tag": "offertestive",
-        "count": 1187
+        "count": 1213
       },
       {
         "tag": "estate",
-        "count": 1186
-      },
-      {
-        "tag": "offerteestive",
-        "count": 1137
+        "count": 1100
       },
       {
         "tag": "italia",
-        "count": 1124
+        "count": 1064
       },
       {
         "tag": "italy",
-        "count": 1048
+        "count": 1011
+      },
+      {
+        "tag": "offertestive",
+        "count": 1008
       },
       {
         "tag": "calcio",
-        "count": 1015
+        "count": 945
       },
       {
-        "tag": "virale",
-        "count": 968
-      },
-      {
-        "tag": "capcut",
-        "count": 952
-      },
-      {
-        "tag": "madeinitaly",
-        "count": 951
-      },
-      {
-        "tag": "perteeee",
-        "count": 948
-      },
-      {
-        "tag": "roma",
-        "count": 942
-      },
-      {
-        "tag": "summer",
+        "tag": "offerteestive",
         "count": 940
       },
       {
+        "tag": "virale",
+        "count": 923
+      },
+      {
+        "tag": "perteeee",
+        "count": 909
+      },
+      {
+        "tag": "capcut",
+        "count": 905
+      },
+      {
+        "tag": "roma",
+        "count": 890
+      },
+      {
+        "tag": "madeinitaly",
+        "count": 885
+      },
+      {
+        "tag": "summer",
+        "count": 877
+      },
+      {
         "tag": "f1",
-        "count": 819
+        "count": 780
       },
       {
         "tag": "amore",
-        "count": 785
+        "count": 754
       },
       {
-        "tag": "offerteperte",
-        "count": 770
+        "tag": "voliamoneixte✈🦁🔝💯💥",
+        "count": 712
       }
     ],
     "creators": [
       {
         "name": "433",
-        "posts": 71,
-        "engagement": 51853303,
+        "posts": 68,
+        "engagement": 49899786,
         "platform": "ig",
         "followers": 78322161,
-        "avgEr": 0.009331279292706638
+        "avgEr": 0.00937415660852265
+      },
+      {
+        "name": "fabrizioromano",
+        "posts": 90,
+        "engagement": 39403675,
+        "platform": "tt",
+        "followers": 25100000,
+        "avgEr": 0.01751756237099197
       },
       {
         "name": "fabriziorom",
@@ -362,36 +400,28 @@
         "avgEr": 0.012555195073701588
       },
       {
-        "name": "fabrizioromano",
-        "posts": 76,
-        "engagement": 28760977,
-        "platform": "tt",
-        "followers": 25000000,
-        "avgEr": 0.015179831547531383
-      },
-      {
         "name": "realmadrid",
-        "posts": 42,
-        "engagement": 22452150,
+        "posts": 40,
+        "engagement": 21950029,
         "platform": "ig",
         "followers": 178997824,
-        "avgEr": 0.0029865418572393534
-      },
-      {
-        "name": "erling",
-        "posts": 9,
-        "engagement": 16847860,
-        "platform": "ig",
-        "followers": 44854076,
-        "avgEr": 0.04173499069392143
+        "avgEr": 0.0030657259457702824
       },
       {
         "name": "fcbarcelona",
-        "posts": 40,
-        "engagement": 16434967,
+        "posts": 41,
+        "engagement": 18172794,
         "platform": "ig",
         "followers": 145793136,
-        "avgEr": 0.002818319793122138
+        "avgEr": 0.003040291063748665
+      },
+      {
+        "name": "erling",
+        "posts": 8,
+        "engagement": 16297054,
+        "platform": "ig",
+        "followers": 44854076,
+        "avgEr": 0.04541687025277257
       },
       {
         "name": "neymarjr",
@@ -402,14 +432,6 @@
         "avgEr": 0.021839179636901948
       },
       {
-        "name": "f1",
-        "posts": 73,
-        "engagement": 14153169,
-        "platform": "ig",
-        "followers": 43111607,
-        "avgEr": 0.004497481574154184
-      },
-      {
         "name": "leomessi",
         "posts": 2,
         "engagement": 13862626,
@@ -418,12 +440,20 @@
         "avgEr": 0.013541870069648958
       },
       {
-        "name": "arianagrande",
-        "posts": 6,
-        "engagement": 12362184,
+        "name": "f1",
+        "posts": 67,
+        "engagement": 13299703,
         "platform": "ig",
-        "followers": 363457800,
-        "avgEr": 0.03486546386790853
+        "followers": 43111607,
+        "avgEr": 0.004604435300504406
+      },
+      {
+        "name": "arianagrande",
+        "posts": 7,
+        "engagement": 12966626,
+        "platform": "ig",
+        "followers": 363432955,
+        "avgEr": 0.030122384218123046
       },
       {
         "name": "charlidamelio",
@@ -680,59 +710,6 @@
       {
         "platform": "ig",
         "author": "nonnanellaa",
-        "time": "2026-06-29T15:07:31Z",
-        "text": "E a voi vi fregavano cosi le vostre nonne?🤣❤️\n\n💚 metti un 👍🏻 se ti è piaciuto il video\n🖋 scrivi nei commenti cosa ne pensi\n🧾salva per non perdere la ricetta\n✅ Segui  @nonnanellaa e @massinellielena condividi\nnelle tue storie se ti è piaciuta❤️\n",
-        "engagement": 235779,
-        "engagementRate": 0.7451174343934874,
-        "sentiment": "pos",
-        "hashtags": [
-          "italy",
-          "italia",
-          "pasta",
-          "pastahomemade",
-          "tagliatelle"
-        ],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/733172573_18597638581003411_4180815760795255960_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=100&ig_cache_key=MzkzMDI3NzUyMDM0MTE5NTc1OTE4NTk3NjM4NTc4MDAzNDEx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=7gGeti-siq8Q7kNvwG5GnC0&_nc_oc=AdqjBLWhr7ST5A3hU05tyWcCOgrJi9nnV_huWUCzxaa_goFn-Abd5DaTkNgFo-o3GbWTD7mb7fEee5syqFiDBryD&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=Axx-Uz01X7FcenRxkJwz7A&_nc_ss=7a3ba&oh=00_AQCM92SRH5Qthvk9mKdCu33SoMhcVtzTabYYEFVnpUs1zw&oe=6A4DB3EA",
-        "url": "https://www.instagram.com/reel/3930277520341195759/"
-      },
-      {
-        "platform": "ig",
-        "author": "beardedscara",
-        "time": "2026-06-29T10:31:02Z",
-        "text": "🍔 BURGER RIPIENO ⤵️\n\nIngredienti - per 6 Burger (🔄 con eventuali MIE sostituzioni):\n\n🍕 1 rotolo pasta per pizza (400g);\n🥩 6 hamburger di manzo 🔄 600g macinato/burger di pollo/tacchino;\n🧀 6 fette di cheddar 🔄 6 fettine formaggio fuso LIGHT/PROT",
-        "engagement": 184207,
-        "engagementRate": 0.08178101811278603,
-        "sentiment": "pos",
-        "hashtags": [
-          "burger",
-          "panino",
-          "dimagrire",
-          "ricettefacili",
-          "cibosano"
-        ],
-        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/731147266_18603740332009929_1062858826183744257_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=108&ig_cache_key=MzkzMDEzODIzODM5NTA0OTU2NjE4NjAzNzQwMzI2MDA5OTI5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzMjAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=9_ZpdOjRdHYQ7kNvwEaT8st&_nc_oc=Adr_X7bUIWtz7RZun1ibb6tnHC5MjWUOi_OlMq3SXMHiCtuwRk0HGbaCmxtuzp83gqbwaWpmjB8M8bcvJIpLiWXc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=iaaL3Ou7JagMRK3uGtRxFQ&_nc_ss=7a3ba&oh=00_AQCXu1C6upvrG_2ouv6ej7JLxxat2Bc96p-pHr0w9ccCnw&oe=6A50B9E7",
-        "url": "https://www.instagram.com/reel/3930138238395049566/"
-      },
-      {
-        "platform": "ig",
-        "author": "cucinaconruben",
-        "time": "2026-06-29T10:27:10Z",
-        "text": "PASTA ALLA NERANO 🌿 \n\nIngredienti \n200gr spaghetti \n5 zucchine col fiore \n1 spicchio d’aglio\n40gr burro \n40gr provolone del monaco \n30gr parmigiano \nBasilico \nSale \nPepe \nOlio evo \n\n#cucinaitaliana #italianfood #pasta #nerano",
-        "engagement": 110055,
-        "engagementRate": 0.052754265926942136,
-        "sentiment": "pos",
-        "hashtags": [
-          "cucinaitaliana",
-          "italianfood",
-          "pasta",
-          "nerano"
-        ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/730653558_18606060256003313_3834352945990453911_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=105&ig_cache_key=MzkzMDEzNTk3NTczMjIwNDczMjE4NjA2MDYwMjUzMDAzMzEz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTUuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=zQz7J_bdmqgQ7kNvwEW7r0-&_nc_oc=Adom5-ta9PTConN4FEJNgsI3vesorz9Vl22-Kko6h8_paFFwsDXYhbwfgYdLXtrEHTgQjVJJtrNm_5jb4U9WnIn1&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=3acHDOAlDjlzMM_tQTMBWA&_nc_ss=7a3ba&oh=00_AQDX5XsPl65aM0hRJLkShQRDz8OhsFl3HfsvlpvsiXwcGQ&oe=6A50B5D0",
-        "url": "https://www.instagram.com/reel/3930135975732204732/"
-      },
-      {
-        "platform": "ig",
-        "author": "nonnanellaa",
         "time": "2026-07-04T15:03:59Z",
         "text": "Solo i veri intenditori sanno che ricetta è questa….⤵️🥳😍\n\n#nonne #hyrox #dieta #light",
         "engagement": 90730,
@@ -788,18 +765,6 @@
         ],
         "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/731105121_18598507447003411_8325154913518627745_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=1&ig_cache_key=MzkzMjMxODk0MzA4NTE2NTcyMzE4NTk4NTA3NDQ0MDAzNDEx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=ormm3XTH6B4Q7kNvwELtdt4&_nc_oc=AdqutDYRyMZyjKfXWdxpCUm2SAgDlqqsMZLW7PGQIZsaY7wHD-OiiD8EhIyjeNtIg20nQO9rrqZn8gSRf2z5seBe&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=xjN4N7oE1LbdRDKwfHWyDg&_nc_ss=7a3ba&oh=00_AQDj4szY12ivGndsW--trwiTBNnXNPbwewA2rlHjeVnKWA&oe=6A50AAA9",
         "url": "https://www.instagram.com/reel/3932318943085165723/"
-      },
-      {
-        "platform": "ig",
-        "author": "rucoolaaa",
-        "time": "2026-06-29T10:58:27Z",
-        "text": "Sapete dove ho comprato IL TONNO per preparare questo meraviglioso SASHIMI? Dal fruttivendolo ✈️\n\n🍉 Volevo provare da tempo questa ricetta, vista online in mille varianti: il SASHIMI DI ANGURIA. Eh sì, perché l’anguria può essere cotta e cambia COMP",
-        "engagement": 52083,
-        "engagementRate": 0.19022626417575192,
-        "sentiment": "pos",
-        "hashtags": [],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/732504742_18070030145699921_3047699587947693648_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=106&ig_cache_key=MzkzMDE1MTAzMTc1OTE1MTcwNDE4MDcwMDMwMTQyNjk5OTIx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=86Rsb2xr_iIQ7kNvwGOIUeh&_nc_oc=AdrH9B2zXi4YzpSlHWqfkn9NAH-yhogFLWCxi1i1HwCGvx9OsA4rfyTsFXNQnhGoSXy7dyhjaIin7xZvaqH2fnR_&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=j4glBhgc-Xn6gHGunaIOgA&_nc_ss=7a3ba&oh=00_AQAwn0houaMswfIASEMiOUvKrR_WsoI3qr0o6EevzHZt2w&oe=6A50C066",
-        "url": "https://www.instagram.com/reel/3930151031759151704/"
       },
       {
         "platform": "ig",
@@ -894,19 +859,72 @@
       },
       {
         "platform": "ig",
-        "author": "lamentapiperita",
-        "time": "2026-06-29T12:17:10Z",
-        "text": "Segui @lamentapiperita per altre notizie sulla sostenibilità☘️\n\nMentre agli agricoltori vengono pagati 19 CENTESIMI per un kg di grano duro siciliano, la pasta al supermercato raggiunge livelli record fino a 2,20 al Kg😳 Il problema? Speculazione che",
-        "engagement": 30872,
-        "engagementRate": 0.33750956597791626,
+        "author": "piovono.ricette",
+        "time": "2026-06-30T10:31:19Z",
+        "text": "La marinatura delle cipolle diventa un condimento pazzesco per questa insalata fresca e colorata 😍😋😎\n\nIngredienti per 4 persone \nPer le cipolle marinate\n2 cipolle rosse\n1 cucchiaino miele millefiori\n2 cucchiai aceto di vino bianco\nq.b. sale\nq.b. o",
+        "engagement": 29047,
+        "engagementRate": 0.015249874392107676,
+        "sentiment": "neu",
+        "hashtags": [
+          "loveit",
+          "insalata",
+          "patate",
+          "piovonoricette"
+        ],
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/728152248_18421418479177573_5449293362422979823_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=105&ig_cache_key=MzkzMDg2MjkwMjQxNDMyODE3NTE4NDIxNDE4NDczMTc3NTcz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjc0NC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=ZGwlYFfJUyYQ7kNvwHGxEu7&_nc_oc=AdpbpEXyRdgTwpXrr-mGxfWPohwO9xnP_dyQCDUx2XV3uvC9PdDtV-PT4ZkfVeh6tkMyRPeeUZIFqnmfG1JYFDHB&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=NEwWTXzlqbpo8AaFMvW0bg&_nc_ss=7a3ba&oh=00_AQCXKXVpBC1_802IC8iq8krresGyC8QEds9cO6SOeVJDxg&oe=6A50B01F",
+        "url": "https://www.instagram.com/reel/3930862902414328175/"
+      },
+      {
+        "platform": "ig",
+        "author": "federicofusca",
+        "time": "2026-07-01T16:20:14Z",
+        "text": "Carbonara di mare ATOMICA!☀️🐷🦐 \nSALVATELA E CONDIVIDILA \n.\nIngredienti 🛒 \n350 gr di spaghetti \n200 gr di guanciale \n8 scampetti \n4 seppioline \n8 calamari \n4 tuorli \n1 uovo intero \n200 gr di parmigiano grattugiato \n120 gr di pecorino romano \nSale e",
+        "engagement": 28658,
+        "engagementRate": 0.02148986284071421,
+        "sentiment": "neu",
+        "hashtags": [
+          "carbonaradimare",
+          "carbonara",
+          "ricetteestive",
+          "cucinadimare",
+          "food"
+        ],
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/730783882_18604947514056581_1353928116927547436_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=103&ig_cache_key=MzkzMTc2MzIwOTUyNDAzMTUzNjE4NjA0OTQ3NTA4MDU2NTgx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExMTAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=9X73iqV1Wn8Q7kNvwE1als2&_nc_oc=AdrwdrxJyPeQxqx6Cnvv8U9jL_8JFlebWhgpKlA6HFqGoObkXz20Nr6jrANe8XuU5Z625xRYQ-GgTvMFSPtlakmd&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=4d02F-pNGb6BD5rM3vjXoQ&_nc_ss=7a3ba&oh=00_AQDkn068sNTWloZ1HpYqtjhNIo1CoVVkwQBPfoUd1965Gg&oe=6A50C992",
+        "url": "https://www.instagram.com/reel/3931763209524031536/"
+      },
+      {
+        "platform": "ig",
+        "author": "danilodafiumicino",
+        "time": "2026-07-01T10:27:07Z",
+        "text": "Tornano le ricette…chissà se ne farò altre!! Cormorano fritto con pomodorini! #food #foodporn #daje #ricetta",
+        "engagement": 25005,
+        "engagementRate": 0.03934938572154703,
         "sentiment": "pos",
         "hashtags": [
-          "sostenibilit",
-          "pasta",
-          "supermercato"
+          "food",
+          "foodporn",
+          "daje",
+          "ricetta"
         ],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/729375591_18430403896131313_4216573399062772355_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=106&ig_cache_key=MzkzMDE4ODk1MDkwMTc4MjA4MTE4NDMwNDAzODkzMTMxMzEz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=Oj4_HuJnEl0Q7kNvwFMGcYg&_nc_oc=AdqvArVuvkjSPy92kFJGVSNSYA8mu2-7WXUC8t2ObVymjTWw1p4nsn6gkAj9ScxZ15BiAqXp64ZI-fTJToRNpQda&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=tlQalZ3xQi4vjvrUvq-Duw&_nc_ss=7a3ba&oh=00_AQAwQ25kudgW9tk6pl6IpoogHOQmRJNHfTIdqaMFBgRS6w&oe=6A50B4CA",
-        "url": "https://www.instagram.com/reel/3930188950901782081/"
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t15.5256-10/723456624_1052787553841822_7091880550385257286_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=101&ig_cache_key=MzkzMTU4NjIyNzQ0MzQ0MDY5Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2ZpcnN0X2ZyYW1lX3RodW1ibmFpbC5DMyJ9&_nc_ohc=NgOtMKhGB1YQ7kNvwHXmsHW&_nc_oc=AdqvO2uGFk4V1S6SRfpjfoyBGVoozNevwd4uB28jw-XStAu64uXiZGEDdm4wesojbqRkbi9KPegyzsMDc2PRHRF2&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=3V9VPvoLs-itkoWohX6QMQ&_nc_ss=7a3ba&oh=00_AQDchIl8WWud1NXAtt26BP0gzDPnNjUa_1Hb0zzq9KjYlw&oe=6A50A856",
+        "url": "https://www.instagram.com/reel/3931586227443440693/"
+      },
+      {
+        "platform": "ig",
+        "author": "fattoincasadabenedetta",
+        "time": "2026-06-30T15:48:59Z",
+        "text": "SUGO PRONTO 🍅 La nostra ricetta di famiglia che ci tramandiamo da generazioni 😊\n\nINGREDIENTI\n\n3 Kg di pomodori rossi\n1 cipolla\n1 carota\n2 coste di sedano\n\nVi scrivo il procedimento nei primi commenti 👇\n\n#fattoincasadabenedetta #sugopronto #conserv",
+        "engagement": 24097,
+        "engagementRate": 0.004447286632855698,
+        "sentiment": "neg",
+        "hashtags": [
+          "fattoincasadabenedetta",
+          "sugopronto",
+          "conserve",
+          "ricettadellatradizione"
+        ],
+        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/731345416_18604154293037488_7875591562436782220_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=111&ig_cache_key=MzkzMTAyMjQ1MzU0Mzg5MjMzMTE4NjA0MTU0Mjg3MDM3NDg4.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=zyBXortMFU0Q7kNvwGEHwXd&_nc_oc=AdpoyNln58x71YVQ-MbdG_vRAUGoi2-62g9rrpx-xIqAdENkyH6jxsMz66U8q5mtkTAIq9yBk6CCP419SGGIGek9&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=3EIPNGTUk37k7eLeQjxsHw&_nc_ss=7a3ba&oh=00_AQCeyNRoY-ZDwgBziK7crLkxt9DxCnhAwRh6HMDWI1hObg&oe=6A50A30B",
+        "url": "https://www.instagram.com/reel/3931022453543892331/"
       },
       {
         "platform": "tt",
@@ -947,54 +965,6 @@
         "hashtags": [],
         "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oQAIAf5sDDCqFAgEtHEt96IeQCmQd8uQz1RivA~tplv-tiktokx-origin.image?dr=10395&x-expires=1783465200&x-signature=apcVKRsLiPJZrW2lWSVvWq5Sd2Q%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@the.adim.family/video/7657209466315738401"
-      },
-      {
-        "platform": "tt",
-        "author": "cucinaconruben",
-        "time": "2026-06-29T11:41:41Z",
-        "text": "Pasta alla Nerano #cucinaitaliana #italianfood #learnontiktok #perte #foryou ",
-        "engagement": 89333,
-        "engagementRate": 0.034358846153846156,
-        "sentiment": "pos",
-        "hashtags": [
-          "cucinaitaliana",
-          "italianfood",
-          "learnontiktok",
-          "perte",
-          "foryou"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/ogA4AeTaGGCULAyInEIsLqIfhFMQ1meglOjkPA~tplv-tiktokx-dmt-logom:tos-useast2a-i-0068-euttp/oYAAoEEQIDQqxvQfpsFmELCdEfnBYEAWDClRAx.image?dr=10393&x-expires=1783465200&x-signature=%2FmXv7p6zZb7duoF6WBK7cqAzIXQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@cucinaconruben/video/7656781207459335457"
-      },
-      {
-        "platform": "tt",
-        "author": "ele.rosa",
-        "time": "2026-06-29T12:28:21Z",
-        "text": "la fine di un’era e l’inizio di un’altra ragazzi!!  non vedo l’ora di perfezionare la ricetta di questa salsa formaggiosa perfetta e poterla condividere con voi 🫶🏼 i buldak sono buonissimi e continuerò a mangiarli ma al momento ne sono quasi spaven",
-        "engagement": 70513,
-        "engagementRate": 0.26913358778625956,
-        "sentiment": "pos",
-        "hashtags": [
-          "asmritalia",
-          "asmr",
-          "mangiamoinsieme",
-          "mukbang",
-          "noodles"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oUHmOYQjyE8he6CqA2CnIZICfTEhLBDmrDxRQF~tplv-tiktokx-origin.image?dr=10395&x-expires=1783465200&x-signature=3z%2Btvp%2FISieAtPM5t53W%2F%2BD12d0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
-        "url": "https://www.tiktok.com/@ele.rosa/video/7656793232583445792"
-      },
-      {
-        "platform": "tt",
-        "author": "dovealsud",
-        "time": "2026-06-29T11:39:50Z",
-        "text": "Melanzane in carrozza 😋 Ingredienti ricetta di  Daniele Badursi e Daniela Salfi: Melanzana, farina 00 ( o un'altra che vi piace), scamorza, prosciutto cotto, uova 3, pangrattato , sale, pepe, origano, olio di semi per friggere",
-        "engagement": 64367,
-        "engagementRate": 0.11797470674486804,
-        "sentiment": "pos",
-        "hashtags": [],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/ooxEvDGIAejWAQ7IQFLUAsCGg2MGAGeaeLhIIJ~tplv-tiktokx-origin.image?dr=10395&x-expires=1783465200&x-signature=w3AlCoIWMg0cBvutKRS11qDqWzA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@dovealsud/video/7656780720509127969"
       },
       {
         "platform": "tt",
@@ -1143,6 +1113,59 @@
         "url": "https://www.tiktok.com/@micheleelorenzo/video/7657974624067570977"
       },
       {
+        "platform": "tt",
+        "author": "robertadivaio1",
+        "time": "2026-07-02T19:11:20Z",
+        "text": "Ieri siamo stati da @🍕PALA PIZZA FRATTAMAGGIORE 🍕 Non c’è bisogno di descrizione.. il video parla da sé 🫠#muckbang #parcheggiati #foodporn #pizza #pasta ",
+        "engagement": 22348,
+        "engagementRate": 0.15370013755158185,
+        "sentiment": "pos",
+        "hashtags": [
+          "muckbang",
+          "parcheggiati",
+          "foodporn",
+          "pizza",
+          "pasta"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/ogSsbUfieADSIiGrI8fN4QggpLjGWjxawMIgG4~tplv-tiktokx-origin.image?dr=10395&x-expires=1783465200&x-signature=SupL%2Bai02FJzDf8YClSYoa%2FVEwc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
+        "url": "https://www.tiktok.com/@robertadivaio1/video/7658010341510516001"
+      },
+      {
+        "platform": "tt",
+        "author": "micheleelorenzo",
+        "time": "2026-06-30T17:12:58Z",
+        "text": "Questo dolce ce lo facevano sempre le nostre nonne, il Lattaiolo 🥛 Ingredienti:  - 1 litro di latte intero  - 4 tuorli  - 4 albumi  - Farina 50g - Limone  - Zucchero 100g  - Cannella q.b.  #ricetta #dolce #CucinaItaliana #latte ",
+        "engagement": 20717,
+        "engagementRate": 0.06004927536231884,
+        "sentiment": "pos",
+        "hashtags": [
+          "ricetta",
+          "dolce",
+          "CucinaItaliana",
+          "latte"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/osUuMrHQNDWQfAFjzG6QuRwF5hINgDfCSieDEC~tplv-tiktokx-dmt-logom:tos-useast2a-i-0068-euttp/oIBpBBgEhdFbR1AEKAiiBAGaVQI2PEkAEB0cx.image?dr=10393&x-expires=1783465200&x-signature=bNQAOwPqEpLvoIKX2sjoPUhjEDg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@micheleelorenzo/video/7657237665380683040"
+      },
+      {
+        "platform": "tt",
+        "author": "fattoincasadabenedetta",
+        "time": "2026-06-30T10:00:00Z",
+        "text": "In collaborazione con @penny.italia prepariamo  3 PASTE FREDDE PERFETTE PER L’ESTATE facili, colorate e buonissime, ideali per pranzi veloci, cene estive e giornate fuori casa ☀️✨ Le insalate di pasta sono sempre una salvezza quando fa caldo: si prep",
+        "engagement": 19589,
+        "engagementRate": 0.013992142857142858,
+        "sentiment": "neu",
+        "hashtags": [
+          "fattoincasadabenedetta",
+          "benedettarossi",
+          "pastafredda",
+          "ricetteestive",
+          "insalatadipasta"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/ogAFAfImBDBqiAEEfCi5uPEzQCmIBKtQ49RjcA~tplv-tiktokx-dmt-logom:tos-useast2a-i-0068-euttp/osnIEecF7g0jGeAQAeUIA9FMzGhLIbOgUB5uAC.image?dr=10393&x-expires=1783465200&x-signature=9h87Zay4HuCEdORNTTurjY0HoPs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@fattoincasadabenedetta/video/7656936565268155681"
+      },
+      {
         "platform": "yt",
         "author": "Lionfield",
         "time": "2026-06-29T16:00:31Z",
@@ -1201,32 +1224,6 @@
         "hashtags": [],
         "imageUrl": "https://i.ytimg.com/vi/uPmJOLJLbJ8/hqdefault.jpg",
         "url": "https://www.youtube.com/watch?v=uPmJOLJLbJ8"
-      },
-      {
-        "platform": "yt",
-        "author": "RapaNello",
-        "time": "2026-06-29T12:00:04Z",
-        "text": "Paccheri alla Vittorio\n■ Qui trovi tutto, i miei libri e le cose che uso nei video, le magliette.\nhttps://linktr.ee/rapanello\n■  Ecco il sito internet ufficiale gratuito   https://www.ziorapa.it/\n\n☕ Vuoi offrirmi un caffè? Sostieni le nostre attività",
-        "engagement": 3346,
-        "engagementRate": 0.0040410628019323675,
-        "sentiment": "neg",
-        "hashtags": [
-          "paccheriallavittorio",
-          "paccheri",
-          "pastaalpomodoro",
-          "pomodoro",
-          "pastamantecata",
-          "basilico",
-          "parmigiano",
-          "cucinaitaliana",
-          "ricettafacile",
-          "ricetteveloci",
-          "rapanello",
-          "ricetterapanello",
-          "ricettevegetariane"
-        ],
-        "imageUrl": "https://i.ytimg.com/vi/Gyt2JZOZDKs/hqdefault.jpg",
-        "url": "https://www.youtube.com/watch?v=Gyt2JZOZDKs"
       },
       {
         "platform": "yt",
@@ -1396,10 +1393,29 @@
         ],
         "imageUrl": "https://i.ytimg.com/vi/1MXCiI9dYqk/hqdefault.jpg",
         "url": "https://www.youtube.com/watch?v=1MXCiI9dYqk"
+      },
+      {
+        "platform": "yt",
+        "author": "FattoincasadaBenedettaOfficial",
+        "time": "2026-07-05T10:09:45Z",
+        "text": "PATATINE DELLA NONNA - Una ricetta facile e davvero veloce per preparare delle gustose chips, perfette per un menù a tema fast food da organizzare a casa.\n\nINGREDIENTI\n\n4 patate medie gialle\n1 Litro di olio per friggere\nsale",
+        "engagement": 1730,
+        "engagementRate": 0.0005043731778425656,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://i.ytimg.com/vi/OyZIPaAV5R4/hqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=OyZIPaAV5R4"
       }
     ]
   },
   "news": [
+    {
+      "title": "Barilla Gran Ruote - Gdoweek",
+      "source": "Gdoweek",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fZjlMR1o3azJPcUJtOVI4UDhxTGtDcUJQaGplN0pfTVNsNjJwbGUzM0cwdTlYU1BWWU1XWTBtX3l4bTV2U0xPankyMW1NeHdLeDlnQmEtb3BLZ3VwcGFTbg?oc=5",
+      "date": "2026-07-06T10:39:38.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fZjlMR1o3azJPcUJtOVI4UDhxTGtDcUJQaGplN0pfTVNsNjJwbGUzM0cwdTlYU1BWWU1XWTBtX3l4bTV2U0xPankyMW1NeHdLeDlnQmEtb3BLZ3VwcGFTbg?oc=5\" target=\"_blan"
+    },
     {
       "title": "E con cosa cucinate la pasta? Barilla ha la sua playlist su Spotify. - Letem světem Applem",
       "source": "Letem světem Applem",
@@ -1443,18 +1459,18 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNRDZBOXRVQmtUYkpuWGRyZHRPTjRZanhXbDRZZ082UzBKNEFaajZxdmhBcTdRd2dNcU53bC1GRmZtdkZyUVRGOHJaZGFaa0V6NVp5alBzekxPVjUtSkhlY2RCSnl3QmJSRUdWeFM5dl"
     },
     {
-      "title": "Il futuro della pasta, dall'agricoltura rigenerativa alla qualità delle materie prime - National Geographic",
-      "source": "National Geographic",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVlBmZTh4enhya3Izc200bVNzZmZ3QTYzT0xtaHJyV0N0LU1IdU1FeFRPd0NUWjh5UUhzbnVDRmVhT2ROYlVhZVFjZ0dfMXJiSWdPSGpNcFE3WG5TNF90bHBqakJjSDl2YWNLUHVhSnBUS1lDUXRuQlFaRmxNekltd3FTMElOZEx5a0tBZUdfdjZZaGJuRUhha0RsOVFsZWgtc3NxRDNmM1lFQWd1Y2ZkSWxyQkdPUmNVTnc?oc=5",
-      "date": "2026-06-06T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxOVlBmZTh4enhya3Izc200bVNzZmZ3QTYzT0xtaHJyV0N0LU1IdU1FeFRPd0NUWjh5UUhzbnVDRmVhT2ROYlVhZVFjZ0dfMXJiSWdPSGpNcFE3WG5TNF90bHBqakJjSDl2YWNLUHVhSn"
-    },
-    {
       "title": "Intervista con Paolo Barilla: dall'agricoltura rigenerativa al futuro della pasta - National Geographic",
       "source": "National Geographic",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWk9TeFgxQW5ldzZ5LTFhQjZjanBtUjJCdFZlenNpc2NmM1RZOVhUaGR2cWxIU05RV0ZTN3VvT0VDRmg5YnZMeXJEdzBCWVdySUxrS25YaHFtcjFvOGZPQi1nT2lpQ3F5ZUFQbEdVQmNoaTlTZ2NPWndoYm9kN2V6dzl1ZjdmdEJLaWhyU3JTSG9WODctNWJCS2xKeTlBbkdPaUZDQTdRMElHU0wtVk5ueVFuX2w?oc=5",
       "date": "2026-06-06T07:00:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPWk9TeFgxQW5ldzZ5LTFhQjZjanBtUjJCdFZlenNpc2NmM1RZOVhUaGR2cWxIU05RV0ZTN3VvT0VDRmg5YnZMeXJEdzBCWVdySUxrS25YaHFtcjFvOGZPQi1nT2lpQ3F5ZUFQbEdVQm"
+    },
+    {
+      "title": "Il futuro della pasta, dall'agricoltura rigenerativa alla qualità delle materie prime - National Geographic",
+      "source": "National Geographic",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVlBmZTh4enhya3Izc200bVNzZmZ3QTYzT0xtaHJyV0N0LU1IdU1FeFRPd0NUWjh5UUhzbnVDRmVhT2ROYlVhZVFjZ0dfMXJiSWdPSGpNcFE3WG5TNF90bHBqakJjSDl2YWNLUHVhSnBUS1lDUXRuQlFaRmxNekltd3FTMElOZEx5a0tBZUdfdjZZaGJuRUhha0RsOVFsZWgtc3NxRDNmM1lFQWd1Y2ZkSWxyQkdPUmNVTnc?oc=5",
+      "date": "2026-06-06T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxOVlBmZTh4enhya3Izc200bVNzZmZ3QTYzT0xtaHJyV0N0LU1IdU1FeFRPd0NUWjh5UUhzbnVDRmVhT2ROYlVhZVFjZ0dfMXJiSWdPSGpNcFE3WG5TNF90bHBqakJjSDl2YWNLUHVhSn"
     },
     {
       "title": "Barilla abbassa i prezzi e recupera quote di mercato. Al via il piano da 280 milioni per l'era dell'Ai - ItalyPost",
@@ -1602,13 +1618,6 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZHBxVXdubkRrdDhILW03TmlRdktya3RoV19ERVJPc3lxV2QyMjh6Vkk2ZTlzN3FicVdid21zWDJNSDRadVN0bUV6Zy1NZGhxTGVsODFGNzhrMmY0emxnX0lfd2hTdm9zd1ZxWV81YWwyOTZLX1NURFlXV19uRmlQVHB0YWNtbkhQQ0V2RGt6bFJiUW01TDdQWEc1Y0luRzdTNnl6WEhuSjZSX2ZXb3c?oc=5",
       "date": "2025-08-29T07:00:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOZHBxVXdubkRrdDhILW03TmlRdktya3RoV19ERVJPc3lxV2QyMjh6Vkk2ZTlzN3FicVdid21zWDJNSDRadVN0bUV6Zy1NZGhxTGVsODFGNzhrMmY0emxnX0lfd2hTdm9zd1ZxWV81YW"
-    },
-    {
-      "title": "Brand del food: cresce il valore dell’Italia nel calo globale. Barilla in top ten - Il Sole 24 ORE",
-      "source": "Il Sole 24 ORE",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRnV0WktnN0syZ29HalBNd2xlTWo1OVVnM1dLSDluWDRqMVoxVy1KYUlmVXQtUkNlQk1Ec3NJSzFVdDFOcW96WVdzMkIzN0xZMlNxR3BRMC12OW80X2lIMGxSQm8wNXI3dTVjNi1waEZlQ2lkMW41c0kyYVVfYTg0bWIxOG9fSF92SlQ0WHJic2xqdFR5cXd1cGRyajFqbVpwMEFsRW5PUHFQUQ?oc=5",
-      "date": "2025-08-28T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRnV0WktnN0syZ29HalBNd2xlTWo1OVVnM1dLSDluWDRqMVoxVy1KYUlmVXQtUkNlQk1Ec3NJSzFVdDFOcW96WVdzMkIzN0xZMlNxR3BRMC12OW80X2lIMGxSQm8wNXI3dTVjNi1waE"
     }
   ],
   "consumer": {
@@ -2110,22 +2119,22 @@
         },
         {
           "type": "social",
-          "platform": "ig",
-          "author": "vesuviolive",
-          "text": "Napoli vicina alle vittime del Venezuela: la facciata di Castel Nuovo si tinge dei colori della bandiera venezuelana come segno di cordoglio e solidarietà a seguito del violento terremoto che ha colpito il paese. \nLa facciata del celebre monumento pa",
-          "engagement": 63,
-          "date": "2026-07-03T12:02:56Z",
-          "url": "https://www.instagram.com/p/3933083959252527643/",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
           "platform": "tt",
           "author": "elvira.grimaldi1",
           "text": "Grazie alle mie amiche per questo regalo magnifico 😍 @mammapesti @Filomena Garofalo @💚Daniela  Incaricata_Bimby💚 😘❤️ #regalo #star #compleanno #perte #videostar ",
           "engagement": 63,
           "date": "2026-06-30T12:38:55Z",
           "url": "https://www.tiktok.com/@elvira.grimaldi1/video/7657167040842632481",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "vesuviolive",
+          "text": "Napoli vicina alle vittime del Venezuela: la facciata di Castel Nuovo si tinge dei colori della bandiera venezuelana come segno di cordoglio e solidarietà a seguito del violento terremoto che ha colpito il paese. \nLa facciata del celebre monumento pa",
+          "engagement": 63,
+          "date": "2026-07-03T12:02:56Z",
+          "url": "https://www.instagram.com/p/3933083959252527643/",
           "brand": "Garofalo"
         },
         {
@@ -2182,10 +2191,10 @@
     },
     {
       "name": "Barilla",
-      "mentions": 7,
+      "mentions": 6,
       "socialMentions": 6,
-      "totalMentions": 13,
-      "shareOfVoice": 23.2,
+      "totalMentions": 12,
+      "shareOfVoice": 21.4,
       "posts": [
         {
           "type": "news",
@@ -2197,10 +2206,10 @@
         },
         {
           "type": "news",
-          "title": "Barilla, la pasta “blu” tradisce il Made in Italy - POP - Il Giornale Popolare",
-          "source": "POP - IL GIORNALE POPOLARE",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUmw0TnFxSVV2U2FPTmpUQ0RHRjVTRWF3U05abFNlVi1iU1V2MU9BQVhqUEo2dGNuTU0zTjZQUmlpNUVCNjQ5Qmh0dlJqOGxYa0o0Rk5tejFVZV95cnIwSXNUZm1vLTdIaXlvUnBMMUJLT0JJdS1PU1ctRzFfeVdnRkN4RQ?oc=5",
-          "date": "2026-06-29T14:38:00.000Z",
+          "title": "Barilla Gran Ruote - Gdoweek",
+          "source": "GDOWEEK",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fZjlMR1o3azJPcUJtOVI4UDhxTGtDcUJQaGplN0pfTVNsNjJwbGUzM0cwdTlYU1BWWU1XWTBtX3l4bTV2U0xPankyMW1NeHdLeDlnQmEtb3BLZ3VwcGFTbg?oc=5",
+          "date": "2026-07-06T10:39:38.000Z",
           "brand": "Barilla"
         },
         {
@@ -2217,14 +2226,6 @@
           "source": "LA VOCE DI NEW YORK",
           "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOOUJ0bUJNcVY2Z1JRX0N2TXlReXZINFltazBmekQwSXRkV1dUY081UmF0UWJQX1lVajdUQUh5SFpyQ0JiN1dCdW9oWG5XejduSUt1b21iMzUxUjZNVG9fMC1jRG5sNndiRUhXRkVJM3Q1dGk3SE9iY2dKYmktMUs5OFpLd3ZwS2ppQUVNbHc0bVNpcTVLbzE2TTdaZHBnbkVnVEtEZEZmdkxtNUlVcndMSzJRTUl3d2J2WWdJdHdiamZEczdUQWxIX0daY2lLQkdLSjVfLWZvZ1pLVjZmT0IxTkFMN1M?oc=5",
           "date": "2026-06-29T22:32:44.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Maxi stretta sullo spaccio, quattro arresti in pochi giorni - POP - Il Giornale Popolare",
-          "source": "POP - IL GIORNALE POPOLARE",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSFBaUFFTX0lLZk15di0zZTFHdHJQWnplc1d0TVlCZUFsLVZhOVdra3JqTWs5YzVtVDRCaDVlNkNGellvOW5nRkJNTUVVMURjNTVNdW5EVVdqU0Fxc1UtRUxWaTVEamN6UV9zcHd5UUU3R1lJbFcwT2JlU0FEQVJ4MkN0N3B2MjJnVlU0UlRKWmU5dlFxMGxUOEV5T1V3QQ?oc=5",
-          "date": "2026-06-29T14:46:00.000Z",
           "brand": "Barilla"
         },
         {
@@ -2416,10 +2417,10 @@
     },
     {
       "name": "La Molisana",
-      "mentions": 9,
+      "mentions": 10,
       "socialMentions": 1,
-      "totalMentions": 10,
-      "shareOfVoice": 17.9,
+      "totalMentions": 11,
+      "shareOfVoice": 19.6,
       "posts": [
         {
           "type": "news",
@@ -2447,18 +2448,18 @@
         },
         {
           "type": "news",
-          "title": "Schermi 2026 il Cinema Itinerante su quattro ruote fa ritorno a Catanzaro - InfoOggi",
-          "source": "INFOOGGI",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRkVxZ09IdEFHcTdPSmNwNi1FRFM0cV9sUnFwN2gzRGJQUlFQbnh2aFpWcm5rNlFTNVlUNHZyMjNwbW1paXZ5UVozRXoycHdvSVpFX2VNcFVjcGFrYUJEZ3hxMWVpeWc5Q0NDNEpJa0F6ZUZ1bkRYbVpmeFZMX0F2RnMwNjFkUGJUdXBXZjFla1RxRGJzVmdOeGpLMm02U3FENnRoRnp5eTdUcjNXNVVwVjBfb9IBuAFBVV95cUxOaE1ubm5fU29LbXhUazRkZWlTazMtUXdZSjlrN1BZSDQycl9ZcVNlZ2s2b2NRMm5YdmQxN0tKWnZuTzgtaEx2Q2hCOWJtcGlUVDVKLXVKdGx0Z2ZaZmtZZnhXY0FkYzdvM21zS3B3OE9BdTVDWDFlU1FsS0R0QUhlX240TERhWXVLWEJBSm1XZDVvNlNiZUl1anlBTWNDNlVhRm1Nd256V2Jrc0JVWWdCRlFHUzVrUTUz?oc=5",
-          "date": "2026-07-03T21:23:39.000Z",
-          "brand": "La Molisana"
-        },
-        {
-          "type": "news",
           "title": "“Musica, Visioni, Meraviglia”: da oggi al via le prevendite del Festival d’Autunno - InfoOggi",
           "source": "INFOOGGI",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYTJIV2VXMHhPd3U1eVp6bUYwc3lmZ184d3ZFRnFkallsN2k3NHRTRUtSOTA4aFhQbTJieXdYU3hOYU5JSlZidjctSTVTa0prRHJEWXE2Sm10M3JRQ0VBRHpRaHdXbEhpa3NRQ1psYkZZZVlGS29NcDh6VG9ndjYxaE9ENE9oUHM0QzRFWEFheTJLZWhicjF1RWI0Z2RfbEFxdHRxS3JvNGZicTBkV0pXa3VRQ3VjSDZ30gG-AUFVX3lxTE40Z2tFYUVqUXJlYXFhSUdoTlJ5ajl4NzI0TFpGTWtGX2NGbldwN1BHbFNSaGJWZ2lreGFYR1g5dHBSN1ZUcm5kRFNhSzZkWU9fYnNYNk5yVVRMWnpvc1FKMjlzUlQwdXZwNnl5eTNpRVdrSklZLUNiMDc0NmlWTXBGVWhXWFdmQm9kaURvejVOa0puVEFJa1JhczlLZ0E3Y0NrRnYzd2JjRGk2bXhtSHMtSi1tMUlTS1NDcjF6UWc?oc=5",
           "date": "2026-07-06T09:53:06.000Z",
+          "brand": "La Molisana"
+        },
+        {
+          "type": "news",
+          "title": "Schermi 2026 il Cinema Itinerante su quattro ruote fa ritorno a Catanzaro - InfoOggi",
+          "source": "INFOOGGI",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRkVxZ09IdEFHcTdPSmNwNi1FRFM0cV9sUnFwN2gzRGJQUlFQbnh2aFpWcm5rNlFTNVlUNHZyMjNwbW1paXZ5UVozRXoycHdvSVpFX2VNcFVjcGFrYUJEZ3hxMWVpeWc5Q0NDNEpJa0F6ZUZ1bkRYbVpmeFZMX0F2RnMwNjFkUGJUdXBXZjFla1RxRGJzVmdOeGpLMm02U3FENnRoRnp5eTdUcjNXNVVwVjBfb9IBuAFBVV95cUxOaE1ubm5fU29LbXhUazRkZWlTazMtUXdZSjlrN1BZSDQycl9ZcVNlZ2s2b2NRMm5YdmQxN0tKWnZuTzgtaEx2Q2hCOWJtcGlUVDVKLXVKdGx0Z2ZaZmtZZnhXY0FkYzdvM21zS3B3OE9BdTVDWDFlU1FsS0R0QUhlX240TERhWXVLWEJBSm1XZDVvNlNiZUl1anlBTWNDNlVhRm1Nd256V2Jrc0JVWWdCRlFHUzVrUTUz?oc=5",
+          "date": "2026-07-03T21:23:39.000Z",
           "brand": "La Molisana"
         },
         {
@@ -2491,6 +2492,14 @@
           "source": "INFOOGGI",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQR0RJZVpBR0RRLXZ5aVlCTmk4SHBXNTdsWVhvN25SQmw4cEhCekNSVWV6VWVaekFyd3VkejZkMGJpM29fUms2d1hHb1lRRE1qUE03dk1ESHAxbFM3RFlkWUo2VjBCZVB2OGJQT01nZWowVlVoUGY2RjZkZk1oTWphUEp6TW5JZW9HWkgtTlFRUldYdzc0cmc4cWw0SlJmU1lWZTF2ZXpGRzJndlFXZ0Y4ZmdkbWZDUERFUVlB0gHAAUFVX3lxTE1GMzE5c3BoQjZxQ21obUd0eGpQSGw3UFNndGE1MXNmTlF4SHEyRzZrZDduMlBwUlItWVhCaUpubndCOVZxanVISlQ1Y3RqdTdCalNHR3htemxwNXViOGZQenk4dTlRa3ZXbEFSR1VMb0JKM1BycXEyREh0T1VhYTlQLXNYNlp0TXkzenpVckZnMUVrbldxNks0NWRJY1BvbjJkOUFSNmhnTURveHB2NUFObGpEcDEyLUhhdlV4Ympxcw?oc=5",
           "date": "2026-07-05T19:42:01.000Z",
+          "brand": "La Molisana"
+        },
+        {
+          "type": "news",
+          "title": "Assalto a un portavalori tra Cerignola e Canosa: esplosioni, spari e auto incendiate, banditi in fuga con il bottino - InfoOggi",
+          "source": "INFOOGGI",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQeG9taEQ1RFFPQTVqVjFOR0lvR2pNaVc3NDBmU3dUek1oUzhZenBIa2VuRVJBUE9nNFNOYWliUU1idmJSa2FhSENtdDdSSGhQUjQ5WmstRjJsLVZ6QVdRRkpSdkQ2YzRjTC1ic0tkQUdNTEYyYWhJSEpreGN4cjlJYWRHR3pRWW9YcEFSVXd4Ry1hV3hIbW5Kc3djeUhKeDl0WHBrVGkyMW43LU96UVZIVGtfWnptV2hxZ0ltMHhnZ2FTMDlIYVNOZFMwU3Y2MGx2WERBVHZheHhOeGkwTXFIQ2Qwb1I1STFp0gHuAUFVX3lxTE5HZHFXdHFISnc0NnNUZUJFclJrMnRUX1NOTlB1Y2pIWUljTi1aQVNvcWR2T180UlhkcVk1Wkx5UjlOX3dzUUUtWTFDa2JqajhsRTlOVXdZaHlmaURHUFc3TEc4d0xTVWhGR3BhbWRDMUJmU3VVSk5oOEFrajZQbnFWNnltX01iVkRHZS03YkY3OGsxOWdNTmdlbFh3SUVkd3FXRjRvUEs4UlJfT2NMYmZGUFc1THBKa05zWHJ6QzNQcEoxSWpWcExXNDVNek1mRUVocEhIeG9aa2hkeVZCSWlVbXBwZFFULUU1M21reWc?oc=5",
+          "date": "2026-07-06T11:58:49.000Z",
           "brand": "La Molisana"
         },
         {
