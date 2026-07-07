@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-07T09:39:20.202Z",
+    "generatedAt": "2026-07-07T14:31:41.737Z",
     "pipelineVersion": "1.0.0",
     "sources": {
       "opensearch": true,
@@ -9,19 +9,19 @@
       "claude": false,
       "competitors": true
     },
-    "processingTimeMs": 4099
+    "processingTimeMs": 3794
   },
   "social": {
     "overview": {
-      "totalPosts": 250421,
-      "prevTotalPosts": 260689,
-      "volumeChange": -3.9,
-      "mentions24h": 31334,
-      "totalEngagement": 1046136545,
-      "avgEngagementRate": 0.009847437596558366,
-      "erChange": -19.3,
+      "totalPosts": 237866,
+      "prevTotalPosts": 260619,
+      "volumeChange": -8.7,
+      "mentions24h": 18561,
+      "totalEngagement": 1004778387,
+      "avgEngagementRate": 0.009701421701597759,
+      "erChange": -20.3,
       "organicPct": 98,
-      "sponsoredCount": 5688
+      "sponsoredCount": 5189
     },
     "brandHealth": {
       "score": 80,
@@ -29,7 +29,7 @@
       "dimensions": [
         {
           "name": "Sentiment",
-          "score": 70,
+          "score": 69,
           "color": "#00e676"
         },
         {
@@ -70,108 +70,83 @@
       ]
     },
     "sentiment": {
-      "netScore": 51,
-      "positive": 60,
-      "neutral": 31,
+      "netScore": 50,
+      "positive": 59,
+      "neutral": 32,
       "negative": 9
     },
     "platforms": [
       {
         "name": "tt",
-        "count": 127930,
-        "pctOfTotal": 51.1
+        "count": 122031,
+        "pctOfTotal": 51.3
       },
       {
         "name": "ig",
-        "count": 112615,
-        "pctOfTotal": 45
+        "count": 106447,
+        "pctOfTotal": 44.8
       },
       {
         "name": "yt",
-        "count": 9876,
+        "count": 9388,
         "pctOfTotal": 3.9
       }
     ],
     "dailyVolume": [
       {
         "date": "2026-06-30T00:00:00.000Z",
-        "count": 30889,
-        "engagement": 156046130,
-        "avgEr": 0.01218919453984092
+        "count": 18321,
+        "engagement": 106649071,
+        "avgEr": 0.011898956084327995
       },
       {
         "date": "2026-07-01T00:00:00.000Z",
         "count": 38875,
-        "engagement": 158776218,
-        "avgEr": 0.011535504409647398
+        "engagement": 158828555,
+        "avgEr": 0.01153551671719368
       },
       {
         "date": "2026-07-02T00:00:00.000Z",
         "count": 37919,
-        "engagement": 140240620,
-        "avgEr": 0.010794594866674107
+        "engagement": 140762580,
+        "avgEr": 0.010794634768126086
       },
       {
         "date": "2026-07-03T00:00:00.000Z",
         "count": 39160,
-        "engagement": 180027598,
-        "avgEr": 0.009891081570542465
+        "engagement": 183840644,
+        "avgEr": 0.009891669018268405
       },
       {
         "date": "2026-07-04T00:00:00.000Z",
         "count": 33435,
-        "engagement": 160718400,
-        "avgEr": 0.010363832338023956
+        "engagement": 161950293,
+        "avgEr": 0.010364290974696128
       },
       {
         "date": "2026-07-05T00:00:00.000Z",
         "count": 31372,
-        "engagement": 157285107,
-        "avgEr": 0.009076294881116755
+        "engagement": 157524537,
+        "avgEr": 0.009077587227869745
       },
       {
         "date": "2026-07-06T00:00:00.000Z",
-        "count": 37907,
-        "engagement": 92968065,
-        "avgEr": 0.005607213073592172
+        "count": 37916,
+        "engagement": 95141568,
+        "avgEr": 0.005606407441325434
       },
       {
         "date": "2026-07-07T00:00:00.000Z",
-        "count": 864,
-        "engagement": 74407,
-        "avgEr": 0.0006863306486083589
+        "count": 868,
+        "engagement": 81139,
+        "avgEr": 0.000697970255640489
       }
     ],
     "hourlyVolume": [
       {
-        "hour": "2026-07-06T09:00:00.000Z",
-        "count": 709,
-        "engagement": 953250
-      },
-      {
-        "hour": "2026-07-06T10:00:00.000Z",
-        "count": 2944,
-        "engagement": 6591276
-      },
-      {
-        "hour": "2026-07-06T11:00:00.000Z",
-        "count": 2739,
-        "engagement": 5087523
-      },
-      {
-        "hour": "2026-07-06T12:00:00.000Z",
-        "count": 2724,
-        "engagement": 6790363
-      },
-      {
-        "hour": "2026-07-06T13:00:00.000Z",
-        "count": 2361,
-        "engagement": 5419271
-      },
-      {
         "hour": "2026-07-06T14:00:00.000Z",
-        "count": 2297,
-        "engagement": 4451159
+        "count": 992,
+        "engagement": 1572539
       },
       {
         "hour": "2026-07-06T15:00:00.000Z",
@@ -180,13 +155,13 @@
       },
       {
         "hour": "2026-07-06T16:00:00.000Z",
-        "count": 3172,
-        "engagement": 4931813
+        "count": 3174,
+        "engagement": 5412142
       },
       {
         "hour": "2026-07-06T17:00:00.000Z",
-        "count": 2541,
-        "engagement": 4762732
+        "count": 2542,
+        "engagement": 4762899
       },
       {
         "hour": "2026-07-06T18:00:00.000Z",
@@ -195,13 +170,13 @@
       },
       {
         "hour": "2026-07-06T19:00:00.000Z",
-        "count": 2091,
-        "engagement": 1836988
+        "count": 2092,
+        "engagement": 2383772
       },
       {
         "hour": "2026-07-06T20:00:00.000Z",
-        "count": 1443,
-        "engagement": 1373973
+        "count": 1444,
+        "engagement": 2139502
       },
       {
         "hour": "2026-07-06T21:00:00.000Z",
@@ -250,125 +225,140 @@
       },
       {
         "hour": "2026-07-07T06:00:00.000Z",
-        "count": 80,
-        "engagement": 1267
+        "count": 81,
+        "engagement": 5041
       },
       {
         "hour": "2026-07-07T07:00:00.000Z",
         "count": 19,
         "engagement": 133
+      },
+      {
+        "hour": "2026-07-07T08:00:00.000Z",
+        "count": 0,
+        "engagement": 0
+      },
+      {
+        "hour": "2026-07-07T09:00:00.000Z",
+        "count": 1,
+        "engagement": 1594
+      },
+      {
+        "hour": "2026-07-07T10:00:00.000Z",
+        "count": 2,
+        "engagement": 1364
       }
     ],
     "hashtags": [
       {
         "tag": "perte",
-        "count": 5822
+        "count": 5523
       },
       {
         "tag": "fyp",
-        "count": 5057
+        "count": 4834
       },
       {
         "tag": "accadeoggi",
-        "count": 4958
+        "count": 4786
       },
       {
         "tag": "viral",
-        "count": 3976
+        "count": 3804
       },
       {
         "tag": "adv",
-        "count": 2839
+        "count": 2554
       },
       {
         "tag": "tiktokshop",
-        "count": 2282
+        "count": 2125
       },
       {
         "tag": "neiperte",
-        "count": 2198
+        "count": 2094
       },
       {
         "tag": "foryou",
-        "count": 1855
+        "count": 1770
       },
       {
         "tag": "napoli",
-        "count": 1751
-      },
-      {
-        "tag": "cavalcalondadeirisparmi",
-        "count": 1206
-      },
-      {
-        "tag": "estate",
-        "count": 1173
+        "count": 1660
       },
       {
         "tag": "italia",
-        "count": 1153
+        "count": 1107
+      },
+      {
+        "tag": "cavalcalondadeirisparmi",
+        "count": 1102
+      },
+      {
+        "tag": "estate",
+        "count": 1093
       },
       {
         "tag": "italy",
-        "count": 1065
-      },
-      {
-        "tag": "offertestive",
-        "count": 1027
-      },
-      {
-        "tag": "calcio",
-        "count": 1025
+        "count": 1010
       },
       {
         "tag": "virale",
-        "count": 1006
+        "count": 969
       },
       {
-        "tag": "madeinitaly",
-        "count": 958
+        "tag": "calcio",
+        "count": 963
+      },
+      {
+        "tag": "offertestive",
+        "count": 955
       },
       {
         "tag": "perteeee",
-        "count": 948
+        "count": 906
       },
       {
-        "tag": "offerteestive",
-        "count": 941
-      },
-      {
-        "tag": "summer",
-        "count": 928
-      },
-      {
-        "tag": "roma",
-        "count": 926
+        "tag": "madeinitaly",
+        "count": 899
       },
       {
         "tag": "capcut",
-        "count": 916
+        "count": 878
+      },
+      {
+        "tag": "roma",
+        "count": 877
+      },
+      {
+        "tag": "summer",
+        "count": 854
+      },
+      {
+        "tag": "offerteestive",
+        "count": 847
       },
       {
         "tag": "f1",
-        "count": 856
+        "count": 830
       },
       {
         "tag": "offerteperte",
-        "count": 841
+        "count": 791
       },
       {
         "tag": "amore",
-        "count": 813
+        "count": 780
       }
     ],
     "creators": [
       {
         "name": "433",
-        "posts": 75,
-        "engagement": 61227503,
+        "posts": 74,
+        "engagement": 60993144,
         "platform": "ig",
         "followers": 78322161,
-        "avgEr": 0.010424720525327525
+        "avgEr": 0.0105251594001071
       },
       {
         "name": "erling",
@@ -387,28 +377,28 @@
         "avgEr": 0.01217772684734044
       },
       {
-        "name": "fabrizioromano",
-        "posts": 81,
-        "engagement": 35759459,
-        "platform": "tt",
-        "followers": 25100000,
-        "avgEr": 0.017649832343714696
-      },
-      {
         "name": "cristiano",
         "posts": 4,
-        "engagement": 33731689,
+        "engagement": 37989758,
         "platform": "ig",
         "followers": 671667959,
-        "avgEr": 0.012555195073701588
+        "avgEr": 0.01414008123022584
+      },
+      {
+        "name": "fabrizioromano",
+        "posts": 79,
+        "engagement": 35191961,
+        "platform": "tt",
+        "followers": 25100000,
+        "avgEr": 0.017807005518606613
       },
       {
         "name": "realmadrid",
-        "posts": 40,
-        "engagement": 22935182,
+        "posts": 39,
+        "engagement": 22774699,
         "platform": "ig",
         "followers": 178997824,
-        "avgEr": 0.0032032766498882132
+        "avgEr": 0.003262423128817706
       },
       {
         "name": "fcbarcelona",
@@ -420,11 +410,11 @@
       },
       {
         "name": "f1",
-        "posts": 76,
-        "engagement": 16972796,
+        "posts": 73,
+        "engagement": 16448578,
         "platform": "ig",
         "followers": 43111607,
-        "avgEr": 0.0051801887866971584
+        "avgEr": 0.005226503996971625
       },
       {
         "name": "neymarjr",
@@ -435,20 +425,20 @@
         "avgEr": 0.03100528250076405
       },
       {
+        "name": "leomessi",
+        "posts": 2,
+        "engagement": 14519103,
+        "platform": "ig",
+        "followers": 511843118,
+        "avgEr": 0.01418315738690854
+      },
+      {
         "name": "arianagrande",
         "posts": 8,
         "engagement": 14044732,
         "platform": "ig",
         "followers": 363432955,
         "avgEr": 0.029499304661618892
-      },
-      {
-        "name": "leomessi",
-        "posts": 2,
-        "engagement": 13862626,
-        "platform": "ig",
-        "followers": 511843118,
-        "avgEr": 0.013541870069648958
       },
       {
         "name": "k.mbappe",
@@ -459,20 +449,12 @@
         "avgEr": 0.02288839867351689
       },
       {
-        "name": "tomholland2013",
-        "posts": 3,
-        "engagement": 8521962,
-        "platform": "ig",
-        "followers": 64366428,
-        "avgEr": 0.04413254064681047
-      },
-      {
-        "name": "milliebobbybrown",
-        "posts": 4,
-        "engagement": 8023126,
-        "platform": "ig",
-        "followers": 70699096,
-        "avgEr": 0.028370681005595887
+        "name": "charlidamelio",
+        "posts": 6,
+        "engagement": 7360703,
+        "platform": "tt",
+        "followers": 159100000,
+        "avgEr": 0.007710772051120887
       },
       {
         "name": "lalalalisa_m",
@@ -481,6 +463,14 @@
         "platform": "ig",
         "followers": 105933648,
         "avgEr": 0.03105779006119
+      },
+      {
+        "name": "bts.bighitofficial",
+        "posts": 2,
+        "engagement": 6130131,
+        "platform": "ig",
+        "followers": 80819445,
+        "avgEr": 0.037924852119437344
       }
     ],
     "posts": [
@@ -697,24 +687,6 @@
       },
       {
         "platform": "ig",
-        "author": "otto_grani",
-        "time": "2026-06-30T13:40:17Z",
-        "text": "L'incontro tra tradizione e estro. 🌿🌾\n\nLa delicatezza della pasta fresca sposa una spinta aromatica decisa e una croccantezza inaspettata. Le nostre Orecchiette celebrano l'unione perfetta tra la semplicità contadina e la tecnica contemporanea di O",
-        "engagement": 9,
-        "engagementRate": 0.0002557980900409277,
-        "sentiment": "neg",
-        "hashtags": [
-          "ottograni",
-          "orecchietteconpesto",
-          "pestodirucola",
-          "cantineastroni",
-          "mercogliano"
-        ],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t39.30808-6/733448486_1514568970682440_5538935537694798923_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=MzkzMDk1ODY4MjM0NzA0NzM5Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ymbq82znCV4Q7kNvwF96xUR&_nc_oc=AdqLbiwSOXtfo4usYOvGFlS9sLULxlla6Wmyxf28wVQJmxvrjdYuhDBBu8_2kd3reErW-pBQDfBOuuiMRlqKU_7r&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=7&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=eRkquXAyETvm05-4c9L7jg&_nc_ss=7a3ba&oh=00_AQAfla75UTZm0Ev_hlcWrWYhhGR_q6ke3-s0SrN_iHHwxg&oe=6A525F6C",
-        "url": "https://www.instagram.com/p/3930958719248562714/"
-      },
-      {
-        "platform": "ig",
         "author": "nonnanellaa",
         "time": "2026-07-04T15:03:59Z",
         "text": "Solo i veri intenditori sanno che ricetta è questa….⤵️🥳😍\n\n#nonne #hyrox #dieta #light",
@@ -790,24 +762,6 @@
       },
       {
         "platform": "ig",
-        "author": "friggitrice_ad_aria",
-        "time": "2026-06-30T10:09:44Z",
-        "text": "PASTA CON POMODORINI ARROSTO, MELANZANE E BURRATA 🍅🌱\n\nDiventerà in un attimo la tua pasta estiva preferita! Cremosa, fresca e la prepari in pochi minuti ✨\n\nINGREDIENTI:\n200 g di pasta\n90 g di pomodorini\n1 melanzana\n1 burrata\nStracciatella q.b.\nOlio",
-        "engagement": 46009,
-        "engagementRate": 0.03524216589685257,
-        "sentiment": "pos",
-        "hashtags": [
-          "friggitriceadaria",
-          "airfryer",
-          "ricettefacili",
-          "lemillericettedivale",
-          "pastaestiva"
-        ],
-        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/728861532_18095747987581769_3940092714756295463_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=107&ig_cache_key=MzkzMDg1MjQxMzY2NzMzOTkzMzE4MDk1NzQ3OTgxNTgxNzY5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTcuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=U796phh9tXgQ7kNvwE-Lrz5&_nc_oc=AdrX3A3cfOquWZDrtMU2vOwPF4_YsW5bj8H2sXhwmGYXelVwEPng3SbBg9M54gohDcBr8IT4gczvkcok9ldazRZM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=zO3-3EUFGihKwWmpL9e71A&_nc_ss=7a3ba&oh=00_AQBpg0bRCY36jf7um0f-iawF1CmKY4OndscP3PiWA32W6w&oe=6A524B26",
-        "url": "https://www.instagram.com/reel/3930852413667339933/"
-      },
-      {
-        "platform": "ig",
         "author": "tirmagno",
         "time": "2026-07-01T10:33:26Z",
         "text": "Aperitivi d’estate! Episodio 2: Tzatziki con lingue alle olive \n\nAccoppiate incredibile, da provare almeno una volta \n\nPer una bel piatto di tzatziki:\n600g  yougurt greco\n3 cetriolo\n4 cucchiai abbondanti di aceto di mele\n5/6 cucchiai di olio\n2 spicch",
@@ -871,23 +825,6 @@
       },
       {
         "platform": "ig",
-        "author": "piovono.ricette",
-        "time": "2026-06-30T10:31:19Z",
-        "text": "La marinatura delle cipolle diventa un condimento pazzesco per questa insalata fresca e colorata 😍😋😎\n\nIngredienti per 4 persone \nPer le cipolle marinate\n2 cipolle rosse\n1 cucchiaino miele millefiori\n2 cucchiai aceto di vino bianco\nq.b. sale\nq.b. o",
-        "engagement": 30080,
-        "engagementRate": 0.015792206483099768,
-        "sentiment": "neu",
-        "hashtags": [
-          "loveit",
-          "insalata",
-          "patate",
-          "piovonoricette"
-        ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/728152248_18421418479177573_5449293362422979823_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=105&ig_cache_key=MzkzMDg2MjkwMjQxNDMyODE3NTE4NDIxNDE4NDczMTc3NTcz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjc0NC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=ZGwlYFfJUyYQ7kNvwHKujDg&_nc_oc=Adqvmn5EM_QUmD-lx249qPyGoJNI_cgcdfpCruOyXFYY1iag5MhIdeJrzCC6Z27vlHj7lsjKd_htYtvcfZHcWS_X&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=ta_qTFAdUuL9Frogz6dhSA&_nc_ss=7a3ba&oh=00_AQCtm9T00r_rcaohQkfoWsMV0n0nTe71r4AWWFm4kwZzDA&oe=6A5239DF",
-        "url": "https://www.instagram.com/reel/3930862902414328175/"
-      },
-      {
-        "platform": "ig",
         "author": "federicofusca",
         "time": "2026-07-01T16:20:14Z",
         "text": "Carbonara di mare ATOMICA!☀️🐷🦐 \nSALVATELA E CONDIVIDILA \n.\nIngredienti 🛒 \n350 gr di spaghetti \n200 gr di guanciale \n8 scampetti \n4 seppioline \n8 calamari \n4 tuorli \n1 uovo intero \n200 gr di parmigiano grattugiato \n120 gr di pecorino romano \nSale e",
@@ -936,6 +873,41 @@
         ],
         "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t15.5256-10/723456624_1052787553841822_7091880550385257286_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=101&ig_cache_key=MzkzMTU4NjIyNzQ0MzQ0MDY5Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2ZpcnN0X2ZyYW1lX3RodW1ibmFpbC5DMyJ9&_nc_ohc=NgOtMKhGB1YQ7kNvwFZQVXv&_nc_oc=AdoBWRw-hf-ao3VIlIFOJHRf145bNa6CCKMe1yzHBMuhWnPhAAngy3NLn3G5ibMlo2ZRZtVWsMNP4syWK3erLfPy&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=FGXQYApqQfjizd2Xu7fTRA&_nc_ss=7a3ba&oh=00_AQBjiMQIeJI7oxWU38dKQe8hY_Z2xOwyTLH0L7TMp-hfpw&oe=6A523216",
         "url": "https://www.instagram.com/reel/3931586227443440693/"
+      },
+      {
+        "platform": "ig",
+        "author": "fattoincasadabenedetta",
+        "time": "2026-06-30T15:48:59Z",
+        "text": "SUGO PRONTO 🍅 La nostra ricetta di famiglia che ci tramandiamo da generazioni 😊\n\nINGREDIENTI\n\n3 Kg di pomodori rossi\n1 cipolla\n1 carota\n2 coste di sedano\n\nVi scrivo il procedimento nei primi commenti 👇\n\n#fattoincasadabenedetta #sugopronto #conserv",
+        "engagement": 24907,
+        "engagementRate": 0.00459568591908552,
+        "sentiment": "neg",
+        "hashtags": [
+          "fattoincasadabenedetta",
+          "sugopronto",
+          "conserve",
+          "ricettadellatradizione"
+        ],
+        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/731345416_18604154293037488_7875591562436782220_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=111&ig_cache_key=MzkzMTAyMjQ1MzU0Mzg5MjMzMTE4NjA0MTU0Mjg3MDM3NDg4.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=zyBXortMFU0Q7kNvwH9PNf7&_nc_oc=AdqrY3ukgiOi3PIyXLShJGL_FDC2dMejcPJ5MUbLF1PsUarXg_kNuuEqd9vSW9Kezp-yeaJihRPAeXnMz82HQ2dO&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=ytLvOoEUiJIN9DQbsfGyJA&_nc_ss=7a3ba&oh=00_AQAyugekdQQO1ksBgHumK34E7taZFwaG9WWpFpNeiTrkDg&oe=6A522CCB",
+        "url": "https://www.instagram.com/reel/3931022453543892331/"
+      },
+      {
+        "platform": "ig",
+        "author": "chiarapassion",
+        "time": "2026-07-02T10:06:04Z",
+        "text": "Parmigiana bianca di zucchine tutto a crudo 😍 Senza friggere, senza grigliare e senza besciamella… ma cremosa e filante da non credere!\n Il trucco? Infarina leggermente le zucchine: in cottura la farina assorbe l’umidità e crea quella cremina buonis",
+        "engagement": 24541,
+        "engagementRate": 0.029121075371148053,
+        "sentiment": "neu",
+        "hashtags": [
+          "parmigianadizucchine",
+          "zucchine",
+          "ricetteestive",
+          "ricetteconzucchine",
+          "parmigianabianca"
+        ],
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/731736205_18599298661051962_1575559384871690100_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzkzMjMwMDM0MDY1MDU5NzU3NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4Ni5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=68QEV0jBSTIQ7kNvwGn7KUw&_nc_oc=Adq9RsnugH8Zbxp_GUrmqvHj87Wv6ebWgZgjlleYA_aUaL1Jov7etpe-BUadpxsf0RpuQ93OGuNmxy87DQ75As31&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=xPzHnifbj8OTHhgVHEskag&_nc_ss=7a3ba&oh=00_AQDxRr-oapeq9yIwm0BwDi9lIsji6vpWlhdxBccsFx0KzQ&oe=6A5237A6",
+        "url": "https://www.instagram.com/p/3932300446035099423/"
       },
       {
         "platform": "tt",
@@ -1247,24 +1219,6 @@
       },
       {
         "platform": "yt",
-        "author": "ChefMaxMariola",
-        "time": "2026-06-30T10:51:46Z",
-        "text": "Vi faccio vedere una ricettina che incontra Italia e Giappone 🇮🇹🇯🇵\n\nSoffritto di aglio e zenzero a fettine sottili con olio bono italiano, vongole giapponesi, peperoncino shishito, pak choi croccante, spaghetti giapponesi e mantecatura finale con",
-        "engagement": 2592,
-        "engagementRate": 0.002422429906542056,
-        "sentiment": "neg",
-        "hashtags": [
-          "chefmaxmariola",
-          "invitedby",
-          "maxmariolacucinapervoi",
-          "thesoundoflove",
-          "japan"
-        ],
-        "imageUrl": "https://i.ytimg.com/vi/AgAMtFy1gac/hqdefault.jpg",
-        "url": "https://www.youtube.com/watch?v=AgAMtFy1gac"
-      },
-      {
-        "platform": "yt",
         "author": "Ricettedolcii",
         "time": "2026-07-03T13:30:09Z",
         "text": "INGREDIENTI 🔻: \n• 50 g di zucchero\n• 35 g amido di mais \n• 1 tuorlo \n• 100 ml succo di limone\n• 250 ml di acqua\n—————————\n• 250 ml di acqua\n• 80 g di zucchero\n• 80 ml succo di limone\n—————————\n• 500 ml di panna da montare  già zuccherata\n• 200 g di ",
@@ -1371,24 +1325,6 @@
       },
       {
         "platform": "yt",
-        "author": "simone.vandelli",
-        "time": "2026-06-30T12:00:36Z",
-        "text": "Dovrei venderla?😂\n\n🍪Ingredienti:\n\n•120gr di Cioccolato Bianco\n•30gr di Burro\n•100ml di Panna\n•20gr di Latte in Polvere\n•20gr di Cacao (+Colorante nero per chi vuole dare l’effetto “Oreo”)\n\nFatemi sapere se proverete a rifarla!♥️\n\n#cucina #cucinaita",
-        "engagement": 1953,
-        "engagementRate": 0.004763414634146342,
-        "sentiment": "neg",
-        "hashtags": [
-          "cucina",
-          "cucinaitaliana",
-          "oreo",
-          "cremaspalmabile",
-          "cioccolato"
-        ],
-        "imageUrl": "https://i.ytimg.com/vi/1MXCiI9dYqk/hqdefault.jpg",
-        "url": "https://www.youtube.com/watch?v=1MXCiI9dYqk"
-      },
-      {
-        "platform": "yt",
         "author": "tuttiatavola2016",
         "time": "2026-07-06T11:47:03Z",
         "text": "Avevate intravisto la TORTA di compleanno del mio Papà nelle storie di Instagram e Facebook e visto il vostro interesse mi sono affrettata a fare il video su come realizzarla!  Sembra una TORTA DI PASTICCERIA ma é veramente MOLTO SEMPLICE da realizza",
@@ -1425,6 +1361,41 @@
         "hashtags": [],
         "imageUrl": "https://i.ytimg.com/vi/OyZIPaAV5R4/hqdefault.jpg",
         "url": "https://www.youtube.com/watch?v=OyZIPaAV5R4"
+      },
+      {
+        "platform": "yt",
+        "author": "sciaudone.matteo",
+        "time": "2026-07-05T11:30:07Z",
+        "text": "Classifica dei carboidrati per chi vuole dimagrire (senza rinunciare al gusto) 🍝\n\nHo analizzato i carboidrati più comuni per capire quali sono davvero i migliori quando sei a dieta ma non vuoi rinunciare.\n\nLa classifica dal 10° al 3° posto:\n\n🍞 10° ",
+        "engagement": 1680,
+        "engagementRate": 0.004491978609625668,
+        "sentiment": "neg",
+        "hashtags": [
+          "alimentazione",
+          "benesserepsicologico",
+          "dimagrimento",
+          "stiledivitasano",
+          "salute"
+        ],
+        "imageUrl": "https://i.ytimg.com/vi/kEOQBE4MMrI/hqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=kEOQBE4MMrI"
+      },
+      {
+        "platform": "yt",
+        "author": "cucinaconruben",
+        "time": "2026-07-02T15:09:46Z",
+        "text": "Eccoci qui con una nuova sfida, stavolta è il turno di  @federicofuscachef !\n\nÈ la prima volta che facciamo un video insieme su Youtube.\nIniziamo bene...\n\nRingrazio anche il fantastico giudice Chef Valerio Esse !\n\nRingraziamo Caput MundiEdilgroup per",
+        "engagement": 1524,
+        "engagementRate": 0.0027963302752293576,
+        "sentiment": "neg",
+        "hashtags": [
+          "chefruben",
+          "cucinaconruben",
+          "scorzadilimone",
+          "chetevoimagna"
+        ],
+        "imageUrl": "https://i.ytimg.com/vi/5osIYa2kg6o/hqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=5osIYa2kg6o"
       }
     ]
   },
@@ -2051,170 +2022,11 @@
   "ai": null,
   "competitors": [
     {
-      "name": "Garofalo",
-      "mentions": 0,
-      "socialMentions": 15,
-      "totalMentions": 15,
-      "shareOfVoice": 25.9,
-      "posts": [
-        {
-          "type": "social",
-          "platform": "tt",
-          "author": "01distribution",
-          "text": "«Io sono Pino Daniele, suono la chitarra e canto in lingua napoletana.»  Dal 15 ottobre al cinema #JeSoPazzoIlFilm: la storia mai raccontata di una leggenda della musica italiana. Un film di Nicola Prosatore con Massimiliano Caiazzo, Mariasole Pollio",
-          "engagement": 10298,
-          "date": "2026-07-01T12:58:27Z",
-          "url": "https://www.tiktok.com/@01distribution/video/7657543160364551457",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "larena.it",
-          "text": "Verona avrà un nuovo ospedale. Meglio: la storica clinica privata convenzionata San Francesco lascerà il quartiere Pindemonte e traslocherà a San Michele Extra. La nuova sede sarà pronta nel giro di tre anni ed accoglierà anche il Centro Diagnostico ",
-          "engagement": 1596,
-          "date": "2026-06-30T11:55:29Z",
-          "url": "https://www.instagram.com/p/3930905963033365411/",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "tt",
-          "author": "tgla7",
-          "text": "Cinque nuovi corpi di connazionali legati alla famiglia Garofalo sono stati trovati a La Guaira, portando il drammatico bilancio del terremoto in Venezuela a oltre 1700 morti, mentre i dati NASA rivelano quasi 59mila edifici distrutti. Sul posto oper",
-          "engagement": 1505,
-          "date": "2026-06-30T10:43:17Z",
-          "url": "https://www.tiktok.com/@tgla7/video/7657137236420332823",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "tgla7official",
-          "text": "Cinque nuovi corpi di connazionali legati alla famiglia Garofalo sono stati trovati a La Guaira, portando il drammatico bilancio del terremoto in Venezuela a oltre 1700 morti, mentre i dati NASA rivelano quasi 59mila edifici distrutti.\n\nSul posto ope",
-          "engagement": 1250,
-          "date": "2026-06-30T10:34:26Z",
-          "url": "https://www.instagram.com/reel/3930864652572926669/",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "primativvu_canale_17",
-          "text": "🚨 Il Comune di Camerota (SA) ha espresso profondo cordoglio per la morte di cinque membri di una famiglia originaria di Licusati, frazione del comune del Cilento, vittime del terremoto in Venezuela.\n\n👉 Si tratta di Gennaro, Luis Gerardo e Giovanna ",
-          "engagement": 207,
-          "date": "2026-06-30T12:16:23Z",
-          "url": "https://www.instagram.com/p/3930916484595677013/",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "esploratoredelbello",
-          "text": "Benvenuto Tisi detto Il Garofalo,\nl'Apparizione della Vergine all'imperatore Augusto e alla Sibilla Tiburtina,\n1544,\nolio su tela.\n\nRoma,\nCittà del Vaticano,\nMusei Vaticani,\nPinacoteca Vaticana.\n\n@vaticanmuseums\n\n#benvenutotisidagarofalo #vaticanmuse",
-          "engagement": 195,
-          "date": "2026-07-02T05:38:52Z",
-          "url": "https://www.instagram.com/p/3932165958705986380/",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "comunedibergamo",
-          "text": "Sport, musica e cittadinanza attiva: è il Torneo del Pilo a Valtesse!\n\nVenerdì sera il quartiere di Valtesse ha ospitato le partite di qualificazione del Torneo del Pilo ma non solo: si sono esibiti le ragazze e i ragazzi under 20 del progetto Educat",
-          "engagement": 174,
-          "date": "2026-07-01T12:59:08Z",
-          "url": "https://www.instagram.com/p/3931662778540983760/",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "infocilento",
-          "text": "Il sisma violentissimo che ha colpito il Venezuela lo scorso 24 giugno ha lasciato dietro di sé distruzione e migliaia di dispersi. Tra le vittime anche 4 cittadini originari di Camerota, frazione di Licusati, morti nel crollo della propria casa. La ",
-          "engagement": 74,
-          "date": "2026-06-30T13:43:23Z",
-          "url": "https://www.instagram.com/reel/3930957994937050211/",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "pastagarofaloit",
-          "text": "Certe pause sanno di mare.\nAltre sanno di casa.\nLe migliori sanno di domenica.\nE di Candele Spezzate.\nScopri il nuovo formato Garofalo.",
-          "engagement": 69,
-          "date": "2026-07-05T11:28:41Z",
-          "url": "https://www.instagram.com/p/3934516360281635531/",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "vesuviolive",
-          "text": "Napoli vicina alle vittime del Venezuela: la facciata di Castel Nuovo si tinge dei colori della bandiera venezuelana come segno di cordoglio e solidarietà a seguito del violento terremoto che ha colpito il paese. \nLa facciata del celebre monumento pa",
-          "engagement": 63,
-          "date": "2026-07-03T12:02:56Z",
-          "url": "https://www.instagram.com/p/3933083959252527643/",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "tt",
-          "author": "elvira.grimaldi1",
-          "text": "Grazie alle mie amiche per questo regalo magnifico 😍 @mammapesti @Filomena Garofalo @💚Daniela  Incaricata_Bimby💚 😘❤️ #regalo #star #compleanno #perte #videostar ",
-          "engagement": 63,
-          "date": "2026-06-30T12:38:55Z",
-          "url": "https://www.tiktok.com/@elvira.grimaldi1/video/7657167040842632481",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "elviragrimaldi",
-          "text": "Grazie alle mie amiche per questo regalo magnifico 😍\n@mammapesti @Filomena Garofalo @💚Daniela  Incaricata_Bimby💚 😘❤️\n\n#regalo #star #compleanno #perte #videostar",
-          "engagement": 45,
-          "date": "2026-06-30T12:45:34Z",
-          "url": "https://www.instagram.com/reel/3930930226488844065/",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "luigi_martino",
-          "text": "Emergono nuovi e drammatici dettagli sulla sorte della famiglia Garofalo, originaria di Licusati, frazione di #Camerota, rimasta coinvolta nel devastante terremoto che ha colpito il Venezuela.\n\nSecondo le informazioni giunte dalle autorità e dai cont",
-          "engagement": 11,
-          "date": "2026-07-01T07:26:41Z",
-          "url": "https://www.instagram.com/p/3931495446556268082/",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "yt",
-          "author": "borgattiedizioni",
-          "text": "VECCHIO ORGANINO  - Valzer lento\n(Musica di F.Garofalo - Testo di R.Travagliante)\nInterpretato da RINO TRAVAGLIANTE\nBorgatti Edizioni Musicali - Abramo Allione Editore - Hit Rainbow Edizioni Musicali\n\nQuesto brano è frutto della storica collaborazion",
-          "engagement": 4,
-          "date": "2026-07-06T23:00:16Z",
-          "url": "https://www.youtube.com/watch?v=5XOtmJ1WZEs",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "adnkronos_",
-          "text": "Gli Stati Uniti proseguono la mobilitazione in Venezuela per potenziare i loro aiuti, cinque giorni dopo il doppio sisma che ha causato almeno 1.719 morti. Circa 50.000 persone risultano ancora disperse secondo le Nazioni Unite, che stimano che la ca",
-          "engagement": 3,
-          "date": "2026-06-30T10:14:50Z",
-          "url": "https://www.instagram.com/p/3930855277906022708/",
-          "brand": "Garofalo"
-        }
-      ]
-    },
-    {
       "name": "Barilla",
       "mentions": 7,
       "socialMentions": 5,
       "totalMentions": 12,
-      "shareOfVoice": 20.7,
+      "shareOfVoice": 25,
       "posts": [
         {
           "type": "news",
@@ -2250,18 +2062,18 @@
         },
         {
           "type": "news",
-          "title": "Barilla, fino a 650.000 analisi l'anno e 250 risorse dedicate per la sicurezza nel piatto - Adnkronos",
-          "source": "ADNKRONOS",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUTh0ZzR6Qnprbk5jUjB3d2RhaXZwRXdVcEdmNjE4blVCYWZ0bGVKdnZ3M2tKbTEwU0Q1b3hEX2lQNm5TcHI4NmVmWXZBMzBNUE90RGhybkZybEpSbGJBc2FoX01aY245QUptdVNpbl9XQ0JObTgyQ19pMTZlTGtSdzd6X19FSzZfT2c4b0tYU0l5dE4wTEZIQWhpNXdhNmtZaTBqdzBvRXROUlR0X1E4MjcydXlENlc0NVVESEU1czNLMmJCS29Wb202Q0cxYzNQSHliS0F3LWYyaGlP?oc=5",
-          "date": "2026-07-02T10:23:00.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
           "title": "Barilla (Uif): ecco come le aziende italiane del food affrontano la crisi demografica - Mark Up",
           "source": "MARK UP",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBHa0psTEpiektJUUlmR1FXcEdmRjFmR19rUlliTEpoQ0YzVnB2ZmdERkRzanVDYmlLSnhOZ0d0SzA3YWtGR3FCQ1lSV21zMGE1S284aWxTd2J3LVRFd2xqaE96MjZHNk9tYVlrakc1b1M0RUxDNFBIZmZzZW1XZVE?oc=5",
           "date": "2026-07-01T13:00:31.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Barilla, fino a 650.000 analisi l'anno e 250 risorse dedicate per la sicurezza nel piatto - Adnkronos",
+          "source": "ADNKRONOS",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUTh0ZzR6Qnprbk5jUjB3d2RhaXZwRXdVcEdmNjE4blVCYWZ0bGVKdnZ3M2tKbTEwU0Q1b3hEX2lQNm5TcHI4NmVmWXZBMzBNUE90RGhybkZybEpSbGJBc2FoX01aY245QUptdVNpbl9XQ0JObTgyQ19pMTZlTGtSdzd6X19FSzZfT2c4b0tYU0l5dE4wTEZIQWhpNXdhNmtZaTBqdzBvRXROUlR0X1E4MjcydXlENlc0NVVESEU1czNLMmJCS29Wb202Q0cxYzNQSHliS0F3LWYyaGlP?oc=5",
+          "date": "2026-07-02T10:23:00.000Z",
           "brand": "Barilla"
         },
         {
@@ -2326,10 +2138,10 @@
     },
     {
       "name": "De Cecco",
-      "mentions": 5,
+      "mentions": 4,
       "socialMentions": 7,
-      "totalMentions": 12,
-      "shareOfVoice": 20.7,
+      "totalMentions": 11,
+      "shareOfVoice": 22.9,
       "posts": [
         {
           "type": "news",
@@ -2353,14 +2165,6 @@
           "source": "VIRGILIO",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbWFwMlpYN2lJcTJkZ056MnpMbmJ2S3h1dmhhM2kyNHBHbGVRdFhzQ19JX1BJUFlSZGRNdExLMEJUNWQtQXdNQndyaFpfQ1pOODU4VmRZTXljVHRiYXY5Z2QxTDlDYzdCRS1tckNzeWM5Ulc3RE5KVnlha09OT2hDWHBqTG1KOXR2T3huODRZT3hJRzR3Rm9rTzlPNThRRVNxeGdEM1FJd2hDT3ItWTJNNWg2MDlSa1lkRWJGbXVnd2sxY01RNTAyMEV4eVItaUpId2hoS29CSEg5eGtzTEN5Sm1PZ9IB6AFBVV95cUxPRDR2OEFicTRHRlk5VEQ2NExmMllPQURrd0RDd1ZzdGFuX1JZQzVNSHNJN3ctZFp0RER2b0h3dUNKSjFHa0o2V2dRRGl3M2RRbmRCMVlRZ2FOa3ZMZVhWTVZDVldvYkhBTHlZdk1GZ1Jldkh0X0N3bFM3NEJKZ3FKOUI0MXU4Y0JBd2J2REk3emZzVFA0U1FNY2lfOEJZVFpoZ3MxUzN6bGxQY1BuVXJEMzNlbmdpcUtnTVh0WjdILVgzMGt0d1pHVk91V3VDbUc4d1lGM0VhdFdLOUwzYWw5ak1WOGZuZ29Q?oc=5",
           "date": "2026-07-01T20:48:00.000Z",
-          "brand": "De Cecco"
-        },
-        {
-          "type": "news",
-          "title": "Italian Food Awards USA 2026, ecco tutti i Vincitori - foodweb.it",
-          "source": "FOODWEB.IT",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUHRlVEtpOHF3eHVhNWw5QWZ6MTlCUjZnMHJTNkZoMEZWd1VFLWdrdDVnOG1hbUxRbzgxRkZZTG05Wm5FSVFaNzNKc1VzU1B5MGNqbmlRTnFvUXlVdHF5el9qSTNJOUVSODJnM251QjJDaVM4WDk2MzdmOWpGeURaTHNpVkFncU5aY2o4?oc=5",
-          "date": "2026-07-01T12:34:00.000Z",
           "brand": "De Cecco"
         },
         {
@@ -2445,10 +2249,10 @@
     },
     {
       "name": "La Molisana",
-      "mentions": 10,
+      "mentions": 9,
       "socialMentions": 1,
-      "totalMentions": 11,
-      "shareOfVoice": 19,
+      "totalMentions": 10,
+      "shareOfVoice": 20.8,
       "posts": [
         {
           "type": "news",
@@ -2484,18 +2288,10 @@
         },
         {
           "type": "news",
-          "title": "Medico ricoverato in Psichiatria dopo momenti di tensione nella guardia medica di Caltanissetta - InfoOggi",
-          "source": "INFOOGGI",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOOVg3MmtBRkVsWExnNC1tSWZ3QzliSWp6cWI3eEY5N0pDbFptcFFWS3FPM3JjMXc3VmttZHp4cHgzWXQ5allvdTZQQVQ2NzFoRDFZajhxUkVUQ05IZXhtSy05eDYxeUhCQ0RQY21tdVYtSWw2YlhCY2N2di1UWGFOODRnR2t0UWF4MjlRTG82cVBEZzF4YlplRlFfWGxWLUV0NXhEdUl3ZXI1b3B3TWVhX1BITDNvMjNxUXpRNU82ZU5EVVg4UFg4V0pFdmtVd2lF0gHWAUFVX3lxTE0ySDBoSTc2amNUdW9TRTlObVN2aEs0LUV6Z0FQaTJSMFlHcnFMMmc1OW5lWGVYMUU4YVhESUlLU3J6UkpQNHMxZ05yMHhkbFBCQzU5SDd2LS1uMjJNV1hKcG5EdTNXeHZOSU1LOE40V3VxTUVnWUtKRVlFRjROVzdvNHdLWk83bmh5ektqVncxSElpeUpfR3JIaXNia25XakdQV212RFpUZHFDUWNQQUFIc0cwX2JkcExIWUVydmNvSE42MWFXaFdMN3BZYm5KaVVaVE5lbGc?oc=5",
-          "date": "2026-07-05T10:07:35.000Z",
-          "brand": "La Molisana"
-        },
-        {
-          "type": "news",
           "title": "Grande successo a Lamezia Terme per la rassegna «Notturni» - InfoOggi",
           "source": "INFOOGGI",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZjdKYVh2WUZzRHlIbjNtdm1jSXFTR2JFaHJFckVQSEtkRTRQVEZZcGdrVzhmUlgzc0tWaXhEYS1HODJESllTZUNRcXJlZXd5NFNxTjg3SzJpQ1c1ZmRvQm9jdF82Z0Y4VFg3bTlZZkhPTWFsYWxucE1TcFhQeXlBMFk1aXI4YjZHdi0xX2R0N1pBdGIxenNZakFxdG_SAaIBQVVfeXFMTXhCN2NMa21EdmJJeWN0VVVfWFFSaDdsR2FtREh1dmlEQ3hTRE96Q0JkNWFfSy1NNUJKY0d6MG5rZkhodXRLWXZUeTNyYkY5OVZtRXVkQmk0ZG5XWlBiSTNac2J3VmR0anN2X2dPbGsyQXAzLU9BUFhJOWJWMVdYY1pJMEUwazhJaXFKSk5qZ2g0aGk2U2w1T1hPcGZZSHh4eHh3?oc=5",
-          "date": "2026-07-07T06:33:44.000Z",
+          "date": "2026-07-07T12:40:39.000Z",
           "brand": "La Molisana"
         },
         {
@@ -2518,8 +2314,8 @@
           "type": "news",
           "title": "Catanzaro riparte dal territorio: il cambiamento nasce dai quartieri - InfoOggi",
           "source": "INFOOGGI",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaVBxRDVfNnQycVhYd0xGRmRmNWRXZmEwVWdsMnBybkYzd0V1ZUlfSUFNYl9aQ1dQM20tcXNXMHJQbzY5Nm5NMnJncjRhbXBPSUxMc3Y3UHg3NUtHd2RLaGhZWklaWGprdmdvRkY0cHYwZzRKMXk0MGRYT09uTy1tYlIxcnktVUZWRXFOSGV4TGlYS3JxOGFNRUtkUERRYWdqZF91X3pHcW50MlnSAbABQVVfeXFMT3RUZm1KdTlnZ01SVVFmV2RjdHdOWDdYRmYxRkdHVGNjaF83YUxjV2h3TzhCUlRUR2EzV2JzbmhyOUNTNGgxRkhFeVhteks3UjZsdzFhR08tVF9MQzk2dzFvQ3ZCOHhQQXJiYlIwWEk2S2JTOUlOX2ZSQnhUcGlHWDk2ejBNUjBGRHRPendwc19wOHBWSUJuS0Zrcmp1T0hXa0RIdHBUeWo0WmpaX3d1elI?oc=5",
-          "date": "2026-07-06T17:18:04.000Z",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSFRSZjdSSllYVVZFV0lqUk5aeUpXemtFSXBabDQ1ZU5UbHNXd2hfejBodGpOd1JTWFM3VWNtc2ZwWE9jRTBEWURLUmFvb0F5NlRoM3R3R2VwTExsTWJQd0J4VGpKNXhVVmdJa3JTaDJTdFA4UFpUS09kTElOV1ZULTBWNmE1UkRENDBkd2gtc1duNml6U21DTmtQMDM0a3NldjViNUNIcTdxNWfSAbABQVVfeXFMT3RUZm1KdTlnZ01SVVFmV2RjdHdOWDdYRmYxRkdHVGNjaF83YUxjV2h3TzhCUlRUR2EzV2JzbmhyOUNTNGgxRkhFeVhteks3UjZsdzFhR08tVF9MQzk2dzFvQ3ZCOHhQQXJiYlIwWEk2S2JTOUlOX2ZSQnhUcGlHWDk2ejBNUjBGRHRPendwc19wOHBWSUJuS0Zrcmp1T0hXa0RIdHBUeWo0WmpaX3d1elI?oc=5",
+          "date": "2026-07-06T17:18:05.000Z",
           "brand": "La Molisana"
         },
         {
@@ -2543,11 +2339,90 @@
       ]
     },
     {
+      "name": "Garofalo",
+      "mentions": 0,
+      "socialMentions": 7,
+      "totalMentions": 7,
+      "shareOfVoice": 14.6,
+      "posts": [
+        {
+          "type": "social",
+          "platform": "tt",
+          "author": "01distribution",
+          "text": "«Io sono Pino Daniele, suono la chitarra e canto in lingua napoletana.»  Dal 15 ottobre al cinema #JeSoPazzoIlFilm: la storia mai raccontata di una leggenda della musica italiana. Un film di Nicola Prosatore con Massimiliano Caiazzo, Mariasole Pollio",
+          "engagement": 10298,
+          "date": "2026-07-01T12:58:27Z",
+          "url": "https://www.tiktok.com/@01distribution/video/7657543160364551457",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "esploratoredelbello",
+          "text": "Benvenuto Tisi detto Il Garofalo,\nl'Apparizione della Vergine all'imperatore Augusto e alla Sibilla Tiburtina,\n1544,\nolio su tela.\n\nRoma,\nCittà del Vaticano,\nMusei Vaticani,\nPinacoteca Vaticana.\n\n@vaticanmuseums\n\n#benvenutotisidagarofalo #vaticanmuse",
+          "engagement": 195,
+          "date": "2026-07-02T05:38:52Z",
+          "url": "https://www.instagram.com/p/3932165958705986380/",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "comunedibergamo",
+          "text": "Sport, musica e cittadinanza attiva: è il Torneo del Pilo a Valtesse!\n\nVenerdì sera il quartiere di Valtesse ha ospitato le partite di qualificazione del Torneo del Pilo ma non solo: si sono esibiti le ragazze e i ragazzi under 20 del progetto Educat",
+          "engagement": 174,
+          "date": "2026-07-01T12:59:08Z",
+          "url": "https://www.instagram.com/p/3931662778540983760/",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "pastagarofaloit",
+          "text": "Certe pause sanno di mare.\nAltre sanno di casa.\nLe migliori sanno di domenica.\nE di Candele Spezzate.\nScopri il nuovo formato Garofalo.",
+          "engagement": 69,
+          "date": "2026-07-05T11:28:41Z",
+          "url": "https://www.instagram.com/p/3934516360281635531/",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "vesuviolive",
+          "text": "Napoli vicina alle vittime del Venezuela: la facciata di Castel Nuovo si tinge dei colori della bandiera venezuelana come segno di cordoglio e solidarietà a seguito del violento terremoto che ha colpito il paese. \nLa facciata del celebre monumento pa",
+          "engagement": 63,
+          "date": "2026-07-03T12:02:56Z",
+          "url": "https://www.instagram.com/p/3933083959252527643/",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "luigi_martino",
+          "text": "Emergono nuovi e drammatici dettagli sulla sorte della famiglia Garofalo, originaria di Licusati, frazione di #Camerota, rimasta coinvolta nel devastante terremoto che ha colpito il Venezuela.\n\nSecondo le informazioni giunte dalle autorità e dai cont",
+          "engagement": 11,
+          "date": "2026-07-01T07:26:41Z",
+          "url": "https://www.instagram.com/p/3931495446556268082/",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "social",
+          "platform": "yt",
+          "author": "borgattiedizioni",
+          "text": "VECCHIO ORGANINO  - Valzer lento\n(Musica di F.Garofalo - Testo di R.Travagliante)\nInterpretato da RINO TRAVAGLIANTE\nBorgatti Edizioni Musicali - Abramo Allione Editore - Hit Rainbow Edizioni Musicali\n\nQuesto brano è frutto della storica collaborazion",
+          "engagement": 4,
+          "date": "2026-07-06T23:00:16Z",
+          "url": "https://www.youtube.com/watch?v=5XOtmJ1WZEs",
+          "brand": "Garofalo"
+        }
+      ]
+    },
+    {
       "name": "Divella",
       "mentions": 2,
       "socialMentions": 3,
       "totalMentions": 5,
-      "shareOfVoice": 8.6,
+      "shareOfVoice": 10.4,
       "posts": [
         {
           "type": "news",
@@ -2602,7 +2477,7 @@
       "mentions": 0,
       "socialMentions": 3,
       "totalMentions": 3,
-      "shareOfVoice": 5.2,
+      "shareOfVoice": 6.3,
       "posts": [
         {
           "type": "social",
