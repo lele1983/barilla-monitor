@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-08T02:36:43.244Z",
+    "generatedAt": "2026-07-08T08:26:18.649Z",
     "pipelineVersion": "1.0.0",
     "sources": {
       "opensearch": true,
@@ -9,19 +9,19 @@
       "claude": false,
       "competitors": true
     },
-    "processingTimeMs": 2628
+    "processingTimeMs": 9657
   },
   "social": {
     "overview": {
-      "totalPosts": 219401,
-      "prevTotalPosts": 261166,
-      "volumeChange": -16,
-      "mentions24h": 714,
-      "totalEngagement": 970896334,
-      "avgEngagementRate": 0.009515625392261763,
-      "erChange": -21.4,
+      "totalPosts": 244806,
+      "prevTotalPosts": 261066,
+      "volumeChange": -6.2,
+      "mentions24h": 27881,
+      "totalEngagement": 1075960336,
+      "avgEngagementRate": 0.009830646929132736,
+      "erChange": -19.5,
       "organicPct": 98,
-      "sponsoredCount": 4668
+      "sponsoredCount": 5369
     },
     "brandHealth": {
       "score": 80,
@@ -29,12 +29,12 @@
       "dimensions": [
         {
           "name": "Sentiment",
-          "score": 69,
+          "score": 70,
           "color": "#00e676"
         },
         {
           "name": "Engagement",
-          "score": 48,
+          "score": 49,
           "color": "#3ba4ff"
         },
         {
@@ -54,7 +54,7 @@
         },
         {
           "name": "Platform Mix",
-          "score": 76,
+          "score": 75,
           "color": "#00e676"
         },
         {
@@ -70,302 +70,331 @@
       ]
     },
     "sentiment": {
-      "netScore": 50,
-      "positive": 59,
-      "neutral": 32,
+      "netScore": 51,
+      "positive": 60,
+      "neutral": 31,
       "negative": 9
     },
     "platforms": [
       {
         "name": "tt",
-        "count": 112253,
-        "pctOfTotal": 51.2
+        "count": 125687,
+        "pctOfTotal": 51.3
       },
       {
         "name": "ig",
-        "count": 98518,
-        "pctOfTotal": 44.9
+        "count": 109520,
+        "pctOfTotal": 44.7
       },
       {
         "name": "yt",
-        "count": 8630,
+        "count": 9599,
         "pctOfTotal": 3.9
       }
     ],
     "dailyVolume": [
       {
         "date": "2026-07-01T00:00:00.000Z",
-        "count": 38423,
-        "engagement": 151190314,
-        "avgEr": 0.011573430811762334
+        "count": 32824,
+        "engagement": 143053086,
+        "avgEr": 0.01254519889512725
       },
       {
         "date": "2026-07-02T00:00:00.000Z",
         "count": 37919,
-        "engagement": 141931020,
-        "avgEr": 0.010796100420551149
+        "engagement": 144572410,
+        "avgEr": 0.011045599360370745
       },
       {
         "date": "2026-07-03T00:00:00.000Z",
-        "count": 39160,
-        "engagement": 184838083,
-        "avgEr": 0.009892178213091312
+        "count": 39163,
+        "engagement": 188670260,
+        "avgEr": 0.010215161251907481
       },
       {
         "date": "2026-07-04T00:00:00.000Z",
-        "count": 33435,
-        "engagement": 164094919,
-        "avgEr": 0.010365612221664506
+        "count": 33436,
+        "engagement": 168663024,
+        "avgEr": 0.010898648653862595
       },
       {
         "date": "2026-07-05T00:00:00.000Z",
         "count": 31372,
-        "engagement": 169409495,
-        "avgEr": 0.009084997778471795
+        "engagement": 179200446,
+        "avgEr": 0.010011696790522037
       },
       {
         "date": "2026-07-06T00:00:00.000Z",
-        "count": 37971,
-        "engagement": 140265629,
-        "avgEr": 0.005623876121893346
+        "count": 37976,
+        "engagement": 172423379,
+        "avgEr": 0.008312016279384651
       },
       {
         "date": "2026-07-07T00:00:00.000Z",
-        "count": 1121,
-        "engagement": 19166874,
-        "avgEr": 0.0009985175544349745
+        "count": 28808,
+        "engagement": 78754579,
+        "avgEr": 0.006193038630014321
+      },
+      {
+        "date": "2026-07-08T00:00:00.000Z",
+        "count": 3308,
+        "engagement": 623152,
+        "avgEr": 0.0009698234982607229
       }
     ],
     "hourlyVolume": [
       {
-        "hour": "2026-07-07T02:00:00.000Z",
-        "count": 56,
-        "engagement": 74982
-      },
-      {
-        "hour": "2026-07-07T03:00:00.000Z",
-        "count": 149,
-        "engagement": 3791
-      },
-      {
-        "hour": "2026-07-07T04:00:00.000Z",
-        "count": 94,
-        "engagement": 2951
-      },
-      {
-        "hour": "2026-07-07T05:00:00.000Z",
-        "count": 72,
-        "engagement": 428027
-      },
-      {
-        "hour": "2026-07-07T06:00:00.000Z",
-        "count": 81,
-        "engagement": 5041
-      },
-      {
-        "hour": "2026-07-07T07:00:00.000Z",
-        "count": 25,
-        "engagement": 1539751
-      },
-      {
         "hour": "2026-07-07T08:00:00.000Z",
-        "count": 9,
-        "engagement": 423400
+        "count": 718,
+        "engagement": 1578329
       },
       {
         "hour": "2026-07-07T09:00:00.000Z",
-        "count": 12,
-        "engagement": 633464
+        "count": 1601,
+        "engagement": 3726976
       },
       {
         "hour": "2026-07-07T10:00:00.000Z",
-        "count": 16,
-        "engagement": 316174
+        "count": 2209,
+        "engagement": 5290520
       },
       {
         "hour": "2026-07-07T11:00:00.000Z",
-        "count": 6,
-        "engagement": 18489
+        "count": 2131,
+        "engagement": 4170502
       },
       {
         "hour": "2026-07-07T12:00:00.000Z",
-        "count": 18,
-        "engagement": 1037933
+        "count": 1916,
+        "engagement": 5934327
       },
       {
         "hour": "2026-07-07T13:00:00.000Z",
-        "count": 16,
-        "engagement": 703055
+        "count": 1698,
+        "engagement": 3649815
       },
       {
         "hour": "2026-07-07T14:00:00.000Z",
-        "count": 19,
-        "engagement": 851757
+        "count": 1777,
+        "engagement": 3637141
       },
       {
         "hour": "2026-07-07T15:00:00.000Z",
-        "count": 37,
-        "engagement": 456472
+        "count": 2119,
+        "engagement": 3705630
       },
       {
         "hour": "2026-07-07T16:00:00.000Z",
-        "count": 29,
-        "engagement": 2111636
+        "count": 2302,
+        "engagement": 6962679
       },
       {
         "hour": "2026-07-07T17:00:00.000Z",
-        "count": 16,
-        "engagement": 600030
+        "count": 1974,
+        "engagement": 4096116
       },
       {
         "hour": "2026-07-07T18:00:00.000Z",
-        "count": 19,
-        "engagement": 1994667
+        "count": 1944,
+        "engagement": 9321745
       },
       {
         "hour": "2026-07-07T19:00:00.000Z",
-        "count": 15,
-        "engagement": 4173713
+        "count": 1735,
+        "engagement": 9475462
       },
       {
         "hour": "2026-07-07T20:00:00.000Z",
-        "count": 7,
-        "engagement": 706150
+        "count": 1055,
+        "engagement": 2209247
       },
       {
         "hour": "2026-07-07T21:00:00.000Z",
-        "count": 10,
-        "engagement": 975931
+        "count": 643,
+        "engagement": 1943231
       },
       {
         "hour": "2026-07-07T22:00:00.000Z",
-        "count": 7,
-        "engagement": 516289
+        "count": 489,
+        "engagement": 2372360
       },
       {
         "hour": "2026-07-07T23:00:00.000Z",
-        "count": 1,
-        "engagement": 81
+        "count": 262,
+        "engagement": 513410
+      },
+      {
+        "hour": "2026-07-08T00:00:00.000Z",
+        "count": 163,
+        "engagement": 50915
+      },
+      {
+        "hour": "2026-07-08T01:00:00.000Z",
+        "count": 91,
+        "engagement": 40976
+      },
+      {
+        "hour": "2026-07-08T02:00:00.000Z",
+        "count": 89,
+        "engagement": 40245
+      },
+      {
+        "hour": "2026-07-08T03:00:00.000Z",
+        "count": 162,
+        "engagement": 47973
+      },
+      {
+        "hour": "2026-07-08T04:00:00.000Z",
+        "count": 295,
+        "engagement": 66125
+      },
+      {
+        "hour": "2026-07-08T05:00:00.000Z",
+        "count": 645,
+        "engagement": 142293
+      },
+      {
+        "hour": "2026-07-08T06:00:00.000Z",
+        "count": 932,
+        "engagement": 170499
+      },
+      {
+        "hour": "2026-07-08T07:00:00.000Z",
+        "count": 808,
+        "engagement": 62426
+      },
+      {
+        "hour": "2026-07-08T08:00:00.000Z",
+        "count": 123,
+        "engagement": 1700
       }
     ],
     "hashtags": [
       {
         "tag": "perte",
-        "count": 5083
-      },
-      {
-        "tag": "accadeoggi",
-        "count": 4538
+        "count": 5755
       },
       {
         "tag": "fyp",
-        "count": 4464
+        "count": 4975
+      },
+      {
+        "tag": "accadeoggi",
+        "count": 4966
       },
       {
         "tag": "viral",
-        "count": 3517
+        "count": 3984
       },
       {
         "tag": "adv",
-        "count": 2268
+        "count": 2616
       },
       {
         "tag": "tiktokshop",
-        "count": 1945
+        "count": 2202
       },
       {
         "tag": "neiperte",
-        "count": 1929
+        "count": 2183
       },
       {
         "tag": "foryou",
-        "count": 1608
+        "count": 1793
       },
       {
         "tag": "napoli",
-        "count": 1518
+        "count": 1719
       },
       {
         "tag": "italia",
-        "count": 1036
+        "count": 1158
       },
       {
         "tag": "estate",
-        "count": 1025
-      },
-      {
-        "tag": "cavalcalondadeirisparmi",
-        "count": 969
-      },
-      {
-        "tag": "italy",
-        "count": 925
-      },
-      {
-        "tag": "virale",
-        "count": 889
+        "count": 1148
       },
       {
         "tag": "calcio",
-        "count": 880
+        "count": 1025
       },
       {
-        "tag": "offertestive",
-        "count": 852
+        "tag": "italy",
+        "count": 1001
       },
       {
-        "tag": "madeinitaly",
-        "count": 831
+        "tag": "cavalcalondadeirisparmi",
+        "count": 995
+      },
+      {
+        "tag": "virale",
+        "count": 970
       },
       {
         "tag": "perteeee",
-        "count": 831
+        "count": 935
+      },
+      {
+        "tag": "madeinitaly",
+        "count": 919
       },
       {
         "tag": "roma",
-        "count": 814
-      },
-      {
-        "tag": "summer",
-        "count": 799
-      },
-      {
-        "tag": "f1",
-        "count": 796
-      },
-      {
-        "tag": "capcut",
-        "count": 794
-      },
-      {
-        "tag": "ultimo",
-        "count": 765
+        "count": 901
       },
       {
         "tag": "offerteperte",
-        "count": 745
+        "count": 881
       },
       {
-        "tag": "offerteestive",
-        "count": 744
+        "tag": "summer",
+        "count": 872
+      },
+      {
+        "tag": "offertestive",
+        "count": 866
+      },
+      {
+        "tag": "capcut",
+        "count": 849
+      },
+      {
+        "tag": "f1",
+        "count": 844
+      },
+      {
+        "tag": "ultimo",
+        "count": 817
+      },
+      {
+        "tag": "saldi",
+        "count": 802
       }
     ],
     "creators": [
       {
         "name": "433",
-        "posts": 83,
-        "engagement": 76644584,
+        "posts": 82,
+        "engagement": 76153790,
         "platform": "ig",
         "followers": 78322161,
-        "avgEr": 0.011790133355635658
+        "avgEr": 0.011857496578746863
       },
       {
         "name": "fabrizioromano",
-        "posts": 85,
-        "engagement": 49330178,
+        "posts": 84,
+        "engagement": 48901604,
         "platform": "tt",
         "followers": 25300000,
-        "avgEr": 0.02305062963709487
+        "avgEr": 0.023120139427668433
+      },
+      {
+        "name": "fabriziorom",
+        "posts": 75,
+        "engagement": 47303648,
+        "platform": "ig",
+        "followers": 46782551,
+        "avgEr": 0.01352757665654659
       },
       {
         "name": "erling",
@@ -376,14 +405,6 @@
         "avgEr": 0.08075082292768528
       },
       {
-        "name": "fabriziorom",
-        "posts": 61,
-        "engagement": 38808128,
-        "platform": "ig",
-        "followers": 46782551,
-        "avgEr": 0.013655284222157582
-      },
-      {
         "name": "cristiano",
         "posts": 3,
         "engagement": 33435345,
@@ -392,20 +413,20 @@
         "avgEr": 0.016593191398608906
       },
       {
-        "name": "realmadrid",
-        "posts": 31,
-        "engagement": 20022614,
-        "platform": "ig",
-        "followers": 178997824,
-        "avgEr": 0.0036083722123546507
-      },
-      {
         "name": "fcbarcelona",
-        "posts": 34,
-        "engagement": 19625931,
+        "posts": 33,
+        "engagement": 19339672,
         "platform": "ig",
         "followers": 145793136,
-        "avgEr": 0.003959262284514426
+        "avgEr": 0.004019741139710903
+      },
+      {
+        "name": "realmadrid",
+        "posts": 30,
+        "engagement": 19288251,
+        "platform": "ig",
+        "followers": 178997824,
+        "avgEr": 0.0035918967372474877
       },
       {
         "name": "f1",
@@ -418,10 +439,10 @@
       {
         "name": "neymarjr",
         "posts": 2,
-        "engagement": 14886959,
+        "engagement": 16531748,
         "platform": "ig",
         "followers": 240071333,
-        "avgEr": 0.03100528250076405
+        "avgEr": 0.03443090808347367
       },
       {
         "name": "leomessi",
@@ -475,18 +496,51 @@
     "posts": [
       {
         "platform": "ig",
-        "author": "emanueleferrari",
-        "time": "2026-07-06T16:29:24Z",
-        "text": "#adv i romani sono tradizionalisti, alcuni piatti sono impossibili da toccare! La Zia Daniela lo sa bene 😂\nMa siccome il Pesto @barillaitalia sta bene su tutto, abbiamo provato ad abbinarlo al loro iconico Maritozzo e il risultato è stato top, appro",
-        "engagement": 5406,
-        "engagementRate": 0.007063914971684233,
+        "author": "emmagaleotti",
+        "time": "2026-07-07T16:31:43Z",
+        "text": "#adv Questo video è per voi, ossessionati di pasta al pesto: vi ho portato con me nell’ultima tappa della Via del Pesto, dove la tradizione romana si è incontrata con il pesto @barillaitalia #BarillaItalia #BasilBar",
+        "engagement": 920,
+        "engagementRate": 0.003072504425074308,
         "sentiment": "neg",
         "hashtags": [
           "adv",
           "barillaitalia",
           "basilbar"
         ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/735170226_18598996711027586_4070388627088694038_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=102&ig_cache_key=MzkzNTM5MTA3NTI2ODc3ODEzMjE4NTk4OTk2NzA1MDI3NTg2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExOTQuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=ra9tCtMpXagQ7kNvwFJc8eI&_nc_oc=AdpHHP-42R6zzYbpzMwxIqtXww_A1lw1qK9l6NtMl9ngvol0Nrp2pAVFPbAIsnxUXo29F5vqD5pEuweIKwzer9eo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=emQv-QXOQd8oKn_LvBfXDA&_nc_ss=7a3ba&oh=00_AQDhFpixd6CP_41quJsO3_jWIeqc6yRb9zv2oaMXiQBpKQ&oe=6A52337B",
+        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/733977239_18114114398512384_5472323011742798521_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=110&ig_cache_key=MzkzNjExNTY0NDUyMzkxOTgzMzE4MTE0MTE0Mzk1NTEyMzg0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=OIW0mdzxszQQ7kNvwFHihKR&_nc_oc=Adq8CBl3X3k_Z3j2DEplgMd3N_FV9xStckNVeqvTi8-MnUP-gWXJOjBpJ94eqnRhUjNQl_QRh1bjbFXlLTOdZhkh&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=h--6R_eUhwyRhGT0or3ZjA&_nc_ss=7a3ba&oh=00_AQC8b0DM9NDTsLmuyKrHuY-KstNT74VoEwzRzsd2IZ21Tw&oe=6A53B4A3",
+        "url": "https://www.instagram.com/reel/3936115644523919833/"
+      },
+      {
+        "platform": "ig",
+        "author": "museirealitorino",
+        "time": "2026-07-07T06:00:02Z",
+        "text": "#MRTcare da Torino ci porta nuovamente in Cina, all'Henan Museum di Zhengzhou, in occasione dell'allestimento della mostra \"The Bearers of Bronze\" dedicata al bronzo nell'antichità, tra Oriente e Occidente.\n🔎\nI Musei Reali, dalle collezioni del Muse",
+        "engagement": 146,
+        "engagementRate": 0.0020018373027299026,
+        "sentiment": "neg",
+        "hashtags": [
+          "mrtcare",
+          "museirealitorino",
+          "torino",
+          "cina"
+        ],
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/741948224_18398894632088213_969080955689010291_n.webp?stp=dst-webp_p1080x1080_sh2.08&_nc_cat=101&ig_cache_key=MzkzNTQ5NTg4NDAyMDQwMDI3Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=KgN2tTonMXoQ7kNvwF8Av8U&_nc_oc=Adq7f32ycIUK7tMLK3vn7ioSuOkKGVrStY55XF_ZdvpNA3B1jYnmAJWxgh-ozUh_Uv6nMgR1gKtet9zghsEocwuk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=ay2CVUlIKdug5g5-mtHcAA&_nc_ss=7a3ba&oh=00_AQDbMgZXdqg_amTMLyaDwYGmXlX9F87KLp9RenXugq4Kig&oe=6A53D8A4",
+        "url": "https://www.instagram.com/p/3935800968105202050/"
+      },
+      {
+        "platform": "ig",
+        "author": "emanueleferrari",
+        "time": "2026-07-06T16:29:24Z",
+        "text": "#adv i romani sono tradizionalisti, alcuni piatti sono impossibili da toccare! La Zia Daniela lo sa bene 😂\nMa siccome il Pesto @barillaitalia sta bene su tutto, abbiamo provato ad abbinarlo al loro iconico Maritozzo e il risultato è stato top, appro",
+        "engagement": 7270,
+        "engagementRate": 0.009499567488742948,
+        "sentiment": "neg",
+        "hashtags": [
+          "adv",
+          "barillaitalia",
+          "basilbar"
+        ],
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/735170226_18598996711027586_4070388627088694038_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=102&ig_cache_key=MzkzNTM5MTA3NTI2ODc3ODEzMjE4NTk4OTk2NzA1MDI3NTg2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExOTQuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=ra9tCtMpXagQ7kNvwEebZbv&_nc_oc=AdoHlOHS4tiXJMbtMv-i8hOevirB9bExnP4XPfsoBidJ9IkTZx2E7knpdDEtVF77gdDlIqaI7qdVWdGu6Uzde5gg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=kskdjcihLy1JK_uW17Kg9Q&_nc_ss=7a3ba&oh=00_AQA5n8jhmya9Q8Mm_uMfmOCwZJS5D8MM-RtNAE-7Fu5Zrw&oe=6A53BD3B",
         "url": "https://www.instagram.com/reel/3935391075268778132/"
       },
       {
@@ -523,13 +577,13 @@
         "author": "damu07965",
         "time": "2026-07-04T16:54:54Z",
         "text": "#ossobuco barilla#",
-        "engagement": 58,
-        "engagementRate": 0.0006417490982318706,
+        "engagement": 60,
+        "engagementRate": 0.0006638710319875192,
         "sentiment": "neg",
         "hashtags": [
           "ossobuco"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/owb5fABJkOpBtiIH1kHY1BzCoEFJAH5IdEwJiC~tplv-tiktokx-cropcenter-q:300:400:q70.heic?dr=9232&refresh_token=a9ffbef3&x-expires=1783479600&x-signature=82y%2FWwYl9pd4HveLxKYtm44OYqU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover&item=7658717349314399520&cw=1",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/owb5fABJkOpBtiIH1kHY1BzCoEFJAH5IdEwJiC~tplv-tiktokx-cropcenter-q:300:400:q70.heic?dr=9232&refresh_token=5fc8ad6f&x-expires=1783580400&x-signature=BS08c0HE2ZQNWDhT5tdfGfD5IVY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover&item=7658717349314399520",
         "url": "https://www.tiktok.com/@damu07965/video/7658717349314399520"
       },
       {
@@ -537,15 +591,15 @@
         "author": "sebastian_fitarau",
         "time": "2026-07-04T15:13:24Z",
         "text": "Pasta all'arrabbiata 🤤 ingredienti x2: 220g penne rigate trafilate al bronzo  250g datterini 100g un ottima polpa rustica di pomodoro 1 spicchio d'aglio  1 peperoncino  olio evo q.b. sale q.b. prezzemolo q.b. Buon appetito!🍴 Pasta all'arrabbiata 🤤",
-        "engagement": 1138,
-        "engagementRate": 0.0010345454545454544,
+        "engagement": 1282,
+        "engagementRate": 0.0011654545454545455,
         "sentiment": "neg",
         "hashtags": [
           "pasta",
           "arrabbiata",
           "primipiatti"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oYRvNEvgXI0wNAZ16X9iQAYiBkikaBIxiDHEJ~tplv-tiktokx-origin.image?dr=10395&x-expires=1783566000&x-signature=5m59Ai560MdZo3oCzuPk1tpdDUo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oYRvNEvgXI0wNAZ16X9iQAYiBkikaBIxiDHEJ~tplv-tiktokx-origin.image?dr=10395&x-expires=1783666800&x-signature=%2B5N%2FJhNVXJwDT5KMQFJTcAIM7sc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@sebastian_fitarau/video/7658691195547241761"
       },
       {
@@ -553,15 +607,15 @@
         "author": "sebastian_fitarau",
         "time": "2026-07-04T15:04:38Z",
         "text": "Pasta all'arrabbiata 🤤\n\ningredienti x2:\n220g penne rigate trafilate al bronzo \n250g datterini\n100g un ottima polpa rustica di pomodoro\n1 spicchio d'aglio \n1 peperoncino \nolio evo q.b.\nsale q.b. prezzemolo q.b.\n\nBuon appetito!🍴\n\nPasta all'arrabbiata",
-        "engagement": 25831,
-        "engagementRate": 0.009421368719057126,
+        "engagement": 27236,
+        "engagementRate": 0.00993381589687739,
         "sentiment": "neg",
         "hashtags": [
           "pasta",
           "arrabbiata",
           "primipiatti"
         ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/729466893_18446406601137585_8965277029123221157_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=105&ig_cache_key=MzkzMzg5NjY2MjY4NjY5NzM0MTE4NDQ2NDA2NTk1MTM3NTg1.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=o2iMrvRc4x8Q7kNvwG62NfH&_nc_oc=AdqfpabB3Pt_Rhpe8sntnJlf6VjFki9mul6aLnxdP94z0Xhc2hXcl3itjDOtnDxODcXNjv1t34KDH-0oQRTtH-z-&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=zciyTl04Dsea67d0YXwrvg&_nc_ss=7a3ba&oh=00_AQDHe7C7R8tkmK7ihcAIhx1kKGTJZp_tq4xeARBd6nXK5Q&oe=6A522748",
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/729466893_18446406601137585_8965277029123221157_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=105&ig_cache_key=MzkzMzg5NjY2MjY4NjY5NzM0MTE4NDQ2NDA2NTk1MTM3NTg1.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=F4hEyuVAwZgQ7kNvwFIx3Rm&_nc_oc=Adr-umntIzi4UxBp4jxhEz9sdMe5vRU1zAjUVt3qWc6KaQfEB8PZD_IxXCImmhqWHbHnryWjS64lrXHEv7xr4g80&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=c78rpDIcGlTklQNE9GjcLQ&_nc_ss=7a3ba&oh=00_AQB1KuRmNbR1WN2RRBtKc9jl_e7xUc8_LJABCCo1auFdzA&oe=6A53B108",
         "url": "https://www.instagram.com/reel/3933896662686697341/"
       },
       {
@@ -569,15 +623,15 @@
         "author": "dilettasecco",
         "time": "2026-07-03T16:45:23Z",
         "text": "#adv @pasta_desortis Questa è la pasta estiva che mi fa sentire a casa anche quando sono lontana: la crudaiola.\nPreparata con i pomodori dell’orto della Natalina, le tagliatelle al bronzo De Sortis e la ricotta salata poi, diventano speciali ✨\n\nINGRE",
-        "engagement": 4449,
-        "engagementRate": 0.00520138563323275,
+        "engagement": 4649,
+        "engagementRate": 0.00543520831847585,
         "sentiment": "neg",
         "hashtags": [
           "adv",
           "desortis",
           "saporedicasa"
         ],
-        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/734973664_18603395479042490_8352016299432527235_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=109&ig_cache_key=MzkzMzIyMzMxNjQwMzczNzM2OTE4NjAzMzk1NDczMDQyNDkw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTUuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=haML5Je7kBYQ7kNvwFOw_pF&_nc_oc=AdrDxA_Y1T9xW-Dw_lXRxjSce-4RBq0Aj10Hoj4ZxVHtD8aftzPvdOs5QRzKQz5NBb3SB0U-V6MzJIZV980OiR6g&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=D_k9UjbC0NZh10m2OELSyg&_nc_ss=7a3ba&oh=00_AQBbjHVGAkFzUpCJNHclwg3acE4k4ZZyJMAccGE9jdHrOQ&oe=6A523564",
+        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/734973664_18603395479042490_8352016299432527235_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=109&ig_cache_key=MzkzMzIyMzMxNjQwMzczNzM2OTE4NjAzMzk1NDczMDQyNDkw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTUuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=haML5Je7kBYQ7kNvwEpGdSb&_nc_oc=AdpPLPlAvGVOXVj98FwPn35qqeCBtV0c6bNZ5g2s6i6rwcdsdkS-Zt0d62EuC-8vqUnN98_6HBZJeMAuhIR1rHH0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=JKyjo2qAE9W6Fwo6F00Qzw&_nc_ss=7a3ba&oh=00_AQCaiTb3v3120yx0p0GQRV6nxFhicoM7t2Yo-todWxLT4Q&oe=6A53BF24",
         "url": "https://www.instagram.com/reel/3933223316403737369/"
       },
       {
@@ -585,14 +639,14 @@
         "author": "nickybrian_official",
         "time": "2026-07-03T14:37:16Z",
         "text": "#adv @barillaitalia \n\nLa pasta al pomodoro la sanno fare tutti, ma ci sono alcuni trucchi chiave per renderla irresistibile, che in pochi sanno:\n- un sugo al pomodoro, se non mantecato con acqua di cottura, ovvero con un emulsionante, non si attacca ",
-        "engagement": 486,
-        "engagementRate": 0.001868246347117096,
+        "engagement": 503,
+        "engagementRate": 0.0019335965279833319,
         "sentiment": "neg",
         "hashtags": [
           "adv",
           "barillaalbronzo"
         ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/731111379_18080617691661190_1291390585482082577_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=105&ig_cache_key=MzkzMzE1OTgxNzkwMzk1MDU3MTE4MDgwNjE3Njg1NjYxMTkw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTUuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=gOeXr6AAxIIQ7kNvwGlvAK3&_nc_oc=AdraUjW6Y0K06ZfPZD9iQUDZM5yIJCc_ouATu7Xguny7_MoecU8wknjO48AT-KCxo9a73i44eR6iotnOa_b4BW07&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=mkjzv-wTCdEgxeajWHqECQ&_nc_ss=7a3ba&oh=00_AQAjioBgn0f0ZE79scwDEZy6BY4i5O0cJ8Dm8_qzd2g0_g&oe=6A525C3B",
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/731111379_18080617691661190_1291390585482082577_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=105&ig_cache_key=MzkzMzE1OTgxNzkwMzk1MDU3MTE4MDgwNjE3Njg1NjYxMTkw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTUuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzIifQ%3D%3D&_nc_ohc=gOeXr6AAxIIQ7kNvwGSBZKO&_nc_oc=Adp3WnV9hCH_O7D5PSOUBM4k4JFI5SBHBlueBmGxD6vx3DMCqve1O_iQcY6j_ya-gbeneLd_PHFRyq0xw4mzxJ-7&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=3dAp04awIYiRxA97iEPgbQ&_nc_ss=7a3ba&oh=00_AQC0jg5iWQZuMjkunO3ts_sLa7-cabUzRn_YxjUoUZPSIg&oe=6A53E5FB",
         "url": "https://www.instagram.com/reel/3933159817903950571/"
       },
       {
@@ -600,8 +654,8 @@
         "author": "rinaldoalessandroni",
         "time": "2026-07-02T16:40:41Z",
         "text": "Mia sorella mi ha fatto spendere 280$ da Walmart e sinceramente non me ne pento, più o meno ahahaha  💳😭🇺🇸 Sono entrata pensando di fare un giretto... due ore dopo stavamo ancota li.  Volevamo provare tutti i gusti di Pringles esistenti e alla fin",
-        "engagement": 3326,
-        "engagementRate": 0.02741962077493817,
+        "engagement": 3408,
+        "engagementRate": 0.02809563066776587,
         "sentiment": "neu",
         "hashtags": [
           "fpy",
@@ -609,7 +663,7 @@
           "usa",
           "walmart"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/o4aEuAGEIpISAiBgd6ilBwiU4aAAogaH0PvBk~tplv-tiktokx-origin.image?dr=10395&x-expires=1783566000&x-signature=K%2BHkxY1xSuuuDz53gGzTCh%2Bm11s%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/o4aEuAGEIpISAiBgd6ilBwiU4aAAogaH0PvBk~tplv-tiktokx-origin.image?dr=10395&x-expires=1783666800&x-signature=xbcc7VCNWe1W2JDkW%2BPQGKQ8%2BqM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@rinaldoalessandroni/video/7657971518122593569"
       },
       {
@@ -635,8 +689,8 @@
         "author": "mmmcomebuono",
         "time": "2026-07-02T15:57:35Z",
         "text": "Ci sono piatti che sanno di festa anche se è un giorno qualunque. 🥰 Per questo timballo pazzesco ho scelto le Mafaldine di @pastificioventigrani: pasta artigianale 100% italiana, trafilata al bronzo.\nEcco come l’ho preparato:\nIngredienti principali:",
-        "engagement": 341,
-        "engagementRate": 0.002478557929931676,
+        "engagement": 321,
+        "engagementRate": 0.0023331879633667683,
         "sentiment": "neg",
         "hashtags": [
           "ventigrani",
@@ -645,7 +699,7 @@
           "timballo",
           "mafaldine"
         ],
-        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/723109543_18111030212472194_4630726771220984815_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=108&ig_cache_key=MzkzMjQ3MzgxNDc3NDY1OTA3ODE4MTExMDMwMjA5NDcyMTk0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=cKgSI0lrKn0Q7kNvwHRRoX1&_nc_oc=Adpwz_wftVJlyxO1hbYqmRKnbMAbsBoVYqMvR0uU61okTitkrrGC_vDiOCvPPrgEGUsZ54d5YA20d7tAeMWnKHK_&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=CnxI30a-_Ty7_HTwunDRfw&_nc_ss=7a3ba&oh=00_AQAvBiU8OcgWsnZ5eaXLo2ZfZWdqgvGVN2NoAp2NOE9OKg&oe=6A525769",
+        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/723109543_18111030212472194_4630726771220984815_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=108&ig_cache_key=MzkzMjQ3MzgxNDc3NDY1OTA3ODE4MTExMDMwMjA5NDcyMTk0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=cKgSI0lrKn0Q7kNvwEjAA64&_nc_oc=Adqdykrn6lKlr77VqZsCDcGBaBq2jFiTBoQzLJPsXXvkvz8Bs1b2FiFcygar9-d-GGtl7koIV_yx7TBL-8UZTg90&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=4T3GE2Sr99oWfXQ2AmzOww&_nc_ss=7a3ba&oh=00_AQCboKT719Ff3sqmS4B2Vhjli5ExX0Q3QFCw_Oyx_FGHuw&oe=6A53E129",
         "url": "https://www.instagram.com/reel/3932473814774659078/"
       },
       {
@@ -662,35 +716,11 @@
       },
       {
         "platform": "ig",
-        "author": "chef_stefano_barbato",
-        "time": "2026-07-01T06:00:19Z",
-        "text": "SPAGHETTI AL GRANCHIO BLU: La Ricetta che Salva il Mare\n\nVolete preparare un piatto da veri chef spendendo pochissimo e aiutando l'ambiente? Oggi cuciniamo il granchio blu (o granchio reale azzurro). È una prelibatezza dal sapore incredibile, ma esse",
-        "engagement": 51,
-        "engagementRate": 0.0006429814165763131,
-        "sentiment": "neg",
-        "hashtags": [
-          "spaghettialgranchioblu",
-          "granchioblu",
-          "ricettesostenibili",
-          "salvailmare",
-          "chefstefanobarbato",
-          "cucinaitaliana",
-          "primidipesce",
-          "foodinnovation",
-          "bluecrab",
-          "ricettemarine",
-          "estateincucina"
-        ],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t39.30808-6/732871696_1598554958294739_7146513135556147178_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkzMTQ1MTk3ODUxNzcwMTAxMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=AmFnWsW7bo0Q7kNvwG9o1pq&_nc_oc=AdqtGTWGRwERYZHu5YwBGH2bn9vc3yVYTfn-oLx4UmNgaa3e4co6Jsj4N-0frmxOtgViuNUGXAf04X_TzJnIPly0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=l1uPJBKM9cf5OwPqMo9TIg&_nc_ss=7a3ba&oh=00_AQCr0l6uDmWRa-v5m_01izqzDqbAhdercKkLP7Ev2-pd7g&oe=6A4DA7E1",
-        "url": "https://www.instagram.com/p/3931451978517701010/"
-      },
-      {
-        "platform": "ig",
         "author": "nonnanellaa",
         "time": "2026-07-04T15:03:59Z",
         "text": "Solo i veri intenditori sanno che ricetta è questa….⤵️🥳😍\n\n#nonne #hyrox #dieta #light",
-        "engagement": 116551,
-        "engagementRate": 0.3628543676020996,
+        "engagement": 133988,
+        "engagementRate": 0.4171404021095496,
         "sentiment": "pos",
         "hashtags": [
           "nonne",
@@ -698,7 +728,7 @@
           "dieta",
           "light"
         ],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/735009570_18599146414003411_7371656017572098866_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=103&ig_cache_key=MzkzMzg5OTU1Mjk5MTY0OTU4NzE4NTk5MTQ2NDExMDAzNDEx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=nS3ZP6p5MU8Q7kNvwGjvpoS&_nc_oc=Ado37kRMIYey04zlWtHEBnBF_Lz7AZBQ1YRVEC0gpiel9sKU9XC_C_0qhLAh6CzB3LU_0fDgpWY6_4jAYGzT-T6C&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=flvQUyUWxTnXA8uZGKYtGA&_nc_ss=7a3ba&oh=00_AQAMMFIzZRR8mcVRD_vIeYkEZq3R6DP5JCVwssQ27d6V0g&oe=6A522AA2",
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/735009570_18599146414003411_7371656017572098866_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=103&ig_cache_key=MzkzMzg5OTU1Mjk5MTY0OTU4NzE4NTk5MTQ2NDExMDAzNDEx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=nS3ZP6p5MU8Q7kNvwFHotkD&_nc_oc=AdqeI86rHtv3zw7_hCZ67IgWYuoRLX5p74TbLGOcA1yFJhnlWKDWNflsMzuZW6_pUglV9ThKwtQvydzQdGqhO9bT&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=GpfYXv1fJctDK3wdqBp71w&_nc_ss=7a3ba&oh=00_AQDARJN49csGjjnD93qCzW_KCaY9H9itfdCtuag5Kuay2g&oe=6A53B462",
         "url": "https://www.instagram.com/reel/3933899552991649587/"
       },
       {
@@ -706,8 +736,8 @@
         "author": "nonnanellaa",
         "time": "2026-07-02T10:43:30Z",
         "text": "Bruschette fichi, prosciutto e gorgonzola🥰\n\n INGREDIENTI\n\n- Pane\n- Prosciutto\n- Fichi\n- Gorgonzola a sentimento\n- Olio (se volete)\n\n💚 metti un 👍🏻 se ti è piaciuto il video\n🖋 scrivi nei commenti cosa ne pensi\n🧾salva per non perdere la ricetta\n✅ ",
-        "engagement": 68392,
-        "engagementRate": 0.21292254814667222,
+        "engagement": 70697,
+        "engagementRate": 0.22009862829461468,
         "sentiment": "pos",
         "hashtags": [
           "italy",
@@ -716,7 +746,7 @@
           "bruschetta",
           "bruschette"
         ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/731105121_18598507447003411_8325154913518627745_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=105&ig_cache_key=MzkzMjMxODk0MzA4NTE2NTcyMzE4NTk4NTA3NDQ0MDAzNDEx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=ormm3XTH6B4Q7kNvwGJiQPP&_nc_oc=AdqTceabPqkJ5nCzuLxiwCZHq1a18A646V5wVojmuKjJjUN0DPhsBbMplK1nK-Yw8mGgvxTzOznEZ4WwM8DBCJS0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=flvQUyUWxTnXA8uZGKYtGA&_nc_ss=7a3ba&oh=00_AQBmC71g74T9ZDxqySoqjVCmr5eR5A7Y0IuohUkv6OE6gg&oe=6A523469",
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/731105121_18598507447003411_8325154913518627745_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=105&ig_cache_key=MzkzMjMxODk0MzA4NTE2NTcyMzE4NTk4NTA3NDQ0MDAzNDEx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=Jq6CWMWiw0UQ7kNvwHzxKXK&_nc_oc=AdqCGMIVAcpVzVA1TMHkRJoN7AWhAn20RZwoKzxsnSApWFRdRjdHTxpJPg-27KnDXJgMVaV70-ttTxqrJlNHJyQc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=GpfYXv1fJctDK3wdqBp71w&_nc_ss=7a3ba&oh=00_AQCr6Y_reXPkBM2LOdGgQITWj8T2u7jrJEpKm1L9XpEi3Q&oe=6A53BE29",
         "url": "https://www.instagram.com/reel/3932318943085165723/"
       },
       {
@@ -724,11 +754,11 @@
         "author": "nonnasilviofficial",
         "time": "2026-07-01T19:13:02Z",
         "text": "Pici cacio e pepe, come li facevo da ragazza 🤍\n\nTre cose in croce — farina e acqua per i pici, pecorino e pepe per la crema — ma fatte con pazienza diventano un piatto che ti fa chiudere gli occhi. Niente panna, niente burro: solo l’acqua di cottura",
-        "engagement": 52023,
-        "engagementRate": 0.011863989327130299,
+        "engagement": 54656,
+        "engagementRate": 0.012464452274256263,
         "sentiment": "neu",
         "hashtags": [],
-        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/731357148_18016872824908811_7920200100982582133_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=107&ig_cache_key=MzkzMTg1MDMzODAyODgxOTQ3NTE4MDE2ODcyODIxOTA4ODEx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=vWM8IMKq-FcQ7kNvwHBxA4J&_nc_oc=Ado7gcj2wchG9NQHeMOt6aIDTKGO39eyO2a6Bwxs6UlETsXZqXbRMnyiocd6OQVD70pyDtnxYJxKGLRh0IZGjzmK&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=CfrJeVKEGwow9j8R53WKyg&_nc_ss=7a3ba&oh=00_AQAaKw_DoygtEz0URBfo0Z58ujE_0X5q206_flGkpUUMUQ&oe=6A52512E",
+        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/731357148_18016872824908811_7920200100982582133_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=107&ig_cache_key=MzkzMTg1MDMzODAyODgxOTQ3NTE4MDE2ODcyODIxOTA4ODEx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=vWM8IMKq-FcQ7kNvwENQSCc&_nc_oc=Adqja7bC-4eFjbcr4P8ccqTvrjM8RKiYmB_uOw6Tzs9lsJTk2z9SiR6qyjQjOgKrwHpezfruMAsgFe0vJfdqM3TL&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=ffszZS8KCWWn-esRELkSbQ&_nc_ss=7a3ba&oh=00_AQBrKsxbn1WNhpusniIbw9Zwn4DJK_kbZMykDiMEg-4RLQ&oe=6A53DAEE",
         "url": "https://www.instagram.com/reel/3931850338028819475/"
       },
       {
@@ -736,53 +766,20 @@
         "author": "tirmagno",
         "time": "2026-07-01T10:33:26Z",
         "text": "Aperitivi d’estate! Episodio 2: Tzatziki con lingue alle olive \n\nAccoppiate incredibile, da provare almeno una volta \n\nPer una bel piatto di tzatziki:\n600g  yougurt greco\n3 cetriolo\n4 cucchiai abbondanti di aceto di mele\n5/6 cucchiai di olio\n2 spicch",
-        "engagement": 39452,
-        "engagementRate": 0.029202677775705194,
-        "sentiment": "neu",
-        "hashtags": [],
-        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/731068066_18158309065478229_2855457048692135675_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=110&ig_cache_key=MzkzMTU4ODA3MDc1NDgyMTUzNTE4MTU4MzA5MDYyNDc4MjI5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=2TOg3_8EgjoQ7kNvwFtBl0z&_nc_oc=Ado18wQUGTpysmZ8Adc-WOYs8IzJM4SRGKk_UAzwdNU1zd_2LiEHK6pQzw0UQEt7jYfHly4a7SyiiqqtH3Yg1oA5&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=zYWgnNEQNVrYvmr8E_D-4w&_nc_ss=7a3ba&oh=00_AQD7xJyDPrHg42PoMum1HVCSM5uFdCrGe5DCfRbEM0AlFg&oe=6A522DAA",
-        "url": "https://www.instagram.com/reel/3931588070754821535/"
-      },
-      {
-        "platform": "ig",
-        "author": "cucinaconruben",
-        "time": "2026-07-02T09:25:24Z",
-        "text": "PASTA AL LIMONE 🍋 \nPer il mio compleanno 🎂 \nQuanti anni mi date ?\n\n#cucinaitaliana #italianfood #birthday #pasta",
-        "engagement": 35964,
-        "engagementRate": 0.017239147878756505,
-        "sentiment": "neu",
-        "hashtags": [
-          "cucinaitaliana",
-          "italianfood",
-          "birthday",
-          "pasta"
-        ],
-        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/731060114_18606996298003313_6777330083384164631_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=107&ig_cache_key=MzkzMjI3ODc1MDg5NjU0NTk4MDE4NjA2OTk2MjkyMDAzMzEz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTcuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=J4kiRNfM-uMQ7kNvwEVzgtn&_nc_oc=AdrfgWQ6pR6SNTWZNnIos6uME3QIcR6rYT9i50IhrXkYsqwYYhkE_wAjqOcO1BBYwpVoDKwOtV43lb_QsLl3OK2M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=c2ZFze4f09yhgyUWS4N4Cw&_nc_ss=7a3ba&oh=00_AQCZIHdIE1FbvEndIFEtos7jhRCZi1x6g82dqtJsTKDCyg&oe=6A5245F7",
-        "url": "https://www.instagram.com/reel/3932278750896545980/"
-      },
-      {
-        "platform": "ig",
-        "author": "chefalessandrosantarelli",
-        "time": "2026-07-01T12:20:02Z",
-        "text": "Spaghetto di Calamari🦑🦑🦑🦑\n#spaghetti #calamari #nacosettafacilefacile",
-        "engagement": 35479,
-        "engagementRate": 0.034316693588168724,
+        "engagement": 40824,
+        "engagementRate": 0.0302182428651371,
         "sentiment": "pos",
-        "hashtags": [
-          "spaghetti",
-          "calamari",
-          "nacosettafacilefacile"
-        ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.71878-15/732763410_955985664133196_6403275049471227078_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=104&ig_cache_key=MzkzMTY0MTg4NzEyNTAxNTI2OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=N3uORTQZPr0Q7kNvwHohsu4&_nc_oc=AdqVf7UchEwvHoGbAChPvGx3qktBN_jfrb7BF-FxqtLSDgZ2BmX-W2RptSWCc5S15k-mLn3wI61m2LkT8qPYrItP&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=rC-2nIO5tW2kR3aNMvFEuA&_nc_ss=7a3ba&oh=00_AQAZJwUY2WMGggRlrYjF4q_DPjZfkxZY6FkYLqt5fUWwAw&oe=6A522445",
-        "url": "https://www.instagram.com/reel/3931641887125015269/"
+        "hashtags": [],
+        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/731068066_18158309065478229_2855457048692135675_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=110&ig_cache_key=MzkzMTU4ODA3MDc1NDgyMTUzNTE4MTU4MzA5MDYyNDc4MjI5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=MuAoqvcjhfkQ7kNvwE0bB9M&_nc_oc=AdpSkKSTtp9t1xhFi6dqEIK5jO3Hm4XE40Z2jdU8f5HSH9Fgmb4jAxJ_zDSDlx-w0ZRJTTjPr8E3ou5md-fshMao&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=PInkr9WME3uVAuJz1oiWbw&_nc_ss=7a3ba&oh=00_AQAYcFMBbg5WNT0Mahnylr78TVtFJHN9f7Jf_mYirxf9hg&oe=6A53B76A",
+        "url": "https://www.instagram.com/reel/3931588070754821535/"
       },
       {
         "platform": "ig",
         "author": "fabriziogalluzzo7sette",
         "time": "2026-07-06T10:06:26Z",
         "text": "La carbonara piu buona di roma\n\n#food #carbonara #cibo #risate #divertente",
-        "engagement": 32037,
-        "engagementRate": 0.064734812970806,
+        "engagement": 40446,
+        "engagementRate": 0.08172626167922149,
         "sentiment": "pos",
         "hashtags": [
           "food",
@@ -791,16 +788,49 @@
           "risate",
           "divertente"
         ],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/734718420_1458109326345066_6663800957258973464_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=100&ig_cache_key=MzkzNTE5ODQ5MDkxNTgwNjg2Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=8FCrpn37hpMQ7kNvwHkfZyZ&_nc_oc=AdqVm7LmcJoFN-QtzFzUZkubnRqimFBs_m6p-TgVDnhyNPJoylrvyyZY8kqMEs2ZiSrtPsL6asv9KXUp3lIbdp0o&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=y9P2vLvsKRjfH69Ac0AKTg&_nc_ss=7a3ba&oh=00_AQBsgoe2MZODejgD81PAo9VUTm5n4lH8IzNH0i3lCvweUg&oe=6A5229A6",
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/734718420_1458109326345066_6663800957258973464_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=100&ig_cache_key=MzkzNTE5ODQ5MDkxNTgwNjg2Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=8FCrpn37hpMQ7kNvwEMgKkp&_nc_oc=AdqmZxzS9zSJEFcFeidtQnuyYS-sa7E3jjML7pGDHKKgOVQE2egUSyMMUUU5E8dt9UdmNGW3p8vnpnquU-EJsCik&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=psdBIlJ9E5OMc69_kE1KuQ&_nc_ss=7a3ba&oh=00_AQAhyRdT7hHBHttGqejHz4J2I57ApVfyr_lwAZ7549GFgA&oe=6A53B366",
         "url": "https://www.instagram.com/reel/3935198490915806863/"
+      },
+      {
+        "platform": "ig",
+        "author": "cucinaconruben",
+        "time": "2026-07-02T09:25:24Z",
+        "text": "PASTA AL LIMONE 🍋 \nPer il mio compleanno 🎂 \nQuanti anni mi date ?\n\n#cucinaitaliana #italianfood #birthday #pasta",
+        "engagement": 36661,
+        "engagementRate": 0.01745169378206352,
+        "sentiment": "neu",
+        "hashtags": [
+          "cucinaitaliana",
+          "italianfood",
+          "birthday",
+          "pasta"
+        ],
+        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/731060114_18606996298003313_6777330083384164631_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=107&ig_cache_key=MzkzMjI3ODc1MDg5NjU0NTk4MDE4NjA2OTk2MjkyMDAzMzEz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTcuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=J4kiRNfM-uMQ7kNvwGNwvsd&_nc_oc=AdqU_tQdMRY8mgFS5ZxTs1O25_jH1x6GDL5tQKMLZiuc3COzZhO0czt-w-CJ-rWa9na0T6v5QxAME1Z-RzNUzOO-&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=Hv8opccLteOdwKjO3VHSug&_nc_ss=7a3ba&oh=00_AQBdNE9NJ-eEtsI4LYaCtumWpXpDvuwQ6fu8bRuueOM77w&oe=6A53CFB7",
+        "url": "https://www.instagram.com/reel/3932278750896545980/"
+      },
+      {
+        "platform": "ig",
+        "author": "chefalessandrosantarelli",
+        "time": "2026-07-01T12:20:02Z",
+        "text": "Spaghetto di Calamari🦑🦑🦑🦑\n#spaghetti #calamari #nacosettafacilefacile",
+        "engagement": 36116,
+        "engagementRate": 0.0349328252101328,
+        "sentiment": "pos",
+        "hashtags": [
+          "spaghetti",
+          "calamari",
+          "nacosettafacilefacile"
+        ],
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.71878-15/732763410_955985664133196_6403275049471227078_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=104&ig_cache_key=MzkzMTY0MTg4NzEyNTAxNTI2OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=N3uORTQZPr0Q7kNvwEGX3ci&_nc_oc=AdqhKI7T-6my36z4S8-xAKb_G8-0BIoZKsIc9o7f_KUghkvpbMdJdedJMw1loGRGyc-CNhWsmy_iXkjsU9NErh2U&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=ybWDAUNuDjVaxbpGRHawZw&_nc_ss=7a3ba&oh=00_AQCUrvFJ5g3LxRZ9R0bHP1GgNoWm8FAd08CKKIenzP9IGw&oe=6A53AE05",
+        "url": "https://www.instagram.com/reel/3931641887125015269/"
       },
       {
         "platform": "ig",
         "author": "federicofusca",
         "time": "2026-07-01T16:20:14Z",
         "text": "Carbonara di mare ATOMICA!☀️🐷🦐 \nSALVATELA E CONDIVIDILA \n.\nIngredienti 🛒 \n350 gr di spaghetti \n200 gr di guanciale \n8 scampetti \n4 seppioline \n8 calamari \n4 tuorli \n1 uovo intero \n200 gr di parmigiano grattugiato \n120 gr di pecorino romano \nSale e",
-        "engagement": 29658,
-        "engagementRate": 0.022239735924694744,
+        "engagement": 30389,
+        "engagementRate": 0.02278789314908452,
         "sentiment": "neu",
         "hashtags": [
           "carbonaradimare",
@@ -809,7 +839,7 @@
           "cucinadimare",
           "food"
         ],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/730783882_18604947514056581_1353928116927547436_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=103&ig_cache_key=MzkzMTc2MzIwOTUyNDAzMTUzNjE4NjA0OTQ3NTA4MDU2NTgx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExMTAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=3tsYnvxcJDQQ7kNvwGugcAD&_nc_oc=AdpT-V0yIDm6aUQhuqP6zsaK0V5TFnmGMKu4kn_L-pmwWW_ho4seAi2y0wmledSDZflboIyNJJLxvhMnZ1Vs2GJ0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=WQ6oB_7km2KnbPIZUZR5-Q&_nc_ss=7a3ba&oh=00_AQDXvusWSNbXzey7M7zeBHuv7MhTGDdGxC99o36AuO0nnA&oe=6A525352",
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/730783882_18604947514056581_1353928116927547436_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=103&ig_cache_key=MzkzMTc2MzIwOTUyNDAzMTUzNjE4NjA0OTQ3NTA4MDU2NTgx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExMTAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=3tsYnvxcJDQQ7kNvwGVKmwM&_nc_oc=AdopCX8plZXcfTnY1Hlj4iU4IyuKGJbduViZ-_gYwNxPpBa51U3YOaJJXFywMrvGscjq9K7qBO8f9_OIG76DMO0m&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=4Ax8jeX4jLQFWY6WN2zjYw&_nc_ss=7a3ba&oh=00_AQC-cCCmXWfvh3CaZSMHhq4UWXarIkjd35NPleUx7jEh6A&oe=6A53DD12",
         "url": "https://www.instagram.com/reel/3931763209524031536/"
       },
       {
@@ -817,42 +847,41 @@
         "author": "ristoranteratana",
         "time": "2026-07-05T10:05:12Z",
         "text": "PASTINA CON CREMA DI PEPERONI MARINATI\n\n#food #chef #milano",
-        "engagement": 27930,
-        "engagementRate": 0.06076547528914184,
+        "engagement": 29864,
+        "engagementRate": 0.06441635084737354,
         "sentiment": "pos",
         "hashtags": [
           "food",
           "chef",
           "milano"
         ],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/732831788_1530979238530575_2582259715902086303_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=103&ig_cache_key=MzkzNDQ3NDM1NjEwOTA4Njg1ODI3NjU3NTk3NDYzODY5OTEw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=o7glFleMEHAQ7kNvwHDEC58&_nc_oc=Adq6PPtSJLA3cyF6JJXzXRYcnYmlJJpHmmQhihBUXyzcexhyodLL3u6gtU76TcS6DsyA2UtsmrRBMWRF5z63EtOc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=Yo0NJ91YhVgQxjYyGTbrAQ&_nc_ss=7a3ba&oh=00_AQB1JLaagLFGYArJksnz7lE6JB1aOhvV2qCt20ftRqKkXg&oe=6A522BFA",
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/732831788_1530979238530575_2582259715902086303_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=103&ig_cache_key=MzkzNDQ3NDM1NjEwOTA4Njg1ODI3NjU3NTk3NDYzODY5OTEw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=o7glFleMEHAQ7kNvwFmhew7&_nc_oc=Ado2wb1qUXT7Bk6T38EZG7Y61XrHioawGLU6B166VZVb5cHC5RCNNDubWDZ4fmMU7rB3DA467fI4gFLppJi89mJH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=MRjXXruGd_Y2wPHOhwmDeQ&_nc_ss=7a3ba&oh=00_AQARxlxl16npEmYtuJOqLGWQPJ3zHKb0BMGLEJiW2JG5yw&oe=6A53B5BA",
         "url": "https://www.instagram.com/reel/3934474356109086858/"
       },
       {
         "platform": "ig",
-        "author": "danilodafiumicino",
-        "time": "2026-07-01T10:27:07Z",
-        "text": "Tornano le ricette…chissà se ne farò altre!! Cormorano fritto con pomodorini! #food #foodporn #daje #ricetta",
-        "engagement": 25354,
-        "engagementRate": 0.039898593304703196,
-        "sentiment": "pos",
+        "author": "cucinaconruben",
+        "time": "2026-07-06T10:01:25Z",
+        "text": "PASTELLA PERFETTA 🥒 🥕 \n\nIngredienti \n100 g farina 00\n 100 g farina di riso\n 140 ml birra\n140 ml acqua frizzante\n\nN.B controllare sempre a occhio la consistenza della farina e non affidarsi mai al 100% alle dosi.\n\n#cucinaitaliana #italianfood #fried",
+        "engagement": 29416,
+        "engagementRate": 0.01400286474163772,
+        "sentiment": "neu",
         "hashtags": [
-          "food",
-          "foodporn",
-          "daje",
-          "ricetta"
+          "cucinaitaliana",
+          "italianfood",
+          "fried"
         ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t15.5256-10/723456624_1052787553841822_7091880550385257286_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=101&ig_cache_key=MzkzMTU4NjIyNzQ0MzQ0MDY5Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2ZpcnN0X2ZyYW1lX3RodW1ibmFpbC5DMyJ9&_nc_ohc=NgOtMKhGB1YQ7kNvwFZQVXv&_nc_oc=AdoBWRw-hf-ao3VIlIFOJHRf145bNa6CCKMe1yzHBMuhWnPhAAngy3NLn3G5ibMlo2ZRZtVWsMNP4syWK3erLfPy&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=FGXQYApqQfjizd2Xu7fTRA&_nc_ss=7a3ba&oh=00_AQBjiMQIeJI7oxWU38dKQe8hY_Z2xOwyTLH0L7TMp-hfpw&oe=6A523216",
-        "url": "https://www.instagram.com/reel/3931586227443440693/"
+        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/731093653_18608227585003313_8618114784030095551_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=107&ig_cache_key=MzkzNTE5MjQ1NDAwOTA5Nzk4NTE4NjA4MjI3NTc5MDAzMzEz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=AUNtfiSZicYQ7kNvwFhPb67&_nc_oc=AdqSln5afTIEVosCMKOV-wTXeJZlyHBG60sVHowKwms0Xa32GJweqHG6DQL3tAgwo9f6trmzGAZZAJlcDsv4yA4j&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=Hv8opccLteOdwKjO3VHSug&_nc_ss=7a3ba&oh=00_AQA7FUoPR-Cvgs_3sCc4cG2nrsQ4nSUdvpPa4FHSSixftw&oe=6A53DA93",
+        "url": "https://www.instagram.com/reel/3935192454009097985/"
       },
       {
         "platform": "ig",
         "author": "chiarapassion",
         "time": "2026-07-02T10:06:04Z",
         "text": "Parmigiana bianca di zucchine tutto a crudo 😍 Senza friggere, senza grigliare e senza besciamella… ma cremosa e filante da non credere!\n Il trucco? Infarina leggermente le zucchine: in cottura la farina assorbe l’umidità e crea quella cremina buonis",
-        "engagement": 24541,
-        "engagementRate": 0.029121075371148053,
-        "sentiment": "neu",
+        "engagement": 26026,
+        "engagementRate": 0.030883220227761674,
+        "sentiment": "pos",
         "hashtags": [
           "parmigianadizucchine",
           "zucchine",
@@ -860,73 +889,74 @@
           "ricetteconzucchine",
           "parmigianabianca"
         ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/731736205_18599298661051962_1575559384871690100_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzkzMjMwMDM0MDY1MDU5NzU3NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4Ni5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=68QEV0jBSTIQ7kNvwGn7KUw&_nc_oc=Adq9RsnugH8Zbxp_GUrmqvHj87Wv6ebWgZgjlleYA_aUaL1Jov7etpe-BUadpxsf0RpuQ93OGuNmxy87DQ75As31&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=xPzHnifbj8OTHhgVHEskag&_nc_ss=7a3ba&oh=00_AQDxRr-oapeq9yIwm0BwDi9lIsji6vpWlhdxBccsFx0KzQ&oe=6A5237A6",
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/731736205_18599298661051962_1575559384871690100_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzkzMjMwMDM0MDY1MDU5NzU3NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4Ni5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=D7OvhoFqn7EQ7kNvwHRE5Zr&_nc_oc=Adrai0bElpcAuc5gL2RsBCeMgPjfKh2W2h2xtfMyMPrCW_W3GtSgbSO215HiyMPdWU3LR4F5pDk4r8vq7VBTDSEg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=NdEoauvtrKazI9coq0I-_Q&_nc_ss=7a3ba&oh=00_AQC91axF7tB3sQ8ynqo11OV6d3NhJj7JRNYXt3ylNfkEnA&oe=6A53C166",
         "url": "https://www.instagram.com/p/3932300446035099423/"
+      },
+      {
+        "platform": "ig",
+        "author": "danilodafiumicino",
+        "time": "2026-07-01T10:27:07Z",
+        "text": "Tornano le ricette…chissà se ne farò altre!! Cormorano fritto con pomodorini! #food #foodporn #daje #ricetta",
+        "engagement": 25742,
+        "engagementRate": 0.040509173655031545,
+        "sentiment": "pos",
+        "hashtags": [
+          "food",
+          "foodporn",
+          "daje",
+          "ricetta"
+        ],
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t15.5256-10/723456624_1052787553841822_7091880550385257286_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=101&ig_cache_key=MzkzMTU4NjIyNzQ0MzQ0MDY5Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2ZpcnN0X2ZyYW1lX3RodW1ibmFpbC5DMyJ9&_nc_ohc=p3_g4x6v8fwQ7kNvwEtEloC&_nc_oc=AdpYLztS8VIP7A2Uc_g_8obwidXEB3ANNT81gByU5kSL-Plkm5SwXYzNmjNQs6BXG7gnbhSEJqOgDwHU8btVmeQz&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=VjPHzbTBxP01IgiFjoypmQ&_nc_ss=7a3ba&oh=00_AQDG3EL_AHWrMWrrSxPp-ShejjWiWvGGTk1ZesQDt1KW9w&oe=6A53BBD6",
+        "url": "https://www.instagram.com/reel/3931586227443440693/"
       },
       {
         "platform": "ig",
         "author": "nonnasilviofficial",
         "time": "2026-07-03T16:17:19Z",
         "text": "La parmigiana che mette tutti d’accordo… ma di patate 🥔 (e non si frigge niente!)\n\nTesoro, questa la faccio la domenica: patate a fettine, prosciutto cotto, scamorza che fila e la mia besciamella fatta in casa. In forno finché è dorata sopra e cremo",
-        "engagement": 23679,
-        "engagementRate": 0.005400061574248281,
+        "engagement": 24873,
+        "engagementRate": 0.005672356583313378,
         "sentiment": "neg",
         "hashtags": [
           "parmigianadipatate",
           "ricettedellanonna",
           "nonnasilv"
         ],
-        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/733187244_18017158802908811_2628322303282829011_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=108&ig_cache_key=MzkzMzIxMTQ2MzczOTcwODQzMTE4MDE3MTU4Nzk2OTA4ODEx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTUuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=ORx1JeAURHwQ7kNvwFyjVcG&_nc_oc=AdrHNYgV1SIC2VWMlJu-O18aijprY0AEY7iAyEur7EDFgK3x2dmTmuiowx8xjqudBWylCpVToXyu_ju_SYk6ZShW&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=CfrJeVKEGwow9j8R53WKyg&_nc_ss=7a3ba&oh=00_AQAXjOVKKSW_7NQadL6n6b99jU40y0Idc2hNS87bm5tFIg&oe=6A52472C",
+        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/733187244_18017158802908811_2628322303282829011_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=108&ig_cache_key=MzkzMzIxMTQ2MzczOTcwODQzMTE4MDE3MTU4Nzk2OTA4ODEx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTUuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=ORx1JeAURHwQ7kNvwFyjzdS&_nc_oc=AdpYo66EIwmmtYH95uu9Ykuojl6rmz4Fn0dF7FbrSW7lSbauPgOL7IaL2uE0AA2k7lP52c6Sjg8h28-fL3x50JX6&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=ffszZS8KCWWn-esRELkSbQ&_nc_ss=7a3ba&oh=00_AQDMenDfL0IbIm0jfHVpwV4DaNomy1_U9rOl8alM5FB0Mg&oe=6A53D0EC",
         "url": "https://www.instagram.com/reel/3933211463739708431/"
       },
       {
         "platform": "ig",
-        "author": "nonnasilviofficial",
-        "time": "2026-07-02T17:10:13Z",
-        "text": "Manzo e maiale insieme, un bel po’ di Parmigiano, l’uovo che tiene tutto, prezzemolo e un pizzico di noce moscata. Si impastano con le mani — mi raccomando, con le mani! — si fanno dorare appena, e poi tutte a nuotare nel sugo di pomodoro col basilic",
-        "engagement": 22616,
-        "engagementRate": 0.005157641478238064,
-        "sentiment": "neg",
+        "author": "nonnanellaa",
+        "time": "2026-07-05T17:30:37Z",
+        "text": "UOVA IN TEGLIA🥚🍳\n\nIngredienti\n\nUova\nFormaggi misti (pecorino, mozzarella, parmigiano)\nOlio evo\nsale e pepe\n\nRivesti una teglia con carta forno e versaci le uova.\nCopri con parmigiano grattugiato, pecorino a sentimento, mozzarella o qualsiasi altro ",
+        "engagement": 24499,
+        "engagementRate": 0.07627192518197044,
+        "sentiment": "pos",
         "hashtags": [
-          "polpette",
-          "polpettealsugo",
-          "ricettadellanonna",
-          "cucinaitaliana",
-          "ricette"
+          "italy",
+          "italia",
+          "pasta",
+          "pastahomemade",
+          "tagliatelle"
         ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/731442565_18017017199908811_9220395899558134198_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=104&ig_cache_key=MzkzMjUxMjg4ODE0ODA0NzA3ODE4MDE3MDE3MTkzOTA4ODEx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=ws0lgjuLEb8Q7kNvwH6kPOp&_nc_oc=AdooirZhIDjWnFvi7e54BE2fAmfM2SJeH2tC6qNgFLnu-9goMK02OMxt3aAKqWRABhDqPPzp_ojFaYqyF-U0wz-m&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=CfrJeVKEGwow9j8R53WKyg&_nc_ss=7a3ba&oh=00_AQCdpiq54ljSyMnOqQEq0OjlxOLru2aLHE2abYild3a0oQ&oe=6A522E00",
-        "url": "https://www.instagram.com/reel/3932512888148047078/"
-      },
-      {
-        "platform": "ig",
-        "author": "cucinaconruben",
-        "time": "2026-07-06T10:01:25Z",
-        "text": "PASTELLA PERFETTA 🥒 🥕 \n\nIngredienti \n100 g farina 00\n 100 g farina di riso\n 140 ml birra\n140 ml acqua frizzante\n\nN.B controllare sempre a occhio la consistenza della farina e non affidarsi mai al 100% alle dosi.\n\n#cucinaitaliana #italianfood #fried",
-        "engagement": 22486,
-        "engagementRate": 0.010778541853011865,
-        "sentiment": "neu",
-        "hashtags": [
-          "cucinaitaliana",
-          "italianfood",
-          "fried"
-        ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/731093653_18608227585003313_8618114784030095551_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=1&ig_cache_key=MzkzNTE5MjQ1NDAwOTA5Nzk4NTE4NjA4MjI3NTc5MDAzMzEz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=AUNtfiSZicYQ7kNvwGRMLIv&_nc_oc=AdqF3LYBXA7GcRBbaz0Ixh0v186Pr93645e2U03VB-A0_-wtHrl-KBkKoZ1FY4DW8HWuose61ou0Cp-_akwcR1Et&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=c2ZFze4f09yhgyUWS4N4Cw&_nc_ss=7a3ba&oh=00_AQCgtzfqWqkuD4R62_D9sa9i6qdGd7F1zHLHkWokPk5Lwg&oe=6A5250D3",
-        "url": "https://www.instagram.com/reel/3935192454009097985/"
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/733172573_18599514613003411_6356297186751265676_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=105&ig_cache_key=MzkzNDY5ODA3NDcyMDUxMzM4MDE4NTk5NTE0NjA3MDAzNDEx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=OYKR0pCL1NYQ7kNvwHLBzTX&_nc_oc=AdpvKMLy8JHbAvqOt2n-tL9bvYoaJDpSB4yKokee42VIAmfSDGzVEF0APNJTh4khnc0Tylo3wjpkUYOlzRU2K1pI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=GpfYXv1fJctDK3wdqBp71w&_nc_ss=7a3ba&oh=00_AQBh4UW9QUuQebEXQgTkhOCBkaU9wgTgQDK_McjuxQ-thw&oe=6A53E490",
+        "url": "https://www.instagram.com/reel/3934698074720513380/"
       },
       {
         "platform": "tt",
         "author": "u_calabrisi1",
         "time": "2026-07-02T11:35:06Z",
         "text": "Oggi farò un video ASMR DOVE MI MANGIO LA PASTA E PESTO INIZIAMO #trend #ASMR #cibo ",
-        "engagement": 247563,
-        "engagementRate": 0.5498956019546868,
+        "engagement": 248911,
+        "engagementRate": 0.5530126638524773,
         "sentiment": "pos",
         "hashtags": [
           "trend",
           "asmr",
           "cibo"
         ],
-        "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/o0Rrx7CsIEcPoFyDkTqEGDOBRQ8RmFefQACFBR~tplv-tiktokx-origin.image?dr=10395&x-expires=1783566000&x-signature=RrOKSiF1JKdvaZbWAmuaBGRMLwI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/o0Rrx7CsIEcPoFyDkTqEGDOBRQ8RmFefQACFBR~tplv-tiktokx-origin.image?dr=10395&x-expires=1783666800&x-signature=n5jEX1PX%2BA1xwHfdOKlAhMNx%2FFo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@u_calabrisi1/video/7657892774418582817"
       },
       {
@@ -934,13 +964,13 @@
         "author": "cucinagideon",
         "time": "2026-07-01T10:59:17Z",
         "text": "CON QUESTA SALSA DI POMODORO, LA SCARPETTA È D’OBBLIGO.. CALAMARATA AL POMODORO SUPER CREMOSA.. PASTA RECIPE🍅🤤 #cucinagideon ",
-        "engagement": 54211,
-        "engagementRate": 0.08984255883327809,
+        "engagement": 57963,
+        "engagementRate": 0.09601292032466457,
         "sentiment": "pos",
         "hashtags": [
           "cucinagideon"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oAMQ6e8DA6MEPtmqRLHCDaTDwEIzEAFEABARfD~tplv-tiktokx-origin.image?dr=10395&x-expires=1783566000&x-signature=aN5ePni2VWker%2FfGvMg1AfpiL1I%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oAMQ6e8DA6MEPtmqRLHCDaTDwEIzEAFEABARfD~tplv-tiktokx-origin.image?dr=10395&x-expires=1783666800&x-signature=E89YS0rDt5Of9Yyf4uDk4UW7Z2k%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
         "url": "https://www.tiktok.com/@cucinagideon/video/7657512450727693600"
       },
       {
@@ -948,14 +978,14 @@
         "author": "marcorufinichef",
         "time": "2026-07-03T12:24:26Z",
         "text": "La cremosità sposa l'artigianalità: funghi champignon teneri legati alla panna e alla nostra salsiccia di produzione propria sgranata a mano! Ingredienti Dosi per 2 persone: Pasta: 200g di Rigatoni La Regina del piatto: 2 nodi della tua Salsiccia di ",
-        "engagement": 41139,
-        "engagementRate": 0.09201297248937598,
+        "engagement": 45227,
+        "engagementRate": 0.10104334226988382,
         "sentiment": "pos",
         "hashtags": [
           "chefrufini",
           "rigatoniallaboscaiola"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/o8UsMwP99D1Q1ALjsG3gifmHfjIZgXeyOOUGI0~tplv-tiktokx-origin.image?dr=10395&x-expires=1783566000&x-signature=H5ab9aIvGFnRDyQlq5%2FN4ZtFYb0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/o8UsMwP99D1Q1ALjsG3gifmHfjIZgXeyOOUGI0~tplv-tiktokx-origin.image?dr=10395&x-expires=1783666800&x-signature=xAfUkzmBss7yAnn8p2y4aMm7c0w%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@marcorufinichef/video/7658276561132604705"
       },
       {
@@ -963,20 +993,32 @@
         "author": "tirmagno",
         "time": "2026-07-01T10:37:26Z",
         "text": "Accoppiate incredibile, da provare almeno una volta  Per una bel piatto di tzatziki: 600g  yougurt greco 3 cetriolo 4 cucchiai abbondanti di aceto di mele 5/6 cucchiai di olio 2 spicchio d’aglio grattugiati Aneto /menta  Pepe sale  Lingue:, per circa",
-        "engagement": 39825,
-        "engagementRate": 0.08577428386818867,
+        "engagement": 40491,
+        "engagementRate": 0.08713363460296966,
         "sentiment": "pos",
         "hashtags": [],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oU5vaNBAAEWIpcikcgEiFmAoFBNACAwzBB0nm~tplv-tiktokx-origin.image?dr=10395&x-expires=1783566000&x-signature=OYS9GU4gg8iIUXOSf%2FKatfQWIo0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oU5vaNBAAEWIpcikcgEiFmAoFBNACAwzBB0nm~tplv-tiktokx-origin.image?dr=10395&x-expires=1783666800&x-signature=BAo71ADsRPDbcHH9iJ6fBCi3kRU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@tirmagno/video/7657506816112217376"
+      },
+      {
+        "platform": "tt",
+        "author": "cookingwith.ale",
+        "time": "2026-07-05T17:18:47Z",
+        "text": "RAVIOLO AL TARTUFO!! 🥟🍽️ Raviolo con tuorlo fondente e tartufo! Ingredienti pasta: 300 gr di farina (80% farina 00, 20% semola) 2 uova 3 tuorli Ingredienti ripieno: Ricotta Parmigiano grattugiato (poco) Tartufo grattugiato Sale Tuorli Ingredienti f",
+        "engagement": 39220,
+        "engagementRate": 0.21910614525139666,
+        "sentiment": "pos",
+        "hashtags": [],
+        "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/osRE5CFSkIDt1qAAHUAQfgEIqVQXRDcDmAfpIC~tplv-tiktokx-origin.image?dr=10395&x-expires=1783666800&x-signature=6rnNErcguuM4ywY9LtLM4OKba9E%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
+        "url": "https://www.tiktok.com/@cookingwith.ale/video/7659094591647337760"
       },
       {
         "platform": "tt",
         "author": "briochina05",
         "time": "2026-07-02T12:04:59Z",
         "text": "Ragazzuoli siamo a frattamaggiore a provare @🍕PALA PIZZA FRATTAMAGGIORE 🍕  : Il palazzo della pizza 🥰 #food #mukbang #pizza #frittatine #invited ",
-        "engagement": 31824,
-        "engagementRate": 0.3083720930232558,
+        "engagement": 33911,
+        "engagementRate": 0.3279593810444874,
         "sentiment": "pos",
         "hashtags": [
           "food",
@@ -985,16 +1027,32 @@
           "frittatine",
           "invited"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/o0qGb9G3LsPRjpMeXjUkAD5INOfQQMGegUK88I~tplv-tiktokx-origin.image?dr=10395&x-expires=1783566000&x-signature=dU2vmRfN79z991BIeXiaUYYOzUw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/o0qGb9G3LsPRjpMeXjUkAD5INOfQQMGegUK88I~tplv-tiktokx-origin.image?dr=10395&x-expires=1783666800&x-signature=FAtnaKon8zWnGHcCwX74AXsG%2F50%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@briochina05/video/7657900472543513888"
+      },
+      {
+        "platform": "tt",
+        "author": "chefalessandrosantarelli",
+        "time": "2026-07-01T12:11:32Z",
+        "text": "Spaghetto ai Calamari🦑🦑 #spaghetti #calamari #nacosettafacilefacile ",
+        "engagement": 30824,
+        "engagementRate": 0.05383164512748865,
+        "sentiment": "pos",
+        "hashtags": [
+          "spaghetti",
+          "calamari",
+          "nacosettafacilefacile"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/ocfq1SRaE3DRNKNEdBFO2QpfDWruQQBtQhEmbA~tplv-tiktokx-origin.image?dr=10395&x-expires=1783666800&x-signature=A1S1XUE36Lru00AHxj5tWTA2WzU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
+        "url": "https://www.tiktok.com/@chefalessandrosantarelli/video/7657531064906190113"
       },
       {
         "platform": "tt",
         "author": "giuseppe_healthy",
         "time": "2026-07-01T10:48:14Z",
         "text": "🥒 TORTA SALATA DI ZUCCHINE 5 INGREDIENTI 😋 Pronta in 30 minuti! Siete letteralmente impazziti per la versione alle patate, per questo ho deciso di condividere con voi questa variante di torta salata con prosciutto e zucchine, CREDETEMI non riuscire",
-        "engagement": 29903,
-        "engagementRate": 0.03300551876379691,
+        "engagement": 30150,
+        "engagementRate": 0.033259790402647545,
         "sentiment": "pos",
         "hashtags": [
           "tortasalata",
@@ -1003,62 +1061,28 @@
           "pizza",
           "zucchini"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oEBRmEsID5vBPC8DQEfGAzAA2FmDAqDEb1eRFE~tplv-tiktokx-origin.image?dr=10395&x-expires=1783566000&x-signature=XHbhgn%2Bio%2BNtHahC6L0ag93lSks%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oEBRmEsID5vBPC8DQEfGAzAA2FmDAqDEb1eRFE~tplv-tiktokx-origin.image?dr=10395&x-expires=1783666800&x-signature=OsYdX2uEplqqfShEuRq4RkwvS6A%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
         "url": "https://www.tiktok.com/@giuseppe_healthy/video/7657509602791001377"
       },
       {
         "platform": "tt",
-        "author": "cookingwith.ale",
-        "time": "2026-07-05T17:18:47Z",
-        "text": "RAVIOLO AL TARTUFO!! 🥟🍽️ Raviolo con tuorlo fondente e tartufo! Ingredienti pasta: 300 gr di farina (80% farina 00, 20% semola) 2 uova 3 tuorli Ingredienti ripieno: Ricotta Parmigiano grattugiato (poco) Tartufo grattugiato Sale Tuorli Ingredienti f",
-        "engagement": 29091,
-        "engagementRate": 0.163157599551318,
+        "author": "dovealsud",
+        "time": "2026-07-06T11:42:04Z",
+        "text": "Crocchette di patate salentine, i panzerotti 😋 Ingredienti ricetta di  Daniele Badursi e Daniela Salfi: Patate 600g, uova 2, pangrattato 100g, parmigiano grattugiato 40g, pecorino grattugiato 40g, sale, pepe, prezzemolo, menta, pangrattato per la pa",
+        "engagement": 26845,
+        "engagementRate": 0.04905884502923977,
         "sentiment": "pos",
         "hashtags": [],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/osRE5CFSkIDt1qAAHUAQfgEIqVQXRDcDmAfpIC~tplv-tiktokx-origin.image?dr=10395&x-expires=1783566000&x-signature=eUz6iZpWcKzlF2R6GSalEm4J33A%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@cookingwith.ale/video/7659094591647337760"
-      },
-      {
-        "platform": "tt",
-        "author": "chefalessandrosantarelli",
-        "time": "2026-07-01T12:11:32Z",
-        "text": "Spaghetto ai Calamari🦑🦑 #spaghetti #calamari #nacosettafacilefacile ",
-        "engagement": 29051,
-        "engagementRate": 0.05078846153846154,
-        "sentiment": "pos",
-        "hashtags": [
-          "spaghetti",
-          "calamari",
-          "nacosettafacilefacile"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/ocfq1SRaE3DRNKNEdBFO2QpfDWruQQBtQhEmbA~tplv-tiktokx-origin.image?dr=10395&x-expires=1783566000&x-signature=l8ULjsGl7bCqd1N3C%2BU1Q3yWhzE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@chefalessandrosantarelli/video/7657531064906190113"
-      },
-      {
-        "platform": "tt",
-        "author": "semplicementebuono1",
-        "time": "2026-07-02T17:14:14Z",
-        "text": "FERGESE ❤️🇦🇱 Se c’è un piatto che per me profuma subito d’estate e di casa, è proprio questo: la Fergese, una ricetta tradizionale albanese semplice, genuina e ricca di sapore. 📌 Ingredienti per 4 persone * 3 peperoni grandi * 300 g di feta greca ",
-        "engagement": 26288,
-        "engagementRate": 0.07257868580894533,
-        "sentiment": "pos",
-        "hashtags": [
-          "ricette",
-          "gatimetradicionale_al",
-          "gatimetemia",
-          "gatimeshqiptare",
-          "ricetta"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/ow4AGtSJIAPpC7GPGki0AZEBZEaciBagnYWAB~tplv-tiktokx-origin.image?dr=10395&x-expires=1783566000&x-signature=tmPskkFtwxFkJFtPqAkj6cKLoc8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@semplicementebuono1/video/7657980160968314145"
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/owpXfdALeAIfBCCgAGGpRFK0KINYLRAGplAQOe~tplv-tiktokx-origin.image?dr=10395&x-expires=1783666800&x-signature=jOXl1rF%2FYgrOJTzGzFYcWh4lY6Y%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@dovealsud/video/7659378897733061920"
       },
       {
         "platform": "tt",
         "author": "robertadivaio1",
         "time": "2026-07-02T19:11:20Z",
         "text": "Ieri siamo stati da @🍕PALA PIZZA FRATTAMAGGIORE 🍕 Non c’è bisogno di descrizione.. il video parla da sé 🫠#muckbang #parcheggiati #foodporn #pizza #pasta ",
-        "engagement": 25297,
-        "engagementRate": 0.1736238846945779,
+        "engagement": 26608,
+        "engagementRate": 0.18237148732008224,
         "sentiment": "pos",
         "hashtags": [
           "muckbang",
@@ -1067,16 +1091,34 @@
           "pizza",
           "pasta"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/ogSsbUfieADSIiGrI8fN4QggpLjGWjxawMIgG4~tplv-tiktokx-origin.image?dr=10395&x-expires=1783566000&x-signature=MGfOR5kbv1UuCL6evWCCxXhihc4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/ogSsbUfieADSIiGrI8fN4QggpLjGWjxawMIgG4~tplv-tiktokx-origin.image?dr=10395&x-expires=1783666800&x-signature=sLLLyAwHOkf9CcxBdQ28LkJM3pQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@robertadivaio1/video/7658010341510516001"
+      },
+      {
+        "platform": "tt",
+        "author": "semplicementebuono1",
+        "time": "2026-07-02T17:14:14Z",
+        "text": "FERGESE ❤️🇦🇱 Se c’è un piatto che per me profuma subito d’estate e di casa, è proprio questo: la Fergese, una ricetta tradizionale albanese semplice, genuina e ricca di sapore. 📌 Ingredienti per 4 persone * 3 peperoni grandi * 300 g di feta greca ",
+        "engagement": 26451,
+        "engagementRate": 0.0730287134180011,
+        "sentiment": "pos",
+        "hashtags": [
+          "ricette",
+          "gatimetradicionale_al",
+          "gatimetemia",
+          "gatimeshqiptare",
+          "ricetta"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/ow4AGtSJIAPpC7GPGki0AZEBZEaciBagnYWAB~tplv-tiktokx-origin.image?dr=10395&x-expires=1783666800&x-signature=2xU3aDT%2Fhr9h%2FSRzOBIpQ%2FBc5V0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@semplicementebuono1/video/7657980160968314145"
       },
       {
         "platform": "tt",
         "author": "micheleelorenzo",
         "time": "2026-07-02T16:52:44Z",
         "text": "Da oggi il cocomero lo farai solo così 🍉 #ricetta #carpaccio #cucinaitaliana #anguria ",
-        "engagement": 23670,
-        "engagementRate": 0.0685490877497828,
+        "engagement": 23903,
+        "engagementRate": 0.06904390525707683,
         "sentiment": "pos",
         "hashtags": [
           "ricetta",
@@ -1084,73 +1126,55 @@
           "cucinaitaliana",
           "anguria"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/o8YI1jACtLgyAFMAeUb3jNgAsIIfeGLGQNizcp~tplv-tiktokx-dmt-logom:tos-useast2a-i-0068-euttp/o0MFj2zAEYnGfy3bAAAjm3esInGLbFIUgQ8gxe.image?dr=10393&x-expires=1783566000&x-signature=vNnLv%2FiVCui5a0Qun4JdexBrE7E%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/o8YI1jACtLgyAFMAeUb3jNgAsIIfeGLGQNizcp~tplv-tiktokx-dmt-logom:tos-useast2a-i-0068-euttp/o0MFj2zAEYnGfy3bAAAjm3esInGLbFIUgQ8gxe.image?dr=10393&x-expires=1783666800&x-signature=lhwDwMJDFRUVaNyFW7RF5lfFDZ4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
         "url": "https://www.tiktok.com/@micheleelorenzo/video/7657974624067570977"
       },
       {
         "platform": "tt",
-        "author": "federicofuscachef",
-        "time": "2026-07-01T16:59:40Z",
-        "text": "Carbonara di mare ATOMICA!☀️🐷🦐  SALVATELA E CONDIVIDILA  . Ingredienti 🛒  350 gr di spaghetti  200 gr di guanciale  8 scampetti  4 seppioline  8 calamari  4 tuorli  1 uovo intero  200 gr di parmigiano grattugiato  120 gr di pecorino romano  Sale e",
-        "engagement": 18827,
-        "engagementRate": 0.01913313008130081,
-        "sentiment": "neu",
-        "hashtags": [
-          "carbonaradimare",
-          "carbonara",
-          "ricetteestive",
-          "cucinadimare",
-          "food"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oAIO4ATB1BRwKNgiiAAqXAEkCBPFfIsoHII3B9~tplv-tiktokx-origin.image?dr=10395&x-expires=1783566000&x-signature=C4bwtawIDHL0rV0U0GO%2F1m7YuaQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@federicofuscachef/video/7657605325373132064"
-      },
-      {
-        "platform": "tt",
-        "author": "danilodafiumicinoreal",
-        "time": "2026-07-01T10:23:34Z",
-        "text": "Ricetta del cormorano fritto al sugo! #neiperte #food #foodporn #cormorano ",
-        "engagement": 18790,
-        "engagementRate": 0.10657969370391378,
+        "author": "lidlitalia",
+        "time": "2026-07-04T10:00:00Z",
+        "text": "Non ve l’aspettavate eh? Finalmente ho capito: per migliorare in cucina serve ispirarsi ai migliori. Quindi eccomi qui, come commentatrice ufficiale di una super ricetta di @cucinaconruben! 😉 Ora tocca a me replicare (e non fare danni)! 👑 #LidlItal",
+        "engagement": 23825,
+        "engagementRate": 0.045097482491008895,
         "sentiment": "pos",
         "hashtags": [
-          "neiperte",
-          "food",
-          "foodporn",
-          "cormorano"
+          "lidlitalia",
+          "lidl",
+          "panzanella",
+          "ricetta"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oYwpQma58DAq6YCneOF7DRqIBEEQ4BoRQ6fbEE~tplv-tiktokx-origin.image?dr=10395&x-expires=1783566000&x-signature=Gt9X%2FmWmNJIg6Jj6r%2FhS5YjddYs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@danilodafiumicinoreal/video/7657503240149372193"
-      },
-      {
-        "platform": "tt",
-        "author": "frafoodlove",
-        "time": "2026-07-02T12:29:18Z",
-        "text": "Pochi ingredienti… 10 minuti e la mia crudaiola è pronta da portare in spiaggia!  Ingredienti per 4/6 persone: 500g di pasta  200g di tonno sott’olio o al naturale  1 cipolla di Tropea  Basilico  Olio  Sale  Pepe #ricettefacili #pasta #italianrecipe ",
-        "engagement": 18629,
-        "engagementRate": 0.03627848101265823,
-        "sentiment": "pos",
-        "hashtags": [
-          "ricettefacili",
-          "pasta",
-          "italianrecipe",
-          "italianrecipe",
-          "cucinaitaliana"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/o07ZkGIoZi9gZa0xBWMWyZEkI2iBDodkDaAPE~tplv-tiktokx-origin.image?dr=10395&x-expires=1783566000&x-signature=CeFrwY67bBt46YzUYp6Pyp6AIDQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@frafoodlove/video/7657906734677167393"
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/okAyAPrOBCB1iAbBPHi5fkEjIBSIvKZwwwKqmA~tplv-tiktokx-origin.image?dr=10395&x-expires=1783666800&x-signature=85EIZT4FOd1QH62buPBcNA3fqr0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
+        "url": "https://www.tiktok.com/@lidlitalia/video/7658343122551934230"
       },
       {
         "platform": "tt",
         "author": "ilcaldosaporedelsud",
         "time": "2026-07-04T17:16:30Z",
         "text": "Ingredienti per fare la pasta fredda con salmone zucchine e olive 300 g pasta 2 zucchine (medie) 200 g salmone affumicato 50 g olive taggiasche q.b. sale q.b. olio extravergine d’oliva 1 limone (succo e scorza) q.b. basilico . Tagliate le zucchine a ",
-        "engagement": 18528,
-        "engagementRate": 0.044699638118214716,
+        "engagement": 23461,
+        "engagementRate": 0.056546155700168715,
         "sentiment": "pos",
         "hashtags": [],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/og8aXAeTMkgOofjUIPgWgKLIgFsotUkfG0GnD8~tplv-tiktokx-dmt-logom:tos-useast2a-i-0068-euttp/o8Jko4AgIbGAJY1LP7KIEpffpAmNGRAAQheled.image?dr=10393&x-expires=1783566000&x-signature=JomnLmtV4A8TNAWpPkopp8%2BCass%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/og8aXAeTMkgOofjUIPgWgKLIgFsotUkfG0GnD8~tplv-tiktokx-dmt-logom:tos-useast2a-i-0068-euttp/o8Jko4AgIbGAJY1LP7KIEpffpAmNGRAAQheled.image?dr=10393&x-expires=1783666800&x-signature=N2uDcNW5%2BGF5nx%2BPc%2F9oUtrKMoo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@ilcaldosaporedelsud/video/7658722915151613217"
+      },
+      {
+        "platform": "tt",
+        "author": "fabriziogalluzzo7sette",
+        "time": "2026-07-06T10:14:58Z",
+        "text": "La carbonara più buona di roma #carbonara #food #ristorante #risate #divertente ",
+        "engagement": 22049,
+        "engagementRate": 0.030010888798148904,
+        "sentiment": "pos",
+        "hashtags": [
+          "carbonara",
+          "food",
+          "ristorante",
+          "risate",
+          "divertente"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/o0CwgGlyIAMt3fBI7GgIAfA8KEtjgmL1ULDRLe~tplv-tiktokx-origin.image?dr=10395&x-expires=1783666800&x-signature=TRHuwTpxjSnQcYbYhIHU4D8hhII%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
+        "url": "https://www.tiktok.com/@fabriziogalluzzo7sette/video/7659356456923237664"
       },
       {
         "platform": "yt",
@@ -1166,23 +1190,11 @@
       },
       {
         "platform": "yt",
-        "author": "FattoincasadaBenedettaOfficial",
-        "time": "2026-07-01T06:13:25Z",
-        "text": "TROFIE CREMOSE ALLE ZUCCHINE - Un primo vegetariano velocissimo da preparare, leggero e dal gusto delicato, perfetto in tante occasioni.\n\nINGREDIENTI\n400g di trofie\n400g di zucchine\n250g di ricotta\n1 spicchio d'aglio\nbasilico\nolio d'oliva\nsale",
-        "engagement": 5356,
-        "engagementRate": 0.0015615160349854228,
-        "sentiment": "neg",
-        "hashtags": [],
-        "imageUrl": "https://i.ytimg.com/vi/LtqvpVoW_MM/hqdefault.jpg",
-        "url": "https://www.youtube.com/watch?v=LtqvpVoW_MM"
-      },
-      {
-        "platform": "yt",
         "author": "ThomasHungry",
         "time": "2026-07-01T18:29:54Z",
         "text": "10% DI SCONTO SU AIRUP ► https://airup.link/4dVzgvq\nCodice sconto: THOMASBDAY\n(Valido fino al 10/08/26)\n\n40% DI SCONTO SU MYPROTEIN ► https://creatorlink.shop/3MGzexW\nCodice sconto: HUNGRY\n\nSEGUIMI SU INSTAGRAM ► https://www.instagram.com/vgthomas198",
-        "engagement": 4317,
-        "engagementRate": 0.005672798948751643,
+        "engagement": 4532,
+        "engagementRate": 0.005955321944809461,
         "sentiment": "neg",
         "hashtags": [],
         "imageUrl": "https://i.ytimg.com/vi/uPmJOLJLbJ8/hqdefault.jpg",
@@ -1202,6 +1214,18 @@
         ],
         "imageUrl": "https://i.ytimg.com/vi/d98RYDxcJeA/hqdefault.jpg",
         "url": "https://www.youtube.com/watch?v=d98RYDxcJeA"
+      },
+      {
+        "platform": "yt",
+        "author": "cheffranco",
+        "time": "2026-07-07T12:00:12Z",
+        "text": "In questo video, Chef Franco ha preparato per tutti i ragazzi della Villa Elites uno dei simboli più autentici della cucina napoletana: il mitico cuzzetiello!\n\nUn pane croccante svuotato e farcito con ingredienti irresistibili:\n- Polpette al sugo\n- S",
+        "engagement": 3162,
+        "engagementRate": 0.01673015873015873,
+        "sentiment": "neu",
+        "hashtags": [],
+        "imageUrl": "https://i.ytimg.com/vi/z4LTmzQXJ18/hqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=z4LTmzQXJ18"
       },
       {
         "platform": "yt",
@@ -1236,6 +1260,33 @@
         ],
         "imageUrl": "https://i.ytimg.com/vi/086x0FJg9Co/hqdefault.jpg",
         "url": "https://www.youtube.com/watch?v=086x0FJg9Co"
+      },
+      {
+        "platform": "yt",
+        "author": "tuttiatavola2016",
+        "time": "2026-07-06T11:47:03Z",
+        "text": "Avevate intravisto la TORTA di compleanno del mio Papà nelle storie di Instagram e Facebook e visto il vostro interesse mi sono affrettata a fare il video su come realizzarla!  Sembra una TORTA DI PASTICCERIA ma é veramente MOLTO SEMPLICE da realizza",
+        "engagement": 2505,
+        "engagementRate": 0.0015854430379746835,
+        "sentiment": "neg",
+        "hashtags": [
+          "sfoglia",
+          "dolce",
+          "crema",
+          "tortadicompleanno",
+          "diplomatico",
+          "almond",
+          "tuttiatavola",
+          "tuttiatavola2016",
+          "dessert",
+          "italiandessert",
+          "italianfood",
+          "cooking",
+          "yummy",
+          "recipe"
+        ],
+        "imageUrl": "https://i.ytimg.com/vi/iojVY-y1zQg/hqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=iojVY-y1zQg"
       },
       {
         "platform": "yt",
@@ -1323,30 +1374,32 @@
       },
       {
         "platform": "yt",
-        "author": "tuttiatavola2016",
-        "time": "2026-07-06T11:47:03Z",
-        "text": "Avevate intravisto la TORTA di compleanno del mio Papà nelle storie di Instagram e Facebook e visto il vostro interesse mi sono affrettata a fare il video su come realizzarla!  Sembra una TORTA DI PASTICCERIA ma é veramente MOLTO SEMPLICE da realizza",
-        "engagement": 1874,
-        "engagementRate": 0.0011860759493670886,
+        "author": "RapaNello",
+        "time": "2026-07-06T12:00:06Z",
+        "text": "2 ricette QUINOA facili e veloci di Quinoa e verdure\n■ Qui trovi tutto, i miei libri e le cose che uso nei video, le magliette.\nhttps://linktr.ee/rapanello\n■  Ecco il sito internet ufficiale gratuito   https://www.ziorapa.it/\n\n☕ Vuoi offrirmi un caff",
+        "engagement": 1745,
+        "engagementRate": 0.0021049457177322074,
         "sentiment": "neg",
         "hashtags": [
-          "sfoglia",
-          "dolce",
-          "crema",
-          "tortadicompleanno",
-          "diplomatico",
-          "almond",
-          "tuttiatavola",
-          "tuttiatavola2016",
-          "dessert",
-          "italiandessert",
-          "italianfood",
-          "cooking",
-          "yummy",
-          "recipe"
+          "quinoa",
+          "quinoapertutti",
+          "zucchineripiene",
+          "frittatadiquinoa",
+          "ricetteconquinoa",
+          "ricettevegetariane",
+          "verdure",
+          "spinaci",
+          "semidisesamo",
+          "semidigirasole",
+          "friggiaria",
+          "cucinaitaliana",
+          "ricettafacile",
+          "ricetteveloci",
+          "rapanello",
+          "ricetterapanello"
         ],
-        "imageUrl": "https://i.ytimg.com/vi/iojVY-y1zQg/hqdefault.jpg",
-        "url": "https://www.youtube.com/watch?v=iojVY-y1zQg"
+        "imageUrl": "https://i.ytimg.com/vi/_YkfO614BUU/hqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=_YkfO614BUU"
       },
       {
         "platform": "yt",
@@ -1380,28 +1433,11 @@
       },
       {
         "platform": "yt",
-        "author": "cucinaconruben",
-        "time": "2026-07-02T15:09:46Z",
-        "text": "Eccoci qui con una nuova sfida, stavolta è il turno di  @federicofuscachef !\n\nÈ la prima volta che facciamo un video insieme su Youtube.\nIniziamo bene...\n\nRingrazio anche il fantastico giudice Chef Valerio Esse !\n\nRingraziamo Caput MundiEdilgroup per",
-        "engagement": 1524,
-        "engagementRate": 0.0027963302752293576,
-        "sentiment": "neg",
-        "hashtags": [
-          "chefruben",
-          "cucinaconruben",
-          "scorzadilimone",
-          "chetevoimagna"
-        ],
-        "imageUrl": "https://i.ytimg.com/vi/5osIYa2kg6o/hqdefault.jpg",
-        "url": "https://www.youtube.com/watch?v=5osIYa2kg6o"
-      },
-      {
-        "platform": "yt",
         "author": "tvbonapetv1035",
         "time": "2026-07-04T00:00:06Z",
         "text": "ボンジョルノ🇮🇹\n\nシチリア旅行も大詰め、7日目のシラクーザ‼️\n\nこの日は少し南下して世界遺産の街\"ノート\"に移動。\n\nその前に昼ごはん🍽️\n魚屋が直営の食堂で新鮮な魚貝を思う存分食う🐟\n\nイタリアでなかなかお目にかかれないレベルの牡蠣と白エビのタルタル😋\n\nそしてボンゴレ・スパゲティが旨・ボンジョルノ‼️\n濃厚なアサリの出汁がパスタのデンプンとドロドロに絡んで、この濃さは南イタリアならでは🤤\n\n他にもノートの老舗レストランの大盛り前菜（通常運転）とピスタチオクリーム香る地元パスタ",
-        "engagement": 1518,
-        "engagementRate": 0.007824742268041238,
+        "engagement": 1588,
+        "engagementRate": 0.00810204081632653,
         "sentiment": "neg",
         "hashtags": [
           "italy",
@@ -1465,20 +1501,6 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRDZBOXRVQmtUYkpuWGRyZHRPTjRZanhXbDRZZ082UzBKNEFaajZxdmhBcTdRd2dNcU53bC1GRmZtdkZyUVRGOHJaZGFaa0V6NVp5alBzekxPVjUtSkhlY2RCSnl3QmJSRUdWeFM5dlQ1dmRFUG9pc1dXOFdkdEdDMmoyamVQTnU1dTlLV25QcDk?oc=5",
       "date": "2026-06-11T07:00:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNRDZBOXRVQmtUYkpuWGRyZHRPTjRZanhXbDRZZ082UzBKNEFaajZxdmhBcTdRd2dNcU53bC1GRmZtdkZyUVRGOHJaZGFaa0V6NVp5alBzekxPVjUtSkhlY2RCSnl3QmJSRUdWeFM5dl"
-    },
-    {
-      "title": "Barilla celebra la giornata internazionale degli archivi con il proprio archivio: 150 anni di cucina e cultura italiana - Gazzetta di Parma",
-      "source": "Gazzetta di Parma",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOb2tPdEJMUlBWekxtd3g0UGYzaC1mcFRhOVpFNzhTbHJSMktfSEktOWtmOXh5b3hUQjQ0RmgtRk1HV2drX1JCVURUMHA4OEUwbFBEaElVN002OHo0TjFJb3pDdDNmUzdBOTNaZ19uTWQ0WVlLOVFoM0Rfby1CcVZvemttMlAyM0dDLTU5cTRSSFdTSmlrRUJfVzJiVVJMQkE3cVBOOGJicGtqS0dfNTgxcVl0RjZucTBLTGhwYk9xNlZldkNWZHAwampTSXh6YzVBN0VJUXhVeU1TdHkyVUtWdUtmWDg3WUtNak4tRXZkbmRrcVc2aExrTEdNdjQwWEUyOXZ1WDdtRkw4ZVU?oc=5",
-      "date": "2026-06-09T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiiwJBVV95cUxOb2tPdEJMUlBWekxtd3g0UGYzaC1mcFRhOVpFNzhTbHJSMktfSEktOWtmOXh5b3hUQjQ0RmgtRk1HV2drX1JCVURUMHA4OEUwbFBEaElVN002OHo0TjFJb3pDdDNmUzdBOTNaZ19uTW"
-    },
-    {
-      "title": "Barilla, dalla pasta alla storia - La Voce di New York",
-      "source": "La Voce di New York",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNGtoaVpzQWx6Ulh6VlVPQWp4RXpQcnNtRUpPSGYwYndTaXk3SmJRTE95WWhWQXhSem9VeW9Icm04dk11ZDkzZGpJeHFhM0VqSlRBdE40OTdpRWQ5YUF1alRHT2Ffc0VXZ0FzOUpXSm55XzhRSnUxRlBUVTJIejZWZERn?oc=5",
-      "date": "2026-06-09T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQNGtoaVpzQWx6Ulh6VlVPQWp4RXpQcnNtRUpPSGYwYndTaXk3SmJRTE95WWhWQXhSem9VeW9Icm04dk11ZDkzZGpJeHFhM0VqSlRBdE40OTdpRWQ5YUF1alRHT2Ffc0VXZ0FzOUpXSm"
     },
     {
       "title": "Intervista con Paolo Barilla: dall'agricoltura rigenerativa al futuro della pasta - National Geographic",
@@ -1577,6 +1599,20 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVFJwd2hQTG1DUVlVWHJpSnFLaU9pRzN5MlZLdmpBeTc0M0ZoamVSWDZrN3VSQkh1eG5jRDRJYzBqTkdwNDctWU5JTjZ6a1VYN3BTTW5oNUxOUXhyWERTbkFEekpQTkk5SGpxRzVsaGFsekFuOW5uc0lQSkFSdjR5WXFYMzMzdkUtV2xDc0xxbG5nRV9nczJYaUpHN1ZOMlNqdFZNQnkweEhaS00?oc=5",
       "date": "2026-04-08T07:00:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVFJwd2hQTG1DUVlVWHJpSnFLaU9pRzN5MlZLdmpBeTc0M0ZoamVSWDZrN3VSQkh1eG5jRDRJYzBqTkdwNDctWU5JTjZ6a1VYN3BTTW5oNUxOUXhyWERTbkFEekpQTkk5SGpxRzVsaG"
+    },
+    {
+      "title": "Come nascono i nuovi formati di pasta Barilla? Il lungo percorso dall'idea allo scaffale - Vanity Fair Italia",
+      "source": "Vanity Fair Italia",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE45Zncxa0ZfTXM3YTRWSTEyRllaWUljSjlKTkYzRng2NkVFREtZLXBCVUY4aFNQVmFzQ2tkU3NOc1BxNF9hbHlucURBYWM3czFkV2ZOckdEcG5jRThpOXJhMjk4WXFBNWNSTXlHYmc4YUNNMWYwa2paWWtR?oc=5",
+      "date": "2026-01-09T08:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE45Zncxa0ZfTXM3YTRWSTEyRllaWUljSjlKTkYzRng2NkVFREtZLXBCVUY4aFNQVmFzQ2tkU3NOc1BxNF9hbHlucURBYWM3czFkV2ZOckdEcG5jRThpOXJhMjk4WXFBNWNSTXlHYmc4YU"
+    },
+    {
+      "title": "Barilla presenta la nuova linea Barilla Protein+ - foodweb.it",
+      "source": "foodweb.it",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQ2lsb2lRY0tHNGxjSXA5NzZFWXpUVi1iT1l1akZydmJLMExxeE5icHBxSFpoWVBvZjhLbTVDNVZWQXVRRGpVZzNCR1JaMy1iYjRpd1FJdXgxTnFOYlhwRGhZMGV4SkV0QmZzY3RFSFQ5RE9hTS0xVjI4aEF5MUNnd2NGLS0zZw?oc=5",
+      "date": "2025-11-30T08:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQQ2lsb2lRY0tHNGxjSXA5NzZFWXpUVi1iT1l1akZydmJLMExxeE5icHBxSFpoWVBvZjhLbTVDNVZWQXVRRGpVZzNCR1JaMy1iYjRpd1FJdXgxTnFOYlhwRGhZMGV4SkV0QmZzY3RFSF"
     },
     {
       "title": "Da Barilla al Grana Padano, da Giorgio Armani a Gucci, dalla Ferrari alla Fiat: storia ed eccellenze delle imprese italiane - Il Gazzettino",
@@ -2039,11 +2075,150 @@
   "ai": null,
   "competitors": [
     {
+      "name": "Barilla",
+      "mentions": 10,
+      "socialMentions": 5,
+      "totalMentions": 15,
+      "shareOfVoice": 28.8,
+      "posts": [
+        {
+          "type": "news",
+          "title": "E con cosa cucinate la pasta? Barilla ha la sua playlist su Spotify. - Letem světem Applem",
+          "source": "LETEM SVĚTEM APPLEM",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPODZqa2o0dEFtaWxrVFpZb1loMnZJUkg4U3pNcEJXbm9qV2lkcnFyd1pkLU0ybGlHbHJPNFNxRmdKZTdsRl9ZUkIzRk85a3JVZVVYTGhOZ054XzAxX3JRNEl2eDVDWnRVS0ZZS25tMlJlTl8wT0FJekQzVEZzLTFKbkNHbGR5YXMxby1XY3dBQi1XZl91cEtYSHZQM3QtSHd2T3R3R0lHVmRfbmdQRlctRFdtbkRBRms?oc=5",
+          "date": "2026-07-05T10:04:04.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Barilla Gran Ruote - Gdoweek",
+          "source": "GDOWEEK",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fZjlMR1o3azJPcUJtOVI4UDhxTGtDcUJQaGplN0pfTVNsNjJwbGUzM0cwdTlYU1BWWU1XWTBtX3l4bTV2U0xPankyMW1NeHdLeDlnQmEtb3BLZ3VwcGFTbg?oc=5",
+          "date": "2026-07-06T12:29:32.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Barilla investe 250 milioni l’anno nella manutenzione industriale - Tecnelab",
+          "source": "TECNELAB",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNDkxNGo5cXBSblAyYUVMMkJjcFBNQ0FaSVRvUWxVTmQyNG9nal9YMlNXUkQzRzhFbW80NWctZEpMVjB2RzFwUzBaM1JzTm5ZNU5pQjllVnR2M25aMmQwTDBNUUlxdHhCODZHWVI5RnFVOU85NzVieldVeS1yd3JDajdRbm1BT1hFMXd0emRGVDIxUTQtMjJ5eW9JRXpyNUMwU3R3TVlR?oc=5",
+          "date": "2026-07-06T08:31:05.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Barilla (Uif): ecco come le aziende italiane del food affrontano la crisi demografica - Mark Up",
+          "source": "MARK UP",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBHa0psTEpiektJUUlmR1FXcEdmRjFmR19rUlliTEpoQ0YzVnB2ZmdERkRzanVDYmlLSnhOZ0d0SzA3YWtGR3FCQ1lSV21zMGE1S284aWxTd2J3LVRFd2xqaE96MjZHNk9tYVlrakc1b1M0RUxDNFBIZmZzZW1XZVE?oc=5",
+          "date": "2026-07-01T13:00:31.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Barilla, a Rubbiano oltre 650mila controlli l'anno per garantire qualità e sicurezza - ParmaToday",
+          "source": "PARMATODAY",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRGVnSnJZbFJtbDRjOGllQ0VwcVRianI2Y2d0ZjIwSkpKY0xrcU5aRzA2M2VOQkI1MnF2RURTLTE0cUZqc2doNE5GY3k3VW9nNFlaRXN5bGdmdy1nRDREOUtiMmYtdWJ0cFdSSGhpYzNWak8tN0JEbHNJSU1iWU5zdW84dmdyTXN2b19xcnQwYjg1UGlfeEpGd1dYdU1naUkwQ1dlaWRERzFEMWZncVJtM0FXUTNxMUd5blJpQXJoZkNCdw?oc=5",
+          "date": "2026-07-02T13:28:17.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Somalia, 33 anni fa la battaglia del checkpoint pasta: morirono 3 eroici soldati italiani - il Fatto Nisseno",
+          "source": "IL FATTO NISSENO",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaUduYjF4WkRVR3prUWxDN2ZhbnY1WnZjWklBZWVOLUtKUV9uTWQ4SnR2MUpDVC1weTNNXzFsc29ldHJXYml4VE5uUURLdEFEVmNBVkk3eDBtNDRFc1JWdFQ5eUFDQ1o4dHpUdTU0Y1VYMWQ0VVBHY29xWmlhTy03ZTlnR2kzRWhOX196QUJxbVpUT1RpbThzclhvWHpnTG93OU03bk12eFV3QzZGdjAyMUpfRnVTMk5KRlpBOVRURGxZU1N5?oc=5",
+          "date": "2026-07-02T15:07:00.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Thomas Becket A.D. 1170 porta la Puglia in Francia - InfoOggi",
+          "source": "INFOOGGI",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY3dCZU9mV1IzYnIyb3NQNTNiSU1RR2s4c0JPTHB5MmtxeVhUT2luc25WcVg5SF9md1VXWU42RGEwYjJMdXNlRXJqQV9VNm9CbER6bktZVzRQR1Nibk1UOGpoYm9vNllVcnpoeDJvTlgtTHZDa2hxYWpPSHQ2STJVUjhnU0V2b3h3OE5mXzZaYldmZnfSAZgBQVVfeXFMTjFGOW0zZlZHU3FUbDQ3ZnBEa3J4eHlvUUR4V0NaMUZkdENBcHNhTFV5aFZKdzA3V3BrRkFEMV9nMTY0RE8xN2wyYXhjLXNYQWZ0cGVKdTUzcnI0ekVwWWw1eGp3NkFjYlJBTGdyNU1zMDZlLWVNa3MxTUx3SWtMZVVvYS0wYWo2S2tQMEp5RGNWWmxCUXpFQjc?oc=5",
+          "date": "2026-07-05T12:01:47.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Guerra Iran-USA, nuovi raid americani dopo gli attacchi alle petroliere nello Stretto di Hormuz - InfoOggi",
+          "source": "INFOOGGI",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNaDlZNjZoNlNkV2M5WW9NR1V4aGI0QzhZZHRfZUwzSGR2TFNWZ0Rqb2R6TmtTRUN0Ry1KcVRhdFVaQzNGN2l2bWZUS05sSWZiTUp3Y0VnUElYM1Q3ZHhiYk9iNW9fbjlrem9FMjRCVnFBcENoLUlfaUNPVXZ4ZUpzY29faEV2ZndBM3UxY3M0dVg0SFlURmRHcDBtMURteVM3TUxRdG12RlpQZE4wTW5PLVBkT1kyU0RFM0lkeGcwdEllaFBPeTBXUGZxMTBMdmPSAdQBQVVfeXFMUFhBay1xUFJUTDU1V1ZQWTZBVW43aFFzQy1ySVN3M1ZNR09QNUNFTmtTWUM4WG42d2JVek9oaXRYWXJFWGRjNXh4R2lEeDlaQ0o5enVxNDJYQ0hYcWMzLVhwU0p4OXdXNnFYZnV6b3MxYVZ1SHJYRklVYnVuQ0tNOXdQZnVUOVUxZmVMNnNfOWxfeEJDQmJuYUM0TXp4WGxuNmFFX3pFSXkzRThTcy12a19kQzFMdWY2RmdoWUQtX3ctZmxDVmtHTWR0RzNFajJBYTcyN1o?oc=5",
+          "date": "2026-07-08T05:12:46.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Sanità privata, Giuliano (UGL): \"Pioggia di soldi ai privati, ma contratti ancora bloccati\". Il 22 luglio presidio sotto il Ministero della Salute a Roma. - InfoOggi",
+          "source": "INFOOGGI",
+          "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPWmxXUXdmOUlYaHJjekV0aDh5Z0Z2OUkycHJlckh0ZGtrcVF1bGdHeVlzWHFBNXlNTmYyWjNYRWJyNWRLSFdyRURMVE5PZzlHblpFY3ZSUkNWbUN1b3dUYTZCUF9GcndyZ1paS2ktUDNva0pfNGlvakVOVmJSSUN0VnJON0NaNzBZR0wwU3dVMVZLT2Rmb1BOQ0wyazNRcHVyTzVpY1JVQ2pRM3Ywckp2SGdYbWdqVVloX21mdG1VVmZ3czIzS19SYWV0M3FWSVV0c3FwOUNfSkdrOVpOVll4RnRHOWRJU01YN3ltVFVpS19JNlFCLVZ4clRWRjg2a280WjdqUHZuQUZodmRtOS1xTG5B0gGXAkFVX3lxTE5TQXZvTHp1SkNmV2NfZkZfTjlzd0JHQ19hcHAwNmdKLVJGWmQ5cURWSXBVVEtkazRLUHl6aklqdkI5ZVFaNnVKMVdjOWlOS1RSRVZvbzNBd1Vtd2FxOHctVkxucUtVSnpNYnNDSVNieEEzZFhVUnVCZno5bTBRclEtTHZuQ3R2T3k4QzJSRWdBNmFCMFoyU1l6YnhHTC1SS3o5ZExxNFJBZUJfNE1DMi0tZ2o4a1ZPM3ZONjBJMGh3SzVtXzNCWHBqSUt5WnVFcG9IZWE5UmpwaE9HOVNpUFZfOUQxQ1lfbmV3VkN2TlIya3g3blphRlhxSGk4THQ5bDVVcDA2eFFRLXg1N1VlOEFsb25WUzhwUQ?oc=5",
+          "date": "2026-07-08T04:53:10.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Catanzaro. Sfruttamento sessuale di minori online, maxi operazione della Polizia - InfoOggi",
+          "source": "INFOOGGI",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQTnNoOEpMbmZDck9MXy1vUEMtc1pjQmhjYjRxTXo0alRwNmowR3c5eldTQW51UFN0dEZlRjlpRHBBSERKbVlfbFpDVkp0dGtVNU0zQnVhRkhacEdMcFpUVkpNdTVORjgtcGpLbXZhdnZyWlNSdFBMMWdILWdwbjdDQW96eWxDUURjTXRWWnEyRTVhRGpOcFlyZ2gtT1ptY2trU1g1RlZUaHlRQVh3d0JZOXZrWWFYcnJoWEM2UFB2ekhmclFLVmZPWS1CZ0xJUVctcUhqNmJyalp5LWloUWRfOVBHcEEwUDQ3dTIyOVRyeksyLXRC0gH6AUFVX3lxTE9Dc3N2Ujd3VTc4dW5aQnZEdlB1cXR0Ymp3QXNLdTVuYVh0QmNnVnIyckJxWkp2eV9UV05VNEJ2SF9xWWZUamxuR21SZmNwd1hqSXJKZVB6SWo0ODAyX1BZMzFEUEVrZWhXZkJnX2RBaUxnbkt1VlR2TFlBbHNrNEF3aTNqR3hocXNweUJOMHBrODM0QVVQWHI0Y0N1N0RiV1BkbWJkZE5uNno1R2laek5wUVJLVE4ta1BlREVsbktia05ZUXFGZFpBckszZ1VTd2U4b2xQMkFsMlZOTExaeDRSRV9UbTVwbHZjMEtUSm1ZS1hFY3gwUUo1ckE?oc=5",
+          "date": "2026-07-08T05:31:17.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "social",
+          "platform": "tt",
+          "author": "rinaldoalessandroni",
+          "text": "Mia sorella mi ha fatto spendere 280$ da Walmart e sinceramente non me ne pento, più o meno ahahaha  💳😭🇺🇸 Sono entrata pensando di fare un giretto... due ore dopo stavamo ancota li.  Volevamo provare tutti i gusti di Pringles esistenti e alla fin",
+          "engagement": 3408,
+          "date": "2026-07-02T16:40:41Z",
+          "url": "https://www.tiktok.com/@rinaldoalessandroni/video/7657971518122593569",
+          "brand": "Barilla"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "nickybrian_official",
+          "text": "#adv @barillaitalia \n\nLa pasta al pomodoro la sanno fare tutti, ma ci sono alcuni trucchi chiave per renderla irresistibile, che in pochi sanno:\n- un sugo al pomodoro, se non mantecato con acqua di cottura, ovvero con un emulsionante, non si attacca ",
+          "engagement": 503,
+          "date": "2026-07-03T14:37:16Z",
+          "url": "https://www.instagram.com/reel/3933159817903950571/",
+          "brand": "Barilla"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "gazzettadiparma.it",
+          "text": "Tra divertimento e educazione alla sicurezza  Mani sul volante, o sul manubrio. Auto con i lampeggianti accesi. Per molti un sogno, per altri un modo per conoscere da vicino chi, ogni giorno, si impegna per la sicurezza della comunità. Questa mattina",
+          "engagement": 119,
+          "date": "2026-07-02T16:12:03Z",
+          "url": "https://www.instagram.com/p/3932484578715731890/",
+          "brand": "Barilla"
+        },
+        {
+          "type": "social",
+          "platform": "tt",
+          "author": "damu07965",
+          "text": "#ossobuco barilla#",
+          "engagement": 60,
+          "date": "2026-07-04T16:54:54Z",
+          "url": "https://www.tiktok.com/@damu07965/video/7658717349314399520",
+          "brand": "Barilla"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "romebusinessschool",
+          "text": "🌍 RBS Impact | June\n\nOne lecture. One insight. One opportunity. That's how suddenly, things start to move. \n\n📊 In fact, each experience can drive you towards new step into your career. This month, 213 students turned that moment into action — start",
+          "engagement": 14,
+          "date": "2026-07-02T15:46:02Z",
+          "url": "https://www.instagram.com/p/3932471477363428934/",
+          "brand": "Barilla"
+        }
+      ]
+    },
+    {
       "name": "De Cecco",
       "mentions": 5,
       "socialMentions": 7,
       "totalMentions": 12,
-      "shareOfVoice": 26.7,
+      "shareOfVoice": 23.1,
       "posts": [
         {
           "type": "news",
@@ -2090,7 +2265,7 @@
           "platform": "ig",
           "author": "due_zaini_in_viaggio",
           "text": "👇🏼PIÚ INFO QUI👇🏼\n\n1. CAMPO DI GIOVE (AQ): è un affascinante borgo medievale a 1064 m d’altitudine alle pendici del versante occidentale della Maiella. Da non perdere anche la Panchina Gigante 274 e la Porta del Tramonto\n\n2. CAMPO IMPERATORE (AQ):",
-          "engagement": 6565,
+          "engagement": 7263,
           "date": "2026-07-03T06:25:48Z",
           "url": "https://www.instagram.com/p/3932914357772954248/",
           "brand": "De Cecco"
@@ -2100,7 +2275,7 @@
           "platform": "ig",
           "author": "dececco_pasta",
           "text": "Sa d’estate.\nSa di De Cecco High Protein. ☀️🍝\n\nElisabetta Canalis racconta il gusto di un’estate ricca di energia.\n@littlecrumb_ \n\n#DeCecco #DeCeccoHighProtein #adv",
-          "engagement": 676,
+          "engagement": 687,
           "date": "2026-07-03T09:38:27Z",
           "url": "https://www.instagram.com/p/3933011321506891369/",
           "brand": "De Cecco"
@@ -2110,7 +2285,7 @@
           "platform": "ig",
           "author": "dececco_pasta",
           "text": "Colori vivaci, ingredienti genuini e tutta la leggerezza della bella stagione ☀️\n\nScopri i Fusilli n°34 De Cecco in una ricetta fresca e armoniosa, dove ogni ingrediente porta con sé una sfumatura diversa di gusto.\n\nLa dolcezza delle verdure, la sapi",
-          "engagement": 125,
+          "engagement": 143,
           "date": "2026-07-06T07:30:59Z",
           "url": "https://www.instagram.com/reel/3935121258441666366/",
           "brand": "De Cecco"
@@ -2130,7 +2305,7 @@
           "platform": "ig",
           "author": "dececco_pasta",
           "text": "Siamo felici di annunciare che De Cecco è sponsor ufficiale di “Napoli Capitale Europea dello Sport 2026”! 🏆\nUn grande progetto che vede lo sport non solo come competizione, ma come uno straordinario strumento di inclusione, partecipazione e crescit",
-          "engagement": 100,
+          "engagement": 102,
           "date": "2026-07-02T07:30:05Z",
           "url": "https://www.instagram.com/p/3931580246561015748/",
           "brand": "De Cecco"
@@ -2150,7 +2325,7 @@
           "platform": "ig",
           "author": "alimenti_sicuri",
           "text": "NUOVO RICHIAMI DAL MERCATO:\n\nPesto Rosso De Cecco (200 g) richiamato il 28/06/2026. Il richiamo riguarda il lotto 07225288 (produzione 15/10/2025), con scadenza/TMC 05/2027, commercializzato da F.lli De Cecco di Filippo Fara San Martino S.p.A. e prod",
-          "engagement": 20,
+          "engagement": 21,
           "date": "2026-07-02T13:49:59Z",
           "url": "https://www.instagram.com/reel/3932412056735601540/",
           "brand": "De Cecco"
@@ -2158,110 +2333,11 @@
       ]
     },
     {
-      "name": "Barilla",
-      "mentions": 5,
-      "socialMentions": 5,
-      "totalMentions": 10,
-      "shareOfVoice": 22.2,
-      "posts": [
-        {
-          "type": "news",
-          "title": "E con cosa cucinate la pasta? Barilla ha la sua playlist su Spotify. - Letem světem Applem",
-          "source": "LETEM SVĚTEM APPLEM",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPODZqa2o0dEFtaWxrVFpZb1loMnZJUkg4U3pNcEJXbm9qV2lkcnFyd1pkLU0ybGlHbHJPNFNxRmdKZTdsRl9ZUkIzRk85a3JVZVVYTGhOZ054XzAxX3JRNEl2eDVDWnRVS0ZZS25tMlJlTl8wT0FJekQzVEZzLTFKbkNHbGR5YXMxby1XY3dBQi1XZl91cEtYSHZQM3QtSHd2T3R3R0lHVmRfbmdQRlctRFdtbkRBRms?oc=5",
-          "date": "2026-07-05T10:04:04.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Barilla Gran Ruote - Gdoweek",
-          "source": "GDOWEEK",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fZjlMR1o3azJPcUJtOVI4UDhxTGtDcUJQaGplN0pfTVNsNjJwbGUzM0cwdTlYU1BWWU1XWTBtX3l4bTV2U0xPankyMW1NeHdLeDlnQmEtb3BLZ3VwcGFTbg?oc=5",
-          "date": "2026-07-06T12:29:32.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Barilla investe 250 milioni l’anno nella manutenzione industriale - Tecnelab",
-          "source": "TECNELAB",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNDkxNGo5cXBSblAyYUVMMkJjcFBNQ0FaSVRvUWxVTmQyNG9nal9YMlNXUkQzRzhFbW80NWctZEpMVjB2RzFwUzBaM1JzTm5ZNU5pQjllVnR2M25aMmQwTDBNUUlxdHhCODZHWVI5RnFVOU85NzVieldVeS1yd3JDajdRbm1BT1hFMXd0emRGVDIxUTQtMjJ5eW9JRXpyNUMwU3R3TVlR?oc=5",
-          "date": "2026-07-06T08:31:05.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Barilla (Uif): ecco come le aziende italiane del food affrontano la crisi demografica - Mark Up",
-          "source": "MARK UP",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBHa0psTEpiektJUUlmR1FXcEdmRjFmR19rUlliTEpoQ0YzVnB2ZmdERkRzanVDYmlLSnhOZ0d0SzA3YWtGR3FCQ1lSV21zMGE1S284aWxTd2J3LVRFd2xqaE96MjZHNk9tYVlrakc1b1M0RUxDNFBIZmZzZW1XZVE?oc=5",
-          "date": "2026-07-01T13:00:31.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Barilla, fino a 650.000 analisi l'anno e 250 risorse dedicate per la sicurezza nel piatto - Adnkronos",
-          "source": "ADNKRONOS",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUTh0ZzR6Qnprbk5jUjB3d2RhaXZwRXdVcEdmNjE4blVCYWZ0bGVKdnZ3M2tKbTEwU0Q1b3hEX2lQNm5TcHI4NmVmWXZBMzBNUE90RGhybkZybEpSbGJBc2FoX01aY245QUptdVNpbl9XQ0JObTgyQ19pMTZlTGtSdzd6X19FSzZfT2c4b0tYU0l5dE4wTEZIQWhpNXdhNmtZaTBqdzBvRXROUlR0X1E4MjcydXlENlc0NVVESEU1czNLMmJCS29Wb202Q0cxYzNQSHliS0F3LWYyaGlP?oc=5",
-          "date": "2026-07-02T10:23:00.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "social",
-          "platform": "tt",
-          "author": "rinaldoalessandroni",
-          "text": "Mia sorella mi ha fatto spendere 280$ da Walmart e sinceramente non me ne pento, più o meno ahahaha  💳😭🇺🇸 Sono entrata pensando di fare un giretto... due ore dopo stavamo ancota li.  Volevamo provare tutti i gusti di Pringles esistenti e alla fin",
-          "engagement": 3326,
-          "date": "2026-07-02T16:40:41Z",
-          "url": "https://www.tiktok.com/@rinaldoalessandroni/video/7657971518122593569",
-          "brand": "Barilla"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "nickybrian_official",
-          "text": "#adv @barillaitalia \n\nLa pasta al pomodoro la sanno fare tutti, ma ci sono alcuni trucchi chiave per renderla irresistibile, che in pochi sanno:\n- un sugo al pomodoro, se non mantecato con acqua di cottura, ovvero con un emulsionante, non si attacca ",
-          "engagement": 486,
-          "date": "2026-07-03T14:37:16Z",
-          "url": "https://www.instagram.com/reel/3933159817903950571/",
-          "brand": "Barilla"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "gazzettadiparma.it",
-          "text": "Tra divertimento e educazione alla sicurezza  Mani sul volante, o sul manubrio. Auto con i lampeggianti accesi. Per molti un sogno, per altri un modo per conoscere da vicino chi, ogni giorno, si impegna per la sicurezza della comunità. Questa mattina",
-          "engagement": 119,
-          "date": "2026-07-02T16:12:03Z",
-          "url": "https://www.instagram.com/p/3932484578715731890/",
-          "brand": "Barilla"
-        },
-        {
-          "type": "social",
-          "platform": "tt",
-          "author": "damu07965",
-          "text": "#ossobuco barilla#",
-          "engagement": 58,
-          "date": "2026-07-04T16:54:54Z",
-          "url": "https://www.tiktok.com/@damu07965/video/7658717349314399520",
-          "brand": "Barilla"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "romebusinessschool",
-          "text": "🌍 RBS Impact | June\n\nOne lecture. One insight. One opportunity. That's how suddenly, things start to move. \n\n📊 In fact, each experience can drive you towards new step into your career. This month, 213 students turned that moment into action — start",
-          "engagement": 14,
-          "date": "2026-07-02T15:46:02Z",
-          "url": "https://www.instagram.com/p/3932471477363428934/",
-          "brand": "Barilla"
-        }
-      ]
-    },
-    {
       "name": "La Molisana",
-      "mentions": 8,
+      "mentions": 9,
       "socialMentions": 1,
-      "totalMentions": 9,
-      "shareOfVoice": 20,
+      "totalMentions": 10,
+      "shareOfVoice": 19.2,
       "posts": [
         {
           "type": "news",
@@ -2277,6 +2353,14 @@
           "source": "INFOOGGI",
           "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNMEE4MGx1SUZiNWVsdUFKWHN6NHlxSURwcVZtT0NuYnBEMjFTVlYzQlRtWi1qT3BILTVuRFh0UVFMUTUxQTA5U3owNjh0OVBNQjEwWWVjOXl1dVd4NXI3clQzbDlhdXBOSFRRSDMyZXdaSXpxWEdqaHlqVmNsQmRQVk53QWRJWnVwcHdZQ05FNlk1YlA1allQZXhNdHBzLXRyVUVHRVY4NmNPTFhJQTZjSG5KTTg4bElVejR2RmlPMjc5YVdxdGFtV0ZxSTYzUVpvTkIzYTN3XzBsQTlzZDMwLWFhbVFlYkFkNjh30gHwAUFVX3lxTE9MRlVhZXcxdkw5eHBYdnJKTFByTm9ReFU0eUtzZWdvZmJpbDdmQnR4MDRtUWFBYkdVZnNKNTRDX3JQTldqR3VOQUNMX3ZzWlVkQmZZbEF5Z0U2V3R5MERDOGZvRFNtMEhWUmswaHBDV3JqaWVqRzYydnVvMmdCUXdMTUZhWHFKMjRxUTExOTZVeUdfemhONk1QUVNBYmRDM1A0UXJTN0V0NlNpYlhtdEZSNWMxejhTTHF4ck5oMEhiS1VoQkFLdzBxRGJRTmllWnVKZEN0SEVXZHVmS1ktYVpaUEhqWjBtVmFsYUpWV19oZA?oc=5",
           "date": "2026-07-05T13:50:39.000Z",
+          "brand": "La Molisana"
+        },
+        {
+          "type": "news",
+          "title": "Teheran si ferma per il commiato ad Ali Khamenei - InfoOggi",
+          "source": "INFOOGGI",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTzZaaFBNTVU3NFdyeE9vMjR2QmpJdmo0ZjY5S210c0FNVEs5OFFKdTAtNEtQUTlkLUhtZUhiNkQ1R3NzTVdOZzVkZFE0WHhBRUZOZ0JMRVZ0RVVxY2tGWFUtWWNKcVRJQUdqUVR5eFNEQ2w1cVc0U2h4VmVldDEtTklKaXhXWGhGVXVhQWxCdkdEZ9IBlwFBVV95cUxQSkNycFI1ekZDZWZnQ2xFRktjaFpOT2FSRkl6VURZb1F4ZFlhZXBfM004TzFyU2ljNEhmeWlzcW9Oc0p5SzZXbkZHRU51STJWUndqb2l6cGVfbkxOZGVvQnV0bGR1eHRoVVE4bVIwQ2FYWThPU1g4VGg2UHY0RVc3cHcwMjRxTkZvQlRubVBBU1lwVTN0MTgw?oc=5",
+          "date": "2026-07-05T05:56:36.000Z",
           "brand": "La Molisana"
         },
         {
@@ -2332,7 +2416,7 @@
           "platform": "ig",
           "author": "pastalamolisana",
           "text": "Chef Fossaceca, una stella Michelin, lo sa come creare ricordi. Spaghettini n.16 con brodo di granchietti, royale e lime: avvolgente freschezza salina, elisir d’estate.\n\nIngredienti per 4 persone \nSpaghettini 16 La Molisana, 320 g \nGranchietti, 1 kg ",
-          "engagement": 2990,
+          "engagement": 2992,
           "date": "2026-07-02T10:00:09Z",
           "url": "https://www.instagram.com/p/3932297474471746065/",
           "brand": "La Molisana"
@@ -2344,14 +2428,14 @@
       "mentions": 0,
       "socialMentions": 7,
       "totalMentions": 7,
-      "shareOfVoice": 15.6,
+      "shareOfVoice": 13.5,
       "posts": [
         {
           "type": "social",
           "platform": "tt",
           "author": "01distribution",
           "text": "«Io sono Pino Daniele, suono la chitarra e canto in lingua napoletana.»  Dal 15 ottobre al cinema #JeSoPazzoIlFilm: la storia mai raccontata di una leggenda della musica italiana. Un film di Nicola Prosatore con Massimiliano Caiazzo, Mariasole Pollio",
-          "engagement": 10298,
+          "engagement": 10994,
           "date": "2026-07-01T12:58:27Z",
           "url": "https://www.tiktok.com/@01distribution/video/7657543160364551457",
           "brand": "Garofalo"
@@ -2381,7 +2465,7 @@
           "platform": "ig",
           "author": "pastagarofaloit",
           "text": "Certe pause sanno di mare.\nAltre sanno di casa.\nLe migliori sanno di domenica.\nE di Candele Spezzate.\nScopri il nuovo formato Garofalo.",
-          "engagement": 69,
+          "engagement": 72,
           "date": "2026-07-05T11:28:41Z",
           "url": "https://www.instagram.com/p/3934516360281635531/",
           "brand": "Garofalo"
@@ -2398,12 +2482,12 @@
         },
         {
           "type": "social",
-          "platform": "ig",
-          "author": "luigi_martino",
-          "text": "Emergono nuovi e drammatici dettagli sulla sorte della famiglia Garofalo, originaria di Licusati, frazione di #Camerota, rimasta coinvolta nel devastante terremoto che ha colpito il Venezuela.\n\nSecondo le informazioni giunte dalle autorità e dai cont",
-          "engagement": 11,
-          "date": "2026-07-01T07:26:41Z",
-          "url": "https://www.instagram.com/p/3931495446556268082/",
+          "platform": "yt",
+          "author": "CorrieredellaSera",
+          "text": "Intervista al numero uno dell'Ateneo per l'edizione 2026 della guida Universo Università e Formazione \n\n Guarda il video su Corriere: https://video.corrieredelmezzogiorno.corriere.it/universita-parthenope-il-rettore-garofalo-rispondiamo-alle-esigenze",
+          "engagement": 7,
+          "date": "2026-07-07T16:07:39Z",
+          "url": "https://www.youtube.com/watch?v=RH2KSivp3lY",
           "brand": "Garofalo"
         },
         {
@@ -2419,11 +2503,60 @@
       ]
     },
     {
+      "name": "Rummo",
+      "mentions": 0,
+      "socialMentions": 4,
+      "totalMentions": 4,
+      "shareOfVoice": 7.7,
+      "posts": [
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "giallozafferano",
+          "text": "#adv @pasta_rummo Oggi Rigatoni che profumano di sole e di agrumi 🍋✨ Ti salvano la cena e sono super cremosi: con ceci, limone e peperoni rossi e gialli 🫑🍋🌿 Parola di @manucookandrock 🤟\n\nLa provereste stasera? 😋\n\nIngredienti:\nRigatoni Rummo 320",
+          "engagement": 5446,
+          "date": "2026-07-06T08:45:31Z",
+          "url": "https://www.instagram.com/reel/3935158200775890832/",
+          "brand": "Rummo"
+        },
+        {
+          "type": "social",
+          "platform": "tt",
+          "author": "giallozafferano",
+          "text": "#adv @Pasta Rummo Oggi Rigatoni che profumano di sole e di agrumi 🍋✨ Ti salvano la cena e sono super cremosi: con ceci, limone e peperoni rossi e gialli  🫑🍋🌿 Parola di @Manu CookandRock 🤟 La provereste stasera? 😋 Ingredienti: Rigatoni Rummo 320",
+          "engagement": 3273,
+          "date": "2026-07-06T09:25:23Z",
+          "url": "https://www.tiktok.com/@giallozafferano/video/7659343677260582177",
+          "brand": "Rummo"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "vivoglutenfree",
+          "text": "Svuota la spesa senza glutine di giugno: cosa ricompriamo e cosa no 💛\nCiao Family, fare la spesa senza glutine sta diventando sempre più impegnativo.\nI prezzi continuano a salire e, con lo stesso buono mensile, riusciamo a portare a casa sempre meno",
+          "engagement": 8,
+          "date": "2026-07-07T10:30:01Z",
+          "url": "https://www.instagram.com/p/3935936716930288989/",
+          "brand": "Rummo"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "vico_food_box",
+          "text": "Temptation Island versione pasta fredda 🔥 Vediamo le compatibilità 😂 PS: pasta Rummo in offerta su Vicofoodbox.com \n\n#vicofoodbox #pasta #pastafredda #madeinitaly #italianiallestero",
+          "engagement": 0,
+          "date": "2026-07-05T16:30:00Z",
+          "url": "https://www.instagram.com/reel/3934668498620707612/",
+          "brand": "Rummo"
+        }
+      ]
+    },
+    {
       "name": "Divella",
       "mentions": 1,
       "socialMentions": 3,
       "totalMentions": 4,
-      "shareOfVoice": 8.9,
+      "shareOfVoice": 7.7,
       "posts": [
         {
           "type": "news",
@@ -2462,45 +2595,6 @@
           "date": "2026-07-02T09:05:20Z",
           "url": "https://www.instagram.com/p/3932269878006268205/",
           "brand": "Divella"
-        }
-      ]
-    },
-    {
-      "name": "Rummo",
-      "mentions": 0,
-      "socialMentions": 3,
-      "totalMentions": 3,
-      "shareOfVoice": 6.7,
-      "posts": [
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "giallozafferano",
-          "text": "#adv @pasta_rummo Oggi Rigatoni che profumano di sole e di agrumi 🍋✨ Ti salvano la cena e sono super cremosi: con ceci, limone e peperoni rossi e gialli 🫑🍋🌿 Parola di @manucookandrock 🤟\n\nLa provereste stasera? 😋\n\nIngredienti:\nRigatoni Rummo 320",
-          "engagement": 3996,
-          "date": "2026-07-06T08:45:31Z",
-          "url": "https://www.instagram.com/reel/3935158200775890832/",
-          "brand": "Rummo"
-        },
-        {
-          "type": "social",
-          "platform": "tt",
-          "author": "giallozafferano",
-          "text": "#adv @Pasta Rummo Oggi Rigatoni che profumano di sole e di agrumi 🍋✨ Ti salvano la cena e sono super cremosi: con ceci, limone e peperoni rossi e gialli  🫑🍋🌿 Parola di @Manu CookandRock 🤟 La provereste stasera? 😋 Ingredienti: Rigatoni Rummo 320",
-          "engagement": 1538,
-          "date": "2026-07-06T09:25:23Z",
-          "url": "https://www.tiktok.com/@giallozafferano/video/7659343677260582177",
-          "brand": "Rummo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "vico_food_box",
-          "text": "Temptation Island versione pasta fredda 🔥 Vediamo le compatibilità 😂 PS: pasta Rummo in offerta su Vicofoodbox.com \n\n#vicofoodbox #pasta #pastafredda #madeinitaly #italianiallestero",
-          "engagement": 0,
-          "date": "2026-07-05T16:30:00Z",
-          "url": "https://www.instagram.com/reel/3934668498620707612/",
-          "brand": "Rummo"
         }
       ]
     },
