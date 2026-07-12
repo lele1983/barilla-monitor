@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-12T13:17:24.303Z",
+    "generatedAt": "2026-07-12T19:04:29.825Z",
     "pipelineVersion": "1.0.0",
     "sources": {
       "opensearch": true,
@@ -9,19 +9,19 @@
       "claude": false,
       "competitors": true
     },
-    "processingTimeMs": 2822
+    "processingTimeMs": 2583
   },
   "social": {
     "overview": {
-      "totalPosts": 234361,
-      "prevTotalPosts": 258811,
-      "volumeChange": -9.4,
-      "mentions24h": 13157,
-      "totalEngagement": 963711273,
-      "avgEngagementRate": 0.009289231096195812,
-      "erChange": -23,
+      "totalPosts": 222959,
+      "prevTotalPosts": 258512,
+      "volumeChange": -13.8,
+      "mentions24h": 1556,
+      "totalEngagement": 950524027,
+      "avgEngagementRate": 0.00914471275258465,
+      "erChange": -24.2,
       "organicPct": 98,
-      "sponsoredCount": 5228
+      "sponsoredCount": 5045
     },
     "brandHealth": {
       "score": 79,
@@ -29,7 +29,7 @@
       "dimensions": [
         {
           "name": "Sentiment",
-          "score": 69,
+          "score": 68,
           "color": "#00e676"
         },
         {
@@ -70,324 +70,334 @@
       ]
     },
     "sentiment": {
-      "netScore": 50,
-      "positive": 59,
+      "netScore": 48,
+      "positive": 58,
       "neutral": 32,
-      "negative": 9
+      "negative": 10
     },
     "platforms": [
       {
         "name": "tt",
-        "count": 120183,
-        "pctOfTotal": 51.3
+        "count": 114072,
+        "pctOfTotal": 51.2
       },
       {
         "name": "ig",
-        "count": 105008,
-        "pctOfTotal": 44.8
+        "count": 100263,
+        "pctOfTotal": 45
       },
       {
         "name": "yt",
-        "count": 9170,
+        "count": 8624,
         "pctOfTotal": 3.9
       }
     ],
     "dailyVolume": [
       {
         "date": "2026-07-05T00:00:00.000Z",
-        "count": 16805,
-        "engagement": 134449347,
-        "avgEr": 0.011676217415099766
+        "count": 5161,
+        "engagement": 70252198,
+        "avgEr": 0.011037054623034045
       },
       {
         "date": "2026-07-06T00:00:00.000Z",
         "count": 38426,
-        "engagement": 202968277,
-        "avgEr": 0.0114814137408979
+        "engagement": 204325506,
+        "avgEr": 0.011482160897692176
       },
       {
         "date": "2026-07-07T00:00:00.000Z",
         "count": 37624,
-        "engagement": 155293855,
-        "avgEr": 0.010864406769318387
+        "engagement": 155658577,
+        "avgEr": 0.010864732368560271
       },
       {
         "date": "2026-07-08T00:00:00.000Z",
         "count": 37414,
-        "engagement": 157243204,
-        "avgEr": 0.010371593016645572
+        "engagement": 158197128,
+        "avgEr": 0.010372673299011948
       },
       {
         "date": "2026-07-09T00:00:00.000Z",
         "count": 37407,
-        "engagement": 146612353,
-        "avgEr": 0.009224509558966615
+        "engagement": 149331507,
+        "avgEr": 0.009226335281161523
       },
       {
         "date": "2026-07-10T00:00:00.000Z",
         "count": 37283,
-        "engagement": 121603097,
-        "avgEr": 0.007619084738602215
+        "engagement": 127488601,
+        "avgEr": 0.007622541773481253
       },
       {
         "date": "2026-07-11T00:00:00.000Z",
-        "count": 29380,
-        "engagement": 44399689,
-        "avgEr": 0.0038731318048245435
+        "count": 29482,
+        "engagement": 65960928,
+        "avgEr": 0.0038755482536230396
       },
       {
         "date": "2026-07-12T00:00:00.000Z",
-        "count": 22,
-        "engagement": 1141451,
-        "avgEr": 0.002631679540122539
+        "count": 162,
+        "engagement": 19309582,
+        "avgEr": 0.0027354491108689755
       }
     ],
     "hourlyVolume": [
       {
-        "hour": "2026-07-11T13:00:00.000Z",
-        "count": 1252,
-        "engagement": 1421311
-      },
-      {
-        "hour": "2026-07-11T14:00:00.000Z",
-        "count": 1869,
-        "engagement": 1468776
-      },
-      {
-        "hour": "2026-07-11T15:00:00.000Z",
-        "count": 2057,
-        "engagement": 1395616
-      },
-      {
-        "hour": "2026-07-11T16:00:00.000Z",
-        "count": 2353,
-        "engagement": 4065632
-      },
-      {
-        "hour": "2026-07-11T17:00:00.000Z",
-        "count": 2051,
-        "engagement": 2306118
-      },
-      {
-        "hour": "2026-07-11T18:00:00.000Z",
-        "count": 1973,
-        "engagement": 1056236
-      },
-      {
         "hour": "2026-07-11T19:00:00.000Z",
-        "count": 1191,
-        "engagement": 222665
+        "count": 981,
+        "engagement": 460827
       },
       {
         "hour": "2026-07-11T20:00:00.000Z",
-        "count": 284,
-        "engagement": 11538
+        "count": 292,
+        "engagement": 753543
       },
       {
         "hour": "2026-07-11T21:00:00.000Z",
-        "count": 58,
-        "engagement": 125297
+        "count": 64,
+        "engagement": 229764
       },
       {
         "hour": "2026-07-11T22:00:00.000Z",
-        "count": 38,
-        "engagement": 324331
+        "count": 44,
+        "engagement": 663910
       },
       {
         "hour": "2026-07-11T23:00:00.000Z",
-        "count": 9,
-        "engagement": 755996
+        "count": 13,
+        "engagement": 828774
       },
       {
         "hour": "2026-07-12T00:00:00.000Z",
-        "count": 3,
-        "engagement": 399775
+        "count": 11,
+        "engagement": 3047848
       },
       {
         "hour": "2026-07-12T01:00:00.000Z",
-        "count": 1,
-        "engagement": 30223
+        "count": 5,
+        "engagement": 2440952
       },
       {
         "hour": "2026-07-12T02:00:00.000Z",
-        "count": 0,
-        "engagement": 0
+        "count": 1,
+        "engagement": 45295
       },
       {
         "hour": "2026-07-12T03:00:00.000Z",
-        "count": 3,
-        "engagement": 208055
+        "count": 6,
+        "engagement": 689494
       },
       {
         "hour": "2026-07-12T04:00:00.000Z",
-        "count": 3,
-        "engagement": 463794
+        "count": 12,
+        "engagement": 2763292
       },
       {
         "hour": "2026-07-12T05:00:00.000Z",
-        "count": 0,
-        "engagement": 0
+        "count": 4,
+        "engagement": 1300991
       },
       {
         "hour": "2026-07-12T06:00:00.000Z",
-        "count": 1,
-        "engagement": 718
+        "count": 4,
+        "engagement": 1301272
       },
       {
         "hour": "2026-07-12T07:00:00.000Z",
-        "count": 0,
-        "engagement": 0
+        "count": 7,
+        "engagement": 1469301
       },
       {
         "hour": "2026-07-12T08:00:00.000Z",
-        "count": 0,
-        "engagement": 0
+        "count": 16,
+        "engagement": 999571
       },
       {
         "hour": "2026-07-12T09:00:00.000Z",
-        "count": 6,
-        "engagement": 38645
+        "count": 16,
+        "engagement": 900942
       },
       {
         "hour": "2026-07-12T10:00:00.000Z",
-        "count": 5,
-        "engagement": 241
+        "count": 13,
+        "engagement": 854348
+      },
+      {
+        "hour": "2026-07-12T11:00:00.000Z",
+        "count": 7,
+        "engagement": 51411
+      },
+      {
+        "hour": "2026-07-12T12:00:00.000Z",
+        "count": 14,
+        "engagement": 786298
+      },
+      {
+        "hour": "2026-07-12T13:00:00.000Z",
+        "count": 21,
+        "engagement": 1540028
+      },
+      {
+        "hour": "2026-07-12T14:00:00.000Z",
+        "count": 16,
+        "engagement": 249101
+      },
+      {
+        "hour": "2026-07-12T15:00:00.000Z",
+        "count": 4,
+        "engagement": 35654
+      },
+      {
+        "hour": "2026-07-12T16:00:00.000Z",
+        "count": 3,
+        "engagement": 560435
+      },
+      {
+        "hour": "2026-07-12T17:00:00.000Z",
+        "count": 1,
+        "engagement": 179383
+      },
+      {
+        "hour": "2026-07-12T18:00:00.000Z",
+        "count": 1,
+        "engagement": 93966
       }
     ],
     "hashtags": [
       {
         "tag": "perte",
-        "count": 5377
+        "count": 5128
       },
       {
         "tag": "accadeoggi",
-        "count": 4915
+        "count": 4740
       },
       {
         "tag": "fyp",
-        "count": 4719
+        "count": 4460
       },
       {
         "tag": "viral",
-        "count": 3746
+        "count": 3567
       },
       {
         "tag": "adv",
-        "count": 2420
+        "count": 2346
       },
       {
         "tag": "neiperte",
-        "count": 2156
+        "count": 2075
       },
       {
         "tag": "tiktokshop",
-        "count": 1867
+        "count": 1771
       },
       {
         "tag": "foryou",
-        "count": 1607
+        "count": 1526
       },
       {
         "tag": "napoli",
-        "count": 1529
+        "count": 1469
       },
       {
         "tag": "italia",
-        "count": 1281
+        "count": 1225
       },
       {
         "tag": "estate",
-        "count": 1137
+        "count": 1082
       },
       {
         "tag": "italy",
-        "count": 1059
+        "count": 998
       },
       {
         "tag": "calcio",
-        "count": 1013
+        "count": 969
       },
       {
         "tag": "offerteperte",
-        "count": 1013
+        "count": 963
       },
       {
         "tag": "madeinitaly",
-        "count": 957
+        "count": 925
       },
       {
         "tag": "virale",
-        "count": 921
+        "count": 877
       },
       {
         "tag": "capcut",
-        "count": 874
+        "count": 828
       },
       {
         "tag": "amore",
-        "count": 810
+        "count": 776
       },
       {
         "tag": "saldi",
-        "count": 794
+        "count": 771
       },
       {
         "tag": "summer",
-        "count": 789
+        "count": 750
       },
       {
         "tag": "perteeee",
-        "count": 763
+        "count": 723
       },
       {
         "tag": "roma",
-        "count": 752
+        "count": 706
       },
       {
         "tag": "milano",
-        "count": 719
+        "count": 685
       },
       {
         "tag": "fashion",
-        "count": 661
+        "count": 644
       },
       {
-        "tag": "andiamoneiperteee",
-        "count": 615
+        "tag": "fifaworldcup",
+        "count": 602
       }
     ],
     "creators": [
       {
         "name": "433",
-        "posts": 70,
-        "engagement": 58098284,
+        "posts": 84,
+        "engagement": 69687031,
         "platform": "ig",
         "followers": 79050910,
-        "avgEr": 0.010529982049333942
+        "avgEr": 0.010520161496967488
       },
       {
         "name": "erling",
         "posts": 10,
-        "engagement": 49719182,
+        "engagement": 55988546,
         "platform": "ig",
         "followers": 56290183,
-        "avgEr": 0.0883265595352568
-      },
-      {
-        "name": "fabrizioromano",
-        "posts": 78,
-        "engagement": 48006125,
-        "platform": "tt",
-        "followers": 25500000,
-        "avgEr": 0.02425206766705536
+        "avgEr": 0.09946413924431548
       },
       {
         "name": "fabriziorom",
-        "posts": 73,
-        "engagement": 44043025,
+        "posts": 78,
+        "engagement": 47636700,
         "platform": "ig",
-        "followers": 46782551,
-        "avgEr": 0.012896455979688689
+        "followers": 47232616,
+        "avgEr": 0.013035831314022576
+      },
+      {
+        "name": "fabrizioromano",
+        "posts": 77,
+        "engagement": 47290789,
+        "platform": "tt",
+        "followers": 25500000,
+        "avgEr": 0.02419983282899597
       },
       {
         "name": "cristiano",
@@ -398,20 +408,20 @@
         "avgEr": 0.024088116431946693
       },
       {
-        "name": "fcbarcelona",
-        "posts": 23,
-        "engagement": 16446003,
-        "platform": "ig",
-        "followers": 145911174,
-        "avgEr": 0.00490115107322891
-      },
-      {
         "name": "realmadrid",
-        "posts": 28,
-        "engagement": 15861476,
+        "posts": 27,
+        "engagement": 15424071,
         "platform": "ig",
         "followers": 179121316,
-        "avgEr": 0.0031628737557944262
+        "avgEr": 0.0031895123001647284
+      },
+      {
+        "name": "fcbarcelona",
+        "posts": 22,
+        "engagement": 15043617,
+        "platform": "ig",
+        "followers": 145911174,
+        "avgEr": 0.0046867028258086784
       },
       {
         "name": "leomessi",
@@ -422,60 +432,60 @@
         "avgEr": 0.02867613431504612
       },
       {
-        "name": "neymarjr",
-        "posts": 1,
-        "engagement": 11732107,
+        "name": "thv",
+        "posts": 2,
+        "engagement": 11011633,
         "platform": "ig",
-        "followers": 240071333,
-        "avgEr": 0.04886925420620712
+        "followers": 75024541,
+        "avgEr": 0.07338687350316478
       },
       {
         "name": "championsleague",
         "posts": 27,
-        "engagement": 8292455,
+        "engagement": 8422991,
         "platform": "ig",
         "followers": 119466161,
-        "avgEr": 0.0035095077509311795
+        "avgEr": 0.0035935889103514695
       },
       {
         "name": "psg",
-        "posts": 32,
-        "engagement": 7535177,
+        "posts": 34,
+        "engagement": 7864370,
         "platform": "ig",
         "followers": 66789844,
-        "avgEr": 0.0035257577533250035
+        "avgEr": 0.003463324599454583
       },
       {
         "name": "arianagrande",
         "posts": 7,
-        "engagement": 7439306,
+        "engagement": 7563670,
         "platform": "ig",
         "followers": 363432955,
-        "avgEr": 0.012890098956199617
-      },
-      {
-        "name": "juventus",
-        "posts": 47,
-        "engagement": 7097833,
-        "platform": "ig",
-        "followers": 58940795,
-        "avgEr": 0.0027747794529681107
-      },
-      {
-        "name": "f1",
-        "posts": 31,
-        "engagement": 6467336,
-        "platform": "ig",
-        "followers": 43111607,
-        "avgEr": 0.004839154846059991
+        "avgEr": 0.01328345066426545
       },
       {
         "name": "k.mbappe",
         "posts": 1,
-        "engagement": 6401756,
+        "engagement": 6680909,
         "platform": "ig",
         "followers": 132845918,
-        "avgEr": 0.0481893316435963
+        "avgEr": 0.0502906607939583
+      },
+      {
+        "name": "voguemagazine",
+        "posts": 48,
+        "engagement": 6504429,
+        "platform": "ig",
+        "followers": 51684082,
+        "avgEr": 0.0026218698728169344
+      },
+      {
+        "name": "manutd",
+        "posts": 60,
+        "engagement": 6346510,
+        "platform": "ig",
+        "followers": 65804371,
+        "avgEr": 0.0016074958469211775
       }
     ],
     "posts": [
@@ -722,24 +732,6 @@
       },
       {
         "platform": "ig",
-        "author": "nonnanellaa",
-        "time": "2026-07-05T17:30:37Z",
-        "text": "UOVA IN TEGLIA🥚🍳\n\nIngredienti\n\nUova\nFormaggi misti (pecorino, mozzarella, parmigiano)\nOlio evo\nsale e pepe\n\nRivesti una teglia con carta forno e versaci le uova.\nCopri con parmigiano grattugiato, pecorino a sentimento, mozzarella o qualsiasi altro ",
-        "engagement": 32388,
-        "engagementRate": 0.10083248756249884,
-        "sentiment": "pos",
-        "hashtags": [
-          "italy",
-          "italia",
-          "pasta",
-          "pastahomemade",
-          "tagliatelle"
-        ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/733172573_18599514613003411_6356297186751265676_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=1&ig_cache_key=MzkzNDY5ODA3NDcyMDUxMzM4MDE4NTk5NTE0NjA3MDAzNDEx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=HChsyeNBvvkQ7kNvwEydyEI&_nc_oc=AdpFNrvxYrDh6mBfZNjGBewonsAjvzBgjV7xcw7FEjoFWLj01vA93OYIsOPlqmdTencv7-Ka_uXYKibEItlgquJN&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=9SsV0oc82n-Erc-i_prCUg&_nc_ss=7a3ba&oh=00_AQAvC6TB7V9bUsuqUOVGtvDKPSfqsT_qQZ5sIQtg-qVcUg&oe=6A5881D0",
-        "url": "https://www.instagram.com/reel/3934698074720513380/"
-      },
-      {
-        "platform": "ig",
         "author": "artetecaofficial",
         "time": "2026-07-10T09:49:32Z",
         "text": "🍣 Team Sushi o🍝 Team Spaghetti alle Vongole? \nDa che parte stai?\n\n👇🏻 Scrivi nei commenti:\n🍣 #teamsushi \n🍝 #teamcucinaitaliana \n\n#arteteca #sushi #food",
@@ -840,16 +832,16 @@
         "url": "https://www.instagram.com/reel/3938096160152214329/"
       },
       {
-        "platform": "tt",
-        "author": "cookingwith.ale",
-        "time": "2026-07-05T17:18:47Z",
-        "text": "RAVIOLO AL TARTUFO!! 🥟🍽️ Raviolo con tuorlo fondente e tartufo! Ingredienti pasta: 300 gr di farina (80% farina 00, 20% semola) 2 uova 3 tuorli Ingredienti ripieno: Ricotta Parmigiano grattugiato (poco) Tartufo grattugiato Sale Tuorli Ingredienti f",
-        "engagement": 52459,
-        "engagementRate": 0.2917630700778643,
+        "platform": "ig",
+        "author": "cucinare_stanca",
+        "time": "2026-07-07T10:26:07Z",
+        "text": "Melanzane ripiene di anelletti al forno.\nChe mangiamo? Se lo chiedeva anche Aretha Franklin. \nSiamo sicuri che sarebbe stata fra le prime iscritte al nostro @chemangiamo_ il servizio in abbonamento mio e del Dott. @edoardomocini_ in cui vi proponiamo",
+        "engagement": 25463,
+        "engagementRate": 0.04279481413507854,
         "sentiment": "pos",
         "hashtags": [],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/osRE5CFSkIDt1qAAHUAQfgEIqVQXRDcDmAfpIC~tplv-tiktokx-origin.image?dr=10395&x-expires=1783969200&x-signature=fy6vDpRDSUit6QMIIJn3tNFPCS8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
-        "url": "https://www.tiktok.com/@cookingwith.ale/video/7659094591647337760"
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/736367150_18237893119313482_4513129976397913482_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=104&ig_cache_key=MzkzNTkyOTEyNDIzNTkwNzY2MTE4MjM3ODkzMTEzMzEzNDgy.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTcuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=GAe5HehOgx8Q7kNvwHqzeWq&_nc_oc=Adr5_MAJ8_c3TlrybPDAMer2KJAxUNMwPUCjFAVrTuVXAPGSM5dZ8XXgF8aNXga4-lKo1TnoQQM8h1qxpJ3GYBaT&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=0DzWbILwfKUMelAGm5e8_A&_nc_ss=7a3ba&oh=00_AQDgBPtiA7qSO3wb0WqNnNFVi5-94tl5NTtd3zLNaZC7kA&oe=6A5876DF",
+        "url": "https://www.instagram.com/reel/3935929124235907661/"
       },
       {
         "platform": "tt",
@@ -1095,6 +1087,18 @@
         "url": "https://www.tiktok.com/@eva.lidia_/video/7659480370408082721"
       },
       {
+        "platform": "tt",
+        "author": "giovannimele",
+        "time": "2026-07-06T14:03:20Z",
+        "text": "LINGUINE SEPPIE OLIVE E NOCI 😍 Riposta la ricetta e seguimi 🫂 10 minuti di tempo, pochissimi ingredienti di grande qualità ed una sola padella. Questo è tutto ciò che occorre per realizzare un piatto di pasta spettacolare. Profumi intensi, sapore d",
+        "engagement": 18598,
+        "engagementRate": 0.028127646702964307,
+        "sentiment": "neu",
+        "hashtags": [],
+        "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/ooyLlO1gNZPEKkpiuAambu0tBEIagiz1QBtAI~tplv-tiktokx-dmt-logom:tos-useast2a-i-0068-euttp/oQhECBFSBED2mfAAWLAQfWEcqLIZRT9DmAa7tC.image?dr=10393&x-expires=1783969200&x-signature=uH66v9p0EVX8pxztPVwk0HPwdwQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@giovannimele/video/7659415313380805921"
+      },
+      {
         "platform": "yt",
         "author": "Lionfield",
         "time": "2026-07-09T15:00:01Z",
@@ -1105,18 +1109,6 @@
         "hashtags": [],
         "imageUrl": null,
         "url": "https://www.youtube.com/watch?v=27L_HtaOnOI"
-      },
-      {
-        "platform": "yt",
-        "author": "Lionfield",
-        "time": "2026-07-05T16:00:16Z",
-        "text": "This cat loves SPAGHETTI with KETCHUP?",
-        "engagement": 38304,
-        "engagementRate": 0.0023074698795180724,
-        "sentiment": "neg",
-        "hashtags": [],
-        "imageUrl": null,
-        "url": "https://www.youtube.com/watch?v=k3b1cRvQ2xo"
       },
       {
         "platform": "yt",
@@ -1400,6 +1392,33 @@
         ],
         "imageUrl": "https://i.ytimg.com/vi/UI-Ob7cTHC8/hqdefault.jpg",
         "url": "https://www.youtube.com/watch?v=UI-Ob7cTHC8"
+      },
+      {
+        "platform": "yt",
+        "author": "tuttiatavola2016",
+        "time": "2026-07-10T12:04:38Z",
+        "text": "La MILLEFOGLIE a chi non piace? È il dolce perfetto, sia per la consistenza sia perché si realizza velocemente e sia perché puoi farcirlo in mille modi diversi… io oggi l’ho esaltato con una CREMA SOFFICE DI RICOTTA, CREMA DI PISTACCHIO e CIOCCOLATO!",
+        "engagement": 1608,
+        "engagementRate": 0.0010177215189873417,
+        "sentiment": "neg",
+        "hashtags": [
+          "sfoglia",
+          "dolce",
+          "ricotta",
+          "millefoglie",
+          "tortadicompleanno",
+          "diplomatico",
+          "tuttiatavola",
+          "tuttiatavola2016",
+          "dessert",
+          "italiandessert",
+          "italianfood",
+          "cooking",
+          "yummy",
+          "recipe"
+        ],
+        "imageUrl": "https://i.ytimg.com/vi/6xxY8uTn8nk/hqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=6xxY8uTn8nk"
       }
     ]
   },
@@ -2030,7 +2049,7 @@
       "mentions": 2,
       "socialMentions": 11,
       "totalMentions": 13,
-      "shareOfVoice": 25,
+      "shareOfVoice": 25.5,
       "posts": [
         {
           "type": "news",
@@ -2165,8 +2184,16 @@
       "mentions": 10,
       "socialMentions": 0,
       "totalMentions": 10,
-      "shareOfVoice": 19.2,
+      "shareOfVoice": 19.6,
       "posts": [
+        {
+          "type": "news",
+          "title": "Banco BPM: 3,5 mln di euro per investimenti sostenibili de La Molisana - ImpresaCity",
+          "source": "IMPRESACITY",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdVdPRDF2eElLMVZseWs1MF9yWnUwb2JMSUN3Xy1zTVVJQVFjUE0zc1dMXzFEdkhkeHVLcXlfZ3JUMFVDVFBsR20zQ0VWN2hPOXRvdjB2QlZXbkJoZ0ljVGlSXzJMaEtoNTM0V3RpTmVKR29uZlRFQm8tUnlUcS16QXd1QUg0Q2lIcjRQNU9WQmZfZGJ2MFRGLVZ4bEJoR0hHUXg1alQ2TEUwaEg1bGpJ0gGvAUFVX3lxTE51V09EMXZ4SUsxVmx5azUwX3JadTBvYkxJQ3dfLXNNVUlBUWNQTTNzV0xfMUR2SGR4dUtxeV9nclQwVUNUUGxHbTNDRVY3aE85dG92MHZCVlduQmhnSWNUaVJfMkxoS2g1MzRXdGlOZUpHb25mVEVCby1SeVRxLXpBd3VBSDRDaUhyNFA1T1ZCZl9kYnYwVEYtVnhsQmhHSEdReDVqVDZMRTBoSDVsakk?oc=5",
+          "date": "2026-07-10T18:01:59.000Z",
+          "brand": "La Molisana"
+        },
         {
           "type": "news",
           "title": "Network Giovani Calabria, una nuova generazione pronta a costruire il futuro - InfoOggi",
@@ -2181,14 +2208,6 @@
           "source": "ANTEPRIMA VOLANTINO",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMjJQMThHbGpOYjlON1ZlVExPWE90U1dyMEtKSkJxV1lKcHdDZFFBcHJQMV93YmtBVkVWOEZ1WmhKVy1Tc19XV2tuLWtaNVhQeFh0aExrRFlqNDlVU1ZwY1FMX004QktnS21zUGk5Qk9BaEJHbG5wRmNOb0Jlb3Z3aV80VkhlNjhNTV84aXNn?oc=5",
           "date": "2026-07-08T10:19:29.000Z",
-          "brand": "La Molisana"
-        },
-        {
-          "type": "news",
-          "title": "Saldi estivi, le previsioni della CIDEC Sicilia - InfoOggi",
-          "source": "INFOOGGI",
-          "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxOendmejFKQmtkQm41dnRraTVGRkJlZlhlaVdMVUxHanNrVjBlWTgtV0xfaXMtcHh2VjlCMFgyX29DNTJ2cVQxZ3NrdFNBU2tMVzlWazBTNXZPdWh3UGJaeURXSXBRZEQ3bS1malZySUhZekNhYjdyZWxJWWNyd1NraUM1OEkwR0VEQXp4cUZpTWkxb3F3TmJTTW1yY3pFTkhUVDlqbEYzSjN0ZDh4bXhPSDNxWmwwVC1qVVg1Q1gyQ3RPMmdfY044XzZ1ZU1HMEN3cEhUOFhkOVhQcEU1UnVDV09GUVZXSTJablZvbVJUVnpMU0FISEEzb3R3TXZpWFlxM3UxUEVjRUp3a0NHOTk0ZDJSeUVlRG54d2d0TnJWSmtYU2dUak1zc3B2eDg2YnI3ejFjYjgxcXJtaC1LRDdqa0ZJQjJQOTdnN3VTUHJDc01pRkNvLTdfRDNNNG9JNUFtSzFQYmNERdIB7AJBVV95cUxQbU1CU1I1Zk9sMGlrclNZQVNObU4taVBiV2VHMUVkR2lVQy1TV1RRdkFEbFdTcDBmNFA1cDJtOVlDREpOVnJGN2RPeEJCYnRadllrNHFDbHF4YlBpMU9oeVQ3dk13V1dPVGFKbEpXSUFFd2ZqVVJKbWp4emV5c3h5NDJKNU83c3FHeXhaUldoRGdYQWZzUTA4VTRuZHJ6ZUM5Z1loNFBYLWZWRDhGdE9oNElDNW9pSUpDRjdOdHlJUkl2ME5DQW9leWZZY3ExLUtMb3RhTjZHQjl0RUVSZ2RlWUlyaWE2RG9lZldLX0RRYjFaeml2TmpVNHVveEFQWXlLdFAxN3FtcTUwWXlEd1NYU1ZSZ0JqRHJ2aDdxWk5ZNnd4aTRjS1p2bmg2N3hXVklJbG5NT0VnZjFuUFVFTjNGMXg2YzVBQVlRUzIzRW5RZDJIMlBWOXgtMmk0VnlxYU1OS1lVZzVfUGtqQjBz?oc=5",
-          "date": "2026-07-05T18:36:24.000Z",
           "brand": "La Molisana"
         },
         {
@@ -2217,14 +2236,6 @@
         },
         {
           "type": "news",
-          "title": "In Ciociaria i bambini ricordano il pittore futurista Arturo Ciacelli - InfoOggi",
-          "source": "INFOOGGI",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOFBBd29xVkhnQ3JIbjl0ZXNCX3hmU2pNRHBKSTRNaE5xZENkOVotMFM4cFJ2RWZmdXdqVkpodmJkMVFvdlNEdkd6eVJmMGE5enB0WmJXb09YWmlQZXlrR3lEeWlZT2pqU3dCWHlGcmc0YjhSNVU5c0tsQTZMemtReTdNMDZsTW5JZ2tXdHQxSmwxUUpjbmZzelNJN1BOczFSMldVMVM3SHNXT1loTFHSAbMBQVVfeXFMTlNneURYQ3BicUpwTFVibmdZSU5CZ2lZV08zVFo4VGJNQ3hwVlJKdUtzYjlFR01oaEMyMllIZXVyR2tUQnhFX1lXelV2bFNrUzQzR01UYmZkb3NaWGpyR2RIUzg0ejNnVkhCaENqTHRLQmhUYi1HeWdSUlU2UlFiMHhad1hfQm9DOGJxMTRiVkdlRi1LSHJjM1dGeGt0RExRVEoxQmZuUlByTUQtbXZTRHhsQXM?oc=5",
-          "date": "2026-07-10T12:04:57.000Z",
-          "brand": "La Molisana"
-        },
-        {
-          "type": "news",
           "title": "Cutro, Pina Bruni rilancia l'allarme sul Rione Casazza - InfoOggi",
           "source": "INFOOGGI",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORmxhemFHLU5UTDRneGR6SWRZU1RkSmE1MUpEQWNGVVBXVGpSUElMN3J3TGQ1MTJsMEpLME4wTmNhamFkZjA2bW9hT285MFF4cXpkbkFvSnBLS2I0bXhfM3RVZHFmOVdFWEt5TWhWY2JWWjJySDM3Ni1aUUNBY3Y1NGJwb0hUc0lyVElQMjI1YjZvbm81bXp3dtIBngFBVV95cUxQYm1qMTNhaTVVakMzcW5SRjJQOTRDRVE3REVQTDRUcU82THQtSFR1MmNFa2tQN1J0NWFzRHkyd3FCakx0d3RDVWxRYk92bDUxSkhzclRDS2pmY0hCQld6YkZDNUJtVlVGSUljanl0VUd6UVRKZk1nN1NHWTN4RnZ3dmNBU29jR1gwM1lXODZhZjZ6QkQwU1BmMjBZcnVQUQ?oc=5",
@@ -2246,6 +2257,14 @@
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZ29obTJKbWFUQ1pnblBUQ3FYbHc0UVJuaWZ1X2RrNUxEeWlCT2lNTVVDU0MzY3c1VXdDeGlPVFlZQmlXOFA0Ml91MlcwOGw5M3BIUWtLZV9oaGFPZlpXWXNNX2VlWGdEbjVLeDZjY1lWZTBBeDhVNzlHalpTNHg2SFZlbE5vYTA2cTY3c1RIbEFVd3BWeUI2RkpqWWVQOXVfQUhzcG1aN3l2cUxVVHJsQy1FRTh5QnpaaGRGcEYxbG9iZzjSAcgBQVVfeXFMTTJ0TWJwVDlidW1LMU43RUdrQy1OcWI0WnVJcVc3MGV6Y1pRc1JtLTRkQjlnRG9hNDZqNjZwbmIyb25QNFNTb2g0TmtMLS1tZWFLLUc4eXdDRjFSQUFLWnA5ZFFoY3ZwLTktQ0NpS3BqZ0xPeU85bTEtRmhqT2poR1VxQWlqSGVVR05jdHpxLXVfcmVwX1U4emo4R1hGZUsyTDd2Z1ZZWWU2WmJNbGQtRkJEUGU5TzA2M0dBb1pqeVY4aHpFZlUtSGE?oc=5",
           "date": "2026-07-08T15:08:17.000Z",
           "brand": "La Molisana"
+        },
+        {
+          "type": "news",
+          "title": "Conventino di Sant’Antonio: il decoro urbano non può più aspettare - InfoOggi",
+          "source": "INFOOGGI",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM1Q0bThZT2Y5ODZ4VERjazR5RGdZbDZuUFZzZXcyMEl1NkRvb1NQbUFTVWJ3NmtSTmR4ZTB4YzhUcGxfRzltZEUxN1d0bWpSbzdUd0FDY1YwOVIwelZVMnJTaGN1SXlVQkczMWUybmtZaE00cHI5T2ZtbHhPaXBEekxEM19DbzdzMjN5QU9mbjRqU2NKdzNtU25Fd1M2SVQ2YVlkZU5n0gGrAUFVX3lxTE45UjhabFZBWEVtVDFkeGlXY2UxQk40S0VBWFZZYjU5Vmo5YTBaMmRXTXlqc3FhX0VtNUlWZkI2VTllQ0J5SFR0RHJFel9kMGoteWctMElNcVBocXRtSXVTWTlXR1pJRHktcmlPZnNMWnQzNGlsdzBCTUZQdVI3R1AxRTFoM00wLXR3NVNUSy1qQnpRMXp0LTF5OVJ1THhRTERPLUNrb3Vwb1lidw?oc=5",
+          "date": "2026-07-11T13:50:39.000Z",
+          "brand": "La Molisana"
         }
       ]
     },
@@ -2254,7 +2273,7 @@
       "mentions": 9,
       "socialMentions": 0,
       "totalMentions": 9,
-      "shareOfVoice": 17.3,
+      "shareOfVoice": 17.6,
       "posts": [
         {
           "type": "news",
@@ -2335,7 +2354,7 @@
       "mentions": 5,
       "socialMentions": 4,
       "totalMentions": 9,
-      "shareOfVoice": 17.3,
+      "shareOfVoice": 17.6,
       "posts": [
         {
           "type": "news",
@@ -2422,9 +2441,9 @@
     {
       "name": "Rummo",
       "mentions": 0,
-      "socialMentions": 6,
-      "totalMentions": 6,
-      "shareOfVoice": 11.5,
+      "socialMentions": 5,
+      "totalMentions": 5,
+      "shareOfVoice": 9.8,
       "posts": [
         {
           "type": "social",
@@ -2475,16 +2494,6 @@
           "date": "2026-07-07T10:30:01Z",
           "url": "https://www.instagram.com/p/3935936716930288989/",
           "brand": "Rummo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "vico_food_box",
-          "text": "Temptation Island versione pasta fredda 🔥 Vediamo le compatibilità 😂 PS: pasta Rummo in offerta su Vicofoodbox.com \n\n#vicofoodbox #pasta #pastafredda #madeinitaly #italianiallestero",
-          "engagement": 0,
-          "date": "2026-07-05T16:30:00Z",
-          "url": "https://www.instagram.com/reel/3934668498620707612/",
-          "brand": "Rummo"
         }
       ]
     },
@@ -2493,7 +2502,7 @@
       "mentions": 1,
       "socialMentions": 3,
       "totalMentions": 4,
-      "shareOfVoice": 7.7,
+      "shareOfVoice": 7.8,
       "posts": [
         {
           "type": "news",
@@ -2540,7 +2549,7 @@
       "mentions": 0,
       "socialMentions": 1,
       "totalMentions": 1,
-      "shareOfVoice": 1.9,
+      "shareOfVoice": 2,
       "posts": [
         {
           "type": "social",
