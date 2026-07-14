@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-14T13:41:21.916Z",
+    "generatedAt": "2026-07-14T19:18:06.664Z",
     "pipelineVersion": "1.0.0",
     "sources": {
       "opensearch": true,
@@ -9,19 +9,19 @@
       "claude": false,
       "competitors": true
     },
-    "processingTimeMs": 3286
+    "processingTimeMs": 3158
   },
   "social": {
     "overview": {
-      "totalPosts": 228626,
-      "prevTotalPosts": 257631,
-      "volumeChange": -11.3,
-      "mentions24h": 18919,
-      "totalEngagement": 913275223,
-      "avgEngagementRate": 0.009398519917217456,
-      "erChange": -22.5,
+      "totalPosts": 213963,
+      "prevTotalPosts": 257202,
+      "volumeChange": -16.8,
+      "mentions24h": 5291,
+      "totalEngagement": 867612777,
+      "avgEngagementRate": 0.009207018765381794,
+      "erChange": -24.1,
       "organicPct": 98,
-      "sponsoredCount": 4969
+      "sponsoredCount": 4541
     },
     "brandHealth": {
       "score": 79,
@@ -29,12 +29,12 @@
       "dimensions": [
         {
           "name": "Sentiment",
-          "score": 69,
+          "score": 68,
           "color": "#00e676"
         },
         {
           "name": "Engagement",
-          "score": 47,
+          "score": 46,
           "color": "#3ba4ff"
         },
         {
@@ -70,128 +70,98 @@
       ]
     },
     "sentiment": {
-      "netScore": 50,
-      "positive": 59,
+      "netScore": 48,
+      "positive": 58,
       "neutral": 32,
-      "negative": 9
+      "negative": 10
     },
     "platforms": [
       {
         "name": "tt",
-        "count": 120758,
-        "pctOfTotal": 52.8
+        "count": 113753,
+        "pctOfTotal": 53.2
       },
       {
         "name": "ig",
-        "count": 98668,
-        "pctOfTotal": 43.2
+        "count": 91670,
+        "pctOfTotal": 42.8
       },
       {
         "name": "yt",
-        "count": 9200,
+        "count": 8540,
         "pctOfTotal": 4
       }
     ],
     "dailyVolume": [
       {
         "date": "2026-07-07T00:00:00.000Z",
-        "count": 19413,
-        "engagement": 104990730,
-        "avgEr": 0.011588945935847167
+        "count": 4657,
+        "engagement": 39937036,
+        "avgEr": 0.009809304687064292
       },
       {
         "date": "2026-07-08T00:00:00.000Z",
         "count": 37414,
-        "engagement": 168444501,
-        "avgEr": 0.011287871113369425
+        "engagement": 168529910,
+        "avgEr": 0.01128835040308175
       },
       {
         "date": "2026-07-09T00:00:00.000Z",
         "count": 37420,
-        "engagement": 161639637,
-        "avgEr": 0.01048114573954633
+        "engagement": 161755908,
+        "avgEr": 0.010481275811371244
       },
       {
         "date": "2026-07-10T00:00:00.000Z",
         "count": 37291,
-        "engagement": 152332615,
-        "avgEr": 0.010093817216957502
+        "engagement": 152764123,
+        "avgEr": 0.01009418563326616
       },
       {
         "date": "2026-07-11T00:00:00.000Z",
         "count": 32369,
-        "engagement": 112243269,
-        "avgEr": 0.008884461791900448
+        "engagement": 112931623,
+        "avgEr": 0.008884914395577972
       },
       {
         "date": "2026-07-12T00:00:00.000Z",
         "count": 29443,
-        "engagement": 125041459,
-        "avgEr": 0.008775161656399756
+        "engagement": 126114689,
+        "avgEr": 0.008776682532256934
       },
       {
         "date": "2026-07-13T00:00:00.000Z",
-        "count": 34480,
-        "engagement": 88343190,
-        "avgEr": 0.005402344779232629
+        "count": 34512,
+        "engagement": 102150421,
+        "avgEr": 0.005406026249302069
       },
       {
         "date": "2026-07-14T00:00:00.000Z",
-        "count": 796,
-        "engagement": 239822,
-        "avgEr": 0.0008401042183112033
+        "count": 857,
+        "engagement": 3429067,
+        "avgEr": 0.0008828071137029185
       }
     ],
     "hourlyVolume": [
       {
-        "hour": "2026-07-13T13:00:00.000Z",
-        "count": 569,
-        "engagement": 993940
-      },
-      {
-        "hour": "2026-07-13T14:00:00.000Z",
-        "count": 2113,
-        "engagement": 4313155
-      },
-      {
-        "hour": "2026-07-13T15:00:00.000Z",
-        "count": 2477,
-        "engagement": 7409466
-      },
-      {
-        "hour": "2026-07-13T16:00:00.000Z",
-        "count": 2834,
-        "engagement": 7057872
-      },
-      {
-        "hour": "2026-07-13T17:00:00.000Z",
-        "count": 2613,
-        "engagement": 2838487
-      },
-      {
-        "hour": "2026-07-13T18:00:00.000Z",
-        "count": 2323,
-        "engagement": 3261253
-      },
-      {
         "hour": "2026-07-13T19:00:00.000Z",
-        "count": 1999,
-        "engagement": 3033977
+        "count": 1234,
+        "engagement": 1635696
       },
       {
         "hour": "2026-07-13T20:00:00.000Z",
-        "count": 1273,
-        "engagement": 1668522
+        "count": 1276,
+        "engagement": 2962868
       },
       {
         "hour": "2026-07-13T21:00:00.000Z",
-        "count": 941,
-        "engagement": 1223553
+        "count": 942,
+        "engagement": 1437731
       },
       {
         "hour": "2026-07-13T22:00:00.000Z",
-        "count": 691,
-        "engagement": 507452
+        "count": 692,
+        "engagement": 830589
       },
       {
         "hour": "2026-07-13T23:00:00.000Z",
@@ -215,8 +185,8 @@
       },
       {
         "hour": "2026-07-14T03:00:00.000Z",
-        "count": 95,
-        "engagement": 5023
+        "count": 96,
+        "engagement": 930514
       },
       {
         "hour": "2026-07-14T04:00:00.000Z",
@@ -225,18 +195,18 @@
       },
       {
         "hour": "2026-07-14T05:00:00.000Z",
-        "count": 62,
-        "engagement": 2458
+        "count": 63,
+        "engagement": 128846
       },
       {
         "hour": "2026-07-14T06:00:00.000Z",
-        "count": 82,
-        "engagement": 3504
+        "count": 83,
+        "engagement": 40171
       },
       {
         "hour": "2026-07-14T07:00:00.000Z",
-        "count": 18,
-        "engagement": 40
+        "count": 19,
+        "engagement": 365577
       },
       {
         "hour": "2026-07-14T08:00:00.000Z",
@@ -245,128 +215,173 @@
       },
       {
         "hour": "2026-07-14T09:00:00.000Z",
-        "count": 1,
-        "engagement": 60292
+        "count": 3,
+        "engagement": 168680
+      },
+      {
+        "hour": "2026-07-14T10:00:00.000Z",
+        "count": 4,
+        "engagement": 543703
+      },
+      {
+        "hour": "2026-07-14T11:00:00.000Z",
+        "count": 8,
+        "engagement": 320577
+      },
+      {
+        "hour": "2026-07-14T12:00:00.000Z",
+        "count": 6,
+        "engagement": 263871
+      },
+      {
+        "hour": "2026-07-14T13:00:00.000Z",
+        "count": 8,
+        "engagement": 235392
+      },
+      {
+        "hour": "2026-07-14T14:00:00.000Z",
+        "count": 8,
+        "engagement": 215876
+      },
+      {
+        "hour": "2026-07-14T15:00:00.000Z",
+        "count": 7,
+        "engagement": 2916
+      },
+      {
+        "hour": "2026-07-14T16:00:00.000Z",
+        "count": 0,
+        "engagement": 0
+      },
+      {
+        "hour": "2026-07-14T17:00:00.000Z",
+        "count": 5,
+        "engagement": 43472
+      },
+      {
+        "hour": "2026-07-14T18:00:00.000Z",
+        "count": 9,
+        "engagement": 967
       }
     ],
     "hashtags": [
       {
         "tag": "accadeoggi",
-        "count": 5186
+        "count": 5055
       },
       {
         "tag": "perte",
-        "count": 5127
+        "count": 4808
       },
       {
         "tag": "fyp",
-        "count": 4659
+        "count": 4356
       },
       {
         "tag": "viral",
-        "count": 3789
+        "count": 3548
       },
       {
         "tag": "adv",
-        "count": 2330
+        "count": 2129
       },
       {
         "tag": "neiperte",
-        "count": 2148
+        "count": 2014
       },
       {
         "tag": "tiktokshop",
-        "count": 1836
+        "count": 1701
       },
       {
         "tag": "foryou",
-        "count": 1604
+        "count": 1499
       },
       {
         "tag": "napoli",
-        "count": 1374
+        "count": 1258
       },
       {
         "tag": "italia",
-        "count": 1230
+        "count": 1155
       },
       {
         "tag": "estate",
-        "count": 1139
+        "count": 1070
       },
       {
         "tag": "italy",
-        "count": 1062
+        "count": 1006
       },
       {
         "tag": "offerteperte",
-        "count": 969
-      },
-      {
-        "tag": "calcio",
-        "count": 923
+        "count": 905
       },
       {
         "tag": "capcut",
-        "count": 903
+        "count": 854
+      },
+      {
+        "tag": "calcio",
+        "count": 834
       },
       {
         "tag": "virale",
-        "count": 869
+        "count": 832
       },
       {
         "tag": "madeinitaly",
-        "count": 866
+        "count": 794
       },
       {
         "tag": "amore",
-        "count": 821
+        "count": 774
       },
       {
         "tag": "perteeee",
-        "count": 796
-      },
-      {
-        "tag": "summer",
-        "count": 746
+        "count": 753
       },
       {
         "tag": "temptationisland",
-        "count": 731
+        "count": 716
+      },
+      {
+        "tag": "summer",
+        "count": 705
       },
       {
         "tag": "saldi",
-        "count": 717
-      },
-      {
-        "tag": "milano",
-        "count": 713
-      },
-      {
-        "tag": "roma",
         "count": 676
       },
       {
+        "tag": "milano",
+        "count": 675
+      },
+      {
+        "tag": "roma",
+        "count": 632
+      },
+      {
         "tag": "neiperteeee",
-        "count": 631
+        "count": 604
       }
     ],
     "creators": [
       {
         "name": "433",
-        "posts": 71,
-        "engagement": 47551679,
+        "posts": 68,
+        "engagement": 44835418,
         "platform": "ig",
         "followers": 79050910,
-        "avgEr": 0.008475881800471487
+        "avgEr": 0.008344510300193845
       },
       {
         "name": "fabriziorom",
-        "posts": 70,
-        "engagement": 36722079,
+        "posts": 67,
+        "engagement": 35493933,
         "platform": "ig",
         "followers": 47232616,
-        "avgEr": 0.011172192037595405
+        "avgEr": 0.011280615206055942
       },
       {
         "name": "cristiano",
@@ -393,28 +408,28 @@
         "avgEr": 0.02532229221063787
       },
       {
-        "name": "realmadrid",
-        "posts": 36,
-        "engagement": 21850297,
-        "platform": "ig",
-        "followers": 179121316,
-        "avgEr": 0.003388500643019195
-      },
-      {
         "name": "fabrizioromano",
-        "posts": 60,
-        "engagement": 20516415,
+        "posts": 64,
+        "engagement": 22508527,
         "platform": "tt",
         "followers": 25600000,
-        "avgEr": 0.013381933162596978
+        "avgEr": 0.013755784751742495
+      },
+      {
+        "name": "realmadrid",
+        "posts": 34,
+        "engagement": 20437213,
+        "platform": "ig",
+        "followers": 179121316,
+        "avgEr": 0.003355795465459845
       },
       {
         "name": "fcbarcelona",
-        "posts": 21,
-        "engagement": 11832621,
+        "posts": 27,
+        "engagement": 16460037,
         "platform": "ig",
         "followers": 145911174,
-        "avgEr": 0.0038616517666915824
+        "avgEr": 0.004178096737128577
       },
       {
         "name": "thv",
@@ -425,28 +440,28 @@
         "avgEr": 0.07750717195324128
       },
       {
+        "name": "championsleague",
+        "posts": 24,
+        "engagement": 8297638,
+        "platform": "ig",
+        "followers": 119438388,
+        "avgEr": 0.003599707424652003
+      },
+      {
         "name": "manutd",
-        "posts": 60,
-        "engagement": 7923622,
+        "posts": 56,
+        "engagement": 7656535,
         "platform": "ig",
         "followers": 65804371,
-        "avgEr": 0.00200686689503544
+        "avgEr": 0.00207773187719877
       },
       {
         "name": "psg",
-        "posts": 25,
-        "engagement": 7798141,
+        "posts": 24,
+        "engagement": 7115795,
         "platform": "ig",
         "followers": 66789844,
-        "avgEr": 0.004670255555620103
-      },
-      {
-        "name": "championsleague",
-        "posts": 20,
-        "engagement": 7651973,
-        "platform": "ig",
-        "followers": 119438388,
-        "avgEr": 0.004385693095429601
+        "avgEr": 0.004439169798530047
       },
       {
         "name": "arianagrande",
@@ -465,12 +480,12 @@
         "avgEr": 0.0508439050360334
       },
       {
-        "name": "georginagio",
-        "posts": 2,
-        "engagement": 5722841,
+        "name": "kyliejenner",
+        "posts": 6,
+        "engagement": 6540551,
         "platform": "ig",
-        "followers": 74976167,
-        "avgEr": 0.038164400962241773
+        "followers": 381933270,
+        "avgEr": 0.002854142121039451
       }
     ],
     "posts": [
@@ -528,22 +543,6 @@
       },
       {
         "platform": "ig",
-        "author": "emmagaleotti",
-        "time": "2026-07-07T16:31:43Z",
-        "text": "#adv Questo video è per voi, ossessionati di pasta al pesto: vi ho portato con me nell’ultima tappa della Via del Pesto, dove la tradizione romana si è incontrata con il pesto @barillaitalia #BarillaItalia #BasilBar",
-        "engagement": 1338,
-        "engagementRate": 0.004468072317319958,
-        "sentiment": "neg",
-        "hashtags": [
-          "adv",
-          "barillaitalia",
-          "basilbar"
-        ],
-        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/733977239_18114114398512384_5472323011742798521_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=110&ig_cache_key=MzkzNjExNTY0NDUyMzkxOTgzMzE4MTE0MTE0Mzk1NTEyMzg0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=pBlpwpsEoE8Q7kNvwE4sRFL&_nc_oc=AdpBaoum1s6AJFiQGnKSNpFRNWj1vvGidHerfuZySLCoh8mwtw3nyDs9UHZoaISeaLaw7Rs-fa3ZoTpw1rvUxr9r&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=tLklQ2YwQiwZgFitkwXs2w&_nc_ss=7a3ba&oh=00_AQD3BVWeAiAdFDacpOdU__XwQZtmzmjSxUM2N88vZJQdSA&oe=6A5B6563",
-        "url": "https://www.instagram.com/reel/3936115644523919833/"
-      },
-      {
-        "platform": "ig",
         "author": "wweitalia",
         "time": "2026-07-08T13:05:36Z",
         "text": "👈🍕 Pizza o Pasta 🍝👉",
@@ -565,24 +564,6 @@
         "hashtags": [],
         "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/744316808_18450373108187480_7401354843542016195_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=106&ig_cache_key=MzkzODkwMjk5MDY0Mzc3ODA4OTE4NDUwMzczMTA1MTg3NDgw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=0OgQz2tjZcMQ7kNvwFOQhNX&_nc_oc=AdpNUgRmK58L4a6JzLWfiW1G9iIbULJ26tB51lFsao389Z4oocLK8iOyiAMwe35FRWAwQXaHZ3RMPBCBd6rnsTmI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=5Kfhx8km6UcbGBasgBZX3g&_nc_ss=7a3ba&oh=00_AQB1ju9TDLpeGNHronXdoPgQhw2OvtRRb7IaMiHP5s5l3w&oe=6A5B7518",
         "url": "https://www.instagram.com/reel/3938902990643778089/"
-      },
-      {
-        "platform": "ig",
-        "author": "yourtuscanprivatechef",
-        "time": "2026-07-07T18:04:14Z",
-        "text": "🇮🇹\nCi sono viaggi che iniziano con un ingrediente e finiscono in un piatto capace di raccontare mondi lontani.\nQuesta volta la Toscana incontra l’Oriente con spaghetti di riso, verdure tagliate secondo il metodo ayurvedico, straccetti di pollo, sal",
-        "engagement": 38812,
-        "engagementRate": 0.8358890420399724,
-        "sentiment": "pos",
-        "hashtags": [
-          "yourtuscanprivatechef",
-          "yosukata",
-          "wok",
-          "carbonsteelwok",
-          "asiancuisine"
-        ],
-        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.71878-15/731541149_1519077186332309_8359272450227672331_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=109&ig_cache_key=MzkzNjE2NDU3NTAwNTk0MDczNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=3bBltCNxdOoQ7kNvwEu7qBl&_nc_oc=AdosxCLtJHPJcaEmuwc-DRnoQL6-A2pShr86cpQkXYLC5eVKud0sHvcx54iw4Vtra9CV8fLO0JMduJ7xBOy72wnr&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=zezyQNAVwJ7s8xXbG2DKJw&_nc_ss=7a3ba&oh=00_AQDCnoKyIUf6g6tQ_8nE06V7jRN3OvNU5SLLHmoDZ8UJXw&oe=6A5B9C97",
-        "url": "https://www.instagram.com/reel/3936164575005940736/"
       },
       {
         "platform": "ig",
@@ -779,6 +760,24 @@
         ],
         "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/742997771_18610796713055167_3175925884601417638_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=104&ig_cache_key=MzkzOTU0NTI5MjM2MTY1NjgxODE4NjEwNzk2NzA3MDU1MTY3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjgyOC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=tVzpdqwHJdMQ7kNvwFuR7Ou&_nc_oc=AdqeARk9gJrg8QI3T2Nt3Es1pKHRAJRYr7aePlaq4cdCQ_KkxRu_lkQ_BHqlFuZlIG9_1nuUJ6THr-GPZHfyUuOy&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=32YqbNyn_DOdMS74qnVELA&_nc_ss=7a3ba&oh=00_AQDOugEf-cO_-iXReJr_f3JMNDsjECFf94uF1IR1adI-Jg&oe=6A5B77A8",
         "url": "https://www.instagram.com/reel/3939545292361656818/"
+      },
+      {
+        "platform": "ig",
+        "author": "laricettaveg",
+        "time": "2026-07-09T06:46:08Z",
+        "text": "{ Ti lascio la ricetta! ⤵️ }\n\nSoda spontanea di lamponi e kiwi 🥰\n\nUna volta che scoprirai le bevande a fermentazione naturale non comprerai più le bibite del supermercato! Questa è la mia versione, la proverai? È naturalmente frizzante, probiotica e",
+        "engagement": 25888,
+        "engagementRate": 0.15268922481671748,
+        "sentiment": "pos",
+        "hashtags": [
+          "laricettaveg",
+          "fermentati",
+          "ricettafacile",
+          "ricettaveloce",
+          "veganfood"
+        ],
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/740859317_18447751783188128_8736454139163591734_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=103&ig_cache_key=MzkzNzI3MTkzMDgzNjU0OTQ0ODE4NDQ3NzUxNzgwMTg4MTI4.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=CDHrNrGyPNYQ7kNvwEDHoJx&_nc_oc=Ado0hivCE_cvdAh-RaAlTbD-cJteD_YMy9HrsDvPdEmhu7yRDvUQpNMqHVo-wFK4jXAZIPZwUABjOW7XCCz44aO7&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=-d3Y2Xkju0paZ2HKP0Iovw&_nc_ss=7a3ba&oh=00_AQDO6h9HIKcS5cnoTHHg0nDIS1VYz1mKfnxtyJYR4zyAmg&oe=6A5B927E",
+        "url": "https://www.instagram.com/reel/3937271930836549448/"
       },
       {
         "platform": "tt",
@@ -1333,13 +1332,6 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fZjlMR1o3azJPcUJtOVI4UDhxTGtDcUJQaGplN0pfTVNsNjJwbGUzM0cwdTlYU1BWWU1XWTBtX3l4bTV2U0xPankyMW1NeHdLeDlnQmEtb3BLZ3VwcGFTbg?oc=5\" target=\"_blan"
     },
     {
-      "title": "E con cosa cucinate la pasta? Barilla ha la sua playlist su Spotify. - Letem světem Applem",
-      "source": "Letem světem Applem",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPODZqa2o0dEFtaWxrVFpZb1loMnZJUkg4U3pNcEJXbm9qV2lkcnFyd1pkLU0ybGlHbHJPNFNxRmdKZTdsRl9ZUkIzRk85a3JVZVVYTGhOZ054XzAxX3JRNEl2eDVDWnRVS0ZZS25tMlJlTl8wT0FJekQzVEZzLTFKbkNHbGR5YXMxby1XY3dBQi1XZl91cEtYSHZQM3QtSHd2T3R3R0lHVmRfbmdQRlctRFdtbkRBRms?oc=5",
-      "date": "2026-07-05T10:04:04.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPODZqa2o0dEFtaWxrVFpZb1loMnZJUkg4U3pNcEJXbm9qV2lkcnFyd1pkLU0ybGlHbHJPNFNxRmdKZTdsRl9ZUkIzRk85a3JVZVVYTGhOZ054XzAxX3JRNEl2eDVDWnRVS0ZZS25tMl"
-    },
-    {
       "title": "F.1 PAOLO BARILLA Dal piatto di pasta al tifo per Antonelli la comunicazione universale del circus - RMC Motori",
       "source": "RMC Motori",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdzJUOXRwQTZwdG9IUXJnUTNlZElXNWx3T1pTSzA3MEV1d3cxZVU5enpweFlOdjBhS3RfRFlWUlBPMUt6ZHp6QmM4cEFWXzdLRWdmU1c1V3J4M1VlSTJGQm1UTzJFVE9YaWc1R1NQT1ZTTUVtdVpKeWxFbmJ3RnRQaUFIbkYteXdiZUh3UHRUNDFkSFRIaDY3MUJSZE01STdZcThHVmtsMTZ3d2dxZHBoTEZuUXAyRk1YYlM0c29YY2IzR3QyS1ZB?oc=5",
@@ -1438,6 +1430,13 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxOaDdQTUZiSll2OXB3ZDNtN2dIQ19ELVR4MTlPMnpwN1piU2o1Xzd6TGJjWHpfV3J6RHdOSnFGWXhnLW9uMW1UcDNTWmhXNXVFUGVnYWZ2b0N6bUhESTBXY0JvZUNoSEdNR0JlNjdWZV"
     },
     {
+      "title": "Barilla, dalla semola ai motori - Auto Tecnica",
+      "source": "Auto Tecnica",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1nb0VMUGo5cUwtZkNXbXlmRU5Nc2lpYVNqVUVuc3pQTmlKeTkxTU5ZZDlfN2V1UC1ZRnpyalRBRlpWcW93MGJVTXJqOVp5TDhMMWx4c2pNTERSQklFTFd5QzBRV3BZWEZRLXdMWE8xOWNzVHFZ?oc=5",
+      "date": "2026-04-22T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE1nb0VMUGo5cUwtZkNXbXlmRU5Nc2lpYVNqVUVuc3pQTmlKeTkxTU5ZZDlfN2V1UC1ZRnpyalRBRlpWcW93MGJVTXJqOVp5TDhMMWx4c2pNTERSQklFTFd5QzBRV3BZWEZRLXdMWE8xOW"
+    },
+    {
       "title": "Barilla dedica alla Formula 1 una nuova pasta - Sportmediaset",
       "source": "Sportmediaset",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSXBvSjdKTFhHeUhob1NqR05wZ2RRbjN5Tl94ZVlqT0w3YjNfX1l5SGYta1FsS3NRTGxIWFRfUUFHeUotYUFrOWhDZFpmWmM1ODE4U2ptN2MwUGwtWHM4cmhnR1hHZm5YcExSNF9odTJxcE5TWTZ2Q1EwU1laRVNXdXZ4NlExVTRqczRMSHltOXZCNVVfRHVZMldOaURuTjM5Y1RxanIzeG05NXVISnZkSXRfVkFsNmfSAXhBVV95cUxOTkdzVWYxNlJUWWdfVGNHbXVWS2dua0xxOEl0S1l3WXZHWVpWU2RVRFdQcVlQNnJrb1E0Y0lZTUJWeXY5UzI1QnE4XzlCblRKZEJMZlNuTE9zLUltYUNTNlg2UjY1RDJzMXh2Njluay0ybGN6WUpSVG0?oc=5",
@@ -1473,8 +1472,8 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVFJwd2hQTG1DUVlVWHJpSnFLaU9pRzN5MlZLdmpBeTc0M0ZoamVSWDZrN3VSQkh1eG5jRDRJYzBqTkdwNDctWU5JTjZ6a1VYN3BTTW5oNUxOUXhyWERTbkFEekpQTkk5SGpxRzVsaG"
     },
     {
-      "title": "Come nascono i nuovi formati di pasta Barilla? Il lungo percorso dall'idea allo scaffale - Vanity Fair Italia",
-      "source": "Vanity Fair Italia",
+      "title": "Come nascono i nuovi formati di pasta Barilla? Il lungo percorso dall'idea allo scaffale - vanityfair.it",
+      "source": "vanityfair.it",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE45Zncxa0ZfTXM3YTRWSTEyRllaWUljSjlKTkYzRng2NkVFREtZLXBCVUY4aFNQVmFzQ2tkU3NOc1BxNF9hbHlucURBYWM3czFkV2ZOckdEcG5jRThpOXJhMjk4WXFBNWNSTXlHYmc4YUNNMWYwa2paWWtR?oc=5",
       "date": "2026-01-09T08:00:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE45Zncxa0ZfTXM3YTRWSTEyRllaWUljSjlKTkYzRng2NkVFREtZLXBCVUY4aFNQVmFzQ2tkU3NOc1BxNF9hbHlucURBYWM3czFkV2ZOckdEcG5jRThpOXJhMjk4WXFBNWNSTXlHYmc4YU"
@@ -1949,9 +1948,9 @@
     {
       "name": "Garofalo",
       "mentions": 2,
-      "socialMentions": 12,
-      "totalMentions": 14,
-      "shareOfVoice": 27.5,
+      "socialMentions": 11,
+      "totalMentions": 13,
+      "shareOfVoice": 26,
       "posts": [
         {
           "type": "news",
@@ -2061,16 +2060,6 @@
         },
         {
           "type": "social",
-          "platform": "yt",
-          "author": "CorrieredellaSera",
-          "text": "Intervista al numero uno dell'Ateneo per l'edizione 2026 della guida Universo Università e Formazione \n\n Guarda il video su Corriere: https://video.corrieredelmezzogiorno.corriere.it/universita-parthenope-il-rettore-garofalo-rispondiamo-alle-esigenze",
-          "engagement": 7,
-          "date": "2026-07-07T16:07:39Z",
-          "url": "https://www.youtube.com/watch?v=RH2KSivp3lY",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
           "platform": "ig",
           "author": "pastagarofaloit",
           "text": "Roma, Milano e Napoli stanno per ospitare un evento straordinario, strabuono e strasano: STRAPASTA ACTIVE CLUB!\n\n🗓️Il tour dove nutrizione, allenamento e il gusto Strapasta Garofalo diventano gli alleati per il tuo benessere, dal workout alla tavola",
@@ -2096,7 +2085,7 @@
       "mentions": 10,
       "socialMentions": 0,
       "totalMentions": 10,
-      "shareOfVoice": 19.6,
+      "shareOfVoice": 20,
       "posts": [
         {
           "type": "news",
@@ -2111,14 +2100,14 @@
           "title": "La pasta in 3D che reinventa l’aperitivo - TeatroNaturale.it",
           "source": "TEATRONATURALE.IT",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZjV4ZnphTTd6d2pFM1ZOUHpCRWZjTlRHN2VPZkNUNkR4ODFqLUdhQjlhZHh4ay1zYTlzTzRIUlJFX3dxTlFDVzB1VVVjX3JfUnU0NHlMbDc4RXU3Y09TY2xPNnNQbmdtODVZaDB2UHNURjhNY2hKejRMczg1X0oxaS1tNU9XWjFKWFZXclVsekJCWmlYQzVHZTg4VFk4SEFl?oc=5",
-          "date": "2026-07-10T15:03:48.000Z",
+          "date": "2026-07-10T15:00:00.000Z",
           "brand": "Barilla"
         },
         {
           "type": "news",
           "title": "Napolina, la pasta in UK cotta e mangiata - EFA News - European Food Agency",
           "source": "EFA NEWS - EUROPEAN FOOD AGENCY",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQekJCUkY5RmlCbkhtVUxuaHRXQ0FYcVA4SkQ3S0FPclcwcGIzM2NVdTBmQkhtS2YzNUtpY2lhbHBSNzctcm11OGZqeVdFWl9ocUZpSVNsby1qWnpDM2NlanFxOU9NTXhHeHBmZVpYNHV2eXIzZXpLV0JqTFZ1OHEwTTBYbUpqZw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNU3JWUDEwWGJmWWxaNHpfMjZDSVhmNG9FRk5GRUdvekZHYXMtZ082UkFqNmlyNG5rNzNtdEVZdGw5aUFraFktak5jTEJyTWF4OEd6SEMxOGVvdHVrVlVCY180S2tnVUN4anBpNTctdHBKSHR0MUgwandndjlhMGRoaXF5SV9uZ2RSYVBxVklYNk84QQ?oc=5",
           "date": "2026-07-13T09:31:00.000Z",
           "brand": "Barilla"
         },
@@ -2148,10 +2137,10 @@
         },
         {
           "type": "news",
-          "title": "A Parigi il Premio internazionale \"Paris Grand PRIX\" a cura della Fondazione Costanza. Esposizione di arte contemporanea dal 7 al 10 luglio - InfoOggi",
-          "source": "INFOOGGI",
-          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNSzk2Sk1iUGY5WldQclZOd3o2UmE2WE16dHkwcmZpbVhmMk9yU1d1SVJsNmdQdDFuZVpmdmZZMmM4ZkJuSVNtQm9zYU96cUdTSTRJUjN2bXp0cXl6T2lKSk9PNzhaWWR6d2hJYVo0NWxTNEJBaVdaVnFHalUwSUxCTy1fLXhmYTROVlpBSmVHRDcyYjNRUzBXNXRVTkY2bDc1M3Axc095WUNtUkx6YzMybWVkck5US3JfTUczd3h2cmd1YTVUdC1RUk1iV1FHZjNsT2xMSWxrNW5zTThNVHZ3SVFLaEpzLVUyU2N0RzEzUnNhSkN6NkNXY1pwaDEzRXJqelh4OHpFONIBjAJBVV95cUxPVWpNRkFPUVI1LU9EWDZYQ2hJTkxZdHhvaHlmaWFWd01OYnhlOXRvcWxsQ3RsRVpTZ3EwZE5HVmtuS2NHNkFzR0NpVmNJRnFZUENXTmpMdzVNNHpEdXF5V0t3cjdRU0gtbWs2a00ycThIN0hkQ3VobWJvN045VWhNbEo3STd5Q0tSZG9wcHY0RmtWQ0dOYklzYmhWeWYtbXZBZmwyeVJnN1R4NXFPUXVzSjA4djlPc3RZUkgwMGFaMDEzWkx6dUFXeGJFSlZQcVo0WjdsUm5vU3Y3YnpqWDgwWUNQMWo4RGRuYW9RXzdOQTRCYlp0VnFfeHhlYjlCbXFwcHVsLXVPYmxoX3Nh?oc=5",
-          "date": "2026-07-07T17:20:47.000Z",
+          "title": "Addio a Daniele Fagiolini, lo chef toscano morto a 61 anni - Piemonte Sport",
+          "source": "PIEMONTE SPORT",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxObnFzWWlCUURkVGZKdTdEQ0QzZHVtaUF1T29TS2hLaWNSTkRDbXhPcFZqWlZ3MHJoYWg0YkZlakl2Vk1ld29QMkpIVFZQZHhTdWRfbVVrRUNseGpRZWozWDNuMHNkV0NkaEVLNGEyODkxczd3RDJRdWdVWWFCSWJkZFcwSFVjcVZScE9WTl9hNnI2ZWFraXlwWS1vNTdXUQ?oc=5",
+          "date": "2026-07-14T15:00:05.000Z",
           "brand": "Barilla"
         },
         {
@@ -2185,7 +2174,7 @@
       "mentions": 6,
       "socialMentions": 4,
       "totalMentions": 10,
-      "shareOfVoice": 19.6,
+      "shareOfVoice": 20,
       "posts": [
         {
           "type": "news",
@@ -2199,7 +2188,7 @@
           "type": "news",
           "title": "Napolina, la pasta in UK cotta e mangiata - EFA News - European Food Agency",
           "source": "EFA NEWS - EUROPEAN FOOD AGENCY",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQekJCUkY5RmlCbkhtVUxuaHRXQ0FYcVA4SkQ3S0FPclcwcGIzM2NVdTBmQkhtS2YzNUtpY2lhbHBSNzctcm11OGZqeVdFWl9ocUZpSVNsby1qWnpDM2NlanFxOU9NTXhHeHBmZVpYNHV2eXIzZXpLV0JqTFZ1OHEwTTBYbUpqZw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNU3JWUDEwWGJmWWxaNHpfMjZDSVhmNG9FRk5GRUdvekZHYXMtZ082UkFqNmlyNG5rNzNtdEVZdGw5aUFraFktak5jTEJyTWF4OEd6SEMxOGVvdHVrVlVCY180S2tnVUN4anBpNTctdHBKSHR0MUgwandndjlhMGRoaXF5SV9uZ2RSYVBxVklYNk84QQ?oc=5",
           "date": "2026-07-13T09:31:00.000Z",
           "brand": "De Cecco"
         },
@@ -2282,7 +2271,7 @@
       "mentions": 9,
       "socialMentions": 0,
       "totalMentions": 9,
-      "shareOfVoice": 17.6,
+      "shareOfVoice": 18,
       "posts": [
         {
           "type": "news",
@@ -2318,34 +2307,34 @@
         },
         {
           "type": "news",
-          "title": "Premio Berto 2026: scelta la cinquina finalista. Appuntamento il 5 settembre a Capo Vaticano per la proclamazione del vincitore - InfoOggi",
+          "title": "Floriano Noto eletto vicepresidente della Lega Serie B - InfoOggi",
           "source": "INFOOGGI",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNR191UC0wUVVlV1huNUREY01fY3VQRDZoMndCODhfVEpNTGoyWGF3ZU1XbWlEdmVVTk5TY3RRYWx5MGEyMnJ6RmNPMmNoLTh4V3JfQnJadlNnZmZjeTRkNzVhVG5UanZuN29uMUJEblZiX05yZEVlTEFVX0IzX2EzSUg3dWdxWTAtOGczdGpGcEZVaFBmQlNQUFhiNFp2alV2OTZ1ckdBdU5fd1BYODI1V0pydWhjNUtTVW92UF9FNVd6T1VybDZ4V1NNQXZTN0JQaWRfOVRJVGZkaVZJWVNYME5BUFJYU2k2T0RjanFCaWQzZUFhUHMtcNIB_gFBVV95cUxNbjRHZDJ2c2FDY0lIZXRyeWhMbktyVE50S0pDY1o1cW9LUU9uM0dmdUFTTER0TWpoSFdkbjdkcXB5am1sWU51Z0UwSU4yS3RFbUhDdF9LXzk0RV9rXzI0UkNsSzBEYU1CZnVWNGlZVnBObDB6d0ZWbGpSQjdvakwxRXhhU2JGRjBtZTN3Wmc2TDZFOUtWd1IzaUlqLUhNNmFOQWpQZ1Q2aElHX0ROT0tpNnNKS2wtYnNkMWswYnF3ZlhjMG90dkNYcmg0Zmd2Wl9wTXBXQlpzU0ViWlpJanpKUC0xWFNKYWJJMTEzYTQ0STFEZVRlQWpqN0M2MXRkQQ?oc=5",
-          "date": "2026-07-11T12:13:12.000Z",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNQ25La3JlYTJHOHh1ajljN1BRR3dYcnhqUk5JT0E4cW82TUg2Yks5NXFHNTNmSkFLVlZMbmRJN1JFaWxzUHVoaHpsMmxvTU9fdWgxcnRaSVdmbWZTTFlhLUVyRGJVa3BSZkMzWDMtdkttSFU3T1gzRUlvdHZncGhXZl9DWUFIaUxtcFNoX2hLNmRpSlhPOWFQZ3FUZW5oWHZfaWs1aW5fTV9PSy1iTnRRSW9BZE9tUTRhMGItWFpGRlFlYVZvVFFVQ1AwQWxOUmVZcXhuZG1NUTlFa1daNnNRMFhPTGpVbWJmQ01GZHd5U2dlb3ZRN0Y4NHlGd9IBgAJBVV95cUxQUm1QLVdZUmdoeFhFN1lLZC1mdEthVTJWRTFBQk5xRDdpeHgtajZ6dTFBMjRlZHpQR0ZzdFU3bW5SSDFZR0NnTFBsTk5kdzJ5TTdpaHdZYVQ5UFA2OFk1TGtmaTU4WEFjN1ltWmltMkxidTdTUWptbUtGUVRXbzBISlIwWE9OeTVRaWFzWmtyWEZkcjdUU0pRYjJ1S0YtMjktLVVvN2hKNTJoSW5sZmxTVzZGNkNKaXk5QktBRTFvTThmNWRRV21BUk8yZWdDQk9fNWtaeDlsMnhiNEZQclEzbDhSejhBeWNsNk90eWxlUjU5ZWtSUGxPbFQ4bXdKTUps?oc=5",
+          "date": "2026-07-08T15:23:17.000Z",
           "brand": "La Molisana"
         },
         {
           "type": "news",
-          "title": "Chaminade, un modello con tappe e basi concrete. Il punto del team manager Ialenti - InfoOggi",
-          "source": "INFOOGGI",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNazFIcjlvY3hvMHF3XzRTbzZpZE9CX0J2OFFGLWdwa0RoekJvelFIYjVtLURQZWFOdHV0bHh2WTYtbkprVTRMMTZVQnU0RHZOYlR5NXdNNW4wYXVuNVV0YWYtT2paRWNNcnhkdnhyZ2dhYUxjVlRtZVVuLUVwWWpCbjlKLTRfTGdQVFZ3TXdGSmlmcmJKNExyR1NoX01Ya0p0cEM5ZTJwS1IwVHNQYjVOc0JUeDlqNlNTSndNbdIBwgFBVV95cUxPYlR2Y25nd1BpVkREZ0FqY29rOG1rZXRiR3JvQ1M0WnA4ZkxSR05leWJKeU5jZzVCMWlnZFZMTXJiX2RYX3R1dWFieTU2bnNIVzdGTzNGVkd2X1pLTUU3b1BhNzhPRjVNbU9SbUNNSGlORENBVlEzektKa1NaZlRMd01Ua2c1ZUc2TVlaQnhudVI2Xy1Yc2lUN2xvbHQ0VlBQQ3AwY3U1RllwalRCV21QaThuamRlT2RWQmtpRzRSbm8xUQ?oc=5",
-          "date": "2026-07-10T12:49:34.000Z",
+          "title": "Volantino Carrefour Iper dal 13 luglio 2026 - Anteprima Volantino",
+          "source": "ANTEPRIMA VOLANTINO",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMjJQMThHbGpOYjlON1ZlVExPWE90U1dyMEtKSkJxV1lKcHdDZFFBcHJQMV93YmtBVkVWOEZ1WmhKVy1Tc19XV2tuLWtaNVhQeFh0aExrRFlqNDlVU1ZwY1FMX004QktnS21zUGk5Qk9BaEJHbG5wRmNOb0Jlb3Z3aV80VkhlNjhNTV84aXNn?oc=5",
+          "date": "2026-07-08T10:19:29.000Z",
           "brand": "La Molisana"
         },
         {
           "type": "news",
-          "title": "Terza corsia A18, Fillea Cgil Sicilia e Catania: “Opera indispensabile ma senza programmazione sarà il caos e la viabilità rischia il collasso” - InfoOggi",
+          "title": "Marcellinara protagonista del turismo lento. Il Sindaco: “l'Istmo opportunità di sviluppo per tutto il territorio” - InfoOggi",
           "source": "INFOOGGI",
-          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxObnBjalFoQzY0Q2VacDk5MmF5MVVENm1ZZkNvQXpmeW9KODBsM3pVRnBiSVhmUEdlSGNqWExyaHRFVTRoV21LTTRoVGZETnlUS0VaMkxjTWUxU1BuUGtwUkxmVEJrYkxBMjdZUkhWV1ZxSFRSNXBoVUUtTUxiVUxRUXFCdk5UYmNaQ2Z4a1R4YUl2bHNNb0h4RVI5TlZVdFZ4OFpmN1lnT3U3bFFzRHlhWXZvbjdZbldvUHE4UUZwdkVHMFJzcHRJa3FZWWM3Nk5wQzV2WlJYS0ItSFYtcm92ZWpWOXAyTHBXUU9SNDBkaFhmSUZZa1Iya3pTWW9WVjZxS29ZZDIxU1HSAY4CQVVfeXFMUGhUTWZVQVpKWUhjYXl1VEl4bDctc1RPbHNOM2N3YURvUi1xNU11VmZseE5jNURQS09yNkZxZDVtT0ZNeDY5VTJDc3NxdEVYWHhwSGJHTUYyMTJOSDdLMTBBV1dINFJNY2s5S1RrSzRrRUJ4T1lvVHRVRW5VVERSZUJwaU1QQ2NtaUtwQ3hHc196S0pHMnpUcXl2OS1ZdlhESWtHS2UzYWRsMDhjY3Y3TkVaOHk5T0ZsTmpxV2pzVWhnSDFldVVvRDlQMXhwYmNGUnVmTGk0T2NoZ3dxZHNtQ3dJZ1k5OUY2VGU2SG5tbEpkVnlqOTNxWklZWklaZ0pxelY2a25QOS05ZHBkdGVn?oc=5",
-          "date": "2026-07-10T12:38:50.000Z",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMVQ5WmVCMmZ2bkplemlwdU8yMlRYLUNIQlN0ejZ6TERCSDU5OUUxOTRpZV9zdGJxYmFhVHhzNGk4R0NLV1hzdDNCRjR0Zk5Ra3BuRVdmaUVOZDk4ZEhGQk5CYVJiNTR6UndWdzNKNDhDM0hZUndnU1l2U2tCY1ZnS0lremhuck9OSFE3UkJGcUlONDN1V3NJdm96blQxRzdBaWVmZnZWU0R0OHJMTG9OdXhuYW80X0VEUncwYnp5SUpUbHAtZGVuVDVKc2tzYzkwd3VFWm01R1pULThuUlhkR0dVVdIB6AFBVV95cUxQSnl3ZWU1QVVXS1ZMTEF5UWJLVXVKTEpPTHkxb3k0X2o3N2NPR3FuV2sxVzg5cHktTXFYamtkUXVpRW5LcTJEYUFWbmpUVmIzOHc5a29XUkEwdGgwX0hrcXd0TUpfRVhmdl9JbFlUNVY3RmFIR0FjUExPZ0Z2STAzSTFhd2dWM3UzdGZqM0MxcXZESmxrd3dicVdNWk9sRy1pdVVBT2NJNzVxNTUySGhvOVBRcUdQdEJLWXRHWFotTkNlb0s3bVlVcVpCSHlRcmZaOGVBZ3Z3Nk5KWndjYWZrNm5sZkwzTE53?oc=5",
+          "date": "2026-07-11T12:04:53.000Z",
           "brand": "La Molisana"
         },
         {
           "type": "news",
-          "title": "Hatha Yin Yoga sotto le stelle all’Arco Azzurro di Mongerbino, con Rosbri Sanfilippo e Giuseppe La Barbera - InfoOggi",
+          "title": "Prezzo del petrolio oggi stabile, il WTI resta a 72 dollari mentre il gas scende sotto i 50 euro - InfoOggi",
           "source": "INFOOGGI",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNmduX1Q4cUFhUEo0UzQyN3pjZzZjM01PZWZLV3lLMjE3U0gxTDlZTzhaM3lQd2JrRTFPUzNsZkh6dVR3SVVDVno4a2tGVVVPOTlKZVgwcFhUSnZDRjE0SG1WQURVSXR5Z3hCQkV2MnQ2eWlEVmFCV3hGRHFLUkNMYWxOVW9BcTNhcEJWbzdlR2pEN1RudGxBVXRXWklPN1NlcGUtMmdaWjc0RFFfTkd0UU10bzFsV0JfVjJ6eGVLeEVDbjdpRGJkZWRPUmlHMmZwZFNDSHViajZwMEk3T0HSAeMBQVVfeXFMTzNnaXA2MmRvVE9CLVJUd0Y3Z0UwQXlYandtYVZsV2t6TUxaUGRDZXM4Y1pFZWhXTXNUenZ3Z2pXa2Vqa25UN01pdDRsSmktU0J0b2w3U213amtpVHBLcFR5djRRTjBBYzhIVXVkaFdyc0RFM1E3NnF6dU42WTUydEhrUEhPb0JhMGl1dWJuN2d0bkpJS2g4SkJST1dZU3Z0dlN1X0cwZjg4LWFvMnNoZ19RUDJ4bnk0NTA2azhRcXRaaDZDdzN5ZFZfWnJRSEhnaWVGT3IyeW05RmRRU2M3endWNkk?oc=5",
-          "date": "2026-07-08T17:08:27.000Z",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdE1nbVoybkNZWTNwMGhPTVB2eUtwTHhybW5RbjlUblZPYndhQXVNWFNNcUxBR3FlbjZPNjg1LTZweVVZbi1qUzlPdk1ERVN2c1M0RTQxMDFoOVVkZkVjTm9Zb1lyWWl2R0xMa2F6dmFUYVlEWWR2U09yX0xKeDVyU2JIOWVQdkRuSkNUd2hwUnhFSnV4MDl6TlFhUTQ4MTJSS0lNXzJxWWdIRWQwamRndzlVNW1iUUhkNVNGeEk2QzlQcF9VLWpBR0VmMTZfTHlj0gHWAUFVX3lxTE83bTc2WkhveHVVM3JBeWJibHRwQ3ZuX2pXXzBGVExKblVyYWwxNzRzenZMd1ZZU0tqcjFJU0hLcjdrWjZaemt2T2Y5T2EzRUZTMUpvSkxwZVJFSnlBTDVoakFCSGl5akNibXk5TldmcWR5TEk3MEl4eUh2VExSa01URXBBSjhvMW5mODlSOWlxOThwRGlxTXlTNmZ0SGVlYXhkMDZYanQ5LUJMTnVzVXpRQTVxVkV4QzN5bHI2TGlTekFyOEU2dWxmT1U1OWg0Wkc1bW00bEE?oc=5",
+          "date": "2026-07-10T06:39:09.000Z",
           "brand": "La Molisana"
         },
         {
@@ -2363,7 +2352,7 @@
       "mentions": 1,
       "socialMentions": 2,
       "totalMentions": 3,
-      "shareOfVoice": 5.9,
+      "shareOfVoice": 6,
       "posts": [
         {
           "type": "news",
@@ -2400,7 +2389,7 @@
       "mentions": 0,
       "socialMentions": 3,
       "totalMentions": 3,
-      "shareOfVoice": 5.9,
+      "shareOfVoice": 6,
       "posts": [
         {
           "type": "social",
@@ -2439,7 +2428,7 @@
       "mentions": 0,
       "socialMentions": 2,
       "totalMentions": 2,
-      "shareOfVoice": 3.9,
+      "shareOfVoice": 4,
       "posts": [
         {
           "type": "social",
