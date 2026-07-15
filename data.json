@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-15T08:08:04.536Z",
+    "generatedAt": "2026-07-15T13:41:29.974Z",
     "pipelineVersion": "1.0.0",
     "sources": {
       "opensearch": true,
@@ -9,19 +9,19 @@
       "claude": false,
       "competitors": true
     },
-    "processingTimeMs": 4869
+    "processingTimeMs": 4657
   },
   "social": {
     "overview": {
-      "totalPosts": 225688,
-      "prevTotalPosts": 256632,
-      "volumeChange": -12.1,
-      "mentions24h": 19781,
-      "totalEngagement": 938020955,
-      "avgEngagementRate": 0.009382256483997996,
-      "erChange": -22.4,
+      "totalPosts": 224434,
+      "prevTotalPosts": 256216,
+      "volumeChange": -12.4,
+      "mentions24h": 20021,
+      "totalEngagement": 902486346,
+      "avgEngagementRate": 0.009234342593043244,
+      "erChange": -23.6,
       "organicPct": 98,
-      "sponsoredCount": 4934
+      "sponsoredCount": 4728
     },
     "brandHealth": {
       "score": 79,
@@ -29,12 +29,12 @@
       "dimensions": [
         {
           "name": "Sentiment",
-          "score": 69,
+          "score": 68,
           "color": "#00e676"
         },
         {
           "name": "Engagement",
-          "score": 47,
+          "score": 46,
           "color": "#3ba4ff"
         },
         {
@@ -70,315 +70,305 @@
       ]
     },
     "sentiment": {
-      "netScore": 50,
-      "positive": 59,
+      "netScore": 48,
+      "positive": 58,
       "neutral": 32,
-      "negative": 9
+      "negative": 10
     },
     "platforms": [
       {
         "name": "tt",
-        "count": 120413,
-        "pctOfTotal": 53.4
+        "count": 120356,
+        "pctOfTotal": 53.6
       },
       {
         "name": "ig",
-        "count": 96233,
-        "pctOfTotal": 42.6
+        "count": 94935,
+        "pctOfTotal": 42.3
       },
       {
         "name": "yt",
-        "count": 9042,
-        "pctOfTotal": 4
+        "count": 9143,
+        "pctOfTotal": 4.1
       }
     ],
     "dailyVolume": [
       {
         "date": "2026-07-08T00:00:00.000Z",
-        "count": 32120,
-        "engagement": 159766296,
-        "avgEr": 0.01216616793809912
+        "count": 18971,
+        "engagement": 113363539,
+        "avgEr": 0.012052218715059146
       },
       {
         "date": "2026-07-09T00:00:00.000Z",
-        "count": 37421,
-        "engagement": 164945036,
-        "avgEr": 0.010669983138112897
+        "count": 37422,
+        "engagement": 165127368,
+        "avgEr": 0.010767965600234079
       },
       {
         "date": "2026-07-10T00:00:00.000Z",
-        "count": 37290,
-        "engagement": 156364399,
-        "avgEr": 0.010335431959648131
+        "count": 37289,
+        "engagement": 156622761,
+        "avgEr": 0.010470136078579835
       },
       {
         "date": "2026-07-11T00:00:00.000Z",
         "count": 32370,
-        "engagement": 118026681,
-        "avgEr": 0.009274755667864973
+        "engagement": 118387190,
+        "avgEr": 0.009495382695743567
       },
       {
         "date": "2026-07-12T00:00:00.000Z",
         "count": 29445,
-        "engagement": 134589243,
-        "avgEr": 0.009498947033677266
+        "engagement": 135094275,
+        "avgEr": 0.009823410972436372
       },
       {
         "date": "2026-07-13T00:00:00.000Z",
-        "count": 34536,
-        "engagement": 137264401,
-        "avgEr": 0.00736740808782823
+        "count": 34533,
+        "engagement": 139535303,
+        "avgEr": 0.008308340245253574
       },
       {
         "date": "2026-07-14T00:00:00.000Z",
-        "count": 20356,
-        "engagement": 66331897,
-        "avgEr": 0.005200488673784328
+        "count": 30001,
+        "engagement": 73197953,
+        "avgEr": 0.005387886523873751
       },
       {
         "date": "2026-07-15T00:00:00.000Z",
-        "count": 2150,
-        "engagement": 733002,
-        "avgEr": 0.0008456545106250331
+        "count": 4403,
+        "engagement": 1157957,
+        "avgEr": 0.0012299186319733556
       }
     ],
     "hourlyVolume": [
       {
-        "hour": "2026-07-14T08:00:00.000Z",
-        "count": 673,
-        "engagement": 1351348
-      },
-      {
-        "hour": "2026-07-14T09:00:00.000Z",
-        "count": 1110,
-        "engagement": 2075585
-      },
-      {
-        "hour": "2026-07-14T10:00:00.000Z",
-        "count": 1504,
-        "engagement": 4209295
-      },
-      {
-        "hour": "2026-07-14T11:00:00.000Z",
-        "count": 1533,
-        "engagement": 4017242
-      },
-      {
-        "hour": "2026-07-14T12:00:00.000Z",
-        "count": 1406,
-        "engagement": 4016058
-      },
-      {
         "hour": "2026-07-14T13:00:00.000Z",
-        "count": 1197,
-        "engagement": 2966289
+        "count": 510,
+        "engagement": 652903
       },
       {
         "hour": "2026-07-14T14:00:00.000Z",
-        "count": 1230,
-        "engagement": 2733141
+        "count": 1820,
+        "engagement": 3117372
       },
       {
         "hour": "2026-07-14T15:00:00.000Z",
-        "count": 1456,
-        "engagement": 3564665
+        "count": 2165,
+        "engagement": 3769953
       },
       {
         "hour": "2026-07-14T16:00:00.000Z",
-        "count": 1644,
-        "engagement": 4404099
+        "count": 2443,
+        "engagement": 5484659
       },
       {
         "hour": "2026-07-14T17:00:00.000Z",
-        "count": 1446,
-        "engagement": 5958592
+        "count": 2133,
+        "engagement": 6488415
       },
       {
         "hour": "2026-07-14T18:00:00.000Z",
-        "count": 1352,
-        "engagement": 4613744
+        "count": 2005,
+        "engagement": 5785726
       },
       {
         "hour": "2026-07-14T19:00:00.000Z",
-        "count": 1029,
-        "engagement": 2735014
+        "count": 1520,
+        "engagement": 2843389
       },
       {
         "hour": "2026-07-14T20:00:00.000Z",
-        "count": 791,
-        "engagement": 5089770
+        "count": 1147,
+        "engagement": 5139666
       },
       {
         "hour": "2026-07-14T21:00:00.000Z",
-        "count": 715,
-        "engagement": 7133011
+        "count": 1028,
+        "engagement": 8331499
       },
       {
         "hour": "2026-07-14T22:00:00.000Z",
-        "count": 384,
-        "engagement": 1411141
+        "count": 571,
+        "engagement": 1458177
       },
       {
         "hour": "2026-07-14T23:00:00.000Z",
-        "count": 161,
-        "engagement": 664660
+        "count": 276,
+        "engagement": 689458
       },
       {
         "hour": "2026-07-15T00:00:00.000Z",
-        "count": 120,
-        "engagement": 321646
+        "count": 190,
+        "engagement": 328953
       },
       {
         "hour": "2026-07-15T01:00:00.000Z",
-        "count": 81,
-        "engagement": 49058
+        "count": 120,
+        "engagement": 53646
       },
       {
         "hour": "2026-07-15T02:00:00.000Z",
-        "count": 50,
-        "engagement": 14290
+        "count": 80,
+        "engagement": 20553
       },
       {
         "hour": "2026-07-15T03:00:00.000Z",
-        "count": 121,
-        "engagement": 29684
+        "count": 182,
+        "engagement": 34665
       },
       {
         "hour": "2026-07-15T04:00:00.000Z",
-        "count": 207,
-        "engagement": 47984
+        "count": 346,
+        "engagement": 58853
       },
       {
         "hour": "2026-07-15T05:00:00.000Z",
-        "count": 405,
-        "engagement": 126975
+        "count": 669,
+        "engagement": 155275
       },
       {
         "hour": "2026-07-15T06:00:00.000Z",
-        "count": 692,
-        "engagement": 121567
+        "count": 1061,
+        "engagement": 150093
       },
       {
         "hour": "2026-07-15T07:00:00.000Z",
-        "count": 471,
-        "engagement": 21796
+        "count": 937,
+        "engagement": 84975
       },
       {
         "hour": "2026-07-15T08:00:00.000Z",
-        "count": 3,
-        "engagement": 2
+        "count": 439,
+        "engagement": 166599
+      },
+      {
+        "hour": "2026-07-15T09:00:00.000Z",
+        "count": 140,
+        "engagement": 5132
+      },
+      {
+        "hour": "2026-07-15T10:00:00.000Z",
+        "count": 193,
+        "engagement": 98646
+      },
+      {
+        "hour": "2026-07-15T11:00:00.000Z",
+        "count": 46,
+        "engagement": 567
       }
     ],
     "hashtags": [
       {
         "tag": "accadeoggi",
-        "count": 5106
+        "count": 5303
       },
       {
         "tag": "perte",
-        "count": 4967
+        "count": 4952
       },
       {
         "tag": "fyp",
-        "count": 4533
+        "count": 4529
       },
       {
         "tag": "viral",
-        "count": 3739
+        "count": 3750
       },
       {
         "tag": "adv",
-        "count": 2354
+        "count": 2275
       },
       {
         "tag": "neiperte",
-        "count": 2057
+        "count": 2079
       },
       {
         "tag": "tiktokshop",
-        "count": 1828
+        "count": 1794
       },
       {
         "tag": "foryou",
-        "count": 1584
+        "count": 1581
       },
       {
         "tag": "napoli",
-        "count": 1370
+        "count": 1347
       },
       {
         "tag": "italia",
-        "count": 1228
+        "count": 1215
       },
       {
         "tag": "estate",
-        "count": 1155
+        "count": 1130
       },
       {
         "tag": "italy",
-        "count": 1056
+        "count": 1023
       },
       {
         "tag": "offerteperte",
-        "count": 1011
-      },
-      {
-        "tag": "virale",
-        "count": 906
-      },
-      {
-        "tag": "calcio",
-        "count": 904
+        "count": 984
       },
       {
         "tag": "capcut",
-        "count": 867
+        "count": 882
       },
       {
-        "tag": "madeinitaly",
-        "count": 823
+        "tag": "calcio",
+        "count": 877
+      },
+      {
+        "tag": "virale",
+        "count": 874
       },
       {
         "tag": "amore",
-        "count": 813
+        "count": 842
+      },
+      {
+        "tag": "madeinitaly",
+        "count": 840
       },
       {
         "tag": "perteeee",
-        "count": 784
+        "count": 804
       },
       {
         "tag": "temptationisland",
-        "count": 759
+        "count": 754
       },
       {
         "tag": "summer",
-        "count": 740
-      },
-      {
-        "tag": "milano",
-        "count": 702
+        "count": 726
       },
       {
         "tag": "saldi",
-        "count": 682
+        "count": 719
       },
       {
-        "tag": "roma",
-        "count": 674
+        "tag": "milano",
+        "count": 715
       },
       {
         "tag": "neiperteeee",
-        "count": 667
+        "count": 669
+      },
+      {
+        "tag": "roma",
+        "count": 660
       }
     ],
     "creators": [
       {
         "name": "433",
-        "posts": 73,
-        "engagement": 48862668,
+        "posts": 71,
+        "engagement": 47291870,
         "platform": "ig",
         "followers": 79050910,
-        "avgEr": 0.008467348654662624
+        "avgEr": 0.008425996311191586
       },
       {
         "name": "fabriziorom",
@@ -405,36 +395,28 @@
         "avgEr": 0.08618306626270111
       },
       {
-        "name": "fabrizioromano",
-        "posts": 60,
-        "engagement": 21172202,
-        "platform": "tt",
-        "followers": 25600000,
-        "avgEr": 0.013799422035845587
-      },
-      {
         "name": "realmadrid",
-        "posts": 34,
-        "engagement": 20437213,
+        "posts": 45,
+        "engagement": 24217396,
         "platform": "ig",
         "followers": 179121316,
-        "avgEr": 0.003355795465459845
+        "avgEr": 0.0030044685220800603
+      },
+      {
+        "name": "fabrizioromano",
+        "posts": 59,
+        "engagement": 21029477,
+        "platform": "tt",
+        "followers": 25600000,
+        "avgEr": 0.013938445141139084
       },
       {
         "name": "fcbarcelona",
-        "posts": 26,
-        "engagement": 16099212,
+        "posts": 25,
+        "engagement": 15505638,
         "platform": "ig",
         "followers": 145911174,
-        "avgEr": 0.004243680895463575
-      },
-      {
-        "name": "manutd",
-        "posts": 67,
-        "engagement": 11921382,
-        "platform": "ig",
-        "followers": 65804371,
-        "avgEr": 0.0027039400563051603
+        "avgEr": 0.004250706117956395
       },
       {
         "name": "thv",
@@ -443,6 +425,14 @@
         "platform": "ig",
         "followers": 75024541,
         "avgEr": 0.07750717195324128
+      },
+      {
+        "name": "manutd",
+        "posts": 63,
+        "engagement": 11282278,
+        "platform": "ig",
+        "followers": 65804371,
+        "avgEr": 0.0027214571776360843
       },
       {
         "name": "leomessi",
@@ -454,11 +444,11 @@
       },
       {
         "name": "championsleague",
-        "posts": 26,
-        "engagement": 9140534,
+        "posts": 23,
+        "engagement": 8190784,
         "platform": "ig",
         "followers": 119438388,
-        "avgEr": 0.003883459284080481
+        "avgEr": 0.004044267080016757
       },
       {
         "name": "zlatan",
@@ -470,11 +460,11 @@
       },
       {
         "name": "psg",
-        "posts": 28,
-        "engagement": 7859786,
+        "posts": 26,
+        "engagement": 7573507,
         "platform": "ig",
         "followers": 66789844,
-        "avgEr": 0.0042028342341560625
+        "avgEr": 0.004361272812214246
       },
       {
         "name": "k.mbappe",
@@ -485,12 +475,12 @@
         "avgEr": 0.053690362536300766
       },
       {
-        "name": "arianagrande",
-        "posts": 5,
-        "engagement": 6925444,
+        "name": "georginagio",
+        "posts": 2,
+        "engagement": 5976012,
         "platform": "ig",
-        "followers": 363432955,
-        "avgEr": 0.0179281372779851
+        "followers": 75620791,
+        "avgEr": 0.039513022285101465
       }
     ],
     "posts": [
@@ -545,18 +535,6 @@
         ],
         "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/729486753_18599131621039161_8119356270437720439_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkzNjg0MjU5ODM3OTUzNjA1Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4Ni5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Zyg3jslYhJ4Q7kNvwGFWJMG&_nc_oc=Adp28ytm81apZdyLQvcl0p7vOVx-_tRrhrhJLWRyFT4cNp70ayV148YGn9Exadz-6AerD5zd2yNNU7SehryNeV6J&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=JDkfesesJM3X7TEBxeolXg&_nc_ss=7a3ba&oh=00_AQAjHjr8C7VHFdslYW5wKxKfctIrmIFA_cRE81_YFqVFEA&oe=6A5CFC5C",
         "url": "https://www.instagram.com/p/3936846531545701961/"
-      },
-      {
-        "platform": "ig",
-        "author": "wweitalia",
-        "time": "2026-07-08T13:05:36Z",
-        "text": "👈🍕 Pizza o Pasta 🍝👉",
-        "engagement": 62729,
-        "engagementRate": 0.4516419350425874,
-        "sentiment": "pos",
-        "hashtags": [],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/742267988_17925850806363219_2081561527829041561_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=100&ig_cache_key=MzkzNjczOTYyMzAwMTc2MDgyNTE3OTI1ODUwODAwMzYzMjE5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=_YpkkGJ_xyEQ7kNvwHsXsoW&_nc_oc=AdpGw1ZSwBXFF7eS5esX_ew6jWKrVnycna6JgS-4QffG88ENwdNTSucmIlOwOG8x2Ik8ri25mz2nuwd6vFbctOSP&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=zIiTQxO_L6_GaBffeJKRwg&_nc_ss=7a3ba&oh=00_AQA2w_ESNYmzultILEiCgpQRMU8Tiytd5w5ucahlgx8UFA&oe=6A5D0EA6",
-        "url": "https://www.instagram.com/reel/3936739623001760825/"
       },
       {
         "platform": "ig",
@@ -785,6 +763,24 @@
         "url": "https://www.instagram.com/reel/3938133478208786888/"
       },
       {
+        "platform": "ig",
+        "author": "laricettaveg",
+        "time": "2026-07-09T06:46:08Z",
+        "text": "{ Ti lascio la ricetta! ⤵️ }\n\nSoda spontanea di lamponi e kiwi 🥰\n\nUna volta che scoprirai le bevande a fermentazione naturale non comprerai più le bibite del supermercato! Questa è la mia versione, la proverai? È naturalmente frizzante, probiotica e",
+        "engagement": 26982,
+        "engagementRate": 0.15914171291736215,
+        "sentiment": "pos",
+        "hashtags": [
+          "laricettaveg",
+          "fermentati",
+          "ricettafacile",
+          "ricettaveloce",
+          "veganfood"
+        ],
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/740859317_18447751783188128_8736454139163591734_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=103&ig_cache_key=MzkzNzI3MTkzMDgzNjU0OTQ0ODE4NDQ3NzUxNzgwMTg4MTI4.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=CDHrNrGyPNYQ7kNvwHx7BoQ&_nc_oc=Adoxybjnca09hLfwlwRhdSzwYT8pukMj60Eq6WqwED8M_HvZ6rcYUnF_VFKiBwSLUZb1JZuZl_TDppoBywhuEQEI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=wcHPH5WaZQLAaIHiEiSzrQ&_nc_ss=7a3ba&oh=00_AQDJA2BSpcvAXaqtr6qu2Dnr431T2ZOGL6FB8YuRpD-9SQ&oe=6A5D1C3E",
+        "url": "https://www.instagram.com/reel/3937271930836549448/"
+      },
+      {
         "platform": "tt",
         "author": "urhotnonnaa",
         "time": "2026-07-11T14:54:05Z",
@@ -837,24 +833,6 @@
         ],
         "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/ocglmp1EcMRIGQ2QvBFqAfCDAMVKXERifvUEt2~tplv-tiktokx-origin.image?dr=10395&x-expires=1784271600&x-signature=Yoy3iteapDVJPjAva5fNtYjPGxM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@urhotnonnaa/video/7661465288126237982"
-      },
-      {
-        "platform": "tt",
-        "author": "ele.rosa",
-        "time": "2026-07-08T12:23:28Z",
-        "text": "pasta con crema di zucchine e pancetta mukbang da fuori sede ma ehi fa caldo ok? #asmritalia #asmr #mangiamoinsieme  #mukbang #pasta ",
-        "engagement": 45648,
-        "engagementRate": 0.17103034844511053,
-        "sentiment": "pos",
-        "hashtags": [
-          "asmritalia",
-          "asmr",
-          "mangiamoinsieme",
-          "mukbang",
-          "pasta"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/ocOX7EATigBV5m4kB0blaLQiIEQBUt92PZIQE~tplv-tiktokx-origin.image?dr=10395&x-expires=1784271600&x-signature=nQg0k3NXiPErC2VmSLWHyICYpto%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
-        "url": "https://www.tiktok.com/@ele.rosa/video/7660131745118948641"
       },
       {
         "platform": "tt",
@@ -1021,21 +999,39 @@
       },
       {
         "platform": "tt",
-        "author": "cucinaconruben",
-        "time": "2026-07-08T11:21:34Z",
-        "text": "SPAGHETTI ALICI E PANGRATTATO Con chef Rodrigo Ingredienti 200gr spaghetti 6 alici sottolio 2 spicchi d'aglio 40gr pomodorini 1 limone 40gr pangrattato Olio evo Sale Prezzemolo  #cucinaitaliana #italianfood #learnontiktok #perte #foryou ",
-        "engagement": 26314,
-        "engagementRate": 0.01012076923076923,
-        "sentiment": "neu",
+        "author": "nacciflex",
+        "time": "2026-07-10T14:02:20Z",
+        "text": "CARPACCIO ESTIVO 🍉🌱 Ingredienti: 🍉 1 anguria 🧀 120 g feta vegetale 🥬 rucola q.b. 🌰 pinoli tostati q.b. 🫒 olio extravergine d’oliva q.b. 🧂 sale in fiocchi q.b. Procedimento: Taglia l’anguria in quattro spicchi. Rimuovi la buccia. Disponila su ",
+        "engagement": 23731,
+        "engagementRate": 0.04444007490636704,
+        "sentiment": "pos",
         "hashtags": [
-          "cucinaitaliana",
-          "italianfood",
-          "learnontiktok",
-          "perte",
-          "foryou"
+          "veganrecipes",
+          "veganfood",
+          "plantbased",
+          "healthyfood",
+          "summerrecipes"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oMAADErqmieAAR1IK0OfCiMTBB10zjE4ZqAirQ~tplv-tiktokx-dmt-logom:tos-useast2a-i-0068-euttp/ogr0MlaHAO0wBiiPpyuAk0LBWgUvEGEMAIBA4.image?dr=10393&x-expires=1784271600&x-signature=lk9ir7G66kwO7HcxnjYIzSI%2Bcq8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
-        "url": "https://www.tiktok.com/@cucinaconruben/video/7660115791571881248"
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oMtRNQLYGQAfrGgHBR9aheHecAI0eGGKpQMGuL~tplv-tiktokx-origin.image?dr=10395&x-expires=1784271600&x-signature=r5uOQjyZpZ9atJ%2Bml1YSTGBZZzQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@nacciflex/video/7660899387161201952"
+      },
+      {
+        "platform": "tt",
+        "author": "kurti_alessandro",
+        "time": "2026-07-13T17:33:43Z",
+        "text": "Ho dimenticato qualcosa?🇮🇹🍝#ironia#ridere#italiano#pasta#comicità ",
+        "engagement": 23197,
+        "engagementRate": 0.045421969845310356,
+        "sentiment": "pos",
+        "hashtags": [
+          "ironia",
+          "ridere",
+          "italiano",
+          "pasta",
+          "comicità"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oIAVBAxgipvEdlTiUCXKLx0IBAIagilhiBbAE~tplv-tiktokx-origin.image?dr=10395&x-expires=1784271600&x-signature=yZdDoo292VGf%2Bpl00%2BlzsVEVoZk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@kurti_alessandro/video/7662067125099515168"
       },
       {
         "platform": "yt",
@@ -1107,21 +1103,6 @@
         ],
         "imageUrl": "https://i.ytimg.com/vi/5RYrb2obihY/hqdefault.jpg",
         "url": "https://www.youtube.com/watch?v=5RYrb2obihY"
-      },
-      {
-        "platform": "yt",
-        "author": "MarcoRufiniChef",
-        "time": "2026-07-08T12:50:31Z",
-        "text": "Un tuffo nel gusto intramontabile con la cremosità della salsa rosa al cognac. Un primo piatto di pesce avvolgente, veloce e vellutato!\n\nIngredienti\nDosi per 2 persone:\nPasta: 200g di Penne lisce\nPesce: 150g di Salmone (fresco a dadini o affumicato a",
-        "engagement": 3633,
-        "engagementRate": 0.02041011235955056,
-        "sentiment": "neu",
-        "hashtags": [
-          "chefrufini",
-          "pennealsalmone"
-        ],
-        "imageUrl": "https://i.ytimg.com/vi/wmgf7MXBd6Q/hqdefault.jpg",
-        "url": "https://www.youtube.com/watch?v=wmgf7MXBd6Q"
       },
       {
         "platform": "yt",
@@ -1240,34 +1221,6 @@
       },
       {
         "platform": "yt",
-        "author": "RapaNello",
-        "time": "2026-07-08T12:00:31Z",
-        "text": "Melanzane Croccanti e Fondenti ricetta furba di melanzane deliziose\n\n■ Qui trovi tutto, i miei libri e le cose che uso nei video, le magliette.\nhttps://linktr.ee/rapanello\n■  Ecco il sito internet ufficiale gratuito   https://www.ziorapa.it/\n\n☕ Vuoi ",
-        "engagement": 2564,
-        "engagementRate": 0.0030928829915560915,
-        "sentiment": "neg",
-        "hashtags": [
-          "melanzanecroccanti",
-          "melanzane",
-          "melanzanefondenti",
-          "melanzanealforno",
-          "bruschette",
-          "paneabbrustolito",
-          "mozzarella",
-          "pomodorini",
-          "parmigiano",
-          "ricettevegetariane",
-          "cucinaitaliana",
-          "ricettafacile",
-          "ricetteveloci",
-          "rapanello",
-          "ricetterapanello"
-        ],
-        "imageUrl": "https://i.ytimg.com/vi/QqgOXd-Ay4M/hqdefault.jpg",
-        "url": "https://www.youtube.com/watch?v=QqgOXd-Ay4M"
-      },
-      {
-        "platform": "yt",
         "author": "Chiarapassion-Enrica",
         "time": "2026-07-09T10:25:10Z",
         "text": "SEMIFREDDO DI PAVESINI🍦🍫\nFurbo e scenografico: lo fai in 15 minuti, non accendi il forno e quando lo tagli tutti chiedono il bis! Salva la ricetta qui:https://www.chiarapassion.com/2026/07/semifreddo-di-pavesini.html\n\nIngredienti per 9 fette:\n\n- 75",
@@ -1322,6 +1275,30 @@
         ],
         "imageUrl": "https://i.ytimg.com/vi/kXw8I4d3rbw/hqdefault.jpg",
         "url": "https://www.youtube.com/watch?v=kXw8I4d3rbw"
+      },
+      {
+        "platform": "yt",
+        "author": "cucinaconruben",
+        "time": "2026-07-12T10:00:09Z",
+        "text": "Ingredienti \n100 g farina 00\n 100 g farina di riso\n 140 ml birra\n140 ml acqua frizzante\n\nN.B controllare sempre a occhio la consistenza della farina e non affidarsi mai al 100% alle dosi.",
+        "engagement": 2091,
+        "engagementRate": 0.0038296703296703295,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://i.ytimg.com/vi/E_GjbTfxcRI/hqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=E_GjbTfxcRI"
+      },
+      {
+        "platform": "yt",
+        "author": "dr.walter.antonucci",
+        "time": "2026-07-11T11:32:09Z",
+        "text": "🧊 Crema al Caffè Fredda: Lo Sfizio Estivo a Zero Calorie! ☕\n\nCon queste giornate calde, la voglia di qualcosa di fresco e goloso è inevitabile. \n\nSe cerchi una pausa rinfrescante che ti dia la carica, ecco una ricetta super veloce per preparare una ",
+        "engagement": 1964,
+        "engagementRate": 0.007383458646616541,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://i.ytimg.com/vi/kWSdugIS_UI/hqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=kWSdugIS_UI"
       }
     ]
   },
@@ -1950,9 +1927,9 @@
     {
       "name": "Garofalo",
       "mentions": 2,
-      "socialMentions": 11,
-      "totalMentions": 13,
-      "shareOfVoice": 24.5,
+      "socialMentions": 9,
+      "totalMentions": 11,
+      "shareOfVoice": 22,
       "posts": [
         {
           "type": "news",
@@ -2059,35 +2036,15 @@
           "date": "2026-07-13T20:38:57Z",
           "url": "https://www.tiktok.com/@rosaria_simioli/video/7662114858921381153",
           "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "pastagarofaloit",
-          "text": "Roma, Milano e Napoli stanno per ospitare un evento straordinario, strabuono e strasano: STRAPASTA ACTIVE CLUB!\n\n🗓️Il tour dove nutrizione, allenamento e il gusto Strapasta Garofalo diventano gli alleati per il tuo benessere, dal workout alla tavola",
-          "engagement": 1,
-          "date": "2026-07-08T11:02:57Z",
-          "url": "https://www.instagram.com/p/3936677729433046630/",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "csc_centrosperimentale",
-          "text": "Nell’ambito del festival 𝘋𝘰𝘭𝘤𝘦𝘷𝘪𝘵𝘢-𝘴𝘶𝘳-𝘚𝘦𝘪𝘯𝘦, 𝗔𝘀𝘀𝗼𝗰𝗶𝗮𝘇𝗶𝗼𝗻𝗲 𝗣𝗮𝗹𝗮𝘁𝗶𝗻𝗲 e il 𝗖𝗲𝗻𝘁𝗿𝗼 𝗦𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁𝗮𝗹𝗲 𝗱𝗶 𝗖𝗶𝗻𝗲𝗺𝗮𝘁𝗼𝗴𝗿𝗮𝗳𝗶𝗮 hanno celebrato i 𝟳𝟬 𝗮𝗻𝗻𝗶 di gemellaggio tra Parigi e Roma con",
-          "engagement": 0,
-          "date": "2026-07-08T13:37:52Z",
-          "url": "https://www.instagram.com/p/3936755705855508335/",
-          "brand": "Garofalo"
         }
       ]
     },
     {
       "name": "Barilla",
-      "mentions": 11,
+      "mentions": 10,
       "socialMentions": 0,
-      "totalMentions": 11,
-      "shareOfVoice": 20.8,
+      "totalMentions": 10,
+      "shareOfVoice": 20,
       "posts": [
         {
           "type": "news",
@@ -2119,14 +2076,6 @@
           "source": "IMPRESACITY",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRDZ3RkhIMEVzbERpQXA1bkF1cjYzelFId3AwX3JOb2VMdlRSVng2b0x0alV1Ylc1dF9hdkg5WGJteEFCX2UtQkU4V09NeVNDb0gwcEdDZENCSk5Lc0hqTEdrRFlKOXNjNDFkbHh0YTZ0SzlZUjNUak1tc3RHSnRJN3N6OHJXLUJFMm9DSWd2TndranZ6TGZfV9IBmAFBVV95cUxPRDZ3RkhIMEVzbERpQXA1bkF1cjYzelFId3AwX3JOb2VMdlRSVng2b0x0alV1Ylc1dF9hdkg5WGJteEFCX2UtQkU4V09NeVNDb0gwcEdDZENCSk5Lc0hqTEdrRFlKOXNjNDFkbHh0YTZ0SzlZUjNUak1tc3RHSnRJN3N6OHJXLUJFMm9DSWd2TndranZ6TGZfVw?oc=5",
           "date": "2026-07-10T07:41:36.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "La Cena dei mille scrive un altro record: biglietti venduti in 6 minuti - Gazzetta di Parma",
-          "source": "GAZZETTA DI PARMA",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVnZLN1cyMFZMZDZOS1ZzZmJKS3AwOWpINDctcUU2bWJxWDQ2SjZCRGlFUkR4VlhsVWE0eFhNV184S1RCbTF2RGI3M0RwdXIybXdJUDlwcV80dXNsTktaZXROcGlGWVlSR0JUb0U2MEVZa2VsQnlMS2VqdkhodDBURHVRVW16dFNJUWMwRktJNU5hQ0xkdmNjYzEySnAxejlnVENwUlVKNGlVNkRKdWpKaWsyUnVKVUVUMkRvb01nVDZPVGl2WUN5cHJldjI?oc=5",
-          "date": "2026-07-08T13:28:00.000Z",
           "brand": "Barilla"
         },
         {
@@ -2184,7 +2133,7 @@
       "mentions": 5,
       "socialMentions": 5,
       "totalMentions": 10,
-      "shareOfVoice": 18.9,
+      "shareOfVoice": 20,
       "posts": [
         {
           "type": "news",
@@ -2280,10 +2229,10 @@
     },
     {
       "name": "La Molisana",
-      "mentions": 10,
+      "mentions": 8,
       "socialMentions": 0,
-      "totalMentions": 10,
-      "shareOfVoice": 18.9,
+      "totalMentions": 8,
+      "shareOfVoice": 16,
       "posts": [
         {
           "type": "news",
@@ -2319,26 +2268,18 @@
         },
         {
           "type": "news",
-          "title": "Arco capitale mondiale dell'arrampicata sportiva - InfoOggi",
-          "source": "INFOOGGI",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNanJ0THVXYWFiVTRtWG11Y1A4NDNRRlAybjBOcE1GQnJQNWhWMUltRE5lNVQ0NnpnTzJabW1JVlQwaU5oYkgyYkkzMzFRZURndGx5enNHUU5uVFRROFVGWnRrcTA0WHcxWUFKVEFWZzdjeTZaRVFUVzhOXzVRZG5JdGFBRjZIV2tsS0pkUUpQSGxQQdIBlwFBVV95cUxNR1NtVFIzc0diS2t3VGZBM0lhQ1Z3VXlBRFBSLW1LY2UxbEdVeXIwTi1uUG0xVzlURGNaSFBYaXlEZHk2VWtEYnphcXU4SjM2bXFVNHV0cnlvbEFYYnh1R3BKOWEtQ09vNUFzZkxqUG4ybTBJWEtVT1lWY0lVQmVHNDFmQUhNRkFvazJvWlJ1ZExZMWVENXYw?oc=5",
-          "date": "2026-07-09T13:42:21.000Z",
-          "brand": "La Molisana"
-        },
-        {
-          "type": "news",
-          "title": "Volantino Carrefour Iper dal 13 luglio 2026 - Anteprima Volantino",
-          "source": "ANTEPRIMA VOLANTINO",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMjJQMThHbGpOYjlON1ZlVExPWE90U1dyMEtKSkJxV1lKcHdDZFFBcHJQMV93YmtBVkVWOEZ1WmhKVy1Tc19XV2tuLWtaNVhQeFh0aExrRFlqNDlVU1ZwY1FMX004QktnS21zUGk5Qk9BaEJHbG5wRmNOb0Jlb3Z3aV80VkhlNjhNTV84aXNn?oc=5",
-          "date": "2026-07-08T10:19:29.000Z",
-          "brand": "La Molisana"
-        },
-        {
-          "type": "news",
           "title": "Marcellinara protagonista del turismo lento. Il Sindaco: “l'Istmo opportunità di sviluppo per tutto il territorio” - InfoOggi",
           "source": "INFOOGGI",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMVQ5WmVCMmZ2bkplemlwdU8yMlRYLUNIQlN0ejZ6TERCSDU5OUUxOTRpZV9zdGJxYmFhVHhzNGk4R0NLV1hzdDNCRjR0Zk5Ra3BuRVdmaUVOZDk4ZEhGQk5CYVJiNTR6UndWdzNKNDhDM0hZUndnU1l2U2tCY1ZnS0lremhuck9OSFE3UkJGcUlONDN1V3NJdm96blQxRzdBaWVmZnZWU0R0OHJMTG9OdXhuYW80X0VEUncwYnp5SUpUbHAtZGVuVDVKc2tzYzkwd3VFWm01R1pULThuUlhkR0dVVdIB6AFBVV95cUxQSnl3ZWU1QVVXS1ZMTEF5UWJLVXVKTEpPTHkxb3k0X2o3N2NPR3FuV2sxVzg5cHktTXFYamtkUXVpRW5LcTJEYUFWbmpUVmIzOHc5a29XUkEwdGgwX0hrcXd0TUpfRVhmdl9JbFlUNVY3RmFIR0FjUExPZ0Z2STAzSTFhd2dWM3UzdGZqM0MxcXZESmxrd3dicVdNWk9sRy1pdVVBT2NJNzVxNTUySGhvOVBRcUdQdEJLWXRHWFotTkNlb0s3bVlVcVpCSHlRcmZaOGVBZ3Z3Nk5KWndjYWZrNm5sZkwzTE53?oc=5",
           "date": "2026-07-11T12:04:53.000Z",
+          "brand": "La Molisana"
+        },
+        {
+          "type": "news",
+          "title": "Serie B, ecco dove si allenano le squadre: il Trentino Alto Adige domina la mappa dei ritiri estivi - InfoOggi",
+          "source": "INFOOGGI",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSWlvdGRwUFRmS0tNR2I5bkNHQUY2V2VMcnRGcHpETEswUU82WlpTaUlLMmk3Y0t1SmdJZ21YcnhnWmdkM25neHE5SnJ3Z0V1WFFBaTNxdUkxMk1WWmktR0dvQ2FyTEtJWUN1WHM2ZUhTYUxsMGJKRTdnRjBmZWQ1LTU1OE5YU3B4bWxSS2NDVG5PcDNtWWNwclR2a2VMQk5Hd1JqU0xoT0Y4UEhlOVFpR2JjZTRSanZQZTE0X3hvTWxwXzJrenI5SjF0RWljb3dVU3RUYS15ODJtSlZOUTVPNNIB5gFBVV95cUxOWXI5NThkcUtNWkRuTUFFZFJ6SGkwWHpHdWdLX29BMURTT2pWRDFaUGdhWjAzRTRiMTVTR1djb0FiZjRSLTRienRfZU9FMVl6Z2p6U3dhdEkweUxLMThYaHhmaDJfc184TWlmSkRQX0dFM3ZCSHMxWGVpUDBrbkRlX2JVcmdXTnRYY0thSEpmRXB3Ty12RG05RlNMbjZTRHNUbGdxbWFGa1NXbEkwQjNKRmxUVWN3NzJEUlFScE1mdXJjWEp3MC03LXd1dm1NX21xMlJ3UUY3ZENqNkI1dnNOSXlta2pRUQ?oc=5",
+          "date": "2026-07-10T17:04:37.000Z",
           "brand": "La Molisana"
         },
         {
@@ -2356,24 +2297,24 @@
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONWVZNUx6QkRPV3pWWWZ0S2d4WDZxa3FqSWJXaFJEMGVrVWhTQi14UUVsVDc2dHowUk41QzRUTHlLanFuaFlYREhIYk91a3h5dW9ybzF6TTZkSlpNWk0xdjNuYmNOVW50Vlgzd2xodVo4SUdwQlAxVkZLdkZ1aHNtQ0hvNTliRWVXb1pKODNHUzlUamV2aWp4dkxTSllJX1dxOVlGcTBYUW80UzlkR3B4UGt0bnhuYS1pWGU0N2ctWkVfOXVJWGx2bVNkRVBmeDBLTFBtc1ZaMS1Vd2lzMlkw0gHkAUFVX3lxTFBGSUNhb2hEUVQyelo2ZTJ0Yy1uQzQyY1REdWdyTG1QalFnZnFVTlV4bHA1UUx5dXNUZWs0b1VlX0VCMVhOQlRuWlJMeU5aNDI0dVJSR3JONTVPWHNMb1dMSkx4amJJNWx0c0N3ZkpNWUdEblpoNTJYMmUzcUEwOV9TWDJmTEgtRmFtUU5tdUpHZ2JTLVlYSWdhUV80WXlDeFh2amRsbWhVUHR6cUdNTEZidnBNczc3b2htNVJvY2xSWEs3dGRwUWY4ZEtzVmc1SHRKdGswNHI2bEhqOEtidDM0WDN3bg?oc=5",
           "date": "2026-07-09T20:03:10.000Z",
           "brand": "La Molisana"
-        },
-        {
-          "type": "news",
-          "title": "Catanzaro, stop al contratto con Marco Turati dopo la comunicazione della Lega Serie B - InfoOggi",
-          "source": "INFOOGGI",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZ29obTJKbWFUQ1pnblBUQ3FYbHc0UVJuaWZ1X2RrNUxEeWlCT2lNTVVDU0MzY3c1VXdDeGlPVFlZQmlXOFA0Ml91MlcwOGw5M3BIUWtLZV9oaGFPZlpXWXNNX2VlWGdEbjVLeDZjY1lWZTBBeDhVNzlHalpTNHg2SFZlbE5vYTA2cTY3c1RIbEFVd3BWeUI2RkpqWWVQOXVfQUhzcG1aN3l2cUxVVHJsQy1FRTh5QnpaaGRGcEYxbG9iZzjSAcgBQVVfeXFMTTJ0TWJwVDlidW1LMU43RUdrQy1OcWI0WnVJcVc3MGV6Y1pRc1JtLTRkQjlnRG9hNDZqNjZwbmIyb25QNFNTb2g0TmtMLS1tZWFLLUc4eXdDRjFSQUFLWnA5ZFFoY3ZwLTktQ0NpS3BqZ0xPeU85bTEtRmhqT2poR1VxQWlqSGVVR05jdHpxLXVfcmVwX1U4emo4R1hGZUsyTDd2Z1ZZWWU2WmJNbGQtRkJEUGU5TzA2M0dBb1pqeVY4aHpFZlUtSGE?oc=5",
-          "date": "2026-07-08T15:08:17.000Z",
-          "brand": "La Molisana"
         }
       ]
     },
     {
       "name": "Rummo",
-      "mentions": 0,
+      "mentions": 1,
       "socialMentions": 3,
-      "totalMentions": 3,
-      "shareOfVoice": 5.7,
+      "totalMentions": 4,
+      "shareOfVoice": 8,
       "posts": [
+        {
+          "type": "news",
+          "title": "Il Pastificio Rummo è il nuovo Main Sponsor del Benevento 5 - Sport Ntr24",
+          "source": "SPORT NTR24",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMHQycEZvNFV4TFhXbDFsUkJEWVlyeVJzeDdaMVhhZzFXSUxwZlB0QW5yNFRTNlJQYkNtc1FVaUdfdTFLVlM4RlJpU25mWjRoLTN0Z1IybmlGaFZ6aVNZeUNIY3hSTTZMZTYyelQ3VF9Nc3J0bzFTUmpHQmI4eWJhQ0s1X3BZcUdLQTBraEtDejBlZnktelItTE9B?oc=5",
+          "date": "2026-07-15T10:38:17.000Z",
+          "brand": "Rummo"
+        },
         {
           "type": "social",
           "platform": "ig",
@@ -2407,11 +2348,60 @@
       ]
     },
     {
+      "name": "Divella",
+      "mentions": 0,
+      "socialMentions": 4,
+      "totalMentions": 4,
+      "shareOfVoice": 8,
+      "posts": [
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "divellaofficial",
+          "text": "Ci sono pause che sanno di semplicità.\nGli Ottimini Senza Zuccheri Aggiunti uniscono il gusto del cioccolato alla bontà dei fiocchi d'avena. Sono fonte di fibre e senza zuccheri aggiunti\nPerché il piacere spesso è proprio nelle cose più semplici.\n\n#d",
+          "engagement": 38,
+          "date": "2026-07-09T17:30:05Z",
+          "url": "https://www.instagram.com/p/3937597360800832973/",
+          "brand": "Divella"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "divellaofficial",
+          "text": "Continua la nostra partecipazione al grande evento Rai Mondiali FIFA 2026 con tutti i nostri prodotti protagonisti.\nDIVELLA Passione mondiale 🌎\n\n#divella #passionemediterranea #FIFAWorldCup",
+          "engagement": 36,
+          "date": "2026-07-12T08:05:15Z",
+          "url": "https://www.instagram.com/p/3939487393003017824/",
+          "brand": "Divella"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "divellaofficial",
+          "text": "Siamo arrivati alla semifinale Francia-Spagna e Divella continua a essere protagonista del grande evento Rai Mondiali FIFA 2026.\nDIVELLA. Passione mondiale. ⚽\n\n#divella #passionemediterranea #FIFAWorldCup",
+          "engagement": 26,
+          "date": "2026-07-14T12:00:19Z",
+          "url": "https://www.instagram.com/p/3941055259715935180/",
+          "brand": "Divella"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "divellaofficial",
+          "text": "Ci sono ingredienti che raccontano una storia ancora prima di finire in pentola.\nI Pomodori Pelati Divella, 100% italiani, portano in tavola tutto il sapore genuino della tradizione. Corposi, profumati e pronti a diventare il cuore delle tue ricette.",
+          "engagement": 22,
+          "date": "2026-07-11T08:00:40Z",
+          "url": "https://www.instagram.com/p/3938760309976361229/",
+          "brand": "Divella"
+        }
+      ]
+    },
+    {
       "name": "Voiello",
       "mentions": 1,
       "socialMentions": 2,
       "totalMentions": 3,
-      "shareOfVoice": 5.7,
+      "shareOfVoice": 6,
       "posts": [
         {
           "type": "news",
@@ -2440,45 +2430,6 @@
           "date": "2026-07-09T17:29:20Z",
           "url": "https://www.instagram.com/reel/3937596648886759088/",
           "brand": "Voiello"
-        }
-      ]
-    },
-    {
-      "name": "Divella",
-      "mentions": 0,
-      "socialMentions": 3,
-      "totalMentions": 3,
-      "shareOfVoice": 5.7,
-      "posts": [
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "divellaofficial",
-          "text": "Continua la nostra partecipazione al grande evento Rai Mondiali FIFA 2026 con tutti i nostri prodotti protagonisti.\nDIVELLA Passione mondiale 🌎\n\n#divella #pasionemediterranea #FIFAWorldCup",
-          "engagement": 36,
-          "date": "2026-07-12T08:05:15Z",
-          "url": "https://www.instagram.com/p/3939487393003017824/",
-          "brand": "Divella"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "divellaofficial",
-          "text": "Ci sono pause che sanno di semplicità.\nGli Ottimini Senza Zuccheri Aggiunti uniscono il gusto del cioccolato alla bontà dei fiocchi d'avena. Sono fonte di fibre e senza zuccheri aggiunti\nPerché il piacere spesso è proprio nelle cose più semplici.\n\n#d",
-          "engagement": 35,
-          "date": "2026-07-09T17:30:05Z",
-          "url": "https://www.instagram.com/p/3937597360800832973/",
-          "brand": "Divella"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "divellaofficial",
-          "text": "Ci sono ingredienti che raccontano una storia ancora prima di finire in pentola.\nI Pomodori Pelati Divella, 100% italiani, portano in tavola tutto il sapore genuino della tradizione. Corposi, profumati e pronti a diventare il cuore delle tue ricette.",
-          "engagement": 22,
-          "date": "2026-07-11T08:00:40Z",
-          "url": "https://www.instagram.com/p/3938760309976361229/",
-          "brand": "Divella"
         }
       ]
     }
