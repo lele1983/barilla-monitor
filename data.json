@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-22T13:50:55.868Z",
+    "generatedAt": "2026-07-22T19:16:57.436Z",
     "pipelineVersion": "1.0.0",
     "sources": {
       "opensearch": true,
@@ -9,32 +9,32 @@
       "claude": false,
       "competitors": true
     },
-    "processingTimeMs": 6358
+    "processingTimeMs": 6909
   },
   "social": {
     "overview": {
-      "totalPosts": 214203,
-      "prevTotalPosts": 240268,
-      "volumeChange": -10.8,
-      "mentions24h": 21444,
-      "totalEngagement": 923379993,
-      "avgEngagementRate": 0.009807540538991966,
-      "erChange": -15.4,
+      "totalPosts": 201899,
+      "prevTotalPosts": 238736,
+      "volumeChange": -15.4,
+      "mentions24h": 9010,
+      "totalEngagement": 889555892,
+      "avgEngagementRate": 0.009656974485540983,
+      "erChange": -16.4,
       "organicPct": 98,
-      "sponsoredCount": 4511
+      "sponsoredCount": 4179
     },
     "brandHealth": {
-      "score": 80,
+      "score": 79,
       "status": "stabile",
       "dimensions": [
         {
           "name": "Sentiment",
-          "score": 70,
+          "score": 69,
           "color": "#00e676"
         },
         {
           "name": "Engagement",
-          "score": 49,
+          "score": 48,
           "color": "#3ba4ff"
         },
         {
@@ -70,128 +70,98 @@
       ]
     },
     "sentiment": {
-      "netScore": 51,
-      "positive": 60,
-      "neutral": 31,
+      "netScore": 50,
+      "positive": 59,
+      "neutral": 32,
       "negative": 9
     },
     "platforms": [
       {
         "name": "tt",
-        "count": 120706,
-        "pctOfTotal": 56.4
+        "count": 114081,
+        "pctOfTotal": 56.5
       },
       {
         "name": "ig",
-        "count": 84217,
-        "pctOfTotal": 39.3
+        "count": 79081,
+        "pctOfTotal": 39.2
       },
       {
         "name": "yt",
-        "count": 9280,
+        "count": 8737,
         "pctOfTotal": 4.3
       }
     ],
     "dailyVolume": [
       {
         "date": "2026-07-15T00:00:00.000Z",
-        "count": 16989,
-        "engagement": 95673197,
-        "avgEr": 0.012344629932573698
+        "count": 4634,
+        "engagement": 45253880,
+        "avgEr": 0.012579047005162975
       },
       {
         "date": "2026-07-16T00:00:00.000Z",
         "count": 33926,
-        "engagement": 146697964,
-        "avgEr": 0.011107163487292083
+        "engagement": 146853958,
+        "avgEr": 0.011107260298597463
       },
       {
         "date": "2026-07-17T00:00:00.000Z",
         "count": 33982,
-        "engagement": 116949243,
-        "avgEr": 0.010289062815909385
+        "engagement": 117004238,
+        "avgEr": 0.01028917577820022
       },
       {
         "date": "2026-07-18T00:00:00.000Z",
         "count": 29963,
-        "engagement": 126142041,
-        "avgEr": 0.009994608962996206
+        "engagement": 126709940,
+        "avgEr": 0.009994862781564
       },
       {
         "date": "2026-07-19T00:00:00.000Z",
         "count": 28065,
-        "engagement": 190096405,
-        "avgEr": 0.010516030772583373
+        "engagement": 190872588,
+        "avgEr": 0.010522253281501314
       },
       {
         "date": "2026-07-20T00:00:00.000Z",
         "count": 33391,
-        "engagement": 170129542,
-        "avgEr": 0.011043958852454445
+        "engagement": 171374884,
+        "avgEr": 0.011044226117043263
       },
       {
         "date": "2026-07-21T00:00:00.000Z",
-        "count": 33223,
-        "engagement": 75707630,
-        "avgEr": 0.005896779638814974
+        "count": 33245,
+        "engagement": 85918615,
+        "avgEr": 0.005896483801777829
       },
       {
         "date": "2026-07-22T00:00:00.000Z",
-        "count": 4664,
-        "engagement": 1983971,
-        "avgEr": 0.0011481844906234058
+        "count": 4693,
+        "engagement": 5567789,
+        "avgEr": 0.0011502406847732007
       }
     ],
     "hourlyVolume": [
       {
-        "hour": "2026-07-21T13:00:00.000Z",
-        "count": 302,
-        "engagement": 255534
-      },
-      {
-        "hour": "2026-07-21T14:00:00.000Z",
-        "count": 2018,
-        "engagement": 8748932
-      },
-      {
-        "hour": "2026-07-21T15:00:00.000Z",
-        "count": 2263,
-        "engagement": 4916176
-      },
-      {
-        "hour": "2026-07-21T16:00:00.000Z",
-        "count": 2799,
-        "engagement": 9341674
-      },
-      {
-        "hour": "2026-07-21T17:00:00.000Z",
-        "count": 2223,
-        "engagement": 3684053
-      },
-      {
-        "hour": "2026-07-21T18:00:00.000Z",
-        "count": 2174,
-        "engagement": 4821732
-      },
-      {
         "hour": "2026-07-21T19:00:00.000Z",
-        "count": 1872,
-        "engagement": 2646781
+        "count": 1183,
+        "engagement": 1559921
       },
       {
         "hour": "2026-07-21T20:00:00.000Z",
-        "count": 1277,
-        "engagement": 1566875
+        "count": 1280,
+        "engagement": 2010440
       },
       {
         "hour": "2026-07-21T21:00:00.000Z",
-        "count": 896,
-        "engagement": 539495
+        "count": 897,
+        "engagement": 1542623
       },
       {
         "hour": "2026-07-21T22:00:00.000Z",
-        "count": 629,
-        "engagement": 1081005
+        "count": 630,
+        "engagement": 1112154
       },
       {
         "hour": "2026-07-21T23:00:00.000Z",
@@ -205,8 +175,8 @@
       },
       {
         "hour": "2026-07-22T01:00:00.000Z",
-        "count": 121,
-        "engagement": 28334
+        "count": 122,
+        "engagement": 297515
       },
       {
         "hour": "2026-07-22T02:00:00.000Z",
@@ -240,125 +210,160 @@
       },
       {
         "hour": "2026-07-22T08:00:00.000Z",
-        "count": 382,
-        "engagement": 900897
+        "count": 384,
+        "engagement": 1431203
       },
       {
         "hour": "2026-07-22T09:00:00.000Z",
-        "count": 165,
-        "engagement": 132650
+        "count": 166,
+        "engagement": 157641
       },
       {
         "hour": "2026-07-22T10:00:00.000Z",
-        "count": 194,
-        "engagement": 70094
+        "count": 197,
+        "engagement": 180164
       },
       {
         "hour": "2026-07-22T11:00:00.000Z",
-        "count": 28,
-        "engagement": 133
+        "count": 30,
+        "engagement": 1945
+      },
+      {
+        "hour": "2026-07-22T12:00:00.000Z",
+        "count": 4,
+        "engagement": 340234
+      },
+      {
+        "hour": "2026-07-22T13:00:00.000Z",
+        "count": 4,
+        "engagement": 1108178
+      },
+      {
+        "hour": "2026-07-22T14:00:00.000Z",
+        "count": 4,
+        "engagement": 796528
+      },
+      {
+        "hour": "2026-07-22T15:00:00.000Z",
+        "count": 2,
+        "engagement": 29274
+      },
+      {
+        "hour": "2026-07-22T16:00:00.000Z",
+        "count": 2,
+        "engagement": 208055
+      },
+      {
+        "hour": "2026-07-22T17:00:00.000Z",
+        "count": 1,
+        "engagement": 18524
+      },
+      {
+        "hour": "2026-07-22T18:00:00.000Z",
+        "count": 3,
+        "engagement": 146665
       }
     ],
     "hashtags": [
       {
         "tag": "accadeoggi",
-        "count": 5138
+        "count": 4985
       },
       {
         "tag": "perte",
-        "count": 5066
+        "count": 4784
       },
       {
         "tag": "fyp",
-        "count": 4560
+        "count": 4268
       },
       {
         "tag": "viral",
-        "count": 3606
+        "count": 3398
       },
       {
         "tag": "adv",
-        "count": 2246
+        "count": 2066
       },
       {
         "tag": "neiperte",
-        "count": 2001
+        "count": 1901
       },
       {
         "tag": "tiktokshop",
-        "count": 1895
+        "count": 1774
       },
       {
         "tag": "offerteperte",
-        "count": 1707
+        "count": 1606
       },
       {
         "tag": "foryou",
-        "count": 1608
+        "count": 1512
       },
       {
         "tag": "napoli",
-        "count": 1285
+        "count": 1214
       },
       {
         "tag": "essenzialiestivi",
-        "count": 1202
+        "count": 1147
       },
       {
         "tag": "italia",
-        "count": 1058
+        "count": 998
       },
       {
         "tag": "italy",
-        "count": 1037
+        "count": 986
       },
       {
         "tag": "argentina",
-        "count": 1024
+        "count": 979
       },
       {
         "tag": "capcut",
-        "count": 902
+        "count": 864
       },
       {
         "tag": "estate",
-        "count": 884
+        "count": 839
       },
       {
         "tag": "milano",
-        "count": 848
+        "count": 802
       },
       {
         "tag": "calcio",
-        "count": 846
-      },
-      {
-        "tag": "virale",
-        "count": 765
+        "count": 801
       },
       {
         "tag": "perteeee",
-        "count": 760
+        "count": 726
+      },
+      {
+        "tag": "virale",
+        "count": 722
       },
       {
         "tag": "amore",
-        "count": 746
+        "count": 712
       },
       {
         "tag": "madeinitaly",
-        "count": 704
+        "count": 661
       },
       {
         "tag": "sheintrends",
-        "count": 700
+        "count": 660
+      },
+      {
+        "tag": "badbunny",
+        "count": 635
       },
       {
         "tag": "summer",
-        "count": 668
-      },
-      {
-        "tag": "onthisday",
-        "count": 645
+        "count": 634
       }
     ],
     "creators": [
@@ -372,35 +377,35 @@
       },
       {
         "name": "fcbarcelona",
-        "posts": 32,
-        "engagement": 54302360,
+        "posts": 35,
+        "engagement": 57425576,
         "platform": "ig",
         "followers": 146159725,
-        "avgEr": 0.011610234967259277
+        "avgEr": 0.011225600916101497
       },
       {
         "name": "fabriziorom",
-        "posts": 70,
-        "engagement": 38534489,
+        "posts": 68,
+        "engagement": 37258133,
         "platform": "ig",
         "followers": 47732215,
-        "avgEr": 0.011611242474489483
+        "avgEr": 0.011555355966568304
       },
       {
         "name": "fabrizioromano",
-        "posts": 66,
-        "engagement": 33728384,
+        "posts": 65,
+        "engagement": 33453537,
         "platform": "tt",
         "followers": 26100000,
-        "avgEr": 0.01966911364496168
+        "avgEr": 0.019807823324174568
       },
       {
         "name": "realmadrid",
-        "posts": 54,
-        "engagement": 24345588,
+        "posts": 49,
+        "engagement": 22417200,
         "platform": "ig",
         "followers": 179365658,
-        "avgEr": 0.0025135481744349426
+        "avgEr": 0.0025506213544569407
       },
       {
         "name": "lilbieber",
@@ -412,11 +417,11 @@
       },
       {
         "name": "shakira",
-        "posts": 6,
-        "engagement": 19467215,
+        "posts": 5,
+        "engagement": 18128970,
         "platform": "ig",
         "followers": 99791936,
-        "avgEr": 0.03251300619454194
+        "avgEr": 0.036333537010445414
       },
       {
         "name": "georginagio",
@@ -428,19 +433,27 @@
       },
       {
         "name": "charlidamelio",
-        "posts": 10,
-        "engagement": 13729114,
+        "posts": 12,
+        "engagement": 15423808,
         "platform": "tt",
         "followers": 159300000,
-        "avgEr": 0.008618401757689893
+        "avgEr": 0.008068533165934295
       },
       {
         "name": "cristiano",
-        "posts": 1,
-        "engagement": 7800392,
+        "posts": 2,
+        "engagement": 12315683,
         "platform": "ig",
         "followers": 677531745,
-        "avgEr": 0.011512954274932166
+        "avgEr": 0.009088639086571508
+      },
+      {
+        "name": "championsleague",
+        "posts": 30,
+        "engagement": 7547577,
+        "platform": "ig",
+        "followers": 119432845,
+        "avgEr": 0.002693188932351283
       },
       {
         "name": "rodridepaul",
@@ -459,28 +472,20 @@
         "avgEr": 0.021050838638635293
       },
       {
-        "name": "juventus",
-        "posts": 63,
-        "engagement": 6275105,
-        "platform": "ig",
-        "followers": 58978583,
-        "avgEr": 0.0020119251601562467
-      },
-      {
         "name": "kimkardashian",
         "posts": 2,
-        "engagement": 6255051,
+        "engagement": 6336580,
         "platform": "ig",
         "followers": 344632390,
-        "avgEr": 0.00907496100410063
+        "avgEr": 0.009193245011010136
       },
       {
-        "name": "championsleague",
-        "posts": 26,
-        "engagement": 6234933,
+        "name": "juventus",
+        "posts": 59,
+        "engagement": 6131712,
         "platform": "ig",
-        "followers": 119432845,
-        "avgEr": 0.002684808576026645
+        "followers": 58978583,
+        "avgEr": 0.002103141669339643
       }
     ],
     "posts": [
@@ -743,20 +748,6 @@
       },
       {
         "platform": "ig",
-        "author": "nilufaraddati",
-        "time": "2026-07-15T18:13:09Z",
-        "text": "Non sapevo quale scegliere quindi ve le beccate tutte ✨\nnel menu di oggi: il mio abito @chiaraferragni X @vassiakostarabrand , spaghetti alla nerano e pomodori di sorrento.\n#gift",
-        "engagement": 62214,
-        "engagementRate": 0.045981751865278656,
-        "sentiment": "pos",
-        "hashtags": [
-          "gift"
-        ],
-        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/749223118_18612161548018408_2677331326579811251_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=110&ig_cache_key=Mzk0MTk2NzQxMTA3MzQ4Mzk1NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzc5MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=HsVpScpejoQQ7kNvwHIrmDG&_nc_oc=AdpecIZLfU4cWKxJPwJAJlQSXt8GF2LYnd9xecuScdv_RtQut9zh_9rgkpIE0mptVdOx_2tcjsizsDYG6CFEzgds&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=sKHhHaHJd7uyYI8_3VaipA&_nc_ss=7a3ba&oh=00_AQACedJHzPY87ewCv_a59Ln9ucggw44nI_LTl1YJ9DF2YA&oe=6A663363",
-        "url": "https://www.instagram.com/p/3941967691393047167/"
-      },
-      {
-        "platform": "ig",
         "author": "giulycaggiari",
         "time": "2026-07-19T15:48:23Z",
         "text": "Avete mai provato l’anguria preparata così? 🍉😍\n\nHo visto questa ricetta virale e ovviamente ho dovuto provarla. Il risultato mi ha davvero sorpresa: è piaciuta tantissimo a me e anche a tutte le persone a cui l’ho fatta assaggiare! 🤤\n\nIngredienti\n",
@@ -964,21 +955,31 @@
       },
       {
         "platform": "ig",
-        "author": "marco1roma",
-        "time": "2026-07-15T15:04:39Z",
-        "text": "Spaghetti di Zucchine light e low carb👇\nLi ho provati per la prima volta e sono pazzeschi!\n\nLascia un like ❤️ salva la ricetta per non perderla!🖇️\n\nINGREDIENTI:\n1 zucchina grande\nPomodorini datterini \n100gr formaggio spalmabile o yogurt greco \n\n👉 ",
-        "engagement": 26279,
-        "engagementRate": 0.046734007931568,
+        "author": "beyond___ai",
+        "time": "2026-07-20T16:42:52Z",
+        "text": "Marzo 2023: un utente Reddit pubblica un video generato con l'AI di \"Will Smith che mangia gli spaghetti\". Le mani si deformano, la forchetta sparisce nel nulla, la faccia fa cose che una faccia non dovrebbe fare. Il video diventa un meme in poche or",
+        "engagement": 24917,
+        "engagementRate": 0.10279629690748869,
         "sentiment": "pos",
+        "hashtags": [],
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/752699238_18325539544278319_9153804759160825323_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=105&ig_cache_key=Mzk0NTU0NTMzNzY5MDUwMzIxNDE4MzI1NTM5NTQxMjc4MzE5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=2Uldvwpf2YoQ7kNvwFKGwjD&_nc_oc=AdpvGQgvyrKKdxzUZ6cHx5lktndJmlGYxo_5CF-ArnYDWA43yBE11tjESbNcIHuQEnv65W6sOwpfAQXH4U-4CPKH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=ZNyHsoSH1ab8WahV4Nrn3g&_nc_ss=7a3ba&oh=00_AQD5Lj7fGKdTClhq2tHdPenWOnLBMHXcqBv-3ILpHjIdwg&oe=6A663ED6",
+        "url": "https://www.instagram.com/reel/3945545337690503214/"
+      },
+      {
+        "platform": "ig",
+        "author": "sebastian_fitarau",
+        "time": "2026-07-21T10:34:31Z",
+        "text": "Polpo e Patate 🤤\n\nIngredienti per 4 persone:\n- 1 kg di polpo\n- 1 kg di patate\n- Scorza di 1 limone\n- 50 ml di olio extravergine d'oliva \n- Sale q.b.\n- Pepe q.b.\n- Prezzemolo fresco q.b.\n\nIngredienti per la citronette:\n- Succo di 1 limone\n- 50 ml di ",
+        "engagement": 24912,
+        "engagementRate": 0.00902337013746948,
+        "sentiment": "neg",
         "hashtags": [
-          "pastadizucchine",
-          "zucchine",
-          "pasta",
-          "ricettaveloce",
-          "ricettafacile"
+          "polpo",
+          "patate",
+          "insalata"
         ],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/746429358_18603115270053742_6843423234921374028_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=103&ig_cache_key=Mzk0MTg3MjQwNTUzMjMzNTIwNDE4NjAzMTE1MjY0MDUzNzQy.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=JyAUEbmycnUQ7kNvwFsAjxh&_nc_oc=AdoR-sRRb2wBgdxXXdmz3Scz7cpdrSD8lxHu9TRNo2DUeT-i6u_CTzKN1pro9X-x6PvKASo-u6kLnyUTBUVeRyqh&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=4HnzaUI15cdssM3GRUOx9A&_nc_ss=7a3ba&oh=00_AQAoB2mAKZ58PRpqBj5tmozcjo4bwO41IIJDMkz3y3PQ8Q&oe=6A662DCC",
-        "url": "https://www.instagram.com/reel/3941872405532335204/"
+        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/728143510_18449428471137585_8389439630829145983_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=107&ig_cache_key=Mzk0NjA4NDMzMjc3OTE1ODgxMTE4NDQ5NDI4NDY4MTM3NTg1.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=lRfrX14Lp6kQ7kNvwGlRil0&_nc_oc=AdpeuY3rdTtFZH8ULunHWe4QNZykmAyE7nAOcK36mU5Wv03JJ5er-7j_DYJQmH_FqhTPlN7pAPmrJ3VVUfFGvyUr&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=MSdmAX1TabtiaSGb4upyJg&_nc_ss=7a3ba&oh=00_AQDrYDSeOst50kjO8osS0LH0-H4DP-7B4dEXvCp3iq4Zqw&oe=6A662F32",
+        "url": "https://www.instagram.com/reel/3946084332779158811/"
       },
       {
         "platform": "tt",
@@ -1067,18 +1068,6 @@
         ],
         "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oEfIeer2GgdjG3AQApMIAvFMuGtLInKAUUv3AC~tplv-tiktokx-dmt-logom:tos-useast2a-i-0068-euttp/oE4AQGAWpQAxFjAghtItfvgr1AdrM8eFMe3UKt.image?dr=10393&x-expires=1784876400&x-signature=4LzMtml4BvwaPPJSWoh5OSIY4N4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@giuseppe_healthy/video/7663822494570237216"
-      },
-      {
-        "platform": "tt",
-        "author": "marco1roma",
-        "time": "2026-07-15T15:50:08Z",
-        "text": "Spaghetti di Zucchine light e low carb👇 Li ho provati per la prima volta e sono pazzeschi! INGREDIENTI: 1 zucchina grande Pomodorini datterini  100gr formaggio spalmabile o yogurt greco  👉 sciacquate e tagliate la zucchina prima con una mandolina e",
-        "engagement": 56179,
-        "engagementRate": 0.29366962885520126,
-        "sentiment": "pos",
-        "hashtags": [],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oMFuDJbqVAEiDIgFEoW6FRrBmJXfIXp9EOfQID~tplv-tiktokx-origin.image?dr=10395&x-expires=1784876400&x-signature=TQiUgnh%2BGNVREv3kSDV3lRoeS7c%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@marco1roma/video/7662782597038116128"
       },
       {
         "platform": "tt",
@@ -1214,6 +1203,22 @@
         ],
         "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/o09vM8hvIQdMAt3TAAUgWFGehMj2AAYoLGeAbe~tplv-tiktokx-origin.image?dr=10395&x-expires=1784876400&x-signature=vX5znNzDfi7ex0M4KWG36EeOHkI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@giorgiatavella5/video/7665047079516949793"
+      },
+      {
+        "platform": "tt",
+        "author": "2foodfitlovers",
+        "time": "2026-07-19T11:15:51Z",
+        "text": "Patate squishy 💦 Non avevo mai visto nulla di simile, quindi dovevo assolutamente verificare😱 il bimbo avrà apprezzato? 🙌 👖@teveoitalia top contrastline cod Fitlovers Ad* Ricetta: Ingredienti: -patate (noi 4) - spezie a piacere  - olio evo e sale",
+        "engagement": 23037,
+        "engagementRate": 0.016455,
+        "sentiment": "neu",
+        "hashtags": [
+          "ricetta",
+          "patate",
+          "friggitriceadaria"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/o4JdIcCqDQAQWCRKAEZefA3A5lIDXF9HLmaYNE~tplv-tiktokx-origin.image?dr=10395&x-expires=1784876400&x-signature=C8LwNCJlgbQLO0ByqdklnrLVly8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@2foodfitlovers/video/7664196251189005600"
       },
       {
         "platform": "yt",
@@ -2163,10 +2168,10 @@
   "competitors": [
     {
       "name": "Barilla",
-      "mentions": 9,
+      "mentions": 10,
       "socialMentions": 10,
-      "totalMentions": 19,
-      "shareOfVoice": 30.2,
+      "totalMentions": 20,
+      "shareOfVoice": 33.3,
       "posts": [
         {
           "type": "news",
@@ -2214,6 +2219,14 @@
           "source": "RMC MOTORI",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVFZKTE1oQTRVNWdvVkQ2cDhTTlp2WXZ2YmxnZFluamUyc0h1Q2JRV08yZlF6cTh6dXBtRzBITHNjdUdpNmVMZG5QUzhRb0RJSG5XNzZJMGRUZ0tHbERONV9HU2xFNXhkQjNZYVpTOWtxVmlBNHZHNTFFRFdzSkNfeGJFMWYtOUtDVlFHVlR3RnVnRGxyTk82NVgxUGFUT1phaGkxVGluQUxiX1hQVUV1UQ?oc=5",
           "date": "2026-07-18T15:24:49.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "GENNARO ESPOSITO SARÀ IL GUEST CHEF DELLA CENA DEI MILLE DI PARMA - Rivista Beesness",
+          "source": "RIVISTA BEESNESS",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHpqbTRHWE5IX3JwRzlkeTVYR1BmVmFoVmsxSGVxbTYxVHEwOV84cGxwYkdPOUJ6NmFvcXUteENmU2d0eFBPeWNabU5DOFpobjVEQzMzUHo3ZUEwZm9vXzAyMS1FVi1laWU1WHBTb2VwOTVhX2hSUEJYRlhIamdhMDJqMTFLbmE2LTB4R29QempGZXA5NFkyQVhCVU03bWRRUDc0?oc=5",
+          "date": "2026-07-22T18:00:46.000Z",
           "brand": "Barilla"
         },
         {
@@ -2345,9 +2358,9 @@
     {
       "name": "Garofalo",
       "mentions": 7,
-      "socialMentions": 11,
-      "totalMentions": 18,
-      "shareOfVoice": 28.6,
+      "socialMentions": 8,
+      "totalMentions": 15,
+      "shareOfVoice": 25,
       "posts": [
         {
           "type": "news",
@@ -2367,18 +2380,18 @@
         },
         {
           "type": "news",
-          "title": "Dagli scavi di un pastificio di Gragnano una necropoli arcaica di 2500 anni fa - ANSA",
-          "source": "ANSA",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQcGJNbUlWMHlkVDNhQmN6TFJuODBwaUh0NHk5ZFNkUVRaWmx1S0tucEROV2RuVGRRUkFVMlhtWEV6S2xLcm8zSjQ3aWtfR2ZfazJxMzN1aGdXR3JHOFFyV0dFSklYOVA2OTc2Tm4tQk13SVJvRzVicHhSTGRxc2FOV1ZmQ1JvWUE4TkpLS1FNWUJCWURkaWVmZHdyZGJxR1ljWTVRbTJnRXNnVTcyNWVUOThjakh0WVlScFkyNkxoVWN6VHNLZ0FodzhsTW1tVmxUcy1EV0g4SXNkTVR3YkxEWEZieFFYUm5GTnV3UEZkbnpoUGlNT0xOUlZYUlTSAYICQVVfeXFMTUV2cU03bU9zRGpnS0tHZzJIMnM3VXVLU182bWlpOHB1cThBVVE3Q2pPbno0RkRBbjZSTS13cGdSWXIybElOeWQ0T1hZUDdIME9CanJNRFFPNjI2RllaQ1FOcDVkUUN0b1dLQUY0bWh2cUdXc3BSbGwyZmNJRnNMb0JRQWRjaDZNc2J0VkdhUFktWWJCSC1oenVzUHVYTW5FcHZuVTlvOUNLbkFRRTZFWndQeW1rVC1ReHRCeTloNDlMYzUzdW5HOWRvWURkSG5ESWZ0SWIyZnBjZmctaFFXQzl5bURiNUx3NldtbXBMMENxS2ZKQkMtRW5JOVVweVRTRE9R?oc=5",
-          "date": "2026-07-15T17:43:00.000Z",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "news",
           "title": "Melaverde: Il taglio del pioppo Video - Mediaset Infinity",
           "source": "MEDIASET INFINITY",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRG1zQlB1M3pGLXNjNFVqTWs4UG5JelNteGZkNTRvNDZYcEdGU2VsZS1LOXhoTHRBRV94aW9TLUFiQ2VHSHF3TGVQZzNKa1dsWHc2cE82WTk3QnFUdHlhS0RPYkY4WEtIWTBLbl81MFA2WHlzMndsRnpfemxFM25XVGJLTHQ2SVNQeVd6SXlzRnltQjFl?oc=5",
           "date": "2026-07-19T10:24:42.000Z",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "news",
+          "title": "Ritrovamenti archeologici nei pressi del pastificio Garofalo a Gragnano - NapoliToday",
+          "source": "NAPOLITODAY",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZkRuVk9fTGhwRVkzbHZPNFVXUFJGbWxGVFc0WnpfS3pNdXVDVnNkZTRQWll1WFoxcWx1MmlMTGdUQXpvcVZhQUZ4MlBjeU9pMDFRdkllNjhUcnBQRFRaWDIyanR4SExXY2lab2M3ZmZjM1VHUUFkQW1VRkx0OGhTams5X3NFd2JWLUcwWi1XWTU?oc=5",
+          "date": "2026-07-15T19:46:15.000Z",
           "brand": "Garofalo"
         },
         {
@@ -2413,16 +2426,6 @@
           "engagement": 19112,
           "date": "2026-07-19T17:15:18Z",
           "url": "https://www.instagram.com/p/3944836921352283006/",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "ilmattino.it",
-          "text": "Scoperta necropoli arcaica di Via dei Pastai, rinvenuta all’interno dello stabilimento produttivo di Gragnano, durante la Campagna di scavo 2025/2026, un progetto archeologico sul campo finalizzato a rimuovere strati di terreno per scoprire e documen",
-          "engagement": 8291,
-          "date": "2026-07-15T16:54:57Z",
-          "url": "https://www.instagram.com/reel/3941927490794278956/",
           "brand": "Garofalo"
         },
         {
@@ -2467,16 +2470,6 @@
         },
         {
           "type": "social",
-          "platform": "tt",
-          "author": "ilmattino.it",
-          "text": "Scoperta necropoli arcaica di Via dei Pastai, rinvenuta all’interno dello stabilimento produttivo di Gragnano, durante la Campagna di scavo 2025/2026, un progetto archeologico sul campo finalizzato a rimuovere strati di terreno per scoprire e documen",
-          "engagement": 605,
-          "date": "2026-07-15T16:58:17Z",
-          "url": "https://www.tiktok.com/@ilmattino.it/video/7662800155904658720",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
           "platform": "yt",
           "author": "ArchaeoReporter",
           "text": "Una necropoli arcaica della prima metà del VI secolo a.C. è stata scoperta nello stabilimento della Pasta Garofalo di Gragnano.\n\nIl rinvenimento è avvenuto durante le attività di archeologia preventiva legate ai lavori di ampliamento del complesso pr",
@@ -2498,16 +2491,6 @@
         {
           "type": "social",
           "platform": "tt",
-          "author": "cucinare_stanca",
-          "text": "#adv @Pasta Garofalo Due paste per raccontarvi come si fa un buon prodotto. Qual è il buon prodotto? lo. Scherzo, è la pasta Garofalo, la prima al mondo ad aver ottenuto la certificazione \"al dente\" da Bureau Veritas. Scrivete nei commenti quale cert",
-          "engagement": 211,
-          "date": "2026-07-15T16:13:40Z",
-          "url": "https://www.tiktok.com/@cucinare_stanca/video/7662788660793756960",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "tt",
           "author": "elvira.grimaldi1",
           "text": "Per non dimenticare..Le nostre mini avventure 😂😂😂@Filomena Garofalo @mammapesti2  #avventure #amicizia #tiktokshop #divertimento #perte ",
           "engagement": 62,
@@ -2522,7 +2505,7 @@
       "mentions": 6,
       "socialMentions": 5,
       "totalMentions": 11,
-      "shareOfVoice": 17.5,
+      "shareOfVoice": 18.3,
       "posts": [
         {
           "type": "news",
@@ -2568,7 +2551,7 @@
           "type": "news",
           "title": "Grano duro, Lollobrigida promette più informazione - EFA News - European Food Agency",
           "source": "EFA NEWS - EUROPEAN FOOD AGENCY",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUjlqeTVfYk5KamZTejU5RHhCSzdKRDBJQ3BjV0VvLWduTTRuY0RQY1NWRWpleWx5YlUzZ0VLOU95bkQ5Z0Y0anAtVFFnWkN1VEVXUE9RMG82cUl1QVNudWtERnVNLXVNa3BHTXJHV1d5c2ZEZHdLUjZ4UkNzbkdGNHFpV0xKLVNuak5BWWRQUk1MZw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORXlGaV9XX3FDRzZiN2ZLbmJXSEJsVHpSZk5LeU54QnNIeG5aQmNaZl9tVW1mRlZmOGpEOGZTZkpLVDJMQUJqVDNxU2NGM0ttY3gtUGhqaFRmTG9CajRjb2dURFgyT1VlVFBjU0JxQjhqSU5NRUhEdXhQbE5BZ29xTWhqNGZlaU1IUVNhZXRZcGJTbktjc3c?oc=5",
           "date": "2026-07-22T09:01:55.000Z",
           "brand": "De Cecco"
         },
@@ -2627,9 +2610,9 @@
     {
       "name": "Divella",
       "mentions": 1,
-      "socialMentions": 5,
-      "totalMentions": 6,
-      "shareOfVoice": 9.5,
+      "socialMentions": 4,
+      "totalMentions": 5,
+      "shareOfVoice": 8.3,
       "posts": [
         {
           "type": "news",
@@ -2647,16 +2630,6 @@
           "engagement": 88,
           "date": "2026-07-19T09:22:31Z",
           "url": "https://www.instagram.com/reel/3944599446604304748/",
-          "brand": "Divella"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "divellaofficial",
-          "text": "Inghilterra-Argentina, una sfida che vale un posto in finale.\nDivella continua a essere protagonista del grande evento Rai dei Mondiali FIFA 2026.\nDIVELLA. Passione mondiale. ⚽\n\n#divella #passionemediterranea #fifaworldcup2026",
-          "engagement": 36,
-          "date": "2026-07-15T14:33:02Z",
-          "url": "https://www.instagram.com/p/3941856896152737573/",
           "brand": "Divella"
         },
         {
@@ -2696,7 +2669,7 @@
       "mentions": 2,
       "socialMentions": 2,
       "totalMentions": 4,
-      "shareOfVoice": 6.3,
+      "shareOfVoice": 6.7,
       "posts": [
         {
           "type": "news",
@@ -2741,7 +2714,7 @@
       "mentions": 3,
       "socialMentions": 0,
       "totalMentions": 3,
-      "shareOfVoice": 4.8,
+      "shareOfVoice": 5,
       "posts": [
         {
           "type": "news",
@@ -2774,7 +2747,7 @@
       "mentions": 1,
       "socialMentions": 1,
       "totalMentions": 2,
-      "shareOfVoice": 3.2,
+      "shareOfVoice": 3.3,
       "posts": [
         {
           "type": "news",
