@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-20T18:36:41.410Z",
+    "generatedAt": "2026-08-21T01:13:15.733Z",
     "pipelineVersion": "1.0.0",
     "sources": {
       "opensearch": true,
@@ -9,19 +9,19 @@
       "claude": false,
       "competitors": true
     },
-    "processingTimeMs": 3538
+    "processingTimeMs": 2987
   },
   "social": {
     "overview": {
-      "totalPosts": 183029,
-      "prevTotalPosts": 206884,
-      "volumeChange": -11.5,
-      "mentions24h": 17360,
-      "totalEngagement": 706182454,
-      "avgEngagementRate": 0.008935147571575954,
-      "erChange": -22.5,
+      "totalPosts": 178529,
+      "prevTotalPosts": 206191,
+      "volumeChange": -13.4,
+      "mentions24h": 11963,
+      "totalEngagement": 682860291,
+      "avgEngagementRate": 0.008868539229921688,
+      "erChange": -22.7,
       "organicPct": 99,
-      "sponsoredCount": 2518
+      "sponsoredCount": 2475
     },
     "brandHealth": {
       "score": 79,
@@ -34,7 +34,7 @@
         },
         {
           "name": "Engagement",
-          "score": 45,
+          "score": 44,
           "color": "#3ba4ff"
         },
         {
@@ -78,110 +78,69 @@
     "platforms": [
       {
         "name": "tt",
-        "count": 103266,
-        "pctOfTotal": 56.4
+        "count": 100317,
+        "pctOfTotal": 56.2
       },
       {
         "name": "ig",
-        "count": 72158,
-        "pctOfTotal": 39.4
+        "count": 70710,
+        "pctOfTotal": 39.6
       },
       {
         "name": "yt",
-        "count": 7605,
+        "count": 7502,
         "pctOfTotal": 4.2
       }
     ],
     "dailyVolume": [
       {
-        "date": "2026-08-13T00:00:00.000Z",
-        "count": 4294,
-        "engagement": 43203601,
-        "avgEr": 0.011613875243395763
-      },
-      {
         "date": "2026-08-14T00:00:00.000Z",
-        "count": 28412,
-        "engagement": 103035050,
-        "avgEr": 0.010335822075194226
+        "count": 28160,
+        "engagement": 102022085,
+        "avgEr": 0.010341279179428871
       },
       {
         "date": "2026-08-15T00:00:00.000Z",
         "count": 24875,
-        "engagement": 100693688,
-        "avgEr": 0.009839234149626811
+        "engagement": 100722152,
+        "avgEr": 0.009839003088655273
       },
       {
         "date": "2026-08-16T00:00:00.000Z",
         "count": 24909,
-        "engagement": 127857330,
-        "avgEr": 0.010457798099306193
+        "engagement": 127873429,
+        "avgEr": 0.010457874296496344
       },
       {
         "date": "2026-08-17T00:00:00.000Z",
         "count": 29399,
-        "engagement": 123900712,
-        "avgEr": 0.010004983474557437
+        "engagement": 124171340,
+        "avgEr": 0.010005271903456726
       },
       {
         "date": "2026-08-18T00:00:00.000Z",
         "count": 29271,
-        "engagement": 118608017,
-        "avgEr": 0.009213889601744123
+        "engagement": 120224781,
+        "avgEr": 0.009214484512283128
       },
       {
         "date": "2026-08-19T00:00:00.000Z",
-        "count": 29737,
-        "engagement": 81566812,
-        "avgEr": 0.006622498472837041
+        "count": 29748,
+        "engagement": 93468766,
+        "avgEr": 0.006623654871850544
       },
       {
         "date": "2026-08-20T00:00:00.000Z",
-        "count": 12132,
-        "engagement": 7317244,
-        "avgEr": 0.002127325933308976
+        "count": 12167,
+        "engagement": 14377738,
+        "avgEr": 0.002128831002361182
       }
     ],
     "hourlyVolume": [
       {
-        "hour": "2026-08-19T18:00:00.000Z",
-        "count": 676,
-        "engagement": 2046419
-      },
-      {
-        "hour": "2026-08-19T19:00:00.000Z",
-        "count": 1702,
-        "engagement": 2955099
-      },
-      {
-        "hour": "2026-08-19T20:00:00.000Z",
-        "count": 1092,
-        "engagement": 2546611
-      },
-      {
-        "hour": "2026-08-19T21:00:00.000Z",
-        "count": 831,
-        "engagement": 2196176
-      },
-      {
-        "hour": "2026-08-19T22:00:00.000Z",
-        "count": 587,
-        "engagement": 1424668
-      },
-      {
-        "hour": "2026-08-19T23:00:00.000Z",
-        "count": 340,
-        "engagement": 171939
-      },
-      {
-        "hour": "2026-08-20T00:00:00.000Z",
-        "count": 175,
-        "engagement": 640898
-      },
-      {
         "hour": "2026-08-20T01:00:00.000Z",
-        "count": 129,
-        "engagement": 180504
+        "count": 100,
+        "engagement": 161962
       },
       {
         "hour": "2026-08-20T02:00:00.000Z",
@@ -205,8 +164,8 @@
       },
       {
         "hour": "2026-08-20T06:00:00.000Z",
-        "count": 869,
-        "engagement": 580334
+        "count": 870,
+        "engagement": 586164
       },
       {
         "hour": "2026-08-20T07:00:00.000Z",
@@ -215,203 +174,233 @@
       },
       {
         "hour": "2026-08-20T08:00:00.000Z",
-        "count": 1791,
-        "engagement": 955066
+        "count": 1794,
+        "engagement": 1451365
       },
       {
         "hour": "2026-08-20T09:00:00.000Z",
-        "count": 1938,
-        "engagement": 950090
+        "count": 1939,
+        "engagement": 950155
       },
       {
         "hour": "2026-08-20T10:00:00.000Z",
-        "count": 2496,
-        "engagement": 1140511
+        "count": 2500,
+        "engagement": 1752284
       },
       {
         "hour": "2026-08-20T11:00:00.000Z",
-        "count": 1523,
-        "engagement": 261198
+        "count": 1525,
+        "engagement": 450352
       },
       {
         "hour": "2026-08-20T12:00:00.000Z",
-        "count": 405,
-        "engagement": 651860
+        "count": 409,
+        "engagement": 2614082
       },
       {
         "hour": "2026-08-20T13:00:00.000Z",
-        "count": 112,
-        "engagement": 259018
+        "count": 116,
+        "engagement": 1614775
       },
       {
         "hour": "2026-08-20T14:00:00.000Z",
-        "count": 116,
-        "engagement": 87923
+        "count": 120,
+        "engagement": 1156746
       },
       {
         "hour": "2026-08-20T15:00:00.000Z",
-        "count": 26,
-        "engagement": 403
+        "count": 29,
+        "engagement": 284061
+      },
+      {
+        "hour": "2026-08-20T16:00:00.000Z",
+        "count": 4,
+        "engagement": 420616
+      },
+      {
+        "hour": "2026-08-20T17:00:00.000Z",
+        "count": 3,
+        "engagement": 421120
+      },
+      {
+        "hour": "2026-08-20T18:00:00.000Z",
+        "count": 1,
+        "engagement": 156
+      },
+      {
+        "hour": "2026-08-20T19:00:00.000Z",
+        "count": 0,
+        "engagement": 0
+      },
+      {
+        "hour": "2026-08-20T20:00:00.000Z",
+        "count": 0,
+        "engagement": 0
+      },
+      {
+        "hour": "2026-08-20T21:00:00.000Z",
+        "count": 1,
+        "engagement": 245021
       }
     ],
     "hashtags": [
       {
         "tag": "accadeoggi",
-        "count": 4562
+        "count": 4426
       },
       {
         "tag": "perte",
-        "count": 4179
+        "count": 4056
       },
       {
         "tag": "fyp",
-        "count": 4050
+        "count": 3929
       },
       {
         "tag": "viral",
-        "count": 2799
+        "count": 2723
       },
       {
         "tag": "neiperte",
-        "count": 1625
+        "count": 1585
       },
       {
         "tag": "foryou",
-        "count": 1482
+        "count": 1442
       },
       {
         "tag": "ferragosto",
-        "count": 1388
+        "count": 1382
       },
       {
         "tag": "tiktokshop",
-        "count": 1258
+        "count": 1243
       },
       {
         "tag": "adv",
-        "count": 1125
+        "count": 1112
       },
       {
         "tag": "napoli",
-        "count": 994
+        "count": 964
       },
       {
         "tag": "capcut",
-        "count": 923
+        "count": 881
       },
       {
         "tag": "italia",
-        "count": 899
+        "count": 880
       },
       {
         "tag": "estate",
-        "count": 859
+        "count": 848
       },
       {
         "tag": "italy",
-        "count": 844
-      },
-      {
-        "tag": "summer",
-        "count": 751
+        "count": 814
       },
       {
         "tag": "backtoschool",
-        "count": 749
+        "count": 743
+      },
+      {
+        "tag": "summer",
+        "count": 735
       },
       {
         "tag": "virale",
-        "count": 703
-      },
-      {
-        "tag": "amore",
-        "count": 666
+        "count": 694
       },
       {
         "tag": "mare",
-        "count": 659
+        "count": 651
       },
       {
-        "tag": "onthisday",
-        "count": 624
+        "tag": "amore",
+        "count": 633
       },
       {
         "tag": "calcio",
-        "count": 617
+        "count": 603
+      },
+      {
+        "tag": "onthisday",
+        "count": 592
       },
       {
         "tag": "indispensabiliscuola",
-        "count": 584
+        "count": 576
       },
       {
         "tag": "offerteperte",
-        "count": 575
+        "count": 559
       },
       {
         "tag": "seriea",
-        "count": 560
+        "count": 551
       },
       {
         "tag": "viralvideos",
-        "count": 560
+        "count": 551
       }
     ],
     "creators": [
       {
         "name": "fcbarcelona",
-        "posts": 56,
-        "engagement": 44243731,
+        "posts": 68,
+        "engagement": 56732159,
         "platform": "ig",
         "followers": 147642553,
-        "avgEr": 0.005351240547412757
+        "avgEr": 0.005650809271816467
       },
       {
         "name": "fabriziorom",
-        "posts": 61,
-        "engagement": 42452152,
+        "posts": 58,
+        "engagement": 39835901,
         "platform": "ig",
         "followers": 49624021,
-        "avgEr": 0.014061439445987079
+        "avgEr": 0.01387114619749741
       },
       {
         "name": "realmadrid",
-        "posts": 76,
-        "engagement": 33787969,
+        "posts": 73,
+        "engagement": 32626780,
         "platform": "ig",
         "followers": 180441929,
-        "avgEr": 0.002463940072368556
+        "avgEr": 0.002476978707470089
       },
       {
         "name": "433",
-        "posts": 60,
-        "engagement": 31353117,
+        "posts": 55,
+        "engagement": 25666294,
         "platform": "ig",
         "followers": 79755055,
-        "avgEr": 0.006552025419092759
+        "avgEr": 0.005851163802834703
       },
       {
         "name": "fabrizioromano",
-        "posts": 22,
-        "engagement": 14940172,
+        "posts": 21,
+        "engagement": 14208684,
         "platform": "tt",
         "followers": 28000000,
-        "avgEr": 0.024253525974025972
+        "avgEr": 0.024164428571428573
       },
       {
         "name": "voguemagazine",
-        "posts": 41,
-        "engagement": 13982648,
+        "posts": 38,
+        "engagement": 13790837,
         "platform": "ig",
         "followers": 51758693,
-        "avgEr": 0.006589041866299661
+        "avgEr": 0.007011706481032948
       },
       {
-        "name": "cristiano",
-        "posts": 1,
-        "engagement": 12178578,
+        "name": "championsleague",
+        "posts": 49,
+        "engagement": 11206655,
         "platform": "ig",
-        "followers": 679545739,
-        "avgEr": 0.017921645742230163
+        "followers": 119513264,
+        "avgEr": 0.002403194985357832
       },
       {
         "name": "k.mbappe",
@@ -422,14 +411,6 @@
         "avgEr": 0.025943757190875452
       },
       {
-        "name": "championsleague",
-        "posts": 40,
-        "engagement": 10043278,
-        "platform": "ig",
-        "followers": 119513264,
-        "avgEr": 0.002825920144407678
-      },
-      {
         "name": "neymarjr",
         "posts": 3,
         "engagement": 8468003,
@@ -438,36 +419,36 @@
         "avgEr": 0.011637561277775025
       },
       {
-        "name": "psg",
-        "posts": 31,
-        "engagement": 8334645,
-        "platform": "ig",
-        "followers": 67254286,
-        "avgEr": 0.00399945461398567
-      },
-      {
         "name": "gucci",
-        "posts": 6,
-        "engagement": 8193269,
+        "posts": 5,
+        "engagement": 8191716,
         "platform": "ig",
         "followers": 50517148,
-        "avgEr": 0.02709436616773143
+        "avgEr": 0.03246393781397613
       },
       {
-        "name": "kyliejenner",
-        "posts": 3,
-        "engagement": 6404820,
+        "name": "psg",
+        "posts": 27,
+        "engagement": 7402910,
         "platform": "ig",
-        "followers": 381319732,
-        "avgEr": 0.005598818578840289
+        "followers": 67254286,
+        "avgEr": 0.004077963355114543
       },
       {
         "name": "kimkardashian",
         "posts": 2,
-        "engagement": 5283438,
+        "engagement": 6953303,
         "platform": "ig",
         "followers": 344302170,
-        "avgEr": 0.007672676010145391
+        "avgEr": 0.010097675248459805
+      },
+      {
+        "name": "kyliejenner",
+        "posts": 3,
+        "engagement": 6666113,
+        "platform": "ig",
+        "followers": 381319732,
+        "avgEr": 0.005827229697797718
       },
       {
         "name": "dualipa",
@@ -476,6 +457,14 @@
         "platform": "ig",
         "followers": 88602936,
         "avgEr": 0.019599004409214308
+      },
+      {
+        "name": "badgalriri",
+        "posts": 4,
+        "engagement": 4967362,
+        "platform": "ig",
+        "followers": 145755269,
+        "avgEr": 0.008520038476276285
       }
     ],
     "posts": [
@@ -1371,6 +1360,13 @@
   },
   "news": [
     {
+      "title": "Barilla, porte aperte agli innovatori. Nel 2025 ricavi a 4,83 miliardi - Distribuzione Moderna",
+      "source": "Distribuzione Moderna",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNV1JDbXFSZk94N3ZHYXNzcGJ4TFJvNWNkX2NxX0d0eFVHZGNOM2RZVXVPOS0xOUx0OC1hWXdnYU1PaFFpLW1DdVNOc0Z6bFhJQ1ljaXo5djZuYi13cDFHbXc5OGJNUDFPZTdCTlFnOGUyWExiaTBTbnhveHNDRXdmeEJTc1NrbEdTOGZFc1gteFlXM2JfTFJ4VHJaTmcxMFcydE1OQnlfTWRkd2hMN1FJQmZfd3hCYWZ5X2pGQ2RtYzFSX3NZdEo2aVRPYS1ycVRoY1ZUd0g1d1VpZXB5akI0?oc=5",
+      "date": "2026-08-20T13:04:49.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxNV1JDbXFSZk94N3ZHYXNzcGJ4TFJvNWNkX2NxX0d0eFVHZGNOM2RZVXVPOS0xOUx0OC1hWXdnYU1PaFFpLW1DdVNOc0Z6bFhJQ1ljaXo5djZuYi13cDFHbXc5OGJNUDFPZTdCTlFnOG"
+    },
+    {
       "title": "Pasta e grano duro, l'origine non è sinonimo automatico di qualità - Il Fatto Alimentare",
       "source": "Il Fatto Alimentare",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYSzI2ZjZYcTQ2QTEtRkVaSTlGN2VoRERMc0pMNzNaQXJDMkg3dlBEQ18tdDBBZVNPa19XVGxKWGRBeEViS01EcndyV2dkbE9JNFVvM3dDaHFVYTItMW1kNmp4OVA1QjNoeU9Fc29XRFI?oc=5",
@@ -1523,13 +1519,6 @@
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE45Zncxa0ZfTXM3YTRWSTEyRllaWUljSjlKTkYzRng2NkVFREtZLXBCVUY4aFNQVmFzQ2tkU3NOc1BxNF9hbHlucURBYWM3czFkV2ZOckdEcG5jRThpOXJhMjk4WXFBNWNSTXlHYmc4YUNNMWYwa2paWWtR?oc=5",
       "date": "2026-01-09T08:00:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE45Zncxa0ZfTXM3YTRWSTEyRllaWUljSjlKTkYzRng2NkVFREtZLXBCVUY4aFNQVmFzQ2tkU3NOc1BxNF9hbHlucURBYWM3czFkV2ZOckdEcG5jRThpOXJhMjk4WXFBNWNSTXlHYmc4YU"
-    },
-    {
-      "title": "PizzAut diventerà anche PastAut, con pasta Barilla - Il Sole 24 ORE",
-      "source": "Il Sole 24 ORE",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcVVVS2JudVVYNkNDTE1HNUQ0eG93X3NrczdETXF6ZEZ6SzJhSGx5OHB2Rnh0MVFqVTlnS2t2ekNPRWYzbUxiOU5KZ2p6MXE0WGxDX21BNzI4Rk5CT3R3R3BBSjVSQkNnOEJycEJnYUFfcEZLUUdfZjNNYklMVzZFTGdPYjRkZG5XTjB3SDNR?oc=5",
-      "date": "2025-12-02T08:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPcVVVS2JudVVYNkNDTE1HNUQ0eG93X3NrczdETXF6ZEZ6SzJhSGx5OHB2Rnh0MVFqVTlnS2t2ekNPRWYzbUxiOU5KZ2p6MXE0WGxDX21BNzI4Rk5CT3R3R3BBSjVSQkNnOEJycEJnYU"
     },
     {
       "title": "Da Barilla al Grana Padano, da Giorgio Armani a Gucci, dalla Ferrari alla Fiat: storia ed eccellenze delle imprese italiane - Il Gazzettino",
@@ -1993,10 +1982,10 @@
   "competitors": [
     {
       "name": "Barilla",
-      "mentions": 7,
+      "mentions": 8,
       "socialMentions": 2,
-      "totalMentions": 9,
-      "shareOfVoice": 28.1,
+      "totalMentions": 10,
+      "shareOfVoice": 27.8,
       "posts": [
         {
           "type": "news",
@@ -2012,6 +2001,14 @@
           "source": "AMICA.IT",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBmTU5sLXFNN05xVzFhelFwZGZEMk5SdXVYTFpObTlLbWFUcllDZDN0bnluWE1yMF9pOEVmRzRmM1BKdlZCQVR1X3BJcGF5aHZ0VGJ4dzkwVWFXa0h1ZnNmMVRzZGJWcHFoaUZnMzI0S0YtM2Jh?oc=5",
           "date": "2026-08-20T09:32:08.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "La Molisana acquisisce un’azienda di sughi. La produzione sarà realizzata a Termoli - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPczhuRnFaV09qY3A1UFVVR0thaUVDT2ZFc2doTnVycUZLNC1KYnVoSUFKeWV3M2dwXzJfRWFZakpqVVlXMGc1TTNkbG92UjlKTmtDSW9ha2FVdGszMlpBcFAyTkhHRF9hdGdZWUo2cEk5U256czBOeldOb056cDAxNERfRDQ1MnE0MTFSaDFYdGpORW1qY2w3YkRuaUZmMmRvRm9TU0ZXWFVZVll3clVKOGEzTFVoNkxHM2tKYUZtVnBWYzAwMjVVTThhbDlUcG8tZHNJ?oc=5",
+          "date": "2026-08-20T12:48:03.000Z",
           "brand": "Barilla"
         },
         {
@@ -2078,11 +2075,19 @@
     },
     {
       "name": "De Cecco",
-      "mentions": 2,
+      "mentions": 3,
       "socialMentions": 6,
-      "totalMentions": 8,
+      "totalMentions": 9,
       "shareOfVoice": 25,
       "posts": [
+        {
+          "type": "news",
+          "title": "Il Gruppo De Cecco annuncia la scomparsa di Giuseppe Adolfo De Cecco - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQkFWR3F5RVdDTGczSnFwSzJDM2s1NUpha1lTZmpCa2J1VkJSQVhmRWlTVy0ydFNqc01IWTlZeHFDY3o3dW9hZ3NNSlZFeF9zeVRkMkRMOWF4cGl5cFQ5Rm5Zcmg4QXdjc2RuSHh1MVBuT05iWFBqaDkyemFqUTh6Smk5aw?oc=5",
+          "date": "2026-08-20T18:16:43.000Z",
+          "brand": "De Cecco"
+        },
         {
           "type": "news",
           "title": "Sagra della Pasta 2026 a Fara San Martino: programma, musica e tradizione - Abruzzonews",
@@ -2166,7 +2171,7 @@
       "mentions": 0,
       "socialMentions": 5,
       "totalMentions": 5,
-      "shareOfVoice": 15.6,
+      "shareOfVoice": 13.9,
       "posts": [
         {
           "type": "social",
@@ -2225,14 +2230,14 @@
       "mentions": 2,
       "socialMentions": 2,
       "totalMentions": 4,
-      "shareOfVoice": 12.5,
+      "shareOfVoice": 11.1,
       "posts": [
         {
           "type": "news",
           "title": "San Nicola Manfredi, tutto pronto per la Sagra del Fusillo - Fremondoweb",
           "source": "FREMONDOWEB",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSFRPQnFha0Q2V1l3eEhpSzVXSFNybzFJUFAxZ1gxSGlFZ1hmZ2lrb2RZeUdzeUQtSzJTRW9FSnpmenREYVlOaVpMS0dtZno2OXZEQ2ROdnpOOVJ0MW9kM0s0VnU4d3lWX3ZlVXNpT2Rtdm1nVzREdEQteVRYczZEM2VObmdnckhwVlFzRDZxaHpOZnMyR1hFZ3ZTaUFrRURkdVBZ?oc=5",
-          "date": "2026-08-20T15:12:52.000Z",
+          "date": "2026-08-20T15:19:41.000Z",
           "brand": "Rummo"
         },
         {
@@ -2270,7 +2275,7 @@
       "mentions": 0,
       "socialMentions": 3,
       "totalMentions": 3,
-      "shareOfVoice": 9.4,
+      "shareOfVoice": 8.3,
       "posts": [
         {
           "type": "social",
@@ -2305,11 +2310,44 @@
       ]
     },
     {
+      "name": "La Molisana",
+      "mentions": 3,
+      "socialMentions": 0,
+      "totalMentions": 3,
+      "shareOfVoice": 8.3,
+      "posts": [
+        {
+          "type": "news",
+          "title": "La Molisana acquisisce un’azienda di sughi. La produzione sarà realizzata a Termoli - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPczhuRnFaV09qY3A1UFVVR0thaUVDT2ZFc2doTnVycUZLNC1KYnVoSUFKeWV3M2dwXzJfRWFZakpqVVlXMGc1TTNkbG92UjlKTmtDSW9ha2FVdGszMlpBcFAyTkhHRF9hdGdZWUo2cEk5U256czBOeldOb056cDAxNERfRDQ1MnE0MTFSaDFYdGpORW1qY2w3YkRuaUZmMmRvRm9TU0ZXWFVZVll3clVKOGEzTFVoNkxHM2tKYUZtVnBWYzAwMjVVTThhbDlUcG8tZHNJ?oc=5",
+          "date": "2026-08-20T12:48:03.000Z",
+          "brand": "La Molisana"
+        },
+        {
+          "type": "news",
+          "title": "La Molisana dà il via al nuovo concorso Rigacuore per San Valentino - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZHp4WkNNejk5MXBFbWJKMWtKUnVWTU15N1RVZjN2QmlhUGxQSC1fRmVNX2hUMUJ4NjN1SWVJSmhlNUxwSlltT0gxRzBpd1pCLWxpMG5Ndk9ZUTNVY0Uwd1I5d2paN2M0MFBiWHY4aVVzQnQyRUk4aHoxLTBmVURzYWpDcldOT3RxcF9xZGZiZTJfaDRMQnZXUUltcGF6U29yeEdUZExOcktzSUY5a09SMlJ1QzNOUzRmaVdYeXVEMTBib2hucFVJ?oc=5",
+          "date": "2026-08-20T19:20:42.000Z",
+          "brand": "La Molisana"
+        },
+        {
+          "type": "news",
+          "title": "ANGURIA A PREZZO D'ORO ALLA LIDL, 1,09€ AL CHILO: DA SÌ CON TE NE PRENDI TRE! - Osimo Oggi",
+          "source": "OSIMO OGGI",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbTFwLXhXdzhWVnA0OHRMdWY0UlRWZ2x2aDBVZ2ZJYTlVYlVzV2hrNXNfVmFFVFFrWTJrQ2RNNUhGRDJRaVkwNkZyekJMa0tkVmZZbHBQX08ybGNWMkNBdVd3bVlRWFA0OXpTdjR5Qkt3Z2FlVjNPYTNjYThLQU8xNDlfU0dkaWFpNGVndkxvY2lEbnBKYjl1aFJnMWpUNkR6UUpz?oc=5",
+          "date": "2026-08-18T19:46:34.000Z",
+          "brand": "La Molisana"
+        }
+      ]
+    },
+    {
       "name": "Voiello",
       "mentions": 2,
       "socialMentions": 0,
       "totalMentions": 2,
-      "shareOfVoice": 6.3,
+      "shareOfVoice": 5.6,
       "posts": [
         {
           "type": "news",
@@ -2326,23 +2364,6 @@
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV05FNGx0V2JHamZVdy1scW9jWERMcDdncWZvVmlLaDJsLWtfSnpPQ1FNbHdiNGphX0xqa3ZVTE1XR1RqN3VueWNVRHpQckoyZ3AtblplcjBGb0pPV1Nab3pIbE5GTU43YnQzTXNjYzRsbWtDdG9sNWRzR1E5SU82bVpDTQ?oc=5",
           "date": "2026-08-20T09:03:13.000Z",
           "brand": "Voiello"
-        }
-      ]
-    },
-    {
-      "name": "La Molisana",
-      "mentions": 1,
-      "socialMentions": 0,
-      "totalMentions": 1,
-      "shareOfVoice": 3.1,
-      "posts": [
-        {
-          "type": "news",
-          "title": "ANGURIA A PREZZO D'ORO ALLA LIDL, 1,09€ AL CHILO: DA SÌ CON TE NE PRENDI TRE! - Osimo Oggi",
-          "source": "OSIMO OGGI",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbTFwLXhXdzhWVnA0OHRMdWY0UlRWZ2x2aDBVZ2ZJYTlVYlVzV2hrNXNfVmFFVFFrWTJrQ2RNNUhGRDJRaVkwNkZyekJMa0tkVmZZbHBQX08ybGNWMkNBdVd3bVlRWFA0OXpTdjR5Qkt3Z2FlVjNPYTNjYThLQU8xNDlfU0dkaWFpNGVndkxvY2lEbnBKYjl1aFJnMWpUNkR6UUpz?oc=5",
-          "date": "2026-08-18T19:46:34.000Z",
-          "brand": "La Molisana"
         }
       ]
     }
