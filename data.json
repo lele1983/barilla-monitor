@@ -1,27 +1,27 @@
 {
   "meta": {
-    "generatedAt": "2026-08-22T12:36:05.279Z",
+    "generatedAt": "2026-08-22T18:28:03.077Z",
     "pipelineVersion": "1.0.0",
     "sources": {
       "opensearch": true,
-      "apify": false,
+      "apify": true,
       "eumetra": true,
       "claude": false,
       "competitors": true
     },
-    "processingTimeMs": 14839
+    "processingTimeMs": 3744
   },
   "social": {
     "overview": {
-      "totalPosts": 174336,
-      "prevTotalPosts": 201548,
-      "volumeChange": -13.5,
-      "mentions24h": 6566,
-      "totalEngagement": 700507951,
-      "avgEngagementRate": 0.008780163757412049,
-      "erChange": -23.4,
+      "totalPosts": 165265,
+      "prevTotalPosts": 200109,
+      "volumeChange": -17.4,
+      "mentions24h": 232,
+      "totalEngagement": 670758585,
+      "avgEngagementRate": 0.008725430031477919,
+      "erChange": -23.2,
       "organicPct": 99,
-      "sponsoredCount": 2521
+      "sponsoredCount": 2442
     },
     "brandHealth": {
       "score": 79,
@@ -29,7 +29,7 @@
       "dimensions": [
         {
           "name": "Sentiment",
-          "score": 68,
+          "score": 67,
           "color": "#00e676"
         },
         {
@@ -70,123 +70,93 @@
       ]
     },
     "sentiment": {
-      "netScore": 48,
-      "positive": 58,
-      "neutral": 32,
+      "netScore": 47,
+      "positive": 57,
+      "neutral": 33,
       "negative": 10
     },
     "platforms": [
       {
         "name": "tt",
-        "count": 98893,
+        "count": 93640,
         "pctOfTotal": 56.7
       },
       {
         "name": "ig",
-        "count": 68257,
-        "pctOfTotal": 39.2
+        "count": 64879,
+        "pctOfTotal": 39.3
       },
       {
         "name": "yt",
-        "count": 7186,
+        "count": 6746,
         "pctOfTotal": 4.1
       }
     ],
     "dailyVolume": [
       {
         "date": "2026-08-15T00:00:00.000Z",
-        "count": 13590,
-        "engagement": 61699817,
-        "avgEr": 0.009624531527424257
+        "count": 4468,
+        "engagement": 23871172,
+        "avgEr": 0.009379465519765606
       },
       {
         "date": "2026-08-16T00:00:00.000Z",
         "count": 24913,
-        "engagement": 130626582,
-        "avgEr": 0.010790688202167201
+        "engagement": 130680673,
+        "avgEr": 0.010790705709566925
       },
       {
         "date": "2026-08-17T00:00:00.000Z",
         "count": 29397,
-        "engagement": 129238699,
-        "avgEr": 0.010534655014441025
+        "engagement": 129257953,
+        "avgEr": 0.01053466519115876
       },
       {
         "date": "2026-08-18T00:00:00.000Z",
         "count": 29276,
-        "engagement": 129497906,
-        "avgEr": 0.010316214577438549
+        "engagement": 129834660,
+        "avgEr": 0.010316328693776165
       },
       {
         "date": "2026-08-19T00:00:00.000Z",
         "count": 29796,
-        "engagement": 117919766,
-        "avgEr": 0.00865290280440483
+        "engagement": 117969189,
+        "avgEr": 0.008652940403875877
       },
       {
         "date": "2026-08-20T00:00:00.000Z",
         "count": 28241,
-        "engagement": 90192975,
-        "avgEr": 0.007050029331424297
+        "engagement": 90561620,
+        "avgEr": 0.007050410625754676
       },
       {
         "date": "2026-08-21T00:00:00.000Z",
-        "count": 19072,
-        "engagement": 39415078,
-        "avgEr": 0.0032717442499642577
+        "count": 19093,
+        "engagement": 44476137,
+        "avgEr": 0.0032748945971340514
       },
       {
         "date": "2026-08-22T00:00:00.000Z",
-        "count": 51,
-        "engagement": 1917128,
-        "avgEr": 0.0007618457034239609
+        "count": 81,
+        "engagement": 4107181,
+        "avgEr": 0.0011302487552352684
       }
     ],
     "hourlyVolume": [
       {
-        "hour": "2026-08-21T12:00:00.000Z",
-        "count": 711,
-        "engagement": 967596
-      },
-      {
-        "hour": "2026-08-21T13:00:00.000Z",
-        "count": 1793,
-        "engagement": 3365374
-      },
-      {
-        "hour": "2026-08-21T14:00:00.000Z",
-        "count": 1820,
-        "engagement": 2444810
-      },
-      {
-        "hour": "2026-08-21T15:00:00.000Z",
-        "count": 1378,
-        "engagement": 1392440
-      },
-      {
-        "hour": "2026-08-21T16:00:00.000Z",
-        "count": 466,
-        "engagement": 1005632
-      },
-      {
-        "hour": "2026-08-21T17:00:00.000Z",
-        "count": 146,
-        "engagement": 2711596
-      },
-      {
         "hour": "2026-08-21T18:00:00.000Z",
-        "count": 109,
-        "engagement": 3318909
+        "count": 55,
+        "engagement": 1341841
       },
       {
         "hour": "2026-08-21T19:00:00.000Z",
-        "count": 42,
-        "engagement": 1370756
+        "count": 44,
+        "engagement": 3519224
       },
       {
         "hour": "2026-08-21T20:00:00.000Z",
-        "count": 18,
-        "engagement": 2292515
+        "count": 20,
+        "engagement": 2293651
       },
       {
         "hour": "2026-08-21T21:00:00.000Z",
@@ -205,8 +175,8 @@
       },
       {
         "hour": "2026-08-22T00:00:00.000Z",
-        "count": 6,
-        "engagement": 7417
+        "count": 7,
+        "engagement": 52942
       },
       {
         "hour": "2026-08-22T01:00:00.000Z",
@@ -230,8 +200,8 @@
       },
       {
         "hour": "2026-08-22T05:00:00.000Z",
-        "count": 0,
-        "engagement": 0
+        "count": 1,
+        "engagement": 93079
       },
       {
         "hour": "2026-08-22T06:00:00.000Z",
@@ -240,148 +210,163 @@
       },
       {
         "hour": "2026-08-22T07:00:00.000Z",
-        "count": 4,
-        "engagement": 136993
+        "count": 6,
+        "engagement": 587536
       },
       {
         "hour": "2026-08-22T08:00:00.000Z",
-        "count": 12,
-        "engagement": 466103
+        "count": 14,
+        "engagement": 503751
       },
       {
         "hour": "2026-08-22T09:00:00.000Z",
-        "count": 6,
-        "engagement": 402502
+        "count": 7,
+        "engagement": 403822
       },
       {
         "hour": "2026-08-22T10:00:00.000Z",
-        "count": 10,
-        "engagement": 316295
+        "count": 11,
+        "engagement": 334331
       },
       {
         "hour": "2026-08-22T11:00:00.000Z",
-        "count": 2,
-        "engagement": 1
+        "count": 4,
+        "engagement": 592481
+      },
+      {
+        "hour": "2026-08-22T12:00:00.000Z",
+        "count": 10,
+        "engagement": 64068
+      },
+      {
+        "hour": "2026-08-22T13:00:00.000Z",
+        "count": 5,
+        "engagement": 821992
+      },
+      {
+        "hour": "2026-08-22T14:00:00.000Z",
+        "count": 5,
+        "engagement": 65362
       }
     ],
     "hashtags": [
       {
         "tag": "accadeoggi",
-        "count": 4161
+        "count": 4008
       },
       {
         "tag": "perte",
-        "count": 3982
+        "count": 3756
       },
       {
         "tag": "fyp",
-        "count": 3826
+        "count": 3607
       },
       {
         "tag": "viral",
-        "count": 2607
+        "count": 2438
       },
       {
         "tag": "neiperte",
-        "count": 1544
+        "count": 1469
       },
       {
         "tag": "foryou",
-        "count": 1435
+        "count": 1350
       },
       {
         "tag": "tiktokshop",
-        "count": 1336
+        "count": 1274
       },
       {
         "tag": "adv",
-        "count": 1137
+        "count": 1104
       },
       {
         "tag": "napoli",
-        "count": 921
+        "count": 882
       },
       {
         "tag": "backtoschool",
-        "count": 889
+        "count": 861
       },
       {
         "tag": "capcut",
-        "count": 875
-      },
-      {
-        "tag": "italy",
-        "count": 807
+        "count": 818
       },
       {
         "tag": "italia",
-        "count": 800
+        "count": 755
+      },
+      {
+        "tag": "italy",
+        "count": 744
       },
       {
         "tag": "estate",
-        "count": 707
+        "count": 660
       },
       {
         "tag": "virale",
-        "count": 693
-      },
-      {
-        "tag": "summer",
-        "count": 674
+        "count": 652
       },
       {
         "tag": "indispensabiliscuola",
-        "count": 664
+        "count": 642
+      },
+      {
+        "tag": "summer",
+        "count": 639
       },
       {
         "tag": "calcio",
-        "count": 609
+        "count": 579
       },
       {
         "tag": "amore",
-        "count": 605
-      },
-      {
-        "tag": "mare",
-        "count": 597
+        "count": 576
       },
       {
         "tag": "seriea",
-        "count": 594
+        "count": 565
       },
       {
-        "tag": "offerteperte",
-        "count": 578
+        "tag": "mare",
+        "count": 564
       },
       {
         "tag": "onthisday",
-        "count": 578
+        "count": 558
       },
       {
-        "tag": "ironia",
-        "count": 530
+        "tag": "offerteperte",
+        "count": 553
       },
       {
         "tag": "voliamoneixte✈🦁🔝💯💥",
-        "count": 526
+        "count": 505
+      },
+      {
+        "tag": "ironia",
+        "count": 503
       }
     ],
     "creators": [
       {
         "name": "fcbarcelona",
-        "posts": 64,
-        "engagement": 57250069,
+        "posts": 63,
+        "engagement": 56771720,
         "platform": "ig",
         "followers": 147642553,
-        "avgEr": 0.006058770387999183
+        "avgEr": 0.006103514158945847
       },
       {
         "name": "fabriziorom",
-        "posts": 55,
-        "engagement": 39758834,
+        "posts": 63,
+        "engagement": 45725133,
         "platform": "ig",
         "followers": 49624021,
-        "avgEr": 0.014582704672930177
+        "avgEr": 0.01463863424371425
       },
       {
         "name": "433",
@@ -393,27 +378,27 @@
       },
       {
         "name": "realmadrid",
-        "posts": 72,
-        "engagement": 29552414,
+        "posts": 65,
+        "engagement": 27611085,
         "platform": "ig",
         "followers": 180441929,
-        "avgEr": 0.002274694117487762
+        "avgEr": 0.0023541419969907496
       },
       {
         "name": "fabrizioromano",
-        "posts": 22,
-        "engagement": 16478751,
+        "posts": 21,
+        "engagement": 15931320,
         "platform": "tt",
         "followers": 28100000,
-        "avgEr": 0.02665601908767389
+        "avgEr": 0.026997661413319777
       },
       {
         "name": "voguemagazine",
-        "posts": 41,
-        "engagement": 14600093,
+        "posts": 38,
+        "engagement": 14410438,
         "platform": "ig",
         "followers": 51842732,
-        "avgEr": 0.0068764676810242654
+        "avgEr": 0.007322956775023347
       },
       {
         "name": "championsleague",
@@ -424,28 +409,20 @@
         "avgEr": 0.0025642562140795575
       },
       {
-        "name": "neymarjr",
-        "posts": 3,
-        "engagement": 8630050,
+        "name": "k.mbappe",
+        "posts": 2,
+        "engagement": 8683269,
         "platform": "ig",
-        "followers": 242548039,
-        "avgEr": 0.011860262178138382
+        "followers": 136670888,
+        "avgEr": 0.03176707610182499
       },
       {
         "name": "gucci",
-        "posts": 3,
-        "engagement": 8415692,
+        "posts": 1,
+        "engagement": 8372797,
         "platform": "ig",
         "followers": 50517148,
-        "avgEr": 0.055530266013169766
-      },
-      {
-        "name": "k.mbappe",
-        "posts": 2,
-        "engagement": 8377234,
-        "platform": "ig",
-        "followers": 136670888,
-        "avgEr": 0.03064747044008377
+        "avgEr": 0.16574168042899018
       },
       {
         "name": "kimkardashian",
@@ -464,20 +441,28 @@
         "avgEr": 0.005321884595026502
       },
       {
-        "name": "psg",
-        "posts": 29,
-        "engagement": 7102843,
-        "platform": "ig",
-        "followers": 67254286,
-        "avgEr": 0.0036424351593630517
-      },
-      {
         "name": "dualipa",
         "posts": 4,
         "engagement": 6542711,
         "platform": "ig",
         "followers": 88602936,
         "avgEr": 0.01846076240633832
+      },
+      {
+        "name": "psg",
+        "posts": 25,
+        "engagement": 5973074,
+        "platform": "ig",
+        "followers": 67254286,
+        "avgEr": 0.0035529240049569
+      },
+      {
+        "name": "juventus",
+        "posts": 100,
+        "engagement": 5874730,
+        "platform": "ig",
+        "followers": 59027579,
+        "avgEr": 0.0011487491029200606
       },
       {
         "name": "kyliejenner",
@@ -652,69 +637,6 @@
         ],
         "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/773736252_18478332106107313_3053189989815963196_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=103&ig_cache_key=Mzk2NDQ0NTU1OTU4NjA2MzIxOTE4NDc4MzMyMTAzMTA3MzEz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=8sCcxZfReb8Q7kNvwEkSELW&_nc_oc=Adok0ve-FXkit3pyhu_gvRVzg1QUvhSjr8RUUfsWCoTxs2s7fU_I9YkSm79NQogd9RHM0bElVqO5gVK-LGXedDIa&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=OJ-ZqH5akdX1QbmvU3N1hQ&_nc_ss=7a3ba&oh=00_AQFyGf95BQyvrXkbUst5ieGDc_ZqcS24Fxy7cIgP4rQWtA&oe=6A8E5A67",
         "url": "https://www.instagram.com/reel/3964445559586063219/"
-      },
-      {
-        "platform": "ig",
-        "author": "skysport",
-        "time": "2026-08-15T17:32:24Z",
-        "text": "Grazie al bronzo conquistato ai Mondiali, 𝒍𝒂 𝒈𝒊𝒏𝒏𝒂𝒔𝒕𝒂 𝑺𝒐𝒇𝒊𝒂 𝑹𝒂𝒇𝒇𝒂𝒆𝒍𝒊 è la prima azzurra (in assoluto, di tutti gli sport) a qualificarsi per i Giochi di Los Angeles 🇮🇹\n\n#SkySport #Raffaeli",
-        "engagement": 6015,
-        "engagementRate": 0.0014457372623096175,
-        "sentiment": "neg",
-        "hashtags": [
-          "skysport",
-          "raffaeli"
-        ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/774197426_18609860740065319_8549776604587965080_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=1&ig_cache_key=Mzk2NDQxNTEyNTY4NDgzMzU4Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=D0ZAFyaCRfoQ7kNvwHPYnp3&_nc_oc=AdpvfhVsCZNf1mRja5j_ing6fYeRYLauf4xYNIMZbrDT3F1O6mQs06YgSM1U5ADzOO82bjEg-oOtoeWGL0ECFAu4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=VDz7NxrF4u_LLpKfHzSVtQ&_nc_ss=7a3ba&oh=00_AQG5jGdwrj9ImVoR5lsLJb63IiireKd1dNPzCtW45ExZmA&oe=6A86A2B3",
-        "url": "https://www.instagram.com/p/3964415125684833586/"
-      },
-      {
-        "platform": "ig",
-        "author": "swimswamitaly",
-        "time": "2026-08-15T17:26:46Z",
-        "text": "🇮🇹 ORO E ARGENTO PER L’ITALIA NEI 50 RANA!\n\n@nicolomartinenghi conquista il titolo europeo in 26.57, precedendo di cinque centesimi @simonecerasuolo_ e Koen de Groot, secondi a pari merito in 26.62.\n\nDopo la doppietta nei 100 rana, con l’oro di Mar",
-        "engagement": 232,
-        "engagementRate": 0.0064564606350708265,
-        "sentiment": "neg",
-        "hashtags": [
-          "paris2026",
-          "swimswamitalia",
-          "swimswam",
-          "swimming",
-          "italnuoto"
-        ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/774594412_18387096211206699_552264648129908919_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=Mzk2NDQxMjM5MjQ5ODkwNjE3OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=iT3QR8YY-JMQ7kNvwEir3jm&_nc_oc=Adq4OyBxvaWOdQvGrWA4RKnPN6na_bJslSsubkKHslS6g-yqEYFo8_-TwMqwResPXQodU9DzT2RH9Rqm4UWjDohd&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=1ipQj2_YqHJTGNN18GD-sQ&_nc_ss=7a3ba&oh=00_AQHZtmIfnPafZ9uZscr3srYKKp0gb3pasPf95_l1Pe_WyA&oe=6A86CF1F",
-        "url": "https://www.instagram.com/p/3964412392498906178/"
-      },
-      {
-        "platform": "ig",
-        "author": "swimswamitaly",
-        "time": "2026-08-15T16:59:53Z",
-        "text": "🇮🇹 ORO E ARGENTO PER L’ITALIA NEI 50 RANA!\n\n@nicolomartinenghi conquista il titolo europeo in 26.57, precedendo di cinque centesimi Simone Cerasuolo e Koen de Groot, secondi a pari merito in 26.62.\n\nDopo la doppietta nei 100 rana, con l’oro di Mart",
-        "engagement": 287,
-        "engagementRate": 0.007987087078729858,
-        "sentiment": "neg",
-        "hashtags": [
-          "paris2026",
-          "swimswamitalia",
-          "swimswam",
-          "swimming",
-          "italnuoto"
-        ],
-        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/774594389_18387091558206699_6962799201504054947_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=Mzk2NDM5ODg1Nzg1NzM2MjkwNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=IXqGiTtsZ3IQ7kNvwGCBGk3&_nc_oc=AdpGdCyyM2NkqTEWVsgtCRnU9h7aAuXTHqPIuTq0XMzF6MWPEvQ4qbXXrQHF4M-dLPFxFj3dgIjyFvATI5zXeaxB&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=1ipQj2_YqHJTGNN18GD-sQ&_nc_ss=7a3ba&oh=00_AQGyEySV7Rj2c5b4e_ac9C6m4S4XNIB5PXKrSSbhNS6HWA&oe=6A86DC75",
-        "url": "https://www.instagram.com/p/3964398857857362904/"
-      },
-      {
-        "platform": "ig",
-        "author": "sebastian_fitarau",
-        "time": "2026-08-15T16:37:01Z",
-        "text": "Pasta alla Carbonara Perfetta 🤤\n\nFull Recipe on Substack👆link in bio",
-        "engagement": 61116,
-        "engagementRate": 0.021532630306130753,
-        "sentiment": "neu",
-        "hashtags": [],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/774241826_18454113409137585_4140609634595870777_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=103&ig_cache_key=Mzk2NDM4NTA1Njg3NzM0NDM3ODE4NDU0MTEzNDA2MTM3NTg1.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=6agrpVBfuIYQ7kNvwGARDpq&_nc_oc=AdqFqCOuIyiboD_oegbl3fWBd8ECG_r7mS1M9kvEQhDy058wQLqqzS3dts-HXwJIDPcBJbUB4a7S-tGbybCTptoj&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=pFDwcXydezhMq1ON-kVihg&_nc_ss=7a3ba&oh=00_AQHurdJbkNjDjGfnn1tJ3lluHb7fGhoYqybu-DW_71MRng&oe=6A8E2613",
-        "url": "https://www.instagram.com/reel/3964385056877344378/"
       },
       {
         "platform": "ig",
@@ -934,6 +856,24 @@
         ],
         "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.71878-15/773519862_1373643321548430_4482200714076451077_n.jpg?stp=dst-jpegr_e15_p360x360_tt6&_nc_cat=107&ig_cache_key=Mzk2NTAwMjk4MjEyMDAyOTk5NTExMDI2MTkzNjIyMDgwMDM%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=dDCJ4k4hYKsQ7kNvwEgW-IS&_nc_oc=AdqGHLuZYNjXeUhDjbWyzixHRcqZ7IuLpvMEMjG8WHpr5hcBwamHsZ1cE1tELy282kbqC4JI3ZvuTYRe4IY1PwtT&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=PFa8yzYPzQTCqdXMdOvpOw&_nc_ss=7a3ba&oh=00_AQGH8rBfHXw9XItCJbyCgrIuLUYPCyG6gyTEEuzk3dDvHA&oe=6A8C9F82",
         "url": "https://www.instagram.com/reel/3965002982120029995/"
+      },
+      {
+        "platform": "ig",
+        "author": "jessicamarchi",
+        "time": "2026-08-18T16:31:04Z",
+        "text": "She’s calm 🤪\n\n#comedy #italian #italiancomedy #italianfood #actress",
+        "engagement": 17831,
+        "engagementRate": 0.01230842931713102,
+        "sentiment": "neu",
+        "hashtags": [
+          "comedy",
+          "italian",
+          "italiancomedy",
+          "italianfood",
+          "actress"
+        ],
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/780157976_18614793886009083_2375433602484529170_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=103&ig_cache_key=Mzk2NjU1ODE5MzM0MzIwMjU5NDE4NjE0NzkzODgzMDA5MDgz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=l0ysXBazyBoQ7kNvwEc2SY4&_nc_oc=AdpbaaVJCJAzNq8o30SiSKYJg1lL--N0EHrpMoOBi_dodvnal7q9S1Wjr2yu6JeHqaj1WIVZQhj5fRcuPihRRdc7&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=zBLhwPxR7yHOH_hrSYjzuA&_nc_ss=7a3ba&oh=00_AQFk109EanOwZFErpLHIx2NTGJndcGIOS2I1pJdN0tahDg&oe=6A8E4C89",
+        "url": "https://www.instagram.com/reel/3966558193343202594/"
       },
       {
         "platform": "tt",
@@ -1409,7 +1349,218 @@
       }
     ]
   },
-  "news": null,
+  "news": [
+    {
+      "title": "Barilla conferma l’importanza del mercato russo - Distribuzione Moderna",
+      "source": "Distribuzione Moderna",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYzlOdmlvRXJLOW5RYzRJUFpuTTR3a0pTcnZfSFVneHBUTV9CS3lDeTlDTmxOMTYzcGFVTjh4aXBxQVlrTXhCakd3NzJVMlVWdEI5LTdhbGtVTlByVkpoTmVsMnpwajRXb2g2WEswUm5aRFJwYTZVRURQYUhBN3dTWjY3SktFZk1zSUx5M0RNbTduQQ?oc=5",
+      "date": "2026-08-21T17:22:27.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPYzlOdmlvRXJLOW5RYzRJUFpuTTR3a0pTcnZfSFVneHBUTV9CS3lDeTlDTmxOMTYzcGFVTjh4aXBxQVlrTXhCakd3NzJVMlVWdEI5LTdhbGtVTlByVkpoTmVsMnpwajRXb2g2WEswUm"
+    },
+    {
+      "title": "Barilla - Distribuzione Moderna",
+      "source": "Distribuzione Moderna",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE83UUdXbnc0dFdnWEJfVTQ5bVp0eno5TG96Q2pKSEV5eERIZlF5b0tkVXI3dVAwclcwczdzemxXWXE0MnZ2bHU5SDlkeDJlRXpxUFlKc3VuRnZSTElZWGp5dWVn?oc=5",
+      "date": "2026-08-21T13:54:45.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE83UUdXbnc0dFdnWEJfVTQ5bVp0eno5TG96Q2pKSEV5eERIZlF5b0tkVXI3dVAwclcwczdzemxXWXE0MnZ2bHU5SDlkeDJlRXpxUFlKc3VuRnZSTElZWGp5dWVn?oc=5\" target=\"_bl"
+    },
+    {
+      "title": "Barilla, porte aperte agli innovatori. Nel 2025 ricavi a 4,83 miliardi - Distribuzione Moderna",
+      "source": "Distribuzione Moderna",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPLWNjZFBZeHk3MGtWM29paS1jQkdPRHJGWGVPeWJCaGxhUlBfOG0yWUc4V01YaVVBdklLcktOZTVEejVzcDAwcnctelcycGJkWmhCUHlvR3hLWnQtZ29RZEs1aVZQTU5iMXNZTjdVOHp5YkU4MHdqN0o0ZGVxVzRZczc3TUp3LWh6dEVycERTOG1wd1R1YnNSQ0xTVEgtR2xibnQydERCM0xkVnRhaTVMZS1JS0JzOFEzeXQ0cGNHclNZU29BSmI1RFhyMGlOSVRETUpOaFRiLUc2VGc0MVV3?oc=5",
+      "date": "2026-08-20T18:43:27.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxPLWNjZFBZeHk3MGtWM29paS1jQkdPRHJGWGVPeWJCaGxhUlBfOG0yWUc4V01YaVVBdklLcktOZTVEejVzcDAwcnctelcycGJkWmhCUHlvR3hLWnQtZ29RZEs1aVZQTU5iMXNZTjdVOH"
+    },
+    {
+      "title": "Barilla e PizzAut insieme per PastAut: una nuova sfida di inclusione che passa dalla pasta - Distribuzione Moderna",
+      "source": "Distribuzione Moderna",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVHE0bUJvaVRROWFsWmFOcnVVd3MzUjhaV215MWRVNjQ3Z255dFBzVjgwNVFKYXNQRUxscGFKRWlJUk5LeC11Q1loWm5Odm0ybzI5TUpVRGdKTjZZNlVpbDEtUHVxeXZqMmtfX0xpa0I1ZTRZamxONWctNFVfeU1rSlFYR19POUdOb1pKUlRBZW1fVG9tMmliNUxQelF2TkdqWW5uWmtTbC02cGRDb25YWFRac0U5RHE0X3dWdnBOQ0ZiMXUwVmdFR2VhVkswaUJIU001TVRCNA?oc=5",
+      "date": "2026-08-20T15:52:35.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVHE0bUJvaVRROWFsWmFOcnVVd3MzUjhaV215MWRVNjQ3Z255dFBzVjgwNVFKYXNQRUxscGFKRWlJUk5LeC11Q1loWm5Odm0ybzI5TUpVRGdKTjZZNlVpbDEtUHVxeXZqMmtfX0xpa0"
+    },
+    {
+      "title": "Barilla Al Bronzo presenta Riccioli: natura, design e gusto si incontrano - Distribuzione Moderna",
+      "source": "Distribuzione Moderna",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOGlFZm5lTEtKTXhzVEFmR0NIUWdVTmlQeHRMT2tDQmxrX2NmY01TSGI5RHY2TVNTa3FncGlsUGhCZXFNQzJRQVd0Mkx2WGZqdDNWMkhUaUpKT0R4THFNVGlKOGtVcXpuZm85UWt4TFIyeGNLN01vclRsQm96TThpRWlvRmxTejVIenh5dGxZRVJBbEp0M25CY1hFbHpVaUFRQ1VrWDNRRnU1bmpHOGZ5NTM2M2dSalFP?oc=5",
+      "date": "2026-08-20T14:13:31.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOGlFZm5lTEtKTXhzVEFmR0NIUWdVTmlQeHRMT2tDQmxrX2NmY01TSGI5RHY2TVNTa3FncGlsUGhCZXFNQzJRQVd0Mkx2WGZqdDNWMkhUaUpKT0R4THFNVGlKOGtVcXpuZm85UWt4TF"
+    },
+    {
+      "title": "Pasta e grano duro, l'origine non è sinonimo automatico di qualità - Il Fatto Alimentare",
+      "source": "Il Fatto Alimentare",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYSzI2ZjZYcTQ2QTEtRkVaSTlGN2VoRERMc0pMNzNaQXJDMkg3dlBEQ18tdDBBZVNPa19XVGxKWGRBeEViS01EcndyV2dkbE9JNFVvM3dDaHFVYTItMW1kNmp4OVA1QjNoeU9Fc29XRFI?oc=5",
+      "date": "2026-06-18T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFBYSzI2ZjZYcTQ2QTEtRkVaSTlGN2VoRERMc0pMNzNaQXJDMkg3dlBEQ18tdDBBZVNPa19XVGxKWGRBeEViS01EcndyV2dkbE9JNFVvM3dDaHFVYTItMW1kNmp4OVA1QjNoeU9Fc29XRF"
+    },
+    {
+      "title": "Barilla lancia un concorso per un nuovo formato di pasta - millionaire.it",
+      "source": "millionaire.it",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbWptM3h0cm5vbHp5OE1IUjZUMHZmT05wRkYyOUJ6UUxGNE4tVGp6TkdraklIOGsyd0hZV1VSbXpFXzFWUzdNT2JqdGZReE1aMzJRSXQ4WnRBZVhmaGpubS1EMG5Mc2pTTzFWM01RQjIzU2F0NGI5UTN2d1NQQklaUXVXeVJEbUVrUWN0MlQtZEg?oc=5",
+      "date": "2026-06-12T22:06:24.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPbWptM3h0cm5vbHp5OE1IUjZUMHZmT05wRkYyOUJ6UUxGNE4tVGp6TkdraklIOGsyd0hZV1VSbXpFXzFWUzdNT2JqdGZReE1aMzJRSXQ4WnRBZVhmaGpubS1EMG5Mc2pTTzFWM01RQj"
+    },
+    {
+      "title": "Brand con la migliore reputazione al mondo nel 2026: la classifica e cosa li accomuna - Marketing Espresso",
+      "source": "Marketing Espresso",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xYk9oRHh3MkNZYldDMlQ4U0NJYVZCTDBoTWk0SmtxM0hqMEpZd1JEaUh1cXNmekhZVGdRbEhzeEhHRVN2Nk1mQ2ZNekp3Zl9YTWFoNDBDX243UXc4UldDN0NrRFBRYzk0NkIwWHl4WHk2SlRFZERGWA?oc=5",
+      "date": "2026-06-12T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE4xYk9oRHh3MkNZYldDMlQ4U0NJYVZCTDBoTWk0SmtxM0hqMEpZd1JEaUh1cXNmekhZVGdRbEhzeEhHRVN2Nk1mQ2ZNekp3Zl9YTWFoNDBDX243UXc4UldDN0NrRFBRYzk0NkIwWHl4WH"
+    },
+    {
+      "title": "Barilla, il grano della pasta non è più 100% italiano - il Salvagente",
+      "source": "il Salvagente",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRDZBOXRVQmtUYkpuWGRyZHRPTjRZanhXbDRZZ082UzBKNEFaajZxdmhBcTdRd2dNcU53bC1GRmZtdkZyUVRGOHJaZGFaa0V6NVp5alBzekxPVjUtSkhlY2RCSnl3QmJSRUdWeFM5dlQ1dmRFUG9pc1dXOFdkdEdDMmoyamVQTnU1dTlLV25QcDk?oc=5",
+      "date": "2026-06-11T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNRDZBOXRVQmtUYkpuWGRyZHRPTjRZanhXbDRZZ082UzBKNEFaajZxdmhBcTdRd2dNcU53bC1GRmZtdkZyUVRGOHJaZGFaa0V6NVp5alBzekxPVjUtSkhlY2RCSnl3QmJSRUdWeFM5dl"
+    },
+    {
+      "title": "Il futuro della pasta, dall'agricoltura rigenerativa alla qualità delle materie prime - National Geographic",
+      "source": "National Geographic",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVlBmZTh4enhya3Izc200bVNzZmZ3QTYzT0xtaHJyV0N0LU1IdU1FeFRPd0NUWjh5UUhzbnVDRmVhT2ROYlVhZVFjZ0dfMXJiSWdPSGpNcFE3WG5TNF90bHBqakJjSDl2YWNLUHVhSnBUS1lDUXRuQlFaRmxNekltd3FTMElOZEx5a0tBZUdfdjZZaGJuRUhha0RsOVFsZWgtc3NxRDNmM1lFQWd1Y2ZkSWxyQkdPUmNVTnc?oc=5",
+      "date": "2026-06-06T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxOVlBmZTh4enhya3Izc200bVNzZmZ3QTYzT0xtaHJyV0N0LU1IdU1FeFRPd0NUWjh5UUhzbnVDRmVhT2ROYlVhZVFjZ0dfMXJiSWdPSGpNcFE3WG5TNF90bHBqakJjSDl2YWNLUHVhSn"
+    },
+    {
+      "title": "Intervista con Paolo Barilla: dall'agricoltura rigenerativa al futuro della pasta - National Geographic",
+      "source": "National Geographic",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWk9TeFgxQW5ldzZ5LTFhQjZjanBtUjJCdFZlenNpc2NmM1RZOVhUaGR2cWxIU05RV0ZTN3VvT0VDRmg5YnZMeXJEdzBCWVdySUxrS25YaHFtcjFvOGZPQi1nT2lpQ3F5ZUFQbEdVQmNoaTlTZ2NPWndoYm9kN2V6dzl1ZjdmdEJLaWhyU3JTSG9WODctNWJCS2xKeTlBbkdPaUZDQTdRMElHU0wtVk5ueVFuX2w?oc=5",
+      "date": "2026-06-06T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPWk9TeFgxQW5ldzZ5LTFhQjZjanBtUjJCdFZlenNpc2NmM1RZOVhUaGR2cWxIU05RV0ZTN3VvT0VDRmg5YnZMeXJEdzBCWVdySUxrS25YaHFtcjFvOGZPQi1nT2lpQ3F5ZUFQbEdVQm"
+    },
+    {
+      "title": "Barilla abbassa i prezzi e recupera quote di mercato. Al via il piano da 280 milioni per l'era dell'Ai - ItalyPost",
+      "source": "ItalyPost",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVW9UUG9qTTZ3WGhGc3pWTk5xN0sxWXpzMTY5NkVaZWJSQkYxd3E1OV82MGZIUFJqanNxanYta2ZQUS05WGVjSzlVdU1vX2dQVmgzWDNJYk1kb1owRW5jUkRnWEZCTm93dEVlR2FLNGg3RXNrUDJkQnUtU2llUHdINElmdmpKZ2twVmVoX0dOVnFwcHFRWmxkZWZETTdBSXNHQU5XRmNSTlpocE9ZQkdYQ0Y0SnhnMVdpdmNaTkFXaEJJMGQ5Y28tTHJpa2JRa1FQaGJodlBzem50V21nTDVKWVhldw?oc=5",
+      "date": "2026-05-31T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVW9UUG9qTTZ3WGhGc3pWTk5xN0sxWXpzMTY5NkVaZWJSQkYxd3E1OV82MGZIUFJqanNxanYta2ZQUS05WGVjSzlVdU1vX2dQVmgzWDNJYk1kb1owRW5jUkRnWEZCTm93dEVlR2FLNG"
+    },
+    {
+      "title": "La Casa Bianca celebra Barilla: fusilli a stelle e strisce sull'account della White House - TGLA7",
+      "source": "TGLA7",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORkV6c21VNWl0bE9TU25VWlQtZTAyak1JcUxLZlVlV253eDl0eUNSOF9PdDhhcTM4aDNRaEVjUHYtdU9vZTh6dk92M05MaEM2UmRHWXZKcFhjdWJwZXNyUkU2MzVNMmhIdUxXWDF5bTUxQkRmdFBTNWpQNEtnekgxU21wZGp2bW5haVo0dlpGQXdMZUpIUGtuOHJSMHNrNGlIdnU0b0E4em_SAa4BQVVfeXFMTUFUamZ4MkNSMXRHZkNqb2Q0MGpKaXZBTzllakt4c3AyRlh5WVdBZ3g5LXhIQl9jYmVSMHhraGhPTm11SFpaQkNhT0FDUDFidlhVY3Y5cWxWS0gxVU56TGtxcVpWUVYzd01wd2F1eU9nOE8xSGVoa0JGblFmQnNGVFdDSVB4MnRiaW1uRi13Rjd3Y1hadWRDUlpDVUtzZ2U2ZGFDejdyMElkQ19jbnp3?oc=5",
+      "date": "2026-05-22T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxORkV6c21VNWl0bE9TU25VWlQtZTAyak1JcUxLZlVlV253eDl0eUNSOF9PdDhhcTM4aDNRaEVjUHYtdU9vZTh6dk92M05MaEM2UmRHWXZKcFhjdWJwZXNyUkU2MzVNMmhIdUxXWDF5bT"
+    },
+    {
+      "title": "Barilla svela le novità a TuttoFood: nuovi lanci e campagne di comunicazione - Brand News",
+      "source": "Brand News",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdHhWMWV3Q2duaTZaRmZVTkhUU2sxdFZwZDcyeXZXRUFPamxLbmNuVWdobHd2ZDdjNnlPeUdvOWxQemJ4ZUFxY2ZnN3JaM0MxQUZVd1g1X0t6YlczTHF1U0hCNGNBaG5JOEdfYVhZM2JUWlJmd1BldFkwQnNuREVLaGt4R2FET3psd3NzdjZzN2c0SEczQ2lqYUZ2aHlhVGlhYmZ0TUNXT1lfbWtZckVFeGZBZDk?oc=5",
+      "date": "2026-05-12T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQdHhWMWV3Q2duaTZaRmZVTkhUU2sxdFZwZDcyeXZXRUFPamxLbmNuVWdobHd2ZDdjNnlPeUdvOWxQemJ4ZUFxY2ZnN3JaM0MxQUZVd1g1X0t6YlczTHF1U0hCNGNBaG5JOEdfYVhZM2"
+    },
+    {
+      "title": "Barilla mette l’accento su convivialità e famiglia per il GP di Miami e lancia la pasta a forma di ruota negli USA - Brand News",
+      "source": "Brand News",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNc3FQb3FCMjg2SEp2Q2J0VjZwaGg2YzEyWWktRDJISTVETnpNelpuUTNxamF4d1NoODNSd0JCM3NObDVqYjJFXzBwSks2Y1ZNakxYX2N5N05OeERJNk9UV1BwSkZMb2JDYXdRLTQwMzVOWHZNS0pobXJiLVpCRmdXbXpxRHJGdmFpRUhHRjNSN1ZrMDMwNFFXNG1CNkh0d2tTdWpSTVg2cU1ZZEo3MXpfT0tsNDRZNTBUN05IXzZoeTFnSE9hMzBITGZDeDhmcVlxc1FkNEgwUVYtS3l6dklGdU13?oc=5",
+      "date": "2026-05-07T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxNc3FQb3FCMjg2SEp2Q2J0VjZwaGg2YzEyWWktRDJISTVETnpNelpuUTNxamF4d1NoODNSd0JCM3NObDVqYjJFXzBwSks2Y1ZNakxYX2N5N05OeERJNk9UV1BwSkZMb2JDYXdRLTQwMz"
+    },
+    {
+      "title": "Barilla, dalla semola ai motori - Auto Tecnica",
+      "source": "Auto Tecnica",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1nb0VMUGo5cUwtZkNXbXlmRU5Nc2lpYVNqVUVuc3pQTmlKeTkxTU5ZZDlfN2V1UC1ZRnpyalRBRlpWcW93MGJVTXJqOVp5TDhMMWx4c2pNTERSQklFTFd5QzBRV3BZWEZRLXdMWE8xOWNzVHFZ?oc=5",
+      "date": "2026-04-22T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE1nb0VMUGo5cUwtZkNXbXlmRU5Nc2lpYVNqVUVuc3pQTmlKeTkxTU5ZZDlfN2V1UC1ZRnpyalRBRlpWcW93MGJVTXJqOVp5TDhMMWx4c2pNTERSQklFTFd5QzBRV3BZWEZRLXdMWE8xOW"
+    },
+    {
+      "title": "Barilla dedica alla Formula 1 una nuova pasta - Sportmediaset",
+      "source": "Sportmediaset",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSXBvSjdKTFhHeUhob1NqR05wZ2RRbjN5Tl94ZVlqT0w3YjNfX1l5SGYta1FsS3NRTGxIWFRfUUFHeUotYUFrOWhDZFpmWmM1ODE4U2ptN2MwUGwtWHM4cmhnR1hHZm5YcExSNF9odTJxcE5TWTZ2Q1EwU1laRVNXdXZ4NlExVTRqczRMSHltOXZCNVVfRHVZMldOaURuTjM5Y1RxanIzeG05NXVISnZkSXRfVkFsNmfSAXhBVV95cUxOTkdzVWYxNlJUWWdfVGNHbXVWS2dua0xxOEl0S1l3WXZHWVpWU2RVRFdQcVlQNnJrb1E0Y0lZTUJWeXY5UzI1QnE4XzlCblRKZEJMZlNuTE9zLUltYUNTNlg2UjY1RDJzMXh2Njluay0ybGN6WUpSVG0?oc=5",
+      "date": "2026-04-21T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPSXBvSjdKTFhHeUhob1NqR05wZ2RRbjN5Tl94ZVlqT0w3YjNfX1l5SGYta1FsS3NRTGxIWFRfUUFHeUotYUFrOWhDZFpmWmM1ODE4U2ptN2MwUGwtWHM4cmhnR1hHZm5YcExSNF9odT"
+    },
+    {
+      "title": "Barilla lancia la pasta dedicata alla Formula 1 (con il formato peggiore di sempre) - Dissapore",
+      "source": "Dissapore",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdnlhWXlXTndKaHpfODNuN1pJX1A5aHVjRnBWWHJ1dHNWMWlkZjJ4OWoxd2F1aUpaSjhKY3dfVm1pT1hJVE5hSlI0QnhpdEZ5Uk55UjR5WjFXOXBia04xNU1LcjJEU3NMUjMxS283U2NFd1I5RUxaUUNKODJXWGRMM1gzMWh4cHZRX3liODJMcXZIRE9wcl9LQzJMVGI3bGw1ejluNjUtWDBVRnBiZW96R3E1NUdpYlk?oc=5",
+      "date": "2026-04-17T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOdnlhWXlXTndKaHpfODNuN1pJX1A5aHVjRnBWWHJ1dHNWMWlkZjJ4OWoxd2F1aUpaSjhKY3dfVm1pT1hJVE5hSlI0QnhpdEZ5Uk55UjR5WjFXOXBia04xNU1LcjJEU3NMUjMxS283U2"
+    },
+    {
+      "title": "Il miglior marchio food per reputazione nel mondo è italiano: Barilla n. 9 del Global RepTrak 100 - WineNews",
+      "source": "WineNews",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTXZjekp4MWthTlZXSzlMVWJ0RFhLdldVRUJrMkhNUU43UGxvdFkwYUtiOVFaNHQ0Z3QwYlZpdVFRSEpnOWkxS3FXNWIwOWZvME92eVlIOG9KNGZXd3A3MEpyRGRsM0FnZUZsNVRheEQ3cWpZeENNcndzeElRN1VJVzZhTmFnYVJ0a1VBRjYtZXlxalNhc0xjdmJrUGpaRkx0bEwwQUk5OEtQbTJZS29qWk5FdW1Wdm1oLVJCLWtjSTN0NDZS?oc=5",
+      "date": "2026-04-09T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNTXZjekp4MWthTlZXSzlMVWJ0RFhLdldVRUJrMkhNUU43UGxvdFkwYUtiOVFaNHQ0Z3QwYlZpdVFRSEpnOWkxS3FXNWIwOWZvME92eVlIOG9KNGZXd3A3MEpyRGRsM0FnZUZsNVRheE"
+    },
+    {
+      "title": "Barilla prima azienda alimentare al mondo per reputazione, la classifica completa - QuiFinanza",
+      "source": "QuiFinanza",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON3RqcmpUM29aU1o3TlRVQnlZb2ZrNHBmTWs4SzRlZVJpdklaWG5JSTdxc00xQUNuUXRaWXMyZGRvcm1jOG9SNzJ0M2ZVTDJ3dTV4eXhzQ2t5YzBSQTJQMGw1VVk2dGd3Tm1MWEhZRmxDdkFtYkJ2U3RtSXNzY0JNSzZNX1B5ZlXSAYwBQVVfeXFMTV9YZjRrNFp0V096Rk51V3FoOUUwenA1TTZZbzNSaXBQTzB0UHZ1VHFVcFFndlE2WmxZUjFjb0hfdlJfbVJCcGQ5cDVBbnB2QnNObjBfejE2ajJzOWd4NGt3NkFUYlRXZThLQUktZmI0TjMyTDBMel9uMGNHTmMyT2RDOThBcV9MRzU2N3g?oc=5",
+      "date": "2026-04-09T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxON3RqcmpUM29aU1o3TlRVQnlZb2ZrNHBmTWs4SzRlZVJpdklaWG5JSTdxc00xQUNuUXRaWXMyZGRvcm1jOG9SNzJ0M2ZVTDJ3dTV4eXhzQ2t5YzBSQTJQMGw1VVk2dGd3Tm1MWEhZRm"
+    },
+    {
+      "title": "Barilla primo brand di food al mondo per reputazione. Ed entra nella top ten assoluta - Il Sole 24 ORE",
+      "source": "Il Sole 24 ORE",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVFJwd2hQTG1DUVlVWHJpSnFLaU9pRzN5MlZLdmpBeTc0M0ZoamVSWDZrN3VSQkh1eG5jRDRJYzBqTkdwNDctWU5JTjZ6a1VYN3BTTW5oNUxOUXhyWERTbkFEekpQTkk5SGpxRzVsaGFsekFuOW5uc0lQSkFSdjR5WXFYMzMzdkUtV2xDc0xxbG5nRV9nczJYaUpHN1ZOMlNqdFZNQnkweEhaS00?oc=5",
+      "date": "2026-04-08T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVFJwd2hQTG1DUVlVWHJpSnFLaU9pRzN5MlZLdmpBeTc0M0ZoamVSWDZrN3VSQkh1eG5jRDRJYzBqTkdwNDctWU5JTjZ6a1VYN3BTTW5oNUxOUXhyWERTbkFEekpQTkk5SGpxRzVsaG"
+    },
+    {
+      "title": "Artisia, la prima pasta al mondo in 3D su cui Barilla ha deciso di puntare - Esquire",
+      "source": "Esquire",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcmQ0bWY1b1E1eElWaUp5dWszSG9RYzRNV2lXRnZHSmVIZW1JOTlxcVlRNTlkZDhIRFA5WXNJTXdFRklRckExZHhfQ3VDVi1tNTFYZXIxQWdYcVdUT1ctOG1XRWd5QkRfSjlnMGIxOTFJS3h5X185OVdWNnVzSkdkdzZUSmJrVDN1SFl2VHNn?oc=5",
+      "date": "2026-03-16T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPcmQ0bWY1b1E1eElWaUp5dWszSG9RYzRNV2lXRnZHSmVIZW1JOTlxcVlRNTlkZDhIRFA5WXNJTXdFRklRckExZHhfQ3VDVi1tNTFYZXIxQWdYcVdUT1ctOG1XRWd5QkRfSjlnMGIxOT"
+    },
+    {
+      "title": "Come nascono i nuovi formati di pasta Barilla? Il lungo percorso dall'idea allo scaffale - Vanity Fair Italia",
+      "source": "Vanity Fair Italia",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE45Zncxa0ZfTXM3YTRWSTEyRllaWUljSjlKTkYzRng2NkVFREtZLXBCVUY4aFNQVmFzQ2tkU3NOc1BxNF9hbHlucURBYWM3czFkV2ZOckdEcG5jRThpOXJhMjk4WXFBNWNSTXlHYmc4YUNNMWYwa2paWWtR?oc=5",
+      "date": "2026-01-09T08:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE45Zncxa0ZfTXM3YTRWSTEyRllaWUljSjlKTkYzRng2NkVFREtZLXBCVUY4aFNQVmFzQ2tkU3NOc1BxNF9hbHlucURBYWM3czFkV2ZOckdEcG5jRThpOXJhMjk4WXFBNWNSTXlHYmc4YU"
+    },
+    {
+      "title": "Da Barilla al Grana Padano, da Giorgio Armani a Gucci, dalla Ferrari alla Fiat: storia ed eccellenze delle imprese italiane - Il Gazzettino",
+      "source": "Il Gazzettino",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPT1NsMkdUNG5qalFzVnBXQ3BKTVJDdUc1YjNNNUV3aG8wNEFFbVh0eGpFYmpsQnJacUtFWm9SRXlZLTE2cmxkWkQtWGNtWjZPZDNXSmRCeDVMekF2bHQwblA4cHltZnpMeFg3VnQ3d0l3OFB2Ylc1N0NtbWVSdFNHVXlwLVItUWhBcmVQUHN1VnpuUGlYOU5iVmp4R2N6a1Q4akYydW9tbVJfZ1RWWWMwemNGMGtuYVVPd3FfcEpud21LcGk2cFd5LTZxVnVjMUJUSDRFOdIBzwFBVV95cUxOM19ZZEl6VjdTRlZ4X05fTDlrTVBtTXBCVmh6VkJPT2dMRmZHTGRQTjFWRFpFUGVSQXdEdlVTVDV3VzBfVk0wNEk2alpCbWhjOUVBOFdxaC1Jb2tWMnNZblVUdkVseldsbDBaU2J6WktDYzVSMG9mcjk1VFRObWJndEE1OE9EUlotLVp6TDlDcjRpdXJsY0hGVlhVa0lWRDdyVFZyU3RqNnlKZ0Z0N1Z1U3BUQ1g2bHZZVS1QTTVCdmJINzRaVGFtenBOcnVMckE?oc=5",
+      "date": "2025-11-27T08:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxPT1NsMkdUNG5qalFzVnBXQ3BKTVJDdUc1YjNNNUV3aG8wNEFFbVh0eGpFYmpsQnJacUtFWm9SRXlZLTE2cmxkWkQtWGNtWjZPZDNXSmRCeDVMekF2bHQwblA4cHltZnpMeFg3VnQ3d0"
+    },
+    {
+      "title": "Barilla presenta il nuovo posizionamento del brand in una campagna ispirata al mondo della Formula 1 - Inside Marketing",
+      "source": "Inside Marketing",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNakpKMExtVERfTC1LaW9aVkpNWGd5NFVwb25QZUQ5MHk5U1BJNGZ0Y0VnaGhlNjRXWGpPZ21ROTZnbmlvLTlFMWZBbkRheVdvV2ZrbWpGV0JaY0ZIcmdOaEJCdFpqdmZzRmtkN0tUWFNKLUlZSjZSRjc5SDNRb1FJN3N2dDVkUV93TVNONWEzMzJOUVR0?oc=5",
+      "date": "2025-09-08T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNakpKMExtVERfTC1LaW9aVkpNWGd5NFVwb25QZUQ5MHk5U1BJNGZ0Y0VnaGhlNjRXWGpPZ21ROTZnbmlvLTlFMWZBbkRheVdvV2ZrbWpGV0JaY0ZIcmdOaEJCdFpqdmZzRmtkN0tUWF"
+    },
+    {
+      "title": "Brand Finance Food & Drinks 2025, cresce il valore delle marche alimentari italiane - Distribuzione Moderna",
+      "source": "Distribuzione Moderna",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVk43Z2lUeVpIMDRvU0xXNkNvcTJIZjFveDFUemtXYzFiTFEzRmJRUUh1ZE5QeWctS29XdE5MYmNOUXRPLWo1VWdZdS1RQmdsV2VtaXhwcWlvNGVON0NJSF9mcllLWEI3OFB5S1VUWDVQU0VOcXBVbmxrVlQzUXg2T2N1NHZlVnVkYzI1Tll4R1JycGxKTXp2c2hSa1pwSHRVdlpvTXhrMGQ3RHhXem1WTFdlanNpMG11YXA3Vw?oc=5",
+      "date": "2025-09-03T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPVk43Z2lUeVpIMDRvU0xXNkNvcTJIZjFveDFUemtXYzFiTFEzRmJRUUh1ZE5QeWctS29XdE5MYmNOUXRPLWo1VWdZdS1RQmdsV2VtaXhwcWlvNGVON0NJSF9mcllLWEI3OFB5S1VUWD"
+    },
+    {
+      "title": "Ferrero e Barilla, il food al top della classifica di Brand Finance - Mark Up",
+      "source": "Mark Up",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdW1hME9GN01tLW5tWWF2MmQwdElNYmUya21nRUhVZjRwZVE4NktubzBDb05TM21kVnJzeWxOSU9ZOTFVLXNrOTlTWGk2M3pndld3TTRSa09IQTlnRE0zWnQ3ekJvME1JWmphemlxVzBfVHBEbC1XMEotNmozaFVteW5xZ1lFU3gyWUNfdHJlZDFvZ3Q0?oc=5",
+      "date": "2025-09-01T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPdW1hME9GN01tLW5tWWF2MmQwdElNYmUya21nRUhVZjRwZVE4NktubzBDb05TM21kVnJzeWxOSU9ZOTFVLXNrOTlTWGk2M3pndld3TTRSa09IQTlnRE0zWnQ3ekJvME1JWmphemlxVz"
+    },
+    {
+      "title": "9 Marchi italiani nel ranking - Mercato Globale",
+      "source": "Mercato Globale",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNLXlIanZBTW0zRVRUNUVuQ0w1NDZmVXl3YXh5VG1lVjk3amY4Q05FVVVtbUplMW94aC0tSVRWYmlnZS1WTUw2SXRxelFXWjZSaGJocXlpQkZYTElKXzhfU24zWmNfUUk5bm9VVmNKem9DNHU0ekZDUEFJYl9COE55ZnNtSkYtR2VMaHhNS3FVUG9wZmc2bGJvNg?oc=5",
+      "date": "2025-09-01T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNLXlIanZBTW0zRVRUNUVuQ0w1NDZmVXl3YXh5VG1lVjk3amY4Q05FVVVtbUplMW94aC0tSVRWYmlnZS1WTUw2SXRxelFXWjZSaGJocXlpQkZYTElKXzhfU24zWmNfUUk5bm9VVmNKem"
+    },
+    {
+      "title": "L’Italia registra le migliori performance nella classifica dei primi 100 food brand mondiali - WineNews",
+      "source": "WineNews",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNT2Z4NmgtNU1FVV91b2RNdXo5SkpYZFZWMHIyazJtZWpZMGlLTG5XNkNyU0l3UlF2V0NQM2V5azRCd18tOGxRNDZ4SURjZGhOX3JTSVJ2NWlheEJwZzlFMXd6M2VqUDNPdkkzblBOT1FEeTJXNE03SDFaSlVKTkVNMWVGenpUMFNXYW45VWJmemlRTG9XWWI3NFcwTFhQanplUHg5TUpVWHlXZVJabVdPM0tGREhIZ09lWHRaZEFBRQ?oc=5",
+      "date": "2025-09-01T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNT2Z4NmgtNU1FVV91b2RNdXo5SkpYZFZWMHIyazJtZWpZMGlLTG5XNkNyU0l3UlF2V0NQM2V5azRCd18tOGxRNDZ4SURjZGhOX3JTSVJ2NWlheEJwZzlFMXd6M2VqUDNPdkkzblBOT1"
+    },
+    {
+      "title": "Valore del brand, Barilla nella Top10 mondiale - Gazzetta di Parma",
+      "source": "Gazzetta di Parma",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZHBxVXdubkRrdDhILW03TmlRdktya3RoV19ERVJPc3lxV2QyMjh6Vkk2ZTlzN3FicVdid21zWDJNSDRadVN0bUV6Zy1NZGhxTGVsODFGNzhrMmY0emxnX0lfd2hTdm9zd1ZxWV81YWwyOTZLX1NURFlXV19uRmlQVHB0YWNtbkhQQ0V2RGt6bFJiUW01TDdQWEc1Y0luRzdTNnl6WEhuSjZSX2ZXb3c?oc=5",
+      "date": "2025-08-29T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOZHBxVXdubkRrdDhILW03TmlRdktya3RoV19ERVJPc3lxV2QyMjh6Vkk2ZTlzN3FicVdid21zWDJNSDRadVN0bUV6Zy1NZGhxTGVsODFGNzhrMmY0emxnX0lfd2hTdm9zd1ZxWV81YW"
+    }
+  ],
   "consumer": {
     "surveyName": "Eumetra Benessere 25/26",
     "sampleSize": 29441,
@@ -1821,20 +1972,243 @@
   "ai": null,
   "competitors": [
     {
-      "name": "De Cecco",
-      "mentions": 0,
-      "socialMentions": 5,
-      "totalMentions": 5,
-      "shareOfVoice": 29.4,
+      "name": "Barilla",
+      "mentions": 16,
+      "socialMentions": 4,
+      "totalMentions": 20,
+      "shareOfVoice": 37,
       "posts": [
+        {
+          "type": "news",
+          "title": "Barilla e PizzAut insieme per PastAut: una nuova sfida di inclusione che passa dalla pasta - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVHE0bUJvaVRROWFsWmFOcnVVd3MzUjhaV215MWRVNjQ3Z255dFBzVjgwNVFKYXNQRUxscGFKRWlJUk5LeC11Q1loWm5Odm0ybzI5TUpVRGdKTjZZNlVpbDEtUHVxeXZqMmtfX0xpa0I1ZTRZamxONWctNFVfeU1rSlFYR19POUdOb1pKUlRBZW1fVG9tMmliNUxQelF2TkdqWW5uWmtTbC02cGRDb25YWFRac0U5RHE0X3dWdnBOQ0ZiMXUwVmdFR2VhVkswaUJIU001TVRCNA?oc=5",
+          "date": "2026-08-20T15:52:35.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "\"Scrivi alla mamma quando atterri\": perché il merch di Lufthansa è un must have - Amica.it",
+          "source": "AMICA.IT",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBmTU5sLXFNN05xVzFhelFwZGZEMk5SdXVYTFpObTlLbWFUcllDZDN0bnluWE1yMF9pOEVmRzRmM1BKdlZCQVR1X3BJcGF5aHZ0VGJ4dzkwVWFXa0h1ZnNmMVRzZGJWcHFoaUZnMzI0S0YtM2Jh?oc=5",
+          "date": "2026-08-20T09:32:08.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Barilla Al Bronzo presenta Riccioli: natura, design e gusto si incontrano - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOGlFZm5lTEtKTXhzVEFmR0NIUWdVTmlQeHRMT2tDQmxrX2NmY01TSGI5RHY2TVNTa3FncGlsUGhCZXFNQzJRQVd0Mkx2WGZqdDNWMkhUaUpKT0R4THFNVGlKOGtVcXpuZm85UWt4TFIyeGNLN01vclRsQm96TThpRWlvRmxTejVIenh5dGxZRVJBbEp0M25CY1hFbHpVaUFRQ1VrWDNRRnU1bmpHOGZ5NTM2M2dSalFP?oc=5",
+          "date": "2026-08-20T14:13:31.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Barilla, rinnovato il contratto integrativo aziendale. In busta paga 12.680 euro in 4 anni - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQc2RRamVSemFpX2Z0S3RtWkhOR1lmV3MzbkFBanVOeS1jc1JzU1FhU2N0eTJYVWhPdkdaREtqYUFTMnNoRjZ3Yl8zUzg2VTZMbS1DRmhOM2tMZnRXcUZuSVloNWxVZmlwTXlYLU03WmN0TXFWQ2ZYUGlEVGlFWnNGaWQzbGw5WlRpYkx4eG5IU0RSTGJ2WHRpb3A4R1Y0MnZJTHZuUmZzcDRUdVlfMFVlZ0F3RXFMRDZHeGhuRTViSlZBeFFxSU84NDBlYTU?oc=5",
+          "date": "2026-08-21T11:01:44.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Barilla: packaging riciclabile e gestione responsabile dell’acqua per un futuro più sostenibile - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZjVqNWlicThSY3RKNVlPZGhDNlFEWWxBclJhVkVUWEtPT1E3SXIxTm12amNPSFlfWXpCQ3NFVi0zZi1iOE1lb3ljdVBIeEdEMFJGaFNYTVh3RXVJUGpJa3NXSW1OUFNZWHBoNTFKcW0zMXVGZ1l3RU9EOFVjcWpMZlFHcklzUWM0X0s4YXczYXB6ZWI0VkN3VXEyMGo4dExZYUJDWXNkUWRWcEYtdGVqdU5yNEh3UjNxMXVsX1pIYlFOVGRYOFJJVWp4QV92bUw5T3Z2ZV94Y0pUcHho?oc=5",
+          "date": "2026-08-20T22:33:06.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "E' Paolo Barilla il nuovo presidente di Unione italiana food - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRnE3cjI2RGFlc2YyeVRyWTZKc1V6cFBvZWtqdXBIMDNLTFZsSlRqVXVWR3pUdHdlLTl1VFAwLUFkb3ZBYkt4NnlaSi15NldUSTF1dmdvMlJSLUJxWWRHbjE3cU81RlhWV3NMb0djcjFHM3lWY09CaTNhME40RTZVV1h2TEpSeTVNYVc2aFNxMmotVHdhaF9peGE2X3V5b25jc1Q0d280SzNscC12SlZ4N3Jn?oc=5",
+          "date": "2026-08-22T07:05:16.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Quattro nuove referenze per le Emiliane Barilla - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUDRFVVIxWHRzTFk4c0Y4SUF5MHdRU3VvTzMxdWF1elFHakZHTjBiYVl0dUpUX2pnYl95Yl9NWmFhSnFtV0JKWVJhaHE1cWVIUlRzVko1a0ljWUlqOXFSeGwtTl9fa1NZcWFBUmthOU9ZN0NGN1h1Z0k1a1dOYmtLbGNnOFI2Xzl4SlB4Z0xLVm9UZHZNSjR4UQ?oc=5",
+          "date": "2026-08-21T19:32:56.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Barilla esporta il proprio packaging negli Usa - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObGl0aUFQUnZ0aUFNRHhKRll0dlFnVHlEOExYQXBLQTNBMTFQTGZDVGM5MVROZUs4MFBSNlJqTDRBbTZQXzU3UmxYQUhxVnhKWTlrVVMtTTBmNDRhUVZWVTJBMThKNGlOZ2pFOUJlU3REdlF0SzVYR1dKR2VmanhsbDJwZFFJeWI0S05CZUhhS1NmTnU5MjFMbUJ3?oc=5",
+          "date": "2026-08-22T01:29:04.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Barilla inaugura a Pedrignano il piu' grande magazzino automatico del mondo - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQjhSMWV6U09CN2s2YldoQ01NNm45YVhmUXlhUXdlSFBzemJ1ZUY5T3U0bGh3WHFUajRaYnFnc0xZenc3ZjRETWdWcTlMVHZRM05ueEFRTDQtaFNRdXlBUWJXZ1g2OHBMQ3VZU0NPT01ISU5LdzlJOVF4b3Nmci1OT1N4YkFrWVFmUDhydWIxV1BaTHMyY1hLTmI4ajNTMkhfcVhHVUpIRWpZMm9qNm1maFVlQlNid243cDRMNmw5YmtDTV85b3c?oc=5",
+          "date": "2026-08-21T12:32:03.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Barilla: suolo, acqua ed energia al centro del report di sostenibilità 2025 - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPM2ZLbXJGRHlFSEtlRGEtY1FQem9JV1pzYTN5UGdCdmNTZFRoLXFzUkxJRVhMVWM1VEJOT2tTUHMxeHRkYXBPazFKX0RzMDVYbVEteUJVNFZIVC1wTFpuM1ZCRURKMXM3Z2thZUtoeUF4aTZPbFdYYnpNWWNBSDJ1bjQ2bFBVQWdvdXktRkdLWWhpTUFOQXNQbVJlSTFaS0JWNWtSV3MwbVRlSDZtNXBDNUdvb2dIV1dzRHVz?oc=5",
+          "date": "2026-08-20T22:31:12.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Barilla assume in Italia: tempo indeterminato, stage retribuiti e stipendi da 35.000 a oltre 50.000 euro - concorsipubblici.net",
+          "source": "CONCORSIPUBBLICI.NET",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSlhtTUMwLXVHUHFjTnRiQjJYWmd2TmtNdWIyZk1ySmdWa040T1l1dmE5QVBHQ3V4OXVyN1NiVnFXQkUwaTVQdkc2VF9sX0RlSXp4YkpVTVhBYnZvVnlSdk5UbkNLTjRhUm56aUxvWGRBbGdnamxLZFlvNnZWY1hrZ094RTVlTFU2NUoySk44MkhzRUd5QWpQTmNSOC1BNTRUS2xDWEdieF8tM0hQZmNCZDR4SEpxWTVEVGlwZlNEUzVGQUxuY3FfUlUwNmpvclVEVXc?oc=5",
+          "date": "2026-08-17T09:47:25.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Capitan Findus taglia i prezzi del 20 per cento per tutto il 2024 - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPXzJWbHRYUnBVQ0ZYYk5vTGpJZEhqVWg1bHJQSjgxbnVRRmN4eFZHd0thWGExMHY4cllPZ1hHUUJ6Z1ZQR3VLYS04WlBHZ2JlZzUwaDBpeVNFTTVVeEdwaGNlTzByQWt2U0xRS2k3MUJNUi0td1h6RXpwVnZGWEpLUXExT3NCcXJlT1dISDN0QUJCTVZ3aC1TczJGNEpMUzBncnJR?oc=5",
+          "date": "2026-08-21T15:59:49.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "La Molisana acquisisce un’azienda di sughi. La produzione sarà realizzata a Termoli - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPczhuRnFaV09qY3A1UFVVR0thaUVDT2ZFc2doTnVycUZLNC1KYnVoSUFKeWV3M2dwXzJfRWFZakpqVVlXMGc1TTNkbG92UjlKTmtDSW9ha2FVdGszMlpBcFAyTkhHRF9hdGdZWUo2cEk5U256czBOeldOb056cDAxNERfRDQ1MnE0MTFSaDFYdGpORW1qY2w3YkRuaUZmMmRvRm9TU0ZXWFVZVll3clVKOGEzTFVoNkxHM2tKYUZtVnBWYzAwMjVVTThhbDlUcG8tZHNJ?oc=5",
+          "date": "2026-08-20T12:48:03.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Guido Barilla: il coraggio di non essere per forza banali - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcW9XRXlXZGY0X3pzRkVJdDNwNXRHRk9hanRKNVo2b3dWc002b0wwUVZzVTA2ZXV1ejVYVzJfUmhXX29ZQ0JpaDNLM3Uzdi00dWJQWHcySy0tSVA3cnhWZ3pGNjE4RW0wYmc5VFp3NjdyQnBENTZDX3dzSEpuT01tN3VldXFudjFja2dWTVNVcUphbDJaRkhhUzluMjlSdDg0Y05GQUF1RWdzVFRlZ2c?oc=5",
+          "date": "2026-08-21T19:12:54.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Comparativa: il Giuri' da' ragione a Plasmon - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaGtfYVc5TXdkeWF6aVZ1SkxaX3BpLXZzem5XYjdfdmQwZVlpb1ItUzNVSUpVSUpfbFU3WEg1dEE1SFFkSGJpczZaZlNkeXBYYnVudFoxQkQ4WE03MnVabzFIdFN2dVlwcXRoMnp3ODNIOEVTbXN2NEJocy1sd210QnFuZ0RYMUlHRERCRDIxQm9mRFlCOHo2SlJnYw?oc=5",
+          "date": "2026-08-21T04:11:37.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Volantino Iper dal 19 agosto 2026, offerte e sconti - Anteprima Volantino",
+          "source": "ANTEPRIMA VOLANTINO",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPS1JtY0JoOU41U3haV0l0SktMekczQU5LNTB0U1NmLUxRRHBiMjB3TEVodzRKUVNQSlpvMXRDTklwVzl0NzJGaHBNcUhGRzV6MEdNUVJHRUd4RHBma005YmlBb21Pd2JXbXNsdGFYVEE1VUhpWUNBOUFUaUZvRmRub1dwMDh2dUJPSjcxdHVEYlBwZ2lwZ1Zn?oc=5",
+          "date": "2026-08-19T06:09:50.000Z",
+          "brand": "Barilla"
+        },
         {
           "type": "social",
           "platform": "ig",
-          "author": "dececco_pasta",
-          "text": "Il nostro Ferragosto è qui. 💙\n\nA Fara San Martino, tra le nostre radici e una grande tavola pronta ad accogliere tutti.\n\nIl 15 e 16 agosto la Sagra della Pasta De Cecco: due giorni dedicati alla pasta, ai sapori e al piacere di stare insieme, nel lu",
-          "engagement": 349,
-          "date": "2026-08-15T17:13:21Z",
-          "url": "https://www.instagram.com/p/3964405639543619975/",
+          "author": "filmedbyired",
+          "text": "Calcio Barilla ⚽️ La nuova linea di pasta della Serie A firmata Barilla. Pronti all’inizio del campionato di calcio 2026/2027? \n\n#calciobarilla #seriea #filmedbyired #fantacalcio #barilla \n\nPartecipa al concorso e vinci il calciobalilla 💙\n\nGli scude",
+          "engagement": 205,
+          "date": "2026-08-20T12:18:24Z",
+          "url": "https://www.instagram.com/p/3967881064190112747/",
+          "brand": "Barilla"
+        },
+        {
+          "type": "social",
+          "platform": "tt",
+          "author": "volantino_spesa",
+          "text": "Ecco le migliori offerte del nuovo volantino Conad City valido dal 27 Agosto al 9 Settembre 2026! 🏷️ ​Ecco i prezzi top da non perdere (alcuni riservati ai titolari di carta): ​🍝 Pasta Barilla (500g, vari tipi): 0,65 €  ​🫒 Olio Extra Vergine di Ol",
+          "engagement": 36,
+          "date": "2026-08-21T12:13:53Z",
+          "url": "https://www.tiktok.com/@volantino_spesa/video/7676457021746449697",
+          "brand": "Barilla"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "_matteo.piccolo",
+          "text": "Come creare un brand iconico usando la nostalgia 🌾\n\nNel 1975, Gianni Maestri, direttore Nuovi Prodotti Barilla, ha un'idea geniale.\nNon combattere il pregiudizio, ma usarlo a proprio favore.\nNasce così Mulino Bianco, con sei prodotti storici. 🌾\n\nTa",
+          "engagement": 22,
+          "date": "2026-08-21T10:09:49Z",
+          "url": "https://www.instagram.com/reel/3968540762149147849/",
+          "brand": "Barilla"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "_matteo.piccolo",
+          "text": "La più grande illusione della pubblicità italiana 🌾\n\nC'è un posto che conosci benissimo: un mulino bianco immerso nella campagna toscana.\nUna famiglia seduta a colazione, il sole che filtra tra le finestre, il rumore dell'acqua e la nonna che serve ",
+          "engagement": 8,
+          "date": "2026-08-15T18:33:19Z",
+          "url": "https://www.instagram.com/reel/3964445559586063219/",
+          "brand": "Barilla"
+        }
+      ]
+    },
+    {
+      "name": "De Cecco",
+      "mentions": 7,
+      "socialMentions": 4,
+      "totalMentions": 11,
+      "shareOfVoice": 20.4,
+      "posts": [
+        {
+          "type": "news",
+          "title": "De Cecco cresce nel primo semestre e consolida la governance - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZFlhZ1FKVnlsM1AwOF81c05ELXF6d1dxRVROZWRiTDdYUlp2M2dicW1TOXE2S25YVzlWQVltMmNId3ZFd2hlQVN0NGdySENPM2FIOFo4NE51RHJMd1NMY09FNGlVVjNNQVVEdlNyTzM0bU13eGNTeXJEWkpEb1RVUlZ1OUs3RnpnVTBmVUlWZEw3S2pNSFhSNGwyTDlGY2p3QVpsbWFGc3M?oc=5",
+          "date": "2026-08-21T13:38:35.000Z",
+          "brand": "De Cecco"
+        },
+        {
+          "type": "news",
+          "title": "Lo stabilimento De Cecco si allarga, approvato l'atto per l'ampliamento a Ortona - ChietiToday",
+          "source": "CHIETITODAY",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbVdjLUw0QkxrdVk3VWJxOHk3ZE0zNmNUeHA1LTIzem9YSEdQQ1p5NUZzX013NzlDelhPSTJYRDZVNllvanY0bXFiY1Mzal82TWxScWpaXzA0MmFGZHVPd203S3NsSG1MM0tZOV92bG5Ec2UzSmkzR21hcVVFTk9OVTBTSndoYjZu?oc=5",
+          "date": "2026-08-22T07:29:00.000Z",
+          "brand": "De Cecco"
+        },
+        {
+          "type": "news",
+          "title": "Il Gruppo De Cecco annuncia la scomparsa di Giuseppe Adolfo De Cecco - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQkFWR3F5RVdDTGczSnFwSzJDM2s1NUpha1lTZmpCa2J1VkJSQVhmRWlTVy0ydFNqc01IWTlZeHFDY3o3dW9hZ3NNSlZFeF9zeVRkMkRMOWF4cGl5cFQ5Rm5Zcmg4QXdjc2RuSHh1MVBuT05iWFBqaDkyemFqUTh6Smk5aw?oc=5",
+          "date": "2026-08-20T18:16:43.000Z",
+          "brand": "De Cecco"
+        },
+        {
+          "type": "news",
+          "title": "De Cecco inaugura a Pescara il suo primo store ufficiale - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUnhHdndfU0JKZVE0ZWZNMWl2ZnE4Q0VGUzlYSGxrSlpDdTEzU1Z5Y21mVUl4ZkxSQTVCa2RuRzU1QzhYMnd2S3c4NXNoUDdHUHN2c095bFpGTWo4QzlSa0FHWW4xYnlZWVpPTTljZHY3ak9UWXotREZ5ZW40bWpKeWRqSk5CUlBVZ1pZVmhZcjBvd2ZEZHIwbFRXRUZQMnNtZWxIRw?oc=5",
+          "date": "2026-08-20T22:08:28.000Z",
+          "brand": "De Cecco"
+        },
+        {
+          "type": "news",
+          "title": "Ortona, via libera del Comune all'ampliamento dello stabilimento De Cecco - Blasting News",
+          "source": "BLASTING NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORlhkdHBSOWQ1SnNLM29PX3JWMWRQand6T3FDTEVQOG1QYnYydWoyeldUc05jai1kTDhaWG0yNDhZcTJtLUc1ZjB1LTlka3gzMktOdlVtcUt0dGxUT0w3d3l5OUhpWDFsNHRrMkh0NUxndkhYN0lGSWIzYlUwX08xOTA3TWdYNjJBdzdXVXJCYmhLNndrTjNLdkxPSzExUG5YNDBmcnRhNmh6ckpld0l4VzBBOERMN0REMzZwaWtVRDh5QXBibzliaHc2SdIB0AFBVV95cUxQUEFfcWRKN0k0WWV3WUJJNmYzcXNMTVhpTFQzWlBCYXZXeFFYWE1zYXVBSTBqSFFyRHo2ZXRTMVZNaGlWeHdEblVJeTQ3RnZtdWtIR1JsaXA0YWY2NGFFUldJQVRoSjhRSS12VTk0NkFPS1JvYm5ZaW43a3dlRHpKZUZWMUxBQm0ycnhyR25pajdrYU94cC1OUXV5RzhWRm1fZl9oYWh1UUhtYjhlOTNmV1ZlZ214VGh0VjdXVjFTTDA4dVpEUl85REV2MWdFbnpV?oc=5",
+          "date": "2026-08-21T20:08:44.000Z",
+          "brand": "De Cecco"
+        },
+        {
+          "type": "news",
+          "title": "Scarpinata Farese, successo per la 46ª edizione: Dell’Orefice e Di Tillo firmano la vittoria - AbruzzoLive",
+          "source": "ABRUZZOLIVE",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOUgyQUJIczBULTFPSEZwbkxUaFVLYmVNeEYxYjc0VFVuT1BBVDgzaUNsYTl4X1NaekF0M1NsdFN4S215X25nSHhwX0ZuLWZteGdES2prU3ZTLUUzc21hQW9wY0hmdmVTUkRxVFBnQnJqODRKYndmMmVpdWJFT1FsU1FENk9KYmJsQ0M1MV9KYlY3YUVsN2ROOTU4ZnQ0Xzh6WmdMeDFUQ09IVGNLVm5mbUplRQ?oc=5",
+          "date": "2026-08-20T15:55:56.000Z",
+          "brand": "De Cecco"
+        },
+        {
+          "type": "news",
+          "title": "Volantino Decò dal 21 agosto 2026, Lo Show dei Prezzi e Sapori del Sud - Anteprima Volantino",
+          "source": "ANTEPRIMA VOLANTINO",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONkdpRk1nRVVsRE1TdGktbHNKMnMwWUFHSXVPN2xabE5vWndsaTlaVWhocVlrdG9sNHo5VzV0M2VoR1dhU3YwaGhqLVFhU2sxZ2gtLUpCWm9YVldtMDN3NTFUSk9yMjlVcV96OVlFa3NQY1FESjVoMmFsV3JIUHBZUklDRDFmMWJiY1hTVGp5aFdqS0U2VF9WbHF6TXR4MmFqNjNvZlNqeHAwdGZfT0I3WA?oc=5",
+          "date": "2026-08-21T08:49:48.000Z",
           "brand": "De Cecco"
         },
         {
@@ -1880,61 +2254,60 @@
       ]
     },
     {
-      "name": "Barilla",
-      "mentions": 0,
-      "socialMentions": 4,
-      "totalMentions": 4,
-      "shareOfVoice": 23.5,
-      "posts": [
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "filmedbyired",
-          "text": "Calcio Barilla ⚽️ La nuova linea di pasta della Serie A firmata Barilla. Pronti all’inizio del campionato di calcio 2026/2027? \n\n#calciobarilla #seriea #filmedbyired #fantacalcio #barilla \n\nPartecipa al concorso e vinci il calciobalilla 💙\n\nGli scude",
-          "engagement": 205,
-          "date": "2026-08-20T12:18:24Z",
-          "url": "https://www.instagram.com/p/3967881064190112747/",
-          "brand": "Barilla"
-        },
-        {
-          "type": "social",
-          "platform": "tt",
-          "author": "volantino_spesa",
-          "text": "Ecco le migliori offerte del nuovo volantino Conad City valido dal 27 Agosto al 9 Settembre 2026! 🏷️ ​Ecco i prezzi top da non perdere (alcuni riservati ai titolari di carta): ​🍝 Pasta Barilla (500g, vari tipi): 0,65 €  ​🫒 Olio Extra Vergine di Ol",
-          "engagement": 36,
-          "date": "2026-08-21T12:13:53Z",
-          "url": "https://www.tiktok.com/@volantino_spesa/video/7676457021746449697",
-          "brand": "Barilla"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "_matteo.piccolo",
-          "text": "Come creare un brand iconico usando la nostalgia 🌾\n\nNel 1975, Gianni Maestri, direttore Nuovi Prodotti Barilla, ha un'idea geniale.\nNon combattere il pregiudizio, ma usarlo a proprio favore.\nNasce così Mulino Bianco, con sei prodotti storici. 🌾\n\nTa",
-          "engagement": 22,
-          "date": "2026-08-21T10:09:49Z",
-          "url": "https://www.instagram.com/reel/3968540762149147849/",
-          "brand": "Barilla"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "_matteo.piccolo",
-          "text": "La più grande illusione della pubblicità italiana 🌾\n\nC'è un posto che conosci benissimo: un mulino bianco immerso nella campagna toscana.\nUna famiglia seduta a colazione, il sole che filtra tra le finestre, il rumore dell'acqua e la nonna che serve ",
-          "engagement": 8,
-          "date": "2026-08-15T18:33:19Z",
-          "url": "https://www.instagram.com/reel/3964445559586063219/",
-          "brand": "Barilla"
-        }
-      ]
-    },
-    {
       "name": "Garofalo",
-      "mentions": 0,
+      "mentions": 6,
       "socialMentions": 4,
-      "totalMentions": 4,
-      "shareOfVoice": 23.5,
+      "totalMentions": 10,
+      "shareOfVoice": 18.5,
       "posts": [
+        {
+          "type": "news",
+          "title": "Pasta Garofalo torna on air - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8zSGh6aDNiWU5Da1dRNlVISm83WldDd2V0VFJqY2lQaHNuOVdyNEhrRndTa3FSZnZxb29QU3VzbkJuQ1Jic09YZHF0emd5RlNrdlRMRU42dkhTNU5JaXhOX3pidVlnb0RPc1BXMzBmNkhoUnJTZmhoTQ?oc=5",
+          "date": "2026-08-21T17:48:50.000Z",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "news",
+          "title": "Pasta Garofalo rinnova la presenza al cooking show Masterchef - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSXBoUVh4bGRFNkpxZHRXbmZtNVh1R09oSXlTLXZtMFE3ZXF2cWZIa0tkU3E1ZEFrWU41VWJZQ3M5aFppVEtVNmpjVUFVQ1ZYVl9US2tOQmNOM0Rwcm9TLTRRWTBVbElfbEstVFN3bWpPMjZyWl9QekRzSHdWeXRjc3hBNThKclc0WkxQczZpMi1yZDY3NEZ1N2ZPV01ldFBGbWRsMjdWdVZHelFGWDUtMjRqSkxMR1NNSWN5NEFMZEFjclpf?oc=5",
+          "date": "2026-08-20T16:06:27.000Z",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "news",
+          "title": "Mozzarella di bufala: la classifica dei marchi promossi per consistenza e siero - AgroAlimentare News",
+          "source": "AGROALIMENTARE NEWS",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSkg1Mldua0ZDSjdSR203RlVtN3QtSWNNc0QxdTNfazlFUE45aFNLT3NUOG0wdUxzYzY1ajZRSVYzZjlNQ0ZkQlhkU1VHV3Z3MTRtcGxqdzJhZ3JpbWpIbWJSQkVXbk10TlVNQVBhb3JfVUdpZll5ZjFOZnVmQ3VTOXZVaWxfSWJuelIybTVFeU5IS0U?oc=5",
+          "date": "2026-08-21T09:35:22.000Z",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "news",
+          "title": "Pastificio Garofalo, al via la nuova campagna pubblicitaria - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFJ2a3JkQzg5UnNWRGdoNjZscEpOcm5PN2lrak44RldDNDVaTTV2NW56UnVTUEVxdVdXb002NTFIdlZtNzJmZDRySnhpeU44VjN4WElaV3RDUFVXREQ0VUF5TmRKMExzNHFXX0s5czR4bjNEb3FBbnlMYjJXSC1LdkJWdWxRTXBTQkdJaUJzZDJ4MGRrNlNKNm9wNWo2VTRYZHRKbXFTdGtxZw?oc=5",
+          "date": "2026-08-22T02:26:38.000Z",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "news",
+          "title": "Il Pastificio Garofalo firma il suo primo Calendario dell’Avvento - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWmdvOVdtdFBFY3VWSUFHOVZYNmUybWJZNmdaODFkLUozQUVudzlFaDFaLTl2QWg0RHpHZFNfYlh5ZWV4V2VGNTNwXzZaeG9aMkM2ZUszSmZDTHRDY05kb3lBQzJzeUh3aFVKaVYxdWh4ZW0zbDhZaFpaMTNGV1pVakNySENKMUpHWlB4VnZGSm54eDAwdEZMVktrUHRCNjV3YVE2MlFFSVU3enNXWFZ2U2FxWmJjTVl5LTZGQUc2dDFoakU?oc=5",
+          "date": "2026-08-21T20:21:07.000Z",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "news",
+          "title": "MasterChef Italia, la nuova dispensa prende forma: ecco chi entra - cpop.it",
+          "source": "CPOP.IT",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPS3VNbkp5NzRyQ2traW5aaXZBcHdlTFIxTnlJM0Z5ZHN0aTBGaE1fQ1Y2dHA2UU9CYkhVYnkyR29mMjdVX3BlNGtKQTBtM1ZsNXRCSlJINU9yNlRWaFBSNWpKdDRtakFJRzFWTzdOTWl1RmNZZGdBUTVLY2N5QTRwSElRazBoSUU4d2NZSTR6NU8?oc=5",
+          "date": "2026-08-21T13:00:00.000Z",
+          "brand": "Garofalo"
+        },
         {
           "type": "social",
           "platform": "ig",
@@ -1979,11 +2352,35 @@
     },
     {
       "name": "Rummo",
-      "mentions": 0,
+      "mentions": 3,
       "socialMentions": 2,
-      "totalMentions": 2,
-      "shareOfVoice": 11.8,
+      "totalMentions": 5,
+      "shareOfVoice": 9.3,
       "posts": [
+        {
+          "type": "news",
+          "title": "Torna “Pasta al sugo solidale” con Mutti e Rummo per Banco Alimentare - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNlhnUU1Qc1p2M3VSY0pjUU9mbFhGSU45cjhDa29ldW41M2xyeXdMY3hoVUdvUDd4Q0ZDVEFnejhfdG44RklBZUNOUEw4d0IxVDkxTU1PVnMwb1lzTHRvUW9rZlk2cVVrNXB4Wi1QMW9GY1haWDdyM0lPOGZucTZoRWlwRTRyTzRHTTBPWDJoaHlld0FxM3NYMW5HVHVRZ2gxNzVSaWg1WVNVTVp0NjhHLVZqVGtRbUZna2c?oc=5",
+          "date": "2026-08-20T22:33:05.000Z",
+          "brand": "Rummo"
+        },
+        {
+          "type": "news",
+          "title": "San Nicola Manfredi, tutto pronto per la Sagra del Fusillo - Fremondoweb",
+          "source": "FREMONDOWEB",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSFRPQnFha0Q2V1l3eEhpSzVXSFNybzFJUFAxZ1gxSGlFZ1hmZ2lrb2RZeUdzeUQtSzJTRW9FSnpmenREYVlOaVpMS0dtZno2OXZEQ2ROdnpOOVJ0MW9kM0s0VnU4d3lWX3ZlVXNpT2Rtdm1nVzREdEQteVRYczZEM2VObmdnckhwVlFzRDZxaHpOZnMyR1hFZ3ZTaUFrRURkdVBZ?oc=5",
+          "date": "2026-08-20T15:19:41.000Z",
+          "brand": "Rummo"
+        },
+        {
+          "type": "news",
+          "title": "PNRR Benevento, speso il 70% delle risorse - Fremondoweb",
+          "source": "FREMONDOWEB",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeXFiNTk0QUpwWnB3SzZiOGpfWXJzQmxLeDlybVJoZ1h4eGMyQVQ4WFdLNExzSlpNZktPeVdvRnNVY0w3V3hoQ3FQMzRXSklUUzhZanE3Nl9zTXR6cjNYRVVWMFd4MnVVMkR4U3R3NFNnamZMS1RhWE56ZHVBTVJNblI2aXh5d0xhcE1ibg?oc=5",
+          "date": "2026-08-20T15:19:41.000Z",
+          "brand": "Rummo"
+        },
         {
           "type": "social",
           "platform": "ig",
@@ -2007,11 +2404,60 @@
       ]
     },
     {
+      "name": "La Molisana",
+      "mentions": 5,
+      "socialMentions": 0,
+      "totalMentions": 5,
+      "shareOfVoice": 9.3,
+      "posts": [
+        {
+          "type": "news",
+          "title": "La Molisana: in arrivo il QR code sui pacchi di pasta - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcGJKSGZzQ3BvZUgxNzU2NE41dkhoOHZBQjlfcXp2R25KV05nM2R0aGhidWYweGMyTWZhbTBhWmdkWUp1cHg1ZTFURHJrZFZxWmRLNmtwYmlrZkYxd3FEbUFELVBjSnNNSlBFOHkyOWJncDdaaG55ZHgtVU5aSTZ0VFg1eE5aNmJQdkNETnQ5M1lHLUlPNkl6OVVn?oc=5",
+          "date": "2026-08-22T03:23:54.000Z",
+          "brand": "La Molisana"
+        },
+        {
+          "type": "news",
+          "title": "La Molisana fa quadrare i conti e lo spaghetto - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZktlNGc5NEJFclkxYlR1TDFfU1pPYUJlaWlJb19XMzU3SzZkVndhVnFpMFB3eXN4U1pOcjZ2eld1V2wzeFFTTXRHTTdoTGpuZXFYdTNsY1c0WFk1Z3BUTHpNZVR4Vmgzb204Tld1NGFXVVZCakh6U05nVFN6VjkwdVQ0OF9GN0FjeEw5ODdwMW8zY1RqLVVySnFR?oc=5",
+          "date": "2026-08-22T07:06:24.000Z",
+          "brand": "La Molisana"
+        },
+        {
+          "type": "news",
+          "title": "ANGURIA A PREZZO D'ORO ALLA LIDL, 1,09€ AL CHILO: DA SÌ CON TE NE PRENDI TRE! - Osimo Oggi",
+          "source": "OSIMO OGGI",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbTFwLXhXdzhWVnA0OHRMdWY0UlRWZ2x2aDBVZ2ZJYTlVYlVzV2hrNXNfVmFFVFFrWTJrQ2RNNUhGRDJRaVkwNkZyekJMa0tkVmZZbHBQX08ybGNWMkNBdVd3bVlRWFA0OXpTdjR5Qkt3Z2FlVjNPYTNjYThLQU8xNDlfU0dkaWFpNGVndkxvY2lEbnBKYjl1aFJnMWpUNkR6UUpz?oc=5",
+          "date": "2026-08-18T19:46:34.000Z",
+          "brand": "La Molisana"
+        },
+        {
+          "type": "news",
+          "title": "La Molisana acquisisce un’azienda di sughi. La produzione sarà realizzata a Termoli - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPczhuRnFaV09qY3A1UFVVR0thaUVDT2ZFc2doTnVycUZLNC1KYnVoSUFKeWV3M2dwXzJfRWFZakpqVVlXMGc1TTNkbG92UjlKTmtDSW9ha2FVdGszMlpBcFAyTkhHRF9hdGdZWUo2cEk5U256czBOeldOb056cDAxNERfRDQ1MnE0MTFSaDFYdGpORW1qY2w3YkRuaUZmMmRvRm9TU0ZXWFVZVll3clVKOGEzTFVoNkxHM2tKYUZtVnBWYzAwMjVVTThhbDlUcG8tZHNJ?oc=5",
+          "date": "2026-08-20T12:48:03.000Z",
+          "brand": "La Molisana"
+        },
+        {
+          "type": "news",
+          "title": "La Molisana dà il via al nuovo concorso Rigacuore per San Valentino - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZHp4WkNNejk5MXBFbWJKMWtKUnVWTU15N1RVZjN2QmlhUGxQSC1fRmVNX2hUMUJ4NjN1SWVJSmhlNUxwSlltT0gxRzBpd1pCLWxpMG5Ndk9ZUTNVY0Uwd1I5d2paN2M0MFBiWHY4aVVzQnQyRUk4aHoxLTBmVURzYWpDcldOT3RxcF9xZGZiZTJfaDRMQnZXUUltcGF6U29yeEdUZExOcktzSUY5a09SMlJ1QzNOUzRmaVdYeXVEMTBib2hucFVJ?oc=5",
+          "date": "2026-08-20T19:20:42.000Z",
+          "brand": "La Molisana"
+        }
+      ]
+    },
+    {
       "name": "Divella",
       "mentions": 0,
       "socialMentions": 2,
       "totalMentions": 2,
-      "shareOfVoice": 11.8,
+      "shareOfVoice": 3.7,
       "posts": [
         {
           "type": "social",
@@ -2037,19 +2483,20 @@
     },
     {
       "name": "Voiello",
-      "mentions": 0,
+      "mentions": 1,
       "socialMentions": 0,
-      "totalMentions": 0,
-      "shareOfVoice": 0,
-      "posts": []
-    },
-    {
-      "name": "La Molisana",
-      "mentions": 0,
-      "socialMentions": 0,
-      "totalMentions": 0,
-      "shareOfVoice": 0,
-      "posts": []
+      "totalMentions": 1,
+      "shareOfVoice": 1.9,
+      "posts": [
+        {
+          "type": "news",
+          "title": "Volantino Bennet dal 20 agosto 2026, offerte per casa e spesa - Anteprima Volantino",
+          "source": "ANTEPRIMA VOLANTINO",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV05FNGx0V2JHamZVdy1scW9jWERMcDdncWZvVmlLaDJsLWtfSnpPQ1FNbHdiNGphX0xqa3ZVTE1XR1RqN3VueWNVRHpQckoyZ3AtblplcjBGb0pPV1Nab3pIbE5GTU43YnQzTXNjYzRsbWtDdG9sNWRzR1E5SU82bVpDTQ?oc=5",
+          "date": "2026-08-20T09:03:13.000Z",
+          "brand": "Voiello"
+        }
+      ]
     }
   ]
 }
