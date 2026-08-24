@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-24T06:55:20.362Z",
+    "generatedAt": "2026-08-24T12:47:08.015Z",
     "pipelineVersion": "1.0.0",
     "sources": {
       "opensearch": true,
@@ -9,19 +9,19 @@
       "claude": false,
       "competitors": true
     },
-    "processingTimeMs": 3694
+    "processingTimeMs": 2679
   },
   "social": {
     "overview": {
-      "totalPosts": 189660,
-      "prevTotalPosts": 198446,
-      "volumeChange": -4.4,
-      "mentions24h": 19428,
-      "totalEngagement": 738557050,
-      "avgEngagementRate": 0.009263434000301107,
-      "erChange": -19.4,
-      "organicPct": 98,
-      "sponsoredCount": 2893
+      "totalPosts": 179083,
+      "prevTotalPosts": 197780,
+      "volumeChange": -9.5,
+      "mentions24h": 12227,
+      "totalEngagement": 716666893,
+      "avgEngagementRate": 0.009082520936636708,
+      "erChange": -20.4,
+      "organicPct": 99,
+      "sponsoredCount": 2681
     },
     "brandHealth": {
       "score": 79,
@@ -29,12 +29,12 @@
       "dimensions": [
         {
           "name": "Sentiment",
-          "score": 69,
+          "score": 68,
           "color": "#00e676"
         },
         {
           "name": "Engagement",
-          "score": 46,
+          "score": 45,
           "color": "#3ba4ff"
         },
         {
@@ -59,7 +59,7 @@
         },
         {
           "name": "Earned vs Paid",
-          "score": 98,
+          "score": 99,
           "color": "#00e676"
         },
         {
@@ -70,113 +70,83 @@
       ]
     },
     "sentiment": {
-      "netScore": 50,
-      "positive": 59,
+      "netScore": 48,
+      "positive": 58,
       "neutral": 32,
-      "negative": 9
+      "negative": 10
     },
     "platforms": [
       {
         "name": "tt",
-        "count": 107536,
-        "pctOfTotal": 56.7
+        "count": 102051,
+        "pctOfTotal": 57
       },
       {
         "name": "ig",
-        "count": 74550,
-        "pctOfTotal": 39.3
+        "count": 69817,
+        "pctOfTotal": 39
       },
       {
         "name": "yt",
-        "count": 7574,
+        "count": 7215,
         "pctOfTotal": 4
       }
     ],
     "dailyVolume": [
       {
         "date": "2026-08-17T00:00:00.000Z",
-        "count": 27344,
-        "engagement": 127973467,
-        "avgEr": 0.011404760620813602
+        "count": 16727,
+        "engagement": 87500673,
+        "avgEr": 0.010839853815676717
       },
       {
         "date": "2026-08-18T00:00:00.000Z",
         "count": 29276,
-        "engagement": 137301171,
-        "avgEr": 0.011114655912032546
+        "engagement": 137144715,
+        "avgEr": 0.011114565990949885
       },
       {
         "date": "2026-08-19T00:00:00.000Z",
         "count": 29795,
-        "engagement": 133175814,
-        "avgEr": 0.010162933337022291
+        "engagement": 133435803,
+        "avgEr": 0.01016286124742473
       },
       {
         "date": "2026-08-20T00:00:00.000Z",
         "count": 29831,
-        "engagement": 114657589,
-        "avgEr": 0.009421849539909403
+        "engagement": 115044609,
+        "avgEr": 0.00942194704280904
       },
       {
         "date": "2026-08-21T00:00:00.000Z",
         "count": 29336,
-        "engagement": 98709802,
-        "avgEr": 0.008472114192031033
+        "engagement": 99185672,
+        "avgEr": 0.008472148496692174
       },
       {
         "date": "2026-08-22T00:00:00.000Z",
         "count": 23079,
-        "engagement": 80416332,
-        "avgEr": 0.007849822511624062
+        "engagement": 81462891,
+        "avgEr": 0.007850402448433401
       },
       {
         "date": "2026-08-23T00:00:00.000Z",
-        "count": 20951,
-        "engagement": 46322288,
-        "avgEr": 0.005062130463284127
+        "count": 20984,
+        "engagement": 62683098,
+        "avgEr": 0.005060835394441797
       },
       {
         "date": "2026-08-24T00:00:00.000Z",
-        "count": 48,
-        "engagement": 587,
-        "avgEr": 0.0003637956951572753
+        "count": 55,
+        "engagement": 209432,
+        "avgEr": 0.00042767643931142886
       }
     ],
     "hourlyVolume": [
       {
-        "hour": "2026-08-23T06:00:00.000Z",
-        "count": 51,
-        "engagement": 61853
-      },
-      {
-        "hour": "2026-08-23T07:00:00.000Z",
-        "count": 818,
-        "engagement": 2558473
-      },
-      {
-        "hour": "2026-08-23T08:00:00.000Z",
-        "count": 1169,
-        "engagement": 2401023
-      },
-      {
-        "hour": "2026-08-23T09:00:00.000Z",
-        "count": 1229,
-        "engagement": 4021186
-      },
-      {
-        "hour": "2026-08-23T10:00:00.000Z",
-        "count": 1470,
-        "engagement": 6179821
-      },
-      {
-        "hour": "2026-08-23T11:00:00.000Z",
-        "count": 1389,
-        "engagement": 3447428
-      },
-      {
         "hour": "2026-08-23T12:00:00.000Z",
-        "count": 1367,
-        "engagement": 5206996
+        "count": 258,
+        "engagement": 884740
       },
       {
         "hour": "2026-08-23T13:00:00.000Z",
@@ -195,43 +165,43 @@
       },
       {
         "hour": "2026-08-23T16:00:00.000Z",
-        "count": 1571,
-        "engagement": 3841336
+        "count": 1573,
+        "engagement": 3881285
       },
       {
         "hour": "2026-08-23T17:00:00.000Z",
-        "count": 1547,
-        "engagement": 2569498
+        "count": 1548,
+        "engagement": 2576991
       },
       {
         "hour": "2026-08-23T18:00:00.000Z",
-        "count": 1421,
-        "engagement": 1858093
+        "count": 1423,
+        "engagement": 2641926
       },
       {
         "hour": "2026-08-23T19:00:00.000Z",
-        "count": 1225,
-        "engagement": 1492024
+        "count": 1228,
+        "engagement": 2468160
       },
       {
         "hour": "2026-08-23T20:00:00.000Z",
-        "count": 965,
-        "engagement": 1234432
+        "count": 973,
+        "engagement": 3641078
       },
       {
         "hour": "2026-08-23T21:00:00.000Z",
-        "count": 721,
-        "engagement": 371464
+        "count": 729,
+        "engagement": 5219972
       },
       {
         "hour": "2026-08-23T22:00:00.000Z",
-        "count": 492,
-        "engagement": 127748
+        "count": 494,
+        "engagement": 5830909
       },
       {
         "hour": "2026-08-23T23:00:00.000Z",
-        "count": 138,
-        "engagement": 3627
+        "count": 139,
+        "engagement": 916024
       },
       {
         "hour": "2026-08-24T00:00:00.000Z",
@@ -252,150 +222,198 @@
         "hour": "2026-08-24T03:00:00.000Z",
         "count": 2,
         "engagement": 15
+      },
+      {
+        "hour": "2026-08-24T04:00:00.000Z",
+        "count": 0,
+        "engagement": 0
+      },
+      {
+        "hour": "2026-08-24T05:00:00.000Z",
+        "count": 0,
+        "engagement": 0
+      },
+      {
+        "hour": "2026-08-24T06:00:00.000Z",
+        "count": 2,
+        "engagement": 37344
+      },
+      {
+        "hour": "2026-08-24T07:00:00.000Z",
+        "count": 1,
+        "engagement": 30299
+      },
+      {
+        "hour": "2026-08-24T08:00:00.000Z",
+        "count": 0,
+        "engagement": 0
+      },
+      {
+        "hour": "2026-08-24T09:00:00.000Z",
+        "count": 2,
+        "engagement": 89686
+      },
+      {
+        "hour": "2026-08-24T10:00:00.000Z",
+        "count": 1,
+        "engagement": 51504
+      },
+      {
+        "hour": "2026-08-24T11:00:00.000Z",
+        "count": 1,
+        "engagement": 12
       }
     ],
     "hashtags": [
       {
         "tag": "accadeoggi",
-        "count": 4449
+        "count": 4229
       },
       {
         "tag": "perte",
-        "count": 4273
+        "count": 4008
       },
       {
         "tag": "fyp",
-        "count": 4065
+        "count": 3836
       },
       {
         "tag": "viral",
-        "count": 2791
+        "count": 2630
       },
       {
         "tag": "neiperte",
-        "count": 1591
-      },
-      {
-        "tag": "foryou",
-        "count": 1545
+        "count": 1498
       },
       {
         "tag": "tiktokshop",
-        "count": 1539
+        "count": 1464
+      },
+      {
+        "tag": "foryou",
+        "count": 1462
       },
       {
         "tag": "adv",
-        "count": 1297
+        "count": 1204
       },
       {
         "tag": "backtoschool",
-        "count": 1109
+        "count": 1051
       },
       {
         "tag": "napoli",
-        "count": 1068
+        "count": 1011
       },
       {
         "tag": "seriea",
-        "count": 1004
+        "count": 969
       },
       {
         "tag": "capcut",
-        "count": 903
+        "count": 869
       },
       {
         "tag": "italia",
-        "count": 854
+        "count": 807
       },
       {
         "tag": "italy",
-        "count": 852
+        "count": 801
       },
       {
         "tag": "indispensabiliscuola",
-        "count": 805
+        "count": 756
       },
       {
         "tag": "calcio",
-        "count": 778
+        "count": 735
       },
       {
         "tag": "virale",
-        "count": 759
+        "count": 706
       },
       {
         "tag": "estate",
-        "count": 720
-      },
-      {
-        "tag": "summer",
-        "count": 679
+        "count": 656
       },
       {
         "tag": "onthisday",
-        "count": 660
+        "count": 631
+      },
+      {
+        "tag": "summer",
+        "count": 630
       },
       {
         "tag": "offerteperte",
-        "count": 653
+        "count": 622
       },
       {
         "tag": "amore",
-        "count": 626
+        "count": 586
       },
       {
         "tag": "mare",
-        "count": 618
+        "count": 574
       },
       {
         "tag": "viralvideos",
-        "count": 573
+        "count": 544
       },
       {
         "tag": "juventus",
-        "count": 568
+        "count": 528
       }
     ],
     "creators": [
       {
         "name": "fcbarcelona",
-        "posts": 50,
-        "engagement": 47015007,
+        "posts": 61,
+        "engagement": 55318316,
         "platform": "ig",
-        "followers": 147642553,
-        "avgEr": 0.00636876104411443
+        "followers": 147932499,
+        "avgEr": 0.006139178177405925
       },
       {
         "name": "fabriziorom",
-        "posts": 58,
-        "engagement": 34499355,
+        "posts": 55,
+        "engagement": 32373995,
         "platform": "ig",
         "followers": 49624021,
-        "avgEr": 0.01198646247383382
+        "avgEr": 0.011861555735459061
       },
       {
         "name": "433",
-        "posts": 64,
-        "engagement": 33109925,
+        "posts": 61,
+        "engagement": 31559846,
         "platform": "ig",
         "followers": 79755055,
-        "avgEr": 0.006487596147759168
+        "avgEr": 0.006488043575639395
       },
       {
         "name": "realmadrid",
-        "posts": 80,
-        "engagement": 25816690,
+        "posts": 77,
+        "engagement": 24337411,
         "platform": "ig",
         "followers": 180688455,
-        "avgEr": 0.0017878082298155927
+        "avgEr": 0.0017509944071164999
+      },
+      {
+        "name": "cristiano",
+        "posts": 3,
+        "engagement": 15856508,
+        "platform": "ig",
+        "followers": 679545739,
+        "avgEr": 0.007777993979396679
       },
       {
         "name": "championsleague",
-        "posts": 56,
-        "engagement": 15646415,
+        "posts": 55,
+        "engagement": 15543189,
         "platform": "ig",
-        "followers": 119513264,
-        "avgEr": 0.0033048499441944218
+        "followers": 119551793,
+        "avgEr": 0.0033490748558695983
       },
       {
         "name": "fabrizioromano",
@@ -404,14 +422,6 @@
         "platform": "tt",
         "followers": 28100000,
         "avgEr": 0.020753974527064994
-      },
-      {
-        "name": "cristiano",
-        "posts": 2,
-        "engagement": 9981741,
-        "platform": "ig",
-        "followers": 679545739,
-        "avgEr": 0.007344421741712959
       },
       {
         "name": "gucci",
@@ -424,10 +434,10 @@
       {
         "name": "kimkardashian",
         "posts": 2,
-        "engagement": 7550723,
+        "engagement": 7730705,
         "platform": "ig",
         "followers": 344302170,
-        "avgEr": 0.010965256187609854
+        "avgEr": 0.011226628342191396
       },
       {
         "name": "dualipa",
@@ -438,12 +448,12 @@
         "avgEr": 0.020028429793684778
       },
       {
-        "name": "juventus",
-        "posts": 108,
-        "engagement": 6041276,
+        "name": "kyliejenner",
+        "posts": 4,
+        "engagement": 6853958,
         "platform": "ig",
-        "followers": 59027579,
-        "avgEr": 0.0010886454767681914
+        "followers": 381319732,
+        "avgEr": 0.004493576797122054
       },
       {
         "name": "k.mbappe",
@@ -454,12 +464,12 @@
         "avgEr": 0.04162271192677112
       },
       {
-        "name": "kyliejenner",
-        "posts": 3,
-        "engagement": 5634864,
+        "name": "juventus",
+        "posts": 103,
+        "engagement": 5614638,
         "platform": "ig",
-        "followers": 381319732,
-        "avgEr": 0.004925756110622673
+        "followers": 59027579,
+        "avgEr": 0.0010541957394725808
       },
       {
         "name": "seraahr",
@@ -610,51 +620,6 @@
         ],
         "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/779975231_18212141338349042_2241146713826434491_n.webp?_nc_cat=105&ig_cache_key=Mzk2NzE1NjA4MTEwMjQxNDE5Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=_r4nWPQlekYQ7kNvwE4T4IU&_nc_oc=AdoTsCv5llas8Uf_MjC8IdjuKcWZOLXQRQ49Ssb3cXMq_SGsgjzNLOdBDimhZ8tJmZOv1tK58AJZvpzMaWHAlxPa&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=hPgzlRJxmCeCJxiwsrC4NA&_nc_ss=7a3ba&oh=00_AQHuAOHkN61LJ_tY1e9zoj9l4ipCERYo5FI1xp-NITFbzA&oe=6A8FDDE8",
         "url": "https://www.instagram.com/p/3967175183965890074/"
-      },
-      {
-        "platform": "ig",
-        "author": "marcorufini_official",
-        "time": "2026-08-17T10:01:36Z",
-        "text": "Niente panna! Solo il vero segreto della tradizione campana.\nIngredienti (per 4 persone)\n320 g di spaghetti (trafilati al bronzo)\n700-800 g di zucchine chiare fresche\n150 g di Provolone del Monaco (da grattugiare sopra alla fine)\n30-40 g di Parmigian",
-        "engagement": 8462,
-        "engagementRate": 0.02138753598499688,
-        "sentiment": "neu",
-        "hashtags": [
-          "chefrufini",
-          "spaghettiallanerano"
-        ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/774508963_18622012600007691_1407771074710450342_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=105&ig_cache_key=Mzk2NTYzNzM5MDg1Njk5Njk5MTE4NjIyMDEyNTk0MDA3Njkx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=gf8FQpPwfcgQ7kNvwEKbf9f&_nc_oc=Adp_GuXGm7vZzzfMzpMG6i1hm5YGfxoS8VIRgpNIdLyG2oUqg-ZseS_5OCzBwCv-_1uUPkpl63vsz6M0j5b6frU_&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=VJB8nloXVfEyBq2GuwYhOA&_nc_ss=7a3ba&oh=00_AQGTXbPim3NdnKB6Y1B8fw-YCASZsby0kU28E6aXfMvHIw&oe=6A914241",
-        "url": "https://www.instagram.com/reel/3965637390856996991/"
-      },
-      {
-        "platform": "yt",
-        "author": "MarcoRufiniChef",
-        "time": "2026-08-17T10:00:33Z",
-        "text": "Niente burro, niente panna! Solo il vero segreto della tradizione campana.\nIngredienti (per 4 persone)\n320 g di spaghetti (trafilati al bronzo)\n700-800 g di zucchine chiare fresche\n150 g di Provolone del Monaco (da grattugiare sopra alla fine)\n30-40 ",
-        "engagement": 6257,
-        "engagementRate": 0.03328191489361702,
-        "sentiment": "pos",
-        "hashtags": [
-          "chefrufini",
-          "spaghettiallanerano"
-        ],
-        "imageUrl": "https://i.ytimg.com/vi/cYOUHC9mwFU/hqdefault.jpg",
-        "url": "https://www.youtube.com/watch?v=cYOUHC9mwFU"
-      },
-      {
-        "platform": "tt",
-        "author": "marcorufinichef",
-        "time": "2026-08-17T10:00:00Z",
-        "text": "Niente panna! Solo il vero segreto della tradizione campana. Ingredienti (per 4 persone) 320 g di spaghetti (trafilati al bronzo) 700-800 g di zucchine chiare fresche 150 g di Provolone del Monaco (da grattugiare sopra alla fine) 30-40 g di Parmigian",
-        "engagement": 25615,
-        "engagementRate": 0.05428056791693155,
-        "sentiment": "pos",
-        "hashtags": [
-          "chefrufini",
-          "spaghettiallanerano"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oMIKSS1Au4nNEII9BCEZLPiBqAABzwf6iyBAtR~tplv-tiktokx-origin.image?dr=10395&x-expires=1787698800&x-signature=FXqxSJVQXHl8cwwR9h3KDOrhjgQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
-        "url": "https://www.tiktok.com/@marcorufinichef/video/7673510566450842902"
       },
       {
         "platform": "ig",
@@ -831,24 +796,6 @@
       },
       {
         "platform": "ig",
-        "author": "fabiohofame",
-        "time": "2026-08-17T10:11:22Z",
-        "text": "TARTE COCCO-MANGO-PASSION FRUIT ✨\n\nTarte con mousse al cioccolato bianco e cocco, gel di mango e lime, cremoso al passion fruit\n\n👉Pasta frolla:\n275g farina 00\n140g burro\n100g zucchero a velo\n1 uovo\nLavorare il burro morbido e lo zucchero a velo.\nAgg",
-        "engagement": 24343,
-        "engagementRate": 0.06703253733973653,
-        "sentiment": "pos",
-        "hashtags": [
-          "pastry",
-          "chef",
-          "gourmet",
-          "cocco",
-          "mango"
-        ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/774508947_18092089529548671_7642842376464473417_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=102&ig_cache_key=Mzk2NTY0MTkxNzkwNTA5MjI1MDE4MDkyMDg5NTI2NTQ4Njcx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwNDguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=F3AQFwJU-ZQQ7kNvwFQi-C-&_nc_oc=Adrqg2PBNE3Qdg3RcLo637Qm_-xZdj5LuSXEgZRo_8DvuGnyK7heSVUUZ0nyY6RVxsyfqwf5YFHQ8xr3T76x66Go&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=_WOzUKO_l1NO_eeYdB1Gug&_nc_ss=7a3ba&oh=00_AQHkpeZ7a-7g0KSQkwnMUY-ny8EVzmSdYH-2ZqRfjlIbGw&oe=6A9155C4",
-        "url": "https://www.instagram.com/reel/3965641917905092250/"
-      },
-      {
-        "platform": "ig",
         "author": "federicofusca",
         "time": "2026-08-20T16:02:09Z",
         "text": "Le linguine più cremose dell’estate🤤👅 Pesto di Pistacchio e burrata!!Salva ricetta e condividila !!\n.\nIngredienti 🛒 \n100 gr di pistacchi \n80 gr di rucola \n1 spicchio di aglio \n70 gr di parmigiano \nOlio evo qb\nSale e pepe qb \n1 burrata da 250 gr \n5",
@@ -894,6 +841,24 @@
         ],
         "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/780748557_18092743385548671_3355549456964574577_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=111&ig_cache_key=Mzk2OTI3NTk3NjcyNTM5MzU3NjE4MDkyNzQzMzgyNTQ4Njcx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNzYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=xKpmw5bRVEcQ7kNvwFXYxYN&_nc_oc=Ado3UQX3oaGVDoolhKotGtIcK8OBG-_B8qHoA6dZaNaEtad3SIl3fNRilik9m9R4cVvCVWiIxSOr5t7hlHG0CeKi&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=_WOzUKO_l1NO_eeYdB1Gug&_nc_ss=7a3ba&oh=00_AQEZSfU4L-F--Q6W48-ofcEG0myQqQ0Y-AP6zTeK5NAK7w&oe=6A9137C4",
         "url": "https://www.instagram.com/reel/3969275976725393576/"
+      },
+      {
+        "platform": "ig",
+        "author": "dr.tizianoscarparo",
+        "time": "2026-08-22T10:11:13Z",
+        "text": "LA NUVOLA SCARPARO IN VERSIONE COTTA, BUONISSIMA ☁️🔥\n\nSCRIVI “NUVOLA” NEI COMMENTI SE VUOI RICEVERE LA RICETTA COMPLETA👇🏼\n\nIN QUESTO NUOVO STILE DI VITA NULLA È VIETATO, BASTA BILANCIARE I PICCHI GLICEMICI E SI ADATTA PERFETTAMENTE ALLA NOSTRA QUO",
+        "engagement": 21853,
+        "engagementRate": 0.021606491538042474,
+        "sentiment": "neu",
+        "hashtags": [
+          "uova",
+          "albume",
+          "uovo",
+          "nuvola",
+          "proteine"
+        ],
+        "imageUrl": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/782184640_18613983976049999_1199098566266212586_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=108&ig_cache_key=Mzk2OTI2NDg2ODAzNTUxMTQwOTE4NjEzOTgzOTcwMDQ5OTk5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwNTYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=arFsBXFVSOcQ7kNvwF0Zb6h&_nc_oc=AdpisqAKSyZy_w7jPXe7NnGk7VRcon5w8D5SAwKMROk3rZeAXdb8z9zX9JNKk9wfhmtC6r1Xt5R3yohpCJ1zFYPA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=V2cwHqxpDIfffLxFPBokzQ&_nc_ss=7a3ba&oh=00_AQHYD-P7pW6apZ7PVzm4zvQZnsTnl0ylzgLz96zkNNxcUg&oe=6A91332E",
+        "url": "https://www.instagram.com/reel/3969264868035511409/"
       },
       {
         "platform": "tt",
@@ -1103,6 +1068,23 @@
         "url": "https://www.tiktok.com/@federicofuscachef/video/7676150705291349280"
       },
       {
+        "platform": "tt",
+        "author": "antonietta_polcaro",
+        "time": "2026-08-20T13:00:00Z",
+        "text": "Risposta a @𝒢𝐵 🍔 Gran Crispy McBacon fatto in casa 🤤 Uno dei panini più golosi da preparare a casa: hamburger, cheddar, bacon croccante e una salsa cremosa e saporita che fa davvero la differenza! ⏱️ Tempo: 15 minuti 🍔 Per: 2 panini 𝐈𝐧𝐠𝐫𝐞𝐝",
+        "engagement": 20738,
+        "engagementRate": 0.09383710407239819,
+        "sentiment": "pos",
+        "hashtags": [
+          "grancrispymcbacon",
+          "hamburgerfattoincasa",
+          "paninofattoincasa",
+          "mcdonald"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/ocjDEXLBEQn8IuDZGVMfAMIae5QIg7eXMVpJQA~tplv-tiktokx-dmt-logom:tos-no1a-i-0068-no/ogGEIYBoGAKBYpIigqcajpAYAR8CBaixPAEhq.image?dr=10393&x-expires=1787698800&x-signature=5jJrK%2BS6MeIuEtSrGgJCXV9OVJo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
+        "url": "https://www.tiktok.com/@antonietta_polcaro/video/7676008472676273430"
+      },
+      {
         "platform": "yt",
         "author": "DieffeBros",
         "time": "2026-08-21T11:30:21Z",
@@ -1137,32 +1119,6 @@
         "hashtags": [],
         "imageUrl": null,
         "url": "https://www.youtube.com/watch?v=23VpHaOKuAE"
-      },
-      {
-        "platform": "yt",
-        "author": "RapaNello",
-        "time": "2026-08-17T12:00:25Z",
-        "text": "ECCO  il Pane Pita  in Padella in pochi MINUTI \n ■ Qui trovi tutto, i miei libri e le cose che uso nei video, le magliette.\nhttps://linktr.ee/rapanello\n■  Ecco il sito internet ufficiale gratuito   https://www.ziorapa.it/\n\n☕ Vuoi offrirmi un caffè? S",
-        "engagement": 5314,
-        "engagementRate": 0.006356459330143541,
-        "sentiment": "neg",
-        "hashtags": [
-          "panepita",
-          "pita",
-          "pitainpadella",
-          "panesenzaforno",
-          "panesenzalievito",
-          "paneveloce",
-          "paneinpadella",
-          "ricettevegane",
-          "cucinaitaliana",
-          "ricettafacile",
-          "ricetteveloci",
-          "rapanello",
-          "ricetterapanello"
-        ],
-        "imageUrl": "https://i.ytimg.com/vi/iPOmwpGim0g/hqdefault.jpg",
-        "url": "https://www.youtube.com/watch?v=iPOmwpGim0g"
       },
       {
         "platform": "yt",
@@ -1366,6 +1322,34 @@
         "hashtags": [],
         "imageUrl": "https://i.ytimg.com/vi/LthiEhZB8EQ/hqdefault.jpg",
         "url": "https://www.youtube.com/watch?v=LthiEhZB8EQ"
+      },
+      {
+        "platform": "yt",
+        "author": "Mrs.Veggy_YT",
+        "time": "2026-08-21T16:05:30Z",
+        "text": "Ora che la sera (forse, si spera) comincerà a fare un po’ più freschino, io non rinuncio a una pasta e fagioli con i pomodori freschi🥰 \n\n——\nPASTA E FAGIOLI ESTIVA🫘\n\n——\nINGREDIENTI X2 PERSONE👩🏼‍🍳\nQ.b. olio evo\n1 spicchio d’aglio\nQ.b. peperoncino\n",
+        "engagement": 1181,
+        "engagementRate": 0.02050347222222222,
+        "sentiment": "neu",
+        "hashtags": [
+          "ricettevegetali",
+          "ricettefacili",
+          "onepotpasta"
+        ],
+        "imageUrl": "https://i.ytimg.com/vi/H67ytNl7krI/hqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=H67ytNl7krI"
+      },
+      {
+        "platform": "yt",
+        "author": "Allacciateilgrembiule",
+        "time": "2026-08-18T09:30:15Z",
+        "text": "Se non sapete mai cosa cucinare in questi giorni caldi, ecco 3 alternative pazzesche, perfette da preparare in anticipo e portare anche in spiaggia!\n\nRICETTA1\nhttps://blog.giallozafferano.it/allacciateilgrembiule/insalata-di-farro-con-verdure/\n------",
+        "engagement": 900,
+        "engagementRate": 0.00548780487804878,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://i.ytimg.com/vi/fPJWec3Uqz0/hqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=fPJWec3Uqz0"
       }
     ]
   },
@@ -1996,7 +1980,7 @@
       "mentions": 15,
       "socialMentions": 3,
       "totalMentions": 18,
-      "shareOfVoice": 33.3,
+      "shareOfVoice": 34.6,
       "posts": [
         {
           "type": "news",
@@ -2056,18 +2040,18 @@
         },
         {
           "type": "news",
-          "title": "Barilla esporta il proprio packaging negli Usa - Distribuzione Moderna",
-          "source": "DISTRIBUZIONE MODERNA",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObGl0aUFQUnZ0aUFNRHhKRll0dlFnVHlEOExYQXBLQTNBMTFQTGZDVGM5MVROZUs4MFBSNlJqTDRBbTZQXzU3UmxYQUhxVnhKWTlrVVMtTTBmNDRhUVZWVTJBMThKNGlOZ2pFOUJlU3REdlF0SzVYR1dKR2VmanhsbDJwZFFJeWI0S05CZUhhS1NmTnU5MjFMbUJ3?oc=5",
-          "date": "2026-08-22T01:29:04.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
           "title": "Barilla: Claudio Colzani è il nuovo ad del Gruppo - Distribuzione Moderna",
           "source": "DISTRIBUZIONE MODERNA",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeUJrUkMzVkoxdHhQaFQxQXNZQ0JwV2dIaUtfejNxN3Q5dWJnOF83WWZFbnMzc2lvZUhzd0NNemdTWFJwUkxpOTFIRTRlMUY2Rlo0Rmo0cWFNd0lFeW9LdURRS0RTcThBVTNYUjJzQkFIV1VORnB1MzZNRVVZMWd2UC1PVWdoQTNTQ0c4QW1RRFZ0ZDF0MWc?oc=5",
           "date": "2026-08-22T05:14:17.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Barilla esporta il proprio packaging negli Usa - Distribuzione Moderna",
+          "source": "DISTRIBUZIONE MODERNA",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObGl0aUFQUnZ0aUFNRHhKRll0dlFnVHlEOExYQXBLQTNBMTFQTGZDVGM5MVROZUs4MFBSNlJqTDRBbTZQXzU3UmxYQUhxVnhKWTlrVVMtTTBmNDRhUVZWVTJBMThKNGlOZ2pFOUJlU3REdlF0SzVYR1dKR2VmanhsbDJwZFFJeWI0S05CZUhhS1NmTnU5MjFMbUJ3?oc=5",
+          "date": "2026-08-22T01:29:04.000Z",
           "brand": "Barilla"
         },
         {
@@ -2080,18 +2064,18 @@
         },
         {
           "type": "news",
-          "title": "Barilla assume in Italia: tempo indeterminato, stage retribuiti e stipendi da 35.000 a oltre 50.000 euro - concorsipubblici.net",
-          "source": "CONCORSIPUBBLICI.NET",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSlhtTUMwLXVHUHFjTnRiQjJYWmd2TmtNdWIyZk1ySmdWa040T1l1dmE5QVBHQ3V4OXVyN1NiVnFXQkUwaTVQdkc2VF9sX0RlSXp4YkpVTVhBYnZvVnlSdk5UbkNLTjRhUm56aUxvWGRBbGdnamxLZFlvNnZWY1hrZ094RTVlTFU2NUoySk44MkhzRUd5QWpQTmNSOC1BNTRUS2xDWEdieF8tM0hQZmNCZDR4SEpxWTVEVGlwZlNEUzVGQUxuY3FfUlUwNmpvclVEVXc?oc=5",
-          "date": "2026-08-17T09:47:25.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
           "title": "Barilla: suolo, acqua ed energia al centro del report di sostenibilità 2025 - Distribuzione Moderna",
           "source": "DISTRIBUZIONE MODERNA",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPM2ZLbXJGRHlFSEtlRGEtY1FQem9JV1pzYTN5UGdCdmNTZFRoLXFzUkxJRVhMVWM1VEJOT2tTUHMxeHRkYXBPazFKX0RzMDVYbVEteUJVNFZIVC1wTFpuM1ZCRURKMXM3Z2thZUtoeUF4aTZPbFdYYnpNWWNBSDJ1bjQ2bFBVQWdvdXktRkdLWWhpTUFOQXNQbVJlSTFaS0JWNWtSV3MwbVRlSDZtNXBDNUdvb2dIV1dzRHVz?oc=5",
           "date": "2026-08-20T22:31:12.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Volantino Carrefour Express dal 27 agosto 2026 - Anteprima Volantino",
+          "source": "ANTEPRIMA VOLANTINO",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObThKMFdBVVJpaEtJenROTDRPdldfUm9aNnF3ZHlYSkhEWjllQWpuOThYX28tdGpPRUYxMWM2aWNlbjljMmhRT3NtOUx0S3JhNm8xZUhVQmlVMnZfOGNOOXM1YmZJTEo1VldHSlQzYkxwb3NYOTVCR2FjVlczaG9qU2gtX25ZYUQ4ZzJTdVJuZW1qdw?oc=5",
+          "date": "2026-08-24T06:51:33.000Z",
           "brand": "Barilla"
         },
         {
@@ -2153,9 +2137,9 @@
     {
       "name": "De Cecco",
       "mentions": 6,
-      "socialMentions": 5,
-      "totalMentions": 11,
-      "shareOfVoice": 20.4,
+      "socialMentions": 4,
+      "totalMentions": 10,
+      "shareOfVoice": 19.2,
       "posts": [
         {
           "type": "news",
@@ -2219,16 +2203,6 @@
           "type": "social",
           "platform": "ig",
           "author": "dececco_pasta",
-          "text": "Profumi intensi, colori vivaci e sapori autentici si uniscono in un piatto fresco e genuino. \n\nSintesi perfetta dell'estate mediterranea! ☀️\n\nLa Calamarata n°129 De Cecco con melanzane, tonno, olive e filetti di Pomodoro celebra la cucina del nostro ",
-          "engagement": 276,
-          "date": "2026-08-17T07:31:21Z",
-          "url": "https://www.instagram.com/reel/3965561985986993194/",
-          "brand": "De Cecco"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "dececco_pasta",
           "text": "Alle volte basta un profumo per sentirsi già in riva al mare 🌊\nI Paccheri n°125 De Cecco sono il formato ideale per accogliere tutto il gusto dello scoglio: cozze, vongole, gamberi e pomodorini.\n\nIl risultato è un classico della cucina italiana che ",
           "engagement": 150,
           "date": "2026-08-20T07:29:50Z",
@@ -2262,7 +2236,7 @@
       "mentions": 6,
       "socialMentions": 4,
       "totalMentions": 10,
-      "shareOfVoice": 18.5,
+      "shareOfVoice": 19.2,
       "posts": [
         {
           "type": "news",
@@ -2359,7 +2333,7 @@
       "mentions": 6,
       "socialMentions": 0,
       "totalMentions": 6,
-      "shareOfVoice": 11.1,
+      "shareOfVoice": 11.5,
       "posts": [
         {
           "type": "news",
@@ -2416,7 +2390,7 @@
       "mentions": 2,
       "socialMentions": 2,
       "totalMentions": 4,
-      "shareOfVoice": 7.4,
+      "shareOfVoice": 7.7,
       "posts": [
         {
           "type": "news",
@@ -2457,50 +2431,11 @@
       ]
     },
     {
-      "name": "Divella",
-      "mentions": 0,
-      "socialMentions": 3,
-      "totalMentions": 3,
-      "shareOfVoice": 5.6,
-      "posts": [
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "divellaofficial",
-          "text": "Calamari 46 Divella al sugo di merluzzo, pomodoro, olive e capperi. Il formato avvolge il sugo e lo porta fino all'ultima forchettata. Pronti a servirlo?\n\nScopri la ricetta nel primo commento 👇\n\n#DivellaPassioneMediterranea #SugoDiPesce #PastaItalia",
-          "engagement": 55,
-          "date": "2026-08-20T09:01:52Z",
-          "url": "https://www.instagram.com/reel/3967781934197608910/",
-          "brand": "Divella"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "divellaofficial",
-          "text": "Un piatto che sa di mare, di casa e di quei pranzi in cui il sugo è il vero protagonista.\nMerluzzo, pomodori pelati Divella, olive, capperi e alici: ingredienti semplici che, insieme, diventano un condimento ricco e saporito, perfetto per avvolgere i",
-          "engagement": 37,
-          "date": "2026-08-17T08:01:10Z",
-          "url": "https://www.instagram.com/p/3965577263873608317/",
-          "brand": "Divella"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "divellaofficial",
-          "text": "Profumo di sugo, il calore della tavola e la consistenza unica dei nostri Calamari 46 che raccolgono ogni sfumatura di sapore. 🍝✨\n\nCi sono pranzi che sanno di casa, di tradizioni semplici e di momenti condivisi senza fretta. Portiamo in tavola l'aut",
-          "engagement": 28,
-          "date": "2026-08-22T08:01:06Z",
-          "url": "https://www.instagram.com/p/3969201109746139809/",
-          "brand": "Divella"
-        }
-      ]
-    },
-    {
       "name": "Voiello",
       "mentions": 2,
       "socialMentions": 0,
       "totalMentions": 2,
-      "shareOfVoice": 3.7,
+      "shareOfVoice": 3.8,
       "posts": [
         {
           "type": "news",
@@ -2517,6 +2452,35 @@
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV05FNGx0V2JHamZVdy1scW9jWERMcDdncWZvVmlLaDJsLWtfSnpPQ1FNbHdiNGphX0xqa3ZVTE1XR1RqN3VueWNVRHpQckoyZ3AtblplcjBGb0pPV1Nab3pIbE5GTU43YnQzTXNjYzRsbWtDdG9sNWRzR1E5SU82bVpDTQ?oc=5",
           "date": "2026-08-20T09:03:13.000Z",
           "brand": "Voiello"
+        }
+      ]
+    },
+    {
+      "name": "Divella",
+      "mentions": 0,
+      "socialMentions": 2,
+      "totalMentions": 2,
+      "shareOfVoice": 3.8,
+      "posts": [
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "divellaofficial",
+          "text": "Calamari 46 Divella al sugo di merluzzo, pomodoro, olive e capperi. Il formato avvolge il sugo e lo porta fino all'ultima forchettata. Pronti a servirlo?\n\nScopri la ricetta nel primo commento 👇\n\n#DivellaPassioneMediterranea #SugoDiPesce #PastaItalia",
+          "engagement": 55,
+          "date": "2026-08-20T09:01:52Z",
+          "url": "https://www.instagram.com/reel/3967781934197608910/",
+          "brand": "Divella"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "divellaofficial",
+          "text": "Profumo di sugo, il calore della tavola e la consistenza unica dei nostri Calamari 46 che raccolgono ogni sfumatura di sapore. 🍝✨\n\nCi sono pranzi che sanno di casa, di tradizioni semplici e di momenti condivisi senza fretta. Portiamo in tavola l'aut",
+          "engagement": 28,
+          "date": "2026-08-22T08:01:06Z",
+          "url": "https://www.instagram.com/p/3969201109746139809/",
+          "brand": "Divella"
         }
       ]
     }
