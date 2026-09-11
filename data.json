@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-10T20:27:15.722Z",
+    "generatedAt": "2026-09-11T03:11:26.397Z",
     "pipelineVersion": "1.0.0",
     "sources": {
       "opensearch": true,
@@ -9,19 +9,19 @@
       "claude": false,
       "competitors": true
     },
-    "processingTimeMs": 3705
+    "processingTimeMs": 2798
   },
   "social": {
     "overview": {
-      "totalPosts": 218459,
-      "prevTotalPosts": 216038,
-      "volumeChange": 1.1,
-      "mentions24h": 27087,
-      "totalEngagement": 716063583,
-      "avgEngagementRate": 0.008755037807638665,
-      "erChange": -25.8,
+      "totalPosts": 216706,
+      "prevTotalPosts": 215891,
+      "volumeChange": 0.4,
+      "mentions24h": 25073,
+      "totalEngagement": 702944938,
+      "avgEngagementRate": 0.008746916972919376,
+      "erChange": -25.5,
       "organicPct": 98,
-      "sponsoredCount": 4633
+      "sponsoredCount": 4636
     },
     "brandHealth": {
       "score": 79,
@@ -29,7 +29,7 @@
       "dimensions": [
         {
           "name": "Sentiment",
-          "score": 68,
+          "score": 67,
           "color": "#00e676"
         },
         {
@@ -70,315 +70,300 @@
       ]
     },
     "sentiment": {
-      "netScore": 48,
-      "positive": 58,
-      "neutral": 32,
+      "netScore": 47,
+      "positive": 57,
+      "neutral": 33,
       "negative": 10
     },
     "platforms": [
       {
         "name": "tt",
-        "count": 121706,
-        "pctOfTotal": 55.7
+        "count": 120002,
+        "pctOfTotal": 55.4
       },
       {
         "name": "ig",
-        "count": 88154,
-        "pctOfTotal": 40.4
+        "count": 88120,
+        "pctOfTotal": 40.7
       },
       {
         "name": "yt",
-        "count": 8599,
-        "pctOfTotal": 3.9
+        "count": 8584,
+        "pctOfTotal": 4
       }
     ],
     "dailyVolume": [
       {
-        "date": "2026-09-03T00:00:00.000Z",
-        "count": 2187,
-        "engagement": 16465092,
-        "avgEr": 0.0085598468279803
-      },
-      {
         "date": "2026-09-04T00:00:00.000Z",
-        "count": 33474,
-        "engagement": 127434124,
-        "avgEr": 0.010055963279877506
+        "count": 33126,
+        "engagement": 123425932,
+        "avgEr": 0.01008344611833427
       },
       {
         "date": "2026-09-05T00:00:00.000Z",
-        "count": 30180,
-        "engagement": 97745146,
-        "avgEr": 0.009768108481223042
+        "count": 30178,
+        "engagement": 97783287,
+        "avgEr": 0.009770595524386718
       },
       {
         "date": "2026-09-06T00:00:00.000Z",
         "count": 28301,
-        "engagement": 106927630,
-        "avgEr": 0.010685463436378785
+        "engagement": 106940003,
+        "avgEr": 0.010691112878053808
       },
       {
         "date": "2026-09-07T00:00:00.000Z",
-        "count": 32808,
-        "engagement": 122188281,
-        "avgEr": 0.01012194542512204
+        "count": 32807,
+        "engagement": 122223395,
+        "avgEr": 0.010136684501571925
       },
       {
         "date": "2026-09-08T00:00:00.000Z",
-        "count": 32969,
-        "engagement": 128590877,
-        "avgEr": 0.009292417249149037
+        "count": 32971,
+        "engagement": 129172931,
+        "avgEr": 0.009304417420189833
       },
       {
         "date": "2026-09-09T00:00:00.000Z",
-        "count": 33656,
-        "engagement": 96073985,
-        "avgEr": 0.007238989753629139
+        "count": 33831,
+        "engagement": 101338706,
+        "avgEr": 0.007237624907263414
       },
       {
         "date": "2026-09-10T00:00:00.000Z",
-        "count": 24884,
-        "engagement": 20638448,
-        "avgEr": 0.003135025482581495
+        "count": 25488,
+        "engagement": 22057808,
+        "avgEr": 0.0031344429432027033
+      },
+      {
+        "date": "2026-09-11T00:00:00.000Z",
+        "count": 4,
+        "engagement": 2876,
+        "avgEr": 0.00002853174603174603
       }
     ],
     "hourlyVolume": [
       {
-        "hour": "2026-09-09T20:00:00.000Z",
-        "count": 577,
-        "engagement": 4202035
-      },
-      {
-        "hour": "2026-09-09T21:00:00.000Z",
-        "count": 818,
-        "engagement": 6090069
-      },
-      {
-        "hour": "2026-09-09T22:00:00.000Z",
-        "count": 553,
-        "engagement": 3369529
-      },
-      {
-        "hour": "2026-09-09T23:00:00.000Z",
-        "count": 255,
-        "engagement": 1203112
-      },
-      {
-        "hour": "2026-09-10T00:00:00.000Z",
-        "count": 143,
-        "engagement": 265282
-      },
-      {
-        "hour": "2026-09-10T01:00:00.000Z",
-        "count": 130,
-        "engagement": 767689
-      },
-      {
-        "hour": "2026-09-10T02:00:00.000Z",
-        "count": 116,
-        "engagement": 988995
-      },
-      {
         "hour": "2026-09-10T03:00:00.000Z",
-        "count": 113,
-        "engagement": 46412
+        "count": 89,
+        "engagement": 39209
       },
       {
         "hour": "2026-09-10T04:00:00.000Z",
-        "count": 309,
-        "engagement": 264692
+        "count": 324,
+        "engagement": 265156
       },
       {
         "hour": "2026-09-10T05:00:00.000Z",
-        "count": 678,
-        "engagement": 540278
+        "count": 689,
+        "engagement": 541308
       },
       {
         "hour": "2026-09-10T06:00:00.000Z",
-        "count": 913,
-        "engagement": 648792
+        "count": 938,
+        "engagement": 649861
       },
       {
         "hour": "2026-09-10T07:00:00.000Z",
-        "count": 1176,
-        "engagement": 685182
+        "count": 1196,
+        "engagement": 696610
       },
       {
         "hour": "2026-09-10T08:00:00.000Z",
-        "count": 1593,
-        "engagement": 2169192
+        "count": 1632,
+        "engagement": 2173762
       },
       {
         "hour": "2026-09-10T09:00:00.000Z",
-        "count": 1779,
-        "engagement": 1595436
+        "count": 1820,
+        "engagement": 1602754
       },
       {
         "hour": "2026-09-10T10:00:00.000Z",
-        "count": 2442,
-        "engagement": 2457598
+        "count": 2483,
+        "engagement": 2461848
       },
       {
         "hour": "2026-09-10T11:00:00.000Z",
-        "count": 1940,
-        "engagement": 2130904
+        "count": 1978,
+        "engagement": 2135272
       },
       {
         "hour": "2026-09-10T12:00:00.000Z",
-        "count": 1871,
-        "engagement": 2349314
+        "count": 1916,
+        "engagement": 2374875
       },
       {
         "hour": "2026-09-10T13:00:00.000Z",
-        "count": 1621,
-        "engagement": 977680
+        "count": 1657,
+        "engagement": 984411
       },
       {
         "hour": "2026-09-10T14:00:00.000Z",
-        "count": 1621,
-        "engagement": 906958
+        "count": 1652,
+        "engagement": 1269044
       },
       {
         "hour": "2026-09-10T15:00:00.000Z",
-        "count": 1800,
-        "engagement": 1411424
+        "count": 1849,
+        "engagement": 1417218
       },
       {
         "hour": "2026-09-10T16:00:00.000Z",
-        "count": 2164,
-        "engagement": 1132162
+        "count": 2203,
+        "engagement": 1557689
       },
       {
         "hour": "2026-09-10T17:00:00.000Z",
-        "count": 1852,
-        "engagement": 910181
+        "count": 1889,
+        "engagement": 952927
       },
       {
         "hour": "2026-09-10T18:00:00.000Z",
-        "count": 1662,
-        "engagement": 327833
+        "count": 1700,
+        "engagement": 330768
       },
       {
         "hour": "2026-09-10T19:00:00.000Z",
-        "count": 920,
-        "engagement": 61995
+        "count": 972,
+        "engagement": 65304
       },
       {
         "hour": "2026-09-10T20:00:00.000Z",
-        "count": 41,
-        "engagement": 449
+        "count": 58,
+        "engagement": 1118
+      },
+      {
+        "hour": "2026-09-10T21:00:00.000Z",
+        "count": 9,
+        "engagement": 39969
+      },
+      {
+        "hour": "2026-09-10T22:00:00.000Z",
+        "count": 7,
+        "engagement": 2106
+      },
+      {
+        "hour": "2026-09-10T23:00:00.000Z",
+        "count": 8,
+        "engagement": 5363
+      },
+      {
+        "hour": "2026-09-11T00:00:00.000Z",
+        "count": 4,
+        "engagement": 2876
       }
     ],
     "hashtags": [
       {
         "tag": "accadeoggi",
-        "count": 5018
+        "count": 4908
       },
       {
         "tag": "perte",
-        "count": 4876
+        "count": 4819
       },
       {
         "tag": "fyp",
-        "count": 4459
+        "count": 4382
       },
       {
         "tag": "viral",
-        "count": 3473
+        "count": 3429
       },
       {
         "tag": "adv",
-        "count": 2232
+        "count": 2233
       },
       {
         "tag": "neiperte",
-        "count": 1865
-      },
-      {
-        "tag": "venezia83",
-        "count": 1792
+        "count": 1843
       },
       {
         "tag": "tiktokshop",
-        "count": 1786
+        "count": 1773
+      },
+      {
+        "tag": "venezia83",
+        "count": 1755
       },
       {
         "tag": "napoli",
-        "count": 1590
+        "count": 1581
       },
       {
         "tag": "foryou",
-        "count": 1412
+        "count": 1392
       },
       {
         "tag": "backtoschool",
-        "count": 1163
+        "count": 1155
       },
       {
         "tag": "seriea",
-        "count": 1083
+        "count": 1077
       },
       {
         "tag": "capcut",
-        "count": 1065
+        "count": 1032
       },
       {
         "tag": "offerteperte",
-        "count": 961
+        "count": 954
       },
       {
         "tag": "italia",
-        "count": 946
+        "count": 940
       },
       {
         "tag": "virale",
-        "count": 943
+        "count": 938
       },
       {
         "tag": "voliamoneixte✈🦁🔝💯💥",
-        "count": 872
-      },
-      {
-        "tag": "amore",
-        "count": 849
+        "count": 857
       },
       {
         "tag": "calcio",
-        "count": 845
+        "count": 844
+      },
+      {
+        "tag": "amore",
+        "count": 839
       },
       {
         "tag": "italy",
-        "count": 810
+        "count": 805
       },
       {
         "tag": "f1",
-        "count": 786
+        "count": 776
       },
       {
         "tag": "perteeee",
-        "count": 763
-      },
-      {
-        "tag": "indispensabiliscuola",
-        "count": 755
+        "count": 750
       },
       {
         "tag": "roma",
-        "count": 687
+        "count": 689
       },
       {
         "tag": "inter",
-        "count": 686
+        "count": 684
+      },
+      {
+        "tag": "milano",
+        "count": 658
       }
     ],
     "creators": [
       {
         "name": "433",
-        "posts": 62,
-        "engagement": 32508715,
+        "posts": 61,
+        "engagement": 31774974,
         "platform": "ig",
         "followers": 79753185,
-        "avgEr": 0.006574696201922339
+        "avgEr": 0.006531617899550188
       },
       {
         "name": "fcbarcelona",
@@ -394,15 +379,15 @@
         "engagement": 28672062,
         "platform": "ig",
         "followers": 120256707,
-        "avgEr": 0.003838200818907651
+        "avgEr": 0.0038382008189076504
       },
       {
         "name": "fabriziorom",
-        "posts": 48,
-        "engagement": 22391671,
+        "posts": 47,
+        "engagement": 21251996,
         "platform": "ig",
         "followers": 50604142,
-        "avgEr": 0.009241532990241033
+        "avgEr": 0.008956594897957365
       },
       {
         "name": "realmadrid",
@@ -421,6 +406,14 @@
         "avgEr": 0.0015544298723630038
       },
       {
+        "name": "cristiano",
+        "posts": 2,
+        "engagement": 8260061,
+        "platform": "ig",
+        "followers": 679716144,
+        "avgEr": 0.006076110647741214
+      },
+      {
         "name": "kimi.antonelli",
         "posts": 7,
         "engagement": 7890785,
@@ -429,36 +422,12 @@
         "avgEr": 0.1411198248156468
       },
       {
-        "name": "miley",
-        "posts": 7,
-        "engagement": 6932857,
-        "platform": "ig",
-        "followers": 205775211,
-        "avgEr": 0.004813058570291748
-      },
-      {
-        "name": "lalalalisa_m",
-        "posts": 3,
-        "engagement": 6691678,
-        "platform": "ig",
-        "followers": 105933101,
-        "avgEr": 0.021056301687357698
-      },
-      {
         "name": "georginagio",
         "posts": 7,
         "engagement": 6472163,
         "platform": "ig",
         "followers": 78451692,
         "avgEr": 0.011785529294711888
-      },
-      {
-        "name": "kendalljenner",
-        "posts": 4,
-        "engagement": 6370206,
-        "platform": "ig",
-        "followers": 277717542,
-        "avgEr": 0.0057344289040265235
       },
       {
         "name": "manutd",
@@ -486,11 +455,27 @@
       },
       {
         "name": "niccolocosci",
-        "posts": 55,
-        "engagement": 5314647,
+        "posts": 58,
+        "engagement": 5316397,
         "platform": "tt",
         "followers": 309300,
-        "avgEr": 0.3130473391449337
+        "avgEr": 0.296953325167817
+      },
+      {
+        "name": "miley",
+        "posts": 6,
+        "engagement": 4708472,
+        "platform": "ig",
+        "followers": 205775211,
+        "avgEr": 0.0038136048045813126
+      },
+      {
+        "name": "scuderiaferrari",
+        "posts": 63,
+        "engagement": 4616519,
+        "platform": "ig",
+        "followers": 20688306,
+        "avgEr": 0.0035460201861228307
       }
     ],
     "posts": [
@@ -762,30 +747,6 @@
         ],
         "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/793351211_18352147216247998_6496015201366601068_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=104&ig_cache_key=Mzk3ODU5MTAzODk3NTUzMjk3OTE4MzUyMTQ3MjEwMjQ3OTk4.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjk0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=fwA4QDIEM-4Q7kNvwEoWrCI&_nc_oc=AdpSTLnNPpEEkJ-kXY_-C_EHrnGVhNgVmFv2pwVLoV013wJ59yP4Wua13vZLx7E7FV_L3X8u5GV7m-GaBaZuC1el&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=UOxhCz4k5hbLBOXbCYjrWQ&_nc_ss=7a3ba&oh=00_AQL6eY2tqoKHWlZgvLInh5nu3_F_4QEbfN-wJyTK5T-Qjw&oe=6AA87516",
         "url": "https://www.instagram.com/reel/3978591038975532979/"
-      },
-      {
-        "platform": "ig",
-        "author": "mariomiyakawa",
-        "time": "2026-09-03T20:57:53Z",
-        "text": "La tavolata di Barilla sulla griglia di partenza di Monza ! Spettacolo 👏🏻 @barilla @skysportf1 @f1 @ivancap63 @massimobottura",
-        "engagement": 7419,
-        "engagementRate": 0.10948129565409873,
-        "sentiment": "pos",
-        "hashtags": [],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/793478525_18444796798123750_2952457911763692089_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&_nc_cat=107&ig_cache_key=Mzk3ODI4ODI5NjU5NzI3MTM1Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzAyNC5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ZNABq2HmXeIQ7kNvwGRVjIB&_nc_oc=AdrhwJ8uj54N1RokK35DNSCcOAZ0gm-cByCMIWW1gl1vPEk98EUkV3bJHPxNrk3v2Dygdel8ga2Rebz479_a4Rs0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=aLfByJQ5V29x6rH_9dp54g&_nc_ss=7a3ba&oh=00_AQI5G26JQwTMRpakBOKvCCTZPJ5Eon671Qv1yTsCX3XUNw&oe=6AA8600E",
-        "url": "https://www.instagram.com/p/3978289385233799469/"
-      },
-      {
-        "platform": "yt",
-        "author": "prokitchenitalia",
-        "time": "2026-09-03T20:49:27Z",
-        "text": "Da oggi parte una mini serie nella quale siamo alla ricerca del miglior spaghetto per capire se quello che costa di più è anche il più buono oggi analizziamo Barilla rapporto qualità prezzo buono però onestamente mi aspettavo qualcosa di più per ora ",
-        "engagement": 114,
-        "engagementRate": 0.0012969283276450512,
-        "sentiment": "neg",
-        "hashtags": [],
-        "imageUrl": "https://i.ytimg.com/vi/AfuwRU5BK88/hqdefault.jpg",
-        "url": "https://www.youtube.com/watch?v=AfuwRU5BK88"
       },
       {
         "platform": "ig",
@@ -1459,6 +1420,61 @@
         ],
         "imageUrl": "https://i.ytimg.com/vi/q-fDyiYaa1A/hqdefault.jpg",
         "url": "https://www.youtube.com/watch?v=q-fDyiYaa1A"
+      },
+      {
+        "platform": "yt",
+        "author": "RapaNello",
+        "time": "2026-09-06T12:00:30Z",
+        "text": "Pasta Fresca fatta in casa senza uova al sugo di pomodoro fresco vellutato\n\n ■ Qui trovi tutto, i miei libri e le cose che uso nei video, le magliette.\nhttps://linktr.ee/rapanello\n■  Ecco il sito internet ufficiale gratuito   https://www.ziorapa.it/\n",
+        "engagement": 2324,
+        "engagementRate": 0.002766666666666667,
+        "sentiment": "neg",
+        "hashtags": [
+          "pastafresca",
+          "pastasenzauova",
+          "pastafattaincasa",
+          "semolarimacinata",
+          "scialatielli",
+          "cavatelli",
+          "orecchiette",
+          "sugodipomodoro",
+          "ricettevegane",
+          "lactosefree",
+          "ricettafacile",
+          "ricetteveloci",
+          "rapanello",
+          "ricetterapanello"
+        ],
+        "imageUrl": "https://i.ytimg.com/vi/XR3L04AcK74/hqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=XR3L04AcK74"
+      },
+      {
+        "platform": "yt",
+        "author": "romi_home",
+        "time": "2026-09-05T15:18:39Z",
+        "text": "#cottagecore  #slowliving  #cozydayathome\nIn questo nuovo vlog di settembre vi porto con me tra piccoli cambiamenti in casa, cucina e i primi preparativi per l’autunno. 🍂\n\nIn questo video vi mostro anche il pulitore a vapore UWANT Y100S, che utilizz",
+        "engagement": 2240,
+        "engagementRate": 0.03260553129548763,
+        "sentiment": "pos",
+        "hashtags": [
+          "cottagecore",
+          "slowliving",
+          "cozydayathome",
+          "romiandhome",
+          "vlog",
+          "vlogitalia",
+          "settembre",
+          "autunno",
+          "homevlog",
+          "pulizie",
+          "cucina",
+          "conserve",
+          "cipolleditropea",
+          "uwant",
+          "uwanty100s"
+        ],
+        "imageUrl": "https://i.ytimg.com/vi/TZt1kTitU-c/hqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=TZt1kTitU-c"
       }
     ]
   },
@@ -1478,18 +1494,25 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxOQlZUdEswenRxZXRoeF9IbUlTYTlkdGJFU1REYVgtWml1NDc0eUxEb1BBaGNhS0wyNHBIaGp1UDBLdWppS3dVRVhzeFZKdHpKWVhnTW1WbUJYTXVXZW5OaDdnelRkNUR1SzYtZ2QtNm"
     },
     {
-      "title": "Penne rigate, il test francese trova cadmio in 16 prodotti su 18: i risultati di Barilla, De Cecco, Garofalo e Rummo - greenme.it",
-      "source": "greenme.it",
+      "title": "Barilla fa il bilancio delle attivazioni al GP di Monza - Brand News",
+      "source": "Brand News",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOS2JrSXNid2JsZXNsSWtOVUVqTGFtMnU0OGFPUkJndWtSR1ZERTlveVllazFwMUZmRklxU1A3SThlMUdEal9rbENEU255eTV0R0lUdEFmVXIzMU5DQVlRemlzaFk5UEF5V0FLQTcySEY2M2RYUGh1VlJObUdaVlJad0RUdFRkOEF2MUpHRE8wRlBMVEhuNFg1eUxEbXVHZm5NNmVuTVoyS0d0WXZNU1BHWkRGblpOX2QxekFrZV9rcVNzR2FPN0gxdEFZZ0NpM0l2VjFVTjFKVWhYcFNpUWRQelZuRFB0eDdM?oc=5",
+      "date": "2026-09-07T15:09:12.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxOS2JrSXNid2JsZXNsSWtOVUVqTGFtMnU0OGFPUkJndWtSR1ZERTlveVllazFwMUZmRklxU1A3SThlMUdEal9rbENEU255eTV0R0lUdEFmVXIzMU5DQVlRemlzaFk5UEF5V0FLQTcySE"
+    },
+    {
+      "title": "Penne rigate, il test francese trova cadmio in 16 prodotti su 18: i risultati di Barilla, De Cecco, Garofalo e Rummo - greenMe",
+      "source": "greenMe",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPV0xOTjJIb1BERzRKaTRPR3k4elR1eWJPX1VSOWJjQS1WLVdNdXNmODR6dUtPV3RSM1ZaQzVQTGoxSUswTjR2djFUTlhkWE1USEEtUk53VV8zcGt4T3BuMWpjUmVzWko2ZGROTWRPbFcxbVBhdnV3UzFnSlJ2cUVTTXZFMjNfVXdOZThZaGZ3OWlOZEgwMGliNmRWcWVOeDliaVVoTXQwSUJMbG45V0M3cGMwaTNDejFhNnBxLXFuTm05RThxZ05kdExqa19ZS1BQTVk2U1hNeHZNejU3S3RmM0h6MVNYdmJuS05FZHdjaFRfWVlF?oc=5",
       "date": "2026-09-06T08:54:06.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi9AFBVV95cUxPV0xOTjJIb1BERzRKaTRPR3k4elR1eWJPX1VSOWJjQS1WLVdNdXNmODR6dUtPV3RSM1ZaQzVQTGoxSUswTjR2djFUTlhkWE1USEEtUk53VV8zcGt4T3BuMWpjUmVzWko2ZGROTWRPbF"
     },
     {
-      "title": "Barilla mette a tavola la Formula 1: cena da 100 metri sulla griglia di Monza - Motori.it",
-      "source": "Motori.it",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM3d0cEU2NEtGbGh3SkpSeXVqYVhPTXBNbG1SY3ppX0RjN1lVdjc1bmdNU01pVFphdDNDeV9OUE10MHRUQ3MyZGdzTXRncW9WdFEtV3FXZ3lzQk52YzRkVDhmZkpEVVpjZ3k1Qzh3ZWZjTW9rLWdkaHNpRS1yUllqTjZldEpSUWxadzZ6dUZTRnFwT1JoUVl6aTM2YVliSUE5?oc=5",
-      "date": "2026-09-04T16:25:46.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOM3d0cEU2NEtGbGh3SkpSeXVqYVhPTXBNbG1SY3ppX0RjN1lVdjc1bmdNU01pVFphdDNDeV9OUE10MHRUQ3MyZGdzTXRncW9WdFEtV3FXZ3lzQk52YzRkVDhmZkpEVVpjZ3k1Qzh3ZW"
+      "title": "Barilla, con 'La tavolata' riunisce la famiglia del paddock sulla griglia di partenza di Monza﻿ - Adnkronos",
+      "source": "Adnkronos",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNYXAyUUQ5UWxpZVJ5UnBXYXJZY0NKdlJ5QzVoTmlZbldKSTNQZjRwQ3ZQS3lVM1ZRTDU4aldqWGdFaTR3X2FpbE9jdkZERnFEYjVOOGptTVltRm9YRlBrb2VtN1R2U2xTd1d2Skg5Nk5YeTVFRnVLTVdkZ2JqRjJwSVU1YjRBVUl2bWt6RFdyeGtvM2o0Zk9DWWlIV1EzaXBtNFZWNXd1VGg3LUYtOWREOW1uRl9NR2xGanBlREZTbHpxMzFRZ3dHdGhCTTdNU1FTempLS2E1dUFrNndVbTZEc1FQQQ?oc=5",
+      "date": "2026-09-04T16:55:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxNYXAyUUQ5UWxpZVJ5UnBXYXJZY0NKdlJ5QzVoTmlZbldKSTNQZjRwQ3ZQS3lVM1ZRTDU4aldqWGdFaTR3X2FpbE9jdkZERnFEYjVOOGptTVltRm9YRlBrb2VtN1R2U2xTd1d2Skg5Nk"
     },
     {
       "title": "Fermarsi dove tutto corre: \"La tavolata\" firmata Barilla al GP di Formula 1 a Monza - ELLE",
@@ -1499,15 +1522,15 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaG9JVXlOZHJhY1dHZU8xU0VTMm1MQnVRX19PRFUzM2hwX1BGTHllczJhejZvb05fSFVFTG5lTkZrUzl0N2NkWlJCaEJMalZZelVqY3BfTllWYzhaX1RVMXNWdjhnM25NWUxHd3hPU0"
     },
     {
-      "title": "Con La Tavolata, Barilla mette a tavola la Formula 1 - ilgiornale.it",
-      "source": "ilgiornale.it",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTzh2VGZ2RmM3RFd1eGtCdFotTmhXck5ITjJmUmZBengyTlJnempPSzhJS3BEb2wxZlJJemRuLWNLZTdDYkJJVEd4S3FxSWZNTTdGU0ZHY2M5V1FIU25EWXY2UHZ1S3VqOGIzTFdmU2lpaDJSaXduVFp0ZC1Pb1Y5bnZzeElscVR6aDBZbUNMT2VlRmRaV2c?oc=5",
-      "date": "2026-09-04T10:29:46.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQTzh2VGZ2RmM3RFd1eGtCdFotTmhXck5ITjJmUmZBengyTlJnempPSzhJS3BEb2wxZlJJemRuLWNLZTdDYkJJVEd4S3FxSWZNTTdGU0ZHY2M5V1FIU25EWXY2UHZ1S3VqOGIzTFdmU2"
+      "title": "Con “La Tavolata”, Barilla mette a tavola la Formula 1 - Touchpoint News",
+      "source": "Touchpoint News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPelBxWEg4aDBLNTcwYmlMX28ydXBETTNWSVRscmdRMTZpcUJuQ3l6M3lDYmRjUkxEdUVJcWFLWklVR2liUnZXSFdpSzBRRFB5SE5zTHMxOE1oZjYwZjgzNDJuQ0h6S2Nxb010YXA5STZqRWo5U2xDS1ltNTFIMzRITzZ3S1VwN3FHS0E0bU9hV1BCc1dSX3c?oc=5",
+      "date": "2026-09-04T11:02:33.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPelBxWEg4aDBLNTcwYmlMX28ydXBETTNWSVRscmdRMTZpcUJuQ3l6M3lDYmRjUkxEdUVJcWFLWklVR2liUnZXSFdpSzBRRFB5SE5zTHMxOE1oZjYwZjgzNDJuQ0h6S2Nxb010YXA5ST"
     },
     {
-      "title": "Formula 1 e convivialità si incontrano nella “Domenica Italiana” di Barilla - insidemarketing.it",
-      "source": "insidemarketing.it",
+      "title": "Formula 1 e convivialità si incontrano nella “Domenica Italiana” di Barilla - Inside Marketing",
+      "source": "Inside Marketing",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbElxRXlIdGhMd3p4bkdjOXU4V2FZYkxNd28tWVktQWRDU1FIcV8zV184M1RVaE43YlI1aGtWMy1lZFRDSFF3bHZGc3MwcFMtRGJVZzJTQjNhNWZhdkdudHpIMHVfQjFkaTd2RWZWT1dZVF9ULXBiRjVQTUNjS0w3c3JVYTh1dmtXYWdkd2JITjdQWXdULUhPejlDcms?oc=5",
       "date": "2026-09-04T08:24:57.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNbElxRXlIdGhMd3p4bkdjOXU4V2FZYkxNd28tWVktQWRDU1FIcV8zV184M1RVaE43YlI1aGtWMy1lZFRDSFF3bHZGc3MwcFMtRGJVZzJTQjNhNWZhdkdudHpIMHVfQjFkaTd2RWZWT1"
@@ -1520,8 +1543,8 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE9IU0Mza3h5dDVWMlhlVXcycDh4aFZtZjRZMEpNZDVTR0xudXRHaVg5aWlVTEt4dHdXcEVnc01tQzYyWEktRVVwQkk0aGw0X2p6cTkzXzZkNkNCYXAycGdjaVdlN24yTjVuZXpmcF9CTD"
     },
     {
-      "title": "Barilla ha trasformato la griglia di Monza in “La Tavolata” per raccontare la convivialità in Formula 1 - insidemarketing.it",
-      "source": "insidemarketing.it",
+      "title": "Barilla ha trasformato la griglia di Monza in “La Tavolata” per raccontare la convivialità in Formula 1 - Inside Marketing",
+      "source": "Inside Marketing",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBnYk9fbGlUNl9VZnJ0QjcxZVRvVzV3YXBicHkwRVd3OURPU3RJXzFFY09zeXhZQTJFc3B5aTBkdmFPdlFZenFObjhMbklYQ1lkbV9TSGt6cmI2Q2REMEZ5MmFHVnpuTVhpZEROUXdQRTF3N2g2djBfVFRB?oc=5",
       "date": "2026-09-04T06:41:43.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFBnYk9fbGlUNl9VZnJ0QjcxZVRvVzV3YXBicHkwRVd3OURPU3RJXzFFY09zeXhZQTJFc3B5aTBkdmFPdlFZenFObjhMbklYQ1lkbV9TSGt6cmI2Q2REMEZ5MmFHVnpuTVhpZEROUXdQRT"
@@ -1532,13 +1555,6 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJM2luZzFWZ2thOUUyTUstdTlCTGJFSXBqQU9IaVgwVjZybmU1Yy1Kc01nVjVQRExudEFXY3BIelQtM0U3Nm5lWDdicWItTXFSemxEREpJTFctekNfdWNBbmF1S3RSNXdTdHFRMw?oc=5",
       "date": "2026-09-03T22:49:36.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTFBJM2luZzFWZ2thOUUyTUstdTlCTGJFSXBqQU9IaVgwVjZybmU1Yy1Kc01nVjVQRExudEFXY3BIelQtM0U3Nm5lWDdicWItTXFSemxEREpJTFctekNfdWNBbmF1S3RSNXdTdHFRMw?oc="
-    },
-    {
-      "title": "Barilla cresce negli Usa. Compra Goodles, il marchio di pasta pronta che sfida Kraft - ItalyPost",
-      "source": "ItalyPost",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaWtTSEw0YUR1S2VuZ0llVTltRGxiX0lpVVpxa0Y4WWxDSnBhZnI0cTZ6emVMcXhNbUthVll6V2w4cFAxWEdvUVNFeUdqRkkyVmhKaWJqTk1jLUZHZkZwUWRUQmVtbWUxeW81eEo1SG93cVNSY0d4Q0tISnRscjhqVHdNNUdFZHRwTWw2WUhlblY4QV9teXRvdF9MTVJyeEtZeFFFaGlHZVJkRnFOWDFXQnlCbXFocURhaGhBT3ViN29HY0Y3VFBjQjAwZWs?oc=5",
-      "date": "2026-09-03T18:00:06.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxQaWtTSEw0YUR1S2VuZ0llVTltRGxiX0lpVVpxa0Y4WWxDSnBhZnI0cTZ6emVMcXhNbUthVll6V2w4cFAxWEdvUVNFeUdqRkkyVmhKaWJqTk1jLUZHZkZwUWRUQmVtbWUxeW81eEo1SG"
     },
     {
       "title": "Barilla acquisisce Goodles, l’azienda americana dei maccheroni al formaggio in scatola - WineNews",
@@ -1555,8 +1571,8 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNaHR4dkFOWVh6N1kwM0JjMy13OGhBX1JBM2EtdzVOWmtZM0IzRDhvLW5uZTRhTXR1ZG9ra2tlSGR2Q2RHSzdqQmZxYm1VRl9MS2RLMzNTX09NQS1FaXZMaE04dG9ORzcwZTRsVmUxND"
     },
     {
-      "title": "Barilla e Formula 1: la partnership costruita attorno alla convivialità - insidemarketing.it",
-      "source": "insidemarketing.it",
+      "title": "Barilla e Formula 1: la partnership costruita attorno alla convivialità - Inside Marketing",
+      "source": "Inside Marketing",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVHdyZmhOTXJOOENSLURJaXJXUERKcEJENmdoNjFOWXZmRTF2VmRQc1lmZnA1MHozbEVtZlRFSjRXU1R1c29jbmZab3F0dmtRMlFmcDNxWVpIT3ExV2pidjhZaGc3OWMxOGdXQ1VMUlRmWG01amFQSGVoXzltck0xV1ByTE14X2xf?oc=5",
       "date": "2026-09-03T15:30:04.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVHdyZmhOTXJOOENSLURJaXJXUERKcEJENmdoNjFOWXZmRTF2VmRQc1lmZnA1MHozbEVtZlRFSjRXU1R1c29jbmZab3F0dmtRMlFmcDNxWVpIT3ExV2pidjhZaGc3OWMxOGdXQ1VMUl"
@@ -1583,8 +1599,8 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRGU1SnQ4ejVwM0dseDVRVmJLNWlBZWY3TU5aQjUwSGF5NjQ1WTZzYjh1cEVOU3VXaXJLaGlwSS1fVEFkZG15VE5iUEhfUWJucE1Zd0Zhc0I4TWZzcVB5cHZBQkpHQ2RJcFBEMXF4aD"
     },
     {
-      "title": "Spaghetti e penne: l’80% della pasta testata contiene cadmio (anche Barilla e De Cecco) - greenme.it",
-      "source": "greenme.it",
+      "title": "Spaghetti e penne: l’80% della pasta testata contiene cadmio (anche Barilla e De Cecco) - greenMe",
+      "source": "greenMe",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRUtTU3VQdjQxRHdmd2xXdEZxTERhQ3NScVMxdklSLTZhQUllbEJJd3VOX0lmTjVEWm5KdVNLOHdSd3dzSGtfZ0NuMlpkOW45MDV2ZHNQd0NPX2g2elhqTkNfWWdfVHZQWEp1U0FRNjlxMmx1NkJxS2RFRzZsWE50TC1UUlpkNnhGUDZKT0dIRTlLcXVJV0xzWHg5OEQxQmtYR2JMUkRRZW16MThyOVV4N3JpQmxxbWtqN01mRWJGdG5ob1o3eDF0NHZDUUg?oc=5",
       "date": "2026-08-31T07:00:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxQRUtTU3VQdjQxRHdmd2xXdEZxTERhQ3NScVMxdklSLTZhQUllbEJJd3VOX0lmTjVEWm5KdVNLOHdSd3dzSGtfZ0NuMlpkOW45MDV2ZHNQd0NPX2g2elhqTkNfWWdfVHZQWEp1U0FRNj"
@@ -1646,8 +1662,8 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxPT1NsMkdUNG5qalFzVnBXQ3BKTVJDdUc1YjNNNUV3aG8wNEFFbVh0eGpFYmpsQnJacUtFWm9SRXlZLTE2cmxkWkQtWGNtWjZPZDNXSmRCeDVMekF2bHQwblA4cHltZnpMeFg3VnQ3d0"
     },
     {
-      "title": "Barilla presenta il nuovo posizionamento del brand in una campagna ispirata al mondo della Formula 1 - insidemarketing.it",
-      "source": "insidemarketing.it",
+      "title": "Barilla presenta il nuovo posizionamento del brand in una campagna ispirata al mondo della Formula 1 - Inside Marketing",
+      "source": "Inside Marketing",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNakpKMExtVERfTC1LaW9aVkpNWGd5NFVwb25QZUQ5MHk5U1BJNGZ0Y0VnaGhlNjRXWGpPZ21ROTZnbmlvLTlFMWZBbkRheVdvV2ZrbWpGV0JaY0ZIcmdOaEJCdFpqdmZzRmtkN0tUWFNKLUlZSjZSRjc5SDNRb1FJN3N2dDVkUV93TVNONWEzMzJOUVR0?oc=5",
       "date": "2025-09-08T07:00:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNakpKMExtVERfTC1LaW9aVkpNWGd5NFVwb25QZUQ5MHk5U1BJNGZ0Y0VnaGhlNjRXWGpPZ21ROTZnbmlvLTlFMWZBbkRheVdvV2ZrbWpGV0JaY0ZIcmdOaEJCdFpqdmZzRmtkN0tUWF"
@@ -2087,18 +2103,10 @@
     {
       "name": "Barilla",
       "mentions": 20,
-      "socialMentions": 15,
-      "totalMentions": 35,
-      "shareOfVoice": 43.8,
+      "socialMentions": 14,
+      "totalMentions": 34,
+      "shareOfVoice": 42.5,
       "posts": [
-        {
-          "type": "news",
-          "title": "Pasta Barilla spinge sulla Formula 1: attivazioni tra Milano e Monza e nuovo spot digitale con Mach9 - Engage.it",
-          "source": "ENGAGE.IT",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJM2luZzFWZ2thOUUyTUstdTlCTGJFSXBqQU9IaVgwVjZybmU1Yy1Kc01nVjVQRExudEFXY3BIelQtM0U3Nm5lWDdicWItTXFSemxEREpJTFctekNfdWNBbmF1S3RSNXdTdHFRMw?oc=5",
-          "date": "2026-09-03T22:49:36.000Z",
-          "brand": "Barilla"
-        },
         {
           "type": "news",
           "title": "Fermarsi dove tutto corre: \"La tavolata\" firmata Barilla al GP di Formula 1 a Monza - ELLE",
@@ -2109,18 +2117,34 @@
         },
         {
           "type": "news",
-          "title": "Barilla ha trasformato la griglia di Monza in “La Tavolata” per raccontare la convivialità in Formula 1 - insidemarketing.it",
-          "source": "INSIDEMARKETING.IT",
+          "title": "Barilla ha trasformato la griglia di Monza in “La Tavolata” per raccontare la convivialità in Formula 1 - Inside Marketing",
+          "source": "INSIDE MARKETING",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBnYk9fbGlUNl9VZnJ0QjcxZVRvVzV3YXBicHkwRVd3OURPU3RJXzFFY09zeXhZQTJFc3B5aTBkdmFPdlFZenFObjhMbklYQ1lkbV9TSGt6cmI2Q2REMEZ5MmFHVnpuTVhpZEROUXdQRTF3N2g2djBfVFRB?oc=5",
           "date": "2026-09-04T06:41:43.000Z",
           "brand": "Barilla"
         },
         {
           "type": "news",
-          "title": "Penne rigate, il test francese trova cadmio in 16 prodotti su 18: i risultati di Barilla, De Cecco, Garofalo e Rummo - greenme.it",
-          "source": "GREENME.IT",
+          "title": "Barilla, con 'La tavolata' riunisce la famiglia del paddock sulla griglia di partenza di Monza﻿ - Adnkronos",
+          "source": "ADNKRONOS",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNYXAyUUQ5UWxpZVJ5UnBXYXJZY0NKdlJ5QzVoTmlZbldKSTNQZjRwQ3ZQS3lVM1ZRTDU4aldqWGdFaTR3X2FpbE9jdkZERnFEYjVOOGptTVltRm9YRlBrb2VtN1R2U2xTd1d2Skg5Nk5YeTVFRnVLTVdkZ2JqRjJwSVU1YjRBVUl2bWt6RFdyeGtvM2o0Zk9DWWlIV1EzaXBtNFZWNXd1VGg3LUYtOWREOW1uRl9NR2xGanBlREZTbHpxMzFRZ3dHdGhCTTdNU1FTempLS2E1dUFrNndVbTZEc1FQQQ?oc=5",
+          "date": "2026-09-04T16:55:00.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Penne rigate, il test francese trova cadmio in 16 prodotti su 18: i risultati di Barilla, De Cecco, Garofalo e Rummo - greenMe",
+          "source": "GREENME",
           "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPV0xOTjJIb1BERzRKaTRPR3k4elR1eWJPX1VSOWJjQS1WLVdNdXNmODR6dUtPV3RSM1ZaQzVQTGoxSUswTjR2djFUTlhkWE1USEEtUk53VV8zcGt4T3BuMWpjUmVzWko2ZGROTWRPbFcxbVBhdnV3UzFnSlJ2cUVTTXZFMjNfVXdOZThZaGZ3OWlOZEgwMGliNmRWcWVOeDliaVVoTXQwSUJMbG45V0M3cGMwaTNDejFhNnBxLXFuTm05RThxZ05kdExqa19ZS1BQTVk2U1hNeHZNejU3S3RmM0h6MVNYdmJuS05FZHdjaFRfWVlF?oc=5",
           "date": "2026-09-06T08:54:06.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Barilla fa il bilancio delle attivazioni al GP di Monza - Brand News",
+          "source": "BRAND NEWS",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOS2JrSXNid2JsZXNsSWtOVUVqTGFtMnU0OGFPUkJndWtSR1ZERTlveVllazFwMUZmRklxU1A3SThlMUdEal9rbENEU255eTV0R0lUdEFmVXIzMU5DQVlRemlzaFk5UEF5V0FLQTcySEY2M2RYUGh1VlJObUdaVlJad0RUdFRkOEF2MUpHRE8wRlBMVEhuNFg1eUxEbXVHZm5NNmVuTVoyS0d0WXZNU1BHWkRGblpOX2QxekFrZV9rcVNzR2FPN0gxdEFZZ0NpM0l2VjFVTjFKVWhYcFNpUWRQelZuRFB0eDdM?oc=5",
+          "date": "2026-09-07T15:09:12.000Z",
           "brand": "Barilla"
         },
         {
@@ -2141,30 +2165,6 @@
         },
         {
           "type": "news",
-          "title": "Barilla, con 'La tavolata' riunisce la famiglia del paddock sulla griglia di partenza di Monza﻿ - adnkronos.com",
-          "source": "ADNKRONOS.COM",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNYXAyUUQ5UWxpZVJ5UnBXYXJZY0NKdlJ5QzVoTmlZbldKSTNQZjRwQ3ZQS3lVM1ZRTDU4aldqWGdFaTR3X2FpbE9jdkZERnFEYjVOOGptTVltRm9YRlBrb2VtN1R2U2xTd1d2Skg5Nk5YeTVFRnVLTVdkZ2JqRjJwSVU1YjRBVUl2bWt6RFdyeGtvM2o0Zk9DWWlIV1EzaXBtNFZWNXd1VGg3LUYtOWREOW1uRl9NR2xGanBlREZTbHpxMzFRZ3dHdGhCTTdNU1FTempLS2E1dUFrNndVbTZEc1FQQQ?oc=5",
-          "date": "2026-09-04T16:55:00.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Barilla entra nel mercato “mac and cheese”: acquistati i maccheroni pronti di Goodles - La Stampa",
-          "source": "LA STAMPA",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWjU1X2NzRkZvUmd5QkRZclhENEZGcWtLUWRjS3VNQkwtTVpFZGhNcVo5cXJEOXdpQnA4OG1BLWtjMExOdkdwTUJ5alBBc2FUd0QydkxNZ2oyMURNcEFtM1g0Rmt6aTlHTmJBVGJzQ1BkdFhrQUhpbGQ1dGl1Y01DWlJvSlQwRjlrbm9ISWpvaEU3eVo3eW5hNzFVVkFoQUVFTnhZetIBqgFBVV95cUxPanB4cmRfS0hTNFYwcjdJeG8yeWZZZEJRTDV2Y3dxTTJ0TmJxRWItOTBBNlBJaTdScUhVQ3VPOUNnV3hWQnZtdzF3SlF6VDdKa0hvS3JwV0dCN0ZRUktjN2RvMW5Xc3hkUEhZLWRnTExGR05qYVdxaFRzZ2xVZzlsS3pmb0xvTmNnV0ctUHJlNGdKX3UzdVlhOGZTaXNmbUZRZ2tDTmxUek16UQ?oc=5",
-          "date": "2026-09-03T23:00:00.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Barilla inaugura la nuova campagna ‘Un Giro perfetto’ per il GP di Monza e una serie di attivazioni a Milano e Monza - Brand News",
-          "source": "BRAND NEWS",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQeTlKRWtNeFhwaVRSbFFuWlVfbTRRT0lwUFdLRE9KZkVBbFRtQjlDNi1MaHRsZGpKdWdJZ3ZYUTdwVk1VNHhEdFo4T2tOS2hFRTdndE5TdnQ2NE1jb0V1OVBlc2t6ZFpHMmdUVDVwbEl2bXBmUFlzc0xlczZITnc0cTkzQkdKSTRXSUJ4RVJPMnFEN0pIeUJLbnFheUVCOXVjbXIyWXJfM25ieDBnVVlySnNDQnNoRDEtYWsyMmpVT2I1N0xNc2NYZU1hQmgtVWVnRWlIUnJqZV94YWlDVHM3aUkwS0FYOG95SVd5Mi1OdXI?oc=5",
-          "date": "2026-09-04T08:29:46.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
           "title": "Passione Formula 1, emozione Monza con il gusto Barila: un weekend di gusto e convivialità fuori e dentro il circuito - Video - Gazzetta di Parma",
           "source": "GAZZETTA DI PARMA",
           "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNM1Zxc0hpUDY0M3VUM0NCa1Z2S1d0MmxVYVR6M3gxVEdhNTQ2c25WT3hUalZkZVFWT0drcDNoRm5wZ0FBa3hVUkxvQjE4amphdGtTRnE1ZmtjM0tQMU1pMDdpejFVaW1KWDZzWXdqaFpnSlpJWmUtWk1uRFZMRjNzQU5aNk1jVm9TVy1UQmh0al95TDVpRjJXa0FCOGxHaS1rMFdTVjZGeUdEWUEyZndtczI3Y2syd0RyTVhidGlSOUl2UWFVZVJFU1pVMUlHUm85Ry1kYUtpQ3p1d1EzNU1veS1ETjM4aEZzVXVPMFAtZFdjNGN1SjQ1VmpUS21xZVdGY00tUXJBclQ3YTZORHBzWQ?oc=5",
@@ -2181,16 +2181,8 @@
         },
         {
           "type": "news",
-          "title": "Video: Barilla racconta le iniziative legate alla F1 - Distribuzione Moderna",
-          "source": "DISTRIBUZIONE MODERNA",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcTdNcDZEV1BZRGF3eVRKVHBNZjlfby1iNXN3ZWxyTlRNUThBQm1OWFlkeXRLV0lTRVVkdWRKN0YtWTJOV1o5a1d0aE9wM29PLVNqYzFZUkdiVkVIWGtmdkYzcTVibVpqcE91X3BSeE8zVy1LMUpIQkw5TWNBVmFnUkN4NVlBdkVkbVNpR0FQTmc4VU55Nzlkd1ByNWpmOFFU?oc=5",
-          "date": "2026-09-07T15:17:35.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Barilla sceglie il mac and cheese americano - ilgiornale.it",
-          "source": "ILGIORNALE.IT",
+          "title": "Barilla sceglie il mac and cheese americano - il Giornale",
+          "source": "IL GIORNALE",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZUg3c1pORlY3ZkRETzZmNXQxSldXVXM4X0VCM1NRR0Qwbm5acUZyRHlXR0NjNmlNUnRKdkVkTVVsMHJORmY5OUF3SHQ5eEJuSVRUWkxEaGZwQUNYUjd3OTRxVUJQSy1VcHR6b0RPeDQ5YzU4UjNURlNxYkxHRW10WkNsWkF1bHdoN1Zn?oc=5",
           "date": "2026-09-04T05:55:13.000Z",
           "brand": "Barilla"
@@ -2237,28 +2229,42 @@
         },
         {
           "type": "news",
-          "title": "Formula 1 e convivialità si incontrano nella “Domenica Italiana” di Barilla - insidemarketing.it",
-          "source": "INSIDEMARKETING.IT",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbElxRXlIdGhMd3p4bkdjOXU4V2FZYkxNd28tWVktQWRDU1FIcV8zV184M1RVaE43YlI1aGtWMy1lZFRDSFF3bHZGc3MwcFMtRGJVZzJTQjNhNWZhdkdudHpIMHVfQjFkaTd2RWZWT1dZVF9ULXBiRjVQTUNjS0w3c3JVYTh1dmtXYWdkd2JITjdQWXdULUhPejlDcms?oc=5",
-          "date": "2026-09-04T08:24:57.000Z",
+          "title": "Barilla compra Goodles negli Usa - quoted business",
+          "source": "QUOTED BUSINESS",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa1A3RWlEQXRKclRDLXBjR0huSmE2WEdjR1JCZTUtbzZpc0xEU21haFZjbXVqQmU1dC12ZUU0VUNQX3d4eVVEMFNZQlhQem16elZtbDBXeVgybUVfR1hlb2ZKWjQtWmVFM2pZRzNPd0hRZmpIbjRRWlhub1ptYkM5YnJzZ2Z0WFhscll1S3FPekhlV2RhMWk3MnFXTjNFQUoteHdZcWpOdGY?oc=5",
+          "date": "2026-09-04T04:42:30.000Z",
           "brand": "Barilla"
         },
         {
           "type": "news",
-          "title": "Rubbiano Sughi compie 15 anni: lo stabilimento Barilla cresce e supera le 400 persone - ParmaToday",
-          "source": "PARMATODAY",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRnlHajVLZVlzdm1BZ3hBV3pfUF8yWGxQYmh4Y2pvWnhtNmFrd0d3U0ExRk5NSkpZVDFZc2lMbjRZa1U2ZWwwdnI5dTI0dHBDWk1CX001bHRSS2JHNndSamtzM1pXNWsxQ1lEMnBuQkpTMDYwYzR5bkxKVGVOYnliWENfa25zNXVQR0pNczhoS0FqQjM5Ty1JeGUxakRjVGkyWHdOTUFrMnJka0YyU3hXdnZRUXkxbktCTVZ4dXVMQzhsRTA?oc=5",
-          "date": "2026-09-10T20:12:55.000Z",
+          "title": "Barilla conquista il “mac & cheese” americano: acquisito il marchio californiano Goodles - Radio Sintony",
+          "source": "RADIO SINTONY",
+          "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQMXdEcnRtQVFTWEZpX0FQTzZ2TE42UjgzQklfZ0ctencxY2VVQzFNNVhiNjdYcHFicGJDcEp5UC1PYWVPb3Zac0dQSnJJWG1zVHh0RjYtbFR5eXIxZTA0eUhYTnBJTzZGN1oySm5DNVVLWEZnTUEyN0hna3ZZcHFhMFlSMzVBVldkdlpkeTdXWWVLSWNhaWlLSlc2YzNJV1N4LThIMWkxX0R0LUN5QXBHaWVSbzlQV003a0xxMUxqcU1yUjVfZjduQ0J1SlctWXdnaFRwUkc2eG5BNkVYQmhzNi1mTHR0MVE2eW5DVHBYd1hzNmpiWGwzYnRJNjVaOUR1X1pKV0cxdFJYZmNvTV80V1ltRHU1XzV0T1BSbEQ5QjF4U1lSSDRyN1NiM2F5UUJFMHpVMXBYbEIxVHc?oc=5",
+          "date": "2026-09-04T08:49:51.000Z",
           "brand": "Barilla"
         },
         {
-          "type": "social",
-          "platform": "ig",
-          "author": "mariomiyakawa",
-          "text": "La tavolata di Barilla sulla griglia di partenza di Monza ! Spettacolo 👏🏻 @barilla @skysportf1 @f1 @ivancap63 @massimobottura",
-          "engagement": 7419,
-          "date": "2026-09-03T20:57:53Z",
-          "url": "https://www.instagram.com/p/3978289385233799469/",
+          "type": "news",
+          "title": "Parma Food Valley: export in crescita a due cifre nel 2025 - EFA News - European Food Agency",
+          "source": "EFA NEWS - EUROPEAN FOOD AGENCY",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdXBWWkpfRG5COWFkRDZkWUF5dzY1R2dFcklpNGdCd1Jfc3ZOY1VwblBzVGlVMW5hZmN0bFVDU1hfZFZha1NYb0J5NWNUQU5aZjBMdHhzQ3BwSmI4cW9pLU5YQzd0S0pEV0VvX3lidlN3MU90WkcxcWkxOWV1NHlKWWdoaXlkUFhfaEgxUFJYNGJLMjhZVzdUanoxS1c?oc=5",
+          "date": "2026-09-07T11:50:59.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "A Monza il sapore della vittoria - laverita.info",
+          "source": "LAVERITA.INFO",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9CUkJ1TVV1WWVta2UzVkZTV2NVR01iclZ5SWFJWjB3Wk4yODhCeVl2YktTUWtXTGE5NVBxYnV6R0h1cjduSmJxTFRXLVVMb05ockMtTTcwbjd2WmpfYWdsVzU1ZER0YUpXX0o3czFIVHl5eWtOUGRxOHpRWQ?oc=5",
+          "date": "2026-09-09T19:00:00.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Barilla celebra la famiglia del paddock con ‘La tavolata’ a Monza - V-news.it",
+          "source": "V-NEWS.IT",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQVhTZlRZTmJ2OEt5aDBKRTRMN3JOWGxKSkpYZzFUTWJmZkRXdTRpR2N6S1JYLUl1UWtzZ0Z3LU5VMmNZMGZBb2duZGk4V3lpT21LUkFhRHhIVU4zeEFmaW9BdWg0cFIzMkg0NGRFSlRHYURkYm5VUEJ0UGdiVktaQV9kNnJaTXpfdnFHaFZjTQ?oc=5",
+          "date": "2026-09-04T18:04:11.000Z",
           "brand": "Barilla"
         },
         {
@@ -2363,16 +2369,6 @@
         },
         {
           "type": "social",
-          "platform": "yt",
-          "author": "prokitchenitalia",
-          "text": "Da oggi parte una mini serie nella quale siamo alla ricerca del miglior spaghetto per capire se quello che costa di più è anche il più buono oggi analizziamo Barilla rapporto qualità prezzo buono però onestamente mi aspettavo qualcosa di più per ora ",
-          "engagement": 114,
-          "date": "2026-09-03T20:49:27Z",
-          "url": "https://www.youtube.com/watch?v=AfuwRU5BK88",
-          "brand": "Barilla"
-        },
-        {
-          "type": "social",
           "platform": "ig",
           "author": "gazzettadiparma.it",
           "text": "Paolo Barilla: \"I momenti che abbiamo condiviso hanno aggiunto un senso di amicizia e gioia\"  Con ‘La Tavolata’, Barilla riunisce la famiglia del paddock sulla griglia di partenza di Monza. Giovedì sera 3 settembre, in vista del Formula 1 Pirelli Gra",
@@ -2400,6 +2396,16 @@
           "date": "2026-09-08T10:22:50Z",
           "url": "https://www.instagram.com/reel/3981593354676248318/",
           "brand": "Barilla"
+        },
+        {
+          "type": "social",
+          "platform": "yt",
+          "author": "barilla",
+          "text": "Zucchini & Ricotta Cacio e Pepe Barilla No Boil Lasagna",
+          "engagement": 2,
+          "date": "2026-09-08T17:13:14Z",
+          "url": "https://www.youtube.com/watch?v=z-19iBk079A",
+          "brand": "Barilla"
         }
       ]
     },
@@ -2412,16 +2418,16 @@
       "posts": [
         {
           "type": "news",
-          "title": "Penne rigate, il test francese trova cadmio in 16 prodotti su 18: i risultati di Barilla, De Cecco, Garofalo e Rummo - greenme.it",
-          "source": "GREENME.IT",
+          "title": "Penne rigate, il test francese trova cadmio in 16 prodotti su 18: i risultati di Barilla, De Cecco, Garofalo e Rummo - greenMe",
+          "source": "GREENME",
           "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPV0xOTjJIb1BERzRKaTRPR3k4elR1eWJPX1VSOWJjQS1WLVdNdXNmODR6dUtPV3RSM1ZaQzVQTGoxSUswTjR2djFUTlhkWE1USEEtUk53VV8zcGt4T3BuMWpjUmVzWko2ZGROTWRPbFcxbVBhdnV3UzFnSlJ2cUVTTXZFMjNfVXdOZThZaGZ3OWlOZEgwMGliNmRWcWVOeDliaVVoTXQwSUJMbG45V0M3cGMwaTNDejFhNnBxLXFuTm05RThxZ05kdExqa19ZS1BQTVk2U1hNeHZNejU3S3RmM0h6MVNYdmJuS05FZHdjaFRfWVlF?oc=5",
           "date": "2026-09-06T08:54:06.000Z",
           "brand": "Garofalo"
         },
         {
           "type": "news",
-          "title": "Gragnano | Festa della Pasta, aperti ai visitatori i pastifici - metropolisweb.it",
-          "source": "METROPOLISWEB.IT",
+          "title": "Gragnano | Festa della Pasta, aperti ai visitatori i pastifici - Metropolisweb",
+          "source": "METROPOLISWEB",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSW9NMmVsVTBYSmRoZGlDYmp5UWlaNFFTZGhlRjBySUE1YXlDTlEzcVZUSXJyeGh0bkxVWHhtUXBnaEtCY3ltQWRNamMzM1lEbkZ1dTJpSllpSHhRSW5kZjJCVWFieWRCaThOOXVvQ1ctdGhqY2w2eFhvUnpmUGdhU0VGdVZ2SFFuWHViVVhSaDNwanhnXzVORDFvSTBwZW8?oc=5",
           "date": "2026-09-07T14:09:36.000Z",
           "brand": "Garofalo"
@@ -2596,15 +2602,15 @@
     },
     {
       "name": "De Cecco",
-      "mentions": 5,
+      "mentions": 6,
       "socialMentions": 3,
-      "totalMentions": 8,
-      "shareOfVoice": 10,
+      "totalMentions": 9,
+      "shareOfVoice": 11.3,
       "posts": [
         {
           "type": "news",
-          "title": "Penne rigate, il test francese trova cadmio in 16 prodotti su 18: i risultati di Barilla, De Cecco, Garofalo e Rummo - greenme.it",
-          "source": "GREENME.IT",
+          "title": "Penne rigate, il test francese trova cadmio in 16 prodotti su 18: i risultati di Barilla, De Cecco, Garofalo e Rummo - greenMe",
+          "source": "GREENME",
           "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPV0xOTjJIb1BERzRKaTRPR3k4elR1eWJPX1VSOWJjQS1WLVdNdXNmODR6dUtPV3RSM1ZaQzVQTGoxSUswTjR2djFUTlhkWE1USEEtUk53VV8zcGt4T3BuMWpjUmVzWko2ZGROTWRPbFcxbVBhdnV3UzFnSlJ2cUVTTXZFMjNfVXdOZThZaGZ3OWlOZEgwMGliNmRWcWVOeDliaVVoTXQwSUJMbG45V0M3cGMwaTNDejFhNnBxLXFuTm05RThxZ05kdExqa19ZS1BQTVk2U1hNeHZNejU3S3RmM0h6MVNYdmJuS05FZHdjaFRfWVlF?oc=5",
           "date": "2026-09-06T08:54:06.000Z",
           "brand": "De Cecco"
@@ -2615,6 +2621,14 @@
           "source": "VACCARI NEWS",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5LSnJ4Nm5FX0FhRjhwVVBtZ1ZSOFQxWnQtYjl6VExlQlZnZ0VCS2t1Zk1BNDBvbDdheUxNcE5zWGlSa1doMzZFYWowVElESU5sWDhZbkFjeXg0RHdGT0RSRnJBY3JCQkM2dEpyclQxWmE?oc=5",
           "date": "2026-09-09T11:26:00.000Z",
+          "brand": "De Cecco"
+        },
+        {
+          "type": "news",
+          "title": "Barilla/2. Auto da corsa e alta cucina: un binomio perfetto - EFA News - European Food Agency",
+          "source": "EFA NEWS - EUROPEAN FOOD AGENCY",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQalBvdnJHdlJMcTFmTDJMQVlhUFJDNzJ2R1FVOFI0MzAzcTlNNE5pV0t0anpEMXlPb2ctWU14ZGE1engzcEMyYk1yWmFKTmxZM1ZtOVBhbGtjb1A3X0NDYW1BVUhTakZwM3VqM3pzRG5UV1E1X3kxcVdHeTJWQ1lzaHFRX3RGeXJ0NlpmWHlYaDRrYTI1ck5UaWMtRTU?oc=5",
+          "date": "2026-09-08T13:35:12.000Z",
           "brand": "De Cecco"
         },
         {
@@ -2806,8 +2820,8 @@
       "posts": [
         {
           "type": "news",
-          "title": "Penne rigate, il test francese trova cadmio in 16 prodotti su 18: i risultati di Barilla, De Cecco, Garofalo e Rummo - greenme.it",
-          "source": "GREENME.IT",
+          "title": "Penne rigate, il test francese trova cadmio in 16 prodotti su 18: i risultati di Barilla, De Cecco, Garofalo e Rummo - greenMe",
+          "source": "GREENME",
           "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPV0xOTjJIb1BERzRKaTRPR3k4elR1eWJPX1VSOWJjQS1WLVdNdXNmODR6dUtPV3RSM1ZaQzVQTGoxSUswTjR2djFUTlhkWE1USEEtUk53VV8zcGt4T3BuMWpjUmVzWko2ZGROTWRPbFcxbVBhdnV3UzFnSlJ2cUVTTXZFMjNfVXdOZThZaGZ3OWlOZEgwMGliNmRWcWVOeDliaVVoTXQwSUJMbG45V0M3cGMwaTNDejFhNnBxLXFuTm05RThxZ05kdExqa19ZS1BQTVk2U1hNeHZNejU3S3RmM0h6MVNYdmJuS05FZHdjaFRfWVlF?oc=5",
           "date": "2026-09-06T08:54:06.000Z",
           "brand": "Rummo"
@@ -2851,8 +2865,8 @@
       "posts": [
         {
           "type": "news",
-          "title": "Penne rigate, il test francese trova cadmio in 16 prodotti su 18: i risultati di Barilla, De Cecco, Garofalo e Rummo - greenme.it",
-          "source": "GREENME.IT",
+          "title": "Penne rigate, il test francese trova cadmio in 16 prodotti su 18: i risultati di Barilla, De Cecco, Garofalo e Rummo - greenMe",
+          "source": "GREENME",
           "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPV0xOTjJIb1BERzRKaTRPR3k4elR1eWJPX1VSOWJjQS1WLVdNdXNmODR6dUtPV3RSM1ZaQzVQTGoxSUswTjR2djFUTlhkWE1USEEtUk53VV8zcGt4T3BuMWpjUmVzWko2ZGROTWRPbFcxbVBhdnV3UzFnSlJ2cUVTTXZFMjNfVXdOZThZaGZ3OWlOZEgwMGliNmRWcWVOeDliaVVoTXQwSUJMbG45V0M3cGMwaTNDejFhNnBxLXFuTm05RThxZ05kdExqa19ZS1BQTVk2U1hNeHZNejU3S3RmM0h6MVNYdmJuS05FZHdjaFRfWVlF?oc=5",
           "date": "2026-09-06T08:54:06.000Z",
           "brand": "Voiello"
