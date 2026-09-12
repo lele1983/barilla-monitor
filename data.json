@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-11T20:30:12.855Z",
+    "generatedAt": "2026-09-12T03:17:24.694Z",
     "pipelineVersion": "1.0.0",
     "sources": {
       "opensearch": true,
@@ -9,32 +9,32 @@
       "claude": false,
       "competitors": true
     },
-    "processingTimeMs": 2529
+    "processingTimeMs": 2995
   },
   "social": {
     "overview": {
-      "totalPosts": 197038,
-      "prevTotalPosts": 217606,
-      "volumeChange": -9.5,
-      "mentions24h": 5474,
-      "totalEngagement": 679249737,
-      "avgEngagementRate": 0.008662542616060788,
-      "erChange": -25.1,
+      "totalPosts": 222532,
+      "prevTotalPosts": 217839,
+      "volumeChange": 2.2,
+      "mentions24h": 30371,
+      "totalEngagement": 733373740,
+      "avgEngagementRate": 0.008964617258192354,
+      "erChange": -23.4,
       "organicPct": 98,
-      "sponsoredCount": 4204
+      "sponsoredCount": 4789
     },
     "brandHealth": {
-      "score": 78,
+      "score": 79,
       "status": "stabile",
       "dimensions": [
         {
           "name": "Sentiment",
-          "score": 67,
+          "score": 68,
           "color": "#00e676"
         },
         {
           "name": "Engagement",
-          "score": 43,
+          "score": 45,
           "color": "#3ba4ff"
         },
         {
@@ -70,310 +70,300 @@
       ]
     },
     "sentiment": {
-      "netScore": 47,
-      "positive": 57,
-      "neutral": 33,
+      "netScore": 48,
+      "positive": 58,
+      "neutral": 32,
       "negative": 10
     },
     "platforms": [
       {
         "name": "tt",
-        "count": 110436,
-        "pctOfTotal": 56
+        "count": 123710,
+        "pctOfTotal": 55.6
       },
       {
         "name": "ig",
-        "count": 79372,
-        "pctOfTotal": 40.3
+        "count": 90219,
+        "pctOfTotal": 40.5
       },
       {
         "name": "yt",
-        "count": 7230,
-        "pctOfTotal": 3.7
+        "count": 8603,
+        "pctOfTotal": 3.9
       }
     ],
     "dailyVolume": [
       {
-        "date": "2026-09-04T00:00:00.000Z",
-        "count": 2415,
-        "engagement": 13367924,
-        "avgEr": 0.009452633799485287
-      },
-      {
         "date": "2026-09-05T00:00:00.000Z",
-        "count": 30179,
-        "engagement": 98821577,
-        "avgEr": 0.009833923350735298
+        "count": 29690,
+        "engagement": 95473251,
+        "avgEr": 0.010061334944148768
       },
       {
         "date": "2026-09-06T00:00:00.000Z",
-        "count": 28305,
-        "engagement": 108047713,
-        "avgEr": 0.010800635904420788
+        "count": 28300,
+        "engagement": 109431254,
+        "avgEr": 0.0110965922583443
       },
       {
         "date": "2026-09-07T00:00:00.000Z",
-        "count": 32806,
-        "engagement": 124997641,
-        "avgEr": 0.010357366762886204
+        "count": 32812,
+        "engagement": 127752909,
+        "avgEr": 0.010689668274618504
       },
       {
         "date": "2026-09-08T00:00:00.000Z",
-        "count": 32977,
-        "engagement": 134463753,
-        "avgEr": 0.009670448309473445
+        "count": 32990,
+        "engagement": 138930372,
+        "avgEr": 0.010369440522684507
       },
       {
         "date": "2026-09-09T00:00:00.000Z",
-        "count": 33843,
-        "engagement": 115857002,
-        "avgEr": 0.008084063859811062
+        "count": 33864,
+        "engagement": 124237304,
+        "avgEr": 0.009263267234364048
       },
       {
         "date": "2026-09-10T00:00:00.000Z",
-        "count": 31632,
-        "engagement": 71139306,
-        "avgEr": 0.004323528735411327
+        "count": 34134,
+        "engagement": 95446668,
+        "avgEr": 0.007402426714494196
       },
       {
         "date": "2026-09-11T00:00:00.000Z",
-        "count": 4881,
-        "engagement": 12554821,
-        "avgEr": 0.0025571219176892075
+        "count": 30732,
+        "engagement": 42101868,
+        "avgEr": 0.00400072462028157
+      },
+      {
+        "date": "2026-09-12T00:00:00.000Z",
+        "count": 10,
+        "engagement": 114,
+        "avgEr": 0.00032387296447105576
       }
     ],
     "hourlyVolume": [
       {
-        "hour": "2026-09-10T20:00:00.000Z",
-        "count": 144,
-        "engagement": 5237685
-      },
-      {
-        "hour": "2026-09-10T21:00:00.000Z",
-        "count": 222,
-        "engagement": 3172486
-      },
-      {
-        "hour": "2026-09-10T22:00:00.000Z",
-        "count": 158,
-        "engagement": 2918681
-      },
-      {
-        "hour": "2026-09-10T23:00:00.000Z",
-        "count": 69,
-        "engagement": 1132555
-      },
-      {
-        "hour": "2026-09-11T00:00:00.000Z",
-        "count": 35,
-        "engagement": 512007
-      },
-      {
-        "hour": "2026-09-11T01:00:00.000Z",
-        "count": 31,
-        "engagement": 154871
-      },
-      {
-        "hour": "2026-09-11T02:00:00.000Z",
-        "count": 19,
-        "engagement": 537840
-      },
-      {
         "hour": "2026-09-11T03:00:00.000Z",
-        "count": 36,
-        "engagement": 127714
+        "count": 89,
+        "engagement": 64171
       },
       {
         "hour": "2026-09-11T04:00:00.000Z",
-        "count": 65,
-        "engagement": 125897
+        "count": 315,
+        "engagement": 563483
       },
       {
         "hour": "2026-09-11T05:00:00.000Z",
-        "count": 203,
-        "engagement": 798687
+        "count": 758,
+        "engagement": 1569283
       },
       {
         "hour": "2026-09-11T06:00:00.000Z",
-        "count": 255,
-        "engagement": 538778
+        "count": 958,
+        "engagement": 1828553
       },
       {
         "hour": "2026-09-11T07:00:00.000Z",
-        "count": 415,
-        "engagement": 957893
+        "count": 1511,
+        "engagement": 2556719
       },
       {
         "hour": "2026-09-11T08:00:00.000Z",
-        "count": 432,
-        "engagement": 1094610
+        "count": 1785,
+        "engagement": 3048211
       },
       {
         "hour": "2026-09-11T09:00:00.000Z",
-        "count": 512,
-        "engagement": 1452946
+        "count": 1992,
+        "engagement": 3160038
       },
       {
         "hour": "2026-09-11T10:00:00.000Z",
-        "count": 689,
-        "engagement": 1271015
+        "count": 2719,
+        "engagement": 4705154
       },
       {
         "hour": "2026-09-11T11:00:00.000Z",
-        "count": 469,
-        "engagement": 1378004
+        "count": 2399,
+        "engagement": 4543334
       },
       {
         "hour": "2026-09-11T12:00:00.000Z",
-        "count": 440,
-        "engagement": 1290870
+        "count": 2404,
+        "engagement": 3684387
       },
       {
         "hour": "2026-09-11T13:00:00.000Z",
-        "count": 392,
-        "engagement": 421567
+        "count": 1951,
+        "engagement": 3907629
       },
       {
         "hour": "2026-09-11T14:00:00.000Z",
-        "count": 400,
-        "engagement": 668154
+        "count": 1966,
+        "engagement": 1841033
       },
       {
         "hour": "2026-09-11T15:00:00.000Z",
-        "count": 163,
-        "engagement": 389710
+        "count": 1983,
+        "engagement": 1943875
       },
       {
         "hour": "2026-09-11T16:00:00.000Z",
-        "count": 121,
-        "engagement": 612977
+        "count": 2340,
+        "engagement": 2505045
       },
       {
         "hour": "2026-09-11T17:00:00.000Z",
-        "count": 106,
-        "engagement": 124864
+        "count": 1921,
+        "engagement": 1094649
       },
       {
         "hour": "2026-09-11T18:00:00.000Z",
-        "count": 92,
-        "engagement": 96384
+        "count": 1652,
+        "engagement": 1153754
       },
       {
         "hour": "2026-09-11T19:00:00.000Z",
-        "count": 6,
-        "engagement": 33
+        "count": 1331,
+        "engagement": 1476696
+      },
+      {
+        "hour": "2026-09-11T20:00:00.000Z",
+        "count": 966,
+        "engagement": 371411
+      },
+      {
+        "hour": "2026-09-11T21:00:00.000Z",
+        "count": 661,
+        "engagement": 352340
+      },
+      {
+        "hour": "2026-09-11T22:00:00.000Z",
+        "count": 508,
+        "engagement": 54181
+      },
+      {
+        "hour": "2026-09-11T23:00:00.000Z",
+        "count": 152,
+        "engagement": 2818
+      },
+      {
+        "hour": "2026-09-12T00:00:00.000Z",
+        "count": 10,
+        "engagement": 114
       }
     ],
     "hashtags": [
       {
         "tag": "accadeoggi",
-        "count": 4485
+        "count": 5046
       },
       {
         "tag": "perte",
-        "count": 4390
+        "count": 4925
       },
       {
         "tag": "fyp",
-        "count": 4060
+        "count": 4510
       },
       {
         "tag": "viral",
-        "count": 3128
+        "count": 3495
       },
       {
         "tag": "adv",
-        "count": 2038
+        "count": 2318
       },
       {
         "tag": "neiperte",
-        "count": 1706
-      },
-      {
-        "tag": "venezia83",
-        "count": 1640
+        "count": 1861
       },
       {
         "tag": "tiktokshop",
-        "count": 1623
+        "count": 1791
+      },
+      {
+        "tag": "venezia83",
+        "count": 1790
       },
       {
         "tag": "napoli",
-        "count": 1463
+        "count": 1619
       },
       {
         "tag": "foryou",
-        "count": 1256
+        "count": 1445
       },
       {
         "tag": "offerteperte",
-        "count": 988
+        "count": 1114
       },
       {
         "tag": "seriea",
-        "count": 960
+        "count": 1054
       },
       {
         "tag": "capcut",
-        "count": 922
-      },
-      {
-        "tag": "backtoschool",
-        "count": 911
+        "count": 1046
       },
       {
         "tag": "italia",
-        "count": 871
+        "count": 986
+      },
+      {
+        "tag": "backtoschool",
+        "count": 959
       },
       {
         "tag": "virale",
-        "count": 831
-      },
-      {
-        "tag": "voliamoneixte✈🦁🔝💯💥",
-        "count": 787
+        "count": 941
       },
       {
         "tag": "calcio",
-        "count": 777
+        "count": 874
+      },
+      {
+        "tag": "voliamoneixte✈🦁🔝💯💥",
+        "count": 862
       },
       {
         "tag": "amore",
-        "count": 758
+        "count": 837
       },
       {
         "tag": "italy",
-        "count": 701
-      },
-      {
-        "tag": "f1",
-        "count": 682
+        "count": 770
       },
       {
         "tag": "perteeee",
-        "count": 662
+        "count": 763
       },
       {
-        "tag": "davedere",
-        "count": 647
+        "tag": "f1",
+        "count": 756
       },
       {
         "tag": "roma",
-        "count": 642
+        "count": 735
       },
       {
-        "tag": "inter",
-        "count": 626
+        "tag": "milano",
+        "count": 717
+      },
+      {
+        "tag": "madeinitaly",
+        "count": 663
       }
     ],
     "creators": [
       {
-        "name": "433",
-        "posts": 65,
-        "engagement": 36696671,
+        "name": "fcbarcelona",
+        "posts": 58,
+        "engagement": 36277488,
         "platform": "ig",
-        "followers": 79753185,
-        "avgEr": 0.007079067733530461
+        "followers": 148295403,
+        "avgEr": 0.004219253756629134
       },
       {
         "name": "championsleague",
@@ -384,44 +374,44 @@
         "avgEr": 0.004403540886383686
       },
       {
-        "name": "fcbarcelona",
-        "posts": 47,
-        "engagement": 28422066,
+        "name": "433",
+        "posts": 62,
+        "engagement": 34249932,
         "platform": "ig",
-        "followers": 148295403,
-        "avgEr": 0.004079686626092949
+        "followers": 79753185,
+        "avgEr": 0.00692665740100779
       },
       {
         "name": "fabriziorom",
-        "posts": 53,
-        "engagement": 26405533,
+        "posts": 51,
+        "engagement": 24265356,
         "platform": "ig",
         "followers": 50604142,
-        "avgEr": 0.009863051294105451
+        "avgEr": 0.009416439379802103
       },
       {
         "name": "realmadrid",
-        "posts": 65,
-        "engagement": 16157833,
+        "posts": 63,
+        "engagement": 15263733,
         "platform": "ig",
         "followers": 180996146,
-        "avgEr": 0.0013735210154460365
-      },
-      {
-        "name": "premierleague",
-        "posts": 81,
-        "engagement": 9237405,
-        "platform": "ig",
-        "followers": 80234103,
-        "avgEr": 0.0014213661370033267
+        "avgEr": 0.0013386736297874109
       },
       {
         "name": "cristiano",
-        "posts": 2,
-        "engagement": 8260061,
+        "posts": 3,
+        "engagement": 11546205,
         "platform": "ig",
         "followers": 679716144,
-        "avgEr": 0.006076110647741214
+        "avgEr": 0.0056622680422903126
+      },
+      {
+        "name": "premierleague",
+        "posts": 78,
+        "engagement": 8471760,
+        "platform": "ig",
+        "followers": 80234103,
+        "avgEr": 0.0013536925525584513
       },
       {
         "name": "manutd",
@@ -440,20 +430,12 @@
         "avgEr": 0.1578465028728351
       },
       {
-        "name": "iamcardib",
-        "posts": 5,
-        "engagement": 5743691,
-        "platform": "ig",
-        "followers": 161028295,
-        "avgEr": 0.007133766149607435
-      },
-      {
         "name": "lilbieber",
-        "posts": 2,
-        "engagement": 5512750,
+        "posts": 3,
+        "engagement": 6239443,
         "platform": "ig",
         "followers": 286503248,
-        "avgEr": 0.009620746079639558
+        "avgEr": 0.007259304555365227
       },
       {
         "name": "scuderiaferrari",
@@ -461,15 +443,23 @@
         "engagement": 5091702,
         "platform": "ig",
         "followers": 20688306,
-        "avgEr": 0.0037324250740481037
+        "avgEr": 0.003732425074048104
+      },
+      {
+        "name": "charlidamelio",
+        "posts": 12,
+        "engagement": 4711972,
+        "platform": "tt",
+        "followers": 159800000,
+        "avgEr": 0.002457223612849395
       },
       {
         "name": "psg",
-        "posts": 57,
-        "engagement": 4728774,
+        "posts": 56,
+        "engagement": 4638993,
         "platform": "ig",
         "followers": 67351356,
-        "avgEr": 0.0012318494168930636
+        "avgEr": 0.0012300334822935098
       },
       {
         "name": "georginagio",
@@ -480,15 +470,32 @@
         "avgEr": 0.011648610508774648
       },
       {
-        "name": "lalalalisa_m",
-        "posts": 2,
-        "engagement": 4213883,
+        "name": "iamcardib",
+        "posts": 4,
+        "engagement": 4294294,
         "platform": "ig",
-        "followers": 105933101,
-        "avgEr": 0.019889359228707937
+        "followers": 161028295,
+        "avgEr": 0.006666986693239223
       }
     ],
     "posts": [
+      {
+        "platform": "ig",
+        "author": "umberto_trotti_chef",
+        "time": "2026-09-11T11:42:11Z",
+        "text": "🔥 IL TOP DEI TOP! 🔥\n\nSpaghettone fatto da noi e trafilato al bronzo, lupini, vongole e una bella spadellata come piace a me! 🍝🌊\n\nPochi ingredienti, ma quando la materia prima è quella giusta… il risultato parla da solo. 😍\n\nE alla fine c’è solo u",
+        "engagement": 30,
+        "engagementRate": 0.00011816513183289874,
+        "sentiment": "neg",
+        "hashtags": [
+          "andiamoallassaggio",
+          "umbertotrottichef",
+          "osteriadeltrap",
+          "ferentillo"
+        ],
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/802223760_18493380955101214_1817152931943192594_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=106&ig_cache_key=Mzk4MjU2NDg0NjE5ODgzMzE1MjE4NDkzMzgwOTUyMTAxMjE0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzMjAuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=mdsamMS063IQ7kNvwGG8-qO&_nc_oc=Adq3AlJxIFKd-PwEIjhHENBDAyahUcepLIWKJZ4ZfWB7Up1U-fBbLuMCuw-oJz3i5Kl3BpRKvrA_eJn2-t08KOlp&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=DDf6U6K3lhKtdNhn5BkEAw&_nc_ss=7a3ba&oh=00_AQIQL4J1UNg0UfRIO6DEx1rLfGHdMVdbBENlQuG1m2bpxg&oe=6AAA5898",
+        "url": "https://www.instagram.com/reel/3982564846198833152/"
+      },
       {
         "platform": "tt",
         "author": "reportrai3",
@@ -533,15 +540,15 @@
         "author": "francesca.demanuel",
         "time": "2026-09-10T12:17:49Z",
         "text": "🎃🍝 PASTA CREMOSA ZUCCA E SPECK 🤎 Per 2-3 persone 👇 Ho cotto 250 g di zucca in forno a 200°C per 30 minuti. Ho estratto la polpa e l’ho tenuta da parte. In padella ho rosolato 200 g di speck a pezzettoni con 1 cipolla piccola. Ho aggiunto la zucca",
-        "engagement": 531,
-        "engagementRate": 0.0023715944618133097,
+        "engagement": 959,
+        "engagementRate": 0.00428125,
         "sentiment": "neg",
         "hashtags": [
           "perteeeeeeee",
           "virale",
           "frollafrancesca"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/okqtmKFi3BHQpAFRtDtQ7fHHuoEZQ9fVh4PDEA~tplv-tiktokx-dmt-logom:tos-useast2a-i-0068-euttp/o0RSeXIAYiALsInPFZGidie7AfGONKAQCA9qfF.image?dr=10393&x-expires=1789239600&x-signature=k8TgYSdCibRwTYRBMLhrRlevKhM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/okqtmKFi3BHQpAFRtDtQ7fHHuoEZQ9fVh4PDEA~tplv-tiktokx-dmt-logom:tos-useast2a-i-0068-euttp/o0RSeXIAYiALsInPFZGidie7AfGONKAQCA9qfF.image?dr=10393&x-expires=1789340400&x-signature=FhQK%2BUAin7lgBDxGllkqy%2F%2BMQW4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@francesca.demanuel/video/7683879736883432736"
       },
       {
@@ -563,14 +570,14 @@
         "author": "mochohf",
         "time": "2026-09-10T11:02:46Z",
         "text": "Ma come si mangia al Gran Premio di Formula 1? 🏎️🍔\nSono stato all’Autodromo Nazionale Monza per scoprirlo.\n\nTra pit stop e simulatori di F1, ecco cosa ho provato:\n🍔 Il “Sam”: maiale sfilacciato, insalata di cavolo e carote, salsa barbecue\n🧀 Dorit",
-        "engagement": 1940,
-        "engagementRate": 0.009688228802005563,
-        "sentiment": "neg",
+        "engagement": 2833,
+        "engagementRate": 0.014147810410351423,
+        "sentiment": "neu",
         "hashtags": [
           "invitedbypepsico",
           "tastethethrill"
         ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/802680593_18625119412054702_5406397346965649406_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=102&ig_cache_key=Mzk4MzA2MDMzMDQ4NzE4NTYwODE4NjI1MTE5NDA2MDU0NzAy.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=W0hGtWPsrnMQ7kNvwENqODX&_nc_oc=AdpRkNwvRs0qUFBt5yt0_jVZy3GlHs0wQkPfvtkaZ9wFMOpz5wXlvl_4StJzK2ooclEmhbRWFv-eGM51cWpjqCCE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=QYGAoSh-ShfXpcffmORrsQ&_nc_ss=7a3ba&oh=00_AQL2SZaWNkZKvjv8ltikLN2-ctmY8zIzAl8jFVfVN-2xBg&oe=6AA8E868",
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/802680593_18625119412054702_5406397346965649406_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=102&ig_cache_key=Mzk4MzA2MDMzMDQ4NzE4NTYwODE4NjI1MTE5NDA2MDU0NzAy.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=W0hGtWPsrnMQ7kNvwHPC9je&_nc_oc=AdrNL5XzNONvIEur4Eqfm0vBB-dHbcTPmLGhvcuWK6fkB5X7N8XU9GAPlipeuv1qVNZvP7h9tUR7zai9LlMnAGZH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=qpoKDnUKjVF1iTASPssvhg&_nc_ss=7a3ba&oh=00_AQJATW8ipUQqYTr4SvBt9Kt_P_I9jpI_VSiZhGst3h1HUg&oe=6AAA7228",
         "url": "https://www.instagram.com/reel/3983060330487185608/"
       },
       {
@@ -578,15 +585,15 @@
         "author": "vickypiria",
         "time": "2026-09-09T08:53:59Z",
         "text": "#adv @barillaitalia Giorni frenetici di gara, ma con una certezza: il gusto di stare insieme. Barilla mi ha fatto sentire ancora di più a casa in questo GP di Monza, regalandomi la perfetta #DomenicaItaliana tra motori, famiglia e tanta convivialità!",
-        "engagement": 2100,
-        "engagementRate": 0.00799625318422225,
+        "engagement": 2485,
+        "engagementRate": 0.009353181399025162,
         "sentiment": "neg",
         "hashtags": [
           "adv",
           "domenicaitaliana",
           "italiangp"
         ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/801580909_18621298015019778_2425525252338912304_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=102&ig_cache_key=Mzk4MjI3MzAzMzQ0NjQzNjM3ODE4NjIxMjk4MDEyMDE5Nzc4.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTcuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=MNvBCol66VMQ7kNvwE9NIvT&_nc_oc=AdqZ7ZwjTyaYUfoBuWH2RRdDpXaT_vodsleVX86hrrR9ATq04OAKHVDM4LpJDObGAPgt3oXxaIKH-yEVF2sOqsp0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=hls70e6sqmUtZN5qbBkd7Q&_nc_ss=7a3ba&oh=00_AQIM8btEDBc7hWFeWj7kgKTnH2rlxS8HhwTcm8rBnq_NoQ&oe=6AA8CAA8",
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/801580909_18621298015019778_2425525252338912304_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=102&ig_cache_key=Mzk4MjI3MzAzMzQ0NjQzNjM3ODE4NjIxMjk4MDEyMDE5Nzc4.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTcuc2RyLnZpZGVvX3VzZXJfdXBsb2FkZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=MNvBCol66VMQ7kNvwFEvF6X&_nc_oc=AdpUANyBV4QVPjkpbXFh5Mg74_HGLsiF4utujVD1J7ZANHx6yxtjx02qZOnUShPP_vjZQ_KpmZ-dclUfPkkW5kC_&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=gpfIZnNseokpALn2P4zyng&_nc_ss=7a3ba&oh=00_AQJmuRqoJ_Cso2HKJpEZJQGY8SfeQLMYUk7Vck2c9E7WsQ&oe=6AAA5468",
         "url": "https://www.instagram.com/reel/3982273033446436378/"
       },
       {
@@ -594,11 +601,11 @@
         "author": "anticacortepallavicina",
         "time": "2026-09-08T18:19:51Z",
         "text": "Siamo felici di aver contribuito ancora una volta a creare la “magia” della Cena dei Mille. \nUn evento straordinario, che riunisce 1000 commensali intorno a una lunghissima tavolata che parte da Piazza Garibaldi, il cuore di Parma che, per una sera, ",
-        "engagement": 1551,
-        "engagementRate": 0.04364465205279005,
+        "engagement": 1583,
+        "engagementRate": 0.044437582460769724,
         "sentiment": "pos",
         "hashtags": [],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/800862010_18455282140191458_1029117094040070104_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&_nc_cat=104&ig_cache_key=Mzk4MTgzMzY1MDc1NjA5NTkwOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjcxNi5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GPzidV9APPgQ7kNvwGP16ME&_nc_oc=AdqymY8L7Mg2g4ERbO68tFzVuAWCBaI6ASf3zx4tVJjNlLQBAaYSfwWiCn7Fho7KAHvFJbE5VzpynIvsbH8V5-RA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=V2iPvNSrK6gMx-IIG3ifdw&_nc_ss=7a3ba&oh=00_AQJNiP94Nv99ao_lciF-epY9GRgormIiHfFDMF_Ae9vR-A&oe=6AA8D1F6",
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/800862010_18455282140191458_1029117094040070104_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&_nc_cat=104&ig_cache_key=Mzk4MTgzMzY1MDc1NjA5NTkwOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjcxNi5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GPzidV9APPgQ7kNvwHagrZJ&_nc_oc=AdpTTTZeSI4eA2yHTyLpYtrqzp-5qxKXE3KOyFtVQH7BC15oy8HMiKBW9HbvUJBN2HkVWTl4WGBKdw4FXnhz7Flp&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=aWrWMdcWMhp4aGYGcWYI5A&_nc_ss=7a3ba&oh=00_AQIVnxcp0RUBV_TkffvM_UkWu3AVi3LdCKpy-CDeNSawew&oe=6AAA5BB6",
         "url": "https://www.instagram.com/p/3981833725355813982/"
       },
       {
@@ -618,14 +625,14 @@
         "author": "teleambiente",
         "time": "2026-09-08T10:22:50Z",
         "text": "👉Torna #Roma dal 17 al 20 settembre, Cinema In Verde(@cinemainverde), il primo festival internazionale che ha scelto di raccontare la crisi ambientale e le speranze della transizione ecologica esclusivamente attraverso il #cinema di narrazione.\nLa m",
-        "engagement": 24,
-        "engagementRate": 0.0002430281305061061,
+        "engagement": 35,
+        "engagementRate": 0.00035244597506696473,
         "sentiment": "neg",
         "hashtags": [
           "roma",
           "cinema"
         ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/800497723_18431959555195691_2495505269044634238_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=104&ig_cache_key=Mzk4MTU5MzM1NDY3NjI0ODMxODE4NDMxOTU5NTQ5MTk1Njkx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=CcaXujAh280Q7kNvwHilYEE&_nc_oc=AdqFs0F_BOt_BAty3zcY6MEOF5P2B12NUp43URv04Zj6PyIoYKZsdeo7ZEBwrBR4Z42VnJAsFl6kvKzZ3Yktosfl&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=iW6n49Z_Y6a1hCtc6Mw-GQ&_nc_ss=7a3ba&oh=00_AQIVARKZDTDnlxa79Mk1GjS0Jck7zj7CfMRbkBOb4C6wIw&oe=6AA8D3FA",
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/800497723_18431959555195691_2495505269044634238_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=104&ig_cache_key=Mzk4MTU5MzM1NDY3NjI0ODMxODE4NDMxOTU5NTQ5MTk1Njkx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=CcaXujAh280Q7kNvwFDZktm&_nc_oc=AdpFBovcPLnF9RkLds7pqJ_hzjXCPAq1aJou5JNwJcoMZgsKiUVp6j3ubt8hAaGHtnQzwO9a_19cADyNprklPBwi&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=_KSFokLkLybH4S3gho9cWg&_nc_ss=7a3ba&oh=00_AQKzwuJzbejRWxISN5ut-rzfQsI7e9reqQVweCFTixRgxw&oe=6AAA5DBA",
         "url": "https://www.instagram.com/reel/3981593354676248318/"
       },
       {
@@ -651,15 +658,15 @@
         "author": "gianlucagazzoli",
         "time": "2026-09-07T17:02:34Z",
         "text": "#adv @barillaitalia Ho vissuto il Gran Premio di Monza insieme a Barilla, tra l’energia del circuito, l’emozione della gara e una cena speciale che ha portato in pista tutto il gusto della tradizione italiana. 🍝\n\nPerché ci sono passioni che, proprio",
-        "engagement": 1029,
-        "engagementRate": 0.0016470113706207744,
+        "engagement": 991,
+        "engagementRate": 0.0015767349653309235,
         "sentiment": "neg",
         "hashtags": [
           "adv",
           "domenicaitaliana",
           "italiangp"
         ],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/799782329_18624603661051178_1432690406339062453_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=108&ig_cache_key=Mzk4MTA2MTYyMjA0ODQxMDk1MzE4NjI0NjAzNjU1MDUxMTc4.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=RyaQuwJcBEoQ7kNvwFhwWt6&_nc_oc=AdpHzbLBFx2jpf2eWYa-4WMEmkyJ4ZkJr_w731cPXs6E-oBQfvnOIJiiBbzUjP8_Dq1RXedc2yE4ifM98C8R1qwF&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=bH3v3Qe5gyKZ6cOJL08rzw&_nc_ss=7a3ba&oh=00_AQIsIaPB5JgnZVptCOUQss5N8Jj1yjqykNUkkUtyStsVcw&oe=6AA8E008",
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/799782329_18624603661051178_1432690406339062453_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=108&ig_cache_key=Mzk4MTA2MTYyMjA0ODQxMDk1MzE4NjI0NjAzNjU1MDUxMTc4.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=RyaQuwJcBEoQ7kNvwEKuuE1&_nc_oc=AdqfWk-C5HppMP5BCtJn1MRgFzItvqYI2xwk1YVr0Go-h_R7KczMk7UjWEYvC8QsKf6JaiZI5FymD3dMFHtt03If&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=PAKaJz_AfaqTwX0BiSGM1w&_nc_ss=7a3ba&oh=00_AQLmMpYtpW6kd83leiBYX0D0T8-h7awYMniZrFnLcIaF-Q&oe=6AAA69C8",
         "url": "https://www.instagram.com/reel/3981061622048410953/"
       },
       {
@@ -667,14 +674,14 @@
         "author": "carolinatedeschi",
         "time": "2026-09-07T16:40:45Z",
         "text": "Da Barilla con la ciurma di Race Anatomy 🏎️❤️🎤 #F1 #MonzaGP \n\nSogna ragazzo sogna \n\nPrima foto dove non sono un meme 😉\n\nCome lo spieghi? \n\nAspetta il finale \n\nEh vabbè 🫠🫠🫠\n\nPranzo panoramico \n\nE facciamocelo un selfie \n\nGrazie TAG Heuer per que",
-        "engagement": 4421,
-        "engagementRate": 0.02946881478173347,
+        "engagement": 4495,
+        "engagementRate": 0.029962072482219392,
         "sentiment": "neu",
         "hashtags": [
           "f1",
           "monzagp"
         ],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/800247685_18121213891928696_4902364208095923938_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=106&ig_cache_key=Mzk4MTA1NDMxNTcxMzgwMjg4Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzAyNC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=lqDfqDGYY0gQ7kNvwHAooyV&_nc_oc=Adq8O6CReZra_-qav5pCqhu_68tsfphn6VB5uYYLHsxhY5fVivPlKUY0nbGkvaHhJFd7UXMfDM4qLY2EMA4Fa5in&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=t61mavyXhLaEJKpF3jd3MQ&_nc_ss=7a3ba&oh=00_AQLeXaGoV0u9UG0rMZ5xo2ixVX-GF9yW4-A0y3NmPIbrHg&oe=6AA8CBC7",
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/800247685_18121213891928696_4902364208095923938_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=106&ig_cache_key=Mzk4MTA1NDMxNTcxMzgwMjg4Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzAyNC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=lqDfqDGYY0gQ7kNvwH6-XlK&_nc_oc=AdpEnZoTmk_q7jvyFWa8NPDn4m0Hp5s5rm2FRnZooBDgVKku1UVCiarnYl8qdNOkprOvgoCqroSig7n3gxqFGhr-&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=SeTtoqiilLi4odNP-LyqqA&_nc_ss=7a3ba&oh=00_AQJPBmrcPN4OJK9rl8taD86lWY1ayQLhh-dUJO7vM6dGtQ&oe=6AAA5587",
         "url": "https://www.instagram.com/p/3981059069905114419/"
       },
       {
@@ -724,7 +731,7 @@
           "domenicaitaliana",
           "italiangp"
         ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/797783758_18477598405104440_4057679644669734092_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=101&ig_cache_key=Mzk3OTMzNDg2ODg4MTYzMDE4MDE4NDc3NTk4Mzk5MTA0NDQw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzMjAuc2RyLnZpZGVvX3VzZXJfdXBsb2FkZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=HrDI8eQ2IEsQ7kNvwFhu9We&_nc_oc=AdpL5cqKOC6PlJmIH-alO0YieNyo_bu0fXD7Ta1-oEdjQqfPBp04AjZLyhXeQg7CIQqKaF5bN1328yH5NX5s43WF&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=bqOT0rWp4HSZCqEfH78uKQ&_nc_ss=7a3ba&oh=00_AQKlNMsXDK-OJ5LgOM3ioN-9DMQfwZK9OTukwmLL49S4RQ&oe=6AA8C2C1",
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/797783758_18477598405104440_4057679644669734092_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=101&ig_cache_key=Mzk3OTMzNDg2ODg4MTYzMDE4MDE4NDc3NTk4Mzk5MTA0NDQw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzMjAuc2RyLnZpZGVvX3VzZXJfdXBsb2FkZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=HrDI8eQ2IEsQ7kNvwHEgpH-&_nc_oc=Ado4EG-t5Brd7SYMrIpyRXV7Kg9mC68nX9kjOoynqD7g4bibWzJSGGL79k8xU2JJdO6bXndPGWLjyoSgweqijcrm&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=awhlKoJJflUyYOzhwQ1RDg&_nc_ss=7a3ba&oh=00_AQKY6czd_8XJwFd-GnWTUaABMZk2WGhiUeRpkUV4qz3M0g&oe=6AAA4C81",
         "url": "https://www.instagram.com/reel/3979334868881630180/"
       },
       {
@@ -732,11 +739,11 @@
         "author": "jack_masterchef14",
         "time": "2026-09-09T09:05:12Z",
         "text": "Delle BBQ Ribs più morbide di queste non le hai MAI viste! 🍖🔥\n\nTalmente morbide che non serve nemmeno il coltello, perché si riescono a tagliare perfino con il loro stesso osso. 🤤\n\nE lo so, sembrano una di auelle preparazioni da barbecue complicat",
-        "engagement": 61739,
-        "engagementRate": 0.1682146992711668,
+        "engagement": 68193,
+        "engagementRate": 0.18473078548441277,
         "sentiment": "pos",
         "hashtags": [],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/801008794_18484160176111148_4899193811509026319_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=1&ig_cache_key=Mzk4MjI3OTI4NTAzOTI5Nzc2ODE4NDg0MTYwMTcwMTExMTQ4.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTUuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=U1PydT6buQwQ7kNvwEb9HJi&_nc_oc=AdoP6eOpqAj2tnwLHfQcwpeuzKd1lglabjjJ64-MnCSXtPG5zHMj0avI3tuzrGAbYj97RhUdPu7PGpui7Aj4hoeh&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=80Xz8TC_T3NIT7S6yWlSiQ&_nc_ss=7a3ba&oh=00_AQIJ4roGy9P10NiTlTWom27lrb47bv_6napCz8NSS6HawQ&oe=6AA8D148",
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/801008794_18484160176111148_4899193811509026319_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=102&ig_cache_key=Mzk4MjI3OTI4NTAzOTI5Nzc2ODE4NDg0MTYwMTcwMTExMTQ4.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTUuc2RyLnZpZGVvX3VzZXJfdXBsb2FkZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=U1PydT6buQwQ7kNvwH2fQ8g&_nc_oc=AdqUgFePpBZsiSqcPMTTeswg2JC4RK1uyTqnwold_nK_xweU-BRqrqRlc2c-tcqlp7Q9JuEW2Ho7KkPOkgj0wrom&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=jbylDWUSHOQ-HnY_4oc8ug&_nc_ss=7a3ba&oh=00_AQLcSiggV25yYSLh3zib0CMTMLSIiAFwor8asqII5abXwA&oe=6AAA5B08",
         "url": "https://www.instagram.com/reel/3982279285039297768/"
       },
       {
@@ -744,11 +751,11 @@
         "author": "pulp.podcast",
         "time": "2026-09-09T08:00:42Z",
         "text": "I leader del Campo largo sfidano ufficialmente Giorgia Meloni.\n\nDurante l’evento di AVS a Roma, Schlein, Conte, Fratoianni e Bonelli si sono confrontati sul palco per lanciare il guanto di sfida alla Presidente del Consiglio. \n\nCi sono ancora molte c",
-        "engagement": 59263,
-        "engagementRate": 0.1954842327483837,
+        "engagement": 63648,
+        "engagementRate": 0.20799660136272283,
         "sentiment": "pos",
         "hashtags": [],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/801304790_17944165128341307_193405976136198137_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=108&ig_cache_key=Mzk4MjI0NTYxMjk2NTg3NTI4NjE3OTQ0MTY1MTI1MzQxMzA3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=xbM6nBPQwP8Q7kNvwH9d0Ee&_nc_oc=AdoI8VrqaGfe76S2dfCECMId94G75HPoS1miswAvQkQCnmmJGUgIJQYYyw4fUkFT895fIwACZ57k0SKpZOK8sr4l&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=NVFRMoljovBLi_L1t7VU8g&_nc_ss=7a3ba&oh=00_AQIBSMPKy4RAUNgl0DuSBJVjA71sFp_Rvdw_JuTICo5aWg&oe=6AA8B73E",
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/801304790_17944165128341307_193405976136198137_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=108&ig_cache_key=Mzk4MjI0NTYxMjk2NTg3NTI4NjE3OTQ0MTY1MTI1MzQxMzA3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=xbM6nBPQwP8Q7kNvwFUoEwz&_nc_oc=Adrpvfz28mVxKNrU3D7E5j5jw4YMCdn9wUrCtxhA7ZJVw_wqH56GBPQ1bVKGv2fCs_gWlPVEjG6ac_nF59aanJ--&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=mGjqPqTmTHRFo_CDwgNAVg&_nc_ss=7a3ba&oh=00_AQJj7s4rNmYas5l2gadHUsgbwJXtkQo77t_DSYpEqx01oA&oe=6AAA40FE",
         "url": "https://www.instagram.com/reel/3982245612965875286/"
       },
       {
@@ -756,8 +763,8 @@
         "author": "ricettedicaro",
         "time": "2026-09-09T12:58:04Z",
         "text": "“𝑪𝒊 𝒔𝒐𝒏𝒐 𝒔𝒂𝒑𝒐𝒓𝒊 𝒄𝒉𝒆 𝒂𝒎𝒐, 𝒑𝒐𝒊 𝒄𝒊 𝒔𝒐𝒏𝒐 𝒒𝒖𝒆𝒍𝒍𝒊 𝒄𝒉𝒆, 𝒂𝒏𝒄𝒐𝒓 𝒑𝒓𝒊𝒎𝒂 𝒅𝒊 𝒂𝒔𝒔𝒂𝒈𝒈𝒊𝒂𝒓𝒍𝒊, 𝒂𝒄𝒄𝒆𝒏𝒅𝒐𝒏𝒐 𝒊𝒎𝒎𝒆𝒅𝒊𝒂𝒕𝒂𝒎𝒆𝒏𝒕𝒆 𝒍𝒂 𝒎𝒊𝒂 𝒇𝒂𝒏𝒕𝒂𝒔𝒊𝒂.”\nÈ successo proprio questo appena ho",
-        "engagement": 38466,
-        "engagementRate": 0.26743700984481894,
+        "engagement": 38462,
+        "engagementRate": 0.26740919962178095,
         "sentiment": "pos",
         "hashtags": [
           "ricettedicaro",
@@ -766,7 +773,7 @@
           "artisaningredients",
           "creativefoodideas"
         ],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/801580919_1068003692760487_986922236717676703_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=110&ig_cache_key=Mzk4MjM5NTk4NDMwOTY0NDI0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=hHcvrdYGZLIQ7kNvwGMnvM3&_nc_oc=Ado-Yu4yiE1YzrgITadfZmfbTNzC-41OaRFLeRxs9KHjRM51cGSIzoij9s1WyHG870615egoAcxeQeDTDxWQxKkB&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=7ZT_sgf2pJk8UxTYn_cd7w&_nc_ss=7a3ba&oh=00_AQIIyla74FhV82v99ay7gXq3TzY3WCfSj0E6e_IJT1ZzcA&oe=6AA8DA9A",
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/801031142_2141064590158898_1396483542301886100_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=108&ig_cache_key=Mzk4MjM5NTk4NDMwOTY0NDI0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=v7OJ-vWaqtYQ7kNvwG-oSAg&_nc_oc=Adrsmsrsf_bIHpHS6_9cnXLgBM1KDu_c72CAV2-LEUUdtN0hUQZTzcPx_RM8cEPBub55pRe72hGfmNp10vDI66mo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=cE5rnW4293aJKH9Y6GWBNw&_nc_ss=7a3ba&oh=00_AQKy2RNvWLj3aTvJBkGmof7oaESrr3Ib93t0Fuk71ilXxw&oe=6AAA6A2E",
         "url": "https://www.instagram.com/reel/3982395984309644240/"
       },
       {
@@ -836,6 +843,18 @@
       },
       {
         "platform": "ig",
+        "author": "ireneinsicily",
+        "time": "2026-09-07T19:05:05Z",
+        "text": "When Sicily gives you lemons 🍋, make the creamiest pasta of your life.\n\nIngredients:\n* 60 ml Sicilian olive oil\n* 80 g Parmigiano Reggiano\n* 30 g Pecorino cheese (optional)\n* 1 lemon\n* 6–8 fresh basil leaves",
+        "engagement": 27183,
+        "engagementRate": 0.19523248631799703,
+        "sentiment": "pos",
+        "hashtags": [],
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/798516410_18101044886456245_1424943640767131934_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=102&ig_cache_key=Mzk4MTEyODkxNDgyNTc4NjE3MDE4MTAxMDQ0ODgzNDU2MjQ1.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=lIMqvk99VQ0Q7kNvwF6ynCU&_nc_oc=Adp1wK88H3NI_7yQJP9GX50TlIvnvOeQl0ATq11aGIiY18JtFlT8h5PGFaenp39L0dHqyJj8esDSw7-m7OROF7gT&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=7FOGQ_97l9DylZme6HZLag&_nc_ss=7a3ba&oh=00_AQIQZJ2eoijUfpRaMykqIX0C6XpDQxxDQJXFSKihFeC9ww&oe=6AAA7535",
+        "url": "https://www.instagram.com/reel/3981128914825786170/"
+      },
+      {
+        "platform": "ig",
         "author": "fratelliditalia",
         "time": "2026-09-09T09:45:38Z",
         "text": "Ormai la sinistra lo dice sempre più chiaramente. Per far crescere l’economia, la loro ricetta sembra essere una sola: più immigrati.\n\nLa soluzione sarebbe importare nuova forza lavoro e costruire, come dice Bersani, un “italiano nuovo”.\n\nIl Governo ",
@@ -848,15 +867,21 @@
       },
       {
         "platform": "ig",
-        "author": "ireneinsicily",
-        "time": "2026-09-07T19:05:05Z",
-        "text": "When Sicily gives you lemons 🍋, make the creamiest pasta of your life.\n\nIngredients:\n* 60 ml Sicilian olive oil\n* 80 g Parmigiano Reggiano\n* 30 g Pecorino cheese (optional)\n* 1 lemon\n* 6–8 fresh basil leaves",
-        "engagement": 26568,
-        "engagementRate": 0.1908154617406668,
-        "sentiment": "pos",
-        "hashtags": [],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/798516410_18101044886456245_1424943640767131934_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=102&ig_cache_key=Mzk4MTEyODkxNDgyNTc4NjE3MDE4MTAxMDQ0ODgzNDU2MjQ1.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=3e6CrxKfYREQ7kNvwHEY3Dl&_nc_oc=AdpnMOj687qYFHSULw4xdjPdFuQUT1qEhzd7y12K9YRiQ_SmdZ2qWghXqAyIzbSOBHQFqbNjH1YNiqWy2lDK4hxK&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=W9HvKNw-SNva7OfamEEhsw&_nc_ss=7a3ba&oh=00_AQJ-fF0b9HMl3JtTkgfTO-BYZfde1PGVs-4I3zrw8mhxZA&oe=6AA8EB75",
-        "url": "https://www.instagram.com/reel/3981128914825786170/"
+        "author": "dietista.paolastavolone",
+        "time": "2026-09-09T10:00:06Z",
+        "text": "7 🫙 PER LA TUA SETTIMANA! \n\nSalva il post e scegli ogni giorno una combinazione diversa: idee semplici da portare con te al lavoro o scuola!🤍\n\n✨ LUNEDÌ — Farfalle con pesto di zucchine e ricotta\n80g farfalle, zucchine, 60g ricotta, pomodorini, 10g ",
+        "engagement": 25850,
+        "engagementRate": 0.024917031586313657,
+        "sentiment": "neu",
+        "hashtags": [
+          "dietasana",
+          "mangiaresano",
+          "ricettefacili",
+          "ricetteveloci",
+          "ricettefit"
+        ],
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/801429587_18127445578745819_180766031039087530_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=1&cb=8438d1d6-32aefdc5&ig_cache_key=Mzk4MjI4NjQyNjcwMzg0ODg2Mw%3D%3D.3-ccb7-5-cb8438d1d6-32aefdc5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTYyMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=E-0_rT82K9EQ7kNvwE0mI5y&_nc_oc=Adpze1TmCI_brHcHOJ4JoLbQ4NvzawPjhIGHm1ALkPUrnM3Kv-i3AWl8TK6MkakdXywpagM3uMv8Nq5vkvo5oyYf&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=7opwHJDexE5VYbrDpKv_8Q&_nc_ss=7a3ba&oh=00_AQITprn_bZ51P84cHKcpbMPOfM3SPw3eNJ7Chte_aFa0ug&oe=6AAA59BD",
+        "url": "https://www.instagram.com/p/3982307229629577071/"
       },
       {
         "platform": "ig",
@@ -945,24 +970,6 @@
         "url": "https://www.instagram.com/reel/3982452883306237987/"
       },
       {
-        "platform": "ig",
-        "author": "dietista.paolastavolone",
-        "time": "2026-09-09T10:00:06Z",
-        "text": "7 🫙 PER LA TUA SETTIMANA! \n\nSalva il post e scegli ogni giorno una combinazione diversa: idee semplici da portare con te al lavoro o scuola!🤍\n\n✨ LUNEDÌ — Farfalle con pesto di zucchine e ricotta\n80g farfalle, zucchine, 60g ricotta, pomodorini, 10g ",
-        "engagement": 22625,
-        "engagementRate": 0.02201502957555023,
-        "sentiment": "neu",
-        "hashtags": [
-          "dietasana",
-          "mangiaresano",
-          "ricettefacili",
-          "ricetteveloci",
-          "ricettefit"
-        ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/801429587_18127445578745819_180766031039087530_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=1&ig_cache_key=Mzk4MjI4NjQyNjcwMzg0ODg2Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTYyMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=E-0_rT82K9EQ7kNvwEwV3wG&_nc_oc=AdoAu-URFfCu0lptuiOn-Wq22p8l4JrbT6eP3E5qVMnvMditHRPZgc5Ool4AxBIZlImkQ03bN8CNx56lCZZ6BH3g&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=6LZrINr5ofqSmwRHHnqvfg&_nc_ss=7a3ba&oh=00_AQJFsAQhwUCEBjerioj1OzKn65xkpxNx1MkYEgI1ceOPtw&oe=6AA8CFFD",
-        "url": "https://www.instagram.com/p/3982307229629577071/"
-      },
-      {
         "platform": "tt",
         "author": "pamelapaolini",
         "time": "2026-09-07T15:10:21Z",
@@ -991,15 +998,15 @@
         "author": "micheleelorenzo",
         "time": "2026-09-08T11:18:46Z",
         "text": "SALSICCIA E PATATE AL FORNO 🥔 #ricetta #salsiccia #cucinaitaliana ",
-        "engagement": 77865,
-        "engagementRate": 0.20544854881266492,
+        "engagement": 87217,
+        "engagementRate": 0.22963928383359664,
         "sentiment": "pos",
         "hashtags": [
           "ricetta",
           "salsiccia",
           "cucinaitaliana"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/ocvNOfMpgWAQguDPcRQMD3IyGH9O8jffVzjpgZ~tplv-tiktokx-origin.image?dr=10395&x-expires=1789239600&x-signature=Mtkuao3hc2dR7REC0YnYx877D2w%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/ocvNOfMpgWAQguDPcRQMD3IyGH9O8jffVzjpgZ~tplv-tiktokx-origin.image?dr=10395&x-expires=1789340400&x-signature=ZH3rZ%2B6i%2FDj4Zb5EASqLbfwaW90%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@micheleelorenzo/video/7683122348697914656"
       },
       {
@@ -1025,14 +1032,14 @@
         "author": "jok3r",
         "time": "2026-09-08T12:02:27Z",
         "text": "E sono RI RI VENUTO DA CICCIOGAMER89 a provare il suo nuovo panino i CICCIO E PEPE ! Come sarà ? 🍔 trovate il video completo sul mio canale YouTube 🫶🏻#food #cicciogamer89 ",
-        "engagement": 56268,
-        "engagementRate": 0.3709162821357943,
+        "engagement": 60604,
+        "engagementRate": 0.398973008558262,
         "sentiment": "pos",
         "hashtags": [
           "food",
           "cicciogamer89"
         ],
-        "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oUU5BfRiAMQVCAfhJe0M8WVgKawpdAXDNffKsk~tplv-tiktokx-origin.image?dr=10395&x-expires=1789239600&x-signature=T%2BAap2LK02hQ9a34q53Ie8oQB%2Fo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oUU5BfRiAMQVCAfhJe0M8WVgKawpdAXDNffKsk~tplv-tiktokx-origin.image?dr=10395&x-expires=1789340400&x-signature=NvVY60ctJ%2FUYmE44KscXKMtje2I%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@jok3r/video/7683133610186001697"
       },
       {
@@ -1057,8 +1064,8 @@
         "author": "francimontinaro",
         "time": "2026-09-06T08:03:51Z",
         "text": "La Gricia La Sorella ❤️ un po’ “sfigata” della carbonara, ma secondo me vince a mani basse che ne pensate voi?  Ingredienti: - 200 g di pasta - 180 g di guanciale  - 100 g di pecorino  - Pepe ⏳Tempo di preparazione 15 min.  🫂 Lasciami un ♥️ se ti è ",
-        "engagement": 46782,
-        "engagementRate": 0.22698689956331877,
+        "engagement": 47922,
+        "engagementRate": 0.2320677966101695,
         "sentiment": "pos",
         "hashtags": [
           "ricettefacili",
@@ -1067,7 +1074,7 @@
           "pasta",
           "gricia"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oA03H1ACvABkALBZCmEdeGIoQiIYoTRAcTiEBW~tplv-tiktokx-dmt-logom:tos-useast2a-i-0068-euttp/osAIQEmAR5iEqAHfdAdnCRm7fxkDECFlmJXDaj.image?dr=10393&x-expires=1789239600&x-signature=QUFkQPI6am2b75babY631oItfv4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oA03H1ACvABkALBZCmEdeGIoQiIYoTRAcTiEBW~tplv-tiktokx-dmt-logom:tos-useast2a-i-0068-euttp/osAIQEmAR5iEqAHfdAdnCRm7fxkDECFlmJXDaj.image?dr=10393&x-expires=1789340400&x-signature=g1VDF%2FeGEdEzuvxfoK0%2FlYbXFpM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
         "url": "https://www.tiktok.com/@francimontinaro/video/7682329936174107936"
       },
       {
@@ -1075,15 +1082,15 @@
         "author": "pulp.podcast.official",
         "time": "2026-09-09T08:01:02Z",
         "text": "I leader del Campo largo sfidano ufficialmente Giorgia Meloni. Durante l’evento di AVS a Roma, Schlein, Conte, Fratoianni e Bonelli si sono confrontati sul palco per lanciare il guanto di sfida alla Presidente del Consiglio.  Ci sono ancora molte cos",
-        "engagement": 43631,
-        "engagementRate": 0.2247861926841834,
+        "engagement": 46010,
+        "engagementRate": 0.23655526992287917,
         "sentiment": "pos",
         "hashtags": [
           "fyp",
           "pulp",
           "pulpland"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/owIifDQxQAMf9PGIlGJErcCRAQ1jghFdVCDR8f~tplv-tiktokx-origin.image?dr=10395&x-expires=1789239600&x-signature=QH%2FR9M9tdA8iwkZ07DFf3rj62TQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/owIifDQxQAMf9PGIlGJErcCRAQ1jghFdVCDR8f~tplv-tiktokx-origin.image?dr=10395&x-expires=1789340400&x-signature=oWyEXZBsrLZYjgzwBcGjuZCwrMg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@pulp.podcast.official/video/7683442473720417568"
       },
       {
@@ -1145,8 +1152,8 @@
         "author": "massimopietrobongobbi",
         "time": "2026-09-08T15:22:57Z",
         "text": "Unite per i pancake :  - 2 uova intere - 50 ml di latte  - 40 g avena brownie al cioccolato  - 5 g cacao amaro - 2/3 g idrolitina con goccio di acqua  Formare i pancake, io ne ho fatti due con questo impasto,  in una padella antiaderente preriscaldat",
-        "engagement": 30691,
-        "engagementRate": 0.07340588375986606,
+        "engagement": 34317,
+        "engagementRate": 0.08201959847036329,
         "sentiment": "pos",
         "hashtags": [
           "ricetta",
@@ -1154,7 +1161,7 @@
           "pancakemisù",
           "prozisitalia"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/owmQKe3PGMUQgMeAneWlg7QQjAH7K978IDDVZE~tplv-tiktokx-origin.image?dr=10395&x-expires=1789239600&x-signature=wxpKW1zacoAH2rpolNs5%2BFRhTok%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/owmQKe3PGMUQgMeAneWlg7QQjAH7K978IDDVZE~tplv-tiktokx-origin.image?dr=10395&x-expires=1789340400&x-signature=KKa3%2BHZ%2BnikpsZW83i04fA8GZzA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@massimopietrobongobbi/video/7683185281406668065"
       },
       {
@@ -1174,8 +1181,8 @@
         "author": "nonnasilviofficial",
         "time": "2026-09-07T16:10:07Z",
         "text": "@alvaro soler Alvaro Soler in cucina con la nonna: lui cantava, lei contava le vongole. 🐚 SPAGHETTI ALLE VONGOLE (per 4) • 320 g spaghetti grossi • 1 kg vongole • 1 spicchio d'aglio • 1 peperoncino • 1 mazzetto di prezzemolo • scorza di limone • oli",
-        "engagement": 28673,
-        "engagementRate": 0.013653809523809525,
+        "engagement": 29819,
+        "engagementRate": 0.01419952380952381,
         "sentiment": "neu",
         "hashtags": [
           "nonnasilvi",
@@ -1184,7 +1191,7 @@
           "ricettedellanonna",
           "cucinaitaliana"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/o0EnmIdQDRhHuC4VQEfdA3AANFSwAqDELzyRme~tplv-tiktokx-origin.image?dr=10395&x-expires=1789239600&x-signature=N0Z2o1oEtNTlIKL9KaopRn63bq0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/o0EnmIdQDRhHuC4VQEfdA3AANFSwAqDELzyRme~tplv-tiktokx-origin.image?dr=10395&x-expires=1789340400&x-signature=XNRmL%2F9m88puO8pdyqLNwOAHpoE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@nonnasilviofficial/video/7682826346577366305"
       },
       {
@@ -1206,6 +1213,18 @@
       },
       {
         "platform": "yt",
+        "author": "Lionfield",
+        "time": "2026-09-11T16:00:03Z",
+        "text": "How to make SPAGHETTI ALL’ASSASSINA @cookingwithkian",
+        "engagement": 65965,
+        "engagementRate": 0.003926488095238095,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": null,
+        "url": "https://www.youtube.com/watch?v=Qh2Ly6r8cNQ"
+      },
+      {
+        "platform": "yt",
         "author": "2foodfitlovers",
         "time": "2026-09-08T17:08:04Z",
         "text": "Torta di riso 🍚& “Nutella” 🍫light ✅\n\nIl riso abbonda sulla bocca di Raf (semicit.), quindi non potevamo non provare questa ricetta virale 🙌🫱🏻‍🫲🏼\n\n➡️ Abbiamo usato la crema nocciole e cacao, proteica e senza zuccheri aggiunti di Fitporn, super ",
@@ -1224,6 +1243,43 @@
       },
       {
         "platform": "yt",
+        "author": "piovonoricette",
+        "time": "2026-09-08T10:20:52Z",
+        "text": "Se amate pesto e fagiolini questo piatto di pasta super cremoso vi farà impazzire! #foodlover",
+        "engagement": 3282,
+        "engagementRate": 0.021174193548387097,
+        "sentiment": "neu",
+        "hashtags": [],
+        "imageUrl": null,
+        "url": "https://www.youtube.com/watch?v=Zo4lq3ExkAg"
+      },
+      {
+        "platform": "yt",
+        "author": "RapaNello",
+        "time": "2026-09-10T12:00:15Z",
+        "text": "Facile e veloce! Patate Schiacciate al formaggio\n\n■ Qui trovi tutto, i miei libri e le cose che uso nei video, le magliette.\nhttps://linktr.ee/rapanello\n■  Ecco il sito internet ufficiale gratuito   https://www.ziorapa.it/\n\n☕ Vuoi offrirmi un caffè? ",
+        "engagement": 3255,
+        "engagementRate": 0.003875,
+        "sentiment": "neg",
+        "hashtags": [
+          "patate",
+          "ricettedipatate",
+          "burgerdipatate",
+          "patatealforno",
+          "patatecroccanti",
+          "patatealformaggio",
+          "ricettevegetariane",
+          "cucinaitaliana",
+          "ricettafacile",
+          "ricetteveloci",
+          "rapanello",
+          "ricetterapanello"
+        ],
+        "imageUrl": "https://i.ytimg.com/vi/QLvaXNhtvPI/hqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=QLvaXNhtvPI"
+      },
+      {
+        "platform": "yt",
         "author": "Cosamangiamooggi",
         "time": "2026-09-06T16:30:35Z",
         "text": "In questo video prepariamo gli anelletti alla palermitana, uno dei grandi classici della cucina siciliana: un timballo di pasta ricchissimo, con ragù, piselli, melanzane fritte, formaggio e uova sode.\nUna di quelle ricette che richiedono tempo, pazie",
@@ -1237,18 +1293,6 @@
         ],
         "imageUrl": "https://i.ytimg.com/vi/4KEYUaV8r6I/hqdefault_custom_1.jpg",
         "url": "https://www.youtube.com/watch?v=4KEYUaV8r6I"
-      },
-      {
-        "platform": "yt",
-        "author": "piovonoricette",
-        "time": "2026-09-08T10:20:52Z",
-        "text": "Se amate pesto e fagiolini questo piatto di pasta super cremoso vi farà impazzire! #foodlover",
-        "engagement": 2834,
-        "engagementRate": 0.018283870967741936,
-        "sentiment": "neu",
-        "hashtags": [],
-        "imageUrl": null,
-        "url": "https://www.youtube.com/watch?v=Zo4lq3ExkAg"
       },
       {
         "platform": "yt",
@@ -1338,8 +1382,8 @@
         "author": "romi_home",
         "time": "2026-09-05T15:18:39Z",
         "text": "#cottagecore  #slowliving  #cozydayathome\nIn questo nuovo vlog di settembre vi porto con me tra piccoli cambiamenti in casa, cucina e i primi preparativi per l’autunno. 🍂\n\nIn questo video vi mostro anche il pulitore a vapore UWANT Y100S, che utilizz",
-        "engagement": 2240,
-        "engagementRate": 0.03260553129548763,
+        "engagement": 2310,
+        "engagementRate": 0.033624454148471615,
         "sentiment": "pos",
         "hashtags": [
           "cottagecore",
@@ -1423,69 +1467,6 @@
         ],
         "imageUrl": "https://i.ytimg.com/vi/LudbCtjcZC4/hqdefault.jpg",
         "url": "https://www.youtube.com/watch?v=LudbCtjcZC4"
-      },
-      {
-        "platform": "yt",
-        "author": "ChefMaxMariola",
-        "time": "2026-09-09T14:31:47Z",
-        "text": "Ragazzi, quando sono stato a Ischia, insieme ad Anna abbiamo fatto una ricetta semplicissima ma dal gusto pazzesco 🔥\n\nAbbiamo usato la scarola coltivata da questa signora fantastica e abbiamo aggiunto pomodorini del Piennolo, peperoncino, aglio e, p",
-        "engagement": 2109,
-        "engagementRate": 0.0019527777777777777,
-        "sentiment": "neg",
-        "hashtags": [
-          "chefmaxmariola",
-          "ischia",
-          "maxmariolacucinapervoi",
-          "thesoundoflove"
-        ],
-        "imageUrl": "https://i.ytimg.com/vi/rlROX2kmNSM/hqdefault.jpg",
-        "url": "https://www.youtube.com/watch?v=rlROX2kmNSM"
-      },
-      {
-        "platform": "yt",
-        "author": "RapaNello",
-        "time": "2026-09-10T12:00:15Z",
-        "text": "Facile e veloce! Patate Schiacciate al formaggio\n\n■ Qui trovi tutto, i miei libri e le cose che uso nei video, le magliette.\nhttps://linktr.ee/rapanello\n■  Ecco il sito internet ufficiale gratuito   https://www.ziorapa.it/\n\n☕ Vuoi offrirmi un caffè? ",
-        "engagement": 2030,
-        "engagementRate": 0.002416666666666667,
-        "sentiment": "neg",
-        "hashtags": [
-          "patate",
-          "ricettedipatate",
-          "burgerdipatate",
-          "patatealforno",
-          "patatecroccanti",
-          "patatealformaggio",
-          "ricettevegetariane",
-          "cucinaitaliana",
-          "ricettafacile",
-          "ricetteveloci",
-          "rapanello",
-          "ricetterapanello"
-        ],
-        "imageUrl": "https://i.ytimg.com/vi/QLvaXNhtvPI/hqdefault.jpg",
-        "url": "https://www.youtube.com/watch?v=QLvaXNhtvPI"
-      },
-      {
-        "platform": "yt",
-        "author": "Nonnasilvi",
-        "time": "2026-09-07T19:12:22Z",
-        "text": "Alvaro Soler in cucina con la nonna: lui cantava, lei contava le vongole. 🐚\n\nSPAGHETTI ALLE VONGOLE (per 4)\n• 320 g spaghetti grossi\n• 1 kg vongole\n• 1 spicchio d'aglio\n• 1 peperoncino\n• 1 mazzetto di prezzemolo\n• scorza di limone\n• olio evo, sale e",
-        "engagement": 1465,
-        "engagementRate": 0.008668639053254438,
-        "sentiment": "neg",
-        "hashtags": [
-          "nonnasilvi",
-          "spaghettiallevongole",
-          "alvarosoler",
-          "ricettedellanonna",
-          "cucinaitaliana",
-          "vongole",
-          "ricettefacili",
-          "pastalovers"
-        ],
-        "imageUrl": "https://i.ytimg.com/vi/1FNaMxX5KbM/hqdefault.jpg",
-        "url": "https://www.youtube.com/watch?v=1FNaMxX5KbM"
       }
     ]
   },
@@ -1533,15 +1514,15 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOM3d0cEU2NEtGbGh3SkpSeXVqYVhPTXBNbG1SY3ppX0RjN1lVdjc1bmdNU01pVFphdDNDeV9OUE10MHRUQ3MyZGdzTXRncW9WdFEtV3FXZ3lzQk52YzRkVDhmZkpEVVpjZ3k1Qzh3ZW"
     },
     {
-      "title": "Fermarsi dove tutto corre: \"La tavolata\" firmata Barilla al GP di Formula 1 a Monza - elle.com",
-      "source": "elle.com",
+      "title": "Fermarsi dove tutto corre: \"La tavolata\" firmata Barilla al GP di Formula 1 a Monza - ELLE",
+      "source": "ELLE",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaG9JVXlOZHJhY1dHZU8xU0VTMm1MQnVRX19PRFUzM2hwX1BGTHllczJhejZvb05fSFVFTG5lTkZrUzl0N2NkWlJCaEJMalZZelVqY3BfTllWYzhaX1RVMXNWdjhnM25NWUxHd3hPU0R5SEw3Ujd1Nnc5bm00VXY3TmhNUEdWdndPVWc0?oc=5",
       "date": "2026-09-04T12:22:39.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaG9JVXlOZHJhY1dHZU8xU0VTMm1MQnVRX19PRFUzM2hwX1BGTHllczJhejZvb05fSFVFTG5lTkZrUzl0N2NkWlJCaEJMalZZelVqY3BfTllWYzhaX1RVMXNWdjhnM25NWUxHd3hPU0"
     },
     {
-      "title": "Con “La Tavolata”, Barilla mette a tavola la Formula 1 - touchpoint.news",
-      "source": "touchpoint.news",
+      "title": "Con “La Tavolata”, Barilla mette a tavola la Formula 1 - Touchpoint News",
+      "source": "Touchpoint News",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPelBxWEg4aDBLNTcwYmlMX28ydXBETTNWSVRscmdRMTZpcUJuQ3l6M3lDYmRjUkxEdUVJcWFLWklVR2liUnZXSFdpSzBRRFB5SE5zTHMxOE1oZjYwZjgzNDJuQ0h6S2Nxb010YXA5STZqRWo5U2xDS1ltNTFIMzRITzZ3S1VwN3FHS0E0bU9hV1BCc1dSX3c?oc=5",
       "date": "2026-09-04T11:02:33.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPelBxWEg4aDBLNTcwYmlMX28ydXBETTNWSVRscmdRMTZpcUJuQ3l6M3lDYmRjUkxEdUVJcWFLWklVR2liUnZXSFdpSzBRRFB5SE5zTHMxOE1oZjYwZjgzNDJuQ0h6S2Nxb010YXA5ST"
@@ -1568,15 +1549,8 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZUg3c1pORlY3ZkRETzZmNXQxSldXVXM4X0VCM1NRR0Qwbm5acUZyRHlXR0NjNmlNUnRKdkVkTVVsMHJORmY5OUF3SHQ5eEJuSVRUWkxEaGZwQUNYUjd3OTRxVUJQSy1VcHR6b0RPeD"
     },
     {
-      "title": "Pasta Barilla spinge sulla Formula 1: attivazioni tra Milano e Monza e nuovo spot digitale con Mach9 - Engage.it",
-      "source": "Engage.it",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJM2luZzFWZ2thOUUyTUstdTlCTGJFSXBqQU9IaVgwVjZybmU1Yy1Kc01nVjVQRExudEFXY3BIelQtM0U3Nm5lWDdicWItTXFSemxEREpJTFctekNfdWNBbmF1S3RSNXdTdHFRMw?oc=5",
-      "date": "2026-09-03T22:49:36.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTFBJM2luZzFWZ2thOUUyTUstdTlCTGJFSXBqQU9IaVgwVjZybmU1Yy1Kc01nVjVQRExudEFXY3BIelQtM0U3Nm5lWDdicWItTXFSemxEREpJTFctekNfdWNBbmF1S3RSNXdTdHFRMw?oc="
-    },
-    {
-      "title": "Barilla mette le mani sul mac and cheese: acquistata Goodles negli Usa - torinocronaca.it",
-      "source": "torinocronaca.it",
+      "title": "Barilla mette le mani sul mac and cheese: acquistata Goodles negli Usa - Torino Cronaca",
+      "source": "Torino Cronaca",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONkFETUVDUTdzOG1fUVVGUV9oSmdKWlJDQzJHSkJBdmpzYjE2bUc1ZXJLaW1iRnhFdnd5dWQ1WEtabFdyYjVsV19FVEdXNWw2QVdsNFlwX2lLSmtTM0xqYWRJc3dSWjByYWVDM1FNM3k4TFl2dVRQRUtlZzJacy16T0QzQ2hBbzZ1d3dDWlowMmZwUEdMSnhLMllSaHkxRzVodmNhRU1mdWgwZTVVZWJrX1JmeXlTcDdBelIwbVBYM2k?oc=5",
       "date": "2026-09-03T19:55:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxONkFETUVDUTdzOG1fUVVGUV9oSmdKWlJDQzJHSkJBdmpzYjE2bUc1ZXJLaW1iRnhFdnd5dWQ1WEtabFdyYjVsV19FVEdXNWw2QVdsNFlwX2lLSmtTM0xqYWRJc3dSWjByYWVDM1FNM3"
@@ -1596,8 +1570,8 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPa3Rfb0xyUEJleFFwMktLTUhOcnl5OUtMcGtaT0g0N0lLYjVIRS1VWHJwZXo2Q2xQR2gzdHV6ZC1Dd3lsMjJGVVZwOHpSWmx0MFFON0MydEhycXNGWXFDcjRMcUVyTE1sZk1qVzJES0"
     },
     {
-      "title": "Barilla accende Milano per il GP di Monza. Al via un nuovo spot a firma Mach9 - touchpoint.news",
-      "source": "touchpoint.news",
+      "title": "Barilla accende Milano per il GP di Monza. Al via un nuovo spot a firma Mach9 - Touchpoint News",
+      "source": "Touchpoint News",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaHR4dkFOWVh6N1kwM0JjMy13OGhBX1JBM2EtdzVOWmtZM0IzRDhvLW5uZTRhTXR1ZG9ra2tlSGR2Q2RHSzdqQmZxYm1VRl9MS2RLMzNTX09NQS1FaXZMaE04dG9ORzcwZTRsVmUxNDg4aGZ1Y3pndjRXWWNuNmlyeW1HdDZYZHY0eU9IdGdzVC1aajFPSGpKdFQ2ZGh3M0ZXdkdoOHRLREx6ektvdXlOcWxOamVCbE0?oc=5",
       "date": "2026-09-03T15:47:17.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNaHR4dkFOWVh6N1kwM0JjMy13OGhBX1JBM2EtdzVOWmtZM0IzRDhvLW5uZTRhTXR1ZG9ra2tlSGR2Q2RHSzdqQmZxYm1VRl9MS2RLMzNTX09NQS1FaXZMaE04dG9ORzcwZTRsVmUxND"
@@ -1627,7 +1601,7 @@
       "title": "Negli Usa Barilla rileva i maccheroni al formaggio di Goodles - Il Sole 24 ORE",
       "source": "Il Sole 24 ORE",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNktMaVRqQ04ya1dSMFhOZDFjSFZJWlVUWnBsTHNwWkY0NTUzWkFfZ2I1VEttQUVCTUlPUThFaWhRaFR0d0gzeWktTVdHbmh0S3BxVnVaSXB6YVVvWGQ1UXpaanZ0NzdjZFhXcml3UWR6Zmt5ZmxmLTVFcXU1aGZZbmN1ZTFiM2tyeFhlYWJDZTdKajVjck5CMA?oc=5",
-      "date": "2026-09-03T08:34:20.000Z",
+      "date": "2026-09-03T07:00:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQNktMaVRqQ04ya1dSMFhOZDFjSFZJWlVUWnBsTHNwWkY0NTUzWkFfZ2I1VEttQUVCTUlPUThFaWhRaFR0d0gzeWktTVdHbmh0S3BxVnVaSXB6YVVvWGQ1UXpaanZ0NzdjZFhXcml3UW"
     },
     {
@@ -1643,6 +1617,13 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORms4Ty15RHRIWFBxSFFkQS1zSGRzaXZKQmxKVGg2endXYlpoMzJkR25wWmtBQjBiWlVIb0RGUVc3X0JJXzNRYzdCeDJmQ1ppSWFfUkZPcWxtVlFsRHR3UlRWUmtNcEtYT1lXVFliaElKRGZ6SXNGR2NyajBNVjVsUDFjVXgzWlBnTDRLN1lfeV8xQmItVTMyZ2otU1lFWWZf0gGmAUFVX3lxTE9tNEpWdzFCd3NkZU9zLW5qVjM3SWdtRWFZSGd2M2hlRExTakRjeEVoUGRid2Z2cDFLdHp2SWNTaWd5cnp4MVdlZVIxTFhtOTQwSHlsZURoRmNOWXVkUGVFMmZ1bHpjSmtSaVd3R2FGc0o5dFhoWFhVZThhXzFFUDh0cWhlY3BjWDFtdUdTQ21hSkJic1lUcGRLMk4ySFprT2ZoZzFFMGc?oc=5",
       "date": "2026-08-26T07:00:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxORms4Ty15RHRIWFBxSFFkQS1zSGRzaXZKQmxKVGg2endXYlpoMzJkR25wWmtBQjBiWlVIb0RGUVc3X0JJXzNRYzdCeDJmQ1ppSWFfUkZPcWxtVlFsRHR3UlRWUmtNcEtYT1lXVFliaE"
+    },
+    {
+      "title": "Pasta e grano duro, l'origine non è sinonimo automatico di qualità - Il Fatto Alimentare",
+      "source": "Il Fatto Alimentare",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYSzI2ZjZYcTQ2QTEtRkVaSTlGN2VoRERMc0pMNzNaQXJDMkg3dlBEQ18tdDBBZVNPa19XVGxKWGRBeEViS01EcndyV2dkbE9JNFVvM3dDaHFVYTItMW1kNmp4OVA1QjNoeU9Fc29XRFI?oc=5",
+      "date": "2026-06-18T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFBYSzI2ZjZYcTQ2QTEtRkVaSTlGN2VoRERMc0pMNzNaQXJDMkg3dlBEQ18tdDBBZVNPa19XVGxKWGRBeEViS01EcndyV2dkbE9JNFVvM3dDaHFVYTItMW1kNmp4OVA1QjNoeU9Fc29XRF"
     },
     {
       "title": "Brand con la migliore reputazione al mondo nel 2026: la classifica e cosa li accomuna - Marketing Espresso",
@@ -1687,8 +1668,8 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPdW1hME9GN01tLW5tWWF2MmQwdElNYmUya21nRUhVZjRwZVE4NktubzBDb05TM21kVnJzeWxOSU9ZOTFVLXNrOTlTWGk2M3pndld3TTRSa09IQTlnRE0zWnQ3ekJvME1JWmphemlxVz"
     },
     {
-      "title": "9 Marchi italiani nel ranking - mglobale.promositalia.com",
-      "source": "mglobale.promositalia.com",
+      "title": "9 Marchi italiani nel ranking - Mercato Globale",
+      "source": "Mercato Globale",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNLXlIanZBTW0zRVRUNUVuQ0w1NDZmVXl3YXh5VG1lVjk3amY4Q05FVVVtbUplMW94aC0tSVRWYmlnZS1WTUw2SXRxelFXWjZSaGJocXlpQkZYTElKXzhfU24zWmNfUUk5bm9VVmNKem9DNHU0ekZDUEFJYl9COE55ZnNtSkYtR2VMaHhNS3FVUG9wZmc2bGJvNg?oc=5",
       "date": "2025-09-01T07:00:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNLXlIanZBTW0zRVRUNUVuQ0w1NDZmVXl3YXh5VG1lVjk3amY4Q05FVVVtbUplMW94aC0tSVRWYmlnZS1WTUw2SXRxelFXWjZSaGJocXlpQkZYTElKXzhfU24zWmNfUUk5bm9VVmNKem"
@@ -2136,14 +2117,6 @@
         },
         {
           "type": "news",
-          "title": "Barilla, con ‘La tavolata’ riunisce la famiglia del paddock sulla griglia di partenza di Monza﻿ - touchpoint.news",
-          "source": "TOUCHPOINT.NEWS",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSTJKcEtIZ0FWdUR2UzktLW5QaFdYcHZyOWVlWWRWdEdLYTV5NHd2bHRlNnZjMW8tV1FrbmxFbWRlQzM5RVZVdUNGYzlZX0ZSQk42VjlTTXJiRk40b3RaRDVJZ3lrYm9iNUp5YTg0SURDN2FzS0dPNUpwUVRpR3g5SU42TXdQVWU2Z1M2YnNtamxWVTVOUXQ5dGgzamRLN1lKZkRKLXdWQW1lQ1FHMFY0NEFMQlBFZ0JrQjhYejE5LTdtZHVUN0FGc3Bjcw?oc=5",
-          "date": "2026-09-04T21:06:44.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
           "title": "Passione Formula 1, emozione Monza con il gusto Barila: un weekend di gusto e convivialità fuori e dentro il circuito - Video - Gazzetta di Parma",
           "source": "GAZZETTA DI PARMA",
           "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNM1Zxc0hpUDY0M3VUM0NCa1Z2S1d0MmxVYVR6M3gxVEdhNTQ2c25WT3hUalZkZVFWT0drcDNoRm5wZ0FBa3hVUkxvQjE4amphdGtTRnE1ZmtjM0tQMU1pMDdpejFVaW1KWDZzWXdqaFpnSlpJWmUtWk1uRFZMRjNzQU5aNk1jVm9TVy1UQmh0al95TDVpRjJXa0FCOGxHaS1rMFdTVjZGeUdEWUEyZndtczI3Y2syd0RyTVhidGlSOUl2UWFVZVJFU1pVMUlHUm85Ry1kYUtpQ3p1d1EzNU1veS1ETjM4aEZzVXVPMFAtZFdjNGN1SjQ1VmpUS21xZVdGY00tUXJBclQ3YTZORHBzWQ?oc=5",
@@ -2160,15 +2133,15 @@
         },
         {
           "type": "news",
-          "title": "Video: Barilla racconta le iniziative legate alla F1 - Distribuzione Moderna",
-          "source": "DISTRIBUZIONE MODERNA",
+          "title": "Video: Barilla racconta le iniziative legate alla F1 - distribuzionemoderna.info",
+          "source": "DISTRIBUZIONEMODERNA.INFO",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcTdNcDZEV1BZRGF3eVRKVHBNZjlfby1iNXN3ZWxyTlRNUThBQm1OWFlkeXRLV0lTRVVkdWRKN0YtWTJOV1o5a1d0aE9wM29PLVNqYzFZUkdiVkVIWGtmdkYzcTVibVpqcE91X3BSeE8zVy1LMUpIQkw5TWNBVmFnUkN4NVlBdkVkbVNpR0FQTmc4VU55Nzlkd1ByNWpmOFFU?oc=5",
           "date": "2026-09-07T15:17:35.000Z",
           "brand": "Barilla"
         },
         {
           "type": "news",
-          "title": "Piatti di partenza | Cosa si mangia durante il Gran Premio di Formula 1? - Linkiesta.it",
+          "title": "Piatti di partenza | Cosa si mangia durante il Gran Premio di Formula 1? - linkiesta.it",
           "source": "LINKIESTA.IT",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPc1lZOWJlYTJ3OUhtcS1TVnNweFlpVFd0aEk5SEZLNG1lQWRKVFkyT0lYT083eUVYXzdqRzBURjh4b053NXQ3Q3FoQlRkdE15S1MzTGdlX3d1R055TndpNXEtemQybkF1WjhGQWFzdlhQOHpWQ0loRzRxYjVFYkdMSGttU2hfbmFvNW8yaA?oc=5",
           "date": "2026-09-07T02:47:25.000Z",
@@ -2184,10 +2157,10 @@
         },
         {
           "type": "news",
-          "title": "Parma apparecchia 400 metri di tavola per la Cena dei Mille - Il Sole 24 ORE",
-          "source": "IL SOLE 24 ORE",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQzlxSUhtQ3dkYzZNVW5KWXVkcFV5elljd0pVN2FDVS0xWVlnZURhT2xiNmJwZEtCc1lmVERNNHNOVnF1VUdiN0tVVVJLMXlyX0lHVUxhSnBhNFVhamRBeGlrRHZCUkFuYmRlTGNHR05BVHJLdWVjd1YtV0F1Tjk4bGpEUVJ0T25tVk1qR2FkLXhGRE5ZR0dNYWhCRi0wb2pSamtBUjl5SU1JREtLX1hXSmJpdw?oc=5",
-          "date": "2026-09-09T14:15:31.000Z",
+          "title": "Barilla mette a tavola la Formula 1 - ParmaToday",
+          "source": "PARMATODAY",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTjVxMVRrdllJdHFKX1lpa1NLUmU1ZGd2YW41dDBRamZyMHh1QXA1TlRfbXREdjVoSzVuSktGWmNMN1hJZXJVdEIzaDdwelpZN1dEX0RXTGJjbW9PWEc2bHhSb0xIcWdESGRaVmlHSERfTXZnREloUEtvdWFQT3h4ZlNR?oc=5",
+          "date": "2026-09-05T05:00:00.000Z",
           "brand": "Barilla"
         },
         {
@@ -2200,18 +2173,10 @@
         },
         {
           "type": "news",
-          "title": "Barilla, per il GP d’Italia un weekend fuori e dentro il circuito di Monza - italpress.com",
-          "source": "ITALPRESS.COM",
+          "title": "Barilla, per il GP d’Italia un weekend fuori e dentro il circuito di Monza - Italpress",
+          "source": "ITALPRESS",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVUFxbDExZXZuZTBaR2NDWHJBV1BwV2NJR3BZWmZ4VHViZHRLa25iUC1teUtzaGtob1o5ajFSY0J5SEx2dUdnNzVid0JQSko2YTNETGxsbFJCdk5PZzJ5OGZYYWtqcXlJbUd4VVNNT3Jmb3NXX2tkOWdFLTBWV1RLbkM2T0dqa1E2SGotWVF5TFhyUUNRTHdzMlNKN2ZOV1Ja?oc=5",
           "date": "2026-09-07T17:40:02.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Rubbiano Sughi compie 15 anni: lo stabilimento Barilla cresce e supera le 400 persone - ParmaToday",
-          "source": "PARMATODAY",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRnlHajVLZVlzdm1BZ3hBV3pfUF8yWGxQYmh4Y2pvWnhtNmFrd0d3U0ExRk5NSkpZVDFZc2lMbjRZa1U2ZWwwdnI5dTI0dHBDWk1CX001bHRSS2JHNndSamtzM1pXNWsxQ1lEMnBuQkpTMDYwYzR5bkxKVGVOYnliWENfa25zNXVQR0pNczhoS0FqQjM5Ty1JeGUxakRjVGkyWHdOTUFrMnJka0YyU3hXdnZRUXkxbktCTVZ4dXVMQzhsRTA?oc=5",
-          "date": "2026-09-11T06:00:00.000Z",
           "brand": "Barilla"
         },
         {
@@ -2232,7 +2197,7 @@
         },
         {
           "type": "news",
-          "title": "Cibus Tec 2026 riunisce a Parma 1.300 espositori beverage - Beverfood.com",
+          "title": "Cibus Tec 2026 riunisce a Parma 1.300 espositori beverage - beverfood.com",
           "source": "BEVERFOOD.COM",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZU5RQkV6SENqZWxjMmJCS3kxNU5EcFBPMXJka1FiREtLZDJNX08taFN2eEREeUxQSExDTm9jWGRkR0FZdlh0MVVTNm95VzJwdkxTWWZGY1ktMGtxZ3J5QUpBSnhvOEpOdVJ5TVd3VFJ1M2JBNExSQjlZWFY0dEVFcDJB?oc=5",
           "date": "2026-09-10T09:00:23.000Z",
@@ -2240,10 +2205,10 @@
         },
         {
           "type": "news",
-          "title": "Gran Ruote Experience :: Segnalazione a Parma - ParmaToday",
+          "title": "Rubbiano Sughi compie 15 anni: lo stabilimento Barilla cresce e supera le 400 persone - ParmaToday",
           "source": "PARMATODAY",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRUFUSFlVdWZKZUZtNi1RVmN0dHNweUFGR2Y4MWNwRHZCTF93S2RCN2IwX0pia3NJSVlGNGpueWlWLW83UFRHMHc3OHNiQndpTHNwLTgwb1g5NlRUamgwU1JJMXZDU3lMdFlHRjVlNllFVzhEa2ExNG9VOUpmbzhXUWhucXA4RjJv?oc=5",
-          "date": "2026-09-07T15:19:29.000Z",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRnlHajVLZVlzdm1BZ3hBV3pfUF8yWGxQYmh4Y2pvWnhtNmFrd0d3U0ExRk5NSkpZVDFZc2lMbjRZa1U2ZWwwdnI5dTI0dHBDWk1CX001bHRSS2JHNndSamtzM1pXNWsxQ1lEMnBuQkpTMDYwYzR5bkxKVGVOYnliWENfa25zNXVQR0pNczhoS0FqQjM5Ty1JeGUxakRjVGkyWHdOTUFrMnJka0YyU3hXdnZRUXkxbktCTVZ4dXVMQzhsRTA?oc=5",
+          "date": "2026-09-11T06:00:00.000Z",
           "brand": "Barilla"
         },
         {
@@ -2256,6 +2221,22 @@
         },
         {
           "type": "news",
+          "title": "Gran Ruote Experience :: Segnalazione a Parma - ParmaToday",
+          "source": "PARMATODAY",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRUFUSFlVdWZKZUZtNi1RVmN0dHNweUFGR2Y4MWNwRHZCTF93S2RCN2IwX0pia3NJSVlGNGpueWlWLW83UFRHMHc3OHNiQndpTHNwLTgwb1g5NlRUamgwU1JJMXZDU3lMdFlHRjVlNllFVzhEa2ExNG9VOUpmbzhXUWhucXA4RjJv?oc=5",
+          "date": "2026-09-07T15:19:29.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "Riso/3. Reciprocità, infrastrutture e filiera italiana al tavolo del riso - EFA News - European Food Agency",
+          "source": "EFA NEWS - EUROPEAN FOOD AGENCY",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZEQ5aXdlN05PeGdtT1pjbXFYUnVlcHJSTUNuZXlDOFhXZHJlLVNIZUlSR05lQkhMWGFldno2Z3lkZ0ppNXZwZkpYVWdIaUUwWUZhMnlOMHYxNVB4MWN6Wk5JbThVaEF1S0pwTzVXbW5ISTNqeUoyT0U1S204WTAxVVh0NHlYZ1hQNnY3bk1JZTJfdw?oc=5",
+          "date": "2026-09-11T16:25:55.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
           "title": "Tavola di 400 metri: la Cena dei Mille torna a illuminare la Parma Food Valley. E intanto cresce l'export delle 6 filiere: 5,78 miliardi di euro - ParmaToday",
           "source": "PARMATODAY",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdi1fbkxWMm9aVnlaYUhfaEpZdVYyX2dId1JwNHlKcUlLajZCeHJjMklQallIV0lGNHVKLXozci10ZzNpWTlYNWdfdDlLTjdqTm5vSVpBMTJBMjN3eUtyZWdXVDlTbDE3MC1mMi1yZmZkZVRlOVVFMVU3VURzUXhyUjZ5M3R6WWs?oc=5",
@@ -2264,10 +2245,10 @@
         },
         {
           "type": "news",
-          "title": "Felicetti punta sull’energia termica pulita - EFA News - European Food Agency",
+          "title": "Allarme orticoltura per danni climatici - EFA News - European Food Agency",
           "source": "EFA NEWS - EUROPEAN FOOD AGENCY",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRlRjdjRHTGJzQlZWcDhDU2xkS1d4c21qUFlFVnUzX3g0TzZ5V0JqUjBNTFdkTU9hYUIzQ1Q2WjU2dVlFRHk4ZWVrRDA0RFJCUWFjd0t1cHJsRWZiU3B4TUI3NFpxd0RWNUU4dmVDVUJFekFmYmplNEF2U0lwM3I4WEp1MVhzTGxKWi16ZzRn?oc=5",
-          "date": "2026-09-11T11:45:07.000Z",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZWJDaHNYaVNva0VPdzZXWTlvZWx6a1pSNUdrdC0zbklGWF9aY2VpOUcweHo2TktfdnFSOG1zdUQ3VlRVYzVJcFJmeW54NDZQLUE0cnplZWVJM0t2R3pTclM3N2VJWFNiSDduZ3ZRRjN2WmZUN0NvNERVdHFJZ3llTGh4MU8?oc=5",
+          "date": "2026-09-09T10:09:23.000Z",
           "brand": "Barilla"
         },
         {
@@ -2293,7 +2274,7 @@
           "platform": "ig",
           "author": "carolinatedeschi",
           "text": "Da Barilla con la ciurma di Race Anatomy 🏎️❤️🎤 #F1 #MonzaGP \n\nSogna ragazzo sogna \n\nPrima foto dove non sono un meme 😉\n\nCome lo spieghi? \n\nAspetta il finale \n\nEh vabbè 🫠🫠🫠\n\nPranzo panoramico \n\nE facciamocelo un selfie \n\nGrazie TAG Heuer per que",
-          "engagement": 4421,
+          "engagement": 4495,
           "date": "2026-09-07T16:40:45Z",
           "url": "https://www.instagram.com/p/3981059069905114419/",
           "brand": "Barilla"
@@ -2301,19 +2282,9 @@
         {
           "type": "social",
           "platform": "ig",
-          "author": "vickypiria",
-          "text": "#adv @barillaitalia Giorni frenetici di gara, ma con una certezza: il gusto di stare insieme. Barilla mi ha fatto sentire ancora di più a casa in questo GP di Monza, regalandomi la perfetta #DomenicaItaliana tra motori, famiglia e tanta convivialità!",
-          "engagement": 2100,
-          "date": "2026-09-09T08:53:59Z",
-          "url": "https://www.instagram.com/reel/3982273033446436378/",
-          "brand": "Barilla"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
           "author": "mochohf",
           "text": "Ma come si mangia al Gran Premio di Formula 1? 🏎️🍔\nSono stato all’Autodromo Nazionale Monza per scoprirlo.\n\nTra pit stop e simulatori di F1, ecco cosa ho provato:\n🍔 Il “Sam”: maiale sfilacciato, insalata di cavolo e carote, salsa barbecue\n🧀 Dorit",
-          "engagement": 1940,
+          "engagement": 2833,
           "date": "2026-09-10T11:02:46Z",
           "url": "https://www.instagram.com/reel/3983060330487185608/",
           "brand": "Barilla"
@@ -2321,9 +2292,19 @@
         {
           "type": "social",
           "platform": "ig",
+          "author": "vickypiria",
+          "text": "#adv @barillaitalia Giorni frenetici di gara, ma con una certezza: il gusto di stare insieme. Barilla mi ha fatto sentire ancora di più a casa in questo GP di Monza, regalandomi la perfetta #DomenicaItaliana tra motori, famiglia e tanta convivialità!",
+          "engagement": 2485,
+          "date": "2026-09-09T08:53:59Z",
+          "url": "https://www.instagram.com/reel/3982273033446436378/",
+          "brand": "Barilla"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
           "author": "anticacortepallavicina",
           "text": "Siamo felici di aver contribuito ancora una volta a creare la “magia” della Cena dei Mille. \nUn evento straordinario, che riunisce 1000 commensali intorno a una lunghissima tavolata che parte da Piazza Garibaldi, il cuore di Parma che, per una sera, ",
-          "engagement": 1551,
+          "engagement": 1583,
           "date": "2026-09-08T18:19:51Z",
           "url": "https://www.instagram.com/p/3981833725355813982/",
           "brand": "Barilla"
@@ -2353,7 +2334,7 @@
           "platform": "ig",
           "author": "gianlucagazzoli",
           "text": "#adv @barillaitalia Ho vissuto il Gran Premio di Monza insieme a Barilla, tra l’energia del circuito, l’emozione della gara e una cena speciale che ha portato in pista tutto il gusto della tradizione italiana. 🍝\n\nPerché ci sono passioni che, proprio",
-          "engagement": 1029,
+          "engagement": 991,
           "date": "2026-09-07T17:02:34Z",
           "url": "https://www.instagram.com/reel/3981061622048410953/",
           "brand": "Barilla"
@@ -2363,7 +2344,7 @@
           "platform": "tt",
           "author": "francesca.demanuel",
           "text": "🎃🍝 PASTA CREMOSA ZUCCA E SPECK 🤎 Per 2-3 persone 👇 Ho cotto 250 g di zucca in forno a 200°C per 30 minuti. Ho estratto la polpa e l’ho tenuta da parte. In padella ho rosolato 200 g di speck a pezzettoni con 1 cipolla piccola. Ho aggiunto la zucca",
-          "engagement": 531,
+          "engagement": 959,
           "date": "2026-09-10T12:17:49Z",
           "url": "https://www.tiktok.com/@francesca.demanuel/video/7683879736883432736",
           "brand": "Barilla"
@@ -2403,7 +2384,7 @@
           "platform": "ig",
           "author": "teleambiente",
           "text": "👉Torna #Roma dal 17 al 20 settembre, Cinema In Verde(@cinemainverde), il primo festival internazionale che ha scelto di raccontare la crisi ambientale e le speranze della transizione ecologica esclusivamente attraverso il #cinema di narrazione.\nLa m",
-          "engagement": 24,
+          "engagement": 35,
           "date": "2026-09-08T10:22:50Z",
           "url": "https://www.instagram.com/reel/3981593354676248318/",
           "brand": "Barilla"
@@ -2437,8 +2418,8 @@
         },
         {
           "type": "news",
-          "title": "Gragnano | Festa della Pasta, aperti ai visitatori i pastifici - Metropolisweb",
-          "source": "METROPOLISWEB",
+          "title": "Gragnano | Festa della Pasta, aperti ai visitatori i pastifici - metropolisweb.it",
+          "source": "METROPOLISWEB.IT",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSW9NMmVsVTBYSmRoZGlDYmp5UWlaNFFTZGhlRjBySUE1YXlDTlEzcVZUSXJyeGh0bkxVWHhtUXBnaEtCY3ltQWRNamMzM1lEbkZ1dTJpSllpSHhRSW5kZjJCVWFieWRCaThOOXVvQ1ctdGhqY2w2eFhvUnpmUGdhU0VGdVZ2SFFuWHViVVhSaDNwanhnXzVORDFvSTBwZW8?oc=5",
           "date": "2026-09-07T14:09:36.000Z",
           "brand": "Garofalo"
@@ -2471,12 +2452,52 @@
         },
         {
           "type": "social",
+          "platform": "tt",
+          "author": "rainews",
+          "text": "Denise, la figlia della testimone di giustizia Lea Garofalo, si è tolta la vita a 35 anni, la stessa età che aveva la mamma quando fu assassinata per mano della 'ndrangheta. Lea Garofalo è stata uno dei simboli della ribellione alle mafie. Nel 2002 f",
+          "engagement": 15215,
+          "date": "2026-09-10T19:28:15Z",
+          "url": "https://www.tiktok.com/@rainews/video/7683990663058279712",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "social",
           "platform": "ig",
           "author": "cucinare_stanca",
           "text": "#adv @pastagarofaloit Un timballo di candele spezzate, melanzane fritte, passata e scamorza, per ricordarvi che il vero Capodanno non è il primo gennaio ma arriva sempre a  settembre, quando tutto ricomincia. Avete qualche desiderio da esprimere, in ",
           "engagement": 9389,
           "date": "2026-09-10T10:09:16Z",
           "url": "https://www.instagram.com/reel/3983035343517597504/",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "parliamodimafia",
+          "text": "È una notizia tragica quella arrivata oggi, 10 settembre: è morta a 35 anni Denise, la figlia di Lea Garofalo, la testimone di giustizia assassinata dalla ’ndrangheta nel 2009. Secondo quanto anticipato da Avvenire e confermato all’ANSA da più fonti,",
+          "engagement": 7285,
+          "date": "2026-09-10T17:01:38Z",
+          "url": "https://www.instagram.com/p/3983243140546216825/",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "liberacontrolemafie",
+          "text": "Ieri è morta una giovane donna coraggiosa e sofferente.\n\nQualcosa si è spezzato dentro la sua anima inquieta e sensibile. E qualcosa si sta spezzando anche dentro di noi, nel corpo vivo delle nostre realtà che hanno provato ad accoglierla e accompagn",
+          "engagement": 5438,
+          "date": "2026-09-11T07:03:28Z",
+          "url": "https://www.instagram.com/p/3983665442849384874/",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "vdnews",
+          "text": "Durante i funerali di Lea Garofalo, uccisa dalla ’ndrangheta nel 2009, in piazza si sentì anche la voce della figlia Denise Cosco. La ragazza, che all’epoca era sotto protezione, non salì sul palco: il suo intervento arrivò attraverso una registrazio",
+          "engagement": 5241,
+          "date": "2026-09-11T15:36:30Z",
+          "url": "https://www.instagram.com/reel/3983925514872123248/",
           "brand": "Garofalo"
         },
         {
@@ -2502,11 +2523,11 @@
         {
           "type": "social",
           "platform": "ig",
-          "author": "parliamodimafia",
-          "text": "È una notizia tragica quella arrivata oggi, 10 settembre: è morta a 35 anni Denise, la figlia di Lea Garofalo, la testimone di giustizia assassinata dalla ’ndrangheta nel 2009. Secondo quanto anticipato da Avvenire e confermato all’ANSA da più fonti,",
-          "engagement": 2838,
-          "date": "2026-09-10T17:01:38Z",
-          "url": "https://www.instagram.com/p/3983243140546216825/",
+          "author": "wikimafia",
+          "text": "Edizione del TgLa7 delle 20:00, tra le notizie quella della tragica fine di Denise, figlia di #LeaGarofalo. \"Una storia che tutti conoscono\", esordisce il direttore, Enrico Mentana.\n\nPoi nell'introdurre il servizio la frase definisce Lea \"una donna c",
+          "engagement": 3789,
+          "date": "2026-09-11T07:00:35Z",
+          "url": "https://www.instagram.com/p/3983666160939612783/",
           "brand": "Garofalo"
         },
         {
@@ -2517,6 +2538,36 @@
           "engagement": 2406,
           "date": "2026-09-10T19:22:47Z",
           "url": "https://www.instagram.com/reel/3983314270237072794/",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "social",
+          "platform": "tt",
+          "author": "la.repubblica",
+          "text": "Una finestra come via di fuga. Da una vita di dolore, tradimenti, paura. Un salto dal terzo piano, per lasciarsi indietro tutto. Dopo quattro giorni di agonia è morta, all’ospedale San Camillo di Roma, Denise Cosco, la figlia di Lea Garofalo, la test",
+          "engagement": 2004,
+          "date": "2026-09-11T07:02:16Z",
+          "url": "https://www.tiktok.com/@la.repubblica/video/7684169593690049824",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "matteo.hallissey",
+          "text": "Denise aveva 35 anni. Ci ha lasciati alla stessa età di sua madre.\n\nDenise era figlia di Lea Garofalo, la testimone di giustizia che decise di ribellarsi alla ’ndrangheta e che per quella scelta venne assassinata nel 2009.\n\nDenise, dopo la morte di s",
+          "engagement": 1890,
+          "date": "2026-09-11T07:08:09Z",
+          "url": "https://www.instagram.com/p/3983669330962439018/",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "l_boldrini",
+          "text": "È un grande dolore per me, apprendere della morte di Denise Cosco, figlia della testimone di giustizia Lea Garofalo brutalmente uccisa perché aveva raccontato ai magistrati le faide della 'ndrangheta nella sua terra e nella sua famiglia.\n\nDenise avev",
+          "engagement": 1877,
+          "date": "2026-09-10T17:46:54Z",
+          "url": "https://www.instagram.com/p/3983266663457085144/",
           "brand": "Garofalo"
         },
         {
@@ -2537,76 +2588,6 @@
           "engagement": 1466,
           "date": "2026-09-10T18:49:51Z",
           "url": "https://www.instagram.com/p/3983298363679922962/",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "tg3rai",
-          "text": "Si è tolta la vita Denise, figlia di Lea Garofalo, testimone di giustizia che pagò con la vita la scelta di ribellarsi alla 'ndrangheta. Denise aveva 35 anni, la stessa età della mamma quando fu uccisa.\n\nIl servizio di @jaripilati \n\n#tg3",
-          "engagement": 1249,
-          "date": "2026-09-10T17:40:47Z",
-          "url": "https://www.instagram.com/reel/3983263309013121841/",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "angelamarino1726",
-          "text": "Una tristissima notizia: è morta la figlia di Lea Garofalo, vittima innocente di mafia. Sì è tolta la vita a 35 anni. La mamma aveva la stessa età quando fu uccisa dalla Ndrangheta.",
-          "engagement": 992,
-          "date": "2026-09-10T17:12:29Z",
-          "url": "https://www.instagram.com/p/3983249365964146834/",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "tt",
-          "author": "tgla7",
-          "text": "Aveva la stessa età della mamma Lea quando è stata uccisa, 35 anni. Denise Cosco invece di morire lo ha scelto, un peso insopportabile di una vita segnata dal dolore. Si è buttata dalla finestra di un appartamento a Roma domenica scorsa, è morta quat",
-          "engagement": 933,
-          "date": "2026-09-10T18:49:49Z",
-          "url": "https://www.tiktok.com/@tgla7/video/7683980756577684758",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "l_boldrini",
-          "text": "È un grande dolore per me, apprendere della morte di Denise Cosco, figlia della testimone di giustizia Lea Garofalo brutalmente uccisa perché aveva raccontato ai magistrati le faide della 'ndrangheta nella sua terra e nella sua famiglia.\n\nDenise avev",
-          "engagement": 571,
-          "date": "2026-09-10T17:46:54Z",
-          "url": "https://www.instagram.com/p/3983266663457085144/",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "tt",
-          "author": "la.stampa",
-          "text": "Si è tolta la vita a 35 anni Denise Cosco, la figlia della testimone di giustizia Lea Garofalo. Due donne coraggiose: la madre perché aveva deciso di ribellarsi alla ‘Ndrangheta, la figlia perché aveva testimoniato nel processo contro suo padre, Carl",
-          "engagement": 543,
-          "date": "2026-09-11T10:25:05Z",
-          "url": "https://www.tiktok.com/@la.stampa/video/7684221863928581408",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "eugenio_giani",
-          "text": "Denise, la figlia di Lea Garofalo, si è tolta la vita a 35 anni. La stessa età che aveva sua madre quando fu uccisa.\n\nLea aveva iniziato a collaborare con la giustizia anche per amore di sua figlia, per provare a regalarle una vita libera dalla ’ndra",
-          "engagement": 384,
-          "date": "2026-09-10T18:24:42Z",
-          "url": "https://www.instagram.com/p/3983285122559663387/",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "labodif",
-          "text": "La notizia rimbalza ovunque.\nEd è di quelle che fa male.\nDenise Cosco (la bambina della foto) si è tolta la vita. \nAveva 35 anni, la stessa età che aveva sua madre, Lea Garofalo, (la donna nella foto) quando venne assassinata nel novembre del 2009.\nL",
-          "engagement": 382,
-          "date": "2026-09-10T19:42:26Z",
-          "url": "https://www.instagram.com/p/3983324774183356639/",
           "brand": "Garofalo"
         }
       ]
@@ -2671,7 +2652,7 @@
           "platform": "ig",
           "author": "dececco_pasta",
           "text": "ll gusto autentico del Mediterrano si rivela nella sua semplicità 🍝\n\nLa Pasta Mista Integrale De Cecco è il formato perfetto per creazioni tanto facili quanto squisite. Un’idea veloce?\n\nMelanzane croccanti, zucchine soffritte, pomodorini confit e pa",
-          "engagement": 159,
+          "engagement": 181,
           "date": "2026-09-07T07:38:28Z",
           "url": "https://www.instagram.com/reel/3980785848773611750/",
           "brand": "De Cecco"
@@ -2734,7 +2715,7 @@
           "platform": "ig",
           "author": "callmewine_official",
           "text": "Bottle Battle – Ep. 6 🍾\n \nDieci Franciacorta, un solo vincitore. Nomi che hanno fatto la storia della denominazione e realtà piccole tutte da scoprire.\n \nRound dopo round, Matteo deve scegliere: una bottiglia passa il turno, l’altra viene eliminata,",
-          "engagement": 2388,
+          "engagement": 3014,
           "date": "2026-09-09T16:00:10Z",
           "url": "https://www.instagram.com/reel/3982488170326895045/",
           "brand": "Divella"
@@ -2754,7 +2735,7 @@
           "platform": "ig",
           "author": "divellaofficial",
           "text": "E TU, HAI GIÀ PROVATO A VINCERE?\nIl concorso Inzuppa e VINCI è partito, ma c’è ancora tempo per giocare e provare a portarti a casa uno dei premi in palio!\nBastano 3 confezioni di biscotti Divella, uno scontrino da conservare e pochi semplici passagg",
-          "engagement": 14,
+          "engagement": 22,
           "date": "2026-09-10T17:40:40Z",
           "url": "https://www.instagram.com/reel/3983263373764519925/",
           "brand": "Divella"
@@ -2832,7 +2813,7 @@
           "platform": "ig",
           "author": "pasta_rummo",
           "text": "In questa ricetta la sapidità è tutta merito delle acciughe, protagoniste di questo pesto usato per condire i Bucatini n° 6 Rummo. Un piatto pieno di profumo, grazie all’arancia che viene utilizzata sia nel pesto – con il suo succo e la scorza – che ",
-          "engagement": 480,
+          "engagement": 532,
           "date": "2026-09-09T16:00:19Z",
           "url": "https://www.instagram.com/reel/3982488190729690463/",
           "brand": "Rummo"
