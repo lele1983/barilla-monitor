@@ -1,27 +1,27 @@
 {
   "meta": {
-    "generatedAt": "2026-09-15T11:09:28.206Z",
+    "generatedAt": "2026-09-15T16:20:39.832Z",
     "pipelineVersion": "1.0.0",
     "sources": {
       "opensearch": true,
-      "apify": true,
+      "apify": false,
       "eumetra": true,
       "claude": false,
       "competitors": true
     },
-    "processingTimeMs": 4100
+    "processingTimeMs": 15473
   },
   "social": {
     "overview": {
-      "totalPosts": 200904,
-      "prevTotalPosts": 224340,
-      "volumeChange": -10.4,
-      "mentions24h": 10877,
-      "totalEngagement": 766323562,
-      "avgEngagementRate": 0.009117211248517427,
-      "erChange": -19.9,
+      "totalPosts": 215187,
+      "prevTotalPosts": 224266,
+      "volumeChange": -4,
+      "mentions24h": 20571,
+      "totalEngagement": 739389257,
+      "avgEngagementRate": 0.009010934685321043,
+      "erChange": -21.5,
       "organicPct": 98,
-      "sponsoredCount": 4180
+      "sponsoredCount": 4406
     },
     "brandHealth": {
       "score": 79,
@@ -34,7 +34,7 @@
         },
         {
           "name": "Engagement",
-          "score": 46,
+          "score": 45,
           "color": "#3ba4ff"
         },
         {
@@ -78,339 +78,327 @@
     "platforms": [
       {
         "name": "tt",
-        "count": 113802,
-        "pctOfTotal": 56.6
+        "count": 120732,
+        "pctOfTotal": 56.1
       },
       {
         "name": "ig",
-        "count": 79594,
-        "pctOfTotal": 39.6
+        "count": 86137,
+        "pctOfTotal": 40
       },
       {
         "name": "yt",
-        "count": 7508,
-        "pctOfTotal": 3.7
+        "count": 8318,
+        "pctOfTotal": 3.9
       }
     ],
     "dailyVolume": [
       {
         "date": "2026-09-08T00:00:00.000Z",
-        "count": 21622,
-        "engagement": 117820219,
-        "avgEr": 0.012187809826013255
+        "count": 10458,
+        "engagement": 64350583,
+        "avgEr": 0.012030949369988159
       },
       {
         "date": "2026-09-09T00:00:00.000Z",
-        "count": 33868,
-        "engagement": 140886512,
-        "avgEr": 0.010707468421636524
+        "count": 33866,
+        "engagement": 141763347,
+        "avgEr": 0.01091459160515391
       },
       {
         "date": "2026-09-10T00:00:00.000Z",
-        "count": 34154,
-        "engagement": 124132093,
-        "avgEr": 0.009830315400559614
+        "count": 34155,
+        "engagement": 125198372,
+        "avgEr": 0.010180430070290679
       },
       {
         "date": "2026-09-11T00:00:00.000Z",
-        "count": 34887,
-        "engagement": 129653252,
-        "avgEr": 0.009911853205420401
+        "count": 34892,
+        "engagement": 131433552,
+        "avgEr": 0.010339581919628893
       },
       {
         "date": "2026-09-12T00:00:00.000Z",
-        "count": 30238,
-        "engagement": 83369223,
-        "avgEr": 0.008305697160088213
+        "count": 30242,
+        "engagement": 85592948,
+        "avgEr": 0.0089764987755792
       },
       {
         "date": "2026-09-13T00:00:00.000Z",
-        "count": 28624,
-        "engagement": 101929949,
-        "avgEr": 0.006777144995811799
+        "count": 28633,
+        "engagement": 107863670,
+        "avgEr": 0.008483502643074006
       },
       {
         "date": "2026-09-14T00:00:00.000Z",
-        "count": 15832,
-        "engagement": 63062711,
-        "avgEr": 0.004556681147350005
+        "count": 33413,
+        "engagement": 76476883,
+        "avgEr": 0.006015749710169014
       },
       {
         "date": "2026-09-15T00:00:00.000Z",
-        "count": 1679,
-        "engagement": 5469603,
-        "avgEr": 0.003992736544655882
+        "count": 9528,
+        "engagement": 6709902,
+        "avgEr": 0.002070751360302457
       }
     ],
     "hourlyVolume": [
       {
-        "hour": "2026-09-14T11:00:00.000Z",
-        "count": 717,
-        "engagement": 3871314
-      },
-      {
-        "hour": "2026-09-14T12:00:00.000Z",
-        "count": 969,
-        "engagement": 4099053
-      },
-      {
-        "hour": "2026-09-14T13:00:00.000Z",
-        "count": 851,
-        "engagement": 3573755
-      },
-      {
-        "hour": "2026-09-14T14:00:00.000Z",
-        "count": 746,
-        "engagement": 4322260
-      },
-      {
-        "hour": "2026-09-14T15:00:00.000Z",
-        "count": 912,
-        "engagement": 5046314
-      },
-      {
         "hour": "2026-09-14T16:00:00.000Z",
-        "count": 1207,
-        "engagement": 4719904
+        "count": 1608,
+        "engagement": 3665943
       },
       {
         "hour": "2026-09-14T17:00:00.000Z",
-        "count": 914,
-        "engagement": 3692787
+        "count": 2265,
+        "engagement": 4534491
       },
       {
         "hour": "2026-09-14T18:00:00.000Z",
-        "count": 910,
-        "engagement": 1855261
+        "count": 2248,
+        "engagement": 2663775
       },
       {
         "hour": "2026-09-14T19:00:00.000Z",
-        "count": 713,
-        "engagement": 2830106
+        "count": 1820,
+        "engagement": 3521045
       },
       {
         "hour": "2026-09-14T20:00:00.000Z",
-        "count": 515,
-        "engagement": 1622066
+        "count": 1351,
+        "engagement": 2205097
       },
       {
         "hour": "2026-09-14T21:00:00.000Z",
-        "count": 410,
-        "engagement": 831329
+        "count": 935,
+        "engagement": 1123574
       },
       {
         "hour": "2026-09-14T22:00:00.000Z",
-        "count": 261,
-        "engagement": 181815
+        "count": 588,
+        "engagement": 305888
       },
       {
         "hour": "2026-09-14T23:00:00.000Z",
-        "count": 73,
-        "engagement": 133675
+        "count": 228,
+        "engagement": 160685
       },
       {
         "hour": "2026-09-15T00:00:00.000Z",
-        "count": 67,
-        "engagement": 132581
+        "count": 137,
+        "engagement": 147162
       },
       {
         "hour": "2026-09-15T01:00:00.000Z",
-        "count": 38,
-        "engagement": 4126309
+        "count": 88,
+        "engagement": 4132497
       },
       {
         "hour": "2026-09-15T02:00:00.000Z",
-        "count": 42,
-        "engagement": 7182
+        "count": 101,
+        "engagement": 25861
       },
       {
         "hour": "2026-09-15T03:00:00.000Z",
-        "count": 22,
-        "engagement": 9514
+        "count": 96,
+        "engagement": 25740
       },
       {
         "hour": "2026-09-15T04:00:00.000Z",
-        "count": 51,
-        "engagement": 29722
+        "count": 267,
+        "engagement": 66428
       },
       {
         "hour": "2026-09-15T05:00:00.000Z",
-        "count": 137,
-        "engagement": 151624
+        "count": 638,
+        "engagement": 236710
       },
       {
         "hour": "2026-09-15T06:00:00.000Z",
-        "count": 183,
-        "engagement": 128797
+        "count": 872,
+        "engagement": 280135
       },
       {
         "hour": "2026-09-15T07:00:00.000Z",
-        "count": 190,
-        "engagement": 176857
+        "count": 1051,
+        "engagement": 382207
       },
       {
         "hour": "2026-09-15T08:00:00.000Z",
-        "count": 218,
-        "engagement": 385954
+        "count": 1412,
+        "engagement": 631547
       },
       {
         "hour": "2026-09-15T09:00:00.000Z",
-        "count": 258,
-        "engagement": 183092
+        "count": 1576,
+        "engagement": 385463
       },
       {
         "hour": "2026-09-15T10:00:00.000Z",
-        "count": 401,
-        "engagement": 135931
+        "count": 2119,
+        "engagement": 346751
       },
       {
         "hour": "2026-09-15T11:00:00.000Z",
-        "count": 72,
-        "engagement": 2040
+        "count": 1100,
+        "engagement": 48659
+      },
+      {
+        "hour": "2026-09-15T12:00:00.000Z",
+        "count": 71,
+        "engagement": 742
       }
     ],
     "hashtags": [
       {
-        "tag": "perte",
-        "count": 4568
+        "tag": "accadeoggi",
+        "count": 4935
       },
       {
-        "tag": "accadeoggi",
-        "count": 4453
+        "tag": "perte",
+        "count": 4911
       },
       {
         "tag": "fyp",
-        "count": 3942
+        "count": 4300
       },
       {
         "tag": "viral",
-        "count": 3136
+        "count": 3435
       },
       {
         "tag": "adv",
-        "count": 1955
+        "count": 2007
       },
       {
         "tag": "neiperte",
-        "count": 1723
+        "count": 1854
       },
       {
         "tag": "tiktokshop",
-        "count": 1588
+        "count": 1683
       },
       {
         "tag": "napoli",
-        "count": 1430
+        "count": 1522
       },
       {
         "tag": "foryou",
-        "count": 1300
+        "count": 1372
       },
       {
         "tag": "offerteperte",
-        "count": 1272
+        "count": 1309
       },
       {
         "tag": "venezia83",
-        "count": 1164
+        "count": 1112
       },
       {
         "tag": "capcut",
-        "count": 933
+        "count": 997
       },
       {
         "tag": "seriea",
-        "count": 838
-      },
-      {
-        "tag": "voliamoneixte✈🦁🔝💯💥",
-        "count": 823
+        "count": 937
       },
       {
         "tag": "virale",
-        "count": 822
+        "count": 897
       },
       {
         "tag": "italia",
-        "count": 791
+        "count": 876
+      },
+      {
+        "tag": "voliamoneixte✈🦁🔝💯💥",
+        "count": 864
       },
       {
         "tag": "calcio",
-        "count": 766
+        "count": 832
       },
       {
         "tag": "perteeee",
-        "count": 725
-      },
-      {
-        "tag": "amore",
-        "count": 698
+        "count": 773
       },
       {
         "tag": "roma",
-        "count": 674
+        "count": 752
+      },
+      {
+        "tag": "amore",
+        "count": 742
       },
       {
         "tag": "italy",
-        "count": 660
-      },
-      {
-        "tag": "davedere",
-        "count": 645
+        "count": 717
       },
       {
         "tag": "milano",
-        "count": 630
-      },
-      {
-        "tag": "freshforfall",
-        "count": 600
+        "count": 712
       },
       {
         "tag": "backtoschool",
-        "count": 587
+        "count": 680
+      },
+      {
+        "tag": "madeinitaly",
+        "count": 643
+      },
+      {
+        "tag": "fashion",
+        "count": 617
       }
     ],
     "creators": [
       {
         "name": "championsleague",
-        "posts": 108,
-        "engagement": 39378640,
+        "posts": 99,
+        "engagement": 37297928,
         "platform": "ig",
         "followers": 120256707,
-        "avgEr": 0.004827585573814373
+        "avgEr": 0.0049682846716803016
       },
       {
         "name": "433",
-        "posts": 66,
-        "engagement": 37733433,
+        "posts": 63,
+        "engagement": 34572813,
         "platform": "ig",
         "followers": 79758883,
-        "avgEr": 0.00716837189464687
+        "avgEr": 0.0068806998621715396
       },
       {
         "name": "fcbarcelona",
-        "posts": 56,
-        "engagement": 35793868,
+        "posts": 52,
+        "engagement": 33166901,
         "platform": "ig",
         "followers": 148295403,
-        "avgEr": 0.004310155280307066
+        "avgEr": 0.00430104377025611
       },
       {
         "name": "fabriziorom",
-        "posts": 54,
-        "engagement": 31024022,
+        "posts": 51,
+        "engagement": 28609832,
         "platform": "ig",
         "followers": 50604142,
-        "avgEr": 0.01135319962397398
+        "avgEr": 0.011085596472304888
       },
       {
         "name": "realmadrid",
-        "posts": 78,
-        "engagement": 15914889,
+        "posts": 77,
+        "engagement": 15650228,
         "platform": "ig",
         "followers": 181138649,
-        "avgEr": 0.001127087096041962
+        "avgEr": 0.0011227343751468754
+      },
+      {
+        "name": "cristiano",
+        "posts": 4,
+        "engagement": 15166909,
+        "platform": "ig",
+        "followers": 679716144,
+        "avgEr": 0.005578398105548013
       },
       {
         "name": "lilbieber",
@@ -421,28 +409,28 @@
         "avgEr": 0.010374508152731176
       },
       {
-        "name": "cristiano",
-        "posts": 4,
-        "engagement": 14553129,
-        "platform": "ig",
-        "followers": 679716144,
-        "avgEr": 0.005352649458330359
-      },
-      {
         "name": "manutd",
-        "posts": 63,
-        "engagement": 8748372,
+        "posts": 59,
+        "engagement": 8321412,
         "platform": "ig",
         "followers": 66115556,
-        "avgEr": 0.0021003082484710198
+        "avgEr": 0.0021332480567195443
       },
       {
         "name": "premierleague",
-        "posts": 78,
-        "engagement": 6679542,
+        "posts": 75,
+        "engagement": 6547503,
         "platform": "ig",
         "followers": 80317854,
-        "avgEr": 0.0010666314673974254
+        "avgEr": 0.0010873544355438788
+      },
+      {
+        "name": "apsocalyps3",
+        "posts": 40,
+        "engagement": 6130735,
+        "platform": "tt",
+        "followers": 250300,
+        "avgEr": 0.6124959184558153
       },
       {
         "name": "lalalalisa_m",
@@ -453,28 +441,20 @@
         "avgEr": 0.02510052620811592
       },
       {
-        "name": "apsocalyps3",
-        "posts": 34,
-        "engagement": 5166362,
-        "platform": "tt",
-        "followers": 249300,
-        "avgEr": 0.6095139331304122
-      },
-      {
         "name": "psg",
-        "posts": 61,
-        "engagement": 5153533,
+        "posts": 56,
+        "engagement": 4885185,
         "platform": "ig",
         "followers": 67351356,
-        "avgEr": 0.0012543793111007833
+        "avgEr": 0.001295229251636321
       },
       {
         "name": "scuderiaferrari",
-        "posts": 71,
-        "engagement": 4719048,
+        "posts": 68,
+        "engagement": 4385258,
         "platform": "ig",
         "followers": 20688306,
-        "avgEr": 0.0032127069654099465
+        "avgEr": 0.0031171758690776382
       },
       {
         "name": "vindiesel",
@@ -485,12 +465,12 @@
         "avgEr": 0.008317867112436336
       },
       {
-        "name": "voguemagazine",
-        "posts": 64,
-        "engagement": 4109571,
+        "name": "jacopoaquila",
+        "posts": 12,
+        "engagement": 4106198,
         "platform": "ig",
-        "followers": 51881329,
-        "avgEr": 0.0012379497536036984
+        "followers": 875227,
+        "avgEr": 0.39096504868641696
       }
     ],
     "posts": [
@@ -513,14 +493,38 @@
       },
       {
         "platform": "ig",
+        "author": "poggileonardo_finanza",
+        "time": "2026-09-15T09:14:46Z",
+        "text": "Fare la spesa costa davvero di più rispetto a qualche anno fa? 🛒💸\n\nNel confronto mostrato vengono presi gli stessi prodotti, con gli stessi marchi, tra 2020 e 2026.\n\nIl risultato è pesante: la stessa spesa oggi costa circa il 48% in più.\n\nAlcuni es",
+        "engagement": 705,
+        "engagementRate": 0.007145680664092194,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/811304010_18169969621462242_3987432575733718329_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=103&ig_cache_key=Mzk4NTMzNzg0NDg1MDE3NjgwMjE4MTY5OTY5NjE4NDYyMjQy.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX3VzZXJfdXBsb2FkZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=Qsqmakr49CAQ7kNvwHvoCGz&_nc_oc=AdpIwxc8NaMmda8aKoEOobjvoGZz5DdIdHpm8NVeksHDJcl2zs9jgikGFREKm5mC8va2ciNHja4W2vobTMJQ3RMG&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=fxhzoXeO0qgcQY1rUnN-hQ&_nc_ss=7a3ba&oh=00_AQKVOA3aPPy25K-XuUq-ISachfummYw3Baba92Fi_cbLug&oe=6AAF1772",
+        "url": "https://www.instagram.com/reel/3985337844850176802/"
+      },
+      {
+        "platform": "ig",
+        "author": "barillaitalia",
+        "time": "2026-09-14T09:00:11Z",
+        "text": "Ci sono ricette che girano l’Italia in lungo e in largo fino a entrare nel tuo cuore 💚 \nIl viaggio del Basil Bar by Pesto Barilla lungo la Via del Pesto è finito, ma il suo gusto ci accompagnerà per sempre. \nGrazie a tutti voi che ne avete fatto par",
+        "engagement": 76,
+        "engagementRate": 0.0005806801598398545,
+        "sentiment": "neg",
+        "hashtags": [],
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/802070037_1389097542722443_2281821315774831305_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=107&ig_cache_key=Mzk4NTkwMTA0MTc0NjE4MjA2Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=H7gcOvi-1-wQ7kNvwFEUm-D&_nc_oc=AdrPFsCejmZ9QpXB27js_TXkw3EDmEOMiFVUe-kLcuJ5Am-YqVSrEQknxBkUaNDfXc1vnVPBhbB_eYFoiwOZLHru&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=nU5mMz1WNiCXh5dKIKIG-g&_nc_ss=7a3ba&oh=00_AQJZmcWRvjA0ZlXNsXremxjlTkGKU2RTP7GMJlqu5Ubi5A&oe=6AAEF699",
+        "url": "https://www.instagram.com/reel/3985901041746182063/"
+      },
+      {
+        "platform": "ig",
         "author": "magnanirocca",
         "time": "2026-09-13T12:34:01Z",
         "text": "MAN RAY: tutto. 🫦 La più completa mostra mai dedicata a Man Ray in Italia.\n\nAlla Fondazione Magnani-Rocca, oltre 300 opere raccontano sessant’anni di sperimentazione tra fotografia, pittura, scultura, design, grafica, editoria e cinema, da New York ",
-        "engagement": 868,
-        "engagementRate": 0.021828789860175033,
+        "engagement": 943,
+        "engagementRate": 0.023714918016296146,
         "sentiment": "neu",
         "hashtags": [],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/808942980_18628955146025212_1386827459766226038_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=110&ig_cache_key=Mzk4NTI3ODcyNzk2MDkyNTc1MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=D-1zwD52k1oQ7kNvwHeCXqn&_nc_oc=Ado6DNaz6opRNsklF5I7ZywKd6VJZ7SD9LLvrE51UXTpQaxg-FXphW91TXU0PcP_adPsPx9evXdVkorpWuffORuF&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=PCCwWmKufFDRBuN_OTlyoQ&_nc_ss=7a3ba&oh=00_AQLhjrFvnabj233ZcEdN8PjWbbkb0D1jEuHyKTjtzbH85g&oe=6AAD677D",
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/808942980_18628955146025212_1386827459766226038_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=110&ig_cache_key=Mzk4NTI3ODcyNzk2MDkyNTc1MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=D-1zwD52k1oQ7kNvwG7a2I8&_nc_oc=AdrLCAgfOcCO8PCKkVXuq5olLnxoO3cJwKs5x2PEYVR0zDLWixbvQauqw0sctCruPjXJ6O5Io_nX7rlKywdkpPOp&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=Wlt6qUA1p4qziSESEZSmkA&_nc_ss=7a3ba&oh=00_AQLxtTjnDcAtsnXUiZQzOU7-4XxqjoqKRIN9RT8A6RpOwQ&oe=6AAEF13D",
         "url": "https://www.instagram.com/p/3985283538206851779/"
       },
       {
@@ -612,15 +616,15 @@
         "author": "francesca.demanuel",
         "time": "2026-09-10T12:17:49Z",
         "text": "🎃🍝 PASTA CREMOSA ZUCCA E SPECK 🤎 Per 2-3 persone 👇 Ho cotto 250 g di zucca in forno a 200°C per 30 minuti. Ho estratto la polpa e l’ho tenuta da parte. In padella ho rosolato 200 g di speck a pezzettoni con 1 cipolla piccola. Ho aggiunto la zucca",
-        "engagement": 1146,
-        "engagementRate": 0.005116071428571428,
+        "engagement": 1217,
+        "engagementRate": 0.005433035714285714,
         "sentiment": "neg",
         "hashtags": [
           "perteeeeeeee",
           "virale",
           "frollafrancesca"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/okqtmKFi3BHQpAFRtDtQ7fHHuoEZQ9fVh4PDEA~tplv-tiktokx-dmt-logom:tos-useast2a-i-0068-euttp/o0RSeXIAYiALsInPFZGidie7AfGONKAQCA9qfF.image?dr=10393&x-expires=1789542000&x-signature=xPql37k7CuxMJBUyRZoQpc5ycks%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/okqtmKFi3BHQpAFRtDtQ7fHHuoEZQ9fVh4PDEA~tplv-tiktokx-dmt-logom:tos-useast2a-i-0068-euttp/o0RSeXIAYiALsInPFZGidie7AfGONKAQCA9qfF.image?dr=10393&x-expires=1789642800&x-signature=6dvXJ7U9O%2FH3MxtjCvomYzB%2FP%2Bs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
         "url": "https://www.tiktok.com/@francesca.demanuel/video/7683879736883432736"
       },
       {
@@ -642,14 +646,14 @@
         "author": "mochohf",
         "time": "2026-09-10T11:02:46Z",
         "text": "Ma come si mangia al Gran Premio di Formula 1? 🏎️🍔\nSono stato all’Autodromo Nazionale Monza per scoprirlo.\n\nTra pit stop e simulatori di F1, ecco cosa ho provato:\n🍔 Il “Sam”: maiale sfilacciato, insalata di cavolo e carote, salsa barbecue\n🧀 Dorit",
-        "engagement": 2992,
-        "engagementRate": 0.014941845657526105,
+        "engagement": 3046,
+        "engagementRate": 0.015211518005623167,
         "sentiment": "neu",
         "hashtags": [
           "invitedbypepsico",
           "tastethethrill"
         ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/802680593_18625119412054702_5406397346965649406_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=102&ig_cache_key=Mzk4MzA2MDMzMDQ4NzE4NTYwODE4NjI1MTE5NDA2MDU0NzAy.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzIifQ%3D%3D&_nc_ohc=ApRBtbPUIfcQ7kNvwGnLKDN&_nc_oc=AdojcftiTOz6cTYKhunJgMq_cnRxC2HRDxOPVcELRTBY9IetOFGY0QcJdlVgKo-1n8ewOm7IIZ6YKIAWiG6f61YS&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=7nK1QmZKkAOBiivT2aGctA&_nc_ss=7a3ba&oh=00_AQJkBHj28_4hEXEpvXCdKMxpif49IC6AegBsJq7py-DVqQ&oe=6AAD85A8",
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/802680593_18625119412054702_5406397346965649406_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=102&ig_cache_key=Mzk4MzA2MDMzMDQ4NzE4NTYwODE4NjI1MTE5NDA2MDU0NzAy.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=ApRBtbPUIfcQ7kNvwHnpG5x&_nc_oc=Adru-d56GVIqeBKkzLGfG1BBGsO5EMzJJZnL0zFlLDg04PRfIm-LhpYNDi4vVEaQAS20Yz1ZiWPK1kzuRflnVKxm&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=IALvTB85Fh4iVYexGqnKQw&_nc_ss=7a3ba&oh=00_AQJAgKGV8datHk38xMU-uJ9WsVRTiO5Kyjh3jC5mAbmAxA&oe=6AAF0F68",
         "url": "https://www.instagram.com/reel/3983060330487185608/"
       },
       {
@@ -673,11 +677,11 @@
         "author": "anticacortepallavicina",
         "time": "2026-09-08T18:19:51Z",
         "text": "Siamo felici di aver contribuito ancora una volta a creare la “magia” della Cena dei Mille. \nUn evento straordinario, che riunisce 1000 commensali intorno a una lunghissima tavolata che parte da Piazza Garibaldi, il cuore di Parma che, per una sera, ",
-        "engagement": 1613,
-        "engagementRate": 0.04527973500266682,
+        "engagement": 1623,
+        "engagementRate": 0.045560452516632516,
         "sentiment": "pos",
         "hashtags": [],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/800862010_18455282140191458_1029117094040070104_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&_nc_cat=104&ig_cache_key=Mzk4MTgzMzY1MDc1NjA5NTkwOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjcxNi5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=qmWGIZWJr3AQ7kNvwGFZkmQ&_nc_oc=AdrBPY23CvN8G8RHeOx04vlyQnwKMtgpyKhp3LVpsfuaBNW0Lkme5LbRVrL_EKe9j2wF3RzuztDN3vKXoeqN8vsR&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=ZSP5uqSHu9GhG9RP6QHzIA&_nc_ss=7a3ba&oh=00_AQJ0jfJO6_iW7j3ZrEIju6Fatq-ys9d2gCK9w3YH7A1CeQ&oe=6AAD6F36",
+        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/800862010_18455282140191458_1029117094040070104_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&_nc_cat=104&ig_cache_key=Mzk4MTgzMzY1MDc1NjA5NTkwOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjcxNi5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=qmWGIZWJr3AQ7kNvwEXNQca&_nc_oc=Adok90Jt_pr1GyQGWt4O6pB4Yh4A6wEnuoKZo-E9F6oJWOAwAcUanjFh5W_eIGVBp2zdPgsrjUuKdeuKtyZ54RQA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=6&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=xiuAIeFRqjJUdilbKxc_MA&_nc_ss=7a3ba&oh=00_AQLz6CzS1GhFzUuhZLOy8i7qvpwedOaDvyb9npG5bCTLEQ&oe=6AAEF8F6",
         "url": "https://www.instagram.com/p/3981833725355813982/"
       },
       {
@@ -724,6 +728,24 @@
       },
       {
         "platform": "ig",
+        "author": "roberto.portanova",
+        "time": "2026-09-11T14:05:19Z",
+        "text": "TESSUTO IN CIOCCOLATO BIANCO\n•30 g di Gelatina in polvere (200 Bloom)\n•60 g di Acqua (per idratare la gelatina)\n•60 g di Cioccolato Bianco\n•2 cucchiaini di Glicerina vegetale edibile (fondamentale per dare elasticità al tessuto)\n•Q.b. di Colorante al",
+        "engagement": 74803,
+        "engagementRate": 0.7444195651092202,
+        "sentiment": "pos",
+        "hashtags": [
+          "tessuto",
+          "cioccolato",
+          "cakedesign",
+          "cakedecorating",
+          "ricetta"
+        ],
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/804646234_18635734954004632_1741991166660204683_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=100&ig_cache_key=Mzk4Mzg3NDg5NjY4NzA3MjkwNjE4NjM1NzM0OTQ4MDA0NjMy.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=RdEwLmGr03gQ7kNvwEsGnX8&_nc_oc=AdqnQCtM4cTINZOW2q41crLSR2QyW0a5d70Fe-cckkwx0_6lP0DJe6clPElNOX9oAbk6dLt7plTBrOwIPMUe7vxw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=wSzP2vmpchqDXXwIS3hOlg&_nc_ss=7a3ba&oh=00_AQL5hZPd-QHAoh-SH2IUYBzGw9cGoiXWLebydEv0G2DmZg&oe=6AAEEC2E",
+        "url": "https://www.instagram.com/reel/3983874896687072906/"
+      },
+      {
+        "platform": "ig",
         "author": "pulp.podcast",
         "time": "2026-09-09T08:00:42Z",
         "text": "I leader del Campo largo sfidano ufficialmente Giorgia Meloni.\n\nDurante l’evento di AVS a Roma, Schlein, Conte, Fratoianni e Bonelli si sono confrontati sul palco per lanciare il guanto di sfida alla Presidente del Consiglio. \n\nCi sono ancora molte c",
@@ -736,24 +758,6 @@
       },
       {
         "platform": "ig",
-        "author": "roberto.portanova",
-        "time": "2026-09-11T14:05:19Z",
-        "text": "TESSUTO IN CIOCCOLATO BIANCO\n•30 g di Gelatina in polvere (200 Bloom)\n•60 g di Acqua (per idratare la gelatina)\n•60 g di Cioccolato Bianco\n•2 cucchiaini di Glicerina vegetale edibile (fondamentale per dare elasticità al tessuto)\n•Q.b. di Colorante al",
-        "engagement": 70641,
-        "engagementRate": 0.7030004478280341,
-        "sentiment": "pos",
-        "hashtags": [
-          "tessuto",
-          "cioccolato",
-          "cakedesign",
-          "cakedecorating",
-          "ricetta"
-        ],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/804646234_18635734954004632_1741991166660204683_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=100&ig_cache_key=Mzk4Mzg3NDg5NjY4NzA3MjkwNjE4NjM1NzM0OTQ4MDA0NjMy.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=RdEwLmGr03gQ7kNvwH2Na2B&_nc_oc=Ado-Aklz4Vgt6hQE-JSevP7YzdxdIQEWvKkCwkFAA5-A8J0sAEiz34xGgcpPsNCFcnpg3PuDxvtr6Z-ZNVVLPp1J&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=hogQDhO-O1rmHoztkmEQ-A&_nc_ss=7a3ba&oh=00_AQJpqwvI4f4JqSauckgZ6sJ0vKy9VfblIFptSKE7yItT1A&oe=6AAD626E",
-        "url": "https://www.instagram.com/reel/3983874896687072906/"
-      },
-      {
-        "platform": "ig",
         "author": "massi.lava",
         "time": "2026-09-14T09:52:33Z",
         "text": "Il lattaiolo 🥛\n\nMio zio è andato in pensione e, invece di guardare i cantieri, ha deciso di diventare un pasticcere.👨‍🍳\nL’altro giorno mi ha fatto scoprire il lattaiolo, un dolce tipico toscano pazzesco che onestamente non conoscevo. Potevo starme",
@@ -763,18 +767,6 @@
         "hashtags": [],
         "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/809226298_18342174379265222_5527550447834971179_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=1&ig_cache_key=Mzk4NTkyNjE2MzU3MzE0MjMzNzE4MzQyMTc0Mzc2MjY1MjIy.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=EEOm8F2J9MQQ7kNvwEXP7-o&_nc_oc=AdqULb0C57FUwi03rJL214sR2VznMzBx7zlUo5Si6izcIzCGkxae-EpI4ge4KNVvZZ-538vn4yir31dJ6pTG545c&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=tx-FRPNZij6Ta69Mx9TLNw&_nc_ss=7a3ba&oh=00_AQK-LqWfK-omY1iKIJbjWeF42RFcLRgLx1M7Y6GOGp6-lw&oe=6AAF04F2",
         "url": "https://www.instagram.com/reel/3985926163573142337/"
-      },
-      {
-        "platform": "ig",
-        "author": "cookwithfez",
-        "time": "2026-09-08T15:49:34Z",
-        "text": "IL TIMBALLO DEL CARDINALE \n\nCAPOLAVORI VINTAGE - Ep.21 \n\nRitorna in grande spolvero la serie in cui andiamo a riscoprire i grandi classici della cucina italiana, le preparazioni che hanno reso grande la nostra tradizione gastronomica e che meritano d",
-        "engagement": 44466,
-        "engagementRate": 0.06013998309382925,
-        "sentiment": "pos",
-        "hashtags": [],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/800879817_17988217605051836_9191466104589731652_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=107&ig_cache_key=Mzk4MTc1NDQ3NjM1MDg2NDMxMzE3OTg4MjE3NjAyMDUxODM2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTUuc2RyLnZpZGVvX3VzZXJfdXBsb2FkZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=c_5OLfg0ELsQ7kNvwGSk0JE&_nc_oc=AdooIOMes3MACWNVmUpcDQ8nC-THuyaHxEGxfmSuWDq8aSkexvqqF-3pJ3DeC8n7FZ1LMrn3U7kM3R84Qk_gBN6O&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=se3L6EpSFtceeMwA7PXPGw&_nc_ss=7a3ba&oh=00_AQJQuoeBdIa-8sdegYsgoOQ3ArEQc0vNv25jyWTt40p2Tg&oe=6AAE6602",
-        "url": "https://www.instagram.com/reel/3981754476350864313/"
       },
       {
         "platform": "ig",
@@ -809,8 +801,26 @@
           "artisaningredients",
           "creativefoodideas"
         ],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/801031142_2141064590158898_1396483542301886100_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=108&ig_cache_key=Mzk4MjM5NTk4NDMwOTY0NDI0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMyIn0%3D&_nc_ohc=v7OJ-vWaqtYQ7kNvwEpj1Xx&_nc_oc=AdqwZLME4mKvbdqzOGd-tFTAeAhN1LfSICyk6pAy4fARfeVk-zAmnpxZaQLPIA9PWTuiLF-ughX7oJGQV2dqUpw_&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=ZM4GsgKDOzfRyhR_HXIcdQ&_nc_ss=7a3ba&oh=00_AQIfK9aSc2dRGMkwiz3UeBL1AoFOBtTVoCmbu0dwX5ZGJQ&oe=6AAD7DAE",
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/801031142_2141064590158898_1396483542301886100_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=108&ig_cache_key=Mzk4MjM5NTk4NDMwOTY0NDI0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=BCUZYZqY9w4Q7kNvwFhzH-W&_nc_oc=Adp2QCUCXQmNn3H5BzmGmiyy4zlB65-TQ14VaavZazmry6WumDl1Mk9sjYulbCdKhVT10Z0jkiLPJMnLNZ8qVnVb&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=StwvpQ1GCUNZ_cwg1IzkXg&_nc_ss=7a3ba&oh=00_AQKuSfzYvR_cGM2Yg-4rZw3D9K-uLA-QEyBECBhi6n_2hQ&oe=6AAF076E",
         "url": "https://www.instagram.com/reel/3982395984309644240/"
+      },
+      {
+        "platform": "ig",
+        "author": "silviamancini_cakeart",
+        "time": "2026-09-14T18:51:58Z",
+        "text": "📚 È ufficialmente ricominciata la scuola.\n\nE quindi… gruppo mamme, buongiorno! 😂\n\nPotevo non trasformare in pasta e zucchero proprio lui?\nAnzi… lei.\nO forse loro.\nVabbè, avete capito! 😂\n\n@mandrake1984_  è uno di quei personaggi che non ha bisogno ",
+        "engagement": 36729,
+        "engagementRate": 0.3898258313079103,
+        "sentiment": "pos",
+        "hashtags": [
+          "silviamancinicakeart",
+          "edibleart",
+          "cakedesign",
+          "scuola",
+          "comedy"
+        ],
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/811056655_18632434939044810_4570186500693225525_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=1&ig_cache_key=Mzk4NjE5NjM2MjU0ODA3NzI3MDE4NjMyNDM0OTMzMDQ0ODEw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNDcuc2RyLnZpZGVvX3VzZXJfdXBsb2FkZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=oaqV6AshvXgQ7kNvwH6nRuB&_nc_oc=AdoTewoD2c4JslsVgtYHKhSW-wkl90mC3dG9Rt0d18mrG5Hcocf4edNGE5JxmEtGaCmJXtwQq7cSMquqO8PO7kkg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=2IutX5yu6CdW5ZhJeJOreQ&_nc_ss=7a3ba&oh=00_AQKlCr89OTzk0e2GwRWYfLWn55wL4ajrOEPk48wX45hd8g&oe=6AAF07F3",
+        "url": "https://www.instagram.com/reel/3986196362548077270/"
       },
       {
         "platform": "ig",
@@ -980,34 +990,19 @@
       },
       {
         "platform": "tt",
-        "author": "micheleelorenzo",
-        "time": "2026-09-08T11:18:46Z",
-        "text": "SALSICCIA E PATATE AL FORNO 🥔 #ricetta #salsiccia #cucinaitaliana ",
-        "engagement": 94500,
-        "engagementRate": 0.24751178627553694,
+        "author": "gabriterzii",
+        "time": "2026-09-12T10:58:32Z",
+        "text": "ROTOLO NUTELLA INGREDIENTI: Pasta biscotto - 4 albumi - 4 tuorli - 100 g zucchero - 50 ml olio di semi - 30 g farina - 20 g cacao Per la crema - 500 g mascarpone - 2 cucchiai di Nutella Si prepara la pasta biscotto, montando a neve albumi e zucchero.",
+        "engagement": 83526,
+        "engagementRate": 0.6395558958652373,
         "sentiment": "pos",
         "hashtags": [
-          "ricetta",
-          "salsiccia",
-          "cucinaitaliana"
+          "ricette",
+          "dolci",
+          "rotolonutella"
         ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/ocvNOfMpgWAQguDPcRQMD3IyGH9O8jffVzjpgZ~tplv-tiktokx-origin.image?dr=10395&x-expires=1789642800&x-signature=sM5wCCdvCankgkeDVoSe%2FY3lzlk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@micheleelorenzo/video/7683122348697914656"
-      },
-      {
-        "platform": "tt",
-        "author": "jok3r",
-        "time": "2026-09-08T12:02:27Z",
-        "text": "E sono RI RI VENUTO DA CICCIOGAMER89 a provare il suo nuovo panino i CICCIO E PEPE ! Come sarà ? 🍔 trovate il video completo sul mio canale YouTube 🫶🏻#food #cicciogamer89 ",
-        "engagement": 67818,
-        "engagementRate": 0.4455847568988173,
-        "sentiment": "pos",
-        "hashtags": [
-          "food",
-          "cicciogamer89"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oUU5BfRiAMQVCAfhJe0M8WVgKawpdAXDNffKsk~tplv-tiktokx-origin.image?dr=10395&x-expires=1789542000&x-signature=JBcr2%2Fv2s6x3mk13vqTXAPcAgEs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@jok3r/video/7683133610186001697"
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/okL7Lw3qlAeFNZfFIbeLdGYGYSKeQDhIR2MAQG~tplv-tiktokx-origin.image?dr=10395&x-expires=1789642800&x-signature=t36pwYPDoYO8eJLLVyYMkVV%2FKsI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@gabriterzii/video/7684601481382612257"
       },
       {
         "platform": "tt",
@@ -1025,22 +1020,6 @@
         ],
         "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/owrvNESgXI0IAApCzPAjEAAiBqyQaBI0iy9Ek~tplv-tiktokx-origin.image?dr=10395&x-expires=1789642800&x-signature=xOfbluON8L0QOCtXu2BL7bxon5Y%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@micheleelorenzo/video/7684305654424587553"
-      },
-      {
-        "platform": "tt",
-        "author": "gabriterzii",
-        "time": "2026-09-12T10:58:32Z",
-        "text": "ROTOLO NUTELLA INGREDIENTI: Pasta biscotto - 4 albumi - 4 tuorli - 100 g zucchero - 50 ml olio di semi - 30 g farina - 20 g cacao Per la crema - 500 g mascarpone - 2 cucchiai di Nutella Si prepara la pasta biscotto, montando a neve albumi e zucchero.",
-        "engagement": 64284,
-        "engagementRate": 0.4944923076923077,
-        "sentiment": "pos",
-        "hashtags": [
-          "ricette",
-          "dolci",
-          "rotolonutella"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/okL7Lw3qlAeFNZfFIbeLdGYGYSKeQDhIR2MAQG~tplv-tiktokx-origin.image?dr=10395&x-expires=1789542000&x-signature=CSCcreJjfL6jOGWZQL8jIjTul4A%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@gabriterzii/video/7684601481382612257"
       },
       {
         "platform": "tt",
@@ -1097,6 +1076,22 @@
       },
       {
         "platform": "tt",
+        "author": "pulp.podcast.official",
+        "time": "2026-09-09T08:01:02Z",
+        "text": "I leader del Campo largo sfidano ufficialmente Giorgia Meloni. Durante l’evento di AVS a Roma, Schlein, Conte, Fratoianni e Bonelli si sono confrontati sul palco per lanciare il guanto di sfida alla Presidente del Consiglio.  Ci sono ancora molte cos",
+        "engagement": 47577,
+        "engagementRate": 0.24423511293634498,
+        "sentiment": "pos",
+        "hashtags": [
+          "fyp",
+          "pulp",
+          "pulpland"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/owIifDQxQAMf9PGIlGJErcCRAQ1jghFdVCDR8f~tplv-tiktokx-origin.image?dr=10395&x-expires=1789642800&x-signature=LslPCjNJGVL4A2G6VrunZS4RFSw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@pulp.podcast.official/video/7683442473720417568"
+      },
+      {
+        "platform": "tt",
         "author": "pamelapaolini",
         "time": "2026-09-10T16:54:19Z",
         "text": "Ricetta: 1 uovo 🥚  15 gr zucchero  15 gr olio  100 gr farina  150 gr latte 🥛  6 gr lievito  1 pizzico di sale ",
@@ -1106,22 +1101,6 @@
         "hashtags": [],
         "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oA1eHifEbaI7R0LVAcCIj4SFjfOzt7IMGDkDgq~tplv-tiktokx-origin.image?dr=10395&x-expires=1789628400&x-signature=%2BQhl4vXR1EKTDh%2B31udTdJhWMTw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@pamelapaolini/video/7683950999068822817"
-      },
-      {
-        "platform": "tt",
-        "author": "pulp.podcast.official",
-        "time": "2026-09-09T08:01:02Z",
-        "text": "I leader del Campo largo sfidano ufficialmente Giorgia Meloni. Durante l’evento di AVS a Roma, Schlein, Conte, Fratoianni e Bonelli si sono confrontati sul palco per lanciare il guanto di sfida alla Presidente del Consiglio.  Ci sono ancora molte cos",
-        "engagement": 47070,
-        "engagementRate": 0.24175654853620956,
-        "sentiment": "pos",
-        "hashtags": [
-          "fyp",
-          "pulp",
-          "pulpland"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/owIifDQxQAMf9PGIlGJErcCRAQ1jghFdVCDR8f~tplv-tiktokx-origin.image?dr=10395&x-expires=1789542000&x-signature=hKIKCFkz%2F0oS8dK8hkFAM86vWkY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@pulp.podcast.official/video/7683442473720417568"
       },
       {
         "platform": "tt",
@@ -1176,6 +1155,34 @@
         ],
         "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/77ef3228b4cc42c7b6e0af1f2b4319a3~tplv-photomode-image.jpeg?dr=10375&x-expires=1789614000&x-signature=zNbJQpN4IZ%2F8x7thV2fHZ80O82s%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast2b&ftpl=1",
         "url": "https://www.tiktok.com/@giuseppe_healthy/video/7683601586672635168"
+      },
+      {
+        "platform": "tt",
+        "author": "dietista.paolastavolone",
+        "time": "2026-09-09T08:51:50Z",
+        "text": "Salva il post e scegli ogni giorno una combinazione diversa: idee semplici da portare con te al lavoro o scuola!🤍 ✨ LUNEDÌ — Farfalle con pesto di zucchine e ricotta 80g farfalle, zucchine, 60g ricotta, pomodorini, 10g mandorle e basilico. Cuoci la ",
+        "engagement": 33963,
+        "engagementRate": 0.13879444217409073,
+        "sentiment": "pos",
+        "hashtags": [
+          "ricettefacili",
+          "ricetteveloci",
+          "mangiaresano"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/7b57d095934e4b63a2bffab02ecf164c~tplv-photomode-image.jpeg?dr=10375&x-expires=1789642800&x-signature=fy2LztxDuuQBTbdrQEzpk9zvTs4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=no1a&ftpl=1",
+        "url": "https://www.tiktok.com/@dietista.paolastavolone/video/7683455563660905760"
+      },
+      {
+        "platform": "tt",
+        "author": "lasediaa2gambe",
+        "time": "2026-09-14T14:28:48Z",
+        "text": "Che FINE ha Fatto BEREAL? È successo nel 2022, quando BeReal è diventata l'app del momento. Persino Forbes la nominò \"Social Media App of the Year\".  L'idea era semplicissima: una volta al giorno, a un orario completamente casuale, il telefono ti inv",
+        "engagement": 29811,
+        "engagementRate": 0.08726873536299766,
+        "sentiment": "pos",
+        "hashtags": [],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/ooVAIBiA25BAKcwxGYA1iloCfzSAC1IBA6E0jx~tplv-tiktokx-origin.image?dr=10395&x-expires=1789642800&x-signature=OL37K9HuCBEgDw1l04tzjcuBgRw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@lasediaa2gambe/video/7685397816369515798"
       },
       {
         "platform": "yt",
@@ -1345,6 +1352,18 @@
       },
       {
         "platform": "yt",
+        "author": "rucoolaaa",
+        "time": "2026-09-11T09:58:39Z",
+        "text": "🤔 CHE CI FAI CON GLI SCARTI DEL POMODORO?\n\n🍅 In queste settimane moltissimi stanno facendo la salsa al pomodoro da conservare durante l'inverno e, soprattutto con le grandi quantità, c'è un sacco di scarto tra buccia e acqua di cottura. Così ho app",
+        "engagement": 2136,
+        "engagementRate": 0.01959633027522936,
+        "sentiment": "neu",
+        "hashtags": [],
+        "imageUrl": "https://i.ytimg.com/vi/knj-Zwg5BeA/hqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=knj-Zwg5BeA"
+      },
+      {
+        "platform": "yt",
         "author": "ChefMaxMariola",
         "time": "2026-09-09T14:31:47Z",
         "text": "Ragazzi, quando sono stato a Ischia, insieme ad Anna abbiamo fatto una ricetta semplicissima ma dal gusto pazzesco 🔥\n\nAbbiamo usato la scarola coltivata da questa signora fantastica e abbiamo aggiunto pomodorini del Piennolo, peperoncino, aglio e, p",
@@ -1406,18 +1425,6 @@
       },
       {
         "platform": "yt",
-        "author": "rucoolaaa",
-        "time": "2026-09-11T09:58:39Z",
-        "text": "🤔 CHE CI FAI CON GLI SCARTI DEL POMODORO?\n\n🍅 In queste settimane moltissimi stanno facendo la salsa al pomodoro da conservare durante l'inverno e, soprattutto con le grandi quantità, c'è un sacco di scarto tra buccia e acqua di cottura. Così ho app",
-        "engagement": 2042,
-        "engagementRate": 0.018733944954128442,
-        "sentiment": "neu",
-        "hashtags": [],
-        "imageUrl": "https://i.ytimg.com/vi/knj-Zwg5BeA/hqdefault.jpg",
-        "url": "https://www.youtube.com/watch?v=knj-Zwg5BeA"
-      },
-      {
-        "platform": "yt",
         "author": "2foodfitlovers",
         "time": "2026-09-10T17:10:40Z",
         "text": "Codice Fitlovers su:\n🧬LifePro lifepronutrition.com/it -10% cumulabile + cashback\n👖Teveo teveo.com/it -10%\n🍩 Fitporn fitporn.com -10%\n\n✅ SEGUICI ✅\n~ Instagram - https://instagram.com/2foodfitlovers\n~ TikTok - https://vm.tiktok.com/ZMLPpVbC1/\n~ Amaz",
@@ -1433,255 +1440,10 @@
         ],
         "imageUrl": "https://i.ytimg.com/vi/oWZZkge6Vkg/hqdefault.jpg",
         "url": "https://www.youtube.com/watch?v=oWZZkge6Vkg"
-      },
-      {
-        "platform": "yt",
-        "author": "romi_home",
-        "time": "2026-09-12T15:30:18Z",
-        "text": "#slowliving #cottagecore #countryside \n🍂 Una giornata d'autunno a casa | Pane fatto in casa, cheesecake e ciambellone al caffè\n\nCiao e benvenuti in un nuovo video di Romi&Home. 🤎\nIn questo video trascorriamo insieme una giornata tranquilla tra cuci",
-        "engagement": 1653,
-        "engagementRate": 0.02406113537117904,
-        "sentiment": "neu",
-        "hashtags": [
-          "slowliving",
-          "cottagecore",
-          "countryside",
-          "romiandhome",
-          "romihome",
-          "vlogitalia",
-          "vlogcasa",
-          "homevlog",
-          "vlogitaliano",
-          "autunno",
-          "decorazioniautunnali",
-          "casaautunnale",
-          "cucinaincasa",
-          "ricettefacili",
-          "panefattoincasa",
-          "paneintegrale",
-          "cheesecakelotus",
-          "ciambellonealcaffe",
-          "dolcifattiincasa",
-          "homedecor",
-          "autumnvibes"
-        ],
-        "imageUrl": "https://i.ytimg.com/vi/cPRNbq9-6Qg/hqdefault.jpg",
-        "url": "https://www.youtube.com/watch?v=cPRNbq9-6Qg"
       }
     ]
   },
-  "news": [
-    {
-      "title": "Spaghetti, cadmio nell’80% della pasta analizzata: i risultati di Barilla, De Cecco e Rummo - greenMe",
-      "source": "greenMe",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQN3MtUG9SMGtlZUZUQ1ZEenN1amRfSFp2d1ZXOUVyeVlqUUktMFZPLWhIaFlsbVlPazJQWVgyblIwVmtIbXpBY3VfUDZUR3FMVllfZkxlQXhqY2RPTXBGbGhMd3B5eGVaTWNQd29nb1JsRmhFbEdyZHdqVEJIcmZxZ1BYX2lGZ1VkYVlZczIyQ3FYaUcyTThjQXgzd2owVWNOci0wVTg4bm9PdThnT256VmNzb0VBWV9MREllcndNM0NZWlR5ZVdGTmtzSXVLcGtlZ3c?oc=5",
-      "date": "2026-09-12T08:06:34.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxQN3MtUG9SMGtlZUZUQ1ZEenN1amRfSFp2d1ZXOUVyeVlqUUktMFZPLWhIaFlsbVlPazJQWVgyblIwVmtIbXpBY3VfUDZUR3FMVllfZkxlQXhqY2RPTXBGbGhMd3B5eGVaTWNQd29nb1"
-    },
-    {
-      "title": "Barilla fa il bilancio delle attivazioni al GP di Monza - Brand News",
-      "source": "Brand News",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOS2JrSXNid2JsZXNsSWtOVUVqTGFtMnU0OGFPUkJndWtSR1ZERTlveVllazFwMUZmRklxU1A3SThlMUdEal9rbENEU255eTV0R0lUdEFmVXIzMU5DQVlRemlzaFk5UEF5V0FLQTcySEY2M2RYUGh1VlJObUdaVlJad0RUdFRkOEF2MUpHRE8wRlBMVEhuNFg1eUxEbXVHZm5NNmVuTVoyS0d0WXZNU1BHWkRGblpOX2QxekFrZV9rcVNzR2FPN0gxdEFZZ0NpM0l2VjFVTjFKVWhYcFNpUWRQelZuRFB0eDdM?oc=5",
-      "date": "2026-09-07T15:09:12.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxOS2JrSXNid2JsZXNsSWtOVUVqTGFtMnU0OGFPUkJndWtSR1ZERTlveVllazFwMUZmRklxU1A3SThlMUdEal9rbENEU255eTV0R0lUdEFmVXIzMU5DQVlRemlzaFk5UEF5V0FLQTcySE"
-    },
-    {
-      "title": "Penne rigate, il test francese trova cadmio in 16 prodotti su 18: i risultati di Barilla, De Cecco, Garofalo e Rummo - greenMe",
-      "source": "greenMe",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPV0xOTjJIb1BERzRKaTRPR3k4elR1eWJPX1VSOWJjQS1WLVdNdXNmODR6dUtPV3RSM1ZaQzVQTGoxSUswTjR2djFUTlhkWE1USEEtUk53VV8zcGt4T3BuMWpjUmVzWko2ZGROTWRPbFcxbVBhdnV3UzFnSlJ2cUVTTXZFMjNfVXdOZThZaGZ3OWlOZEgwMGliNmRWcWVOeDliaVVoTXQwSUJMbG45V0M3cGMwaTNDejFhNnBxLXFuTm05RThxZ05kdExqa19ZS1BQTVk2U1hNeHZNejU3S3RmM0h6MVNYdmJuS05FZHdjaFRfWVlF?oc=5",
-      "date": "2026-09-06T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi9AFBVV95cUxPV0xOTjJIb1BERzRKaTRPR3k4elR1eWJPX1VSOWJjQS1WLVdNdXNmODR6dUtPV3RSM1ZaQzVQTGoxSUswTjR2djFUTlhkWE1USEEtUk53VV8zcGt4T3BuMWpjUmVzWko2ZGROTWRPbF"
-    },
-    {
-      "title": "Fermarsi dove tutto corre: \"La tavolata\" firmata Barilla al GP di Formula 1 a Monza - elle.com",
-      "source": "elle.com",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaG9JVXlOZHJhY1dHZU8xU0VTMm1MQnVRX19PRFUzM2hwX1BGTHllczJhejZvb05fSFVFTG5lTkZrUzl0N2NkWlJCaEJMalZZelVqY3BfTllWYzhaX1RVMXNWdjhnM25NWUxHd3hPU0R5SEw3Ujd1Nnc5bm00VXY3TmhNUEdWdndPVWc0?oc=5",
-      "date": "2026-09-04T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaG9JVXlOZHJhY1dHZU8xU0VTMm1MQnVRX19PRFUzM2hwX1BGTHllczJhejZvb05fSFVFTG5lTkZrUzl0N2NkWlJCaEJMalZZelVqY3BfTllWYzhaX1RVMXNWdjhnM25NWUxHd3hPU0"
-    },
-    {
-      "title": "Con \"La Tavolata\" Barilla e Bottura riuniscono la famiglia della F1 con piatti a base di pasta: le foto dal Gp di Monza - Gazzetta di Parma",
-      "source": "Gazzetta di Parma",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOZVdId1RMOTZsMjE3RUVIYzBidUhkUktlTjZsVkpTWUlMU3BJalBDeVNqSXo4ZmR0ZERmTm0yc1JKWTZOZDh1VXRDUUUxdXNKRHdsdk0wa3ExVTM0bTZ3Wndza1RaeVRBanBFajFPZl9jZG9SZDdjeFFIVUNQQWhBVG5MRWFSd05YTVU2OTBBeVY0UVZUOUpRX0hfQVItc0tEdnNxR3RPOVpEVUR1SlJmamxNYm01RmpYUy15UldmTUFRa2xyWmRXWnVUb3d3bUMwX0xCdkFOR1NUcW5hYlhERjF3dExvRS1BYUN6b3ZPeWpIRUx0S2xHdFp0S044b1lzNUN5WUlZMUVXUm90?oc=5",
-      "date": "2026-09-04T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMijAJBVV95cUxOZVdId1RMOTZsMjE3RUVIYzBidUhkUktlTjZsVkpTWUlMU3BJalBDeVNqSXo4ZmR0ZERmTm0yc1JKWTZOZDh1VXRDUUUxdXNKRHdsdk0wa3ExVTM0bTZ3Wndza1RaeVRBanBFajFPZl"
-    },
-    {
-      "title": "Barilla si dà al mac and cheese - Dissapore",
-      "source": "Dissapore",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9IU0Mza3h5dDVWMlhlVXcycDh4aFZtZjRZMEpNZDVTR0xudXRHaVg5aWlVTEt4dHdXcEVnc01tQzYyWEktRVVwQkk0aGw0X2p6cTkzXzZkNkNCYXAycGdjaVdlN24yTjVuZXpmcF9CTDVHU1E0?oc=5",
-      "date": "2026-09-04T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE9IU0Mza3h5dDVWMlhlVXcycDh4aFZtZjRZMEpNZDVTR0xudXRHaVg5aWlVTEt4dHdXcEVnc01tQzYyWEktRVVwQkk0aGw0X2p6cTkzXzZkNkNCYXAycGdjaVdlN24yTjVuZXpmcF9CTD"
-    },
-    {
-      "title": "Formula 1 e convivialità si incontrano nella “Domenica Italiana” di Barilla - Inside Marketing",
-      "source": "Inside Marketing",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbElxRXlIdGhMd3p4bkdjOXU4V2FZYkxNd28tWVktQWRDU1FIcV8zV184M1RVaE43YlI1aGtWMy1lZFRDSFF3bHZGc3MwcFMtRGJVZzJTQjNhNWZhdkdudHpIMHVfQjFkaTd2RWZWT1dZVF9ULXBiRjVQTUNjS0w3c3JVYTh1dmtXYWdkd2JITjdQWXdULUhPejlDcms?oc=5",
-      "date": "2026-09-04T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNbElxRXlIdGhMd3p4bkdjOXU4V2FZYkxNd28tWVktQWRDU1FIcV8zV184M1RVaE43YlI1aGtWMy1lZFRDSFF3bHZGc3MwcFMtRGJVZzJTQjNhNWZhdkdudHpIMHVfQjFkaTd2RWZWT1"
-    },
-    {
-      "title": "Barilla cresce negli Usa. Compra Goodles, il marchio di pasta pronta che sfida Kraft - ItalyPost",
-      "source": "ItalyPost",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaWtTSEw0YUR1S2VuZ0llVTltRGxiX0lpVVpxa0Y4WWxDSnBhZnI0cTZ6emVMcXhNbUthVll6V2w4cFAxWEdvUVNFeUdqRkkyVmhKaWJqTk1jLUZHZkZwUWRUQmVtbWUxeW81eEo1SG93cVNSY0d4Q0tISnRscjhqVHdNNUdFZHRwTWw2WUhlblY4QV9teXRvdF9MTVJyeEtZeFFFaGlHZVJkRnFOWDFXQnlCbXFocURhaGhBT3ViN29HY0Y3VFBjQjAwZWs?oc=5",
-      "date": "2026-09-03T18:00:06.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxQaWtTSEw0YUR1S2VuZ0llVTltRGxiX0lpVVpxa0Y4WWxDSnBhZnI0cTZ6emVMcXhNbUthVll6V2w4cFAxWEdvUVNFeUdqRkkyVmhKaWJqTk1jLUZHZkZwUWRUQmVtbWUxeW81eEo1SG"
-    },
-    {
-      "title": "Barilla acquisisce Goodles, l’azienda americana dei maccheroni al formaggio in scatola - winenews.it",
-      "source": "winenews.it",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa3Rfb0xyUEJleFFwMktLTUhOcnl5OUtMcGtaT0g0N0lLYjVIRS1VWHJwZXo2Q2xQR2gzdHV6ZC1Dd3lsMjJGVVZwOHpSWmx0MFFON0MydEhycXNGWXFDcjRMcUVyTE1sZk1qVzJES0RyTDByQy00RmROMTZXa2hlUTQ0VDE1a29IQjhPTkotYnBWT0syU2VtUTl3WDhHa1ZlSE1MWjUzMkdJYzlnMFZaTXpuVzFTQQ?oc=5",
-      "date": "2026-09-03T16:22:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPa3Rfb0xyUEJleFFwMktLTUhOcnl5OUtMcGtaT0g0N0lLYjVIRS1VWHJwZXo2Q2xQR2gzdHV6ZC1Dd3lsMjJGVVZwOHpSWmx0MFFON0MydEhycXNGWXFDcjRMcUVyTE1sZk1qVzJES0"
-    },
-    {
-      "title": "Barilla accelera con l’alto proteico in occasione del gp di Monza - Mark Up",
-      "source": "Mark Up",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQd1lncDZFVUJRa0U4NTRBSmQtUDlxV3FzQUJzTHVMeXJJSW8zOGZpdkJwR005LUY2V05VUnNXbUV2bG9IcFRyU2dTb0oyNWJMNFFISTlCUjhSTm5RX0p4QlF1WGRxTmIxTi1mYzhXRFJNNi1uX0dCWUNnSVRBSGRSeXlIQ3RXQ1RnVWhpZGg5WHFlUQ?oc=5",
-      "date": "2026-09-03T14:33:59.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQd1lncDZFVUJRa0U4NTRBSmQtUDlxV3FzQUJzTHVMeXJJSW8zOGZpdkJwR005LUY2V05VUnNXbUV2bG9IcFRyU2dTb0oyNWJMNFFISTlCUjhSTm5RX0p4QlF1WGRxTmIxTi1mYzhXRF"
-    },
-    {
-      "title": "Barilla fa l’americana e si pappa i mac and cheese di Goodles - Startmag",
-      "source": "Startmag",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTWo3UTg5cTJoWTB0ei1jSlUyOU1HbmZPeGo4WS1wOE56RFZQZ0VoRENFNjJXU1pORXdkUmVLcjZzcHpKM25SV09XYVFsb0U3N2kwZW1nZW5qWkNaNDloYVQzM0VoUFhGWEdKVlFwMHZha19aZ1dsODk1U2RPWXlrNEMwdmJfY2RvTzFkRi13c2k4VERJMk0wYlVR?oc=5",
-      "date": "2026-09-03T12:52:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPTWo3UTg5cTJoWTB0ei1jSlUyOU1HbmZPeGo4WS1wOE56RFZQZ0VoRENFNjJXU1pORXdkUmVLcjZzcHpKM25SV09XYVFsb0U3N2kwZW1nZW5qWkNaNDloYVQzM0VoUFhGWEdKVlFwMH"
-    },
-    {
-      "title": "Barilla accende Milano per il GP di Monza. Al via un nuovo spot a firma Mach9 - Touchpoint News",
-      "source": "Touchpoint News",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaHR4dkFOWVh6N1kwM0JjMy13OGhBX1JBM2EtdzVOWmtZM0IzRDhvLW5uZTRhTXR1ZG9ra2tlSGR2Q2RHSzdqQmZxYm1VRl9MS2RLMzNTX09NQS1FaXZMaE04dG9ORzcwZTRsVmUxNDg4aGZ1Y3pndjRXWWNuNmlyeW1HdDZYZHY0eU9IdGdzVC1aajFPSGpKdFQ2ZGh3M0ZXdkdoOHRLREx6ektvdXlOcWxOamVCbE0?oc=5",
-      "date": "2026-09-03T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNaHR4dkFOWVh6N1kwM0JjMy13OGhBX1JBM2EtdzVOWmtZM0IzRDhvLW5uZTRhTXR1ZG9ra2tlSGR2Q2RHSzdqQmZxYm1VRl9MS2RLMzNTX09NQS1FaXZMaE04dG9ORzcwZTRsVmUxND"
-    },
-    {
-      "title": "Barilla e Formula 1: la partnership costruita attorno alla convivialità - Inside Marketing",
-      "source": "Inside Marketing",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVHdyZmhOTXJOOENSLURJaXJXUERKcEJENmdoNjFOWXZmRTF2VmRQc1lmZnA1MHozbEVtZlRFSjRXU1R1c29jbmZab3F0dmtRMlFmcDNxWVpIT3ExV2pidjhZaGc3OWMxOGdXQ1VMUlRmWG01amFQSGVoXzltck0xV1ByTE14X2xf?oc=5",
-      "date": "2026-09-03T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVHdyZmhOTXJOOENSLURJaXJXUERKcEJENmdoNjFOWXZmRTF2VmRQc1lmZnA1MHozbEVtZlRFSjRXU1R1c29jbmZab3F0dmtRMlFmcDNxWVpIT3ExV2pidjhZaGc3OWMxOGdXQ1VMUl"
-    },
-    {
-      "title": "Negli Usa Barilla rileva i maccheroni al formaggio di Goodles - Il Sole 24 ORE",
-      "source": "Il Sole 24 ORE",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNktMaVRqQ04ya1dSMFhOZDFjSFZJWlVUWnBsTHNwWkY0NTUzWkFfZ2I1VEttQUVCTUlPUThFaWhRaFR0d0gzeWktTVdHbmh0S3BxVnVaSXB6YVVvWGQ1UXpaanZ0NzdjZFhXcml3UWR6Zmt5ZmxmLTVFcXU1aGZZbmN1ZTFiM2tyeFhlYWJDZTdKajVjck5CMA?oc=5",
-      "date": "2026-09-03T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQNktMaVRqQ04ya1dSMFhOZDFjSFZJWlVUWnBsTHNwWkY0NTUzWkFfZ2I1VEttQUVCTUlPUThFaWhRaFR0d0gzeWktTVdHbmh0S3BxVnVaSXB6YVVvWGQ1UXpaanZ0NzdjZFhXcml3UW"
-    },
-    {
-      "title": "Spaghetti e penne: l’80% della pasta testata contiene cadmio (anche Barilla e De Cecco) - greenMe",
-      "source": "greenMe",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRUtTU3VQdjQxRHdmd2xXdEZxTERhQ3NScVMxdklSLTZhQUllbEJJd3VOX0lmTjVEWm5KdVNLOHdSd3dzSGtfZ0NuMlpkOW45MDV2ZHNQd0NPX2g2elhqTkNfWWdfVHZQWEp1U0FRNjlxMmx1NkJxS2RFRzZsWE50TC1UUlpkNnhGUDZKT0dIRTlLcXVJV0xzWHg5OEQxQmtYR2JMUkRRZW16MThyOVV4N3JpQmxxbWtqN01mRWJGdG5ob1o3eDF0NHZDUUg?oc=5",
-      "date": "2026-08-31T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxQRUtTU3VQdjQxRHdmd2xXdEZxTERhQ3NScVMxdklSLTZhQUllbEJJd3VOX0lmTjVEWm5KdVNLOHdSd3dzSGtfZ0NuMlpkOW45MDV2ZHNQd0NPX2g2elhqTkNfWWdfVHZQWEp1U0FRNj"
-    },
-    {
-      "title": "Pasta e grano duro, l'origine non è sinonimo automatico di qualità - Il Fatto Alimentare",
-      "source": "Il Fatto Alimentare",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYSzI2ZjZYcTQ2QTEtRkVaSTlGN2VoRERMc0pMNzNaQXJDMkg3dlBEQ18tdDBBZVNPa19XVGxKWGRBeEViS01EcndyV2dkbE9JNFVvM3dDaHFVYTItMW1kNmp4OVA1QjNoeU9Fc29XRFI?oc=5",
-      "date": "2026-06-18T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFBYSzI2ZjZYcTQ2QTEtRkVaSTlGN2VoRERMc0pMNzNaQXJDMkg3dlBEQ18tdDBBZVNPa19XVGxKWGRBeEViS01EcndyV2dkbE9JNFVvM3dDaHFVYTItMW1kNmp4OVA1QjNoeU9Fc29XRF"
-    },
-    {
-      "title": "Brand con la migliore reputazione al mondo nel 2026: la classifica e cosa li accomuna - Marketing Espresso",
-      "source": "Marketing Espresso",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xYk9oRHh3MkNZYldDMlQ4U0NJYVZCTDBoTWk0SmtxM0hqMEpZd1JEaUh1cXNmekhZVGdRbEhzeEhHRVN2Nk1mQ2ZNekp3Zl9YTWFoNDBDX243UXc4UldDN0NrRFBRYzk0NkIwWHl4WHk2SlRFZERGWA?oc=5",
-      "date": "2026-06-12T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE4xYk9oRHh3MkNZYldDMlQ4U0NJYVZCTDBoTWk0SmtxM0hqMEpZd1JEaUh1cXNmekhZVGdRbEhzeEhHRVN2Nk1mQ2ZNekp3Zl9YTWFoNDBDX243UXc4UldDN0NrRFBRYzk0NkIwWHl4WH"
-    },
-    {
-      "title": "Barilla, il grano della pasta non è più 100% italiano - il Salvagente",
-      "source": "il Salvagente",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRDZBOXRVQmtUYkpuWGRyZHRPTjRZanhXbDRZZ082UzBKNEFaajZxdmhBcTdRd2dNcU53bC1GRmZtdkZyUVRGOHJaZGFaa0V6NVp5alBzekxPVjUtSkhlY2RCSnl3QmJSRUdWeFM5dlQ1dmRFUG9pc1dXOFdkdEdDMmoyamVQTnU1dTlLV25QcDk?oc=5",
-      "date": "2026-06-11T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNRDZBOXRVQmtUYkpuWGRyZHRPTjRZanhXbDRZZ082UzBKNEFaajZxdmhBcTdRd2dNcU53bC1GRmZtdkZyUVRGOHJaZGFaa0V6NVp5alBzekxPVjUtSkhlY2RCSnl3QmJSRUdWeFM5dl"
-    },
-    {
-      "title": "Il futuro della pasta, dall'agricoltura rigenerativa alla qualità delle materie prime - National Geographic",
-      "source": "National Geographic",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVlBmZTh4enhya3Izc200bVNzZmZ3QTYzT0xtaHJyV0N0LU1IdU1FeFRPd0NUWjh5UUhzbnVDRmVhT2ROYlVhZVFjZ0dfMXJiSWdPSGpNcFE3WG5TNF90bHBqakJjSDl2YWNLUHVhSnBUS1lDUXRuQlFaRmxNekltd3FTMElOZEx5a0tBZUdfdjZZaGJuRUhha0RsOVFsZWgtc3NxRDNmM1lFQWd1Y2ZkSWxyQkdPUmNVTnc?oc=5",
-      "date": "2026-06-06T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxOVlBmZTh4enhya3Izc200bVNzZmZ3QTYzT0xtaHJyV0N0LU1IdU1FeFRPd0NUWjh5UUhzbnVDRmVhT2ROYlVhZVFjZ0dfMXJiSWdPSGpNcFE3WG5TNF90bHBqakJjSDl2YWNLUHVhSn"
-    },
-    {
-      "title": "Barilla, dalla semola ai motori - autotecnica.org",
-      "source": "autotecnica.org",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1nb0VMUGo5cUwtZkNXbXlmRU5Nc2lpYVNqVUVuc3pQTmlKeTkxTU5ZZDlfN2V1UC1ZRnpyalRBRlpWcW93MGJVTXJqOVp5TDhMMWx4c2pNTERSQklFTFd5QzBRV3BZWEZRLXdMWE8xOWNzVHFZ?oc=5",
-      "date": "2026-04-22T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE1nb0VMUGo5cUwtZkNXbXlmRU5Nc2lpYVNqVUVuc3pQTmlKeTkxTU5ZZDlfN2V1UC1ZRnpyalRBRlpWcW93MGJVTXJqOVp5TDhMMWx4c2pNTERSQklFTFd5QzBRV3BZWEZRLXdMWE8xOW"
-    },
-    {
-      "title": "Barilla dedica alla Formula 1 una nuova pasta - Sportmediaset",
-      "source": "Sportmediaset",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSXBvSjdKTFhHeUhob1NqR05wZ2RRbjN5Tl94ZVlqT0w3YjNfX1l5SGYta1FsS3NRTGxIWFRfUUFHeUotYUFrOWhDZFpmWmM1ODE4U2ptN2MwUGwtWHM4cmhnR1hHZm5YcExSNF9odTJxcE5TWTZ2Q1EwU1laRVNXdXZ4NlExVTRqczRMSHltOXZCNVVfRHVZMldOaURuTjM5Y1RxanIzeG05NXVISnZkSXRfVkFsNmfSAXhBVV95cUxOTkdzVWYxNlJUWWdfVGNHbXVWS2dua0xxOEl0S1l3WXZHWVpWU2RVRFdQcVlQNnJrb1E0Y0lZTUJWeXY5UzI1QnE4XzlCblRKZEJMZlNuTE9zLUltYUNTNlg2UjY1RDJzMXh2Njluay0ybGN6WUpSVG0?oc=5",
-      "date": "2026-04-21T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPSXBvSjdKTFhHeUhob1NqR05wZ2RRbjN5Tl94ZVlqT0w3YjNfX1l5SGYta1FsS3NRTGxIWFRfUUFHeUotYUFrOWhDZFpmWmM1ODE4U2ptN2MwUGwtWHM4cmhnR1hHZm5YcExSNF9odT"
-    },
-    {
-      "title": "Barilla lancia la pasta dedicata alla Formula 1 (con il formato peggiore di sempre) - Dissapore",
-      "source": "Dissapore",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdnlhWXlXTndKaHpfODNuN1pJX1A5aHVjRnBWWHJ1dHNWMWlkZjJ4OWoxd2F1aUpaSjhKY3dfVm1pT1hJVE5hSlI0QnhpdEZ5Uk55UjR5WjFXOXBia04xNU1LcjJEU3NMUjMxS283U2NFd1I5RUxaUUNKODJXWGRMM1gzMWh4cHZRX3liODJMcXZIRE9wcl9LQzJMVGI3bGw1ejluNjUtWDBVRnBiZW96R3E1NUdpYlk?oc=5",
-      "date": "2026-04-17T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOdnlhWXlXTndKaHpfODNuN1pJX1A5aHVjRnBWWHJ1dHNWMWlkZjJ4OWoxd2F1aUpaSjhKY3dfVm1pT1hJVE5hSlI0QnhpdEZ5Uk55UjR5WjFXOXBia04xNU1LcjJEU3NMUjMxS283U2"
-    },
-    {
-      "title": "Il miglior marchio food per reputazione nel mondo è italiano: Barilla n. 9 del Global RepTrak 100 - winenews.it",
-      "source": "winenews.it",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTXZjekp4MWthTlZXSzlMVWJ0RFhLdldVRUJrMkhNUU43UGxvdFkwYUtiOVFaNHQ0Z3QwYlZpdVFRSEpnOWkxS3FXNWIwOWZvME92eVlIOG9KNGZXd3A3MEpyRGRsM0FnZUZsNVRheEQ3cWpZeENNcndzeElRN1VJVzZhTmFnYVJ0a1VBRjYtZXlxalNhc0xjdmJrUGpaRkx0bEwwQUk5OEtQbTJZS29qWk5FdW1Wdm1oLVJCLWtjSTN0NDZS?oc=5",
-      "date": "2026-04-09T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNTXZjekp4MWthTlZXSzlMVWJ0RFhLdldVRUJrMkhNUU43UGxvdFkwYUtiOVFaNHQ0Z3QwYlZpdVFRSEpnOWkxS3FXNWIwOWZvME92eVlIOG9KNGZXd3A3MEpyRGRsM0FnZUZsNVRheE"
-    },
-    {
-      "title": "Barilla prima azienda alimentare al mondo per reputazione, la classifica completa - QuiFinanza",
-      "source": "QuiFinanza",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON3RqcmpUM29aU1o3TlRVQnlZb2ZrNHBmTWs4SzRlZVJpdklaWG5JSTdxc00xQUNuUXRaWXMyZGRvcm1jOG9SNzJ0M2ZVTDJ3dTV4eXhzQ2t5YzBSQTJQMGw1VVk2dGd3Tm1MWEhZRmxDdkFtYkJ2U3RtSXNzY0JNSzZNX1B5ZlXSAYwBQVVfeXFMTV9YZjRrNFp0V096Rk51V3FoOUUwenA1TTZZbzNSaXBQTzB0UHZ1VHFVcFFndlE2WmxZUjFjb0hfdlJfbVJCcGQ5cDVBbnB2QnNObjBfejE2ajJzOWd4NGt3NkFUYlRXZThLQUktZmI0TjMyTDBMel9uMGNHTmMyT2RDOThBcV9MRzU2N3g?oc=5",
-      "date": "2026-04-09T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxON3RqcmpUM29aU1o3TlRVQnlZb2ZrNHBmTWs4SzRlZVJpdklaWG5JSTdxc00xQUNuUXRaWXMyZGRvcm1jOG9SNzJ0M2ZVTDJ3dTV4eXhzQ2t5YzBSQTJQMGw1VVk2dGd3Tm1MWEhZRm"
-    },
-    {
-      "title": "Come nascono i nuovi formati di pasta Barilla? Il lungo percorso dall'idea allo scaffale - Vanity Fair Italia",
-      "source": "Vanity Fair Italia",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE45Zncxa0ZfTXM3YTRWSTEyRllaWUljSjlKTkYzRng2NkVFREtZLXBCVUY4aFNQVmFzQ2tkU3NOc1BxNF9hbHlucURBYWM3czFkV2ZOckdEcG5jRThpOXJhMjk4WXFBNWNSTXlHYmc4YUNNMWYwa2paWWtR?oc=5",
-      "date": "2026-01-09T08:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE45Zncxa0ZfTXM3YTRWSTEyRllaWUljSjlKTkYzRng2NkVFREtZLXBCVUY4aFNQVmFzQ2tkU3NOc1BxNF9hbHlucURBYWM3czFkV2ZOckdEcG5jRThpOXJhMjk4WXFBNWNSTXlHYmc4YU"
-    },
-    {
-      "title": "Da Barilla al Grana Padano, da Giorgio Armani a Gucci, dalla Ferrari alla Fiat: storia ed eccellenze delle imprese italiane - ilgazzettino.it",
-      "source": "ilgazzettino.it",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPT1NsMkdUNG5qalFzVnBXQ3BKTVJDdUc1YjNNNUV3aG8wNEFFbVh0eGpFYmpsQnJacUtFWm9SRXlZLTE2cmxkWkQtWGNtWjZPZDNXSmRCeDVMekF2bHQwblA4cHltZnpMeFg3VnQ3d0l3OFB2Ylc1N0NtbWVSdFNHVXlwLVItUWhBcmVQUHN1VnpuUGlYOU5iVmp4R2N6a1Q4akYydW9tbVJfZ1RWWWMwemNGMGtuYVVPd3FfcEpud21LcGk2cFd5LTZxVnVjMUJUSDRFOdIBzwFBVV95cUxOM19ZZEl6VjdTRlZ4X05fTDlrTVBtTXBCVmh6VkJPT2dMRmZHTGRQTjFWRFpFUGVSQXdEdlVTVDV3VzBfVk0wNEk2alpCbWhjOUVBOFdxaC1Jb2tWMnNZblVUdkVseldsbDBaU2J6WktDYzVSMG9mcjk1VFRObWJndEE1OE9EUlotLVp6TDlDcjRpdXJsY0hGVlhVa0lWRDdyVFZyU3RqNnlKZ0Z0N1Z1U3BUQ1g2bHZZVS1QTTVCdmJINzRaVGFtenBOcnVMckE?oc=5",
-      "date": "2025-11-27T08:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxPT1NsMkdUNG5qalFzVnBXQ3BKTVJDdUc1YjNNNUV3aG8wNEFFbVh0eGpFYmpsQnJacUtFWm9SRXlZLTE2cmxkWkQtWGNtWjZPZDNXSmRCeDVMekF2bHQwblA4cHltZnpMeFg3VnQ3d0"
-    },
-    {
-      "title": "Barilla presenta il nuovo posizionamento del brand in una campagna ispirata al mondo della Formula 1 - Inside Marketing",
-      "source": "Inside Marketing",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNakpKMExtVERfTC1LaW9aVkpNWGd5NFVwb25QZUQ5MHk5U1BJNGZ0Y0VnaGhlNjRXWGpPZ21ROTZnbmlvLTlFMWZBbkRheVdvV2ZrbWpGV0JaY0ZIcmdOaEJCdFpqdmZzRmtkN0tUWFNKLUlZSjZSRjc5SDNRb1FJN3N2dDVkUV93TVNONWEzMzJOUVR0?oc=5",
-      "date": "2025-09-08T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNakpKMExtVERfTC1LaW9aVkpNWGd5NFVwb25QZUQ5MHk5U1BJNGZ0Y0VnaGhlNjRXWGpPZ21ROTZnbmlvLTlFMWZBbkRheVdvV2ZrbWpGV0JaY0ZIcmdOaEJCdFpqdmZzRmtkN0tUWF"
-    },
-    {
-      "title": "Ferrero e Barilla, il food al top della classifica di Brand Finance - Mark Up",
-      "source": "Mark Up",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdW1hME9GN01tLW5tWWF2MmQwdElNYmUya21nRUhVZjRwZVE4NktubzBDb05TM21kVnJzeWxOSU9ZOTFVLXNrOTlTWGk2M3pndld3TTRSa09IQTlnRE0zWnQ3ekJvME1JWmphemlxVzBfVHBEbC1XMEotNmozaFVteW5xZ1lFU3gyWUNfdHJlZDFvZ3Q0?oc=5",
-      "date": "2025-09-01T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPdW1hME9GN01tLW5tWWF2MmQwdElNYmUya21nRUhVZjRwZVE4NktubzBDb05TM21kVnJzeWxOSU9ZOTFVLXNrOTlTWGk2M3pndld3TTRSa09IQTlnRE0zWnQ3ekJvME1JWmphemlxVz"
-    },
-    {
-      "title": "9 Marchi italiani nel ranking - Mercato Globale",
-      "source": "Mercato Globale",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNLXlIanZBTW0zRVRUNUVuQ0w1NDZmVXl3YXh5VG1lVjk3amY4Q05FVVVtbUplMW94aC0tSVRWYmlnZS1WTUw2SXRxelFXWjZSaGJocXlpQkZYTElKXzhfU24zWmNfUUk5bm9VVmNKem9DNHU0ekZDUEFJYl9COE55ZnNtSkYtR2VMaHhNS3FVUG9wZmc2bGJvNg?oc=5",
-      "date": "2025-09-01T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNLXlIanZBTW0zRVRUNUVuQ0w1NDZmVXl3YXh5VG1lVjk3amY4Q05FVVVtbUplMW94aC0tSVRWYmlnZS1WTUw2SXRxelFXWjZSaGJocXlpQkZYTElKXzhfU24zWmNfUUk5bm9VVmNKem"
-    },
-    {
-      "title": "Brand del food: cresce il valore dell’Italia nel calo globale. Barilla in top ten - Il Sole 24 ORE",
-      "source": "Il Sole 24 ORE",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRnV0WktnN0syZ29HalBNd2xlTWo1OVVnM1dLSDluWDRqMVoxVy1KYUlmVXQtUkNlQk1Ec3NJSzFVdDFOcW96WVdzMkIzN0xZMlNxR3BRMC12OW80X2lIMGxSQm8wNXI3dTVjNi1waEZlQ2lkMW41c0kyYVVfYTg0bWIxOG9fSF92SlQ0WHJic2xqdFR5cXd1cGRyajFqbVpwMEFsRW5PUHFQUQ?oc=5",
-      "date": "2025-08-28T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRnV0WktnN0syZ29HalBNd2xlTWo1OVVnM1dLSDluWDRqMVoxVy1KYUlmVXQtUkNlQk1Ec3NJSzFVdDFOcW96WVdzMkIzN0xZMlNxR3BRMC12OW80X2lIMGxSQm8wNXI3dTVjNi1waE"
-    }
-  ],
+  "news": null,
   "consumer": {
     "surveyName": "Eumetra Benessere 25/26",
     "sampleSize": 29441,
@@ -2094,171 +1856,11 @@
   "competitors": [
     {
       "name": "Barilla",
-      "mentions": 20,
-      "socialMentions": 13,
-      "totalMentions": 33,
-      "shareOfVoice": 38.4,
+      "mentions": 0,
+      "socialMentions": 15,
+      "totalMentions": 15,
+      "shareOfVoice": 34.1,
       "posts": [
-        {
-          "type": "news",
-          "title": "Pasta Zara, c'è l'accordo: Muggia alla Barilla, rilancio per Riese - www.lavitadelpopolo.it",
-          "source": "WWW.LAVITADELPOPOLO.IT",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdTJ0X3NrYlk4RHNRTmd1SGlpcEVxMmVtYjJ6NlVFS0VDYXp5cWtUWVh4UjBIaGEzRHNnelZ5bGlQUVRSdWZKTGRjSDdFMlhNbjJzbUNaaFl1RFVnaEdwOGJYR2Zyams2YTNlZnFicGdfdkliZVhOLU5USm9fSE9SZ0xUYTdqNlVOZzY1X2FQYUF5bWdQY1MzbXNtZnV3ZnprZkRURUxsaWw3N0xYWmhwYS1uYUNnbE1zU0pSNHZsLXQyaUhjaGx3?oc=5",
-          "date": "2026-09-10T07:00:00.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Spaghetti, cadmio nell’80% della pasta analizzata: i risultati di Barilla, De Cecco e Rummo - greenMe",
-          "source": "GREENME",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQN3MtUG9SMGtlZUZUQ1ZEenN1amRfSFp2d1ZXOUVyeVlqUUktMFZPLWhIaFlsbVlPazJQWVgyblIwVmtIbXpBY3VfUDZUR3FMVllfZkxlQXhqY2RPTXBGbGhMd3B5eGVaTWNQd29nb1JsRmhFbEdyZHdqVEJIcmZxZ1BYX2lGZ1VkYVlZczIyQ3FYaUcyTThjQXgzd2owVWNOci0wVTg4bm9PdThnT256VmNzb0VBWV9MREllcndNM0NZWlR5ZVdGTmtzSXVLcGtlZ3c?oc=5",
-          "date": "2026-09-12T08:06:34.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Barilla ha firmato la tua domenica italiana in occasione del Formula 1® Pirelli Gran Premio d'Italia 2026 - Media Key",
-          "source": "MEDIA KEY",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNY0laTGlHWnlGazZfS0cyanJLbGtNanVrYm01d3JONFJ5NkUxTTBUZW5LbXFUSkVMekRvMDAtM1lHLXZqSkNQSW1NSmRHNmFxeXI3UFVQTkNIeUx0SWVmckx1ang4VU8yNjMza1RSWXdUb1N1ZGZoYkdoZmNFN2JlZmJiR1FBRUxlWGx5S3g0Wk1uMG4tZk1DOWFkYWFoTlpwc0hfRlVNVXZ5TV9mNXNmd2xaQzhNUURiRG1LWUc4MmRBdDI3azBCaA?oc=5",
-          "date": "2026-09-08T13:06:00.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Barilla, lo stabilimento di Rubbiano Sughi celebra i suoi 15 anni - Adnkronos",
-          "source": "ADNKRONOS",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU0lUQXE1X3JmenUzNmY1aGxUM3gyUExPUWo0dElQVUliaUVlcXFGOE5DUzdXZ1l2U1dZWl8yclNvdGEtTXlsbGJXMXVva1oyNndvaGhEYzhaa0czbjlQVmNleFk2Vk1BNExLdFdtMmJkVDRnRk5VZ05mUi0zUC0zd2hxOVZoWk9NMHcteVg3ZWpaNkVmU3dRWmRqVkxEYU9HTVVzeXFaZldLblRfMURoazA2S29Db2o3TGVR?oc=5",
-          "date": "2026-09-14T11:01:00.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Artisia, la pasta in 3D alla conquista del canale Bar - MixerPlanet",
-          "source": "MIXERPLANET",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcV9oZDhPMUF2ZFA5STdSSTYxVGVyZkRpLVNScHpVVkMwWkVraU92MXh2OHFLVGdQVV9kSkJzN0FCc2IwcHN6ODhsZUZaUlc0dHFZTWU0Qm1GTkZMSnEyMzNmdndqMVJBaFdGOWFzMVpfaXJRdFZKbEMyTVpPTDFoSzlhSWJDUlU?oc=5",
-          "date": "2026-09-14T09:29:54.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Barilla, il sughificio di Rubbiano (Pr) festeggia 15 anni di innovazione - foodweb.it",
-          "source": "FOODWEB.IT",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTW00a0JOLWtxRHRaY2prc3FpNHBsSllYZkkteFJ1UTRoTnRoWlVxS1pzdVlfd3lfZ2xvOUhBeF80bVZGVUg1MVFRUnZwelg0YUpWdEM0cjZWZUpENnVvVHNUekpUUzEtMEphVlhjTWw3QTlwRGo0WThnYjhqX1prUzR0SVJ1am1KX0FnZWplWlZWWVR0ajE3RVhHLU5kSnRrU05j?oc=5",
-          "date": "2026-09-11T13:20:00.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Rubbiano Sughi compie 15 anni: lo stabilimento Barilla cresce e supera le 400 persone - ParmaToday",
-          "source": "PARMATODAY",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRnlHajVLZVlzdm1BZ3hBV3pfUF8yWGxQYmh4Y2pvWnhtNmFrd0d3U0ExRk5NSkpZVDFZc2lMbjRZa1U2ZWwwdnI5dTI0dHBDWk1CX001bHRSS2JHNndSamtzM1pXNWsxQ1lEMnBuQkpTMDYwYzR5bkxKVGVOYnliWENfa25zNXVQR0pNczhoS0FqQjM5Ty1JeGUxakRjVGkyWHdOTUFrMnJka0YyU3hXdnZRUXkxbktCTVZ4dXVMQzhsRTA?oc=5",
-          "date": "2026-09-11T06:00:00.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Barilla Rubbiano: 15 anni di successi tra sughi e pesti - Euroborsa",
-          "source": "EUROBORSA",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tbFJxMnROd2NJLVZOb1lNNWJES0pnNkFRYkNRV1ZxRkotZUlWQ1NOUmFEdXpBTG9JeTdxNmZETUo0bWpSNmNWRFdFYWRyOTUzYmZLTw?oc=5",
-          "date": "2026-09-11T09:00:00.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Cibus Tec 2026 riunisce a Parma 1.300 espositori beverage - Beverfood.com",
-          "source": "BEVERFOOD.COM",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZU5RQkV6SENqZWxjMmJCS3kxNU5EcFBPMXJka1FiREtLZDJNX08taFN2eEREeUxQSExDTm9jWGRkR0FZdlh0MVVTNm95VzJwdkxTWWZGY1ktMGtxZ3J5QUpBSnhvOEpOdVJ5TVd3VFJ1M2JBNExSQjlZWFY0dEVFcDJB?oc=5",
-          "date": "2026-09-10T09:00:23.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Maioli-Barilla - Padova24Ore",
-          "source": "PADOVA24ORE",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbkN4SVJOUllibG9Jb3U2LWVOczdfajNSdlJ4MXN5RUQ3QXFPYm1SbDJhQ29uNTdLeVBMdEZYR2JEeG5QTURXclc1SDNucEtDc3h4OERnNjFKaXZRUjJYWlgwSmpubTd5Y1NHWkZLRkpMNTFQcXhLVGFlN0d3M3owUnNpdXZoUDAwTndmTVVLa1ZzT05nQjZMRlVVTkFyN3RaQ2lGOGU0ZjRLNGxlTm5QTUxCbk5PcGd1ME50bWV4TQ?oc=5",
-          "date": "2026-09-11T04:47:58.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Riso/3. Reciprocità, infrastrutture e filiera italiana al tavolo del riso - EFA News - European Food Agency",
-          "source": "EFA NEWS - EUROPEAN FOOD AGENCY",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWjNSeUx5TUhpajlYTjdkeTBBRlVZb3Zfbkx4U3NWX0trc2QxOC1UR1hsWENEU2NFazNXUXJuYUQtVmFDTXo4dHJSRnVSblFmRDE4Z2lndG82SkNxTGR4MWRuT3N4NDRaTUZzaTg4ZXhQaFNKOVhVMXVObmdkWDdLS1BId1hPWkVTVFlGNGtPTW1NZVpvODdmR3lhQURjZjNkb3NLOEl0ZVFtN1hsYnZj?oc=5",
-          "date": "2026-09-11T16:25:55.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Parma apparecchia 400 metri di tavola per la Cena dei Mille - Quotidiano Nazionale",
-          "source": "QUOTIDIANO NAZIONALE",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaHBhOTNFZHBkckJBQTg0Y2FzSS0wOEQ5M0xMSVQxNnIwWDhCYUZBenZRNTdJWFotSi0zU09rRXdNZUtEeGN4MkVPcEdDTmNNT1gzQ0lUWVdsdHEzWkZsQllHYzN5WS1Rd3lOSFFsX0lSYmpuY1FGem03N1V1QXZ1bEJkRG5ueHpwLTl3bUllV1Blbl95Y0IzTlZYbURiOFk0TG9HOTVHM0l4SjVRenc?oc=5",
-          "date": "2026-09-09T15:16:26.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Barilla, lo stabilimento di Rubbiano Sughi celebra i suoi 15 anni - piemontesport.to.it",
-          "source": "PIEMONTESPORT.TO.IT",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVHE1MnBPczdwZTZiQUFVeGhtWjNuOURZM2RwYTBaWE5GTUEwLURyMEJueTJtcDdpYXh4ZHN1SUZxdzI2bW9VM0ZqMndGX1FDTmN5TjdCazhjc05YZFdTamxQakprSWJUVHdoM0paRWczZjNfVFZTMnczTVhxYXF0MVBiaDRQTGlfUHpjWFFESnhlRkszQUlxOVRCNVM1eGVmR04yT0VRNA?oc=5",
-          "date": "2026-09-14T11:01:00.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Inchiesta Equalize, chiesto il processo per 74 imputati: ecco chi sono - MilanoToday",
-          "source": "MILANOTODAY",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1qZXFmTUlOWTJyWVpRZXFsb19OVkxtM0tpbWJtRkpsNll2QjRyVzJiSGRjY2x4TmhHQWMtTGUwZUdyM2VURkFLdkkwYTVESzhIek40SFRvNE9sYnpzb25lS2dpOHZ5c1c1SHVZajFCR01ycVRGWHVBYg?oc=5",
-          "date": "2026-09-11T05:00:43.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Cadmio nella pasta: nei bambini che ne consumano molta si può superare la soglia di sicurezza - greenMe",
-          "source": "GREENME",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOd1dtZU5hSVgyNllYTmRxc2VtMjNDMmtDLXcwMG9xV2hHVkViTFhpNjBCYUNYQXRSekNhbzJCdGJwQ2M5MHMzY09vNFRNaXc2RWt5RFQ5VHhWS3BPbzFxOGgxZjhyUUhzVmMxRHhtUGN0bmJaeWFNQWJiMnMzS2VXY1lRTHNjbVMyTURSR1hBTzQwQVcxaHhaNGFGSUtrUHFnOG1tcDJDN1ZxTnYwTk1vNGxkZERON0lDQjBkU0o5THN4Z1FNN0xJRUxaNlVWMV9pWC0xNDNn?oc=5",
-          "date": "2026-09-14T11:02:57.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Allarme orticoltura per danni climatici - EFA News - European Food Agency",
-          "source": "EFA NEWS - EUROPEAN FOOD AGENCY",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZWJDaHNYaVNva0VPdzZXWTlvZWx6a1pSNUdrdC0zbklGWF9aY2VpOUcweHo2TktfdnFSOG1zdUQ3VlRVYzVJcFJmeW54NDZQLUE0cnplZWVJM0t2R3pTclM3N2VJWFNiSDduZ3ZRRjN2WmZUN0NvNERVdHFJZ3llTGh4MU8?oc=5",
-          "date": "2026-09-09T10:09:23.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Brazzale protagonista di Linea Verde Europa - EFA News - European Food Agency",
-          "source": "EFA NEWS - EUROPEAN FOOD AGENCY",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONTRUYUdzeXhuY3FoNjhHMnE3TlhyeDlIeWpwaktfc0VSSjZYVjVaQVVzbVZHdW9IMlpHV0hmR0hxbDRIR1Y0aXp5RmF4ZnQxaWFjbGZLT0s3VW55aTdIclBZU0lUNWViVUpWa1c5czJqTHZIRXN2bDVvZG1ZU2tHM0tLdXBCR2hiT1E?oc=5",
-          "date": "2026-09-11T16:19:33.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Felicetti punta sull’energia termica pulita - EFA News - European Food Agency",
-          "source": "EFA NEWS - EUROPEAN FOOD AGENCY",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX2lXSU11THhhbm5ScDcxUTNxeTVUc2x0RUIzRmVyeWlmak12S0pzRVVqRjVpZ1Y2dXdUcG1Uejd6bmxHSjc3MklyZEVtWlptdVY4SWxLMXplb0poZ1dRZ1JmSDJmVFhiRXRFaFdZVjhKbkdrWVB1Vk8yNW8yNTdvQWFrcUh1Nzc4UlE?oc=5",
-          "date": "2026-09-11T11:45:07.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Quattrocento metri di tavola per la Cena dei Mille a Parma | FOTO - ilParmense.net",
-          "source": "ILPARMENSE.NET",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPT3BhNUltd0RkZktWWEtOcjdKOUtSV3ZfRDkyVlBITnVhU0ZJWXdDRm90ajBsYThVRXRIZXkxSzFiTW1pd2gxNm5tbWlEX0JCbk5wclcwbEJrRXNyaGRpVXkwM3BpWjdpeEI2cEx1YloycnVqMlEtbjlzRFdsZGpKaUxkZ2ZTQ2x6QXdZZnI3TjhjR1FMSXfSAZsBQVVfeXFMT2RoNGhOQlNnV29LUnRKdzh3akdia0Y0N3FWaVlfTHJ2T1l6d3lQcl9pZ0VmSVhsMXZfQVdhaXFEcUp2UnBlV21iVFN4MG9ZX2ZDX3Ata3RuU0VLcFpaZnJIcU9CYmtoaHVPME9UV3hrcllSdGxGNG5QOEdoZWsxdmpQc2pBOGZyRmQ3WkkycDNFcUs4a3BKMks1cm8?oc=5",
-          "date": "2026-09-09T23:16:46.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Mac and cheese: come i maccheroni al formaggio sono diventati il comfort food della cultura nerd - CorriereNerd.it",
-          "source": "CORRIERENERD.IT",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOVM5R3RUTG40b1RmNlZ1dTVVYWNYZUozeC1kZ3RLYWpQZmRXeGhPb0ZoQXQtbktKdTBjeW5peFRMQU0xZDdrNmtsdWJ0a2lsckNuWWcxRm9IWHdFM1R2QkYtNEpIWlNCNzUzV2R0SVZPS1loT0ZGWGpYZXgzR1dlYVBfU0YySkRwbUJnOWdFTTBYTVRDNUhMSTd5UkVPVnRHSTZFR2xFM2VnVHdPd0d5NG5IUS1SNjRrUkpvaWdNbjFQdw?oc=5",
-          "date": "2026-09-13T18:41:18.000Z",
-          "brand": "Barilla"
-        },
         {
           "type": "social",
           "platform": "tt",
@@ -2284,7 +1886,7 @@
           "platform": "ig",
           "author": "mochohf",
           "text": "Ma come si mangia al Gran Premio di Formula 1? 🏎️🍔\nSono stato all’Autodromo Nazionale Monza per scoprirlo.\n\nTra pit stop e simulatori di F1, ecco cosa ho provato:\n🍔 Il “Sam”: maiale sfilacciato, insalata di cavolo e carote, salsa barbecue\n🧀 Dorit",
-          "engagement": 2992,
+          "engagement": 3046,
           "date": "2026-09-10T11:02:46Z",
           "url": "https://www.instagram.com/reel/3983060330487185608/",
           "brand": "Barilla"
@@ -2314,7 +1916,7 @@
           "platform": "ig",
           "author": "anticacortepallavicina",
           "text": "Siamo felici di aver contribuito ancora una volta a creare la “magia” della Cena dei Mille. \nUn evento straordinario, che riunisce 1000 commensali intorno a una lunghissima tavolata che parte da Piazza Garibaldi, il cuore di Parma che, per una sera, ",
-          "engagement": 1613,
+          "engagement": 1623,
           "date": "2026-09-08T18:19:51Z",
           "url": "https://www.instagram.com/p/3981833725355813982/",
           "brand": "Barilla"
@@ -2334,7 +1936,7 @@
           "platform": "tt",
           "author": "francesca.demanuel",
           "text": "🎃🍝 PASTA CREMOSA ZUCCA E SPECK 🤎 Per 2-3 persone 👇 Ho cotto 250 g di zucca in forno a 200°C per 30 minuti. Ho estratto la polpa e l’ho tenuta da parte. In padella ho rosolato 200 g di speck a pezzettoni con 1 cipolla piccola. Ho aggiunto la zucca",
-          "engagement": 1146,
+          "engagement": 1217,
           "date": "2026-09-10T12:17:49Z",
           "url": "https://www.tiktok.com/@francesca.demanuel/video/7683879736883432736",
           "brand": "Barilla"
@@ -2344,9 +1946,19 @@
           "platform": "ig",
           "author": "magnanirocca",
           "text": "MAN RAY: tutto. 🫦 La più completa mostra mai dedicata a Man Ray in Italia.\n\nAlla Fondazione Magnani-Rocca, oltre 300 opere raccontano sessant’anni di sperimentazione tra fotografia, pittura, scultura, design, grafica, editoria e cinema, da New York ",
-          "engagement": 868,
+          "engagement": 943,
           "date": "2026-09-13T12:34:01Z",
           "url": "https://www.instagram.com/p/3985283538206851779/",
+          "brand": "Barilla"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "poggileonardo_finanza",
+          "text": "Fare la spesa costa davvero di più rispetto a qualche anno fa? 🛒💸\n\nNel confronto mostrato vengono presi gli stessi prodotti, con gli stessi marchi, tra 2020 e 2026.\n\nIl risultato è pesante: la stessa spesa oggi costa circa il 48% in più.\n\nAlcuni es",
+          "engagement": 705,
+          "date": "2026-09-15T09:14:46Z",
+          "url": "https://www.instagram.com/reel/3985337844850176802/",
           "brand": "Barilla"
         },
         {
@@ -2367,6 +1979,16 @@
           "engagement": 259,
           "date": "2026-09-15T10:15:41Z",
           "url": "https://www.instagram.com/reel/3986659696700626640/",
+          "brand": "Barilla"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "barillaitalia",
+          "text": "Ci sono ricette che girano l’Italia in lungo e in largo fino a entrare nel tuo cuore 💚 \nIl viaggio del Basil Bar by Pesto Barilla lungo la Via del Pesto è finito, ma il suo gusto ci accompagnerà per sempre. \nGrazie a tutti voi che ne avete fatto par",
+          "engagement": 76,
+          "date": "2026-09-14T09:00:11Z",
+          "url": "https://www.instagram.com/reel/3985901041746182063/",
           "brand": "Barilla"
         },
         {
@@ -2393,67 +2015,11 @@
     },
     {
       "name": "Garofalo",
-      "mentions": 7,
+      "mentions": 0,
       "socialMentions": 15,
-      "totalMentions": 22,
-      "shareOfVoice": 25.6,
+      "totalMentions": 15,
+      "shareOfVoice": 34.1,
       "posts": [
-        {
-          "type": "news",
-          "title": "Pasta, la minaccia dei rincari corre tra grano ed energia. Menna (Garofalo): «Mercati sotto pressione» - Corriere della Sera",
-          "source": "CORRIERE DELLA SERA",
-          "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPY3ZQZ2o3S3FmUlJrV0oxODBuYVRScWQ5VWVGUmN5aHFOWFVfMzVwNUlNRmpLMjVrYVJKUnhWaU5QeWNYM0pqNFZLTDNRQklweDRna0VybFhyem15bU1KbEZpNmM3TUZGVUlLbFhkaVhzbk5WVGFickUxNVNvcGhsRGpNSkdKZVl6OHptRVQ1VHNmM1kxMlhzak1kLXN5TktkTXhkSXZIOW93bTZqOF93a0V2SDVVaDNRZWdraEhsanJWNGFza2VQWmR6RnhQSi0zWGRHMU1GNk1FSGE2RlVUcXAxNEkwWGZlZF9yU1hHQ3NHcTZHUHlYcFRIRnRfSHphcjNPTHNESUdMdldaVXgyN3VVd0YxNW5raXktdWJZai3SAaYCQVVfeXFMUEFLQk9aSnZFcVFBTlBoRUdJX0M1cEtCUDhtZ0pDN2VZYlhVVzRKbVotMGEtSGdKcGl2RFQxNktVa2tlY2l6aE5ZRTB4SmRwMk1DVl93dnAxWWZVaGFpeTd2ZzA4R3ExZV9mRzFlVGpZNU93QUFTclgwV2NBMWxRanN2TVM2dnNILVc5UHl2Qm9udmZIR0FUSFdKNWdvSEgwRlNndkxaelY4SUtFWVRDb2loc3lxMHpWZmtmNUYtSEVXdzIzS3dwdy15eGJScmlTMnNHTFdRUDN1X1dEYmNqcUdnS19KS3dxTHFSdmZpVnZJOU5wbUtxc1dJMlFmVVlxb0FockVDUjRlempMNFB6MEU4V3h4a2lJbWtaUlhXLWprd0tfQ3B3?oc=5",
-          "date": "2026-09-14T08:07:00.000Z",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "news",
-          "title": "Nuovo allarme pasta in Italia: cosa succede tra grano ed energia - Virgilio InItalia",
-          "source": "VIRGILIO INITALIA",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVDlibXVfUmxGc0pic1BLS2t2RjdWclZlaUJYaXc5My1wU1pzWU53bWZnc01HUjJOSzNqczgwZWZNVkdGa2g1X3pxRGl5cFphcGtFQWp0UVJ2Mm9NdWdiVTZ6eUlaVUJJcWc4RWlwYm1UVEVjUG9oYXcyLWVjNlJ4TWh3STFTVnVNUWFndEhRYlF5ejjSAZgBQVVfeXFMUFlwc0FOMHM2d0lBZTF5c0xfNVR1MnRBZC0wd0ZQZjZITTVzSnk3QmJkQ0tGdnlvSWJxRFVyNW1PRXZacWNtMmFfT1lpWWNhbm5xRWRSOEFldHNUMlNIMkJleGdCeFVOVEZfNU03ekdQUFZ1X3FEVTVXSmVEbDZIRzFlN2J4X05mQUVwOTdlQzJnZ2d4RmVKXzc?oc=5",
-          "date": "2026-09-15T09:05:00.000Z",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "news",
-          "title": "Melaverde: Altopiano dei colori Video - Mediaset Infinity",
-          "source": "MEDIASET INFINITY",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWmdjbHdfX1R4X0NFREJnUVZjUF9HVWNYZlRHYzZyTHFEcmRIdnNxSGpVaW1BUEcxc3k4UVVvRW1iNjdYQ0R6Z0pvYzZ2TUxDNHhrWVB4QkRQMVhGUHhxY2FWWVFScUZVVEQ5a1diMWFPbkFmbEl6cmFlYUUxV0RGcWFZNkUySWNQdUdoeTl4dVF2WThO?oc=5",
-          "date": "2026-09-13T10:17:49.000Z",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "news",
-          "title": "Prezzo del petrolio, nuovi record dei carburanti: senza la riduzione delle accise il gasolio sfiorerebbe i 2,4 euro al litro - Corriere della Sera",
-          "source": "CORRIERE DELLA SERA",
-          "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNX2NGUTE1WU5QMFc3RVM4WkxYWEJyX0NVWG16RXgzVjhRb1k0Vm1jckV5VzlSSHpWMDlHTmFCR09WN2lGaXg3QXdXY1pFOVBNeFRIUGVYNXRrX2ZqcUdORUtJczJYemk4Q1N0cDhQTUI0SHIzdFlmQUk1ME5BVXRQNmQ0aXBoZWw3RHF2YWp1bmVnLWtkZkt0b3llZGJIWHozSE1lYzJTcHIzblBqMlNWTjlNNXVyUFhjdWl6Vm9WZUg4di03TjJxSExySGpGYmlkZng4Tk0xZk9Yam5RTDlTTnpVMndFMGE0R2tpanMweUNNVXg1MmtibjJDcG9jbXM3VUJPUzgtaDZKUFZxUUxseGV2eTZYa0tjTGNoYWhDbHR3S0VJaDRUYjM4cUFaSGE5ZW1hSjVKN0tSaUc2QWNEbWthSVc1NnRyQ1HSAcoCQVVfeXFMTV9jRlExNVlOUDBXN0VTOFpMWFhCcl9DVVhtekV4M1Y4UW9ZNFZtY3JFeVc5Ukh6VjA5R05hQkdPVjdpRml4N0F3V2NaRTlQTXhUSFBlWDV0a19manFHTkVLSXMyWHppOENTdHA4UE1CNEhyM3RZZkFJNTBOQVV0UDZkNGlwaGVsN0RxdmFqdW5lZy1rZGZLdG95ZWRiSFh6M0hNZWMyU3ByM25QajJTVk45TTV1clBYY3VpelZvVmVIOHYtN04ycUhMckhqRmJpZGZ4OE5NMWZPWGpuUUw5U056VTJ3RTBhNEdraWpzMHlDTVV4NTJrYm4yQ3BvY21zN1VCT1M4LWg2SlBWcVFMbHhldnk2WGtLY0xjaGFoQ2x0d0tFSWg0VGIzOHFBWkhhOWVtYUo1SjdLUmlHNkFjRG1rYUlXNTZ0ckNR?oc=5",
-          "date": "2026-09-14T10:21:47.000Z",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "news",
-          "title": "Volantino Bennet dal 10 settembre 2026 - Anteprima Volantino",
-          "source": "ANTEPRIMA VOLANTINO",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTEFHRmgzM0hnVGF2c2N3cEFVNXVMU3ViUnp6d2ZHUlZsaXM0eHdzaFRJQ0o3ekhKVnh1V01FeWVHaEs5QTZRX21PQ3ljTE5US3B5aHdjRENRR2tVUmNUYWhDazJfYzZjallHNXc2SDJNVDd0bDNnN0RZeDRSV2RvNU9YS184bXM?oc=5",
-          "date": "2026-09-10T07:30:00.000Z",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "news",
-          "title": "Volantino Iper Benessere dal 11 settembre 2026, offerte su senza glutine, bio e proteine - Anteprima Volantino",
-          "source": "ANTEPRIMA VOLANTINO",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTlJIeVJPVkZNeVZxOE4wT2Z0c2YyWFoxTkRnSXd0Wl9ZUGRodmFTS3JoemJ6VElSbzlYM29zVnU4XzhGUTFFVU8tUDdIYzBoQjVCRjJNNDRuOWZsekhhSDIxeTlvaGJ0UjhHcnV2c2pYQnZodWYtWFV1Yk9pLS1pZlJqWUI2QS1ZdUloM25LZmNJdw?oc=5",
-          "date": "2026-09-10T09:30:00.000Z",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "news",
-          "title": "Volantino Iperal dal 16 settembre 2026, sconti al 50% e Oktober Fest - Anteprima Volantino",
-          "source": "ANTEPRIMA VOLANTINO",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTE5kZWFad3RIVzBDZEhsLTdQR0kzajBXbnNJeTc2Tl9IMnczY0NFOThiekd5Z2d3c2RmUzhhTGtRMV9NZ1FaZnFwVzctSldqZGVrRzRvQ0xtd1hoN0pmNWhZRE00VnVqZEsyRF9PNEVqX2NiZU9OaDhtR1dzejFtQ2hHZm1uaTA?oc=5",
-          "date": "2026-09-15T06:30:00.000Z",
-          "brand": "Garofalo"
-        },
         {
           "type": "social",
           "platform": "ig",
@@ -2519,7 +2085,7 @@
           "platform": "ig",
           "author": "parliamodimafia",
           "text": "È una notizia tragica quella arrivata oggi, 10 settembre: è morta a 35 anni Denise, la figlia di Lea Garofalo, la testimone di giustizia assassinata dalla ’ndrangheta nel 2009. Secondo quanto anticipato da Avvenire e confermato all’ANSA da più fonti,",
-          "engagement": 7557,
+          "engagement": 7606,
           "date": "2026-09-10T17:01:38Z",
           "url": "https://www.instagram.com/p/3983243140546216825/",
           "brand": "Garofalo"
@@ -2559,7 +2125,7 @@
           "platform": "ig",
           "author": "liberacontrolemafie",
           "text": "Ieri è morta una giovane donna coraggiosa e sofferente.\n\nQualcosa si è spezzato dentro la sua anima inquieta e sensibile. E qualcosa si sta spezzando anche dentro di noi, nel corpo vivo delle nostre realtà che hanno provato ad accoglierla e accompagn",
-          "engagement": 6282,
+          "engagement": 6386,
           "date": "2026-09-11T07:03:28Z",
           "url": "https://www.instagram.com/p/3983665442849384874/",
           "brand": "Garofalo"
@@ -2579,7 +2145,7 @@
           "platform": "ig",
           "author": "wikimafia",
           "text": "Edizione del TgLa7 delle 20:00, tra le notizie quella della tragica fine di Denise, figlia di #LeaGarofalo. \"Una storia che tutti conoscono\", esordisce il direttore, Enrico Mentana.\n\nPoi nell'introdurre il servizio la frase definisce Lea \"una donna c",
-          "engagement": 4776,
+          "engagement": 4854,
           "date": "2026-09-11T07:00:35Z",
           "url": "https://www.instagram.com/p/3983666160939612783/",
           "brand": "Garofalo"
@@ -2608,75 +2174,11 @@
     },
     {
       "name": "De Cecco",
-      "mentions": 8,
-      "socialMentions": 2,
-      "totalMentions": 10,
-      "shareOfVoice": 11.6,
+      "mentions": 0,
+      "socialMentions": 4,
+      "totalMentions": 4,
+      "shareOfVoice": 9.1,
       "posts": [
-        {
-          "type": "news",
-          "title": "Spaghetti, cadmio nell’80% della pasta analizzata: i risultati di Barilla, De Cecco e Rummo - greenMe",
-          "source": "GREENME",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQN3MtUG9SMGtlZUZUQ1ZEenN1amRfSFp2d1ZXOUVyeVlqUUktMFZPLWhIaFlsbVlPazJQWVgyblIwVmtIbXpBY3VfUDZUR3FMVllfZkxlQXhqY2RPTXBGbGhMd3B5eGVaTWNQd29nb1JsRmhFbEdyZHdqVEJIcmZxZ1BYX2lGZ1VkYVlZczIyQ3FYaUcyTThjQXgzd2owVWNOci0wVTg4bm9PdThnT256VmNzb0VBWV9MREllcndNM0NZWlR5ZVdGTmtzSXVLcGtlZ3c?oc=5",
-          "date": "2026-09-12T08:06:34.000Z",
-          "brand": "De Cecco"
-        },
-        {
-          "type": "news",
-          "title": "A tavola l’11 settembre - Vaccari news",
-          "source": "VACCARI NEWS",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5LSnJ4Nm5FX0FhRjhwVVBtZ1ZSOFQxWnQtYjl6VExlQlZnZ0VCS2t1Zk1BNDBvbDdheUxNcE5zWGlSa1doMzZFYWowVElESU5sWDhZbkFjeXg0RHdGT0RSRnJBY3JCQkM2dEpyclQxWmE?oc=5",
-          "date": "2026-09-09T11:26:00.000Z",
-          "brand": "De Cecco"
-        },
-        {
-          "type": "news",
-          "title": "Felicetti punta sull’energia termica pulita - EFA News - European Food Agency",
-          "source": "EFA NEWS - EUROPEAN FOOD AGENCY",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX2lXSU11THhhbm5ScDcxUTNxeTVUc2x0RUIzRmVyeWlmak12S0pzRVVqRjVpZ1Y2dXdUcG1Uejd6bmxHSjc3MklyZEVtWlptdVY4SWxLMXplb0poZ1dRZ1JmSDJmVFhiRXRFaFdZVjhKbkdrWVB1Vk8yNW8yNTdvQWFrcUh1Nzc4UlE?oc=5",
-          "date": "2026-09-11T11:45:07.000Z",
-          "brand": "De Cecco"
-        },
-        {
-          "type": "news",
-          "title": "Cadmio nella pasta: nei bambini che ne consumano molta si può superare la soglia di sicurezza - greenMe",
-          "source": "GREENME",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOd1dtZU5hSVgyNllYTmRxc2VtMjNDMmtDLXcwMG9xV2hHVkViTFhpNjBCYUNYQXRSekNhbzJCdGJwQ2M5MHMzY09vNFRNaXc2RWt5RFQ5VHhWS3BPbzFxOGgxZjhyUUhzVmMxRHhtUGN0bmJaeWFNQWJiMnMzS2VXY1lRTHNjbVMyTURSR1hBTzQwQVcxaHhaNGFGSUtrUHFnOG1tcDJDN1ZxTnYwTk1vNGxkZERON0lDQjBkU0o5THN4Z1FNN0xJRUxaNlVWMV9pWC0xNDNn?oc=5",
-          "date": "2026-09-14T11:02:57.000Z",
-          "brand": "De Cecco"
-        },
-        {
-          "type": "news",
-          "title": "Pasta, il verdetto di Altroconsumo su 42 marche, chi vince e chi perde tra spaghetti e penne: non mancano sorprese - Businessonline.it",
-          "source": "BUSINESSONLINE.IT",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOU0dLV2RSVWJHYzBtTmtfYkp1MnRrR0t2QmlURzNLRG92anhkQXpLenhqYVQ4SmI3RDBlWDZwWnV5c1laaFMwU0lCZTYzYWdCZUkzdUZXcXRoT3lfQy1CTDBFdi1PMlNsaF9DWE51SUNXN181ZnJwSlF3ZUliMzBhMTdubWV6N0M2Tmc3R2p1VGp5TnYybmM4NDNzdS1DZkZkbFdHekFlWDNEZXNPRFh5bDVmT0QzLW9oS3VITktlYkh1RThHT2Jxa0F4NE44TjhOMkM1bkpNVE1sOW5xajR1akFaZUllS0NoT09rUzAxR3NjX2c?oc=5",
-          "date": "2026-09-09T12:20:00.000Z",
-          "brand": "De Cecco"
-        },
-        {
-          "type": "news",
-          "title": "Volantino DPiù dal 14 settembre 2026 - Anteprima Volantino",
-          "source": "ANTEPRIMA VOLANTINO",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZmRnRVJHNVIzWVdFNlVxRTBEa0VBN0RieU5QLTZfYmVqcEY5TjNJT25Lam1jX2wzZkRTTzU1WTVwVXA3LWVIX01ueFpBdjBVYm9BckR0OTlVRHEyZFlxazRBX3o1M3NDbkI2cWtzaHMzaUxaU3VWMTUySWRVY1JDMmV0TFg?oc=5",
-          "date": "2026-09-14T12:30:00.000Z",
-          "brand": "De Cecco"
-        },
-        {
-          "type": "news",
-          "title": "Volantino Iper Benessere dal 11 settembre 2026, offerte su senza glutine, bio e proteine - Anteprima Volantino",
-          "source": "ANTEPRIMA VOLANTINO",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTlJIeVJPVkZNeVZxOE4wT2Z0c2YyWFoxTkRnSXd0Wl9ZUGRodmFTS3JoemJ6VElSbzlYM29zVnU4XzhGUTFFVU8tUDdIYzBoQjVCRjJNNDRuOWZsekhhSDIxeTlvaGJ0UjhHcnV2c2pYQnZodWYtWFV1Yk9pLS1pZlJqWUI2QS1ZdUloM25LZmNJdw?oc=5",
-          "date": "2026-09-10T09:30:00.000Z",
-          "brand": "De Cecco"
-        },
-        {
-          "type": "news",
-          "title": "Volantino Ipercoop dal 10 settembre 2026 - Anteprima Volantino",
-          "source": "ANTEPRIMA VOLANTINO",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVV82NVhQVkw3UDF5TzZEU25UTDNKVWdmMmpKZTdhYmN5VTYzZFI4UEVuSHhMakY1dGVneEdZNWdma0UwLVl1b0JEcmlCVk80ZWFEV3BRdlBVOHlySjFscGM2Z0NPNmQ5NmJxdGwySUcyTHVxVDFJa19DZDVYa1FsNGVVQnE3SW9fbVE?oc=5",
-          "date": "2026-09-09T09:30:00.000Z",
-          "brand": "De Cecco"
-        },
         {
           "type": "social",
           "platform": "ig",
@@ -2696,48 +2198,85 @@
           "date": "2026-09-12T10:45:07Z",
           "url": "https://www.instagram.com/reel/3984504109363809709/",
           "brand": "De Cecco"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "dececco_pasta",
+          "text": "Farfalle Medie De Cecco, colori pieni e sapori freschi: il buonumore comincia già da qui.\nUna ricetta semplice da seguire, bella da vedere e ancora meglio da portare in tavola.\nScorrete il carosello, provate a rifarla anche voi e taggateci nelle vost",
+          "engagement": 133,
+          "date": "2026-09-14T08:54:44Z",
+          "url": "https://www.instagram.com/p/3985897947237536763/",
+          "brand": "De Cecco"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "dececco_pasta",
+          "text": "Le serate più belle hanno un ritmo tutto loro: si apparecchia con calma, si chiacchiera più a lungo e si scelgono ricette che lasciano il segno 💙\n\nLe Mezze Penne Rigate n°141 Integrali con polpo e pomodoro è una di queste. Una ricetta semplice da pr",
+          "engagement": 33,
+          "date": "2026-09-15T10:31:46Z",
+          "url": "https://www.instagram.com/reel/3986671301128436570/",
+          "brand": "De Cecco"
+        }
+      ]
+    },
+    {
+      "name": "Divella",
+      "mentions": 0,
+      "socialMentions": 4,
+      "totalMentions": 4,
+      "shareOfVoice": 9.1,
+      "posts": [
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "callmewine_official",
+          "text": "Bottle Battle – Ep. 6 🍾\n \nDieci Franciacorta, un solo vincitore. Nomi che hanno fatto la storia della denominazione e realtà piccole tutte da scoprire.\n \nRound dopo round, Matteo deve scegliere: una bottiglia passa il turno, l’altra viene eliminata,",
+          "engagement": 3439,
+          "date": "2026-09-09T16:00:10Z",
+          "url": "https://www.instagram.com/reel/3982488170326895045/",
+          "brand": "Divella"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "divellaofficial",
+          "text": "Ritardo giustificato ✔️\nZaino pieno ✔️\nTesta altrove ✔️\nSettembre si affronta meglio con la pancia piena.\n\n#Divella #BackToSchool",
+          "engagement": 38,
+          "date": "2026-09-12T08:00:33Z",
+          "url": "https://www.instagram.com/p/3984421128495437997/",
+          "brand": "Divella"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "divellaofficial",
+          "text": "Hai già iniziato a raccogliere i Punti Trulletto?\n\nSe a casa non mancano mai la pasta e i biscotti Divella, ricordati che la raccolta punti “La passione che ti premia” è attiva.\nOgni volta che scegli i prodotti aderenti, accumuli punti e, una volta r",
+          "engagement": 33,
+          "date": "2026-09-14T08:00:42Z",
+          "url": "https://www.instagram.com/p/3985870751731734912/",
+          "brand": "Divella"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "divellaofficial",
+          "text": "E TU, HAI GIÀ PROVATO A VINCERE?\nIl concorso Inzuppa e VINCI è partito, ma c’è ancora tempo per giocare e provare a portarti a casa uno dei premi in palio!\nBastano 3 confezioni di biscotti Divella, uno scontrino da conservare e pochi semplici passagg",
+          "engagement": 25,
+          "date": "2026-09-10T17:40:40Z",
+          "url": "https://www.instagram.com/reel/3983263373764519925/",
+          "brand": "Divella"
         }
       ]
     },
     {
       "name": "Rummo",
-      "mentions": 4,
+      "mentions": 0,
       "socialMentions": 3,
-      "totalMentions": 7,
-      "shareOfVoice": 8.1,
+      "totalMentions": 3,
+      "shareOfVoice": 6.8,
       "posts": [
-        {
-          "type": "news",
-          "title": "Spaghetti, cadmio nell’80% della pasta analizzata: i risultati di Barilla, De Cecco e Rummo - greenMe",
-          "source": "GREENME",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQN3MtUG9SMGtlZUZUQ1ZEenN1amRfSFp2d1ZXOUVyeVlqUUktMFZPLWhIaFlsbVlPazJQWVgyblIwVmtIbXpBY3VfUDZUR3FMVllfZkxlQXhqY2RPTXBGbGhMd3B5eGVaTWNQd29nb1JsRmhFbEdyZHdqVEJIcmZxZ1BYX2lGZ1VkYVlZczIyQ3FYaUcyTThjQXgzd2owVWNOci0wVTg4bm9PdThnT256VmNzb0VBWV9MREllcndNM0NZWlR5ZVdGTmtzSXVLcGtlZ3c?oc=5",
-          "date": "2026-09-12T08:06:34.000Z",
-          "brand": "Rummo"
-        },
-        {
-          "type": "news",
-          "title": "Cadmio nella pasta: nei bambini che ne consumano molta si può superare la soglia di sicurezza - greenMe",
-          "source": "GREENME",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOd1dtZU5hSVgyNllYTmRxc2VtMjNDMmtDLXcwMG9xV2hHVkViTFhpNjBCYUNYQXRSekNhbzJCdGJwQ2M5MHMzY09vNFRNaXc2RWt5RFQ5VHhWS3BPbzFxOGgxZjhyUUhzVmMxRHhtUGN0bmJaeWFNQWJiMnMzS2VXY1lRTHNjbVMyTURSR1hBTzQwQVcxaHhaNGFGSUtrUHFnOG1tcDJDN1ZxTnYwTk1vNGxkZERON0lDQjBkU0o5THN4Z1FNN0xJRUxaNlVWMV9pWC0xNDNn?oc=5",
-          "date": "2026-09-14T11:02:57.000Z",
-          "brand": "Rummo"
-        },
-        {
-          "type": "news",
-          "title": "Pasta, il verdetto di Altroconsumo su 42 marche, chi vince e chi perde tra spaghetti e penne: non mancano sorprese - Businessonline.it",
-          "source": "BUSINESSONLINE.IT",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOU0dLV2RSVWJHYzBtTmtfYkp1MnRrR0t2QmlURzNLRG92anhkQXpLenhqYVQ4SmI3RDBlWDZwWnV5c1laaFMwU0lCZTYzYWdCZUkzdUZXcXRoT3lfQy1CTDBFdi1PMlNsaF9DWE51SUNXN181ZnJwSlF3ZUliMzBhMTdubWV6N0M2Tmc3R2p1VGp5TnYybmM4NDNzdS1DZkZkbFdHekFlWDNEZXNPRFh5bDVmT0QzLW9oS3VITktlYkh1RThHT2Jxa0F4NE44TjhOMkM1bkpNVE1sOW5xajR1akFaZUllS0NoT09rUzAxR3NjX2c?oc=5",
-          "date": "2026-09-09T12:20:00.000Z",
-          "brand": "Rummo"
-        },
-        {
-          "type": "news",
-          "title": "Volantino Carrefour Iper dal 15 settembre 2026 - Anteprima Volantino",
-          "source": "ANTEPRIMA VOLANTINO",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX0VVRWw1ZXVaMVJWTFRuSmZIX0g0eXFGTHRzLTc2TExxU0ppbFJrZ1FDZWZndGlaR0NEcjUwOS1ya3lMQjR0TUI1OFVVZ0s4VWZZQ0lRTjdGV05JT0FNcFpCdTI1ZlgzRXVZOW0xTkJVRkdqZ3BYTWVvYmhZMF8wQjJnbTRXNnl1dm5oZVBiYWtPQQ?oc=5",
-          "date": "2026-09-14T05:06:13.000Z",
-          "brand": "Rummo"
-        },
         {
           "type": "social",
           "platform": "ig",
@@ -2771,109 +2310,12 @@
       ]
     },
     {
-      "name": "Divella",
-      "mentions": 3,
-      "socialMentions": 4,
-      "totalMentions": 7,
-      "shareOfVoice": 8.1,
-      "posts": [
-        {
-          "type": "news",
-          "title": "Pasta, il verdetto di Altroconsumo su 42 marche, chi vince e chi perde tra spaghetti e penne: non mancano sorprese - Businessonline.it",
-          "source": "BUSINESSONLINE.IT",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOU0dLV2RSVWJHYzBtTmtfYkp1MnRrR0t2QmlURzNLRG92anhkQXpLenhqYVQ4SmI3RDBlWDZwWnV5c1laaFMwU0lCZTYzYWdCZUkzdUZXcXRoT3lfQy1CTDBFdi1PMlNsaF9DWE51SUNXN181ZnJwSlF3ZUliMzBhMTdubWV6N0M2Tmc3R2p1VGp5TnYybmM4NDNzdS1DZkZkbFdHekFlWDNEZXNPRFh5bDVmT0QzLW9oS3VITktlYkh1RThHT2Jxa0F4NE44TjhOMkM1bkpNVE1sOW5xajR1akFaZUllS0NoT09rUzAxR3NjX2c?oc=5",
-          "date": "2026-09-09T12:20:00.000Z",
-          "brand": "Divella"
-        },
-        {
-          "type": "news",
-          "title": "Volantino Bennet dal 10 settembre 2026 - Anteprima Volantino",
-          "source": "ANTEPRIMA VOLANTINO",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTEFHRmgzM0hnVGF2c2N3cEFVNXVMU3ViUnp6d2ZHUlZsaXM0eHdzaFRJQ0o3ekhKVnh1V01FeWVHaEs5QTZRX21PQ3ljTE5US3B5aHdjRENRR2tVUmNUYWhDazJfYzZjallHNXc2SDJNVDd0bDNnN0RZeDRSV2RvNU9YS184bXM?oc=5",
-          "date": "2026-09-10T07:30:00.000Z",
-          "brand": "Divella"
-        },
-        {
-          "type": "news",
-          "title": "Volantino Penny dal 10 settembre 2026 - Anteprima Volantino",
-          "source": "ANTEPRIMA VOLANTINO",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNb25ZRVJaX1BOVXEtdkdLdGdCWUdzNG5iblBuT0wxUVM3TF9lMHgtWFhpVjlfTVNlcjBoN0M1YWhXVnJTbHpVOUlGbkRycWMzSjBRYnZMY01MeXBOcjVQRy1vOEZDZEc3OXRHeklITVVGN21JdVp3QUd0ZTNGZ3RieXdZNTJ3QQ?oc=5",
-          "date": "2026-09-09T08:30:00.000Z",
-          "brand": "Divella"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "callmewine_official",
-          "text": "Bottle Battle – Ep. 6 🍾\n \nDieci Franciacorta, un solo vincitore. Nomi che hanno fatto la storia della denominazione e realtà piccole tutte da scoprire.\n \nRound dopo round, Matteo deve scegliere: una bottiglia passa il turno, l’altra viene eliminata,",
-          "engagement": 3355,
-          "date": "2026-09-09T16:00:10Z",
-          "url": "https://www.instagram.com/reel/3982488170326895045/",
-          "brand": "Divella"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "divellaofficial",
-          "text": "Ritardo giustificato ✔️\nZaino pieno ✔️\nTesta altrove ✔️\nSettembre si affronta meglio con la pancia piena.\n\n#Divella #BackToSchool",
-          "engagement": 34,
-          "date": "2026-09-12T08:00:33Z",
-          "url": "https://www.instagram.com/p/3984421128495437997/",
-          "brand": "Divella"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "divellaofficial",
-          "text": "E TU, HAI GIÀ PROVATO A VINCERE?\nIl concorso Inzuppa e VINCI è partito, ma c’è ancora tempo per giocare e provare a portarti a casa uno dei premi in palio!\nBastano 3 confezioni di biscotti Divella, uno scontrino da conservare e pochi semplici passagg",
-          "engagement": 25,
-          "date": "2026-09-10T17:40:40Z",
-          "url": "https://www.instagram.com/reel/3983263373764519925/",
-          "brand": "Divella"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
-          "author": "divellaofficial",
-          "text": "Hai già iniziato a raccogliere i Punti Trulletto?\n\nSe a casa non mancano mai la pasta e i biscotti Divella, ricordati che la raccolta punti “La passione che ti premia” è attiva.\nOgni volta che scegli i prodotti aderenti, accumuli punti e, una volta r",
-          "engagement": 7,
-          "date": "2026-09-14T08:00:42Z",
-          "url": "https://www.instagram.com/p/3985870751731734912/",
-          "brand": "Divella"
-        }
-      ]
-    },
-    {
       "name": "Voiello",
-      "mentions": 3,
-      "socialMentions": 1,
-      "totalMentions": 4,
-      "shareOfVoice": 4.7,
+      "mentions": 0,
+      "socialMentions": 2,
+      "totalMentions": 2,
+      "shareOfVoice": 4.5,
       "posts": [
-        {
-          "type": "news",
-          "title": "Spaghetti, cadmio nell’80% della pasta analizzata: i risultati di Barilla, De Cecco e Rummo - greenMe",
-          "source": "GREENME",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQN3MtUG9SMGtlZUZUQ1ZEenN1amRfSFp2d1ZXOUVyeVlqUUktMFZPLWhIaFlsbVlPazJQWVgyblIwVmtIbXpBY3VfUDZUR3FMVllfZkxlQXhqY2RPTXBGbGhMd3B5eGVaTWNQd29nb1JsRmhFbEdyZHdqVEJIcmZxZ1BYX2lGZ1VkYVlZczIyQ3FYaUcyTThjQXgzd2owVWNOci0wVTg4bm9PdThnT256VmNzb0VBWV9MREllcndNM0NZWlR5ZVdGTmtzSXVLcGtlZ3c?oc=5",
-          "date": "2026-09-12T08:06:34.000Z",
-          "brand": "Voiello"
-        },
-        {
-          "type": "news",
-          "title": "Cadmio nella pasta: nei bambini che ne consumano molta si può superare la soglia di sicurezza - greenMe",
-          "source": "GREENME",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOd1dtZU5hSVgyNllYTmRxc2VtMjNDMmtDLXcwMG9xV2hHVkViTFhpNjBCYUNYQXRSekNhbzJCdGJwQ2M5MHMzY09vNFRNaXc2RWt5RFQ5VHhWS3BPbzFxOGgxZjhyUUhzVmMxRHhtUGN0bmJaeWFNQWJiMnMzS2VXY1lRTHNjbVMyTURSR1hBTzQwQVcxaHhaNGFGSUtrUHFnOG1tcDJDN1ZxTnYwTk1vNGxkZERON0lDQjBkU0o5THN4Z1FNN0xJRUxaNlVWMV9pWC0xNDNn?oc=5",
-          "date": "2026-09-14T11:02:57.000Z",
-          "brand": "Voiello"
-        },
-        {
-          "type": "news",
-          "title": "Volantino Il Gigante dal 10 settembre 2026 - Anteprima Volantino",
-          "source": "ANTEPRIMA VOLANTINO",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOHNnNGhFbjJKT0ZVOGFWZjgtTmlhMjMwVm1IaGp4Q19fTy1PSVk5VlVGOWc5ZVhDNWJobkdieXNSTkZpd0Y3cHdKejBHN2tUYWxuc2JxLXZOd1l4Z3d0U1hSUDV2RUxiOVlaejZKNkJKem14V2RKNzQ4UFdISHZXamM3WmdUNVo0bHNxeA?oc=5",
-          "date": "2026-09-10T06:30:00.000Z",
-          "brand": "Voiello"
-        },
         {
           "type": "social",
           "platform": "yt",
@@ -2883,32 +2325,26 @@
           "date": "2026-09-12T09:29:21Z",
           "url": "https://www.youtube.com/watch?v=bONsO1MsjiI",
           "brand": "Voiello"
+        },
+        {
+          "type": "social",
+          "platform": "ig",
+          "author": "piattinidavanguardia",
+          "text": "Sei un’azienda e hai bisogno di realizzare oggetti ultra fighi? Sei nel posto giusto ❤️❤️❤️❤️❤️❤️❤️\n-\nTrovi tutti i nostri contatti in bio o su :\nwww.piattinidavanguardia.com \n-\nIn ordine nel post :\nConcorso a premi @voiello \nConcorso a premi @saikeb",
+          "engagement": 61,
+          "date": "2026-09-15T10:12:11Z",
+          "url": "https://www.instagram.com/p/3986661704779741247/",
+          "brand": "Voiello"
         }
       ]
     },
     {
       "name": "La Molisana",
-      "mentions": 2,
+      "mentions": 0,
       "socialMentions": 1,
-      "totalMentions": 3,
-      "shareOfVoice": 3.5,
+      "totalMentions": 1,
+      "shareOfVoice": 2.3,
       "posts": [
-        {
-          "type": "news",
-          "title": "In mare senza barriere con Spirito di Stella - quinewscecina.it",
-          "source": "QUINEWSCECINA.IT",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTHVaZ1RNeHdBcTZjcEx5bU9mRWRKOXpKUVBsUW9RWjd5a0FzVzVqQlR3MUZzVURrVmZfeUc1a3REQ1V4U1RyNy1iRGZad1d3eFFycDZaREVRTlRvOElucW9xa0FiaFBGb2J2Zkx2cXNOQzlzeXZiN0J2NTFTOTVtQWtfbHNLaE9iaGlzdmplM3VIcXFQRjRnZdIBngFBVV95cUxPbm5uSXFZS2xxUUcwSnJ1R2F1akZBa2dnTWpROUttZzdQc2FvVUtjaWRxSFdUU0VIcXdfaURXd1BIR1hIWURPcF84a2hXMlVBeW5samlmS3pWTXp6WDhaa0pyWE5NZzdVOEU4N0I3aEhoekFkT0Y0UEhwMXhNZDloaHV6TldXaWtCR3VIcUZyVmFvMjNsQ3FlclF0NTFaQQ?oc=5",
-          "date": "2026-09-11T09:47:00.000Z",
-          "brand": "La Molisana"
-        },
-        {
-          "type": "news",
-          "title": "Pasta, il verdetto di Altroconsumo su 42 marche, chi vince e chi perde tra spaghetti e penne: non mancano sorprese - Businessonline.it",
-          "source": "BUSINESSONLINE.IT",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOU0dLV2RSVWJHYzBtTmtfYkp1MnRrR0t2QmlURzNLRG92anhkQXpLenhqYVQ4SmI3RDBlWDZwWnV5c1laaFMwU0lCZTYzYWdCZUkzdUZXcXRoT3lfQy1CTDBFdi1PMlNsaF9DWE51SUNXN181ZnJwSlF3ZUliMzBhMTdubWV6N0M2Tmc3R2p1VGp5TnYybmM4NDNzdS1DZkZkbFdHekFlWDNEZXNPRFh5bDVmT0QzLW9oS3VITktlYkh1RThHT2Jxa0F4NE44TjhOMkM1bkpNVE1sOW5xajR1akFaZUllS0NoT09rUzAxR3NjX2c?oc=5",
-          "date": "2026-09-09T12:20:00.000Z",
-          "brand": "La Molisana"
-        },
         {
           "type": "social",
           "platform": "ig",
