@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-22T16:20:41.601Z",
+    "generatedAt": "2026-09-22T20:55:18.079Z",
     "pipelineVersion": "1.0.0",
     "sources": {
       "opensearch": true,
@@ -9,19 +9,19 @@
       "claude": false,
       "competitors": true
     },
-    "processingTimeMs": 3146
+    "processingTimeMs": 2434
   },
   "social": {
     "overview": {
-      "totalPosts": 216616,
-      "prevTotalPosts": 228638,
-      "volumeChange": -5.3,
-      "mentions24h": 20582,
-      "totalEngagement": 727438357,
-      "avgEngagementRate": 0.009316856517609105,
-      "erChange": -19,
+      "totalPosts": 207784,
+      "prevTotalPosts": 228962,
+      "volumeChange": -9.2,
+      "mentions24h": 11245,
+      "totalEngagement": 675422610,
+      "avgEngagementRate": 0.009230411639299857,
+      "erChange": -19.4,
       "organicPct": 98,
-      "sponsoredCount": 5123
+      "sponsoredCount": 4944
     },
     "brandHealth": {
       "score": 79,
@@ -29,12 +29,12 @@
       "dimensions": [
         {
           "name": "Sentiment",
-          "score": 69,
+          "score": 68,
           "color": "#00e676"
         },
         {
           "name": "Engagement",
-          "score": 47,
+          "score": 46,
           "color": "#3ba4ff"
         },
         {
@@ -54,7 +54,7 @@
         },
         {
           "name": "Platform Mix",
-          "score": 74,
+          "score": 75,
           "color": "#00e676"
         },
         {
@@ -70,103 +70,83 @@
       ]
     },
     "sentiment": {
-      "netScore": 50,
-      "positive": 59,
+      "netScore": 48,
+      "positive": 58,
       "neutral": 32,
-      "negative": 9
+      "negative": 10
     },
     "platforms": [
       {
         "name": "tt",
-        "count": 120714,
-        "pctOfTotal": 55.7
+        "count": 115508,
+        "pctOfTotal": 55.6
       },
       {
         "name": "ig",
-        "count": 87540,
-        "pctOfTotal": 40.4
+        "count": 84119,
+        "pctOfTotal": 40.5
       },
       {
         "name": "yt",
-        "count": 8362,
+        "count": 8157,
         "pctOfTotal": 3.9
       }
     ],
     "dailyVolume": [
       {
         "date": "2026-09-15T00:00:00.000Z",
-        "count": 10650,
-        "engagement": 68849146,
-        "avgEr": 0.011118781226250898
+        "count": 1748,
+        "engagement": 15929183,
+        "avgEr": 0.010303454167592376
       },
       {
         "date": "2026-09-16T00:00:00.000Z",
         "count": 33849,
-        "engagement": 124978505,
-        "avgEr": 0.011339403104444977
+        "engagement": 124987998,
+        "avgEr": 0.011339409233749233
       },
       {
         "date": "2026-09-17T00:00:00.000Z",
         "count": 34580,
-        "engagement": 129911490,
-        "avgEr": 0.010180276565209163
+        "engagement": 129930805,
+        "avgEr": 0.010180205024463854
       },
       {
         "date": "2026-09-18T00:00:00.000Z",
         "count": 34840,
-        "engagement": 121011652,
-        "avgEr": 0.0098601035654682
+        "engagement": 121035886,
+        "avgEr": 0.009860117761915914
       },
       {
         "date": "2026-09-19T00:00:00.000Z",
         "count": 30661,
-        "engagement": 97350216,
-        "avgEr": 0.01009417068048913
+        "engagement": 97424615,
+        "avgEr": 0.010094175818829623
       },
       {
         "date": "2026-09-20T00:00:00.000Z",
         "count": 28646,
-        "engagement": 102581988,
-        "avgEr": 0.009461739853180554
+        "engagement": 102717266,
+        "avgEr": 0.009462001380680995
       },
       {
         "date": "2026-09-21T00:00:00.000Z",
-        "count": 33725,
-        "engagement": 79273138,
-        "avgEr": 0.0065923029577583435
+        "count": 33744,
+        "engagement": 79725391,
+        "avgEr": 0.00659284658605341
       },
       {
         "date": "2026-09-22T00:00:00.000Z",
-        "count": 9665,
-        "engagement": 3482222,
-        "avgEr": 0.0018155505521983359
+        "count": 9716,
+        "engagement": 3671466,
+        "avgEr": 0.0018068393056646396
       }
     ],
     "hourlyVolume": [
       {
-        "hour": "2026-09-21T16:00:00.000Z",
-        "count": 1695,
-        "engagement": 3119704
-      },
-      {
-        "hour": "2026-09-21T17:00:00.000Z",
-        "count": 2411,
-        "engagement": 7534587
-      },
-      {
-        "hour": "2026-09-21T18:00:00.000Z",
-        "count": 2182,
-        "engagement": 6271023
-      },
-      {
-        "hour": "2026-09-21T19:00:00.000Z",
-        "count": 1925,
-        "engagement": 2394083
-      },
-      {
         "hour": "2026-09-21T20:00:00.000Z",
-        "count": 1243,
-        "engagement": 2285739
+        "count": 68,
+        "engagement": 153530
       },
       {
         "hour": "2026-09-21T21:00:00.000Z",
@@ -215,13 +195,13 @@
       },
       {
         "hour": "2026-09-22T06:00:00.000Z",
-        "count": 901,
-        "engagement": 348065
+        "count": 906,
+        "engagement": 366730
       },
       {
         "hour": "2026-09-22T07:00:00.000Z",
-        "count": 1107,
-        "engagement": 426806
+        "count": 1108,
+        "engagement": 429280
       },
       {
         "hour": "2026-09-22T08:00:00.000Z",
@@ -230,159 +210,189 @@
       },
       {
         "hour": "2026-09-22T09:00:00.000Z",
-        "count": 1527,
-        "engagement": 420556
+        "count": 1530,
+        "engagement": 421086
       },
       {
         "hour": "2026-09-22T10:00:00.000Z",
-        "count": 2093,
-        "engagement": 595949
+        "count": 2099,
+        "engagement": 599499
       },
       {
         "hour": "2026-09-22T11:00:00.000Z",
-        "count": 1173,
-        "engagement": 48600
+        "count": 1180,
+        "engagement": 50514
       },
       {
         "hour": "2026-09-22T12:00:00.000Z",
-        "count": 92,
-        "engagement": 4352
+        "count": 97,
+        "engagement": 51712
+      },
+      {
+        "hour": "2026-09-22T13:00:00.000Z",
+        "count": 7,
+        "engagement": 3839
+      },
+      {
+        "hour": "2026-09-22T14:00:00.000Z",
+        "count": 3,
+        "engagement": 577
+      },
+      {
+        "hour": "2026-09-22T15:00:00.000Z",
+        "count": 4,
+        "engagement": 69810
+      },
+      {
+        "hour": "2026-09-22T16:00:00.000Z",
+        "count": 5,
+        "engagement": 39833
+      },
+      {
+        "hour": "2026-09-22T17:00:00.000Z",
+        "count": 3,
+        "engagement": 524
+      },
+      {
+        "hour": "2026-09-22T18:00:00.000Z",
+        "count": 2,
+        "engagement": 168
       }
     ],
     "hashtags": [
       {
         "tag": "accadeoggi",
-        "count": 5148
+        "count": 5015
       },
       {
         "tag": "perte",
-        "count": 4625
+        "count": 4421
       },
       {
         "tag": "fyp",
-        "count": 4500
+        "count": 4292
       },
       {
         "tag": "viral",
-        "count": 3368
+        "count": 3221
       },
       {
         "tag": "adv",
-        "count": 2553
+        "count": 2468
       },
       {
         "tag": "tiktokshop",
-        "count": 1893
-      },
-      {
-        "tag": "neiperte",
-        "count": 1781
+        "count": 1799
       },
       {
         "tag": "offerteperte",
-        "count": 1771
+        "count": 1710
+      },
+      {
+        "tag": "neiperte",
+        "count": 1697
       },
       {
         "tag": "napoli",
-        "count": 1477
+        "count": 1427
       },
       {
         "tag": "foryou",
-        "count": 1417
+        "count": 1356
       },
       {
         "tag": "freshforfall",
-        "count": 1135
+        "count": 1098
       },
       {
         "tag": "capcut",
-        "count": 1019
+        "count": 972
       },
       {
         "tag": "calcio",
-        "count": 968
+        "count": 944
       },
       {
         "tag": "seriea",
-        "count": 956
+        "count": 938
       },
       {
         "tag": "virale",
-        "count": 883
-      },
-      {
-        "tag": "italia",
-        "count": 875
+        "count": 863
       },
       {
         "tag": "roma",
-        "count": 864
+        "count": 836
       },
       {
-        "tag": "italy",
-        "count": 825
+        "tag": "italia",
+        "count": 833
       },
       {
         "tag": "davedere",
-        "count": 822
+        "count": 795
+      },
+      {
+        "tag": "italy",
+        "count": 783
       },
       {
         "tag": "voliamoneixte✈🦁🔝💯💥",
-        "count": 791
+        "count": 769
       },
       {
         "tag": "milano",
-        "count": 770
-      },
-      {
-        "tag": "amore",
-        "count": 749
-      },
-      {
-        "tag": "onthisday",
         "count": 729
       },
       {
-        "tag": "madeinitaly",
-        "count": 718
+        "tag": "amore",
+        "count": 721
       },
       {
-        "tag": "perteeee",
-        "count": 697
+        "tag": "onthisday",
+        "count": 716
+      },
+      {
+        "tag": "madeinitaly",
+        "count": 698
+      },
+      {
+        "tag": "juventus",
+        "count": 673
       }
     ],
     "creators": [
       {
-        "name": "fabriziorom",
-        "posts": 54,
-        "engagement": 36329115,
-        "platform": "ig",
-        "followers": 50679759,
-        "avgEr": 0.013274755092834774
-      },
-      {
         "name": "fcbarcelona",
-        "posts": 49,
-        "engagement": 36115228,
+        "posts": 46,
+        "engagement": 33876155,
         "platform": "ig",
         "followers": 148483056,
-        "avgEr": 0.004963835532774562
+        "avgEr": 0.004959745387877207
+      },
+      {
+        "name": "fabriziorom",
+        "posts": 50,
+        "engagement": 33414153,
+        "platform": "ig",
+        "followers": 50679759,
+        "avgEr": 0.013186389856352709
       },
       {
         "name": "433",
-        "posts": 55,
-        "engagement": 30902777,
+        "posts": 51,
+        "engagement": 29219438,
         "platform": "ig",
         "followers": 79758883,
-        "avgEr": 0.007046660237781364
+        "avgEr": 0.007185509114703255
       },
       {
         "name": "realmadrid",
-        "posts": 53,
-        "engagement": 17960320,
+        "posts": 46,
+        "engagement": 15140130,
         "platform": "ig",
         "followers": 181206964,
-        "avgEr": 0.0018704967775042044
+        "avgEr": 0.0018166759843037423
       },
       {
         "name": "championsleague",
@@ -402,43 +412,19 @@
       },
       {
         "name": "natgeo",
-        "posts": 14,
-        "engagement": 8000489,
+        "posts": 13,
+        "engagement": 7973803,
         "platform": "ig",
         "followers": 268544895,
-        "avgEr": 0.0021279998638588904
-      },
-      {
-        "name": "maluma",
-        "posts": 3,
-        "engagement": 7117094,
-        "platform": "ig",
-        "followers": 63345609,
-        "avgEr": 0.03745113045904518
+        "avgEr": 0.00228404811619473
       },
       {
         "name": "premierleague",
-        "posts": 73,
-        "engagement": 6005235,
+        "posts": 68,
+        "engagement": 5328306,
         "platform": "ig",
         "followers": 80384905,
-        "avgEr": 0.001023981569567405
-      },
-      {
-        "name": "charlidamelio",
-        "posts": 11,
-        "engagement": 5489877,
-        "platform": "tt",
-        "followers": 160200000,
-        "avgEr": 0.0031153541028260128
-      },
-      {
-        "name": "arianagrande",
-        "posts": 3,
-        "engagement": 5352122,
-        "platform": "tt",
-        "followers": 44700000,
-        "avgEr": 0.039911424310216256
+        "avgEr": 0.0009753313014449871
       },
       {
         "name": "roses_are_rosie",
@@ -457,20 +443,44 @@
         "avgEr": 0.019387504076399473
       },
       {
-        "name": "voguemagazine",
-        "posts": 59,
-        "engagement": 4926627,
-        "platform": "ig",
-        "followers": 51902317,
-        "avgEr": 0.0016091485159725465
-      },
-      {
         "name": "manutd",
         "posts": 51,
         "engagement": 4854670,
         "platform": "ig",
         "followers": 66137428,
         "avgEr": 0.0014392698767048706
+      },
+      {
+        "name": "charlidamelio",
+        "posts": 10,
+        "engagement": 4845023,
+        "platform": "tt",
+        "followers": 160200000,
+        "avgEr": 0.0030243589263420725
+      },
+      {
+        "name": "voguemagazine",
+        "posts": 54,
+        "engagement": 4801717,
+        "platform": "ig",
+        "followers": 51902317,
+        "avgEr": 0.0017135583808875932
+      },
+      {
+        "name": "niccolocosci",
+        "posts": 47,
+        "engagement": 4437106,
+        "platform": "tt",
+        "followers": 325200,
+        "avgEr": 0.29146727882900664
+      },
+      {
+        "name": "psg",
+        "posts": 45,
+        "engagement": 4125370,
+        "platform": "ig",
+        "followers": 67384530,
+        "avgEr": 0.001360473819271113
       }
     ],
     "posts": [
@@ -1399,8 +1409,8 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMHBMd3VycVo4bEdvZktlblhYWEo5WnJJQVVCYllwRmVvLVRZby02TFN0ZEFGZXNwY0RaMlBLT18tS0tTdWNtZTZUNUdPeHhFUE4tSlp1cElIcm5UOUN1b0czUHBaTEZiZk1jeTJCY2"
     },
     {
-      "title": "Barilla investe 100 milioni per il polo della pasta a Foggia - Corriere dell'Economia",
-      "source": "Corriere dell'Economia",
+      "title": "Barilla investe 100 milioni per il polo della pasta a Foggia - corrieredelleconomia.it",
+      "source": "corrieredelleconomia.it",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdzR2RTZhQjByNlJiNEpvXzJadmF6c1M2blBOUTIyeG1ORm5xZzFhMG1GaXpWOElOOEQyVm4xem9OWWpFdmdSb09QZ0tWVXpua21aRWZwSVpFTjNmMm1mNHRBSUoxTVMyeVdUbjU3R0pvUHEzWW1QZXl0ajM1SlZ6TkRucUUzQnctMkhMc0hMVjAxWkVCZlBvQkNwZE5PSTd1LU9PZ3JIVWxLaDlt?oc=5",
       "date": "2026-09-21T09:44:46.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNdzR2RTZhQjByNlJiNEpvXzJadmF6c1M2blBOUTIyeG1ORm5xZzFhMG1GaXpWOElOOEQyVm4xem9OWWpFdmdSb09QZ0tWVXpua21aRWZwSVpFTjNmMm1mNHRBSUoxTVMyeVdUbjU3R0"
@@ -1448,8 +1458,8 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNcVF4TnV4Q1dTVUYzeDZZSXpEXzVRdVpnaUdES2F3ME05WnNNTHhLSEtoLUZneWVsLXg3RVdDQWNDTVlqdE1HTlNZVzRremxIVW5VUWktczhQZHExTjJJQzdIczhyTGdxdzl6aGVQWD"
     },
     {
-      "title": "Barilla scommette su Foggia: 100 milioni per il nuovo polo integrato della pasta - corriere.it",
-      "source": "corriere.it",
+      "title": "Barilla scommette su Foggia: 100 milioni per il nuovo polo integrato della pasta - Corriere della Sera",
+      "source": "Corriere della Sera",
       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOQTNTM3hlVklnYUk0clRqUkp6WjZta3hybUI3Z0FBem9Eam9objhoMVlNdEVzdElwSmoyOXBkM0VFNnUzdXBGa1dyVUR6WUFkOTBBOXRiRzRXY3Y4RTNIa3R5V25KMy1LdDZSTGNkUmQzY2JvM2Y1SWRPOWVjTjZxeWZSenVYNWVkeXBSYXU4ZzdLSU9rVEpyMnpwLUNONkFPekxsa3RlNERVSFFkLXExdEU2TUtXQldsRXN2Q2xLOVdEYk5GRVV1SE9YTzl2TG8xbzBJZnc5YjZJNk45WVBRWEVqNnBtdWJ5RG5MVHZwdDhLam1DaGNITWJXUVFQNHM1ZjRqdjVlc2NVN2fSAZACQVVfeXFMT08yQUFzTlFHZDgyOTZ1bHlzbGpDcUNraDIyTDdGWkpzZ1RQc3o0cjdYZTJYQ2ZNb3FybnI2VHJoRDdDNlp6UFlERGpncVF4dTNjVXBkRmwtYWVPRHN2ODhWVjFHTzRuUEk5WDk1eDdPWlUwSy14NV8xV1h3a1V4SHYtSFBUVVJfT2tteWdZdzF2dXJWdjFnQ1VKdURGZlhiQW5MS0FLMEFXQ3ZwV3VBcGpoQUxWV1hrTkxRNV9ZRjFVUFdBS3d5M3B3dTFoNlRuTmtqTDZ6QmUwMGwyV050Tng4Zy1CQ1RHSnNzeDdQVnk4aC1Hc0tjZktkX2tEb2o4TzdYODA4WWptVE5FdjVnVnk?oc=5",
       "date": "2026-09-18T16:32:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiiwJBVV95cUxOQTNTM3hlVklnYUk0clRqUkp6WjZta3hybUI3Z0FBem9Eam9objhoMVlNdEVzdElwSmoyOXBkM0VFNnUzdXBGa1dyVUR6WUFkOTBBOXRiRzRXY3Y4RTNIa3R5V25KMy1LdDZSTGNkUm"
@@ -1462,8 +1472,8 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPbnJNc2VHOG5IUW1XQ3dnZHI4dVZhSkxwZ3FGcHUtaFNMY1I0Z3NFY1Y2SVFqblM2dTE3NXZNNC1YbzQyVXNrUU5RNHlOUUw1R2hLRUMzS1BEV2pZZjNaOEtvVFNQYWZZZzZWSGJhZk"
     },
     {
-      "title": "Barilla investe 100 milioni al Sud: nuovo polo integrato della pasta a Foggia - La Stampa",
-      "source": "La Stampa",
+      "title": "Barilla investe 100 milioni al Sud: nuovo polo integrato della pasta a Foggia - lastampa.it",
+      "source": "lastampa.it",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWmpFOWhnbU9GSkRYY18zRmFKaVVaSkY2Rkd0RkZ0WFZxM0Y5bXpqb2Q1d2tucnVmX2xPWk9kb29HWGk0RUJjZEVycjRFa2VjbkRBNmlrSy13dF8tWklTa2VLWjF6Rnc0WTFJcFV4T0FCVGNCN0RUQ01EWkpaaEVEZ3Y2Y2V1THl5bXFxcm1GaHl2N0ZXbWVIMHQtd0UtRDJvcEhqVNIBqgFBVV95cUxObzZORl9aRVd2WXV5RWtpLWZJR1VmbTdKcFlKYmY5V3RESjFJeEJCOVFIWHpxWElWc2FQUFlXMmtPeWRoTzRNRVc3SEQzRzFxWWJZRTU5d0lVRHlFWG5LV21DUTRsMXFBZ2tJcEtvSFhPMmJhU2JkQjc4LTZTbWM5SHpCQXlOenNGME1iX1JtNXNzS0lyRWN6eUdQOHBRSV9PMjZkQkVUYjRxUQ?oc=5",
       "date": "2026-09-18T16:06:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNWmpFOWhnbU9GSkRYY18zRmFKaVVaSkY2Rkd0RkZ0WFZxM0Y5bXpqb2Q1d2tucnVmX2xPWk9kb29HWGk0RUJjZEVycjRFa2VjbkRBNmlrSy13dF8tWklTa2VLWjF6Rnc0WTFJcFV4T0"
@@ -1490,15 +1500,15 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxObmhGNF9RVDlDWHlLWXhvdWFSVlFpUlRGbE5FRzNhTkIxcVRvSjNSZVNZR0o5MU41N0ZsWGtEUFRNZS1zYkVBQVl4dHRFekMzRmMtUEUzSjZEYkdRQ2JCOVhWWVlpWGhudlQ3MWRKck"
     },
     {
-      "title": "Barilla investe 100 milioni al Sud, nuovo polo della pasta a Foggia - ANSA",
-      "source": "ANSA",
+      "title": "Barilla investe 100 milioni al Sud, nuovo polo della pasta a Foggia - ansa.it",
+      "source": "ansa.it",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPWFRHeUNzR1ZCLUY1WkR1b2VMTlRkb2ozd1NLbkFDbi01SVlTd1Jud0FUN1dCZUo3OHZCZ0FkYjQ5NVNkZFp5QkpyemFRRzZrM09CQ0FONHQ0Y0RSR1RuR3dndEVGcFJYNnVRZkNlR1JWYjJqM21HdjRZX0llVmMwYlNkY0YtSlZqeGRWRUplLWdudl9rVHBuaGZ0Q3g2VERoLWF0Z1RRYll1elJJMldDRE4tOG12XzJZQVJtcnVkQ0NlSEs1bDhDWHc0SHlYcVRSVnd4ZVFHQlFLU2k4UGtlaVlPYUV3MXo5Q3fSAe8BQVVfeXFMT25NRWwydm10YW9OUTJ2Z2dnU21VRmZ2Zmt3OTN4OGljSzJ6Ukc1OW5Va0o4ZXVnN3plTjZYZm5KWE95amxpeXBJbmNOd2MtZS1DVWJZZ0x3Z0lGQl9GQkNibnlscGVuSC1OZVk1M3NReS1jZnV4Z1hVWGlocWFqd3p2VEFCZl9TbWM3R0EyUGZyQWdfNmtMV0pGRUNhRmY4M0pyQmhsNzZyTXdSSmJGcU9uV2dweG1HcGlCRnpicTlQNGJ3MWJwNUVONHFfVVRUdjZJOS1RWTNCc28zNTdZc21tT21UcDZQbTQza19US0E?oc=5",
       "date": "2026-09-18T15:13:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxPWFRHeUNzR1ZCLUY1WkR1b2VMTlRkb2ozd1NLbkFDbi01SVlTd1Jud0FUN1dCZUo3OHZCZ0FkYjQ5NVNkZFp5QkpyemFRRzZrM09CQ0FONHQ0Y0RSR1RuR3dndEVGcFJYNnVRZkNlR1"
     },
     {
-      "title": "IL GRUPPO BARILLA PRESENTA IL NUOVO PIANO INDUSTRIALE: 100 MILIONI DI INVESTIMENTI A FOGGIA E UN NUOVO ASSETTO PRODUTTIVO PER LA PASTA NEL MEZZOGIORNO - Storie digitali - Native ADV - ANSA",
-      "source": "ANSA",
+      "title": "IL GRUPPO BARILLA PRESENTA IL NUOVO PIANO INDUSTRIALE: 100 MILIONI DI INVESTIMENTI A FOGGIA E UN NUOVO ASSETTO PRODUTTIVO PER LA PASTA NEL MEZZOGIORNO - Storie digitali - Native ADV - ansa.it",
+      "source": "ansa.it",
       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPNmw5cjhkU2hPV2hhbnN2bWZXbE1BeWlVRmNiam5uZldRR0lJSVpraFVsYXJiRTJpUVNTdlppWmJ1OGE4Nno4RmZKa0lPbW5hanF0bGFFTjJCV2g5OGFac2RfTU9WcFd4SHBnWjBPU21yb3Vlb182WXdPaEFDWk9od21vbnM0VGV3a1RaXzgwVUpZdC1TX0t2YkZXejZzRlBVb05nQ0lSaGlTdDMxSWRmSk9wWkVaWGZsTFNnT0ZqS25hN0x2YlRYdm1UYi0wNGVjdGN3YTFkUG9yNTdNbTlKVGt2VDE3bElRVmt0d0FpN2NWbEFfY2VhcVluaVZkUHVlNGd3YmNKSGJOeW8?oc=5",
       "date": "2026-09-17T14:36:56.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiiwJBVV95cUxPNmw5cjhkU2hPV2hhbnN2bWZXbE1BeWlVRmNiam5uZldRR0lJSVpraFVsYXJiRTJpUVNTdlppWmJ1OGE4Nno4RmZKa0lPbW5hanF0bGFFTjJCV2g5OGFac2RfTU9WcFd4SHBnWjBPU2"
@@ -1560,18 +1570,18 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPdW1hME9GN01tLW5tWWF2MmQwdElNYmUya21nRUhVZjRwZVE4NktubzBDb05TM21kVnJzeWxOSU9ZOTFVLXNrOTlTWGk2M3pndld3TTRSa09IQTlnRE0zWnQ3ekJvME1JWmphemlxVz"
     },
     {
-      "title": "Valore del brand, Barilla nella Top10 mondiale - Gazzetta di Parma",
-      "source": "Gazzetta di Parma",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZHBxVXdubkRrdDhILW03TmlRdktya3RoV19ERVJPc3lxV2QyMjh6Vkk2ZTlzN3FicVdid21zWDJNSDRadVN0bUV6Zy1NZGhxTGVsODFGNzhrMmY0emxnX0lfd2hTdm9zd1ZxWV81YWwyOTZLX1NURFlXV19uRmlQVHB0YWNtbkhQQ0V2RGt6bFJiUW01TDdQWEc1Y0luRzdTNnl6WEhuSjZSX2ZXb3c?oc=5",
-      "date": "2025-08-29T07:00:00.000Z",
-      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOZHBxVXdubkRrdDhILW03TmlRdktya3RoV19ERVJPc3lxV2QyMjh6Vkk2ZTlzN3FicVdid21zWDJNSDRadVN0bUV6Zy1NZGhxTGVsODFGNzhrMmY0emxnX0lfd2hTdm9zd1ZxWV81YW"
-    },
-    {
       "title": "Brand del food: cresce il valore dell’Italia nel calo globale. Barilla in top ten - Il Sole 24 ORE",
       "source": "Il Sole 24 ORE",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRnV0WktnN0syZ29HalBNd2xlTWo1OVVnM1dLSDluWDRqMVoxVy1KYUlmVXQtUkNlQk1Ec3NJSzFVdDFOcW96WVdzMkIzN0xZMlNxR3BRMC12OW80X2lIMGxSQm8wNXI3dTVjNi1waEZlQ2lkMW41c0kyYVVfYTg0bWIxOG9fSF92SlQ0WHJic2xqdFR5cXd1cGRyajFqbVpwMEFsRW5PUHFQUQ?oc=5",
       "date": "2025-08-28T07:00:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRnV0WktnN0syZ29HalBNd2xlTWo1OVVnM1dLSDluWDRqMVoxVy1KYUlmVXQtUkNlQk1Ec3NJSzFVdDFOcW96WVdzMkIzN0xZMlNxR3BRMC12OW80X2lIMGxSQm8wNXI3dTVjNi1waE"
+    },
+    {
+      "title": "Nestlé è il brand food che vale di più nel mondo, secondo Brand Finance. I marchi italiani non emergono - Brand News",
+      "source": "Brand News",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTzRUZlUtT2NZOVBRcEg2U2I0MDlsNktJSFVuMHZiUF9RRjJmOWhwZlh0OUxpT3dNUjlIYk1vSl9vMWNUUWQtN0JBTzZYZTlLQ1JhZnZOdkpwQkpLRVJUZlFCNVptSXZlc1R1NXh4UVZ1Qm94dXdqek5xYTdnTGdCN3hSOWZMZUcyYi1YSk9DODJQUHVrLUZITnV1OVhiTE5VUTJIZnBFdm54QW1SRFdkMWNzODgzRk5hRGcxMWtuUGJ6NjJPUHJDRldNQTd6RUdvTmNBVkRFZ2NMUQ?oc=5",
+      "date": "2024-08-30T07:00:00.000Z",
+      "snippet": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTzRUZlUtT2NZOVBRcEg2U2I0MDlsNktJSFVuMHZiUF9RRjJmOWhwZlh0OUxpT3dNUjlIYk1vSl9vMWNUUWQtN0JBTzZYZTlLQ1JhZnZOdkpwQkpLRVJUZlFCNVptSXZlc1R1NXh4UV"
     }
   ],
   "consumer": {
@@ -1989,7 +1999,7 @@
       "mentions": 20,
       "socialMentions": 6,
       "totalMentions": 26,
-      "shareOfVoice": 44.8,
+      "shareOfVoice": 46.4,
       "posts": [
         {
           "type": "news",
@@ -2009,8 +2019,8 @@
         },
         {
           "type": "news",
-          "title": "Barilla scommette su Foggia: 100 milioni per il nuovo polo integrato della pasta - corriere.it",
-          "source": "CORRIERE.IT",
+          "title": "Barilla scommette su Foggia: 100 milioni per il nuovo polo integrato della pasta - Corriere della Sera",
+          "source": "CORRIERE DELLA SERA",
           "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOQTNTM3hlVklnYUk0clRqUkp6WjZta3hybUI3Z0FBem9Eam9objhoMVlNdEVzdElwSmoyOXBkM0VFNnUzdXBGa1dyVUR6WUFkOTBBOXRiRzRXY3Y4RTNIa3R5V25KMy1LdDZSTGNkUmQzY2JvM2Y1SWRPOWVjTjZxeWZSenVYNWVkeXBSYXU4ZzdLSU9rVEpyMnpwLUNONkFPekxsa3RlNERVSFFkLXExdEU2TUtXQldsRXN2Q2xLOVdEYk5GRVV1SE9YTzl2TG8xbzBJZnc5YjZJNk45WVBRWEVqNnBtdWJ5RG5MVHZwdDhLam1DaGNITWJXUVFQNHM1ZjRqdjVlc2NVN2fSAZACQVVfeXFMT08yQUFzTlFHZDgyOTZ1bHlzbGpDcUNraDIyTDdGWkpzZ1RQc3o0cjdYZTJYQ2ZNb3FybnI2VHJoRDdDNlp6UFlERGpncVF4dTNjVXBkRmwtYWVPRHN2ODhWVjFHTzRuUEk5WDk1eDdPWlUwSy14NV8xV1h3a1V4SHYtSFBUVVJfT2tteWdZdzF2dXJWdjFnQ1VKdURGZlhiQW5MS0FLMEFXQ3ZwV3VBcGpoQUxWV1hrTkxRNV9ZRjFVUFdBS3d5M3B3dTFoNlRuTmtqTDZ6QmUwMGwyV050Tng4Zy1CQ1RHSnNzeDdQVnk4aC1Hc0tjZktkX2tEb2o4TzdYODA4WWptVE5FdjVnVnk?oc=5",
           "date": "2026-09-18T16:32:00.000Z",
           "brand": "Barilla"
@@ -2025,8 +2035,8 @@
         },
         {
           "type": "news",
-          "title": "Barilla investe 100 milioni al Sud: nuovo polo integrato della pasta a Foggia - La Stampa",
-          "source": "LA STAMPA",
+          "title": "Barilla investe 100 milioni al Sud: nuovo polo integrato della pasta a Foggia - lastampa.it",
+          "source": "LASTAMPA.IT",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWmpFOWhnbU9GSkRYY18zRmFKaVVaSkY2Rkd0RkZ0WFZxM0Y5bXpqb2Q1d2tucnVmX2xPWk9kb29HWGk0RUJjZEVycjRFa2VjbkRBNmlrSy13dF8tWklTa2VLWjF6Rnc0WTFJcFV4T0FCVGNCN0RUQ01EWkpaaEVEZ3Y2Y2V1THl5bXFxcm1GaHl2N0ZXbWVIMHQtd0UtRDJvcEhqVNIBqgFBVV95cUxObzZORl9aRVd2WXV5RWtpLWZJR1VmbTdKcFlKYmY5V3RESjFJeEJCOVFIWHpxWElWc2FQUFlXMmtPeWRoTzRNRVc3SEQzRzFxWWJZRTU5d0lVRHlFWG5LV21DUTRsMXFBZ2tJcEtvSFhPMmJhU2JkQjc4LTZTbWM5SHpCQXlOenNGME1iX1JtNXNzS0lyRWN6eUdQOHBRSV9PMjZkQkVUYjRxUQ?oc=5",
           "date": "2026-09-18T16:06:00.000Z",
           "brand": "Barilla"
@@ -2041,8 +2051,8 @@
         },
         {
           "type": "news",
-          "title": "Barilla investe 100 milioni al Sud, nuovo polo della pasta a Foggia - ANSA",
-          "source": "ANSA",
+          "title": "Barilla investe 100 milioni al Sud, nuovo polo della pasta a Foggia - ansa.it",
+          "source": "ANSA.IT",
           "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPWFRHeUNzR1ZCLUY1WkR1b2VMTlRkb2ozd1NLbkFDbi01SVlTd1Jud0FUN1dCZUo3OHZCZ0FkYjQ5NVNkZFp5QkpyemFRRzZrM09CQ0FONHQ0Y0RSR1RuR3dndEVGcFJYNnVRZkNlR1JWYjJqM21HdjRZX0llVmMwYlNkY0YtSlZqeGRWRUplLWdudl9rVHBuaGZ0Q3g2VERoLWF0Z1RRYll1elJJMldDRE4tOG12XzJZQVJtcnVkQ0NlSEs1bDhDWHc0SHlYcVRSVnd4ZVFHQlFLU2k4UGtlaVlPYUV3MXo5Q3fSAe8BQVVfeXFMT25NRWwydm10YW9OUTJ2Z2dnU21VRmZ2Zmt3OTN4OGljSzJ6Ukc1OW5Va0o4ZXVnN3plTjZYZm5KWE95amxpeXBJbmNOd2MtZS1DVWJZZ0x3Z0lGQl9GQkNibnlscGVuSC1OZVk1M3NReS1jZnV4Z1hVWGlocWFqd3p2VEFCZl9TbWM3R0EyUGZyQWdfNmtMV0pGRUNhRmY4M0pyQmhsNzZyTXdSSmJGcU9uV2dweG1HcGlCRnpicTlQNGJ3MWJwNUVONHFfVVRUdjZJOS1RWTNCc28zNTdZc21tT21UcDZQbTQza19US0E?oc=5",
           "date": "2026-09-18T15:13:00.000Z",
           "brand": "Barilla"
@@ -2097,8 +2107,8 @@
         },
         {
           "type": "news",
-          "title": "Barilla investe 100 milioni per il polo della pasta a Foggia - Corriere dell'Economia",
-          "source": "CORRIERE DELL'ECONOMIA",
+          "title": "Barilla investe 100 milioni per il polo della pasta a Foggia - corrieredelleconomia.it",
+          "source": "CORRIEREDELLECONOMIA.IT",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdzR2RTZhQjByNlJiNEpvXzJadmF6c1M2blBOUTIyeG1ORm5xZzFhMG1GaXpWOElOOEQyVm4xem9OWWpFdmdSb09QZ0tWVXpua21aRWZwSVpFTjNmMm1mNHRBSUoxTVMyeVdUbjU3R0pvUHEzWW1QZXl0ajM1SlZ6TkRucUUzQnctMkhMc0hMVjAxWkVCZlBvQkNwZE5PSTd1LU9PZ3JIVWxLaDlt?oc=5",
           "date": "2026-09-21T09:44:46.000Z",
           "brand": "Barilla"
@@ -2113,10 +2123,10 @@
         },
         {
           "type": "news",
-          "title": "Barilla, 100 milioni di investimenti a Foggia e un nuovo assetto produttivo per la pasta nel Mezzogiorno - Tuttosport",
-          "source": "TUTTOSPORT",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOOWt2NVk1bkIyZXo4T3pPR3k5WmV3a1NwVEEyYVR6THNudHdyODY5cm1CX2l0cnRhN1RTTUEtcUczRWp1Tzh0UmlHdGYtNGowU01WSHdtN3MzbE1uWkFBVFU1TjQ3X1ZaWW1wcVM2S001R29DRDYzZlBGTWpFZGRocXNpWUh1Z01SSU9INnNyWXBrMjNyeWtwYnJGdy1aMEhUMkgtaUd2YWxBNWg4QWhQUnd6YWtsY2pNbUFZdy1jQTBPX0ZOcmk2UnpaVHF5U3BiUVZjTF92R0RTVExIU080QWFGejIxS204aXlCd1lUSExBalEtakFHY0ZXMUVfMG1yNkHSAYICQVVfeXFMTjlrdjVZNW5CMmV6OE96T0d5OVpld2tTcFRBMmFUekxzbnR3cjg2OXJtQl9pdHJ0YTdUU01BLXFHM0VqdU84dFJpR3RmLTRqMFNNVkh3bTdzM2xNblpBQVRVNU40N19WWlltcHFTNktNNUdvQ0Q2M2ZQRk1qRWRkaHFzaVlIdWdNUklPSDZzcllwazIzcnlrcGJyRnctWjBIVDJILWlHdmFsQTVoOEFoUFJ3emFrbGNqTW1BWXctY0EwT19GTnJpNlJ6WlRxeVNwYlFWY0xfdkdEU1RMSFNPNEFhRnoyMUttOGl5QndZVEhMQWpRLWpBR2NGVzFFXzBtcjZB?oc=5",
-          "date": "2026-09-18T17:56:48.000Z",
+          "title": "Barilla: investimento da 100 milioni per il nuovo polo della pasta a Foggia - Alimentando",
+          "source": "ALIMENTANDO",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSmlBMW1fSVRQVU1FVjBzSkpPOUZEdzU0THVVVXZWTjFXa01WTmVtUEpfVDdVcXc4a3dsOWFMX2lkZFI1WGNySlpMWnJ1c3hYSnFkZldtemVfUkJxWlBuV3ZVWm5xWXdpQmdnaUZoVlRRcUxKcDdNcTdkT05KYlFCMGpiMzBtYkZzV0VyU0taSUxyRmtucWpCVG1zZ2RJLUx0ZTlVTlhsMA?oc=5",
+          "date": "2026-09-22T07:33:45.000Z",
           "brand": "Barilla"
         },
         {
@@ -2125,6 +2135,14 @@
           "source": "IL SOLE 24 ORE",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVWdhNm5PNjFMTXd0V3JvUzhRTzJKNW5ZX3pnWHNYT0VzWXRKbi1BdWpyOG5YYjE2M1k5dGIzYXFZbkFpM3VXZllCOVpGa1JJYVMyYjZOR2Z5RW9fOF92SEphQWFtNV9WaVNHdk1UNldsYkxBU0tjXzlRWGZtbndRRkl3RnJYUmdNN1p5WkRCUUZHR0JsOF9uRTdVOVlGRWdlN0x4Q21IeFJSVEVWdjFseVJmSUJaZw?oc=5",
           "date": "2026-09-18T17:59:23.000Z",
+          "brand": "Barilla"
+        },
+        {
+          "type": "news",
+          "title": "IL GRUPPO BARILLA PRESENTA IL NUOVO PIANO INDUSTRIALE: 100 MILIONI DI INVESTIMENTI A FOGGIA E UN NUOVO ASSETTO PRODUTTIVO PER LA PASTA NEL MEZZOGIORNO - Storie digitali - Native ADV - ansa.it",
+          "source": "ANSA.IT",
+          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPNmw5cjhkU2hPV2hhbnN2bWZXbE1BeWlVRmNiam5uZldRR0lJSVpraFVsYXJiRTJpUVNTdlppWmJ1OGE4Nno4RmZKa0lPbW5hanF0bGFFTjJCV2g5OGFac2RfTU9WcFd4SHBnWjBPU21yb3Vlb182WXdPaEFDWk9od21vbnM0VGV3a1RaXzgwVUpZdC1TX0t2YkZXejZzRlBVb05nQ0lSaGlTdDMxSWRmSk9wWkVaWGZsTFNnT0ZqS25hN0x2YlRYdm1UYi0wNGVjdGN3YTFkUG9yNTdNbTlKVGt2VDE3bElRVmt0d0FpN2NWbEFfY2VhcVluaVZkUHVlNGd3YmNKSGJOeW8?oc=5",
+          "date": "2026-09-17T14:36:56.000Z",
           "brand": "Barilla"
         },
         {
@@ -2141,14 +2159,6 @@
           "source": "FOGGIA REPORTER",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWTVyZDZ0RHJ6ZG5fZl9kQzgtV3FhbkhRbDRzZmZjRzFmMjhLeGl5di1TY0Q3TndxOWZENnY0bUJjdXR2SlBpbXl2UXJCcS0xOU1MVzFEVEdvbk9YbmlFR2hqV0N6SlFsM1RucklGMjRoQ2pEQVZ1WDNORkdTR0ZhQjBNZnV3V3VzRkhIYUlYaHpMRDJCSVl2c1I0VTNPOE5iellGX2VQdWRaWG9VTmfSAbMBQVVfeXFMT25sMm1aNDdlSC0xaW5NZ2FPbGVlZ1FseUNSZG1OWmoxeVlFRmREczJIOHphR1BONzdZOEd5czZTeFVRU21XQ1ZYbTJtRUV3bGYxeW5DaGhiSHI2X1VtT0UtTS16LXdwd05rRVRaYi14U0gya0hOVWprRDBTcDJyTU94ekZFQXZzQmU3eTJ5aVJtTUFHMk5lMTI2eG5uVFhOX3dNeks3RmxZSDV0bzhYTGpaSkk?oc=5",
           "date": "2026-09-18T18:39:51.000Z",
-          "brand": "Barilla"
-        },
-        {
-          "type": "news",
-          "title": "Barilla: investimento da 100 milioni per il nuovo polo della pasta a Foggia - Alimentando",
-          "source": "ALIMENTANDO",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSmlBMW1fSVRQVU1FVjBzSkpPOUZEdzU0THVVVXZWTjFXa01WTmVtUEpfVDdVcXc4a3dsOWFMX2lkZFI1WGNySlpMWnJ1c3hYSnFkZldtemVfUkJxWlBuV3ZVWm5xWXdpQmdnaUZoVlRRcUxKcDdNcTdkT05KYlFCMGpiMzBtYkZzV0VyU0taSUxyRmtucWpCVG1zZ2RJLUx0ZTlVTlhsMA?oc=5",
-          "date": "2026-09-22T07:33:45.000Z",
           "brand": "Barilla"
         },
         {
@@ -2216,9 +2226,9 @@
     {
       "name": "Garofalo",
       "mentions": 4,
-      "socialMentions": 12,
-      "totalMentions": 16,
-      "shareOfVoice": 27.6,
+      "socialMentions": 11,
+      "totalMentions": 15,
+      "shareOfVoice": 26.8,
       "posts": [
         {
           "type": "news",
@@ -2295,16 +2305,6 @@
         {
           "type": "social",
           "platform": "ig",
-          "author": "gazzetta.active",
-          "text": "Corri ma tagli i carboidrati? La fatica potrebbe iniziare già nel piatto. 🍝🏃\n\nNell’alimentazione del runner, i carboidrati aiutano a sostenere il ritmo, soprattutto quando l’intensità aumenta. Ridurli troppo può compromettere la qualità dell’allena",
-          "engagement": 1321,
-          "date": "2026-09-15T18:56:09Z",
-          "url": "https://www.instagram.com/p/3986925430174684001/",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "social",
-          "platform": "ig",
           "author": "rainewsofficial",
           "text": "Dal palco di Philadelphia, Ed Sheeran ha rotto il silenzio sulla crisi a Gaza definendo la situazione ingiustificabile, in risposta alle polemiche e alle defezioni nel suo entourage legate all'esclusione del rapper Macklemore. La presa di posizione g",
           "engagement": 857,
@@ -2376,25 +2376,17 @@
     },
     {
       "name": "De Cecco",
-      "mentions": 2,
+      "mentions": 1,
       "socialMentions": 6,
-      "totalMentions": 8,
-      "shareOfVoice": 13.8,
+      "totalMentions": 7,
+      "shareOfVoice": 12.5,
       "posts": [
         {
           "type": "news",
-          "title": "Casillo vuole comprare 2 molini da Barilla - efanews.eu",
-          "source": "EFANEWS.EU",
+          "title": "Casillo vuole comprare 2 molini da Barilla - EFA News - European Food Agency",
+          "source": "EFA NEWS - EUROPEAN FOOD AGENCY",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNR1hqU3ZtTmJmNExYeEVGcTUzU2lydDExaE9nTkxrcnJMYU9Vb2hJcTZ5blZHQ0Jnbmo2R2dINGcyNF94ZnhmVi1KWmQ4LTc3bHNQZzlzeGtySGhMNTFGUFJaSE9ValFTUElWMDJkaWxnX05KbVgwdy1mQ3pFWkRWSWhGZHdCNWU3?oc=5",
           "date": "2026-09-21T16:14:25.000Z",
-          "brand": "De Cecco"
-        },
-        {
-          "type": "news",
-          "title": "Ricoverato dopo un malore in bicicletta, muore Giampiero De Cecco. L'imprenditore aveva 65 anni, la famiglia dispone la donazione degli organi - Espressione24",
-          "source": "ESPRESSIONE24",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOdDJvTVRJU3oyNjh2OUdwbjB1cXhfQm9fM0lrTjZMUUxFOHQ2eGJaZDA4ZW1HVjhrNVhtVmlfMElPdTVoZEFVWjJfQlpiS0pJWUxULXdsWmduNnVlTWZLbkhneUhTVmNySDNHMTlEM0ZjSGpmT2RVZjBHWUw3WW9HcFFwN3FMWk13d1pUdC1qVEJMSnNQSC1DaVc0aVNzN2FldDBKVV9aQjZrMWtOMTZKUUtDZlV6SllCUUNEbDI0dlhGa1ZLc3JhVkVnZkg3dnVBT3JzS2o3eGpWMExReEljUkRaWGpfY1FTclNpaWZDVDBDaWgtdmZSM1hUemE?oc=5",
-          "date": "2026-09-15T16:32:45.000Z",
           "brand": "De Cecco"
         },
         {
@@ -2464,12 +2456,12 @@
       "mentions": 1,
       "socialMentions": 2,
       "totalMentions": 3,
-      "shareOfVoice": 5.2,
+      "shareOfVoice": 5.4,
       "posts": [
         {
           "type": "news",
-          "title": "Volantino Iper dal 21 settembre 2026 - Anteprima Volantino",
-          "source": "ANTEPRIMA VOLANTINO",
+          "title": "Volantino Iper dal 21 settembre 2026 - anteprimavolantino.it",
+          "source": "ANTEPRIMAVOLANTINO.IT",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSVVhQk5CVDBJUU9vaWZlcXZnYm9yWVByd1BvVVlLNWFYQ01tTkVEVmZ5dnNSMlZkWHJsMVhKWkNwdzFfSG9MYmhNUmZRNUlPY2E4bl93aXU5c3pLU21XelB3S1AydW5RUS1xV0liZ0wxSG1odFZDOTlLdzBEeEhaQkFkem0?oc=5",
           "date": "2026-09-21T12:31:36.000Z",
           "brand": "Divella"
@@ -2501,12 +2493,12 @@
       "mentions": 1,
       "socialMentions": 1,
       "totalMentions": 2,
-      "shareOfVoice": 3.4,
+      "shareOfVoice": 3.6,
       "posts": [
         {
           "type": "news",
-          "title": "Volantino Bennet dal 17 settembre 2026 - Anteprima Volantino",
-          "source": "ANTEPRIMA VOLANTINO",
+          "title": "Volantino Bennet dal 17 settembre 2026 - anteprimavolantino.it",
+          "source": "ANTEPRIMAVOLANTINO.IT",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS3dCb2ZiR0NKaU9ZTEZQNV9Zd3FnVzB0dE9lUW1hajg2WTJrenVPWEN0N25HS1E5c0lHVEdBMTVMN3FVcktHVDJaNW4wenZ0eDhCRnIyRmFGaldHZ09qVTdteWtQNVhKaHRCYnRGNDB0QVREUFItb0dWWVQtX2FhQld1cDNzdnM?oc=5",
           "date": "2026-09-17T06:30:00.000Z",
           "brand": "Rummo"
@@ -2528,7 +2520,7 @@
       "mentions": 2,
       "socialMentions": 0,
       "totalMentions": 2,
-      "shareOfVoice": 3.4,
+      "shareOfVoice": 3.6,
       "posts": [
         {
           "type": "news",
@@ -2553,7 +2545,7 @@
       "mentions": 1,
       "socialMentions": 0,
       "totalMentions": 1,
-      "shareOfVoice": 1.7,
+      "shareOfVoice": 1.8,
       "posts": [
         {
           "type": "news",
