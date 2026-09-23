@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-23T16:10:44.151Z",
+    "generatedAt": "2026-09-23T21:07:32.989Z",
     "pipelineVersion": "1.0.0",
     "sources": {
       "opensearch": true,
@@ -9,19 +9,19 @@
       "claude": false,
       "competitors": true
     },
-    "processingTimeMs": 4772
+    "processingTimeMs": 2799
   },
   "social": {
     "overview": {
-      "totalPosts": 222155,
-      "prevTotalPosts": 228927,
-      "volumeChange": -3,
-      "mentions24h": 26632,
-      "totalEngagement": 737036799,
-      "avgEngagementRate": 0.00931089591016779,
-      "erChange": -19.1,
+      "totalPosts": 215921,
+      "prevTotalPosts": 229001,
+      "volumeChange": -5.7,
+      "mentions24h": 19352,
+      "totalEngagement": 704402545,
+      "avgEngagementRate": 0.009163371405102634,
+      "erChange": -20.1,
       "organicPct": 98,
-      "sponsoredCount": 5323
+      "sponsoredCount": 5217
     },
     "brandHealth": {
       "score": 79,
@@ -29,12 +29,12 @@
       "dimensions": [
         {
           "name": "Sentiment",
-          "score": 69,
+          "score": 68,
           "color": "#00e676"
         },
         {
           "name": "Engagement",
-          "score": 47,
+          "score": 46,
           "color": "#3ba4ff"
         },
         {
@@ -54,7 +54,7 @@
         },
         {
           "name": "Platform Mix",
-          "score": 74,
+          "score": 75,
           "color": "#00e676"
         },
         {
@@ -70,347 +70,314 @@
       ]
     },
     "sentiment": {
-      "netScore": 50,
-      "positive": 59,
+      "netScore": 48,
+      "positive": 58,
       "neutral": 32,
-      "negative": 9
+      "negative": 10
     },
     "platforms": [
       {
         "name": "tt",
-        "count": 124305,
-        "pctOfTotal": 56
+        "count": 119970,
+        "pctOfTotal": 55.6
       },
       {
         "name": "ig",
-        "count": 89373,
-        "pctOfTotal": 40.2
+        "count": 87485,
+        "pctOfTotal": 40.5
       },
       {
         "name": "yt",
-        "count": 8477,
-        "pctOfTotal": 3.8
+        "count": 8466,
+        "pctOfTotal": 3.9
       }
     ],
     "dailyVolume": [
       {
         "date": "2026-09-16T00:00:00.000Z",
-        "count": 10513,
-        "engagement": 56294572,
-        "avgEr": 0.013561288998407268
+        "count": 1347,
+        "engagement": 19304081,
+        "avgEr": 0.01884802704052605
       },
       {
         "date": "2026-09-17T00:00:00.000Z",
         "count": 34580,
-        "engagement": 132741080,
-        "avgEr": 0.010456708959449203
+        "engagement": 132755104,
+        "avgEr": 0.01046707365938885
       },
       {
         "date": "2026-09-18T00:00:00.000Z",
         "count": 34841,
-        "engagement": 124752215,
-        "avgEr": 0.010238701337938645
+        "engagement": 124769983,
+        "avgEr": 0.010250802593326558
       },
       {
         "date": "2026-09-19T00:00:00.000Z",
         "count": 30661,
-        "engagement": 101324264,
-        "avgEr": 0.010590873390227079
+        "engagement": 101348698,
+        "avgEr": 0.010613502144831663
       },
       {
         "date": "2026-09-20T00:00:00.000Z",
         "count": 28650,
-        "engagement": 111708968,
-        "avgEr": 0.010618366980057097
+        "engagement": 111765899,
+        "avgEr": 0.010668095293911517
       },
       {
         "date": "2026-09-21T00:00:00.000Z",
-        "count": 33837,
-        "engagement": 113732160,
-        "avgEr": 0.009542638392448401
+        "count": 33839,
+        "engagement": 114441786,
+        "avgEr": 0.00970028530930831
       },
       {
         "date": "2026-09-22T00:00:00.000Z",
-        "count": 32782,
-        "engagement": 84128205,
-        "avgEr": 0.006510914773865407
+        "count": 34066,
+        "engagement": 84676364,
+        "avgEr": 0.00670313269180406
       },
       {
         "date": "2026-09-23T00:00:00.000Z",
-        "count": 16291,
-        "engagement": 12355335,
-        "avgEr": 0.002597929192159203
+        "count": 17937,
+        "engagement": 15340630,
+        "avgEr": 0.0025896501509156088
       }
     ],
     "hourlyVolume": [
       {
-        "hour": "2026-09-22T16:00:00.000Z",
-        "count": 1893,
-        "engagement": 5746366
-      },
-      {
-        "hour": "2026-09-22T17:00:00.000Z",
-        "count": 2196,
-        "engagement": 4459417
-      },
-      {
-        "hour": "2026-09-22T18:00:00.000Z",
-        "count": 1966,
-        "engagement": 12229065
-      },
-      {
-        "hour": "2026-09-22T19:00:00.000Z",
-        "count": 1700,
-        "engagement": 3745811
-      },
-      {
-        "hour": "2026-09-22T20:00:00.000Z",
-        "count": 1189,
-        "engagement": 2743098
-      },
-      {
         "hour": "2026-09-22T21:00:00.000Z",
-        "count": 650,
-        "engagement": 1440431
+        "count": 606,
+        "engagement": 1118000
       },
       {
         "hour": "2026-09-22T22:00:00.000Z",
-        "count": 509,
-        "engagement": 1445866
+        "count": 556,
+        "engagement": 1453495
       },
       {
         "hour": "2026-09-22T23:00:00.000Z",
-        "count": 238,
-        "engagement": 356151
+        "count": 253,
+        "engagement": 357983
       },
       {
         "hour": "2026-09-23T00:00:00.000Z",
-        "count": 152,
-        "engagement": 1840717
+        "count": 169,
+        "engagement": 1841334
       },
       {
         "hour": "2026-09-23T01:00:00.000Z",
-        "count": 67,
-        "engagement": 1353564
+        "count": 74,
+        "engagement": 1353743
       },
       {
         "hour": "2026-09-23T02:00:00.000Z",
-        "count": 68,
-        "engagement": 61315
+        "count": 72,
+        "engagement": 61558
       },
       {
         "hour": "2026-09-23T03:00:00.000Z",
-        "count": 143,
-        "engagement": 85900
+        "count": 147,
+        "engagement": 86560
       },
       {
         "hour": "2026-09-23T04:00:00.000Z",
-        "count": 315,
-        "engagement": 172525
+        "count": 349,
+        "engagement": 177958
       },
       {
         "hour": "2026-09-23T05:00:00.000Z",
-        "count": 770,
-        "engagement": 351545
+        "count": 820,
+        "engagement": 356568
       },
       {
         "hour": "2026-09-23T06:00:00.000Z",
-        "count": 901,
-        "engagement": 634418
+        "count": 978,
+        "engagement": 644860
       },
       {
         "hour": "2026-09-23T07:00:00.000Z",
-        "count": 1057,
-        "engagement": 795550
+        "count": 1176,
+        "engagement": 805493
       },
       {
         "hour": "2026-09-23T08:00:00.000Z",
-        "count": 1401,
-        "engagement": 1769435
+        "count": 1606,
+        "engagement": 1783631
       },
       {
         "hour": "2026-09-23T09:00:00.000Z",
-        "count": 1497,
-        "engagement": 997814
+        "count": 1653,
+        "engagement": 1019041
       },
       {
         "hour": "2026-09-23T10:00:00.000Z",
-        "count": 2107,
-        "engagement": 1150367
+        "count": 2278,
+        "engagement": 1170277
       },
       {
         "hour": "2026-09-23T11:00:00.000Z",
-        "count": 1882,
-        "engagement": 1279676
+        "count": 2048,
+        "engagement": 1300641
       },
       {
         "hour": "2026-09-23T12:00:00.000Z",
-        "count": 1734,
-        "engagement": 1092889
+        "count": 1882,
+        "engagement": 3598122
       },
       {
         "hour": "2026-09-23T13:00:00.000Z",
-        "count": 1591,
-        "engagement": 485170
+        "count": 1705,
+        "engagement": 493335
       },
       {
         "hour": "2026-09-23T14:00:00.000Z",
-        "count": 1605,
-        "engagement": 245389
+        "count": 1751,
+        "engagement": 251399
       },
       {
         "hour": "2026-09-23T15:00:00.000Z",
-        "count": 974,
-        "engagement": 38960
+        "count": 1113,
+        "engagement": 386615
       },
       {
         "hour": "2026-09-23T16:00:00.000Z",
-        "count": 27,
-        "engagement": 101
+        "count": 116,
+        "engagement": 9495
       }
     ],
     "hashtags": [
       {
         "tag": "accadeoggi",
-        "count": 5255
+        "count": 5186
       },
       {
         "tag": "perte",
-        "count": 4757
+        "count": 4622
       },
       {
         "tag": "fyp",
-        "count": 4684
+        "count": 4514
       },
       {
         "tag": "viral",
-        "count": 3500
+        "count": 3378
       },
       {
         "tag": "adv",
-        "count": 2693
+        "count": 2661
       },
       {
         "tag": "tiktokshop",
-        "count": 1943
+        "count": 1888
       },
       {
         "tag": "offerteperte",
-        "count": 1885
+        "count": 1844
       },
       {
         "tag": "neiperte",
-        "count": 1801
+        "count": 1700
       },
       {
         "tag": "napoli",
-        "count": 1514
+        "count": 1448
       },
       {
         "tag": "foryou",
-        "count": 1436
+        "count": 1392
       },
       {
         "tag": "freshforfall",
-        "count": 1215
+        "count": 1208
       },
       {
         "tag": "capcut",
-        "count": 1049
-      },
-      {
-        "tag": "calcio",
-        "count": 987
+        "count": 1025
       },
       {
         "tag": "seriea",
-        "count": 987
+        "count": 978
+      },
+      {
+        "tag": "calcio",
+        "count": 971
       },
       {
         "tag": "virale",
-        "count": 969
+        "count": 934
       },
       {
         "tag": "italia",
-        "count": 916
+        "count": 896
       },
       {
         "tag": "roma",
-        "count": 888
+        "count": 873
       },
       {
         "tag": "italy",
-        "count": 869
+        "count": 836
       },
       {
         "tag": "milano",
-        "count": 843
-      },
-      {
-        "tag": "voliamoneixte✈🦁🔝💯💥",
-        "count": 831
+        "count": 826
       },
       {
         "tag": "davedere",
-        "count": 830
+        "count": 804
       },
       {
-        "tag": "amore",
-        "count": 764
+        "tag": "voliamoneixte✈🦁🔝💯💥",
+        "count": 790
       },
       {
         "tag": "onthisday",
-        "count": 764
+        "count": 758
       },
       {
-        "tag": "perteeee",
-        "count": 752
+        "tag": "amore",
+        "count": 737
       },
       {
         "tag": "madeinitaly",
-        "count": 743
+        "count": 737
+      },
+      {
+        "tag": "perteeee",
+        "count": 734
       }
     ],
     "creators": [
       {
-        "name": "fcbarcelona",
-        "posts": 49,
-        "engagement": 35808822,
-        "platform": "ig",
-        "followers": 148798632,
-        "avgEr": 0.0049184138150916695
-      },
-      {
         "name": "fabriziorom",
-        "posts": 53,
-        "engagement": 34280518,
+        "posts": 51,
+        "engagement": 33280200,
         "platform": "ig",
         "followers": 50750732,
-        "avgEr": 0.012758499852493553
+        "avgEr": 0.012871813217469637
+      },
+      {
+        "name": "fcbarcelona",
+        "posts": 45,
+        "engagement": 33182847,
+        "platform": "ig",
+        "followers": 148798632,
+        "avgEr": 0.004962598348660375
       },
       {
         "name": "433",
-        "posts": 55,
-        "engagement": 33004865,
+        "posts": 54,
+        "engagement": 31777299,
         "platform": "ig",
         "followers": 79758883,
-        "avgEr": 0.007526577621591262
+        "avgEr": 0.007380742005858926
       },
       {
         "name": "realmadrid",
-        "posts": 43,
-        "engagement": 13668105,
+        "posts": 42,
+        "engagement": 13557537,
         "platform": "ig",
         "followers": 181206964,
-        "avgEr": 0.0017542891164762302
-      },
-      {
-        "name": "championsleague",
-        "posts": 45,
-        "engagement": 10604840,
-        "platform": "ig",
-        "followers": 120490356,
-        "avgEr": 0.0022954189977093258
+        "avgEr": 0.0017815244443074893
       },
       {
         "name": "milliebobbybrown",
@@ -419,6 +386,14 @@
         "platform": "ig",
         "followers": 70714349,
         "avgEr": 0.04854190672579526
+      },
+      {
+        "name": "championsleague",
+        "posts": 40,
+        "engagement": 9832726,
+        "platform": "ig",
+        "followers": 120490356,
+        "avgEr": 0.002422143924353206
       },
       {
         "name": "natgeo",
@@ -470,19 +445,11 @@
       },
       {
         "name": "premierleague",
-        "posts": 70,
-        "engagement": 5595775,
+        "posts": 65,
+        "engagement": 5166563,
         "platform": "ig",
         "followers": 80384905,
-        "avgEr": 0.0009949399775590767
-      },
-      {
-        "name": "manutd",
-        "posts": 55,
-        "engagement": 5189348,
-        "platform": "ig",
-        "followers": 66137428,
-        "avgEr": 0.0014266019207487448
+        "avgEr": 0.000989259703834817
       },
       {
         "name": "xfactor_italia",
@@ -491,6 +458,14 @@
         "platform": "tt",
         "followers": 1900000,
         "avgEr": 0.05157054970760233
+      },
+      {
+        "name": "psg",
+        "posts": 47,
+        "engagement": 4406951,
+        "platform": "ig",
+        "followers": 67384530,
+        "avgEr": 0.0013914902262227996
       }
     ],
     "posts": [
@@ -631,35 +606,6 @@
       },
       {
         "platform": "ig",
-        "author": "mistermario_",
-        "time": "2026-09-16T18:10:39Z",
-        "text": "Ricetta 👇🏻\n\n🐟 LINGUINE ALLA PUTTANESCA BIANCA DI TONNO\n\nLa puttanesca la conoscete tutti… ma avete mai provato a farla in bianco e con il tonno fresco? 🫨🔥\n\nSapete quanto ami questo condimento, ma questa versione con cipolla rossa di Tropea, alic",
-        "engagement": 4807,
-        "engagementRate": 0.009279707805996773,
-        "sentiment": "neg",
-        "hashtags": [],
-        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/813872620_18623858518033606_5351517414261021428_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=109&ig_cache_key=Mzk4NzYyNjg3MDUzNzc1NzU1MzE4NjIzODU4NTE1MDMzNjA2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjk0MS5zZHIudmlkZW9fdXNlcl91cGxvYWRlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=T5isnWszUCoQ7kNvwE34TOQ&_nc_oc=AdotIrjOWpaYqd5WgB6gfuqRpNyaI6M9D-KgvGUL26-gYdeyp5EzOjxldsclYW57bYr9TCqJDvaY20mrAeuUNK_w&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=KoDoLSyiAv7eT_AaU6iamQ&_nc_ss=7a3ba&oh=00_AQKMnt5uDa8WCvEBotvCHXTtEy8_G-H5E1QyTRu-QbxAVg&oe=6AB9B26B",
-        "url": "https://www.instagram.com/reel/3987626870537757553/"
-      },
-      {
-        "platform": "tt",
-        "author": "mistermario_",
-        "time": "2026-09-16T18:01:58Z",
-        "text": "Ricetta 👇🏻 🐟 LINGUINE ALLA PUTTANESCA BIANCA DI TONNO La puttanesca la conoscete tutti… ma avete mai provato a farla in bianco e con il tonno fresco? 🫨🔥 Sapete quanto ami questo condimento, ma questa versione con cipolla rossa di Tropea, alici, ",
-        "engagement": 3420,
-        "engagementRate": 0.022411533420707733,
-        "sentiment": "neu",
-        "hashtags": [
-          "puttanesca",
-          "linguine",
-          "pastaaltonno",
-          "capcut"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oYGKAVbFdFMIInLjttQAfuAMlsgeercVAFVIyG~tplv-tiktokx-origin.image?dr=10395&x-expires=1790348400&x-signature=rbXOFSpNiGt%2F6YB0Vcr%2BgjXJM4w%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@mistermario_/video/7686194940136672544"
-      },
-      {
-        "platform": "ig",
         "author": "sebastian_fitarau",
         "time": "2026-09-21T17:27:13Z",
         "text": "Spaghetti cremosi al Pecorino, pepe e scampi marinati al lime 🤤\n\nFull recipe on Substack👆link in bio",
@@ -767,22 +713,6 @@
       },
       {
         "platform": "ig",
-        "author": "emanueleferrari",
-        "time": "2026-09-16T17:41:22Z",
-        "text": "E con NewYork è ufficialmente finito il nostro viaggio di Nozze 🇺🇸🍯\nDevo dire che (a parte il circo dei voli 😂) è stato un vero sogno!! Pasta al ragù TORNIAMO 💚🤍❤️\n\n#viaggiodinozze #newyork #nyc",
-        "engagement": 47414,
-        "engagementRate": 0.06051571220894985,
-        "sentiment": "pos",
-        "hashtags": [
-          "viaggiodinozze",
-          "newyork",
-          "nyc"
-        ],
-        "imageUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/799829895_18622109704027586_8393383753226694833_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=102&ig_cache_key=Mzk4NzYxMDY0MDQ1OTMzNjEzNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Pny0V7854yQQ7kNvwGo6_Zu&_nc_oc=AdpEA95BBcGprtoB5rkpPXcF2YP-Nd9IIZTh3kaTFR-D-MptZIhY9e_W0FMx6h59JDgR_NoDhPpBs4_OOEyF1ar-&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=0RkYlAXr0OjNrevWeYR1qQ&_nc_ss=7a3ba&oh=00_AQKY7ABW2EReS60Rsa7pnz9QIajRL8qIr_4fSss9DArD2w&oe=6AB95ECA",
-        "url": "https://www.instagram.com/p/3987612566339286307/"
-      },
-      {
-        "platform": "ig",
         "author": "naturainmentecalliopea",
         "time": "2026-09-18T12:31:36Z",
         "text": "Questi NON sono maccheroni. Eppure… li puoi mangiare. 👀🌿Sembra pasta verde, vero?\nE invece no. 😏Sono gli steli delle foglie di zucchina! E oggi li trasformiamo in una sorta di “pasta verde” davvero speciale… e soprattutto anti-spreco. ♻️💚 Le pian",
@@ -875,6 +805,24 @@
         "hashtags": [],
         "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/818062413_18166701733478229_527765182261597179_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=103&ig_cache_key=Mzk4OTU2ODEyNzMyNjczMzEzNTE4MTY2NzAxNzMwNDc4MjI5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl91cGxvYWRlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=_iU_B4el7XUQ7kNvwEUuPgG&_nc_oc=AdolSvjssygABNgOd6947O6C1RdzHhTp5JykX_g5WUgW22XXvFiQjQoXj8n_AfxDmHb6mTTOoK3giyv4aIXMfOHH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=L5EKnbD4WGJbOttzcdsLkQ&_nc_ss=7a3ba&oh=00_AQK2QJo2hJPyRWpd6tDF7PIw__j5AjVZjkpnrF2SSL9JUg&oe=6AB9297B",
         "url": "https://www.instagram.com/reel/3989568127326733135/"
+      },
+      {
+        "platform": "ig",
+        "author": "2foodfitlovers",
+        "time": "2026-09-17T17:44:20Z",
+        "text": "Torta al limone 🍋 senza burro e zucchero ✨\n\nDimenticatevi la solita tortina 🤓 questa è la TORTA al limone per eccellenza ✨ assolutamente troppo buona, Raf si è superato 👏\n\n🍋Lascia un like, salva ma ricetta e condividi il video per supportarci🙏\n\n",
+        "engagement": 31017,
+        "engagementRate": 0.030597598714421425,
+        "sentiment": "pos",
+        "hashtags": [
+          "torta",
+          "limone",
+          "senzazucchero",
+          "ricette",
+          "senzaburro"
+        ],
+        "imageUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/813901478_18430110661145522_9218029435281970142_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=108&ig_cache_key=Mzk4ODMzODMyNTU0MjU2NzQ4MTE4NDMwMTEwNjU4MTQ1NTIy.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjk0NC5zZHIudmlkZW9fdXNlcl91cGxvYWRlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=sArxos2UqMYQ7kNvwFPxZcV&_nc_oc=Adrq7EeAzQaDDctOmBqeXjtT95cPIS1PApsg-493-ZrP-WY2ssmWlvTv4P7a9PPNGZwHC3rqmt1EGBL2uQocURcI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=PQ6Tp19uqA87wkFeRMTnlA&_nc_ss=7a3ba&oh=00_AQIre1OeYa7DT8vvN9cudWFijMJpsazwAsdBQp0vIfcjng&oe=6AB9B99F",
+        "url": "https://www.instagram.com/reel/3988338325542567481/"
       },
       {
         "platform": "tt",
@@ -1048,24 +996,6 @@
       },
       {
         "platform": "tt",
-        "author": "cucinamammaela",
-        "time": "2026-09-16T17:21:01Z",
-        "text": "RISONI CREMOSI CON ZUCCHINE E RICOTTA 🥒 Se avete poco tempo e zero idee, questa è la ricetta perfetta: un primo piatto cremosissimo, pronto in meno di 15 minuti e sporcando una sola padella! Dosi per 3-4 persone: * 300 g di risoni * 3 zucchine medie",
-        "engagement": 55478,
-        "engagementRate": 0.21561601243684414,
-        "sentiment": "pos",
-        "hashtags": [
-          "risoni",
-          "pastaconlezucchine",
-          "zucchineericotta",
-          "pastacremosa",
-          "ricetteveloci"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oYagATqQ24APNeqExLz5RXIArGZfekA9GAKfKY~tplv-tiktokx-origin.image?dr=10395&x-expires=1790348400&x-signature=aEt4sduJaeyvoGcLABzyu9UBp6A%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-        "url": "https://www.tiktok.com/@cucinamammaela/video/7686184389763501344"
-      },
-      {
-        "platform": "tt",
         "author": "urhotnonnaa",
         "time": "2026-09-17T22:41:57Z",
         "text": "someone said they missed my moms cooking #italianmom #risotto #italianfood #italiano #squash ",
@@ -1102,24 +1032,6 @@
       },
       {
         "platform": "tt",
-        "author": "semplicementebuono1",
-        "time": "2026-09-16T17:47:57Z",
-        "text": "TRILEÇE 🇦🇱❤️ Uno dei dolci albanesi che amo di più: una base soffice e leggerissima che assorbe tutta la bagna ai tre latti, completata da uno strato goloso di caramello. Se non l’avete mai provata, dovete assolutamente rimediare! Sapori d’Albania ",
-        "engagement": 42694,
-        "engagementRate": 0.11623740811325892,
-        "sentiment": "pos",
-        "hashtags": [
-          "gatimetemia",
-          "trilece",
-          "ricette",
-          "gatimeshqiptare",
-          "gatimetradicionale_al"
-        ],
-        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oczTEu5B0PAqOiqgAI1CrBcAaAEL7kWzMip4n~tplv-tiktokx-origin.image?dr=10395&x-expires=1790348400&x-signature=ZaRE3gf8ZgilGEi41STgKiPaAzk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b",
-        "url": "https://www.tiktok.com/@semplicementebuono1/video/7686191327553260833"
-      },
-      {
-        "platform": "tt",
         "author": "spunticulinari",
         "time": "2026-09-17T16:28:24Z",
         "text": "GIRELLE ALLE CIPOLLE CARAMELLATE E FONTINA 🥰🤤 Ig spunticulinari 💕 SALVA LA RICETTA ✨ Per circa 16 girelle hai bisogno di: - Farina 0 500g - Lievito di birra fresco 8g - Acqua 300g - Burro 50g - Sale 10g - Zucchero 20g - Uovo 1 - Fontina 300g Per l",
@@ -1135,6 +1047,35 @@
         ],
         "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oAAGlpVJAKjeQNfIWCAFGIQMYgeMWAFFq08ck4~tplv-tiktokx-origin.image?dr=10395&x-expires=1790348400&x-signature=NsL1MXT5d7MEjvOGaktQgHqoMmc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
         "url": "https://www.tiktok.com/@spunticulinari/video/7686541911351414048"
+      },
+      {
+        "platform": "tt",
+        "author": "laura.foodblog",
+        "time": "2026-09-22T10:21:57Z",
+        "text": "Tarte tatin salate con pomodorini e stracciatella 🍅 Provale perchè sono atomiche! ✨ Ingredienti:  Pasta sfoglia  Pomdorini  Stracciatella Basilico Miele, olio, sale, glassa di aceto balsamico  Cottura: 25 min forno statico 180 gradi  ricette ricette",
+        "engagement": 34931,
+        "engagementRate": 0.31328251121076234,
+        "sentiment": "pos",
+        "hashtags": [],
+        "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/osEBbEEQmwAFpElVCRRWwsfaAbDuDCAIfAsqgy~tplv-tiktokx-origin.image?dr=10395&x-expires=1790348400&x-signature=dtGriaAR7CPCTnbOTM%2BpQkvHDgM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@laura.foodblog/video/7688302887398591776"
+      },
+      {
+        "platform": "tt",
+        "author": "chefrobertodipinto",
+        "time": "2026-09-17T16:32:40Z",
+        "text": "LA CARBONARA PERFETTA 🤩 #carbonara #ricetta #chef#ristorantestellatomilano",
+        "engagement": 34133,
+        "engagementRate": 0.06402738698180455,
+        "sentiment": "pos",
+        "hashtags": [
+          "carbonara",
+          "ricetta",
+          "chef",
+          "ristorantestellatomilano"
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o4aAArqCwRBiihjEAWsjlB8UlLFIAviY3pxGA~tplv-tiktokx-origin.image?dr=10395&x-expires=1790348400&x-signature=cvfZ2XzhnqQ5SosPmhkT7bu5PR8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+        "url": "https://www.tiktok.com/@chefrobertodipinto/video/7686543002470403350"
       },
       {
         "platform": "yt",
@@ -1384,15 +1325,15 @@
   },
   "news": [
     {
-      "title": "Barilla: investimento da 100 milioni per il nuovo polo della pasta a Foggia - alimentando.info",
-      "source": "alimentando.info",
+      "title": "Barilla: investimento da 100 milioni per il nuovo polo della pasta a Foggia - Alimentando",
+      "source": "Alimentando",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSmlBMW1fSVRQVU1FVjBzSkpPOUZEdzU0THVVVXZWTjFXa01WTmVtUEpfVDdVcXc4a3dsOWFMX2lkZFI1WGNySlpMWnJ1c3hYSnFkZldtemVfUkJxWlBuV3ZVWm5xWXdpQmdnaUZoVlRRcUxKcDdNcTdkT05KYlFCMGpiMzBtYkZzV0VyU0taSUxyRmtucWpCVG1zZ2RJLUx0ZTlVTlhsMA?oc=5",
       "date": "2026-09-22T07:33:45.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNSmlBMW1fSVRQVU1FVjBzSkpPOUZEdzU0THVVVXZWTjFXa01WTmVtUEpfVDdVcXc4a3dsOWFMX2lkZFI1WGNySlpMWnJ1c3hYSnFkZldtemVfUkJxWlBuV3ZVWm5xWXdpQmdnaUZoVl"
     },
     {
-      "title": "Barilla pronta ad investire 100 milioni di euro per la realizzazione di un polo integrato della pasta a Foggia - parmatoday.it",
-      "source": "parmatoday.it",
+      "title": "Barilla pronta ad investire 100 milioni di euro per la realizzazione di un polo integrato della pasta a Foggia - ParmaToday",
+      "source": "ParmaToday",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9NeTcxZGlLeDRHY2lOUkZMbWRma242anBFYUNMSGJMS0NLcnJ1QUE5VUNNRFRUczhqTDRmQ0F3Qk5HTlBNdWRCNlIyeW5XZUxvZDdLUzZMYk1pQkVtR1hDbHZ3dnBNRldHa2RJOWh3VHR6U2dE?oc=5",
       "date": "2026-09-21T16:01:19.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE9NeTcxZGlLeDRHY2lOUkZMbWRma242anBFYUNMSGJMS0NLcnJ1QUE5VUNNRFRUczhqTDRmQ0F3Qk5HTlBNdWRCNlIyeW5XZUxvZDdLUzZMYk1pQkVtR1hDbHZ3dnBNRldHa2RJOWh3VH"
@@ -1433,8 +1374,8 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNREpzUnhjeElYX1RkeFIyNVFxNWpvamlJaFB2ZTRrZ015SXRiTE90WEc2UGMwdXpLVHpmQzJFRTFzZjlsQ19DZFE3dGtGdGhUVUlYempjdzluX0lDYVJGMFBiUDhKM3VmR0t6Z2I1Tk"
     },
     {
-      "title": "Barilla investe 100 milioni a Foggia: nascerà un polo integrato della pasta - foggiareporter.it",
-      "source": "foggiareporter.it",
+      "title": "Barilla investe 100 milioni a Foggia: nascerà un polo integrato della pasta - Foggia Reporter",
+      "source": "Foggia Reporter",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWTVyZDZ0RHJ6ZG5fZl9kQzgtV3FhbkhRbDRzZmZjRzFmMjhLeGl5di1TY0Q3TndxOWZENnY0bUJjdXR2SlBpbXl2UXJCcS0xOU1MVzFEVEdvbk9YbmlFR2hqV0N6SlFsM1RucklGMjRoQ2pEQVZ1WDNORkdTR0ZhQjBNZnV3V3VzRkhIYUlYaHpMRDJCSVl2c1I0VTNPOE5iellGX2VQdWRaWG9VTmfSAbMBQVVfeXFMT25sMm1aNDdlSC0xaW5NZ2FPbGVlZ1FseUNSZG1OWmoxeVlFRmREczJIOHphR1BONzdZOEd5czZTeFVRU21XQ1ZYbTJtRUV3bGYxeW5DaGhiSHI2X1VtT0UtTS16LXdwd05rRVRaYi14U0gya0hOVWprRDBTcDJyTU94ekZFQXZzQmU3eTJ5aVJtTUFHMk5lMTI2eG5uVFhOX3dNeks3RmxZSDV0bzhYTGpaSkk?oc=5",
       "date": "2026-09-18T18:39:51.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOWTVyZDZ0RHJ6ZG5fZl9kQzgtV3FhbkhRbDRzZmZjRzFmMjhLeGl5di1TY0Q3TndxOWZENnY0bUJjdXR2SlBpbXl2UXJCcS0xOU1MVzFEVEdvbk9YbmlFR2hqV0N6SlFsM1RucklGMj"
@@ -1454,15 +1395,15 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQVWdhNm5PNjFMTXd0V3JvUzhRTzJKNW5ZX3pnWHNYT0VzWXRKbi1BdWpyOG5YYjE2M1k5dGIzYXFZbkFpM3VXZllCOVpGa1JJYVMyYjZOR2Z5RW9fOF92SEphQWFtNV9WaVNHdk1UNl"
     },
     {
-      "title": "Barilla investe cento milioni al Sud, nuovo polo della pasta a Foggia - ilsole24ore.com",
-      "source": "ilsole24ore.com",
+      "title": "Barilla investe cento milioni al Sud, nuovo polo della pasta a Foggia - Il Sole 24 ORE",
+      "source": "Il Sole 24 ORE",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1RWUC1ySUVpSVdjYkNjUUdfbTdQZ3lpVGo5RFhfdEtBVUxyU0JBV2p4RFotQjBrNXNUdWV5MVh0RnZhdEZzdTlSQnVCcDRTVUlBa0NiSGNrMUhDMGd3V0lRUkRGaFJSbFVOS2dnRDROdjl4QUlIaVY3c08tNXh6WVRWWmZwSVVRWWtvNmFDYXlaZGV4TWo3RTJFMzJPSnc?oc=5",
       "date": "2026-09-18T17:58:51.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1RWUC1ySUVpSVdjYkNjUUdfbTdQZ3lpVGo5RFhfdEtBVUxyU0JBV2p4RFotQjBrNXNUdWV5MVh0RnZhdEZzdTlSQnVCcDRTVUlBa0NiSGNrMUhDMGd3V0lRUkRGaFJSbFVOS2dnRD"
     },
     {
-      "title": "Barilla, 100 milioni per un nuovo polo della pasta a Foggia - parmatoday.it",
-      "source": "parmatoday.it",
+      "title": "Barilla, 100 milioni per un nuovo polo della pasta a Foggia - ParmaToday",
+      "source": "ParmaToday",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcVF4TnV4Q1dTVUYzeDZZSXpEXzVRdVpnaUdES2F3ME05WnNNTHhLSEtoLUZneWVsLXg3RVdDQWNDTVlqdE1HTlNZVzRremxIVW5VUWktczhQZHExTjJJQzdIczhyTGdxdzl6aGVQWDY1QkFkaV9Ec1F3Q2lRdmtNb3VmZGNXR2lTQzY0TW5ZSkZMbU5QRV9XQW1XdjJOejA?oc=5",
       "date": "2026-09-18T16:39:07.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNcVF4TnV4Q1dTVUYzeDZZSXpEXzVRdVpnaUdES2F3ME05WnNNTHhLSEtoLUZneWVsLXg3RVdDQWNDTVlqdE1HTlNZVzRremxIVW5VUWktczhQZHExTjJJQzdIczhyTGdxdzl6aGVQWD"
@@ -1531,8 +1472,8 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNbElxRXlIdGhMd3p4bkdjOXU4V2FZYkxNd28tWVktQWRDU1FIcV8zV184M1RVaE43YlI1aGtWMy1lZFRDSFF3bHZGc3MwcFMtRGJVZzJTQjNhNWZhdkdudHpIMHVfQjFkaTd2RWZWT1"
     },
     {
-      "title": "Negli Usa Barilla rileva i maccheroni al formaggio di Goodles - ilsole24ore.com",
-      "source": "ilsole24ore.com",
+      "title": "Negli Usa Barilla rileva i maccheroni al formaggio di Goodles - Il Sole 24 ORE",
+      "source": "Il Sole 24 ORE",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNktMaVRqQ04ya1dSMFhOZDFjSFZJWlVUWnBsTHNwWkY0NTUzWkFfZ2I1VEttQUVCTUlPUThFaWhRaFR0d0gzeWktTVdHbmh0S3BxVnVaSXB6YVVvWGQ1UXpaanZ0NzdjZFhXcml3UWR6Zmt5ZmxmLTVFcXU1aGZZbmN1ZTFiM2tyeFhlYWJDZTdKajVjck5CMA?oc=5",
       "date": "2026-09-03T07:00:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQNktMaVRqQ04ya1dSMFhOZDFjSFZJWlVUWnBsTHNwWkY0NTUzWkFfZ2I1VEttQUVCTUlPUThFaWhRaFR0d0gzeWktTVdHbmh0S3BxVnVaSXB6YVVvWGQ1UXpaanZ0NzdjZFhXcml3UW"
@@ -1580,8 +1521,8 @@
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPdW1hME9GN01tLW5tWWF2MmQwdElNYmUya21nRUhVZjRwZVE4NktubzBDb05TM21kVnJzeWxOSU9ZOTFVLXNrOTlTWGk2M3pndld3TTRSa09IQTlnRE0zWnQ3ekJvME1JWmphemlxVz"
     },
     {
-      "title": "Brand del food: cresce il valore dell’Italia nel calo globale. Barilla in top ten - ilsole24ore.com",
-      "source": "ilsole24ore.com",
+      "title": "Brand del food: cresce il valore dell’Italia nel calo globale. Barilla in top ten - Il Sole 24 ORE",
+      "source": "Il Sole 24 ORE",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRnV0WktnN0syZ29HalBNd2xlTWo1OVVnM1dLSDluWDRqMVoxVy1KYUlmVXQtUkNlQk1Ec3NJSzFVdDFOcW96WVdzMkIzN0xZMlNxR3BRMC12OW80X2lIMGxSQm8wNXI3dTVjNi1waEZlQ2lkMW41c0kyYVVfYTg0bWIxOG9fSF92SlQ0WHJic2xqdFR5cXd1cGRyajFqbVpwMEFsRW5PUHFQUQ?oc=5",
       "date": "2025-08-28T07:00:00.000Z",
       "snippet": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRnV0WktnN0syZ29HalBNd2xlTWo1OVVnM1dLSDluWDRqMVoxVy1KYUlmVXQtUkNlQk1Ec3NJSzFVdDFOcW96WVdzMkIzN0xZMlNxR3BRMC12OW80X2lIMGxSQm8wNXI3dTVjNi1waE"
@@ -2009,12 +1950,12 @@
       "mentions": 20,
       "socialMentions": 7,
       "totalMentions": 27,
-      "shareOfVoice": 40.9,
+      "shareOfVoice": 40.3,
       "posts": [
         {
           "type": "news",
-          "title": "Barilla investe cento milioni al Sud, nuovo polo della pasta a Foggia - ilsole24ore.com",
-          "source": "ILSOLE24ORE.COM",
+          "title": "Barilla investe cento milioni al Sud, nuovo polo della pasta a Foggia - Il Sole 24 ORE",
+          "source": "IL SOLE 24 ORE",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1RWUC1ySUVpSVdjYkNjUUdfbTdQZ3lpVGo5RFhfdEtBVUxyU0JBV2p4RFotQjBrNXNUdWV5MVh0RnZhdEZzdTlSQnVCcDRTVUlBa0NiSGNrMUhDMGd3V0lRUkRGaFJSbFVOS2dnRDROdjl4QUlIaVY3c08tNXh6WVRWWmZwSVVRWWtvNmFDYXlaZGV4TWo3RTJFMzJPSnc?oc=5",
           "date": "2026-09-18T17:58:51.000Z",
           "brand": "Barilla"
@@ -2109,8 +2050,8 @@
         },
         {
           "type": "news",
-          "title": "Barilla, 100 milioni per un nuovo polo della pasta a Foggia - parmatoday.it",
-          "source": "PARMATODAY.IT",
+          "title": "Barilla, 100 milioni per un nuovo polo della pasta a Foggia - ParmaToday",
+          "source": "PARMATODAY",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcVF4TnV4Q1dTVUYzeDZZSXpEXzVRdVpnaUdES2F3ME05WnNNTHhLSEtoLUZneWVsLXg3RVdDQWNDTVlqdE1HTlNZVzRremxIVW5VUWktczhQZHExTjJJQzdIczhyTGdxdzl6aGVQWDY1QkFkaV9Ec1F3Q2lRdmtNb3VmZGNXR2lTQzY0TW5ZSkZMbU5QRV9XQW1XdjJOejA?oc=5",
           "date": "2026-09-18T16:39:07.000Z",
           "brand": "Barilla"
@@ -2133,8 +2074,8 @@
         },
         {
           "type": "news",
-          "title": "Barilla: investimento da 100 milioni per il nuovo polo della pasta a Foggia - alimentando.info",
-          "source": "ALIMENTANDO.INFO",
+          "title": "Barilla: investimento da 100 milioni per il nuovo polo della pasta a Foggia - Alimentando",
+          "source": "ALIMENTANDO",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSmlBMW1fSVRQVU1FVjBzSkpPOUZEdzU0THVVVXZWTjFXa01WTmVtUEpfVDdVcXc4a3dsOWFMX2lkZFI1WGNySlpMWnJ1c3hYSnFkZldtemVfUkJxWlBuV3ZVWm5xWXdpQmdnaUZoVlRRcUxKcDdNcTdkT05KYlFCMGpiMzBtYkZzV0VyU0taSUxyRmtucWpCVG1zZ2RJLUx0ZTlVTlhsMA?oc=5",
           "date": "2026-09-22T07:33:45.000Z",
           "brand": "Barilla"
@@ -2157,16 +2098,16 @@
         },
         {
           "type": "news",
-          "title": "Barilla pronta ad investire 100 milioni di euro per la realizzazione di un polo integrato della pasta a Foggia - parmatoday.it",
-          "source": "PARMATODAY.IT",
+          "title": "Barilla pronta ad investire 100 milioni di euro per la realizzazione di un polo integrato della pasta a Foggia - ParmaToday",
+          "source": "PARMATODAY",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9NeTcxZGlLeDRHY2lOUkZMbWRma242anBFYUNMSGJMS0NLcnJ1QUE5VUNNRFRUczhqTDRmQ0F3Qk5HTlBNdWRCNlIyeW5XZUxvZDdLUzZMYk1pQkVtR1hDbHZ3dnBNRldHa2RJOWh3VHR6U2dE?oc=5",
           "date": "2026-09-21T16:01:19.000Z",
           "brand": "Barilla"
         },
         {
           "type": "news",
-          "title": "Barilla investe 100 milioni a Foggia: nascerà un polo integrato della pasta - foggiareporter.it",
-          "source": "FOGGIAREPORTER.IT",
+          "title": "Barilla investe 100 milioni a Foggia: nascerà un polo integrato della pasta - Foggia Reporter",
+          "source": "FOGGIA REPORTER",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWTVyZDZ0RHJ6ZG5fZl9kQzgtV3FhbkhRbDRzZmZjRzFmMjhLeGl5di1TY0Q3TndxOWZENnY0bUJjdXR2SlBpbXl2UXJCcS0xOU1MVzFEVEdvbk9YbmlFR2hqV0N6SlFsM1RucklGMjRoQ2pEQVZ1WDNORkdTR0ZhQjBNZnV3V3VzRkhIYUlYaHpMRDJCSVl2c1I0VTNPOE5iellGX2VQdWRaWG9VTmfSAbMBQVVfeXFMT25sMm1aNDdlSC0xaW5NZ2FPbGVlZ1FseUNSZG1OWmoxeVlFRmREczJIOHphR1BONzdZOEd5czZTeFVRU21XQ1ZYbTJtRUV3bGYxeW5DaGhiSHI2X1VtT0UtTS16LXdwd05rRVRaYi14U0gya0hOVWprRDBTcDJyTU94ekZFQXZzQmU3eTJ5aVJtTUFHMk5lMTI2eG5uVFhOX3dNeks3RmxZSDV0bzhYTGpaSkk?oc=5",
           "date": "2026-09-18T18:39:51.000Z",
           "brand": "Barilla"
@@ -2245,16 +2186,16 @@
     },
     {
       "name": "Garofalo",
-      "mentions": 10,
+      "mentions": 11,
       "socialMentions": 13,
-      "totalMentions": 23,
-      "shareOfVoice": 34.8,
+      "totalMentions": 24,
+      "shareOfVoice": 35.8,
       "posts": [
         {
           "type": "news",
           "title": "Quanto costa davvero un chilo di pasta: prezzi, città e le offerte online da tenere d'occhio - Corriere della Sera",
           "source": "CORRIERE DELLA SERA",
-          "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNM3F5Mjg0MjA1Y3hKX0kxbDg0NVJQSUh4RlFKQ3o2bjB2aGRQa0xKQ2JERHhLXzB0NmhQdUdOMWsyQUIxR0F1anJ5eG51NjNManRub1JBQTNEeXdWZ2lUYVVLcVpUTGtrWDlDZF9HSkJxWlhXNHZFSTkzQndQbURudzJVdE9pd1Q0emVhVFFFVkJ3NGJnU0hxXzRqbGJoTk5zMlgtcFpQbGpuMkJoT0NMb1pnZVBQd2tEN3ZQMER4SnJTWlZVV3N0ZzAxWE5MclJxRlRGZW04dnpWeENvRHRBd2RDZHNqeVBabmlxa0xSbG9JcGR4aVpKRmhDSllybHJfbTFldFlobDZCS1ZHU1ZSZlY5V0IwQ0RxSG12cTlZdllsaFFiYmfSAasCQVVfeXFMT0F5UmlnT1RQVEJ0cWZKaTVmeS1KVjd6TTdCeUExd09CY195bWhsM1lrX2hBcjc3eDljM0xRTmhOUXVOMEduWmtUMlBWSHFKcEd3bzZBU3R1aE84S281R1pReV90NWxRUTQ4TWVOZThCal9UUkhiUnliaDVCUk1sdFRFd2I4ZW9Qdi14b0FBQ0R3REd2YXZJLVJtVUQwU0h5LWZYRWM1OGwxMFNTUUdhbFFKZTJQb0R1S0ZiNzdodnNsQWNVT2QyZm8yR3dxdl92MHBrMjNkWm9sd3JzYWRTdWoza3dGLVprQzd6dVFwSm52c3p2TDFQZUhqNVJBWUppZHBERHI0bENIY1g1UFNYanhkRTFwX2RhWWdmeURpSVowaFk2N3lFOXZOZVE?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPQXlSaWdPVFBUQnRxZkppNWZ5LUpWN3pNN0J5QTF3T0JjX3ltaGwzWWtfaEFyNzd4OWMzTFFOaE5RdU4wR25aa1QyUFZIcUpwR3dvNkFTdHVoTzhLbzVHWlF5X3Q1bFFRNDhNZU5lOEJqX1RSSGJSeWJoNUJSTWx0VEV3Yjhlb1B2LXhvQUFDRHdER3ZhdkktUm1VRDBTSHktZlhFYzU4bDEwU1NRR2FsUUplMlBvRHVLRmI3N2h2c2xBY1VPZDJmbzJHd3F2X3YwcGsyM2Rab2x3cnNhZFN1ajNrd0YtWmtDN3p1UXBKbnZzenZMMVBlSGo1UkFZSmlkcEREcjRsQ0hjWDVQU1hqeGRFMXBfZGFZZ2Z5RGlJWjBoWTY3eUU5dk5lUdIBqwJBVV95cUxPQXlSaWdPVFBUQnRxZkppNWZ5LUpWN3pNN0J5QTF3T0JjX3ltaGwzWWtfaEFyNzd4OWMzTFFOaE5RdU4wR25aa1QyUFZIcUpwR3dvNkFTdHVoTzhLbzVHWlF5X3Q1bFFRNDhNZU5lOEJqX1RSSGJSeWJoNUJSTWx0VEV3Yjhlb1B2LXhvQUFDRHdER3ZhdkktUm1VRDBTSHktZlhFYzU4bDEwU1NRR2FsUUplMlBvRHVLRmI3N2h2c2xBY1VPZDJmbzJHd3F2X3YwcGsyM2Rab2x3cnNhZFN1ajNrd0YtWmtDN3p1UXBKbnZzenZMMVBlSGo1UkFZSmlkcEREcjRsQ0hjWDVQU1hqeGRFMXBfZGFZZ2Z5RGlJWjBoWTY3eUU5dk5lUQ?oc=5",
           "date": "2026-09-23T15:27:41.000Z",
           "brand": "Garofalo"
         },
@@ -2268,26 +2209,10 @@
         },
         {
           "type": "news",
-          "title": "Strapasta alla crudaiola: la ricetta per runner con ceci, melanzane e salsa tahina - Runner's World",
-          "source": "RUNNER'S WORLD",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeVpSSVh2VTR5ZXAxcTFsc1NUWEJveXkxSmw2VVptakpxX0dFazlhQzM0Wk50YUNMVDhIczZKQ2FBc0ZNc2kyd2o4bjA5a2RxM1FWQ0pMb043Wkx1VzF5VGhFTnNGQWpEYWpYYzhybGluUzh3MjE0UTNad2FONDFtMk1jY0dOajliV0tadEdranhYRGNZT1FWTGVoV0I1Q3RHNjJpVTNoVm55eENuWUE?oc=5",
-          "date": "2026-09-23T07:07:14.000Z",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "news",
-          "title": "WINDTRE Business, OPEN torna in tv con le storie delle imprese italiane e la creatività di BRV7 - youmark.it",
-          "source": "YOUMARK.IT",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWFRJdVUxWlR5aVpsTjZXczRXQl90MloxYndzSDNzMTRoQm5hNThUQXhKcGpPa011aHNvOEphN24xdHJqSTcwdkNCczJ2VFdCS1V2eVpPdmx3dUd6dGVUYjZvN0Q2U2M1WC1pTDdJdHMwalBQMGpFSnhQZWRUUlpZX1Y2b25qbzEyTmhXY282SndfNXNQUEp6cDRSZmtwZw?oc=5",
-          "date": "2026-09-21T09:59:03.000Z",
-          "brand": "Garofalo"
-        },
-        {
-          "type": "news",
-          "title": "Via al countdown verso l’America’s cup: l’orologio digitale installato sul lungomare di Napoli - Informare Online",
+          "title": "Salerno, provvedimento cautelare su 27 soggetti - Informare Online",
           "source": "INFORMARE ONLINE",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTl9FaXFpWWt3ZHhtbDI4b1JmOGVvMTB4cUx1Q1lXMEh3S2xEVXZQeWhOMjdsOEs1eTFOM3JsWHdLNzluM3FvamFKNVc0VE5kV05PM3pqR2Y2aEQtbG92LWNLM1NmNmZuRVQ0NXBqMXBWZUo4MDdCUGxrNEZTRW80OUNWWmZGcmMyQnpkeDU1dm5TTVJ1UnFtNGRHXy1LX3lvYXhPZWM5N1ZhOVJnTWdZbWd6R2Vpc1hWcVE?oc=5",
-          "date": "2026-09-23T09:17:43.000Z",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Kck9MeWI0ZGdza3I0LUx5MTdRcGdvOUwySko5WnJEdWY0QnFsX0t2Yl9uN2loUlo3ZkhBMGlZZU5IZHRDdGQyWDI0WVhRdnl2VUJ2eC1sWE9tZHNBSmNzdGpMVDlWSS0zSFVkM2xjVkJCcFNEWWcxVUJLRHItSEE?oc=5",
+          "date": "2026-09-23T21:07:03.000Z",
           "brand": "Garofalo"
         },
         {
@@ -2300,6 +2225,14 @@
         },
         {
           "type": "news",
+          "title": "PD Castel Volturno: \"Sosteniamo ufficialmente la candidatura di Giuseppe Scialla a Sindaco\" - Informare Online",
+          "source": "INFORMARE ONLINE",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWm1HblRiMExqcGFIR3ZkVFBNY1lRWU9rUEh5OVJRS2NYS09hRG14M284NUxWNy1UQ0drUFpaOEFWVUJmeGRfcENqRHhJd0x4dU5DdDZjX1E1RXdZTG80dlliLU9fM1A4SE1xd0Q5QlRyMmZHWURQZk4tWi1jbzRfMWFwMVNwT2Vuc0lPRF9TdHBjZHNlSmY0d3ZLazVIWW0yWTNvY3NGTWhqbGVIRVRsaEdVSElJeDQ?oc=5",
+          "date": "2026-09-23T14:00:53.000Z",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "news",
           "title": "La ghiandaia marina nelle campagne di Castel Volturno e Cancello Arnone - Informare Online",
           "source": "INFORMARE ONLINE",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV2Z3d1V4Uk5WQXpwdTFFSUt5cml3QW9xMDVJWVVfOTJoSVR4eVdPdU1hUzlzQXl1YzVqdEpISV9ISzBVVFpnQTlLZGNoRU9rYnRTbWtfV1A4NDhiaENyMzcyeEJvRG1VNmRvMHZMTm5faTlTVE1TbEtERHl0NHlEb3FXQ3lFcFo4REFhUHNVNWs1OXB6Zjh0MU1jOG8tRDE4?oc=5",
@@ -2308,18 +2241,34 @@
         },
         {
           "type": "news",
-          "title": "Napoli, presentate procedure doganali e fiscali semplificate per la Coppa America - Informare Online",
+          "title": "Via al countdown verso l’America’s cup: l’orologio digitale installato sul lungomare di Napoli - Informare Online",
           "source": "INFORMARE ONLINE",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUUZIbTh1QUFwVHdwRVVxVElDQ01SdTZyZ2JPZEN3cmNkT3o1M2pzYkVKbnEyb1dEZmF0cEpEMks2VmpVdlpiNlRBd2wtaWhHbENrTzU2ZlU3V19wSnhfczhzelRLUXlZaVZINkpCUVVsUHgyLUpISllOcUN6MHBrbkhZNFNxNlpZc21wZFFrVzNHbnVtLUctcWRTWWtLa1o4YWtLV3V3dzQ3UDdH?oc=5",
-          "date": "2026-09-23T07:00:00.000Z",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTl9FaXFpWWt3ZHhtbDI4b1JmOGVvMTB4cUx1Q1lXMEh3S2xEVXZQeWhOMjdsOEs1eTFOM3JsWHdLNzluM3FvamFKNVc0VE5kV05PM3pqR2Y2aEQtbG92LWNLM1NmNmZuRVQ0NXBqMXBWZUo4MDdCUGxrNEZTRW80OUNWWmZGcmMyQnpkeDU1dm5TTVJ1UnFtNGRHXy1LX3lvYXhPZWM5N1ZhOVJnTWdZbWd6R2Vpc1hWcVE?oc=5",
+          "date": "2026-09-23T09:17:43.000Z",
           "brand": "Garofalo"
         },
         {
           "type": "news",
-          "title": "PD Castel Volturno: \"Sosteniamo ufficialmente la candidatura di Giuseppe Scialla a Sindaco\" - Informare Online",
+          "title": "41 anni fa si spegneva Giancarlo Siani. Ma oggi quanto è tutelato un cronista? - Informare Online",
           "source": "INFORMARE ONLINE",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWm1HblRiMExqcGFIR3ZkVFBNY1lRWU9rUEh5OVJRS2NYS09hRG14M284NUxWNy1UQ0drUFpaOEFWVUJmeGRfcENqRHhJd0x4dU5DdDZjX1E1RXdZTG80dlliLU9fM1A4SE1xd0Q5QlRyMmZHWURQZk4tWi1jbzRfMWFwMVNwT2Vuc0lPRF9TdHBjZHNlSmY0d3ZLazVIWW0yWTNvY3NGTWhqbGVIRVRsaEdVSElJeDQ?oc=5",
-          "date": "2026-09-23T14:00:53.000Z",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOGx1SVl3SmNrQmRiRGpXM1VXUXk1TVpwN0o3NTN4a0pVMlRRY0hsZ3ExbGlOUl9wbU1RVlJ5aFE2bDFqMXJJak5NZ19Ub1g2YlFzNjVUSl9MZl90Vk9XckdVME9XdDk0WE1MS2JzNmM4NG1hTG9VTnlLS1E0Q1ZaeV9kZDBXdVhrNXRYRzZiNzFGMkwxQllBUkJGM1F1SjhQSmJqWllqSQ?oc=5",
+          "date": "2026-09-23T18:40:55.000Z",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "news",
+          "title": "Il festival EST!: tra NEST e il Centro Asterix, dieci giorni tra teatro e musica - Informare Online",
+          "source": "INFORMARE ONLINE",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSmdJV3BoZkM2Tzg0cWFUTFpEaWxxLWtwYndScGZWT05PV0toeEFSNFozMTh0X21LeHNuOF9JZ1ZZUnE0YllNRklobG5jRkZMMzJxSkY3QnM0SV84cDAzcXUwbnZJY1FETGVmYzBPSE5zd25iM2xFNmQwVDE0Q1hjREE1amNzUTdSQVpBQ2J3STZRV3dFcnBtZlpDZEQ2NUw0aU5GdEFYQTE?oc=5",
+          "date": "2026-09-23T18:34:19.000Z",
+          "brand": "Garofalo"
+        },
+        {
+          "type": "news",
+          "title": "Napoli, presentate procedure doganali e fiscali semplificate per la Coppa America - Informare Online",
+          "source": "INFORMARE ONLINE",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUUZIbTh1QUFwVHdwRVVxVElDQ01SdTZyZ2JPZEN3cmNkT3o1M2pzYkVKbnEyb1dEZmF0cEpEMks2VmpVdlpiNlRBd2wtaWhHbENrTzU2ZlU3V19wSnhfczhzelRLUXlZaVZINkpCUVVsUHgyLUpISllOcUN6MHBrbkhZNFNxNlpZc21wZFFrVzNHbnVtLUctcWRTWWtLa1o4YWtLV3V3dzQ3UDdH?oc=5",
+          "date": "2026-09-23T07:00:00.000Z",
           "brand": "Garofalo"
         },
         {
@@ -2467,7 +2416,7 @@
       "mentions": 1,
       "socialMentions": 5,
       "totalMentions": 6,
-      "shareOfVoice": 9.1,
+      "shareOfVoice": 9,
       "posts": [
         {
           "type": "news",
@@ -2577,7 +2526,7 @@
           "type": "news",
           "title": "Quanto costa davvero un chilo di pasta: prezzi, città e le offerte online da tenere d'occhio - Corriere della Sera",
           "source": "CORRIERE DELLA SERA",
-          "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNM3F5Mjg0MjA1Y3hKX0kxbDg0NVJQSUh4RlFKQ3o2bjB2aGRQa0xKQ2JERHhLXzB0NmhQdUdOMWsyQUIxR0F1anJ5eG51NjNManRub1JBQTNEeXdWZ2lUYVVLcVpUTGtrWDlDZF9HSkJxWlhXNHZFSTkzQndQbURudzJVdE9pd1Q0emVhVFFFVkJ3NGJnU0hxXzRqbGJoTk5zMlgtcFpQbGpuMkJoT0NMb1pnZVBQd2tEN3ZQMER4SnJTWlZVV3N0ZzAxWE5MclJxRlRGZW04dnpWeENvRHRBd2RDZHNqeVBabmlxa0xSbG9JcGR4aVpKRmhDSllybHJfbTFldFlobDZCS1ZHU1ZSZlY5V0IwQ0RxSG12cTlZdllsaFFiYmfSAasCQVVfeXFMT0F5UmlnT1RQVEJ0cWZKaTVmeS1KVjd6TTdCeUExd09CY195bWhsM1lrX2hBcjc3eDljM0xRTmhOUXVOMEduWmtUMlBWSHFKcEd3bzZBU3R1aE84S281R1pReV90NWxRUTQ4TWVOZThCal9UUkhiUnliaDVCUk1sdFRFd2I4ZW9Qdi14b0FBQ0R3REd2YXZJLVJtVUQwU0h5LWZYRWM1OGwxMFNTUUdhbFFKZTJQb0R1S0ZiNzdodnNsQWNVT2QyZm8yR3dxdl92MHBrMjNkWm9sd3JzYWRTdWoza3dGLVprQzd6dVFwSm52c3p2TDFQZUhqNVJBWUppZHBERHI0bENIY1g1UFNYanhkRTFwX2RhWWdmeURpSVowaFk2N3lFOXZOZVE?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPQXlSaWdPVFBUQnRxZkppNWZ5LUpWN3pNN0J5QTF3T0JjX3ltaGwzWWtfaEFyNzd4OWMzTFFOaE5RdU4wR25aa1QyUFZIcUpwR3dvNkFTdHVoTzhLbzVHWlF5X3Q1bFFRNDhNZU5lOEJqX1RSSGJSeWJoNUJSTWx0VEV3Yjhlb1B2LXhvQUFDRHdER3ZhdkktUm1VRDBTSHktZlhFYzU4bDEwU1NRR2FsUUplMlBvRHVLRmI3N2h2c2xBY1VPZDJmbzJHd3F2X3YwcGsyM2Rab2x3cnNhZFN1ajNrd0YtWmtDN3p1UXBKbnZzenZMMVBlSGo1UkFZSmlkcEREcjRsQ0hjWDVQU1hqeGRFMXBfZGFZZ2Z5RGlJWjBoWTY3eUU5dk5lUdIBqwJBVV95cUxPQXlSaWdPVFBUQnRxZkppNWZ5LUpWN3pNN0J5QTF3T0JjX3ltaGwzWWtfaEFyNzd4OWMzTFFOaE5RdU4wR25aa1QyUFZIcUpwR3dvNkFTdHVoTzhLbzVHWlF5X3Q1bFFRNDhNZU5lOEJqX1RSSGJSeWJoNUJSTWx0VEV3Yjhlb1B2LXhvQUFDRHdER3ZhdkktUm1VRDBTSHktZlhFYzU4bDEwU1NRR2FsUUplMlBvRHVLRmI3N2h2c2xBY1VPZDJmbzJHd3F2X3YwcGsyM2Rab2x3cnNhZFN1ajNrd0YtWmtDN3p1UXBKbnZzenZMMVBlSGo1UkFZSmlkcEREcjRsQ0hjWDVQU1hqeGRFMXBfZGFZZ2Z5RGlJWjBoWTY3eUU5dk5lUQ?oc=5",
           "date": "2026-09-23T15:27:41.000Z",
           "brand": "La Molisana"
         },
